@@ -14,16 +14,16 @@ const CONFIG = {
   apiBase: 'http://127.0.0.1:15721',
   model: 'claude-sonnet-4-20250514',
 
-  // Google News RSS feeds (direct fetch, no proxy)
+  // Google News RSS — 聚焦半导体、光模块、AI应用
   feeds: [
-    { url: 'https://news.google.com/rss/search?q=stock+market+finance+economy+oil+gold+federal+reserve&hl=en-US&gl=US&ceid=US:en', name: 'Global Markets' },
-    { url: 'https://news.google.com/rss/search?q=China+A+share+stock+market+PBOC+policy+economy&hl=en-US&gl=US&ceid=US:en', name: 'China Markets' },
-    { url: 'https://news.google.com/rss/search?q=AI+semiconductor+chip+Nvidia+technology+big+tech&hl=en-US&gl=US&ceid=US:en', name: 'Tech & AI' },
-    { url: 'https://news.google.com/rss/search?q=central+bank+interest+rate+inflation+ECB+BOJ&hl=en-US&gl=US&ceid=US:en', name: 'Central Banks' },
-    { url: 'https://news.google.com/rss/search?q=geopolitics+trade+war+tariff+sanction+conflict+military&hl=en-US&gl=US&ceid=US:en', name: 'Geopolitics' },
-    { url: 'https://news.google.com/rss/search?q=crypto+bitcoin+blockchain+SEC+regulation&hl=en-US&gl=US&ceid=US:en', name: 'Crypto' },
-    { url: 'https://news.google.com/rss/search?q=real+estate+housing+property+market&hl=en-US&gl=US&ceid=US:en', name: 'Real Estate' },
-    { url: 'https://news.google.com/rss/search?q=EV+electric+vehicle+solar+energy+renewable+autonomous&hl=en-US&gl=US&ceid=US:en', name: 'Auto & Energy' },
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+Nvidia+TSMC+Intel+AMD+HBM+foundry&hl=en-US&gl=US&ceid=US:en', name: '半导体' },
+    { url: 'https://news.google.com/rss/search?q=optical+transceiver+800G+1.6T+silicon+photonics+CPO+LPO+data+center+interconnect&hl=en-US&gl=US&ceid=US:en', name: '光模块' },
+    { url: 'https://news.google.com/rss/search?q=AI+application+agent+LLM+GPT+Claude+Gemini+artificial+intelligence+software&hl=en-US&gl=US&ceid=US:en', name: 'AI应用' },
+    { url: 'https://news.google.com/rss/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93+%E8%8A%AF%E7%89%87+%E5%85%89%E6%A8%A1%E5%9D%97+AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-半导体AI' },
+    { url: 'https://news.google.com/rss/search?q=China+semiconductor+chip+sanction+export+control+光刻+EDA&hl=en-US&gl=US&ceid=US:en', name: '中国芯片' },
+    { url: 'https://news.google.com/rss/search?q=AI+data+center+server+GPU+compute+power+算力+cloud&hl=en-US&gl=US&ceid=US:en', name: '算力/数据中心' },
+    { url: 'https://news.google.com/rss/search?q=光模块+光通信+CPO+硅光+800G+1.6T+中际旭创+新易盛+天孚通信&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-光模块' },
+    { url: 'https://news.google.com/rss/search?q=AI应用+大模型+智能体+agent+应用落地+软件&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-AI应用' },
   ],
 
   maxAgeSeconds: 7 * 24 * 3600,
@@ -173,23 +173,20 @@ async function analyzeWithClaude(newsItems) {
     `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是一位资深金融市场分析师。请分析以下 ${newsItems.length} 条财经新闻，对每条做：
+  const prompt = `你是一位资深A股科技板块分析师，专注半导体、光模块、AI应用三大赛道。请分析以下 ${newsItems.length} 条相关新闻，对每条做：
 
-1. **中文标题**：将标题翻译为地道的中文财经新闻标题
+1. **中文标题**：将标题翻译为地道的中文财经/科技新闻标题
 2. **中文摘要**：用1-2句中文概括核心要点（30-60字）
-3. **四维评级**：
+3. **板块归属**：半导体 / 光模块 / AI应用（选最贴切的一个）
+4. **四维评级**：
    - 影响方向：利好 / 利空 / 中性 / 分化
    - 影响程度：极高 / 高 / 中 / 低
    - 确定性：高 / 中 / 低
    - 时间窗口：短期（数日）/ 中期（数周-数月）/ 长期（半年以上）
-4. **A股板块冲击**：1-3个关联板块，每板块：
-   - 冲击程度：强 / 中 / 弱
-   - 冲击方向：利好 / 利空
-   - 传导逻辑（1句话）
-5. **关联个股示例**（如确定则给出2-3个A股典型标的，不确定请标注"—"）
+5. **A股关联标的**（仅限半导体/光模块/AI应用相关A股，如不确定请标注"—"）：1-3个典型标的
 
 另外生成：
-6. **板块冲击矩阵**：汇总所有受影响板块
+6. **三大板块冲击矩阵**：半导体、光模块、AI应用，每板块汇总冲击程度/方向/逻辑
 7. **今日要点**：3-5条一句话总结
 
 请严格输出 JSON 格式：
@@ -199,21 +196,20 @@ async function analyzeWithClaude(newsItems) {
       "index": 0,
       "title_cn": "中文标题",
       "summary_cn": "中文摘要",
+      "category": "半导体",
       "direction": "利好",
       "impact": "高",
       "certainty": "高",
       "time_window": "短期",
-      "sectors": [
-        { "name": "板块名", "shock_level": "强", "shock_direction": "利好", "logic": "传导逻辑一句话", "tickers": "标的1、标的2" }
-      ],
+      "tickers": "标的1、标的2",
       "notes": ""
     }
   ],
   "sector_matrix": [
-    { "name": "板块", "shock": "强", "direction": "利好", "news_count": 3, "summary": "逻辑摘要", "tickers": "标的" }
+    { "name": "半导体", "shock": "强", "direction": "利好", "news_count": 3, "summary": "逻辑摘要", "tickers": "标的" }
   ],
   "key_points": ["要点1", "要点2", "要点3", "要点4"],
-  "market_summary": "一段话总结今日市场核心逻辑"
+  "market_summary": "一段话总结今日半导体/光模块/AI应用三大板块核心逻辑"
 }
 
 只输出 JSON，不要任何其他文字。新闻如下：
@@ -275,17 +271,18 @@ ${newsText}`;
   const analyzed = newsItems.map((n, i) => {
     const ai = (result.analyzed || []).find(a => a.index === i);
     if (!ai) {
-      return { ...n, title_cn: n.title, summary_cn: n.description.substring(0, 80), direction: '中性', impact: '低', certainty: '低', time_window: '中期', sectors: [], notes: '' };
+      return { ...n, title_cn: n.title, summary_cn: n.description.substring(0, 80), direction: '中性', impact: '低', certainty: '低', time_window: '中期', category: '', tickers: '—', notes: '' };
     }
     return {
       ...n,
       title_cn: ai.title_cn || n.title,
       summary_cn: ai.summary_cn || n.description.substring(0, 80),
+      category: ai.category || '',
       direction: ai.direction || '中性',
       impact: ai.impact || '低',
       certainty: ai.certainty || '低',
       time_window: ai.time_window || '中期',
-      sectors: ai.sectors || [],
+      tickers: ai.tickers || '—',
       notes: ai.notes || '',
     };
   });
@@ -303,26 +300,20 @@ ${newsText}`;
 
 function analyzeWithKeywords(newsItems) {
   const RULES = [
-    { kw: ['oil crash','oil plunge','oil tumble','oil slump','oil drop','crude crash','crude slump','油价暴跌','油价大跌','原油暴跌'], impact: '极高', dir: '利空', sectors: [{ name: '石油石化', shock: '强', shock_direction: '利空', logic: '油价暴跌→上游利润压缩', tickers: '中国石油、中海油服' },{ name: '航空', shock: '强', shock_direction: '利好', logic: '燃料成本大降→利润弹性', tickers: '中国国航、南方航空' }], time: '短期' },
-    { kw: ['oil surge','oil spike','oil rally','oil jump','crude surge','油价飙升','原油暴涨'], impact: '高', dir: '利好', sectors: [{ name: '石油石化', shock: '强', shock_direction: '利好', logic: '油价上涨→上游利润增厚', tickers: '中国石油、中海油服' }], time: '短期' },
-    { kw: ['OPEC','output increase','production increase','增产'], impact: '高', dir: '利空', sectors: [{ name: '石油石化', shock: '强', shock_direction: '利空', logic: '供给增加→油价承压', tickers: '中国石油' }], time: '中期' },
-    { kw: ['Iran deal','Iran peace','Iran talk','Iran nuclear','Hormuz','伊朗和谈','伊朗谈判'], impact: '极高', dir: '利空', sectors: [{ name: '石油石化', shock: '强', shock_direction: '利空', logic: '地缘缓和→原油供给恢复→油价下行', tickers: '中国石油' },{ name: '军工', shock: '弱', shock_direction: '利空', logic: '中东冲突缓和→军工催化减弱', tickers: '—' },{ name: '航空', shock: '中', shock_direction: '利好', logic: '油价下降→燃料成本降低', tickers: '中国国航' }], time: '短期' },
-    { kw: ['Federal Reserve','Fed rate','interest rate','inflation','CPI','ECB','BOJ','央行','加息','降息','利率'], impact: '中', dir: '中性', sectors: [{ name: '金融', shock: '中', shock_direction: '中性', logic: '利率政策变化→银行净息差/资产质量变动', tickers: '—' }], time: '中期' },
-    { kw: ['nuclear','reactor','核电','核聚变'], impact: '高', dir: '利好', sectors: [{ name: '核电', shock: '强', shock_direction: '利好', logic: '政策/投资驱动→核电全链条受益', tickers: '融发核电、中国核电' }], time: '中期' },
-    { kw: ['chip ban','chip export','semiconductor export','export control','chip restriction','芯片管制','出口管制','半导体管制'], impact: '高', dir: '分化', sectors: [{ name: '半导体', shock: '强', shock_direction: '分化', logic: '管制升级→国产替代加速利好设备；设计/封测出口承压', tickers: '中芯国际、北方华创' }], time: '中期' },
-    { kw: ['rare earth','gallium','germanium','antimony','稀土','镓','锗'], impact: '中', dir: '分化', sectors: [{ name: '有色金属', shock: '中', shock_direction: '分化', logic: '出口管制政策→稀土价格→企业利润变动', tickers: '北方稀土' }], time: '短期' },
-    { kw: ['Nvidia','OpenAI','AI chip','AI model','英伟达','人工智能','AI模型'], impact: '中', dir: '利好', sectors: [{ name: 'AI', shock: '中', shock_direction: '利好', logic: 'AI商业闭环→算力链受益→光模块/服务器增长', tickers: '中际旭创、工业富联' }], time: '短期' },
-    { kw: ['big tech','earnings','tech stock','科技股','财报'], impact: '中', dir: '利好', sectors: [{ name: '科技', shock: '中', shock_direction: '利好', logic: '财报验证→科技板块情绪修复', tickers: '—' }], time: '短期' },
-    { kw: ['real estate','housing','property','房贷','公积金','房地产','楼市'], impact: '高', dir: '利好', sectors: [{ name: '房地产', shock: '强', shock_direction: '利好', logic: '政策宽松→成交回暖→估值修复', tickers: '保利发展、万科A' }], time: '中期' },
-    { kw: ['trade war','tariff','trade tension','关税','贸易战'], impact: '高', dir: '分化', sectors: [{ name: '外贸', shock: '中', shock_direction: '分化', logic: '关税政策→进出口成本→相关企业利润变化', tickers: '—' }], time: '中期' },
-    { kw: ['yen','carry trade','日元','套息','日本央行'], impact: '中', dir: '中性', sectors: [{ name: '金融', shock: '弱', shock_direction: '中性', logic: '日元波动→carry trade→新兴市场资金流动', tickers: '—' }], time: '短期' },
-    { kw: ['Bitcoin','crypto','SEC','比特币','加密'], impact: '中', dir: '中性', sectors: [{ name: '金融科技', shock: '弱', shock_direction: '中性', logic: '加密监管政策→风险偏好→相关概念股', tickers: '—' }], time: '短期' },
-    { kw: ['Tesla','FSD','self-driving','autonomous','自动驾驶','智能驾驶','电动车'], impact: '中', dir: '利好', sectors: [{ name: '汽车', shock: '中', shock_direction: '利好', logic: '智驾技术落地→激光雷达/域控产业链受益', tickers: '德赛西威、经纬恒润' }], time: '中期' },
-    { kw: ['gold','黄金','金价'], impact: '低', dir: '利好', sectors: [{ name: '黄金', shock: '弱', shock_direction: '利好', logic: '央行购金+避险→金价支撑', tickers: '山东黄金' }], time: '中期' },
-    { kw: ['copper','aluminum','tin','zinc','copper price','铜','铝','锡','锌'], impact: '中', dir: '利好', sectors: [{ name: '有色金属', shock: '中', shock_direction: '利好', logic: '供给收紧+美元走弱→金属价格中枢上移', tickers: '紫金矿业、江西铜业' }], time: '中期' },
-    { kw: ['recession','GDP','PMI','manufacturing','衰退','制造业'], impact: '中', dir: '中性', sectors: [{ name: '制造', shock: '中', shock_direction: '中性', logic: '宏观数据变化→工业需求→制造企业盈利', tickers: '—' }], time: '中期' },
-    { kw: ['dollar','DXY','USD','forex','美元','汇率'], impact: '低', dir: '利好', sectors: [{ name: '黄金', shock: '弱', shock_direction: '利好', logic: '美元走弱→美元计价商品→黄金/有色受益', tickers: '山东黄金' }], time: '中期' },
-    { kw: ['war','missile','strike','attack','conflict','military','战争','冲突','军事','导弹'], impact: '中', dir: '利好', sectors: [{ name: '军工', shock: '中', shock_direction: '利好', logic: '地缘紧张→军备需求→军工订单预期', tickers: '—' }], time: '短期' },
+    { kw: ['Nvidia','英伟达','GPU','H100','H200','B100','B200','Blackwell','Hopper','Rubin'], category: '半导体', impact: '极高', dir: '利好', tickers: '—', time: '短期' },
+    { kw: ['TSMC','台积电','foundry','代工','3nm','2nm','先进制程','CoWoS'], category: '半导体', impact: '高', dir: '利好', tickers: '中芯国际', time: '中期' },
+    { kw: ['ASML','光刻','lithography','EUV','DUV'], category: '半导体', impact: '高', dir: '分化', tickers: '北方华创、中微公司', time: '中期' },
+    { kw: ['HBM','高带宽内存','SK hynix','Samsung','美光','Micron'], category: '半导体', impact: '高', dir: '利好', tickers: '—', time: '短期' },
+    { kw: ['chip ban','chip export','chip restriction','芯片管制','出口管制','semiconductor export','sanction','制裁','entity list'], category: '半导体', impact: '极高', dir: '分化', tickers: '中芯国际、北方华创、中微公司', time: '短期' },
+    { kw: ['optical','transceiver','光模块','800G','1.6T','800g','1.6t','CPO','LPO','光通信','硅光','silicon photonic'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、新易盛、天孚通信', time: '短期' },
+    { kw: ['data center','数据中心','hyperscaler','云服务','cloud','AWS','Azure','Google Cloud'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、工业富联', time: '中期' },
+    { kw: ['AI agent','智能体','AI应用','大模型','LLM','GPT','Claude','Gemini','应用落地','SaaS','copilot'], category: 'AI应用', impact: '高', dir: '利好', tickers: '金山办公、科大讯飞', time: '中期' },
+    { kw: ['open source','开源模型','Llama','Mistral','DeepSeek','深度求索','deepseek'], category: 'AI应用', impact: '中', dir: '利好', tickers: '—', time: '中期' },
+    { kw: ['chip','semiconductor','半导体','芯片','processor','封测','EDA','IP'], category: '半导体', impact: '中', dir: '利好', tickers: '—', time: '中期' },
+    { kw: ['AI','artificial intelligence','人工智能','算力','compute'], category: 'AI应用', impact: '中', dir: '利好', tickers: '—', time: '中期' },
+    { kw: ['server','服务器','rack','机架','cooling','散热','液冷'], category: '光模块', impact: '中', dir: '利好', tickers: '工业富联、浪潮信息', time: '短期' },
+    { kw: ['quantum','量子','quantum computing'], category: '半导体', impact: '低', dir: '利好', tickers: '—', time: '长期' },
+    { kw: ['China chip','国产替代','自主可控','localization','domestic chip','国产芯片'], category: '半导体', impact: '高', dir: '利好', tickers: '中芯国际、北方华创、海光信息', time: '中期' },
   ];
 
   const analyzed = newsItems.map((n) => {
@@ -338,39 +329,45 @@ function analyzeWithKeywords(newsItems) {
       if (score > bestScore) { bestScore = score; best = rule; }
     }
 
-    const rule = best || { impact: '低', dir: '中性', sectors: [], time: '中期' };
+    const rule = best || { impact: '低', dir: '中性', category: '', tickers: '—', time: '中期' };
     return {
       ...n,
       title_cn: n.title,
       summary_cn: n.description.substring(0, 80),
+      category: rule.category || '',
       direction: rule.dir,
       impact: rule.impact,
       certainty: '低',
       time_window: rule.time,
-      sectors: rule.sectors,
+      tickers: rule.tickers || '—',
       notes: '关键词引擎自动评级，非AI分析',
     };
   });
 
-  const secMap = {};
+  const secMap = {
+    '半导体': { name: '半导体', shock: '中', direction: '分化', news_count: 0, summary: '', tickers: '' },
+    '光模块': { name: '光模块', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
+    'AI应用': { name: 'AI应用', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
+  };
   for (const item of analyzed) {
-    for (const sec of item.sectors) {
-      if (!secMap[sec.name]) secMap[sec.name] = { name: sec.name, shock: sec.shock, direction: sec.shock_direction, news_count: 0, summary: sec.logic, tickers: sec.tickers };
-      secMap[sec.name].news_count++;
+    const cat = item.category;
+    if (cat && secMap[cat]) {
+      secMap[cat].news_count++;
+      if (item.direction.includes('利好')) secMap[cat].direction = '利好';
+      else if (item.direction.includes('利空')) secMap[cat].direction = '利空';
+      if (item.impact === '极高' || item.impact === '高') secMap[cat].shock = '强';
     }
   }
 
   const shockOrder = { '强': 0, '中': 1, '弱': 2 };
-  const matrix = Object.values(secMap).sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
+  const matrix = Object.values(secMap).filter(s => s.news_count > 0).sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
 
-  // Build richer key points from sector matrix
-  const topSectors = matrix.slice(0, 5);
   const points = [
-    `今日共抓取 ${analyzed.length} 条财经新闻，经关键词引擎自动分类评级。`,
+    `今日共抓取 ${analyzed.length} 条科技新闻，聚焦半导体、光模块、AI应用三大赛道。`,
     `极高影响事件 ${analyzed.filter(n => n.impact === '极高').length} 条，高影响 ${analyzed.filter(n => n.impact === '高').length} 条，利好方向 ${analyzed.filter(n => n.direction.includes('利好')).length} 条。`,
   ];
-  if (topSectors.length > 0) {
-    points.push(`重点关注板块：${topSectors.map(s => `${s.name}(${s.direction}, ${s.shock}冲击)`).join('、')}。`);
+  if (matrix.length > 0) {
+    points.push(`板块概况：${matrix.map(s => `${s.name}(${s.direction}, ${s.shock}冲击, ${s.news_count}条)`).join('、')}。`);
   }
   const topNews = [...analyzed].sort((a, b) => {
     const ia = { '极高': 0, '高': 1, '中': 2, '低': 3 };
@@ -384,9 +381,7 @@ function analyzeWithKeywords(newsItems) {
     analyzed,
     sectorMatrix: matrix,
     keyPoints: points,
-    marketSummary: `本日报由关键词引擎自动生成，${analyzed.length} 条新闻覆盖 ${Object.keys(
-      analyzed.reduce((acc, n) => { acc[n.source] = 1; return acc; }, {})
-    ).length} 个来源，涵盖全球市场、A股、大宗商品、科技、地产等领域。`,
+    marketSummary: `本日报聚焦半导体、光模块、AI应用三大科技赛道，${analyzed.length} 条新闻经AI分析自动生成。`,
     isAi: false,
   };
 }
@@ -409,7 +404,6 @@ function renderHTML(result, todayDisplay) {
   };
 
   const newsCards = analyzed.map((n) => {
-    const secs = (n.sectors || []).slice(0, 4);
     return [
       `<div class="news-card" onclick="this.classList.toggle('expanded')" data-impact="${n.impact}" data-direction="${n.direction}">`,
       `<div class="card-top">`,
@@ -417,16 +411,17 @@ function renderHTML(result, todayDisplay) {
       `<span class="impact-tag ${impactCls(n.impact)}">${n.impact}影响</span>`,
       `<span class="meta-chip">确定:${n.certainty}</span>`,
       `<span class="meta-chip">${n.time_window}</span>`,
+      n.category ? `<span class="tag tag-category">${escHtml(n.category)}</span>` : '',
       `</div>`,
       `<div class="card-title">${escHtml(n.title_cn || n.title)}</div>`,
       isAi ? `<div class="card-original-title">原文: ${escHtml(n.title.substring(0, 120))}</div>` : '',
       `<div class="card-summary">${escHtml(n.summary_cn || n.description.substring(0, 100))}</div>`,
       `<div class="card-meta">${n.source} · ${timeAgo(n.pubDate)}${n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文 →</a>` : ''}</div>`,
-      secs.length > 0 ? `<div class="card-tags-row">${secs.map(s => `<span class="tag">${escHtml(typeof s === 'object' ? s.name : s)}</span>`).join('')}</div>` : '',
+      n.tickers && n.tickers !== '—' ? `<div class="card-tags-row"><span class="tag tag-ticker">标的: ${escHtml(n.tickers)}</span></div>` : '',
       `<div class="card-expand">展开分析</div>`,
       `<div class="card-detail">`,
       `<div class="detail-section"><div class="detail-label">评级依据</div>方向:${n.direction} · 程度:${n.impact} · 确定性:${n.certainty} · 窗口:${n.time_window}</div>`,
-      n.sectors && n.sectors.length > 0 ? `<div class="detail-section"><div class="detail-label">板块冲击</div>${n.sectors.map(s => `<div style="margin-bottom:4px;">&#9654; <strong>${escHtml(s.name)}</strong> <span class="${shockCls(s.shock_level || s.shock)}">${s.shock_level || s.shock}</span> <span style="color:${s.shock_direction === '利好' ? '#16a34a' : s.shock_direction === '利空' ? '#dc2626' : '#ea580c'}">${s.shock_direction || s.direction}</span> &mdash; ${escHtml(s.logic || '')} ${s.tickers && s.tickers !== '—' ? ' | 标的: ' + escHtml(s.tickers) : ''}</div>`).join('')}</div>` : '',
+      n.category ? `<div class="detail-section"><div class="detail-label">板块归属</div>&#9654; <strong>${escHtml(n.category)}</strong>${n.tickers && n.tickers !== '—' ? ' | 关联标的: ' + escHtml(n.tickers) : ''}</div>` : '',
       n.notes ? `<div class="verify-note">&#x1F4DD; ${escHtml(n.notes)}</div>` : '',
       `</div></div>`,
     ].join('\n');
