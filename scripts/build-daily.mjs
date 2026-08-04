@@ -25,8 +25,14 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=光模块+光通信+CPO+硅光+800G+1.6T+中际旭创+新易盛+天孚通信&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-光模块' },
     { url: 'https://news.google.com/rss/search?q=AI应用+大模型+智能体+agent+应用落地+软件&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-AI应用' },
   ],
+  // Samsung/SK hynix/Korean + US stock market monitoring
+  extraFeeds: [
+    { url: 'https://news.google.com/rss/search?q=KOSPI+KOSDAQ+Samsung+SK+hynix+Korean+semiconductor+KRX&hl=en-US&gl=US&ceid=US:en', name: '韩国半导体' },
+    { url: 'https://news.google.com/rss/search?q=NASDAQ+SOX+semiconductor+index+Nvidia+AMD+Broadcom+Qualcomm+US+stock&hl=en-US&gl=US&ceid=US:en', name: '美股半导体' },
+    { url: 'https://news.google.com/rss/search?q=삼성전자+SK하이닉스+반도체+한국+증시&hl=ko-KR&gl=KR&ceid=KR:ko', name: '한국-반도체' },
+  ],
 
-  maxAgeSeconds: 7 * 24 * 3600,
+  maxAgeSeconds: 3 * 24 * 3600,
   maxNewsCount: 25,
 };
 
@@ -59,6 +65,7 @@ function stripCDATA(s) {
 function timeAgo(date) {
   const diff = Date.now() - date.getTime();
   const h = Math.floor(diff / 3600000);
+  if (h < 1) return Math.floor(diff / 60000) + '分钟前';
   if (h < 24) return h + '小时前';
   return Math.floor(h / 24) + '天前';
 }
@@ -119,10 +126,10 @@ async function fetchGoogleNewsRSS(feed) {
 async function fetchAllNews() {
   console.log('\n📡 拉取 Google News RSS...');
   const allItems = [];
-
-  for (let i = 0; i < CONFIG.feeds.length; i++) {
-    const feed = CONFIG.feeds[i];
-    console.log(`  [${i + 1}/${CONFIG.feeds.length}] ${feed.name}...`);
+  const allFeeds = [...CONFIG.feeds, ...(CONFIG.extraFeeds || [])];
+  for (let i = 0; i < allFeeds.length; i++) {
+    const feed = allFeeds[i];
+    console.log(`  [${i + 1}/${allFeeds.length}] ${feed.name}...`);
     try {
       const items = await fetchGoogleNewsRSS(feed);
       console.log(`    → ${items.length} 条`);
@@ -131,7 +138,7 @@ async function fetchAllNews() {
       console.warn(`    ⚠ 失败: ${err.message}`);
     }
     // Space requests to avoid rate limiting
-    if (i < CONFIG.feeds.length - 1) await sleep(1500);
+    if (i < allFeeds.length - 1) await sleep(1500);
   }
 
   // Deduplicate
@@ -146,13 +153,14 @@ async function fetchAllNews() {
 
   // Freshness filter
   const now = Date.now();
+  const days = Math.ceil(CONFIG.maxAgeSeconds / 86400);
   const recent = deduped.filter(item => (now - item.pubDate.getTime()) < CONFIG.maxAgeSeconds * 1000);
-  console.log(`  去重后 ${deduped.length} 条，7天内 ${recent.length} 条`);
+  console.log(`  去重后 ${deduped.length} 条，${days}天内 ${recent.length} 条`);
 
   if (recent.length < 10) {
-    console.log('  7天内不足10条，放宽到30天...');
-    const wide = deduped.filter(item => (now - item.pubDate.getTime()) < 30 * 24 * 3600 * 1000);
-    console.log(`  30天内 ${wide.length} 条`);
+    console.log(`  ${days}天内不足10条，放宽到7天...`);
+    const wide = deduped.filter(item => (now - item.pubDate.getTime()) < 7 * 24 * 3600 * 1000);
+    console.log(`  7天内 ${wide.length} 条`);
     return wide.slice(0, CONFIG.maxNewsCount);
   }
 
@@ -404,25 +412,33 @@ function renderHTML(result, todayDisplay) {
   };
 
   const newsCards = analyzed.map((n) => {
+    const fresh = (Date.now() - new Date(n.pubDate).getTime()) < 12 * 3600 * 1000;
     return [
-      `<div class="news-card" onclick="this.classList.toggle('expanded')" data-impact="${n.impact}" data-direction="${n.direction}">`,
-      `<div class="card-top">`,
-      `<span class="badge ${dirCls(n.direction)}">${n.direction}</span>`,
-      `<span class="impact-tag ${impactCls(n.impact)}">${n.impact}影响</span>`,
-      `<span class="meta-chip">确定:${n.certainty}</span>`,
-      `<span class="meta-chip">${n.time_window}</span>`,
-      n.category ? `<span class="tag tag-category">${escHtml(n.category)}</span>` : '',
+      `<div class="news-card" onclick="this.classList.toggle('expanded')">`,
+      `<div class="card-left">`,
+      `<div class="card-cat cat-${n.category === '半导体' ? 'semi' : n.category === '光模块' ? 'optics' : n.category === 'AI应用' ? 'ai' : 'other'}">${escHtml(n.category || '综合')}</div>`,
+      fresh ? `<div class="fresh-badge">新</div>` : '',
       `</div>`,
+      `<div class="card-right">`,
       `<div class="card-title">${escHtml(n.title_cn || n.title)}</div>`,
       isAi ? `<div class="card-original-title">原文: ${escHtml(n.title.substring(0, 120))}</div>` : '',
       `<div class="card-summary">${escHtml(n.summary_cn || n.description.substring(0, 100))}</div>`,
-      `<div class="card-meta">${n.source} · ${timeAgo(n.pubDate)}${n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文 →</a>` : ''}</div>`,
-      n.tickers && n.tickers !== '—' ? `<div class="card-tags-row"><span class="tag tag-ticker">标的: ${escHtml(n.tickers)}</span></div>` : '',
-      `<div class="card-expand">展开分析</div>`,
+      `<div class="card-meta">`,
+      `<span class="badge ${dirCls(n.direction)}">${n.direction}</span>`,
+      `<span class="impact-tag ${impactCls(n.impact)}">${n.impact}</span>`,
+      `<span>${n.source} · ${timeAgo(n.pubDate)}</span>`,
+      n.tickers && n.tickers !== '—' ? `<span class="ticker-inline">📌 ${escHtml(n.tickers)}</span>` : '',
+      n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文 →</a>` : '',
+      `</div>`,
       `<div class="card-detail">`,
-      `<div class="detail-section"><div class="detail-label">评级依据</div>方向:${n.direction} · 程度:${n.impact} · 确定性:${n.certainty} · 窗口:${n.time_window}</div>`,
-      n.category ? `<div class="detail-section"><div class="detail-label">板块归属</div>&#9654; <strong>${escHtml(n.category)}</strong>${n.tickers && n.tickers !== '—' ? ' | 关联标的: ' + escHtml(n.tickers) : ''}</div>` : '',
-      n.notes ? `<div class="verify-note">&#x1F4DD; ${escHtml(n.notes)}</div>` : '',
+      `<div class="detail-grid">`,
+      `<div><span class="dl">方向</span>${n.direction}</div>`,
+      `<div><span class="dl">程度</span>${n.impact}</div>`,
+      `<div><span class="dl">确定性</span>${n.certainty}</div>`,
+      `<div><span class="dl">窗口</span>${n.time_window}</div>`,
+      `</div>`,
+      n.notes ? `<div class="verify-note">📝 ${escHtml(n.notes)}</div>` : '',
+      `</div>`,
       `</div></div>`,
     ].join('\n');
   }).join('\n');
@@ -438,112 +454,166 @@ function renderHTML(result, todayDisplay) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>全球股市热点日报 · ${todayDisplay}</title>
+<title>科技板块日报 · ${todayDisplay}</title>
 <style>
-  :root { --bg:#f5f6f8; --card-bg:#fff; --border:#e2e4e9; --text:#1a1d28; --text-dim:#6b7080; --text-muted:#9ca0af; --accent:#2563eb; }
+  :root {
+    --bg:#f0f2f5; --card-bg:#fff; --border:#e2e4e9; --text:#1a1d28;
+    --text-dim:#5f6570; --text-muted:#9ca0af; --accent:#2563eb;
+    --semi:#7c3aed; --optics:#0891b2; --ai:#059669;
+    --radius:12px; --shadow:0 1px 3px rgba(0,0,0,.04);
+  }
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;-webkit-font-smoothing:antialiased;}
-  .container{max-width:1080px;margin:0 auto;padding:20px 16px 40px;}
-  .header{text-align:center;padding:36px 24px 20px;margin-bottom:20px;}
-  .header h1{font-size:clamp(1.5rem,3.5vw,2rem);font-weight:800;color:#0f172a;letter-spacing:-0.02em;margin-bottom:6px;}
-  .header .subtitle{font-size:.85rem;color:var(--text-dim);}
-  .header .badge-row{margin-top:10px;display:flex;gap:8px;justify-content:center;flex-wrap:wrap;}
-  .chip{padding:3px 12px;border-radius:16px;font-size:.72rem;font-weight:600;border:1px solid var(--border);background:var(--card-bg);}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--text);line-height:1.5;min-height:100vh;-webkit-font-smoothing:antialiased;}
+  .container{max-width:900px;margin:0 auto;padding:16px 12px 40px;}
+
+  /* Header */
+  .header{text-align:center;padding:28px 16px 16px;margin-bottom:16px;}
+  .header h1{font-size:1.5rem;font-weight:800;color:#0f172a;letter-spacing:-0.02em;}
+  .header .subtitle{font-size:.78rem;color:var(--text-dim);margin-top:2px;}
+  .header .badge-row{margin-top:8px;display:flex;gap:6px;justify-content:center;flex-wrap:wrap;}
+  .chip{padding:2px 10px;border-radius:14px;font-size:.68rem;font-weight:600;border:1px solid var(--border);background:var(--card-bg);}
   .chip-ai{color:#2563eb;border-color:#bfdbfe;background:#eff6ff;}
-  .disclaimer{font-size:.74rem;color:#b91c1c;margin-top:12px;display:inline-block;background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:8px 14px;}
-  .stats-row{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:20px;}
-  .stat-chip{background:var(--card-bg);border:1px solid var(--border);border-radius:20px;padding:5px 14px;font-size:.76rem;color:var(--text-dim);display:flex;align-items:center;gap:5px;}
-  .stat-chip strong{color:var(--text);font-size:.95rem;}
-  .section-title{font-size:1.05rem;font-weight:700;margin:24px 0 12px;padding-left:12px;border-left:3px solid var(--accent);color:#0f172a;}
-  .news-grid{display:grid;gap:8px;}
-  .news-card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:14px 18px;cursor:pointer;transition:box-shadow .15s,border-color .15s;}
-  .news-card:hover{box-shadow:0 2px 10px rgba(0,0,0,.05);border-color:#c8cbd4;}
-  .card-top{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-bottom:2px;}
-  .badge{display:inline-flex;align-items:center;gap:3px;padding:2px 9px;border-radius:12px;font-size:.66rem;font-weight:700;}
+  .disclaimer{font-size:.68rem;color:#b91c1c;margin-top:10px;display:inline-block;background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:6px 12px;}
+
+  /* Stats mini */
+  .stats-mini{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:16px;}
+  .st{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:4px 10px;font-size:.7rem;color:var(--text-dim);}
+  .st b{color:var(--text);font-size:.82rem;margin:0 1px;}
+
+  /* Sector summary row */
+  .sector-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:18px;}
+  @media(max-width:600px){.sector-row{grid-template-columns:1fr;}}
+  .sc{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-align:center;}
+  .sc-name{font-weight:700;font-size:.82rem;margin-bottom:4px;}
+  .sc-stat{font-size:.7rem;color:var(--text-dim);}
+  .sc-stat strong{font-size:.9rem;}
+
+  /* Section divider */
+  .sec-title{display:flex;align-items:center;gap:8px;font-size:.82rem;font-weight:700;color:#0f172a;margin:20px 0 10px;}
+  .sec-title::before{content:'';width:3px;height:16px;background:var(--accent);border-radius:2px;}
+
+  /* News cards */
+  .news-grid{display:grid;gap:6px;}
+  .news-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;cursor:pointer;transition:box-shadow .15s,border-color .15s;display:flex;gap:10px;}
+  .news-card:hover{box-shadow:var(--shadow);border-color:#c8cbd4;}
+  .news-card.expanded{box-shadow:0 2px 8px rgba(0,0,0,.06);}
+  .card-left{flex-shrink:0;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:44px;}
+  .card-cat{font-size:.6rem;font-weight:700;padding:3px 6px;border-radius:6px;text-align:center;white-space:nowrap;color:#fff;}
+  .cat-semi{background:var(--semi);}
+  .cat-optics{background:var(--optics);}
+  .cat-ai{background:var(--ai);}
+  .cat-other{background:#6b7280;}
+  .fresh-badge{font-size:.55rem;font-weight:800;color:#fff;background:#ef4444;border-radius:3px;padding:1px 4px;}
+
+  .card-right{flex:1;min-width:0;}
+  .card-title{font-size:.85rem;font-weight:700;color:#0f172a;line-height:1.3;margin-bottom:2px;}
+  .card-original-title{font-size:.67rem;color:var(--text-muted);margin-bottom:2px;font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .card-summary{font-size:.75rem;color:var(--text-dim);margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .card-meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:.66rem;color:var(--text-muted);}
+  .card-meta a{color:var(--accent);text-decoration:none;}
+  .badge{display:inline-flex;align-items:center;gap:2px;padding:1px 7px;border-radius:10px;font-size:.62rem;font-weight:700;}
   .badge-bull{background:#dcfce7;color:#15803d;}
   .badge-bear{background:#fee2e2;color:#b91c1c;}
   .badge-neutral{background:#fff7ed;color:#c2410c;}
   .badge-mixed{background:#fef3c7;color:#92400e;}
-  .impact-tag{font-size:.66rem;font-weight:700;padding:2px 7px;border-radius:4px;}
+  .impact-tag{font-size:.62rem;font-weight:700;padding:1px 6px;border-radius:3px;}
   .impact-vhigh{background:#fee2e2;color:#b91c1c;}
   .impact-high{background:#fff7ed;color:#c2410c;}
   .impact-mid{background:#fef9c3;color:#a16207;}
   .impact-low{background:#f0fdf4;color:#15803d;}
-  .meta-chip{font-size:.64rem;color:var(--text-muted);background:#f3f4f6;padding:1px 6px;border-radius:8px;}
-  .card-title{font-size:.9rem;font-weight:700;color:#0f172a;margin-bottom:2px;line-height:1.35;}
-  .card-original-title{font-size:.7rem;color:var(--text-muted);margin-bottom:2px;font-style:italic;}
-  .card-summary{font-size:.78rem;color:var(--text-dim);margin-bottom:4px;}
-  .card-meta{display:flex;flex-wrap:wrap;gap:6px;align-items:center;font-size:.7rem;color:var(--text-muted);}
-  .card-meta a{color:var(--accent);text-decoration:none;font-size:.65rem;}
-  .card-tags-row{display:flex;flex-wrap:wrap;gap:3px;margin-top:6px;}
-  .tag{padding:1px 7px;border-radius:4px;font-size:.66rem;background:#eff6ff;color:#2563eb;border:1px solid #bfdbfe;}
-  .card-expand{font-size:.7rem;color:var(--accent);font-weight:600;margin-top:4px;display:flex;align-items:center;gap:4px;}
-  .card-expand::after{content:'\\25B8';font-size:.55rem;transition:transform .2s;}
-  .news-card.expanded .card-expand::after{transform:rotate(90deg);}
-  .card-detail{display:none;margin-top:10px;padding-top:10px;border-top:1px solid var(--border);font-size:.78rem;color:var(--text);line-height:1.65;}
+  .ticker-inline{color:#7c3aed;font-weight:600;font-size:.63rem;}
+
+  /* Expand detail */
+  .card-detail{display:none;margin-top:8px;padding-top:8px;border-top:1px solid var(--border);font-size:.72rem;color:var(--text);line-height:1.65;}
   .news-card.expanded .card-detail{display:block;}
-  .detail-section{margin-bottom:8px;}
-  .detail-label{font-weight:700;font-size:.7rem;color:var(--text-dim);text-transform:uppercase;letter-spacing:.04em;margin-bottom:1px;}
-  .verify-note{font-size:.7rem;color:#b45309;font-style:italic;margin-top:6px;padding:6px 10px;background:#fffbeb;border-radius:4px;}
-  .table-wrap{overflow-x:auto;margin-bottom:24px;border-radius:10px;border:1px solid var(--border);}
-  table{width:100%;border-collapse:collapse;font-size:.76rem;background:var(--card-bg);}
-  th{background:#f8f9fb;color:var(--text-dim);padding:9px 11px;text-align:left;font-weight:600;white-space:nowrap;border-bottom:2px solid var(--border);font-size:.7rem;text-transform:uppercase;}
-  td{padding:8px 11px;border-bottom:1px solid var(--border);vertical-align:top;}
+  .detail-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:6px;}
+  @media(max-width:480px){.detail-grid{grid-template-columns:repeat(2,1fr);}}
+  .dl{display:block;font-size:.6rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.03em;}
+  .verify-note{font-size:.66rem;color:#b45309;font-style:italic;padding:5px 8px;background:#fffbeb;border-radius:6px;}
+
+  /* Matrix table */
+  .table-wrap{overflow-x:auto;margin-bottom:16px;border-radius:var(--radius);border:1px solid var(--border);}
+  table{width:100%;border-collapse:collapse;font-size:.7rem;background:var(--card-bg);}
+  th{background:#f8f9fb;color:var(--text-dim);padding:7px 10px;text-align:left;font-weight:600;white-space:nowrap;border-bottom:2px solid var(--border);font-size:.65rem;text-transform:uppercase;}
+  td{padding:7px 10px;border-bottom:1px solid var(--border);vertical-align:top;}
   tr:last-child td{border-bottom:none;}
   .shock-strong{color:#dc2626;font-weight:700;}
   .shock-mid{color:#ea580c;font-weight:600;}
   .shock-weak{color:#16a34a;}
-  .key-points{display:grid;gap:6px;margin-bottom:24px;}
-  .kp-card{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:12px 16px;font-size:.8rem;line-height:1.55;border-left:3px solid var(--accent);}
-  .market-summary{background:var(--card-bg);border:1px solid var(--border);border-radius:10px;padding:14px 18px;font-size:.82rem;line-height:1.6;margin-bottom:24px;color:var(--text);}
-  .footer{text-align:center;padding:16px;font-size:.7rem;color:var(--text-muted);border-top:1px solid var(--border);margin-top:28px;line-height:1.7;}
-  @media(max-width:640px){.container{padding:8px 6px 20px;}.header{padding:20px 10px 10px;}.news-card{padding:10px 12px;}}
+
+  /* Key points */
+  .key-points{display:grid;gap:5px;margin-bottom:16px;}
+  .kp-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;font-size:.76rem;line-height:1.5;border-left:3px solid var(--accent);}
+
+  .market-summary{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;font-size:.78rem;line-height:1.6;margin-bottom:16px;}
+
+  /* Footer */
+  .footer{text-align:center;padding:14px;font-size:.66rem;color:var(--text-muted);border-top:1px solid var(--border);margin-top:20px;line-height:1.7;}
+  .footer strong{color:#b91c1c;}
 </style>
 </head>
 <body>
 <div class="container">
 
 <div class="header">
-  <h1>全球股市热点日报</h1>
-  <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 自动生成</div>
+  <h1>📡 科技板块日报</h1>
+  <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 半导体 / 光模块 / AI应用</div>
   <div class="badge-row">
     <span class="chip ${isAi ? 'chip-ai' : 'chip'}">${isAi ? 'AI 分析' : '关键词引擎'}</span>
     ${isAi ? '<span class="chip chip-ai">中文翻译</span>' : ''}
-    <span class="chip">每日 ${String(new Date().getHours()).padStart(2,'0')}:00 更新</span>
+    <span class="chip">每交易日更新</span>
   </div>
   <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
 </div>
 
-<div class="stats-row">
-  <div class="stat-chip">利好 <strong style="color:#16a34a;">${stats.bull}</strong></div>
-  <div class="stat-chip">利空 <strong style="color:#dc2626;">${stats.bear}</strong></div>
-  <div class="stat-chip">分化/中性 <strong style="color:#92400e;">${stats.mixed}</strong></div>
-  <div class="stat-chip">极高 <strong style="color:#dc2626;">${stats.vhigh}</strong></div>
-  <div class="stat-chip">高影响 <strong style="color:#ea580c;">${stats.high}</strong></div>
-  <div class="stat-chip">板块 <strong>${sectorMatrix.length}</strong></div>
+<div class="stats-mini">
+  <div class="st">📈利好 <b style="color:#15803d">${stats.bull}</b></div>
+  <div class="st">📉利空 <b style="color:#dc2626">${stats.bear}</b></div>
+  <div class="st">⚡极高 <b style="color:#dc2626">${stats.vhigh}</b></div>
+  <div class="st">🔥高影响 <b style="color:#ea580c">${stats.high}</b></div>
+  <div class="st">📊板块 <b>${sectorMatrix.length}</b></div>
 </div>
 
-${marketSummary ? `<div class="market-summary">&#x1F4A1; ${escHtml(marketSummary)}</div>` : ''}
+${sectorMatrix.length > 0 ? `
+<div class="sec-title">板块速览</div>
+<div class="sector-row">
+${sectorMatrix.map(s => `
+  <div class="sc">
+    <div class="sc-name">${escHtml(s.name)}</div>
+    <div class="sc-stat">
+      <span class="badge ${dirCls(s.direction)}">${s.direction}</span>
+      <span class="impact-tag ${impactCls(s.shock === '强' ? '极高' : s.shock === '中' ? '中' : '低')}">${s.shock}冲击</span>
+      <br><strong>${s.news_count}</strong> 条新闻
+    </div>
+  </div>
+`).join('')}
+</div>
+` : ''}
 
+${marketSummary ? `<div class="market-summary">💡 ${escHtml(marketSummary)}</div>` : ''}
+
+<div class="sec-title">新闻列表（按时间从近到远）</div>
 <div class="news-grid">
 ${newsCards}
 </div>
 
-<div class="section-title">板块冲击矩阵</div>
+<div class="sec-title">板块冲击矩阵</div>
 <div class="table-wrap">
   <table>
-    <thead><tr><th>板块</th><th>冲击</th><th>方向</th><th>新闻数</th><th>传导逻辑</th><th>关联标的</th></tr></thead>
+    <thead><tr><th>板块</th><th>冲击</th><th>方向</th><th>新闻</th><th>传导逻辑</th><th>关联标的</th></tr></thead>
     <tbody>${matrixRows}</tbody>
   </table>
 </div>
 
-<div class="section-title">今日要点</div>
+${keyPoints.length > 0 ? `
+<div class="sec-title">今日要点</div>
 <div class="key-points">${pointsHTML}</div>
+` : ''}
 
 <div class="footer">
-  基于 Google News RSS 源自动抓取 · ${isAi ? 'Claude API 智能分析 + 中文翻译' : '关键词引擎自动分类'}<br>
-  不构成投资建议。<strong>股市有风险，投资需谨慎。</strong><br>
-  Generated ${new Date().toISOString()}
+  基于 Google News RSS 自动抓取 · ${isAi ? 'Claude API 智能分析 + 中文翻译' : '关键词引擎自动分类'}<br>
+  监控范围：半导体 / 光模块 / AI应用 &nbsp;|&nbsp; 包含韩国及美股半导体市场<br>
+  不构成投资建议。<strong>股市有风险，投资需谨慎。</strong>
 </div>
 
 </div>
@@ -572,13 +642,14 @@ async function main() {
   // 2. Analyze
   const result = await analyzeWithClaude(newsItems);
 
-  // 3. Sort by impact
+  // 3. Sort by date (newest first), then by impact
   const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
   result.analyzed.sort((a, b) => {
+    const db = new Date(b.pubDate) - new Date(a.pubDate);
+    if (Math.abs(db) > 3600000) return db;
     const ia = impactRank[a.impact] || 9;
     const ib = impactRank[b.impact] || 9;
-    if (ia !== ib) return ia - ib;
-    return new Date(b.pubDate) - new Date(a.pubDate);
+    return ia - ib;
   });
 
   // 4. Render HTML
