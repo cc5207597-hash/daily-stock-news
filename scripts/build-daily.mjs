@@ -10,8 +10,8 @@ const OUTPUT_DIR = join(PROJECT_ROOT, 'output');
 
 // ── 配置 ──────────────────────────────────────────────
 const CONFIG = {
-  apiKey: process.env.ANTHROPIC_API_KEY || '',
-  apiBase: process.env.ANTHROPIC_BASE_URL || 'https://api.anthropic.com',
+  apiKey: 'PROXY_MANAGED',
+  apiBase: 'http://127.0.0.1:15721',
   model: 'claude-sonnet-4-20250514',
 
   // Google News RSS feeds (direct fetch, no proxy)
@@ -241,7 +241,29 @@ ${newsText}`;
   }
 
   const data = await resp.json();
-  let text = data.content[0].text.trim();
+  console.log('  API 模型:', data.model);
+
+  // Find the text content block (skip thinking blocks)
+  let text = '';
+  if (Array.isArray(data.content)) {
+    for (const block of data.content) {
+      if (block.type === 'thinking') continue; // skip deepseek thinking
+      if (typeof block.text === 'string') { text = block.text.trim(); break; }
+    }
+    if (!text) {
+      // Fallback: concat all non-thinking blocks
+      text = data.content.filter(b => b.type !== 'thinking').map(b => b.text || '').join('').trim();
+    }
+  }
+
+  if (!text) {
+    console.log('  各块类型:', data.content.map(b => ({ type: b.type, hasText: !!b.text })));
+    console.error('  未找到文本内容');
+    return analyzeWithKeywords(newsItems);
+  }
+  console.log('  AI 分析中...（已接收 ' + text.length + ' 字）');
+
+  // Strip markdown code fences
   text = text.replace(/^```(?:json)?\s*/i, '').replace(/\s*```$/, '');
 
   let result;
