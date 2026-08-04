@@ -1,0 +1,10 @@
+{
+  "name": "daily-stock-news",
+  "version": "1.0.0",
+  "description": "全球股市热点日报 - 自动化构建与部署",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-daily.mjs"
+  }
+}
