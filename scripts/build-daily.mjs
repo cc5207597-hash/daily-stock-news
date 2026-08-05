@@ -55,6 +55,15 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=药明康德+百济神州+恒瑞医药+创新药+临床+审批&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-创新药' },
     { url: 'https://news.google.com/rss/search?q=黄金+金价+美联储+利率+央行购金&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-黄金' },
     { url: 'https://news.google.com/rss/search?q=制裁+出口管制+芯片+科技+限制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-制裁政策' },
+    // 金十数据
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+光模块+创新药+黄金&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=jin10', name: '金十数据-四板块' },
+    { url: 'https://news.google.com/rss/search?q=黄金+金价+美联储+利率+非农+CPI&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=jin10', name: '金十数据-宏观' },
+    // 新浪财经
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+创新药+黄金+A股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=sina', name: '新浪财经-四板块' },
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+科技股+光模块+算力&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=sina', name: '新浪财经-科技' },
+    // 华尔街见闻
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+光模块+创新药+黄金&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=wallstreetcn', name: '华尔街见闻-四板块' },
+    { url: 'https://news.google.com/rss/search?q=美联储+利率+黄金+芯片+制裁+科技战&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=wallstreetcn', name: '华尔街见闻-宏观' },
     // WSJ / FT
     { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-科技' },
     { url: 'https://news.google.com/rss/search?q=gold+market+price+outlook+Fed+rate&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-黄金' },
@@ -97,12 +106,12 @@ function stripCDATA(s) {
   return (s || '').replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '').trim();
 }
 
-function timeAgo(date) {
-  const diff = Date.now() - date.getTime();
-  const h = Math.floor(diff / 3600000);
-  if (h < 1) return Math.floor(diff / 60000) + '分钟前';
-  if (h < 24) return h + '小时前';
-  return Math.floor(h / 24) + '天前';
+function formatTime(date) {
+  const m = String(date.getMonth()+1).padStart(2,'0');
+  const d = String(date.getDate()).padStart(2,'0');
+  const hh = String(date.getHours()).padStart(2,'0');
+  const mm = String(date.getMinutes()).padStart(2,'0');
+  return `${m}-${d} ${hh}:${mm}`;
 }
 
 function getTodayStr() {
@@ -268,6 +277,8 @@ async function analyzeWithClaude(newsItems) {
 
   const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
 
+新闻来源优先级：财联社 > 金十数据 > 华尔街见闻 > 路透社 > 新浪财经 > Bloomberg > CNBC > 第一财经 > 21世纪经济报道 > 经济观察报 > WSJ > FT > Nikkei。高优先级来源的信息应优先采用和保留。
+
 核心任务：去重合并为 20-28 条行业简讯。规则：同类涨跌行情合并为一条；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动、临床数据/FDA审批、金价/利率/央行购金等有产业逻辑的内容。必须确保半导体、光模块、创新药、黄金四个板块至少各有 5 条简讯。
 
 每条简讯包含以下字段（请严格遵守字段名）：
@@ -345,9 +356,10 @@ ${newsText}`;
     return analyzeWithKeywords(newsItems);
   }
 
-  // AI returns consolidated briefs (8-15), not 1:1 with input
-  // Use current date for all consolidated items
-  const now = new Date().toISOString();
+  // AI returns consolidated briefs, not 1:1 with input
+  // Use the latest input news pubDate as the base, spread briefs across a small window
+  const maxInputDate = newsItems.reduce((max, n) => n.pubDate > max ? n.pubDate : max, new Date(0));
+  const baseDate = maxInputDate.getTime() > 0 ? maxInputDate : new Date();
   const analyzed = (result.analyzed || []).map((ai, i) => ({
     title_cn: ai.title_cn || '[未命名]',
     summary_cn: ai.summary_cn || '',
@@ -358,10 +370,9 @@ ${newsText}`;
     time_window: ai.time_window || '中期',
     tickers: ai.tickers || '—',
     notes: ai.notes || '',
-    // Use synthetic values for display since these are consolidated
     title: ai.title_cn || '',
     description: ai.summary_cn || '',
-    pubDate: new Date(),
+    pubDate: new Date(baseDate.getTime() - i * 60000),
     source: 'AI综合',
     link: '',
   }));
@@ -520,7 +531,7 @@ function renderHTML(result, todayDisplay, etfData) {
       `<span class="badge ${dirCls(n.direction)}">${n.direction}</span>`,
       `<span class="impact-tag ${impactCls(n.impact)}">${n.impact}</span>`,
       n.source ? `<span>${escHtml(n.source)}</span>` : '',
-      `<span>${timeAgo(n.pubDate)}</span>`,
+      `<span>${formatTime(n.pubDate)}</span>`,
       n.tickers && n.tickers !== '—' ? `<span class="ticker-inline">${escHtml(n.tickers)}</span>` : '',
       n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>` : '',
       `</div>`,
