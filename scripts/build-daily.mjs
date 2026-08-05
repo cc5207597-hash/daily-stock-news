@@ -181,46 +181,36 @@ async function analyzeWithClaude(newsItems) {
     `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是一位资深A股科技板块分析师，专注半导体、光模块、AI应用三大赛道。请分析以下 ${newsItems.length} 条相关新闻，对每条做：
+  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。请对以下 ${newsItems.length} 条新闻逐一分析。
 
-1. **中文标题**：将标题翻译为地道的中文财经/科技新闻标题
-2. **中文摘要**：用1-2句中文概括核心要点（30-60字）
-3. **板块归属**：半导体 / 光模块 / AI应用（选最贴切的一个）
-4. **四维评级**：
-   - 影响方向：利好 / 利空 / 中性 / 分化
-   - 影响程度：极高 / 高 / 中 / 低
-   - 确定性：高 / 中 / 低
-   - 时间窗口：短期（数日）/ 中期（数周-数月）/ 长期（半年以上）
-5. **A股关联标的**（仅限半导体/光模块/AI应用相关A股，如不确定请标注"—"）：1-3个典型标的
+⚠️ 写作要求：每条新闻写成专业行业简讯风格：
+- 中文标题：去除情绪化用词，写成客观产业简讯标题
+- 中文摘要：提炼核心产业事实，包含具体公司/数据/技术，避免渲染情绪
+
+每条新闻做以下分析：
+1. 中文标题、中文摘要（行业简讯风格）
+2. quality："high"（有产业价值）/ "low"（个人故事、纯涨跌情绪、无实质信息）
+3. category：半导体 / 光模块 / AI应用 / 综合
+4. 四维评级：direction、impact、certainty、time_window
+5. tickers：1-3个A股标的，不确定标"—"
+6. notes：可选
 
 另外生成：
-6. **三大板块冲击矩阵**：半导体、光模块、AI应用，每板块汇总冲击程度/方向/逻辑
-7. **今日要点**：3-5条一句话总结
+7. sector_matrix：三大板块冲击矩阵
+8. key_points：3-5条简讯，【板块】开头，有具体数据
+9. market_summary：一段话产业链动态总结
 
-请严格输出 JSON 格式：
+JSON 格式（每条新闻都输出！共 ${newsItems.length} 条）：
 {
   "analyzed": [
-    {
-      "index": 0,
-      "title_cn": "中文标题",
-      "summary_cn": "中文摘要",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "标的1、标的2",
-      "notes": ""
-    }
+    { "index": 0, "title_cn": "...", "summary_cn": "...", "quality": "high", "category": "半导体", "direction": "利好", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": "" }
   ],
-  "sector_matrix": [
-    { "name": "半导体", "shock": "强", "direction": "利好", "news_count": 3, "summary": "逻辑摘要", "tickers": "标的" }
-  ],
-  "key_points": ["要点1", "要点2", "要点3", "要点4"],
-  "market_summary": "一段话总结今日半导体/光模块/AI应用三大板块核心逻辑"
+  "sector_matrix": [...],
+  "key_points": [...],
+  "market_summary": "..."
 }
 
-只输出 JSON，不要任何其他文字。新闻如下：
+只输出 JSON。新闻如下：
 
 ${newsText}`;
 
@@ -233,7 +223,7 @@ ${newsText}`;
     },
     body: JSON.stringify({
       model: CONFIG.model,
-      max_tokens: 8192,
+      max_tokens: 16384,
       messages: [{ role: 'user', content: prompt }],
     }),
   });
@@ -276,12 +266,21 @@ ${newsText}`;
     return analyzeWithKeywords(newsItems);
   }
 
-  const analyzed = newsItems.map((n, i) => {
+  // Merge results — keep all news, AI may mark some as low quality
+  const analyzed = [];
+  for (let i = 0; i < newsItems.length; i++) {
+    const n = newsItems[i];
     const ai = (result.analyzed || []).find(a => a.index === i);
     if (!ai) {
-      return { ...n, title_cn: n.title, summary_cn: n.description.substring(0, 80), direction: '中性', impact: '低', certainty: '低', time_window: '中期', category: '', tickers: '—', notes: '' };
+      // AI skipped this — use keyword fallback
+      analyzed.push({
+        ...n, title_cn: n.title, summary_cn: n.description.substring(0, 80),
+        direction: '中性', impact: '低', certainty: '低', time_window: '中期',
+        category: '', tickers: '—', notes: '', quality: 'low',
+      });
+      continue;
     }
-    return {
+    analyzed.push({
       ...n,
       title_cn: ai.title_cn || n.title,
       summary_cn: ai.summary_cn || n.description.substring(0, 80),
@@ -292,9 +291,11 @@ ${newsText}`;
       time_window: ai.time_window || '中期',
       tickers: ai.tickers || '—',
       notes: ai.notes || '',
-    };
-  });
-
+      quality: ai.quality || 'high',
+    });
+  }
+  const highQ = analyzed.filter(a => a.quality !== 'low');
+  console.log(`  AI分析: ${highQ.length} 条高质量 + ${analyzed.length - highQ.length} 条低质`);
   return {
     analyzed,
     sectorMatrix: result.sector_matrix || [],
