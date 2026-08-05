@@ -662,7 +662,7 @@ ${keyPoints.length > 0 ? `
 
 </div>
 <script>
-const REFRESH_URL = 'http://127.0.0.1:3456';
+const REFRESH_URL = '';
 async function triggerRefresh(){
   const btn = document.querySelector('.refresh-btn');
   btn.disabled = true;
