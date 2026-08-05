@@ -142,8 +142,9 @@ async function fetchETFData() {
   const results = [];
   for (const etf of ETFS) {
     try {
+      const exchange = etf.code.startsWith('5') ? '1' : '0'; // 5开头=上海，1开头=深圳
       const resp = await fetch(
-        `https://push2.eastmoney.com/api/qt/stock/get?secid=0.${etf.code}&fields=f43,f57,f58,f170`,
+        `https://push2.eastmoney.com/api/qt/stock/get?secid=${exchange}.${etf.code}&fields=f43,f57,f58,f170`,
         { headers: { 'Referer': 'https://quote.eastmoney.com/' }, timeout: 10000 }
       );
       if (!resp.ok) throw new Error('HTTP ' + resp.status);
@@ -152,7 +153,9 @@ async function fetchETFData() {
       if (d && d.f43) {
         const price = d.f43 / 100;
         results.push({ code: etf.code, name: etf.name, category: etf.category, price, change: (d.f170 || 0) / 100, date: d.f57 || '' });
-        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}`);
+        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}  ${(d.f170/100).toFixed(2)}%`);
+      } else {
+        console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
       }
     } catch (err) {
       console.warn(`  ${etf.name}(${etf.code}) ⚠ ${err.message}`);
