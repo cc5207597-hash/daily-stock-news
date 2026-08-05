@@ -37,8 +37,8 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=Zhongji+Innolight+Eoptolink+Tianfu+optical+sanction+export+ban+BIS+entity+list&hl=en-US&gl=US&ceid=US:en', name: 'Optical-US' },
   ],
 
-  maxAgeSeconds: 3 * 24 * 3600,
-  maxNewsCount: 25,
+  maxAgeSeconds: 2 * 24 * 3600,
+  maxNewsCount: 30,
 };
 
 // ── 工具函数 ──────────────────────────────────────────
@@ -186,44 +186,17 @@ async function analyzeWithClaude(newsItems) {
     `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取，可能存在大量重复和行情噪音。
+  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
 
-⚠️ 核心任务：将这些新闻去重合并为 8-15 条行业简讯。规则：
-1. 同类日涨跌行情合并：如多条"三星跌X%""SK海力士跌Y%"合并为一条"韩国存储双雄下跌"简讯
-2. 淘汰纯情绪/个人故事/标题党
-3. 保留有产业逻辑的内容：技术突破、政策变化、客户订单、产能扩建、竞争格局变动
+核心任务：去重合并为 8-15 条行业简讯。规则：同类涨跌合并为一条，去情绪化/个人故事/标题党，保留技术突破/政策/订单/产能/竞争/制裁等有产业逻辑内容。三个板块务必各有覆盖。
 
-每条简讯格式：
-- title_cn：专业平实的行业简讯标题
-- summary_cn：客观事实提炼，含具体数据/公司/技术（30-60字）
-- category：半导体 / 光模块 / AI应用
-- direction：利好 / 利空 / 中性 / 分化
-- impact：极高 / 高 / 中 / 低
-- certainty：高 / 中 / 低
-- time_window：短期 / 中期 / 长期
-- tickers：1-3个直接关联A股标的，不确定标"—"
-- notes：可选补充
+每条简讯：title_cn、summary_cn、category、direction、impact、certainty、time_window、tickers、notes。
+另生成 sector_matrix（三条固定：半导体/光模块/AI应用）、key_points（3-5条）、market_summary。
 
-另外生成：
-- sector_matrix：三个板块固定输出（半导体、光模块、AI应用各一条），每板块字段：name、shock、direction、news_count、summary、tickers
-- key_points：3-5条今日核心简讯，【板块】开头+具体数据
-- market_summary：一段话产业动态总结
+输出标准 JSON —— 注意 analyzed 是一个数组，放在一个 JSON 对象里：
+{"analyzed": [{"title_cn": "...", ...}], "sector_matrix": [...], "key_points": [...], "market_summary": "..."}
 
-JSON（输出 8-15 条 consolidated 简讯，sector_matrix固定3条）：
-{
-  "analyzed": [
-    { "index": -1, "title_cn": "...", "summary_cn": "...", "category": "半导体", "direction": "利空", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": "" }
-  ],
-  "sector_matrix": [
-    { "name": "半导体", "shock": "强", "direction": "利好", "news_count": 5, "summary": "核心逻辑", "tickers": "中芯国际" },
-    { "name": "光模块", "shock": "强", "direction": "利空", "news_count": 3, "summary": "核心逻辑", "tickers": "中际旭创" },
-    { "name": "AI应用", "shock": "中", "direction": "利好", "news_count": 2, "summary": "核心逻辑", "tickers": "金山办公" }
-  ],
-  "key_points": [...],
-  "market_summary": "..."
-}
-
-只输出 JSON。新闻原文：
+只输出 JSON，不要其他内容。新闻原文：
 
 ${newsText}`;
 
@@ -299,10 +272,28 @@ ${newsText}`;
     source: 'AI综合',
     link: '',
   }));
+  // Force sector_matrix to always be exactly these 3 with defaults, merging with AI output
+  const defaultMatrix = {
+    '半导体': { name: '半导体', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '光模块': { name: '光模块', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    'AI应用': { name: 'AI应用', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+  };
+  const aiMatrix = Array.isArray(result.sector_matrix) ? result.sector_matrix : [];
+  for (const s of aiMatrix) {
+    if (s.name && defaultMatrix[s.name]) {
+      Object.assign(defaultMatrix[s.name], s);
+    }
+  }
+  // Count categories from analyzed
+  for (const item of analyzed) {
+    const cat = item.category;
+    if (cat && defaultMatrix[cat]) defaultMatrix[cat].news_count++;
+  }
+  const finalMatrix = Object.values(defaultMatrix).filter(s => s.news_count > 0 || s.summary);
   console.log(`  AI去重合并: ${analyzed.length} 条行业简讯（原始 ${newsItems.length} 条）`);
   return {
     analyzed,
-    sectorMatrix: result.sector_matrix || [],
+    sectorMatrix: finalMatrix,
     keyPoints: result.key_points || [],
     marketSummary: result.market_summary || '',
     isAi: true,
@@ -405,12 +396,13 @@ function renderHTML(result, todayDisplay) {
   const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi } = result;
 
   const impactCls = (imp) => imp === '极高' ? 'impact-vhigh' : imp === '高' ? 'impact-high' : imp === '中' ? 'impact-mid' : 'impact-low';
-  const dirCls = (d) => (d || '').includes('利好') ? 'badge-bull' : (d || '').includes('利空') ? 'badge-bear' : d === '中性' ? 'badge-neutral' : 'badge-mixed';
+  const dirCls = (d) => (d || '').includes('利好') ? 'badge-bull' : (d || '').includes('利空') ? 'badge-bear' : (d === '中性' ? 'badge-neutral' : 'badge-mixed');
+  const dirEmoji = (d) => (d || '').includes('利好') ? '🟢' : (d || '').includes('利空') ? '🔴' : '🟡';
   const shockCls = (s) => s === '强' ? 'shock-strong' : s === '中' ? 'shock-mid' : 'shock-weak';
 
   const stats = {
-    bull: analyzed.filter(n => n.direction.includes('利好')).length,
-    bear: analyzed.filter(n => n.direction.includes('利空')).length,
+    bull: analyzed.filter(n => (n.direction || '').includes('利好')).length,
+    bear: analyzed.filter(n => (n.direction || '').includes('利空')).length,
     mixed: analyzed.filter(n => n.direction === '分化' || n.direction === '中性').length,
     vhigh: analyzed.filter(n => n.impact === '极高').length,
     high: analyzed.filter(n => n.impact === '高').length,
@@ -431,9 +423,10 @@ function renderHTML(result, todayDisplay) {
       `<div class="card-meta">`,
       `<span class="badge ${dirCls(n.direction)}">${n.direction}</span>`,
       `<span class="impact-tag ${impactCls(n.impact)}">${n.impact}</span>`,
-      `<span>${n.source} · ${timeAgo(n.pubDate)}</span>`,
-      n.tickers && n.tickers !== '—' ? `<span class="ticker-inline">📌 ${escHtml(n.tickers)}</span>` : '',
-      n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文 →</a>` : '',
+      n.source ? `<span>${escHtml(n.source)}</span>` : '',
+      `<span>${timeAgo(n.pubDate)}</span>`,
+      n.tickers && n.tickers !== '—' ? `<span class="ticker-inline">${escHtml(n.tickers)}</span>` : '',
+      n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文</a>` : '',
       `</div>`,
       `<div class="card-detail">`,
       `<div class="detail-grid">`,
