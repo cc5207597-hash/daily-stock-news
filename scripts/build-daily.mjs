@@ -35,6 +35,7 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=中芯国际+北方华创+中微公司+海光信息+寒武纪+先进制程+设备+制裁+产能&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '半导体龙头' },
     { url: 'https://news.google.com/rss/search?q=金山办公+科大讯飞+万兴科技+拓尔思+AI应用+软件+A股+制裁&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: 'AI应用龙头' },
     { url: 'https://news.google.com/rss/search?q=Zhongji+Innolight+Eoptolink+Tianfu+optical+sanction+export+ban+BIS+entity+list&hl=en-US&gl=US&ceid=US:en', name: 'Optical-US' },
+    { url: 'https://news.google.com/rss/search?q=光模块+800G+1.6T+订单+出货+业绩+关税+贸易战&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '光模块业绩' },
   ],
 
   maxAgeSeconds: 2 * 24 * 3600,
