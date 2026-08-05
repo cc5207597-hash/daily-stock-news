@@ -510,6 +510,12 @@ function renderHTML(result, todayDisplay) {
   .chip{padding:2px 10px;border-radius:14px;font-size:.68rem;font-weight:600;border:1px solid var(--border);background:var(--card-bg);}
   .chip-ai{color:#2563eb;border-color:#bfdbfe;background:#eff6ff;}
   .disclaimer{font-size:.68rem;color:#b91c1c;margin-top:10px;display:inline-block;background:#fef2f2;border:1px solid #fecaca;border-radius:8px;padding:6px 12px;}
+  .refresh-btn{display:block;margin:10px auto 0;padding:6px 18px;font-size:.72rem;font-weight:600;color:#fff;background:var(--accent);border:none;border-radius:8px;cursor:pointer;transition:opacity .2s;}
+  .refresh-btn:hover{opacity:.85;}
+  .refresh-btn:disabled{opacity:.5;cursor:not-allowed;}
+  .refresh-toast{position:fixed;top:16px;left:50%;transform:translateX(-50%);z-index:999;padding:10px 20px;border-radius:10px;font-size:.78rem;font-weight:600;color:#fff;box-shadow:0 4px 12px rgba(0,0,0,.15);transition:opacity .3s;}
+  .toast-ok{background:#059669;}
+  .toast-err{background:#dc2626;}
 
   /* Stats mini */
   .stats-mini{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:16px;}
@@ -601,6 +607,7 @@ function renderHTML(result, todayDisplay) {
     <span class="chip">每交易日更新</span>
   </div>
   <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
+  <button class="refresh-btn" onclick="triggerRefresh()" title="手动刷新日报">🔄 刷新日报</button>
 </div>
 
 <div class="stats-mini">
@@ -654,6 +661,61 @@ ${keyPoints.length > 0 ? `
 </div>
 
 </div>
+<script>
+const REFRESH_URL = 'http://127.0.0.1:3456';
+async function triggerRefresh(){
+  const btn = document.querySelector('.refresh-btn');
+  btn.disabled = true;
+  btn.textContent = '⏳ 构建中...';
+  try {
+    const r = await fetch(REFRESH_URL + '/refresh', { method: 'POST' });
+    const d = await r.json();
+    if (r.ok) {
+      showToast('已提交刷新，约2分钟后生效', 'ok');
+      pollStatus();
+    } else {
+      showToast(d.message || '请求失败', 'err');
+      resetBtn();
+    }
+  } catch(e) {
+    showToast('刷新服务未启动，请本地运行 refresh-server.mjs', 'err');
+    resetBtn();
+  }
+}
+function showToast(msg, type) {
+  const t = document.createElement('div');
+  t.className = 'refresh-toast toast-' + type;
+  t.textContent = msg;
+  document.body.appendChild(t);
+  setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 300); }, 4000);
+}
+function resetBtn() {
+  const btn = document.querySelector('.refresh-btn');
+  btn.disabled = false;
+  btn.textContent = '🔄 刷新日报';
+}
+async function pollStatus() {
+  for (let i = 0; i < 12; i++) {
+    await new Promise(r => setTimeout(r, 10000));
+    try {
+      const r = await fetch(REFRESH_URL + '/status');
+      const d = await r.json();
+      if (d.state === 'done') {
+        showToast('刷新完成！3秒后自动重载', 'ok');
+        setTimeout(() => location.reload(), 3000);
+        return;
+      }
+      if (d.state === 'error') {
+        showToast('刷新失败，请查看服务端日志', 'err');
+        resetBtn();
+        return;
+      }
+    } catch(e) { resetBtn(); return; }
+  }
+  showToast('构建超时，请稍后手动刷新页面', 'err');
+  resetBtn();
+}
+</script>
 </body>
 </html>`;
 }
