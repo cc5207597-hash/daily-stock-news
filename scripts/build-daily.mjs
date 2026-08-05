@@ -25,11 +25,16 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=光模块+光通信+CPO+硅光+800G+1.6T+中际旭创+新易盛+天孚通信&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-光模块' },
     { url: 'https://news.google.com/rss/search?q=AI应用+大模型+智能体+agent+应用落地+软件&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-AI应用' },
   ],
-  // Samsung/SK hynix/Korean + US stock market monitoring
+  // A-share leaders — direct coverage of key stocks
   extraFeeds: [
     { url: 'https://news.google.com/rss/search?q=KOSPI+KOSDAQ+Samsung+SK+hynix+Korean+semiconductor+KRX&hl=en-US&gl=US&ceid=US:en', name: '韩国半导体' },
     { url: 'https://news.google.com/rss/search?q=NASDAQ+SOX+semiconductor+index+Nvidia+AMD+Broadcom+Qualcomm+US+stock&hl=en-US&gl=US&ceid=US:en', name: '美股半导体' },
     { url: 'https://news.google.com/rss/search?q=삼성전자+SK하이닉스+반도체+한국+증시&hl=ko-KR&gl=KR&ceid=KR:ko', name: '한국-반도체' },
+    // A-share leader tracking
+    { url: 'https://news.google.com/rss/search?q=中际旭创+新易盛+天孚通信+光模块+制裁+出口管制+业绩+订单&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '光模块龙头' },
+    { url: 'https://news.google.com/rss/search?q=中芯国际+北方华创+中微公司+海光信息+寒武纪+先进制程+设备+制裁+产能&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '半导体龙头' },
+    { url: 'https://news.google.com/rss/search?q=金山办公+科大讯飞+万兴科技+拓尔思+AI应用+软件+A股+制裁&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: 'AI应用龙头' },
+    { url: 'https://news.google.com/rss/search?q=Zhongji+Innolight+Eoptolink+Tianfu+optical+sanction+export+ban+BIS+entity+list&hl=en-US&gl=US&ceid=US:en', name: 'Optical-US' },
   ],
 
   maxAgeSeconds: 3 * 24 * 3600,
@@ -200,16 +205,20 @@ async function analyzeWithClaude(newsItems) {
 - notes：可选补充
 
 另外生成：
-- sector_matrix：三个板块各一句话核心动态
+- sector_matrix：三个板块固定输出（半导体、光模块、AI应用各一条），每板块字段：name、shock、direction、news_count、summary、tickers
 - key_points：3-5条今日核心简讯，【板块】开头+具体数据
 - market_summary：一段话产业动态总结
 
-JSON（输出 8-15 条 consolidated 简讯）：
+JSON（输出 8-15 条 consolidated 简讯，sector_matrix固定3条）：
 {
   "analyzed": [
     { "index": -1, "title_cn": "...", "summary_cn": "...", "category": "半导体", "direction": "利空", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": "" }
   ],
-  "sector_matrix": [...],
+  "sector_matrix": [
+    { "name": "半导体", "shock": "强", "direction": "利好", "news_count": 5, "summary": "核心逻辑", "tickers": "中芯国际" },
+    { "name": "光模块", "shock": "强", "direction": "利空", "news_count": 3, "summary": "核心逻辑", "tickers": "中际旭创" },
+    { "name": "AI应用", "shock": "中", "direction": "利好", "news_count": 2, "summary": "核心逻辑", "tickers": "金山办公" }
+  ],
   "key_points": [...],
   "market_summary": "..."
 }
