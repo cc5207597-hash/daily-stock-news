@@ -188,15 +188,28 @@ async function analyzeWithClaude(newsItems) {
 
   const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
 
-核心任务：去重合并为 8-15 条行业简讯。规则：同类涨跌合并为一条，去情绪化/个人故事/标题党，保留技术突破/政策/订单/产能/竞争/制裁等有产业逻辑内容。三个板块务必各有覆盖。
+核心任务：去重合并为 8-12 条行业简讯。规则：同类涨跌行情合并为一条（如多条"三星跌X%"→一条"韩国存储双雄下跌"）；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动等有产业逻辑的内容。必须确保半导体、光模块、AI应用三个板块至少各有 2 条简讯。如果某个板块原始新闻不够，请从数据中心/算力/服务器/云厂商等关联新闻中合理推断转化。
 
-每条简讯：title_cn、summary_cn、category、direction、impact、certainty、time_window、tickers、notes。
-另生成 sector_matrix（三条固定：半导体/光模块/AI应用）、key_points（3-5条）、market_summary。
+每条简讯包含以下字段（请严格遵守字段名）：
+- title_cn：专业平实的行业简讯标题
+- summary_cn：客观事实提炼，包含具体公司名/数据/技术细节，30-60字
+- category：半导体 / 光模块 / AI应用（三选一）
+- direction：利好 / 利空 / 中性 / 分化
+- impact：极高 / 高 / 中 / 低
+- certainty：高 / 中 / 低
+- time_window：短期 / 中期 / 长期
+- tickers：1-3个直接关联的A股标的（如中际旭创、中芯国际、金山办公等），不确定标"—"
+- notes：补充说明，无则留空
 
-输出标准 JSON —— 注意 analyzed 是一个数组，放在一个 JSON 对象里：
-{"analyzed": [{"title_cn": "...", ...}], "sector_matrix": [...], "key_points": [...], "market_summary": "..."}
+另外生成：
+- sector_matrix：固定三条，分别对应半导体、光模块、AI应用，每条的字段：name、shock（强/中/弱）、direction、news_count、summary、tickers
+- key_points：3-5条，以【板块】开头，包含具体数据或标的
+- market_summary：一段话总结产业动态
 
-只输出 JSON，不要其他内容。新闻原文：
+输出 JSON，不要 markdown 包裹，不要任何其他文字：
+{"analyzed": [{"title_cn": "...", "summary_cn": "...", "category": "半导体", "direction": "利空", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": ""}], "sector_matrix": [{"name": "半导体", "shock": "强", "direction": "分化", "news_count": 5, "summary": "...", "tickers": "..."}], "key_points": ["【半导体】..."], "market_summary": "..."}
+
+新闻原文：
 
 ${newsText}`;
 
