@@ -25,8 +25,9 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=光模块+光通信+CPO+硅光+800G+1.6T+中际旭创+新易盛+天孚通信&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-光模块' },
     { url: 'https://news.google.com/rss/search?q=AI应用+大模型+智能体+agent+应用落地+软件&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-AI应用' },
   ],
-  // A-share leaders — direct coverage of key stocks
+  // Publisher-targeted feeds — Reuters, Bloomberg, 财联社, CNBC, WSJ
   extraFeeds: [
+    // Korea / US market
     { url: 'https://news.google.com/rss/search?q=KOSPI+KOSDAQ+Samsung+SK+hynix+Korean+semiconductor+KRX&hl=en-US&gl=US&ceid=US:en', name: '韩国半导体' },
     { url: 'https://news.google.com/rss/search?q=NASDAQ+SOX+semiconductor+index+Nvidia+AMD+Broadcom+Qualcomm+US+stock&hl=en-US&gl=US&ceid=US:en', name: '美股半导体' },
     { url: 'https://news.google.com/rss/search?q=삼성전자+SK하이닉스+반도체+한국+증시&hl=ko-KR&gl=KR&ceid=KR:ko', name: '한국-반도체' },
@@ -36,10 +37,33 @@ const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=金山办公+科大讯飞+万兴科技+拓尔思+AI应用+软件+A股+制裁&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: 'AI应用龙头' },
     { url: 'https://news.google.com/rss/search?q=Zhongji+Innolight+Eoptolink+Tianfu+optical+sanction+export+ban+BIS+entity+list&hl=en-US&gl=US&ceid=US:en', name: 'Optical-US' },
     { url: 'https://news.google.com/rss/search?q=光模块+800G+1.6T+订单+出货+业绩+关税+贸易战&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '光模块业绩' },
+    // Reuters — semiconductor, AI, data center, chip sanctions
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+AI+Nvidia+TSMC+foundry&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-半导体' },
+    { url: 'https://news.google.com/rss/search?q=AI+artificial+intelligence+data+center+cloud+compute&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-AI' },
+    { url: 'https://news.google.com/rss/search?q=China+chip+sanction+export+control+technology+restriction&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-中国芯片' },
+    // Bloomberg — tech, semiconductor, market
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology+AI+stock+market&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-科技' },
+    { url: 'https://news.google.com/rss/search?q=Nvidia+TSMC+AMD+Intel+chip+stock+earnings&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-芯片股' },
+    // CNBC — tech investing, market
+    { url: 'https://news.google.com/rss/search?q=semiconductor+Nvidia+AMD+chip+stock+AI+investing&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-科技投资' },
+    { url: 'https://news.google.com/rss/search?q=AI+data+center+cloud+hyperscaler+capital+spending&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-数据中心' },
+    // 财联社 / cls.cn — Chinese financial news
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+AI+光模块+算力&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-半导体AI' },
+    { url: 'https://news.google.com/rss/search?q=中际旭创+中芯国际+北方华创+金山办公+科大讯飞+A股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-A股龙头' },
+    { url: 'https://news.google.com/rss/search?q=制裁+出口管制+芯片+AI+科技+限制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-制裁政策' },
+    // WSJ / FT — financial and tech
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology+AI&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-科技' },
+    { url: 'https://news.google.com/rss/search?q=China+semiconductor+chip+sanction+export&hl=en-US&gl=US&ceid=US:en&sites=ft', name: 'FT-中国芯片' },
+    // Broader Chinese financial media
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+AI+人工智能+算力+数据中心&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=21jingji', name: '21世纪经济' },
+    { url: 'https://news.google.com/rss/search?q=芯片+半导体+光模块+AI+科技股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=eeo', name: '经济观察报' },
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+制裁+光模块+AI+应用+龙头&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=yicai', name: '第一财经' },
+    // Nikkei Asia — Asian semiconductor supply chain
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+TSMC+Samsung+SK+hynix+supply+chain&hl=en-US&gl=US&ceid=US:en&sites=nikkei', name: 'Nikkei-亚洲供应链' },
   ],
 
-  maxAgeSeconds: 2 * 24 * 3600,
-  maxNewsCount: 30,
+  maxAgeSeconds: 4 * 24 * 3600,
+  maxNewsCount: 80,
 };
 
 // ── 工具函数 ──────────────────────────────────────────
@@ -163,10 +187,10 @@ async function fetchAllNews() {
   const recent = deduped.filter(item => (now - item.pubDate.getTime()) < CONFIG.maxAgeSeconds * 1000);
   console.log(`  去重后 ${deduped.length} 条，${days}天内 ${recent.length} 条`);
 
-  if (recent.length < 10) {
-    console.log(`  ${days}天内不足10条，放宽到7天...`);
-    const wide = deduped.filter(item => (now - item.pubDate.getTime()) < 7 * 24 * 3600 * 1000);
-    console.log(`  7天内 ${wide.length} 条`);
+  if (recent.length < 15) {
+    console.log(`  ${days}天内不足15条，放宽到14天...`);
+    const wide = deduped.filter(item => (now - item.pubDate.getTime()) < 14 * 24 * 3600 * 1000);
+    console.log(`  14天内 ${wide.length} 条`);
     return wide.slice(0, CONFIG.maxNewsCount);
   }
 
@@ -189,7 +213,7 @@ async function analyzeWithClaude(newsItems) {
 
   const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
 
-核心任务：去重合并为 8-12 条行业简讯。规则：同类涨跌行情合并为一条（如多条"三星跌X%"→一条"韩国存储双雄下跌"）；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动等有产业逻辑的内容。必须确保半导体、光模块、AI应用三个板块至少各有 2 条简讯。如果某个板块原始新闻不够，请从数据中心/算力/服务器/云厂商等关联新闻中合理推断转化。
+核心任务：去重合并为 18-24 条行业简讯。规则：同类涨跌行情合并为一条（如多条"三星跌X%"→一条"韩国存储双雄下跌"）；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动等有产业逻辑的内容。必须确保半导体、光模块、AI应用三个板块至少各有 6 条简讯。如果某个板块原始新闻不够，请从数据中心/算力/服务器/云厂商等关联新闻中合理推断转化。
 
 每条简讯包含以下字段（请严格遵守字段名）：
 - title_cn：专业平实的行业简讯标题
@@ -273,7 +297,7 @@ ${newsText}`;
     title_cn: ai.title_cn || '[未命名]',
     summary_cn: ai.summary_cn || '',
     category: ai.category || '',
-    direction: ai.direction || '中性',
+    direction: (ai.direction || '中性').replace('中性偏',''),
     impact: ai.impact || '中',
     certainty: ai.certainty || '中',
     time_window: ai.time_window || '中期',
@@ -440,7 +464,7 @@ function renderHTML(result, todayDisplay) {
       n.source ? `<span>${escHtml(n.source)}</span>` : '',
       `<span>${timeAgo(n.pubDate)}</span>`,
       n.tickers && n.tickers !== '—' ? `<span class="ticker-inline">${escHtml(n.tickers)}</span>` : '',
-      n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()">原文</a>` : '',
+      n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>` : '',
       `</div>`,
       `<div class="card-detail">`,
       `<div class="detail-grid">`,
@@ -522,7 +546,8 @@ function renderHTML(result, todayDisplay) {
   .card-original-title{font-size:.67rem;color:var(--text-muted);margin-bottom:2px;font-style:italic;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
   .card-summary{font-size:.75rem;color:var(--text-dim);margin-bottom:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
   .card-meta{display:flex;flex-wrap:wrap;gap:5px;align-items:center;font-size:.66rem;color:var(--text-muted);}
-  .card-meta a{color:var(--accent);text-decoration:none;}
+  .card-meta a{color:var(--accent);text-decoration:none;font-weight:600;}
+  .src-link{padding-left:2px;}
   .badge{display:inline-flex;align-items:center;gap:2px;padding:1px 7px;border-radius:10px;font-size:.62rem;font-weight:700;}
   .badge-bull{background:#dcfce7;color:#15803d;}
   .badge-bear{background:#fee2e2;color:#b91c1c;}
