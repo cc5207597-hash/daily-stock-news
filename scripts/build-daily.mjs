@@ -14,51 +14,56 @@ const CONFIG = {
   apiBase: 'http://127.0.0.1:15721',
   model: 'claude-sonnet-4-20250514',
 
-  // Google News RSS — 聚焦半导体、光模块、AI应用
+  // Google News RSS — 聚焦半导体、光模块、创新药、黄金
   feeds: [
     { url: 'https://news.google.com/rss/search?q=semiconductor+chip+Nvidia+TSMC+Intel+AMD+HBM+foundry&hl=en-US&gl=US&ceid=US:en', name: '半导体' },
     { url: 'https://news.google.com/rss/search?q=optical+transceiver+800G+1.6T+silicon+photonics+CPO+LPO+data+center+interconnect&hl=en-US&gl=US&ceid=US:en', name: '光模块' },
-    { url: 'https://news.google.com/rss/search?q=AI+application+agent+LLM+GPT+Claude+Gemini+artificial+intelligence+software&hl=en-US&gl=US&ceid=US:en', name: 'AI应用' },
-    { url: 'https://news.google.com/rss/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93+%E8%8A%AF%E7%89%87+%E5%85%89%E6%A8%A1%E5%9D%97+AI+%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-半导体AI' },
+    { url: 'https://news.google.com/rss/search?q=innovative+drug+biotech+pharma+FDA+approval+clinical+trial+oncology+gene+therapy&hl=en-US&gl=US&ceid=US:en', name: '创新药' },
+    { url: 'https://news.google.com/rss/search?q=gold+price+COMEX+gold+ETF+gold+futures+central+bank+gold+reserve&hl=en-US&gl=US&ceid=US:en', name: '黄金' },
+    { url: 'https://news.google.com/rss/search?q=%E5%8D%8A%E5%AF%BC%E4%BD%93+%E8%8A%AF%E7%89%87+%E5%85%89%E6%A8%A1%E5%9D%97+%E5%88%9B%E6%96%B0%E8%8D%AF+%E9%BB%84%E9%87%91&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-四板块' },
     { url: 'https://news.google.com/rss/search?q=China+semiconductor+chip+sanction+export+control+光刻+EDA&hl=en-US&gl=US&ceid=US:en', name: '中国芯片' },
-    { url: 'https://news.google.com/rss/search?q=AI+data+center+server+GPU+compute+power+算力+cloud&hl=en-US&gl=US&ceid=US:en', name: '算力/数据中心' },
-    { url: 'https://news.google.com/rss/search?q=光模块+光通信+CPO+硅光+800G+1.6T+中际旭创+新易盛+天孚通信&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-光模块' },
-    { url: 'https://news.google.com/rss/search?q=AI应用+大模型+智能体+agent+应用落地+软件&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-AI应用' },
+    { url: 'https://news.google.com/rss/search?q=创新药+生物医药+临床试验+FDA+审批+药明康德+百济神州+恒瑞医药&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-创新药' },
+    { url: 'https://news.google.com/rss/search?q=黄金+金价+COMEX+黄金ETF+央行购金+美联储+利率&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '中文-黄金' },
   ],
-  // Publisher-targeted feeds — Reuters, Bloomberg, 财联社, CNBC, WSJ
+  // Publisher-targeted feeds
   extraFeeds: [
-    // Korea / US market
+    // Korea / US market — semiconductor
     { url: 'https://news.google.com/rss/search?q=KOSPI+KOSDAQ+Samsung+SK+hynix+Korean+semiconductor+KRX&hl=en-US&gl=US&ceid=US:en', name: '韩国半导体' },
     { url: 'https://news.google.com/rss/search?q=NASDAQ+SOX+semiconductor+index+Nvidia+AMD+Broadcom+Qualcomm+US+stock&hl=en-US&gl=US&ceid=US:en', name: '美股半导体' },
     { url: 'https://news.google.com/rss/search?q=삼성전자+SK하이닉스+반도체+한국+증시&hl=ko-KR&gl=KR&ceid=KR:ko', name: '한국-반도체' },
     // A-share leader tracking
     { url: 'https://news.google.com/rss/search?q=中际旭创+新易盛+天孚通信+光模块+制裁+出口管制+业绩+订单&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '光模块龙头' },
     { url: 'https://news.google.com/rss/search?q=中芯国际+北方华创+中微公司+海光信息+寒武纪+先进制程+设备+制裁+产能&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '半导体龙头' },
-    { url: 'https://news.google.com/rss/search?q=金山办公+科大讯飞+万兴科技+拓尔思+AI应用+软件+A股+制裁&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: 'AI应用龙头' },
+    { url: 'https://news.google.com/rss/search?q=药明康德+百济神州+恒瑞医药+信达生物+康龙化成+创新药+临床+审批+授权+出海&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '创新药龙头' },
+    { url: 'https://news.google.com/rss/search?q=紫金矿业+山东黄金+中金黄金+赤峰黄金+银泰黄金+黄金股+A股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '黄金龙头' },
     { url: 'https://news.google.com/rss/search?q=Zhongji+Innolight+Eoptolink+Tianfu+optical+sanction+export+ban+BIS+entity+list&hl=en-US&gl=US&ceid=US:en', name: 'Optical-US' },
     { url: 'https://news.google.com/rss/search?q=光模块+800G+1.6T+订单+出货+业绩+关税+贸易战&hl=zh-CN&gl=CN&ceid=CN:zh-Hans', name: '光模块业绩' },
-    // Reuters — semiconductor, AI, data center, chip sanctions
+    // Reuters
     { url: 'https://news.google.com/rss/search?q=semiconductor+chip+AI+Nvidia+TSMC+foundry&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-半导体' },
-    { url: 'https://news.google.com/rss/search?q=AI+artificial+intelligence+data+center+cloud+compute&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-AI' },
+    { url: 'https://news.google.com/rss/search?q=biotech+pharma+drug+FDA+clinical+trial+approval+innovation&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-创新药' },
+    { url: 'https://news.google.com/rss/search?q=gold+price+COMEX+ETF+central+bank+reserve+precious+metal&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-黄金' },
     { url: 'https://news.google.com/rss/search?q=China+chip+sanction+export+control+technology+restriction&hl=en-US&gl=US&ceid=US:en&sites=reuters', name: 'Reuters-中国芯片' },
-    // Bloomberg — tech, semiconductor, market
-    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology+AI+stock+market&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-科技' },
-    { url: 'https://news.google.com/rss/search?q=Nvidia+TSMC+AMD+Intel+chip+stock+earnings&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-芯片股' },
-    // CNBC — tech investing, market
-    { url: 'https://news.google.com/rss/search?q=semiconductor+Nvidia+AMD+chip+stock+AI+investing&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-科技投资' },
-    { url: 'https://news.google.com/rss/search?q=AI+data+center+cloud+hyperscaler+capital+spending&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-数据中心' },
-    // 财联社 / cls.cn — Chinese financial news
-    { url: 'https://news.google.com/rss/search?q=半导体+芯片+AI+光模块+算力&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-半导体AI' },
-    { url: 'https://news.google.com/rss/search?q=中际旭创+中芯国际+北方华创+金山办公+科大讯飞+A股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-A股龙头' },
-    { url: 'https://news.google.com/rss/search?q=制裁+出口管制+芯片+AI+科技+限制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-制裁政策' },
-    // WSJ / FT — financial and tech
-    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology+AI&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-科技' },
+    // Bloomberg
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology+stock+market&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-科技' },
+    { url: 'https://news.google.com/rss/search?q=gold+price+forecast+COMEX+precious+metal+outlook&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-黄金' },
+    { url: 'https://news.google.com/rss/search?q=biotech+pharma+FDA+drug+approval+M&A&hl=en-US&gl=US&ceid=US:en&sites=bloomberg', name: 'Bloomberg-创新药' },
+    // CNBC
+    { url: 'https://news.google.com/rss/search?q=semiconductor+Nvidia+AMD+chip+stock+investing&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-科技投资' },
+    { url: 'https://news.google.com/rss/search?q=gold+price+investing+precious+metal+market&hl=en-US&gl=US&ceid=US:en&sites=cnbc', name: 'CNBC-黄金' },
+    // 财联社
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+光模块+创新药+黄金&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-四板块' },
+    { url: 'https://news.google.com/rss/search?q=药明康德+百济神州+恒瑞医药+创新药+临床+审批&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-创新药' },
+    { url: 'https://news.google.com/rss/search?q=黄金+金价+美联储+利率+央行购金&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-黄金' },
+    { url: 'https://news.google.com/rss/search?q=制裁+出口管制+芯片+科技+限制&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=cls', name: '财联社-制裁政策' },
+    // WSJ / FT
+    { url: 'https://news.google.com/rss/search?q=semiconductor+chip+technology&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-科技' },
+    { url: 'https://news.google.com/rss/search?q=gold+market+price+outlook+Fed+rate&hl=en-US&gl=US&ceid=US:en&sites=wsj', name: 'WSJ-黄金' },
     { url: 'https://news.google.com/rss/search?q=China+semiconductor+chip+sanction+export&hl=en-US&gl=US&ceid=US:en&sites=ft', name: 'FT-中国芯片' },
-    // Broader Chinese financial media
-    { url: 'https://news.google.com/rss/search?q=半导体+芯片+AI+人工智能+算力+数据中心&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=21jingji', name: '21世纪经济' },
-    { url: 'https://news.google.com/rss/search?q=芯片+半导体+光模块+AI+科技股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=eeo', name: '经济观察报' },
-    { url: 'https://news.google.com/rss/search?q=半导体+芯片+制裁+光模块+AI+应用+龙头&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=yicai', name: '第一财经' },
-    // Nikkei Asia — Asian semiconductor supply chain
+    // Chinese financial media
+    { url: 'https://news.google.com/rss/search?q=半导体+芯片+创新药+黄金+投资&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=21jingji', name: '21世纪经济' },
+    { url: 'https://news.google.com/rss/search?q=创新药+生物医药+黄金+科技股&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=eeo', name: '经济观察报' },
+    { url: 'https://news.google.com/rss/search?q=半导体+创新药+黄金+资产配置&hl=zh-CN&gl=CN&ceid=CN:zh-Hans&sites=yicai', name: '第一财经' },
+    // Nikkei Asia
     { url: 'https://news.google.com/rss/search?q=semiconductor+chip+TSMC+Samsung+SK+hynix+supply+chain&hl=en-US&gl=US&ceid=US:en&sites=nikkei', name: 'Nikkei-亚洲供应链' },
   ],
 
@@ -211,24 +216,24 @@ async function analyzeWithClaude(newsItems) {
     `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
+  const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
 
-核心任务：去重合并为 18-24 条行业简讯。规则：同类涨跌行情合并为一条（如多条"三星跌X%"→一条"韩国存储双雄下跌"）；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动等有产业逻辑的内容。必须确保半导体、光模块、AI应用三个板块至少各有 6 条简讯。如果某个板块原始新闻不够，请从数据中心/算力/服务器/云厂商等关联新闻中合理推断转化。
+核心任务：去重合并为 20-28 条行业简讯。规则：同类涨跌行情合并为一条；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动、临床数据/FDA审批、金价/利率/央行购金等有产业逻辑的内容。必须确保半导体、光模块、创新药、黄金四个板块至少各有 5 条简讯。
 
 每条简讯包含以下字段（请严格遵守字段名）：
 - title_cn：专业平实的行业简讯标题
 - summary_cn：客观事实提炼，包含具体公司名/数据/技术细节，30-60字
-- category：半导体 / 光模块 / AI应用（三选一）
+- category：半导体 / 光模块 / 创新药 / 黄金（四选一）
 - direction：利好 / 利空 / 中性 / 分化
 - impact：极高 / 高 / 中 / 低
 - certainty：高 / 中 / 低
 - time_window：短期 / 中期 / 长期
-- tickers：1-3个直接关联的A股标的（如中际旭创、中芯国际、金山办公等），不确定标"—"
+- tickers：1-3个直接关联的A股标的（如中际旭创、中芯国际、药明康德、紫金矿业等），不确定标"—"
 - notes：补充说明，无则留空
 
 另外生成：
-- sector_matrix：固定三条，分别对应半导体、光模块、AI应用，每条的字段：name、shock（强/中/弱）、direction、news_count、summary、tickers
-- key_points：3-5条，以【板块】开头，包含具体数据或标的
+- sector_matrix：固定四条，分别对应半导体、光模块、创新药、黄金，每条的字段：name、shock（强/中/弱）、direction、news_count、summary、tickers
+- key_points：4-6条，以【板块】开头，包含具体数据或标的
 - market_summary：一段话总结产业动态
 
 输出 JSON，不要 markdown 包裹，不要任何其他文字：
@@ -314,7 +319,8 @@ ${newsText}`;
   const defaultMatrix = {
     '半导体': { name: '半导体', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
     '光模块': { name: '光模块', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
-    'AI应用': { name: 'AI应用', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '创新药': { name: '创新药', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '黄金': { name: '黄金', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
   };
   const aiMatrix = Array.isArray(result.sector_matrix) ? result.sector_matrix : [];
   for (const s of aiMatrix) {
@@ -349,10 +355,11 @@ function analyzeWithKeywords(newsItems) {
     { kw: ['chip ban','chip export','chip restriction','芯片管制','出口管制','semiconductor export','sanction','制裁','entity list'], category: '半导体', impact: '极高', dir: '分化', tickers: '中芯国际、北方华创、中微公司', time: '短期' },
     { kw: ['optical','transceiver','光模块','800G','1.6T','800g','1.6t','CPO','LPO','光通信','硅光','silicon photonic'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、新易盛、天孚通信', time: '短期' },
     { kw: ['data center','数据中心','hyperscaler','云服务','cloud','AWS','Azure','Google Cloud'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、工业富联', time: '中期' },
-    { kw: ['AI agent','智能体','AI应用','大模型','LLM','GPT','Claude','Gemini','应用落地','SaaS','copilot'], category: 'AI应用', impact: '高', dir: '利好', tickers: '金山办公、科大讯飞', time: '中期' },
-    { kw: ['open source','开源模型','Llama','Mistral','DeepSeek','深度求索','deepseek'], category: 'AI应用', impact: '中', dir: '利好', tickers: '—', time: '中期' },
+    { kw: ['FDA','approval','clinical trial','临床试验','NDA','BLA','创新药','biotech','pharma','drug approval','抗体','ADC','gene therapy','细胞治疗'], category: '创新药', impact: '极高', dir: '利好', tickers: '百济神州、药明康德、恒瑞医药', time: '中期' },
+    { kw: ['药明康德','百济神州','恒瑞医药','信达生物','康龙化成','License-out','出海','授权','BD交易'], category: '创新药', impact: '高', dir: '利好', tickers: '药明康德、百济神州', time: '中期' },
+    { kw: ['gold','黄金','COMEX','gold price','金价','gold ETF','央行购金','central bank gold','gold reserve','precious metal'], category: '黄金', impact: '高', dir: '利好', tickers: '紫金矿业、山东黄金', time: '短期' },
+    { kw: ['Fed','美联储','rate cut','降息','利率','inflation','通胀','gold forecast','黄金预测'], category: '黄金', impact: '高', dir: '利好', tickers: '紫金矿业、中金黄金', time: '短期' },
     { kw: ['chip','semiconductor','半导体','芯片','processor','封测','EDA','IP'], category: '半导体', impact: '中', dir: '利好', tickers: '—', time: '中期' },
-    { kw: ['AI','artificial intelligence','人工智能','算力','compute'], category: 'AI应用', impact: '中', dir: '利好', tickers: '—', time: '中期' },
     { kw: ['server','服务器','rack','机架','cooling','散热','液冷'], category: '光模块', impact: '中', dir: '利好', tickers: '工业富联、浪潮信息', time: '短期' },
     { kw: ['quantum','量子','quantum computing'], category: '半导体', impact: '低', dir: '利好', tickers: '—', time: '长期' },
     { kw: ['China chip','国产替代','自主可控','localization','domestic chip','国产芯片'], category: '半导体', impact: '高', dir: '利好', tickers: '中芯国际、北方华创、海光信息', time: '中期' },
@@ -389,7 +396,8 @@ function analyzeWithKeywords(newsItems) {
   const secMap = {
     '半导体': { name: '半导体', shock: '中', direction: '分化', news_count: 0, summary: '', tickers: '' },
     '光模块': { name: '光模块', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
-    'AI应用': { name: 'AI应用', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
+    '创新药': { name: '创新药', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
+    '黄金': { name: '黄金', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
   };
   for (const item of analyzed) {
     const cat = item.category;
@@ -405,7 +413,7 @@ function analyzeWithKeywords(newsItems) {
   const matrix = Object.values(secMap).filter(s => s.news_count > 0).sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
 
   const points = [
-    `今日共抓取 ${analyzed.length} 条科技新闻，聚焦半导体、光模块、AI应用三大赛道。`,
+    `今日共抓取 ${analyzed.length} 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。`,
     `极高影响事件 ${analyzed.filter(n => n.impact === '极高').length} 条，高影响 ${analyzed.filter(n => n.impact === '高').length} 条，利好方向 ${analyzed.filter(n => n.direction.includes('利好')).length} 条。`,
   ];
   if (matrix.length > 0) {
@@ -423,7 +431,7 @@ function analyzeWithKeywords(newsItems) {
     analyzed,
     sectorMatrix: matrix,
     keyPoints: points,
-    marketSummary: `本日报聚焦半导体、光模块、AI应用三大科技赛道，${analyzed.length} 条新闻经AI分析自动生成。`,
+    marketSummary: `本日报聚焦半导体、光模块、创新药、黄金四大赛道，${analyzed.length} 条新闻经AI分析自动生成。`,
     isAi: false,
   };
 }
@@ -451,7 +459,7 @@ function renderHTML(result, todayDisplay) {
     return [
       `<div class="news-card" onclick="this.classList.toggle('expanded')">`,
       `<div class="card-left">`,
-      `<div class="card-cat cat-${n.category === '半导体' ? 'semi' : n.category === '光模块' ? 'optics' : n.category === 'AI应用' ? 'ai' : 'other'}">${escHtml(n.category || '综合')}</div>`,
+      `<div class="card-cat cat-${n.category === '半导体' ? 'semi' : n.category === '光模块' ? 'optics' : n.category === '创新药' ? 'pharma' : n.category === '黄金' ? 'gold' : 'other'}">${escHtml(n.category || '综合')}</div>`,
       fresh ? `<div class="fresh-badge">新</div>` : '',
       `</div>`,
       `<div class="card-right">`,
@@ -490,12 +498,12 @@ function renderHTML(result, todayDisplay) {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>科技板块日报 · ${todayDisplay}</title>
+<title>行业板块日报 · ${todayDisplay}</title>
 <style>
   :root {
     --bg:#f0f2f5; --card-bg:#fff; --border:#e2e4e9; --text:#1a1d28;
     --text-dim:#5f6570; --text-muted:#9ca0af; --accent:#2563eb;
-    --semi:#7c3aed; --optics:#0891b2; --ai:#059669;
+    --semi:#7c3aed; --optics:#0891b2; --pharma:#0d9488; --gold:#d97706;
     --radius:12px; --shadow:0 1px 3px rgba(0,0,0,.04);
   }
   *{margin:0;padding:0;box-sizing:border-box;}
@@ -523,8 +531,8 @@ function renderHTML(result, todayDisplay) {
   .st b{color:var(--text);font-size:.82rem;margin:0 1px;}
 
   /* Sector summary row */
-  .sector-row{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:18px;}
-  @media(max-width:600px){.sector-row{grid-template-columns:1fr;}}
+  .sector-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:18px;}
+  @media(max-width:640px){.sector-row{grid-template-columns:repeat(2,1fr);}}
   .sc{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 14px;text-align:center;}
   .sc-name{font-weight:700;font-size:.82rem;margin-bottom:4px;}
   .sc-stat{font-size:.7rem;color:var(--text-dim);}
@@ -543,7 +551,8 @@ function renderHTML(result, todayDisplay) {
   .card-cat{font-size:.6rem;font-weight:700;padding:3px 6px;border-radius:6px;text-align:center;white-space:nowrap;color:#fff;}
   .cat-semi{background:var(--semi);}
   .cat-optics{background:var(--optics);}
-  .cat-ai{background:var(--ai);}
+  .cat-pharma{background:var(--pharma);}
+  .cat-gold{background:var(--gold);}
   .cat-other{background:#6b7280;}
   .fresh-badge{font-size:.55rem;font-weight:800;color:#fff;background:#ef4444;border-radius:3px;padding:1px 4px;}
 
@@ -599,8 +608,8 @@ function renderHTML(result, todayDisplay) {
 <div class="container">
 
 <div class="header">
-  <h1>📡 科技板块日报</h1>
-  <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 半导体 / 光模块 / AI应用</div>
+  <h1>📡 行业板块日报</h1>
+  <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
   <div class="badge-row">
     <span class="chip ${isAi ? 'chip-ai' : 'chip'}">${isAi ? 'AI 分析' : '关键词引擎'}</span>
     ${isAi ? '<span class="chip chip-ai">中文翻译</span>' : ''}
@@ -656,7 +665,7 @@ ${keyPoints.length > 0 ? `
 
 <div class="footer">
   基于 Google News RSS 自动抓取 · ${isAi ? 'Claude API 智能分析 + 中文翻译' : '关键词引擎自动分类'}<br>
-  监控范围：半导体 / 光模块 / AI应用 &nbsp;|&nbsp; 包含韩国及美股半导体市场<br>
+  监控范围：半导体 / 光模块 / 创新药 / 黄金 &nbsp;|&nbsp; 包含韩国及美股半导体市场<br>
   不构成投资建议。<strong>股市有风险，投资需谨慎。</strong>
 </div>
 
