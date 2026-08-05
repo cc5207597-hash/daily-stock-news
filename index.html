@@ -35,12 +35,20 @@
   .st{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:4px 10px;font-size:.7rem;color:var(--text-dim);}
   .st b{color:var(--text);font-size:.82rem;margin:0 1px;}
 
-  /* ETF row */
-  .etf-row{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:14px;}
-  .etf-item{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:5px 10px;display:flex;gap:8px;align-items:center;}
-  .etf-name{font-size:.66rem;color:var(--text-dim);font-weight:600;}
-  .etf-price{font-size:.78rem;font-weight:800;font-variant-numeric:tabular-nums;}
-  .etf-change{font-size:.68rem;font-weight:700;}
+  /* ETF grid */
+  .etf-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+  @media(max-width:640px){.etf-grid{grid-template-columns:repeat(2,1fr);}}
+  .etf-group{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;}
+  .etf-group-name{font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:6px;display:inline-block;color:#fff;margin-bottom:6px;}
+  .cat-semi{background:var(--semi);}
+  .cat-optics{background:var(--optics);}
+  .cat-pharma{background:var(--pharma);}
+  .cat-gold{background:var(--gold);}
+  .etf-item{display:flex;justify-content:space-between;align-items:center;padding:3px 0;}
+  .etf-name{font-size:.65rem;color:var(--text-dim);}
+  .etf-price{font-size:.72rem;font-weight:700;font-variant-numeric:tabular-nums;}
+  .etf-change{font-size:.65rem;font-weight:700;}
+  .etf-item+.etf-item{border-top:1px solid var(--border);}
 
   /* Sector summary row */
   .sector-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:18px;}
@@ -121,7 +129,7 @@
 
 <div class="header">
   <h1>📡 行业板块日报</h1>
-  <div class="subtitle">2026-08-05 · 21 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
+  <div class="subtitle">2026-08-05 · 22 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
   <div class="badge-row">
     <span class="chip chip-ai">AI 分析</span>
     <span class="chip chip-ai">中文翻译</span>
@@ -132,29 +140,17 @@
 </div>
 
 <div class="stats-mini">
-  <div class="st">📈利好 <b style="color:#15803d">17</b></div>
-  <div class="st">📉利空 <b style="color:#dc2626">1</b></div>
-  <div class="st">⚡极高 <b style="color:#dc2626">0</b></div>
+  <div class="st">📈利好 <b style="color:#15803d">14</b></div>
+  <div class="st">📉利空 <b style="color:#dc2626">3</b></div>
+  <div class="st">⚡极高 <b style="color:#dc2626">4</b></div>
   <div class="st">🔥高影响 <b style="color:#ea580c">9</b></div>
   <div class="st">📊板块 <b>4</b></div>
 </div>
 
 
 <div class="sec-title">📈 板块 ETF 指标</div>
-<div class="etf-row">
-<div class="etf-item">
-    <div class="etf-name">芯片ETF</div>
-    <div class="etf-price">11.650</div>
-    <div class="etf-change" style="color:#15803d">+6.39%</div>
-  </div><div class="etf-item">
-    <div class="etf-name">创新药ETF</div>
-    <div class="etf-price">3.670</div>
-    <div class="etf-change" style="color:#15803d">+0.55%</div>
-  </div><div class="etf-item">
-    <div class="etf-name">纳指ETF</div>
-    <div class="etf-price">16.900</div>
-    <div class="etf-change" style="color:#15803d">+3.62%</div>
-  </div>
+<div class="etf-grid">
+<div class="etf-group"><div class="etf-group-name cat-semi">半导体</div><div class="etf-item"><span class="etf-name">芯片ETF华夏</span><span class="etf-price">11.650</span><span class="etf-change" style="color:#15803d">+6.39%</span></div></div><div class="etf-group"><div class="etf-group-name cat-optics">光模块</div><div class="etf-item"><span class="etf-name">通信ETF天弘</span><span class="etf-price">29.050</span><span class="etf-change" style="color:#15803d">+2.51%</span></div></div><div class="etf-group"><div class="etf-group-name cat-pharma">创新药</div><div class="etf-item"><span class="etf-name">创新药ETF华夏</span><span class="etf-price">3.670</span><span class="etf-change" style="color:#15803d">+0.55%</span></div><div class="etf-item"><span class="etf-name">创新药ETF南方</span><span class="etf-price">6.980</span><span class="etf-change" style="color:#15803d">+1.75%</span></div></div><div class="etf-group"><div class="etf-group-name cat-gold">黄金</div><div class="etf-item"><span class="etf-name">黄金ETF博时</span><span class="etf-price">90.290</span><span class="etf-change" style="color:#15803d">+2.74%</span></div></div>
 </div>
 
 
@@ -165,9 +161,9 @@
   <div class="sc">
     <div class="sc-name">半导体</div>
     <div class="sc-stat">
-      <span class="badge badge-bull">利好</span>
+      <span class="badge badge-mixed">分化</span>
       <span class="impact-tag impact-vhigh">强冲击</span>
-      <br><strong>12</strong> 条新闻
+      <br><strong>14</strong> 条新闻
     </div>
   </div>
 
@@ -175,7 +171,7 @@
     <div class="sc-name">光模块</div>
     <div class="sc-stat">
       <span class="badge badge-bull">利好</span>
-      <span class="impact-tag impact-vhigh">强冲击</span>
+      <span class="impact-tag impact-mid">中冲击</span>
       <br><strong>10</strong> 条新闻
     </div>
   </div>
@@ -184,7 +180,7 @@
     <div class="sc-name">创新药</div>
     <div class="sc-stat">
       <span class="badge badge-bull">利好</span>
-      <span class="impact-tag impact-vhigh">强冲击</span>
+      <span class="impact-tag impact-mid">中冲击</span>
       <br><strong>10</strong> 条新闻
     </div>
   </div>
@@ -201,7 +197,7 @@
 </div>
 
 
-<div class="market-summary">💡 全球科技资产风险偏好显著回升，半导体与光模块成为反弹双引擎：海外芯片股强劲修复、AI投资回报闭环落地，带动资金百亿级涌入；光模块1.6T预期上修、蓝思科技跨界封装等事件进一步提振产业情绪。创新药板块在创业板修复与FDA审批提速催化下底部放量，ETF资金抢先布局。黄金市场则剧烈震荡，金价冲击5000美元后大幅回落，机构对后市判断出现明显分歧。总体来看，AI算力与医药创新主线共振，黄金多空博弈激烈，结构性机会凸显。</div>
+<div class="market-summary">💡 全球半导体板块经历剧烈波动，三星、SK海力士受AI情绪与Kioxia业绩拖累出现巨震，但同时中国存储厂CXMT加速扩产，且三星、海力士开始测试中微公司设备，半导体设备国产化取得里程碑式突破。光模块板块在AI投资回报闭环支撑下强势整理，英伟达市值逼近全球第二、Marvell网络芯片放量均印证高速光模块的旺盛需求。创新药方面，FDA推出Trialblazer计划推动临床审批提速，国内生物科技投融资初现暖意，但美国政府停摆风险带来短期干扰。黄金在5000美元关口多空拉锯，高盛下调目标价，但零售端降温与央行购金等结构因素并存，促使黄金板块呈现强震荡分化态势。整体而言，科技创新与地缘博弈交织下，半导体和光模块受益于AI算力军备竞赛，创新药与黄金则在政策与宏观对冲逻辑中寻找结构机会。</div>
 
 <div class="sec-title">新闻列表（按时间从近到远）</div>
 <div class="news-grid">
@@ -211,25 +207,25 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">全球芯片股风险偏好回暖，英特尔、AMD及三星电子等大幅反弹</div>
+<div class="card-title">存储龙头股价剧烈波动，三星电子与SK海力士短线振幅达7-9%</div>
 
-<div class="card-summary">8月4日，海外芯片股集体上扬：英特尔涨10%，AMD涨8%，博通涨6%；三星电子、SK海力士反弹。港股半导体板块同步走强，带动A股半导体情绪。</div>
+<div class="card-summary">近日三星电子、SK海力士交替出现6%-9%的单日涨跌幅，受美股芯片情绪传导、Kioxia业绩不及预期及外资流向推动，韩国半导体板块多空博弈激烈。</div>
 <div class="card-meta">
-<span class="badge badge-bull">利好</span>
+<span class="badge badge-neutral">中性</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">北方华创,中芯国际</span>
+<span class="ticker-inline">兆易创新, 澜起科技</span>
 
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">方向</span>中性</div>
 <div><span class="dl">程度</span>高</div>
 <div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 市场修复叠加AI芯片需求预期</div>
+<div class="verify-note">📝 存储芯片价格周期与市场情绪共振，A股存储类标的同步受联动影响。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -238,52 +234,25 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">全球半导体ETF半月吸金120亿美元，投资者热情重燃</div>
+<div class="card-title">长鑫存储计划新建北京第二座12英寸晶圆厂，加速内存产能扩张</div>
 
-<div class="card-summary">截至8月初，全球半导体ETF在两周内吸引约120亿美元净流入，AI芯片需求激增推动资金大幅回流半导体板块。</div>
+<div class="card-summary">中国长鑫存储（CXMT）正规划在北京建设第二座内存芯片工厂，聚焦AI驱动的高带宽内存及手机DRAM，进一步冲击三星与SK海力士在DDR领域的份额。</div>
 <div class="card-meta">
-<span class="badge badge-bull">利好</span>
+<span class="badge badge-mixed">分化</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">澜起科技,兆易创新</span>
+<span class="ticker-inline">北方华创, 中微公司, 兆易创新</span>
 
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>高</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 资金面显著改善，利于估值修复</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">长鑫存储谋划北京第二座存储厂，加速国产存储芯片扩张</div>
-
-<div class="card-summary">中国DRAM龙头长鑫存储计划在北京建设第二座存储芯片厂，以应对AI驱动的半导体需求并推进自主产能建设。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">兆易创新</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">方向</span>分化</div>
 <div><span class="dl">程度</span>高</div>
 <div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">窗口</span>长期</div>
 </div>
-<div class="verify-note">📝 兆易创新与长鑫深度合作，受益产能扩张</div>
+<div class="verify-note">📝 CXMT扩产利好上游国产设备及材料供应链，但对存储市场价格中枢形成潜在压力。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -292,9 +261,9 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">英特尔携手蓝思科技，共研先进半导体封装技术</div>
+<div class="card-title">英特尔与蓝思科技合作开发先进封装，加速玻璃基板等前沿技术落地</div>
 
-<div class="card-summary">英特尔与蓝思科技达成合作，将共同开发先进半导体封装技术，蓝思科技借此切入半导体封装领域，打开新成长空间。</div>
+<div class="card-summary">英特尔与蓝思科技宣布围绕先进半导体封装展开合作，重点开发玻璃基板及新型面板级封装技术，满足AI芯片对高带宽和高密度互连的需求。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
@@ -308,26 +277,26 @@
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>高</div>
 <div><span class="dl">确定性</span>高</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">窗口</span>长期</div>
 </div>
-<div class="verify-note">📝 跨界合作，封装业务增量可期</div>
+<div class="verify-note">📝 先进封装产线建设将直接拉动蓝思科技精密制造业务，玻璃基板有望成为先进封装关键材料。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-optics">光模块</div>
+<div class="card-cat cat-semi">半导体</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">AI投资回报闭环确立，算力硬件与光模块板块强势大涨</div>
+<div class="card-title">美股芯片股集体反攻，英特尔涨10%、AMD涨8%，台积电获大基金增持</div>
 
-<div class="card-summary">多只算力龙头大幅拉升，市场确认AI投资回报闭环已现，光模块龙头中际旭创、新易盛等领涨，板块日内反弹超4%。</div>
+<div class="card-summary">英特尔、AMD、博通等美股芯片股大幅反弹；Stanley Druckenmiller基金继续持有台积电，押注英伟达和AMD持续拉动AI代工需求。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">中际旭创,新易盛</span>
+<span class="ticker-inline">韦尔股份, 中芯国际, 通富微电</span>
 
 </div>
 <div class="card-detail">
@@ -337,7 +306,34 @@
 <div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 AI算力资本开支回报逻辑兑现</div>
+<div class="verify-note">📝 美股芯片情绪修复带动A股半导体设计及封测板块风险偏好回升。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-semi">半导体</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">中国修订集成电路布图设计规则，强化芯片IP知识产权保护</div>
+
+<div class="card-summary">中国发布新版《集成电路布图设计保护条例》实施纲要，扩大保护范围且简化确权流程，旨在遏制反向工程，提升Fabless企业创新积极性。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-high">高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">韦尔股份, 兆易创新, 圣邦股份</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>高</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>长期</div>
+</div>
+<div class="verify-note">📝 IP保护体系升级将净化国内芯片设计生态，降低设计端侵权风险。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -346,42 +342,15 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">英伟达市值剑指苹果，1.6T光模块需求预期再上修</div>
+<div class="card-title">AI投资回报闭环成型，算力硬件龙头集体大涨，光模块板块获资金流入</div>
 
-<div class="card-summary">分析师看好英伟达即将超越苹果成为全球第二大公司，其GPU出货带动配套高速光模块升级，1.6T光模块放量节点或提前。</div>
+<div class="card-summary">AI资本开支开始显现投资回报闭环，剑桥科技、中际旭创等算力硬件龙头大幅反弹，相关科创ETF反弹超4%，光模块作为确定性环节率先受益。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">中际旭创,天孚通信</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 下游需求确定性增强</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-pharma">创新药</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">A股创新药板块强势修复，与算力硬件、新能源共振大涨</div>
-
-<div class="card-summary">创业板指盘中涨近5%，创新药板块与算力硬件、新能源形成三线共振，CXO及生物科技股集体拉升，板块情绪显著从底部回暖。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">药明康德,百济神州</span>
+<span class="ticker-inline">中际旭创, 新易盛, 天孚通信</span>
 
 </div>
 <div class="card-detail">
@@ -391,24 +360,24 @@
 <div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-
+<div class="verify-note">📝 产业资金持续加仓算力ETF，光模块板块资金认可度较高。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-pharma">创新药</div>
+<div class="card-cat cat-optics">光模块</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">FDA启动Trialblazer计划，创新药IND审批流程有望加速</div>
+<div class="card-title">Marvell AI网络芯片需求旺盛，数据中心光学互连全面向800G/1.6T升级</div>
 
-<div class="card-summary">美国FDA正式推出Trialblazer试点计划，旨在精简新药临床试验申请(IND)审评，有望缩短创新药上市时间，利好全球化药企。</div>
+<div class="card-summary">Marvell Technology受益于定制AI芯片和网络芯片的强劲需求股价上扬，其PAM4 DSP和光互连方案推动数据中心内部光模块从400G向800G及1.6T切换。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">药明康德,泰格医药</span>
+<span class="ticker-inline">新易盛, 中际旭创</span>
 
 </div>
 <div class="card-detail">
@@ -418,7 +387,7 @@
 <div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>中期</div>
 </div>
-<div class="verify-note">📝 利好CXO临床外包及创新药出海</div>
+<div class="verify-note">📝 DSP与光模块配套出货节奏同步，Marvell芯片放量预示高速率光模块渗透率攀升。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -427,15 +396,42 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">国际金价上破5000美元后急挫，美国ISM数据打压多头</div>
+<div class="card-title">高盛下调2026年黄金目标价至4900美元，杰富瑞等机构维持强看多立场</div>
 
-<div class="card-summary">现货黄金一度突破5000美元/盎司，白银同步拉升，但强劲的美国ISM服务业数据令金价急挫至4000美元附近，日内波动剧烈。</div>
+<div class="card-summary">高盛将2026年底黄金预测由5400美元下调至4900美元；杰富瑞等机构则认为AI泡沫一旦破裂资金将涌入黄金，并列出央行购金等五大利好，坚持黄金结构性牛市观点。</div>
+<div class="card-meta">
+<span class="badge badge-mixed">分化</span>
+<span class="impact-tag impact-high">高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">紫金矿业, 赤峰黄金</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>分化</div>
+<div><span class="dl">程度</span>高</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>中期</div>
+</div>
+<div class="verify-note">📝 机构间分歧加大提示金价中期方向尚未明朗，但多数认为4000美元是强支撑及理想买入区域。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-gold">黄金</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">金价盘整六周酝酿8月方向选择，市场聚焦美联储议息路径及就业数据</div>
+
+<div class="card-summary">COMEX黄金在4600-5100美元区间震荡整理六周，技术层面临近突破节点；交易员普遍等待即将公布的美国非农就业及失业率数据，以判断美联储降息节奏及美债实际利率走向。</div>
 <div class="card-meta">
 <span class="badge badge-neutral">中性</span>
 <span class="impact-tag impact-high">高</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">紫金矿业,山东黄金</span>
+<span class="ticker-inline">紫金矿业, 中金黄金</span>
 
 </div>
 <div class="card-detail">
@@ -443,9 +439,9 @@
 <div><span class="dl">方向</span>中性</div>
 <div><span class="dl">程度</span>高</div>
 <div><span class="dl">确定性</span>高</div>
-<div><span class="dl">窗口</span>短期</div>
+<div><span class="dl">窗口</span>中期</div>
 </div>
-<div class="verify-note">📝 强数据扰动，短期波动加剧</div>
+<div class="verify-note">📝 若就业数据大幅走弱，金价有望摆脱盘整向上突破，否则可能继续消化高利率预期。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -454,15 +450,42 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">德鲁肯米勒持续重仓台积电，看好AI芯片长期需求</div>
+<div class="card-title">华为芯片科学家表态在制裁中攻坚，中国半导体底层技术自主提速</div>
 
-<div class="card-summary">知名投资人斯坦利·德鲁肯米勒在台积电Q2业绩超预期后仍持有其仓位，押注英伟达和AMD带动的芯片需求持续增长。</div>
+<div class="card-summary">华为首席芯片科学家在公开专访中表示正以“战争英雄”心态攻坚国产EDA与先进逻辑工艺，华为协同国内供应链将加速摆脱海外技术封锁。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">中芯国际,寒武纪</span>
+<span class="ticker-inline">中芯国际, 北方华创, 华大九天</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>长期</div>
+</div>
+<div class="verify-note">📝 华为带动下，国产半导体设备、EDA及材料持续获得试错和迭代机会。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-optics">光模块</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">美股半导体全面回暖，算力基建重启估值修复，光模块厂商订单能见度延长</div>
+
+<div class="card-summary">英特尔、AMD、博通等芯片股隔夜强势反弹，市场对AI算力资本开支持续性重新定价，光模块公司2026年下半年订单能见度延伸至2027年的预期升温。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">中际旭创, 华工科技</span>
 
 </div>
 <div class="card-detail">
@@ -472,24 +495,24 @@
 <div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>中期</div>
 </div>
-<div class="verify-note">📝 提振晶圆代工及AI芯片预期，映射A股</div>
+<div class="verify-note">📝 情绪传导下光模块板块跟随硬件端修复，若后续北美云商指引不改，趋势将确定。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
+<div class="card-cat cat-optics">光模块</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">中国修订芯片设计规则，强化集成电路知识产权保护</div>
+<div class="card-title">创业板指盘中涨近5%，AI硬件与创新药共振，光模块板块弹性突出</div>
 
-<div class="card-summary">中国出台修订版芯片设计规定，加强IP保护，旨在优化产业环境，推动自主芯片设计进步，EDA及IP企业直接受益。</div>
+<div class="card-summary">创业板指呈现强势修复，算力硬件、新能源与创新药三线共振，指数权重中光模块相关标的日涨幅显著领先，反映资金将光模块视为AI反弹的弹性配置。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">华大九天,概伦电子</span>
+<span class="ticker-inline">中际旭创, 新易盛</span>
 
 </div>
 <div class="card-detail">
@@ -497,90 +520,9 @@
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>中</div>
 <div><span class="dl">确定性</span>高</div>
-<div><span class="dl">窗口</span>长期</div>
-</div>
-<div class="verify-note">📝 政策红利持续释放</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-optics">光模块</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">Marvell数据中心芯片需求强劲，光模块核心电芯片供应前景看好</div>
-
-<div class="card-summary">Marvell Technology受AI数据中心连接需求推动股价上涨，其为光模块提供关键DSP芯片，产业链上游景气度持续。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">光迅科技,中际旭创</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 光模块上游芯片环节受益</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-optics">光模块</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">通信及算力ETF份额大增，资金集中涌入光模块赛道</div>
-
-<div class="card-summary">近期AI算力相关ETF规模快速膨胀，资金通过ETF积极布局光模块等算力硬件，板块交易活跃度与机构共识显著提升。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">天孚通信,通信ETF(515880)</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 被动资金配置驱动</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-optics">光模块</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">创业板修复共振，算力硬件与光模块获机构共识性加仓</div>
-
-<div class="card-summary">创业板指单日涨近5%，算力硬件、创新药三线共振，光模块成为机构ETF配置共识度最高方向之一，成交量明显放大。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">中际旭创</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 情绪与资金共振</div>
+<div class="verify-note">📝 短期风格切换下，光模块因兼具成长与产业确定性获得交易型资金追捧。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -589,42 +531,15 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">业界领袖呼吁进一步简化IND，创新药转化效率有望提升</div>
+<div class="card-title">创业板创新药板块与AI硬件共舞，药明康德等CXO龙头出现技术性修复</div>
 
-<div class="card-summary">在FDA Trialblazer启动之际，生物技术行业领袖联名要求进一步简化IND流程，若推行将显著缩短从研发到临床的周期。</div>
+<div class="card-summary">在创业板指大涨近5%的过程中，创新药板块与算力硬件形成共振，药明康德、百济神州等权重股放量拉升，生物医药ETF重新出现净申购。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">百济神州,信达生物</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 政策改革预期升温</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-pharma">创新药</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">创新药ETF规模逆势夺冠，资金大举布局反弹行情</div>
-
-<div class="card-summary">ETF周报显示，创新药相关ETF规模近期跃升市场前列，资金显著净流入，机构在AI休整背景下将创新药视为优先配置方向。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">恒瑞医药,创新药ETF(159992)</span>
+<span class="ticker-inline">药明康德, 百济神州-U</span>
 
 </div>
 <div class="card-detail">
@@ -634,7 +549,7 @@
 <div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-
+<div class="verify-note">📝 创新药板块前期超跌，借市场全面反弹进入阶段性估值修复。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -643,69 +558,15 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">龙头药企股价底部反弹，创新药板块资金回补明显</div>
+<div class="card-title">美国政府停摆风险升至80%，若FDA运作受阻或短期干扰创新药审批</div>
 
-<div class="card-summary">药明康德、百济神州等龙头标的股价从底部弹性上涨，市场开始交易创新药下半年研发催化、政策支持及美联储降息预期。</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">药明康德,百济神州</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">高盛下调2026年金价预测至4900美元，杰富瑞坚持五大利好支撑</div>
-
-<div class="card-summary">高盛将2026年底金价预测下调至4900美元；杰富瑞则指出黄金仍获央行购金、地缘风险、去美元化等多重结构性利好支撑。</div>
-<div class="card-meta">
-<span class="badge badge-mixed">分化</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">紫金矿业</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>分化</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 机构观点分歧加大</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">理财机构减持黄金ETF，银行下调结构性存款利率风向转变</div>
-
-<div class="card-summary">部分理财机构开始减持黄金ETF，同时银行下调挂钩黄金的结构性存款预期利率，黄金市场资金端出现一定分化及获利了结迹象。</div>
+<div class="card-summary">市场预测美国政府下个财年停摆概率接近80%，历史上停摆会导致FDA暂停新的IND和NDA审评，在研创新药的临床进度和上市申请面临阶段性延迟风险。</div>
 <div class="card-meta">
 <span class="badge badge-bear">利空</span>
 <span class="impact-tag impact-mid">中</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">山东黄金,黄金ETF(518880)</span>
+<span class="ticker-inline">百济神州-U, 康龙化成</span>
 
 </div>
 <div class="card-detail">
@@ -715,51 +576,24 @@
 <div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 短期资金面承压</div>
+<div class="verify-note">📝 对在美有重磅临床管线或近期寻求FDA审批的国内生物科技公司构成潜在干扰。</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
+<div class="card-cat cat-pharma">创新药</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">市场等待美国就业数据与美联储信号，金价短期或区间运行</div>
+<div class="card-title">中国创新药产业论坛定调“逆周期投资”，生物科技投融资初露回暖迹象</div>
 
-<div class="card-summary">市场聚焦即将公布的美国非农就业数据及美联储利率前景，金价在多空交织下料维持在4000美元关口附近进行区间震荡。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-mid">中</span>
-<span>AI综合</span>
-<span>0分钟前</span>
-<span class="ticker-inline">紫金矿业</span>
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>中</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 数据驱动，等待方向选择</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">策略师：黄金结构性牛市未终结，4000美元为理想布局区域</div>
-
-<div class="card-summary">资深策略师认为黄金结构性牛市并未终结，当前4000美元是理想加仓位置，建议不必理会美联储鹰派表态，长期趋势向好。</div>
+<div class="card-summary">甲子引力论坛指出，在硬科技赛道中创新药具有逆周期属性，一级市场早期生物医药融资额环比回升，科创板第五套标准重启预期增强，创新药企资本面改善。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
 <span>AI综合</span>
 <span>0分钟前</span>
-<span class="ticker-inline">紫金矿业,山东黄金</span>
+<span class="ticker-inline">信达生物, 君实生物</span>
 
 </div>
 <div class="card-detail">
@@ -767,9 +601,198 @@
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>中</div>
 <div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>中期</div>
+</div>
+<div class="verify-note">📝 投融资回暖将为临床管线推进提供弹药，但持续度仍需观察募资端变化。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-pharma">创新药</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">AI主线短期休整背景下，机构共识转向创新药与医药创新ETF</div>
+
+<div class="card-summary">在AI板块高位波动的环境下，机构论市指出医药创新ETF是目前共识度最高的配置方向之一，兼具防御与成长属性，创新药板块开始承接部分溢出资金。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">恒瑞医药, 药明康德</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>短期</div>
+</div>
+<div class="verify-note">📝 资金轮动推升板块估值，机构看多核心创新药资产的中长期配置价值。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-gold">黄金</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">理财机构减持黄金ETF，银行下调挂钩黄金结构性存款预期利率</div>
+
+<div class="card-summary">多家商业银行调降挂钩黄金的结构性存款预期收益率，部分理财子公司开始减持实物黄金ETF，显示零售投资需求伴随金价高企及替代资产波动出现降温迹象。</div>
+<div class="card-meta">
+<span class="badge badge-bear">利空</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">山东黄金, 金贵银业</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利空</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
+</div>
+<div class="verify-note">📝 散户端投机需求降温可能削弱黄金短期快速上行推力，但机构长线配置未明显松动。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-gold">黄金</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">美伊重启谈判压低地缘风险溢价，黄金避险需求阶段性回落</div>
+
+<div class="card-summary">美国与伊朗就核问题重启外交对话，中东地缘紧张局势出现缓和迹象，前期因避险需求推升的黄金溢价正在消退，众多对冲基金开始评估削减黄金多仓。</div>
+<div class="card-meta">
+<span class="badge badge-bear">利空</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">山东黄金, 银泰黄金</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利空</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>短期</div>
+</div>
+<div class="verify-note">📝 地缘情绪驱动的短线资金可能出逃，但央行购金等结构性因素仍为金价提供底部支撑。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-semi">半导体</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">三星与SK海力士被曝测试中微公司刻蚀设备，中国半导体设备加速进入韩国供应链</div>
+
+<div class="card-summary">媒体报道三星电子、SK海力士正对中微公司（AMEC）的先进刻蚀设备进行测试验证，若最终导入，将标志着中国半导体设备在海外存储大厂取得重大突破。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-vhigh">极高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">中微公司, 北方华创</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>极高</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>中期</div>
+</div>
+<div class="verify-note">📝 设备测试尚处验证阶段，实际批量采购仍需跟踪，但已打开国产设备进入全球一线供应链的想象空间。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-optics">光模块</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">英伟达市值剑指全球第二，AI芯片军备竞赛强化800G/1.6T光模块需求逻辑</div>
+
+<div class="card-summary">分析师预期英伟达即将超越苹果成为全球第二大公司，其GPU出货持续增加直接拉动配套的800G、1.6T高速光模块及光器件需求。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-vhigh">极高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">中际旭创, 天孚通信</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>极高</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>中期</div>
+</div>
+<div class="verify-note">📝 英伟达仍是光模块板块需求的最大边际变量，其市值扩张进一步强化算力基建预期。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-pharma">创新药</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">FDA推出Trialblazer计划推动IND审评改革，全球创新药临床审批有望提速</div>
+
+<div class="card-summary">美国FDA正式推出Trialblazer试点计划，生物技术行业领袖同时呼吁全面简化IND申请流程，新的审评路径可能将临床启动周期缩短数周，利好创新药开发效率。</div>
+<div class="card-meta">
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-vhigh">极高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">药明康德, 百济神州-U, 恒瑞医药</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>极高</div>
+<div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>长期</div>
 </div>
-<div class="verify-note">📝 战略性看多配置</div>
+<div class="verify-note">📝 审评效率提升将直接降低中国创新药企出海临床试验的时间成本和沉没成本。</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-gold">黄金</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">金价突破5000美元后高位宽幅震荡，强劲ISM数据施压而油价下行提供对冲</div>
+
+<div class="card-summary">现货黄金历史性站上5000美元/盎司后出现整固，美国ISM制造业数据走强一度将金价压制至4000美元附近，但随后油价回落及美伊对话不确定性又促使金价企稳回升。</div>
+<div class="card-meta">
+<span class="badge badge-neutral">中性</span>
+<span class="impact-tag impact-vhigh">极高</span>
+<span>AI综合</span>
+<span>0分钟前</span>
+<span class="ticker-inline">紫金矿业, 山东黄金, 中金黄金</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>中性</div>
+<div><span class="dl">程度</span>极高</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
+</div>
+<div class="verify-note">📝 多空因素交织使金价短期维持高位震荡，A股黄金股随之呈现高波动特征。</div>
 </div>
 </div></div>
 </div>
@@ -778,21 +801,21 @@
 <div class="table-wrap">
   <table>
     <thead><tr><th>板块</th><th>冲击</th><th>方向</th><th>新闻</th><th>传导逻辑</th><th>关联标的</th></tr></thead>
-    <tbody><tr><td style="font-weight:700;">半导体</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>12</td><td>全球半导体景气度强势回暖，海外芯片股大幅反弹且ETF吸金超百亿，中国存储厂扩建、蓝思跨界封装及IP保护政策齐发，板块情绪高涨且催化密集。</td><td>中芯国际,北方华创,蓝思科技</td></tr>
-<tr><td style="font-weight:700;">光模块</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>10</td><td>AI投资回报闭环确立，算力硬件与光模块共振大涨，1.6T需求预期上修，ETF资金与机构共识集中涌入，板块处于高景气与高资金关注阶段。</td><td>中际旭创,新易盛,天孚通信</td></tr>
-<tr><td style="font-weight:700;">创新药</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>10</td><td>创新药板块与创业板共振底部修复，FDA加速审批及IND简化预期升温，ETF规模逆势增长，龙头药企价格弹性释放，情绪显著回暖。</td><td>药明康德,百济神州</td></tr>
-<tr><td style="font-weight:700;">黄金</td><td class="shock-strong">强</td><td style="color:#ea580c;">分化</td><td>10</td><td>金价巨震，摸高5000后重回4000美元关口，高盛下调远期预测而结构性看多逻辑未变，资金端出现理财减持与低位布局并存的多空分歧。</td><td>紫金矿业,山东黄金</td></tr></tbody>
+    <tbody><tr><td style="font-weight:700;">半导体</td><td class="shock-strong">强</td><td style="color:#ea580c;">分化</td><td>14</td><td>存储龙头股价高位巨震，长鑫存储扩产加剧全球内存竞争，三星与海力士测试中微公司设备标志国产设备出海重大突破；同时英特尔携手蓝思科技加码先进封装，美股芯片集体反弹。板块整体在竞争格局变动与技术升级中呈现强震荡分化。</td><td>中微公司、北方华创、蓝思科技、兆易创新</td></tr>
+<tr><td style="font-weight:700;">光模块</td><td class="shock-mid">中</td><td style="color:#16a34a;">利好</td><td>10</td><td>AI投资回报闭环驱动算力硬件大涨，英伟达市值扩张强化高速光模块需求逻辑，Marvell网络芯片及美股芯片回暖带动板块估值修复，800G/1.6T光模块订单能见度不断延长，板块呈中性偏强震荡。</td><td>中际旭创、新易盛、天孚通信</td></tr>
+<tr><td style="font-weight:700;">创新药</td><td class="shock-mid">中</td><td style="color:#16a34a;">利好</td><td>10</td><td>FDA推出Trialblazer计划简化IND流程，中国创新药产业投融资初现回暖，同时创业板创新药板块与AI共振反弹，但美国政府停摆风险可能短期扰动审评进度。行业整体在政策利好与资金回流中温和走强。</td><td>药明康德、百济神州、恒瑞医药</td></tr>
+<tr><td style="font-weight:700;">黄金</td><td class="shock-strong">强</td><td style="color:#ea580c;">分化</td><td>10</td><td>金价突破5000美元后高位巨震，高盛下调目标价而部分机构仍力挺结构性牛市，零售端减持ETF但技术面盘整酝酿突破，美伊谈判和美债利率预期干扰短期方向。板块呈现强震荡格局，多空分歧加大。</td><td>紫金矿业、山东黄金、中金黄金</td></tr></tbody>
   </table>
 </div>
 
 
 <div class="sec-title">今日要点</div>
-<div class="key-points"><div class="kp-card">【半导体】海外芯片股暴动：英特尔涨10%、AMD涨8%，全球半导体ETF半月吸金120亿美元；长鑫存储筹建北京第二工厂，蓝思科技与英特尔共研先进封装。</div>
-<div class="kp-card">【光模块】AI回报闭环确立，中际旭创、新易盛带头大涨；英伟达市值剑指苹果，驱动1.6T光模块放量预期上修，通信ETF获资金大幅流入。</div>
-<div class="kp-card">【创新药】创业板指盘中涨近5%修复，创新药与算力共振；FDA启动Trialblazer计划提速审批，创新药ETF规模逆势增长，药明康德、百济神州走强。</div>
-<div class="kp-card">【黄金】金价日内突破5000美元后受强ISM数据打压跌至4000区域，高盛下调2026年预测至4900美元，理财机构减持黄金ETF，但策略师力挺结构性牛市。</div>
-<div class="kp-card">【半导体-政策】中国修订芯片设计规则强化IP保护，华大九天、概伦电子等EDA及IP标的直接受益于制度红利。</div>
-<div class="kp-card">【半导体-产能】长鑫存储北京二厂计划加速国产存储替代，兆易创新作为核心合作伙伴，产业链预期升温。</div></div>
+<div class="key-points"><div class="kp-card">【半导体】三星电子、SK海力士近期日振幅达7%-9%，存储双雄同时测试中微公司刻蚀设备，国产半导体设备首次进入全球存储龙头的供应链验证环节。</div>
+<div class="kp-card">【半导体】长鑫存储（CXMT）计划在北京建设第二座12英寸晶圆厂，加速AI驱动内存扩产，对全球DRAM供应格局形成长期冲击。</div>
+<div class="kp-card">【光模块】英伟达市值冲击全球第二，AI回报闭环显现，中际旭创、新易盛等算力硬件龙头放量走强，800G/1.6T光模块需求逻辑进一步强化。</div>
+<div class="kp-card">【创新药】FDA推出Trialblazer计划大幅简化IND流程，中国创新药企出海临床效率有望提升，药明康德、百济神州等龙头企业随之显著反弹。</div>
+<div class="kp-card">【黄金】金价历史性突破5000美元后高位巨震，高盛下调2026年预测至4900美元，杰富瑞等机构仍坚持看多，认为4000美元为理想加仓位。</div>
+<div class="kp-card">【创新药】美国政府停摆概率升至80%，若FDA运作受阻可能短期干扰在研新药审评，百济神州等在美有重磅管线的公司面临阶段性不确定性。</div></div>
 
 
 <div class="footer">

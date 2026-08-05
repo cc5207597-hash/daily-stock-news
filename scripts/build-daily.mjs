@@ -119,20 +119,23 @@ function getTodayDisplay() {
 
 // 板块代表性 ETF，从东方财富 API 拉取实时行情
 const ETFS = [
-  { code: '159995', name: '芯片ETF' },       // 半导体
-  { code: '515050', name: '5GETF' },          // 光模块/通信 (closest proxy)
-  { code: '159839', name: '创新药ETF' },       // 创新药
-  { code: '518880', name: '黄金ETF' },         // 黄金
-  { code: '159941', name: '纳指ETF' },         // 美股半导体参考
-  { code: '512760', name: '半导体ETF' },       // 半导体
+  // 半导体
+  { code: '159995', name: '芯片ETF华夏', category: '半导体' },
+  { code: '512760', name: '半导体ETF国泰', category: '半导体' },
+  { code: '588200', name: '科创半导体ETF华夏', category: '半导体' },
+  // 光模块/通信
+  { code: '515050', name: '5GETF华夏', category: '光模块' },
+  { code: '515880', name: '通信ETF华夏', category: '光模块' },
+  { code: '159811', name: '通信ETF天弘', category: '光模块' },
+  // 创新药
+  { code: '159839', name: '创新药ETF华夏', category: '创新药' },
+  { code: '515120', name: '创新药ETF', category: '创新药' },
+  { code: '159858', name: '创新药ETF南方', category: '创新药' },
+  // 黄金
+  { code: '518880', name: '黄金ETF华安', category: '黄金' },
+  { code: '159934', name: '黄金ETF博时', category: '黄金' },
+  { code: '518800', name: '黄金ETF工银', category: '黄金' },
 ];
-const CATEGORY_ETF = {
-  '半导体': ['159995', '512760'],
-  '光模块': ['515050'],
-  '创新药': ['159839'],
-  '黄金': ['518880'],
-  '美股参考': ['159941'],
-};
 
 async function fetchETFData() {
   console.log('\n📊 拉取板块 ETF 实时数据...');
@@ -148,7 +151,7 @@ async function fetchETFData() {
       const d = data?.data;
       if (d && d.f43) {
         const price = d.f43 / 100;
-        results.push({ code: etf.code, name: etf.name, price, change: (d.f170 || 0) / 100, date: d.f57 || '' });
+        results.push({ code: etf.code, name: etf.name, category: etf.category, price, change: (d.f170 || 0) / 100, date: d.f57 || '' });
         console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}`);
       }
     } catch (err) {
@@ -574,12 +577,20 @@ function renderHTML(result, todayDisplay, etfData) {
   .st{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:4px 10px;font-size:.7rem;color:var(--text-dim);}
   .st b{color:var(--text);font-size:.82rem;margin:0 1px;}
 
-  /* ETF row */
-  .etf-row{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:14px;}
-  .etf-item{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:5px 10px;display:flex;gap:8px;align-items:center;}
-  .etf-name{font-size:.66rem;color:var(--text-dim);font-weight:600;}
-  .etf-price{font-size:.78rem;font-weight:800;font-variant-numeric:tabular-nums;}
-  .etf-change{font-size:.68rem;font-weight:700;}
+  /* ETF grid */
+  .etf-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px;}
+  @media(max-width:640px){.etf-grid{grid-template-columns:repeat(2,1fr);}}
+  .etf-group{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:8px 10px;}
+  .etf-group-name{font-size:.6rem;font-weight:700;padding:2px 8px;border-radius:6px;display:inline-block;color:#fff;margin-bottom:6px;}
+  .cat-semi{background:var(--semi);}
+  .cat-optics{background:var(--optics);}
+  .cat-pharma{background:var(--pharma);}
+  .cat-gold{background:var(--gold);}
+  .etf-item{display:flex;justify-content:space-between;align-items:center;padding:3px 0;}
+  .etf-name{font-size:.65rem;color:var(--text-dim);}
+  .etf-price{font-size:.72rem;font-weight:700;font-variant-numeric:tabular-nums;}
+  .etf-change{font-size:.65rem;font-weight:700;}
+  .etf-item+.etf-item{border-top:1px solid var(--border);}
 
   /* Sector summary row */
   .sector-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:18px;}
@@ -680,16 +691,24 @@ function renderHTML(result, todayDisplay, etfData) {
 
 ${etfData.length > 0 ? `
 <div class="sec-title">📈 板块 ETF 指标</div>
-<div class="etf-row">
-${etfData.map(e => {
-  const pctColor = e.change > 0 ? '#15803d' : e.change < 0 ? '#dc2626' : '#5f6570';
-  const pctSign = e.change > 0 ? '+' : '';
-  return `<div class="etf-item">
-    <div class="etf-name">${escHtml(e.name)}</div>
-    <div class="etf-price">${e.price.toFixed(3)}</div>
-    <div class="etf-change" style="color:${pctColor}">${pctSign}${e.change.toFixed(2)}%</div>
-  </div>`;
-}).join('')}
+<div class="etf-grid">
+${['半导体','光模块','创新药','黄金'].map(cat => {
+  const items = etfData.filter(e => e.category === cat);
+  if (!items.length) return '';
+  const catClass = cat === '半导体' ? 'semi' : cat === '光模块' ? 'optics' : cat === '创新药' ? 'pharma' : 'gold';
+  return '<div class="etf-group">' +
+    '<div class="etf-group-name cat-' + catClass + '">' + cat + '</div>' +
+    items.map(e => {
+      const pctColor = e.change > 0 ? '#15803d' : e.change < 0 ? '#dc2626' : '#5f6570';
+      const pctSign = e.change > 0 ? '+' : '';
+      return '<div class="etf-item">' +
+        '<span class="etf-name">' + escHtml(e.name) + '</span>' +
+        '<span class="etf-price">' + e.price.toFixed(3) + '</span>' +
+        '<span class="etf-change" style="color:' + pctColor + '">' + pctSign + e.change.toFixed(2) + '%</span>' +
+        '</div>';
+    }).join('') +
+    '</div>';
+}).filter(Boolean).join('')}
 </div>
 ` : ''}
 
