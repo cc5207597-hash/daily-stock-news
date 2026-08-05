@@ -115,6 +115,50 @@ function getTodayDisplay() {
   return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
 }
 
+// ── 1.5 ETF 指标抓取 ────────────────────────────────────
+
+// 板块代表性 ETF，从东方财富 API 拉取实时行情
+const ETFS = [
+  { code: '159995', name: '芯片ETF' },       // 半导体
+  { code: '515050', name: '5GETF' },          // 光模块/通信 (closest proxy)
+  { code: '159839', name: '创新药ETF' },       // 创新药
+  { code: '518880', name: '黄金ETF' },         // 黄金
+  { code: '159941', name: '纳指ETF' },         // 美股半导体参考
+  { code: '512760', name: '半导体ETF' },       // 半导体
+];
+const CATEGORY_ETF = {
+  '半导体': ['159995', '512760'],
+  '光模块': ['515050'],
+  '创新药': ['159839'],
+  '黄金': ['518880'],
+  '美股参考': ['159941'],
+};
+
+async function fetchETFData() {
+  console.log('\n📊 拉取板块 ETF 实时数据...');
+  const results = [];
+  for (const etf of ETFS) {
+    try {
+      const resp = await fetch(
+        `https://push2.eastmoney.com/api/qt/stock/get?secid=0.${etf.code}&fields=f43,f57,f58,f170`,
+        { headers: { 'Referer': 'https://quote.eastmoney.com/' }, timeout: 10000 }
+      );
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const data = await resp.json();
+      const d = data?.data;
+      if (d && d.f43) {
+        const price = d.f43 / 100;
+        results.push({ code: etf.code, name: etf.name, price, change: (d.f170 || 0) / 100, date: d.f57 || '' });
+        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}`);
+      }
+    } catch (err) {
+      console.warn(`  ${etf.name}(${etf.code}) ⚠ ${err.message}`);
+    }
+    await sleep(300);
+  }
+  return results;
+}
+
 // ── 1. 直接解析 Google News RSS ────────────────────────
 
 async function fetchGoogleNewsRSS(feed) {
@@ -438,7 +482,7 @@ function analyzeWithKeywords(newsItems) {
 
 // ── HTML 渲染 ──────────────────────────────────────────
 
-function renderHTML(result, todayDisplay) {
+function renderHTML(result, todayDisplay, etfData) {
   const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi } = result;
 
   const impactCls = (imp) => imp === '极高' ? 'impact-vhigh' : imp === '高' ? 'impact-high' : imp === '中' ? 'impact-mid' : 'impact-low';
@@ -529,6 +573,13 @@ function renderHTML(result, todayDisplay) {
   .stats-mini{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:16px;}
   .st{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:4px 10px;font-size:.7rem;color:var(--text-dim);}
   .st b{color:var(--text);font-size:.82rem;margin:0 1px;}
+
+  /* ETF row */
+  .etf-row{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin-bottom:14px;}
+  .etf-item{background:var(--card-bg);border:1px solid var(--border);border-radius:8px;padding:5px 10px;display:flex;gap:8px;align-items:center;}
+  .etf-name{font-size:.66rem;color:var(--text-dim);font-weight:600;}
+  .etf-price{font-size:.78rem;font-weight:800;font-variant-numeric:tabular-nums;}
+  .etf-change{font-size:.68rem;font-weight:700;}
 
   /* Sector summary row */
   .sector-row{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:18px;}
@@ -626,6 +677,21 @@ function renderHTML(result, todayDisplay) {
   <div class="st">🔥高影响 <b style="color:#ea580c">${stats.high}</b></div>
   <div class="st">📊板块 <b>${sectorMatrix.length}</b></div>
 </div>
+
+${etfData.length > 0 ? `
+<div class="sec-title">📈 板块 ETF 指标</div>
+<div class="etf-row">
+${etfData.map(e => {
+  const pctColor = e.change > 0 ? '#15803d' : e.change < 0 ? '#dc2626' : '#5f6570';
+  const pctSign = e.change > 0 ? '+' : '';
+  return `<div class="etf-item">
+    <div class="etf-name">${escHtml(e.name)}</div>
+    <div class="etf-price">${e.price.toFixed(3)}</div>
+    <div class="etf-change" style="color:${pctColor}">${pctSign}${e.change.toFixed(2)}%</div>
+  </div>`;
+}).join('')}
+</div>
+` : ''}
 
 ${sectorMatrix.length > 0 ? `
 <div class="sec-title">板块速览</div>
@@ -747,6 +813,9 @@ async function main() {
   const newsItems = await fetchAllNews();
   console.log(`\n✅ 最终拉取 ${newsItems.length} 条待分析新闻\n`);
 
+  // 1.5 ETF data
+  const etfData = await fetchETFData();
+
   // 2. Analyze
   const result = await analyzeWithClaude(newsItems);
 
@@ -762,7 +831,7 @@ async function main() {
 
   // 4. Render HTML
   const todayDisplay = getTodayDisplay();
-  const html = renderHTML(result, todayDisplay);
+  const html = renderHTML(result, todayDisplay, etfData);
 
   // 5. Write files
   if (!existsSync(OUTPUT_DIR)) mkdirSync(OUTPUT_DIR, { recursive: true });
