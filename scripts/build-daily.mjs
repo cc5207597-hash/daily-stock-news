@@ -181,36 +181,40 @@ async function analyzeWithClaude(newsItems) {
     `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。请对以下 ${newsItems.length} 条新闻逐一分析。
+  const prompt = `你是资深科技行业分析师，专注半导体、光模块、AI应用三大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取，可能存在大量重复和行情噪音。
 
-⚠️ 写作要求：每条新闻写成专业行业简讯风格：
-- 中文标题：去除情绪化用词，写成客观产业简讯标题
-- 中文摘要：提炼核心产业事实，包含具体公司/数据/技术，避免渲染情绪
+⚠️ 核心任务：将这些新闻去重合并为 8-15 条行业简讯。规则：
+1. 同类日涨跌行情合并：如多条"三星跌X%""SK海力士跌Y%"合并为一条"韩国存储双雄下跌"简讯
+2. 淘汰纯情绪/个人故事/标题党
+3. 保留有产业逻辑的内容：技术突破、政策变化、客户订单、产能扩建、竞争格局变动
 
-每条新闻做以下分析：
-1. 中文标题、中文摘要（行业简讯风格）
-2. quality："high"（有产业价值）/ "low"（个人故事、纯涨跌情绪、无实质信息）
-3. category：半导体 / 光模块 / AI应用 / 综合
-4. 四维评级：direction、impact、certainty、time_window
-5. tickers：1-3个A股标的，不确定标"—"
-6. notes：可选
+每条简讯格式：
+- title_cn：专业平实的行业简讯标题
+- summary_cn：客观事实提炼，含具体数据/公司/技术（30-60字）
+- category：半导体 / 光模块 / AI应用
+- direction：利好 / 利空 / 中性 / 分化
+- impact：极高 / 高 / 中 / 低
+- certainty：高 / 中 / 低
+- time_window：短期 / 中期 / 长期
+- tickers：1-3个直接关联A股标的，不确定标"—"
+- notes：可选补充
 
 另外生成：
-7. sector_matrix：三大板块冲击矩阵
-8. key_points：3-5条简讯，【板块】开头，有具体数据
-9. market_summary：一段话产业链动态总结
+- sector_matrix：三个板块各一句话核心动态
+- key_points：3-5条今日核心简讯，【板块】开头+具体数据
+- market_summary：一段话产业动态总结
 
-JSON 格式（每条新闻都输出！共 ${newsItems.length} 条）：
+JSON（输出 8-15 条 consolidated 简讯）：
 {
   "analyzed": [
-    { "index": 0, "title_cn": "...", "summary_cn": "...", "quality": "high", "category": "半导体", "direction": "利好", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": "" }
+    { "index": -1, "title_cn": "...", "summary_cn": "...", "category": "半导体", "direction": "利空", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": "" }
   ],
   "sector_matrix": [...],
   "key_points": [...],
   "market_summary": "..."
 }
 
-只输出 JSON。新闻如下：
+只输出 JSON。新闻原文：
 
 ${newsText}`;
 
@@ -266,36 +270,27 @@ ${newsText}`;
     return analyzeWithKeywords(newsItems);
   }
 
-  // Merge results — keep all news, AI may mark some as low quality
-  const analyzed = [];
-  for (let i = 0; i < newsItems.length; i++) {
-    const n = newsItems[i];
-    const ai = (result.analyzed || []).find(a => a.index === i);
-    if (!ai) {
-      // AI skipped this — use keyword fallback
-      analyzed.push({
-        ...n, title_cn: n.title, summary_cn: n.description.substring(0, 80),
-        direction: '中性', impact: '低', certainty: '低', time_window: '中期',
-        category: '', tickers: '—', notes: '', quality: 'low',
-      });
-      continue;
-    }
-    analyzed.push({
-      ...n,
-      title_cn: ai.title_cn || n.title,
-      summary_cn: ai.summary_cn || n.description.substring(0, 80),
-      category: ai.category || '',
-      direction: ai.direction || '中性',
-      impact: ai.impact || '低',
-      certainty: ai.certainty || '低',
-      time_window: ai.time_window || '中期',
-      tickers: ai.tickers || '—',
-      notes: ai.notes || '',
-      quality: ai.quality || 'high',
-    });
-  }
-  const highQ = analyzed.filter(a => a.quality !== 'low');
-  console.log(`  AI分析: ${highQ.length} 条高质量 + ${analyzed.length - highQ.length} 条低质`);
+  // AI returns consolidated briefs (8-15), not 1:1 with input
+  // Use current date for all consolidated items
+  const now = new Date().toISOString();
+  const analyzed = (result.analyzed || []).map((ai, i) => ({
+    title_cn: ai.title_cn || '[未命名]',
+    summary_cn: ai.summary_cn || '',
+    category: ai.category || '',
+    direction: ai.direction || '中性',
+    impact: ai.impact || '中',
+    certainty: ai.certainty || '中',
+    time_window: ai.time_window || '中期',
+    tickers: ai.tickers || '—',
+    notes: ai.notes || '',
+    // Use synthetic values for display since these are consolidated
+    title: ai.title_cn || '',
+    description: ai.summary_cn || '',
+    pubDate: new Date(),
+    source: 'AI综合',
+    link: '',
+  }));
+  console.log(`  AI去重合并: ${analyzed.length} 条行业简讯（原始 ${newsItems.length} 条）`);
   return {
     analyzed,
     sectorMatrix: result.sector_matrix || [],
@@ -401,7 +396,7 @@ function renderHTML(result, todayDisplay) {
   const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi } = result;
 
   const impactCls = (imp) => imp === '极高' ? 'impact-vhigh' : imp === '高' ? 'impact-high' : imp === '中' ? 'impact-mid' : 'impact-low';
-  const dirCls = (d) => d.includes('利好') ? 'badge-bull' : d.includes('利空') ? 'badge-bear' : d === '中性' ? 'badge-neutral' : 'badge-mixed';
+  const dirCls = (d) => (d || '').includes('利好') ? 'badge-bull' : (d || '').includes('利空') ? 'badge-bear' : d === '中性' ? 'badge-neutral' : 'badge-mixed';
   const shockCls = (s) => s === '强' ? 'shock-strong' : s === '中' ? 'shock-mid' : 'shock-weak';
 
   const stats = {
@@ -422,7 +417,7 @@ function renderHTML(result, todayDisplay) {
       `</div>`,
       `<div class="card-right">`,
       `<div class="card-title">${escHtml(n.title_cn || n.title)}</div>`,
-      isAi ? `<div class="card-original-title">原文: ${escHtml(n.title.substring(0, 120))}</div>` : '',
+      isAi && n.title !== n.title_cn ? `<div class="card-original-title">原文: ${escHtml(n.title.substring(0, 120))}</div>` : '',
       `<div class="card-summary">${escHtml(n.summary_cn || n.description.substring(0, 100))}</div>`,
       `<div class="card-meta">`,
       `<span class="badge ${dirCls(n.direction)}">${n.direction}</span>`,
@@ -444,7 +439,7 @@ function renderHTML(result, todayDisplay) {
     ].join('\n');
   }).join('\n');
 
-  const matrixRows = sectorMatrix.map(s =>
+  const matrixRows = (Array.isArray(sectorMatrix) ? sectorMatrix : []).map(s =>
     `<tr><td style="font-weight:700;">${escHtml(s.name)}</td><td class="${shockCls(s.shock)}">${s.shock}</td><td style="color:${s.direction === '利好' ? '#16a34a' : s.direction === '利空' ? '#dc2626' : '#ea580c'};">${s.direction}</td><td>${s.news_count}</td><td>${escHtml(s.summary || s.logic || '')}</td><td>${escHtml(s.tickers || '—')}</td></tr>`
   ).join('\n');
 
