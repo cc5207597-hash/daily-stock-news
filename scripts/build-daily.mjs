@@ -147,9 +147,9 @@ const ETFS = [
 ];
 
 async function fetchETFData() {
-  console.log('\n📊 拉取板块 ETF 实时数据...');
+  console.log('\n📊 拉取板块 ETF 实时数据 (并行)...');
   const results = [];
-  for (const etf of ETFS) {
+  const promises = ETFS.map(async (etf) => {
     try {
       const exchange = etf.code.startsWith('5') ? '1' : '0'; // 5开头=上海，1开头=深圳
       const resp = await fetch(
@@ -161,15 +161,20 @@ async function fetchETFData() {
       const d = data?.data;
       if (d && d.f43) {
         const price = d.f43 / 100;
-        results.push({ code: etf.code, name: etf.name, category: etf.category, price, change: (d.f170 || 0) / 100, date: d.f57 || '' });
+        const item = { code: etf.code, name: etf.name, category: etf.category, price, change: (d.f170 || 0) / 100, date: d.f57 || '' };
         console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}  ${(d.f170/100).toFixed(2)}%`);
-      } else {
-        console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
+        return item;
       }
+      console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
+      return null;
     } catch (err) {
       console.warn(`  ${etf.name}(${etf.code}) ⚠ ${err.message}`);
+      return null;
     }
-    await sleep(300);
+  });
+  const settled = await Promise.allSettled(promises);
+  for (const r of settled) {
+    if (r.status === 'fulfilled' && r.value) results.push(r.value);
   }
   return results;
 }
@@ -218,21 +223,24 @@ async function fetchGoogleNewsRSS(feed) {
 }
 
 async function fetchAllNews() {
-  console.log('\n📡 拉取 Google News RSS...');
+  console.log('\n📡 拉取 Google News RSS (并行)...');
   const allItems = [];
   const allFeeds = [...CONFIG.feeds, ...(CONFIG.extraFeeds || [])];
-  for (let i = 0; i < allFeeds.length; i++) {
-    const feed = allFeeds[i];
-    console.log(`  [${i + 1}/${allFeeds.length}] ${feed.name}...`);
-    try {
-      const items = await fetchGoogleNewsRSS(feed);
-      console.log(`    → ${items.length} 条`);
-      allItems.push(...items);
-    } catch (err) {
-      console.warn(`    ⚠ 失败: ${err.message}`);
-    }
-    // Space requests to avoid rate limiting
-    if (i < allFeeds.length - 1) await sleep(1500);
+
+  // Fetch in batches of 8 parallel to avoid rate limiting
+  const BATCH = 8;
+  for (let b = 0; b < allFeeds.length; b += BATCH) {
+    const batch = allFeeds.slice(b, b + BATCH);
+    const results = await Promise.allSettled(
+      batch.map((feed, j) => fetchGoogleNewsRSS(feed).then(items => {
+        console.log(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} → ${items.length} 条`);
+        allItems.push(...items);
+      }).catch(err => {
+        console.warn(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} ⚠ ${err.message}`);
+      }))
+    );
+    // Small delay between batches
+    if (b + BATCH < allFeeds.length) await sleep(800);
   }
 
   // Deduplicate
@@ -842,12 +850,9 @@ async function main() {
   console.log(`  AI 分析: ${CONFIG.apiKey ? 'Claude API' : '未启用 (关键词引擎)'}`);
   console.log(`  Google News RSS: ${CONFIG.feeds.length} 源`);
 
-  // 1. Fetch
-  const newsItems = await fetchAllNews();
+  // 1. Fetch news and ETF data in parallel
+  const [newsItems, etfData] = await Promise.all([fetchAllNews(), fetchETFData()]);
   console.log(`\n✅ 最终拉取 ${newsItems.length} 条待分析新闻\n`);
-
-  // 1.5 ETF data
-  const etfData = await fetchETFData();
 
   // 2. Analyze
   const result = await analyzeWithClaude(newsItems);
