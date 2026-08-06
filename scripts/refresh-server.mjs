@@ -7,6 +7,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
 import { renderHTML, escHtml } from './build-daily.mjs';
+import { buildSentimentData, buildImpactHeatmap, buildDirectionChart } from '../pipeline/charts.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -35,8 +36,9 @@ const server = http.createServer((req, res) => {
     if (existsSync(OUTPUT_DIR)) {
       const files = readdirSync(OUTPUT_DIR);
       dates = files
-        .filter(f => f.endsWith('.json'))
+        .filter(f => f.startsWith('股市热点日报_') && f.endsWith('.json'))
         .map(f => f.replace('股市热点日报_', '').replace('.json', ''))
+        .filter(d => /^\d{8}$/.test(d))
         .sort()
         .reverse();
     }
@@ -62,7 +64,13 @@ const server = http.createServer((req, res) => {
       // Convert ISO date strings back to Date objects
       json.analyzed = (json.analyzed || []).map(n => ({ ...n, pubDate: new Date(n.pubDate) }));
       const displayDate = json.displayDate || `${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`;
-      const html = renderHTML(json, displayDate, json.etfData || []);
+      const chartData = {
+        etfTrend: { dates: [], datasets: [], hasData: false },
+        sentiment: buildSentimentData(json.analyzed),
+        heatmap: buildImpactHeatmap(json.analyzed),
+        direction: buildDirectionChart(json.analyzed),
+      };
+      const html = renderHTML(json, displayDate, json.etfData || [], chartData);
       serveFile(res, 200, 'text/html; charset=utf-8', html);
     } catch (err) {
       serveFile(res, 500, 'text/plain', '历史数据解析失败: ' + err.message);

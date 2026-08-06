@@ -1,0 +1,174 @@
+// ── Pipeline: 图表数据准备 ─────────────────────────────
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
+import { join } from 'path';
+
+// Pick representative ETF per sector
+const SECTOR_ETF = {
+  '半导体': '159995',
+  '光模块': '515050',
+  '创新药': '515120',
+  '黄金': '518880',
+};
+
+const SECTOR_COLORS = {
+  '半导体': '#7c3aed',
+  '光模块': '#0891b2',
+  '创新药': '#0d9488',
+  '黄金': '#d97706',
+};
+
+const SECTOR_PALETTE = [
+  '#7c3aed', '#0891b2', '#0d9488', '#d97706',
+  '#dc2626', '#16a34a', '#ea580c', '#2563eb',
+];
+
+// ── ETF 历史价格趋势 ───────────────────────────────────
+
+export function loadETFHistory(outputDir) {
+  const path = join(outputDir, 'etf_history.json');
+  if (!existsSync(path)) return { dates: [], prices: {} };
+  try {
+    return JSON.parse(readFileSync(path, 'utf-8'));
+  } catch {
+    return { dates: [], prices: {} };
+  }
+}
+
+export function saveETFHistory(outputDir, history) {
+  if (!existsSync(outputDir)) mkdirSync(outputDir, { recursive: true });
+  writeFileSync(join(outputDir, 'etf_history.json'), JSON.stringify(history, null, 2), 'utf-8');
+}
+
+// Append today's ETF data to the history and keep last N entries
+export function accumulateETF(history, etfData, maxDays = 60) {
+  const today = new Date();
+  const dateStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+
+  // If today is already recorded, replace it
+  const existingIdx = history.dates.indexOf(dateStr);
+  if (existingIdx >= 0) {
+    for (const [sector, etfCode] of Object.entries(SECTOR_ETF)) {
+      const items = etfData.filter(e => e.category === sector);
+      if (items.length > 0) {
+        const avg = items.reduce((s, e) => s + e.price, 0) / items.length;
+        history.prices[sector][existingIdx] = parseFloat(avg.toFixed(4));
+      }
+    }
+  } else {
+    history.dates.push(dateStr);
+    for (const [sector, etfCode] of Object.entries(SECTOR_ETF)) {
+      if (!history.prices[sector]) history.prices[sector] = [];
+      const items = etfData.filter(e => e.category === sector);
+      const avg = items.length > 0 ? items.reduce((s, e) => s + e.price, 0) / items.length : null;
+      history.prices[sector].push(avg !== null ? parseFloat(avg.toFixed(4)) : null);
+    }
+  }
+
+  // Trim to maxDays
+  if (history.dates.length > maxDays) {
+    const cut = history.dates.length - maxDays;
+    history.dates = history.dates.slice(cut);
+    for (const sector of Object.keys(history.prices)) {
+      history.prices[sector] = history.prices[sector].slice(cut);
+    }
+  }
+
+  return history;
+}
+
+// Build Chart.js datasets for the ETF price trend chart
+export function buildETFChartData(history) {
+  const datasets = Object.keys(SECTOR_ETF).map(sector => ({
+    label: sector,
+    data: history.prices[sector] || [],
+    borderColor: SECTOR_COLORS[sector],
+    backgroundColor: SECTOR_COLORS[sector] + '22',
+    borderWidth: 2,
+    pointRadius: 1.5,
+    pointHoverRadius: 4,
+    tension: 0.3,
+    fill: false,
+    spanGaps: true,
+  }));
+
+  return {
+    dates: history.dates,
+    datasets,
+    hasData: history.dates.length >= 1,
+  };
+}
+
+// Build sentiment donut chart data from analyzed news
+export function buildSentimentData(analyzed) {
+  const bull = analyzed.filter(n => (n.direction || '').includes('利好')).length;
+  const bear = analyzed.filter(n => (n.direction || '').includes('利空')).length;
+  const neutral = analyzed.filter(n => n.direction === '中性').length;
+  const mixed = analyzed.filter(n => n.direction === '分化').length;
+
+  return {
+    datasets: [{
+      data: [bull, bear, neutral, mixed].filter(c => c > 0),
+      backgroundColor: ['#16a34a', '#dc2626', '#9ca0af', '#ea580c'],
+      borderWidth: 0,
+    }],
+    labels: ['利好', '利空', '中性', '分化'].filter((_, i) => [bull, bear, neutral, mixed][i] > 0),
+    hasData: bull + bear + neutral + mixed > 0,
+  };
+}
+
+// Build sector impact heatmap data
+export function buildImpactHeatmap(analyzed) {
+  const sectors = ['半导体', '光模块', '创新药', '黄金'];
+  const impacts = ['极高', '高', '中', '低'];
+  const matrix = {};
+
+  for (const s of sectors) {
+    matrix[s] = { '极高': 0, '高': 0, '中': 0, '低': 0 };
+  }
+
+  for (const n of analyzed) {
+    const cat = n.category;
+    const imp = n.impact;
+    if (matrix[cat] && matrix[cat][imp] !== undefined) {
+      matrix[cat][imp]++;
+    }
+  }
+
+  return {
+    sectors,
+    impacts: [...impacts].reverse(),
+    matrix,
+    hasData: analyzed.length > 0,
+  };
+}
+
+// Build sector direction stacked bar data
+export function buildDirectionChart(analyzed) {
+  const sectors = ['半导体', '光模块', '创新药', '黄金'];
+  const directions = ['利好', '利空', '中性', '分化'];
+  const counts = {};
+
+  for (const s of sectors) {
+    counts[s] = { '利好': 0, '利空': 0, '中性': 0, '分化': 0 };
+  }
+
+  for (const n of analyzed) {
+    const cat = n.category;
+    const dir = n.direction;
+    if (counts[cat] && counts[cat][dir] !== undefined) {
+      counts[cat][dir]++;
+    }
+  }
+
+  return {
+    sectors,
+    datasets: directions.filter(d => sectors.some(s => counts[s][d] > 0)).map(d => ({
+      label: d,
+      data: sectors.map(s => counts[s][d]),
+      backgroundColor: d === '利好' ? '#16a34a' : d === '利空' ? '#dc2626' : d === '中性' ? '#9ca0af' : '#ea580c',
+    })),
+    hasData: sectors.some(s => Object.values(counts[s]).reduce((a, b) => a + b, 0) > 0),
+  };
+}
+
+export { SECTOR_ETF, SECTOR_COLORS, SECTOR_PALETTE };

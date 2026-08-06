@@ -1,0 +1,252 @@
+// ── Pipeline: 数据抓取层 ────────────────────────────────
+// Fetches from 5 direct Chinese financial APIs + 43 Google News RSS feeds + 12 ETF quotes
+
+import { CONFIG, ETFS } from './config.mjs';
+import { sleep, htmlToText, stripCDATA } from './utils.mjs';
+
+// ── ETF 实时行情 (新浪财经) ──────────────────────────────
+
+export async function fetchETFData() {
+  console.log('\n📊 拉取板块 ETF 实时数据 (新浪财经)...');
+  const results = [];
+
+  const sinaCodes = ETFS.map(etf => {
+    const market = etf.code.startsWith('5') ? 'sh' : 'sz';
+    return market + etf.code;
+  });
+
+  try {
+    const resp = await fetch(`https://hq.sinajs.cn/list=${sinaCodes.join(',')}`, {
+      headers: { 'Referer': 'https://finance.sina.com.cn/' },
+      timeout: 15000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const text = await resp.text();
+    const re = /var hq_str_(\w+)="([^"]*)"/g;
+    let match;
+    while ((match = re.exec(text)) !== null) {
+      const id = match[1];
+      const fields = match[2].split(',');
+      if (fields.length < 10) continue;
+      const code = id.replace(/^(sh|sz)/, '');
+      const etf = ETFS.find(e => e.code === code);
+      if (!etf) continue;
+      const price = parseFloat(fields[3]);
+      const prevClose = parseFloat(fields[2]);
+      const change = prevClose ? ((price - prevClose) / prevClose * 100) : 0;
+      if (price && price > 0) {
+        const item = { code: etf.code, name: etf.name, category: etf.category, price, change };
+        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}  ${change >= 0 ? '+' : ''}${change.toFixed(2)}%`);
+        results.push(item);
+      } else {
+        console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
+      }
+    }
+  } catch (err) {
+    console.warn(`  ETF 数据获取失败: ${err.message}`);
+    return [];
+  }
+  return results;
+}
+
+// ── Google News RSS ──────────────────────────────────────
+
+export async function fetchGoogleNewsRSS(feed) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 15000);
+  let resp;
+  try {
+    resp = await fetch(feed.url, {
+      signal: controller.signal,
+      headers: { 'User-Agent': 'Mozilla/5.0 (compatible; news-bot/1.0)' },
+      timeout: 15000,
+    });
+  } catch (err) {
+    clearTimeout(timeout);
+    throw new Error('fetch failed');
+  }
+  clearTimeout(timeout);
+  if (!resp.ok) throw new Error('HTTP ' + resp.status);
+  const xml = await resp.text();
+
+  const items = [];
+  const itemRegex = /<item>([\s\S]*?)<\/item>/gi;
+  let match;
+  while ((match = itemRegex.exec(xml)) !== null) {
+    const block = match[1];
+    const title = (block.match(/<title>([\s\S]*?)<\/title>/i) || [])[1] || '';
+    const link = (block.match(/<link>([\s\S]*?)<\/link>/i) || [])[1] || '';
+    const desc = (block.match(/<description>([\s\S]*?)<\/description>/i) || [])[1] || '';
+    const pubDate = (block.match(/<pubDate>([\s\S]*?)<\/pubDate>/i) || [])[1] || '';
+    const source = (block.match(/<source[^>]*>([\s\S]*?)<\/source>/i) || [])[1] || '';
+    items.push({
+      title: htmlToText(stripCDATA(title)),
+      description: htmlToText(stripCDATA(desc)).substring(0, 600),
+      link: link.trim(),
+      pubDate: pubDate ? new Date(pubDate.trim()) : new Date(),
+      source: source ? htmlToText(stripCDATA(source)) : feed.name,
+    });
+  }
+  return items;
+}
+
+// ── 直接 API 抓取器 ──────────────────────────────────────
+
+export async function fetchClsNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.cls.cn/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.roll_data || data?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || '').trim(),
+      description: (item.brief || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.shareurl || `https://www.cls.cn/detail/${item.id}`,
+      pubDate: new Date((item.ctime || Math.floor(Date.now()/1000)) * 1000),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+export async function fetchEastMoneyNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.eastmoney.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.list || data?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || item.name || '').trim(),
+      description: (item.digest || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.url || item.uniqueUrl || '',
+      pubDate: new Date(item.pub_time || item.showTime || item.time || Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+export async function fetchJin10News(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.jin10.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const raw = await resp.text();
+    const jsonStr = raw.replace(/^var newest\s*=\s*/, '').replace(/;\s*$/, '').trim();
+    const items = JSON.parse(jsonStr);
+    return items.slice(0, 40).map(item => {
+      const data = item.data || {};
+      const content = (data.content || '').replace(/<[^>]+>/g, '').trim();
+      let title = '';
+      const titleMatch = content.match(/^【(.+?)】/);
+      if (titleMatch) {
+        title = titleMatch[0];
+      } else {
+        title = content.substring(0, 50);
+      }
+      return {
+        title,
+        description: content.substring(0, 600),
+        link: data.source_link || '',
+        pubDate: new Date(item.time || Date.now()),
+        source: source.name,
+      };
+    }).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+export async function fetchSinaNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://finance.sina.com.cn/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.result?.data?.feed?.list || data?.result?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.rich_text || item.title || '').replace(/<[^>]+>/g, '').trim(),
+      description: (item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.docurl || item.link || '',
+      pubDate: new Date(item.create_time ? item.create_time * 1000 : Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+export async function fetchWallStreetCNNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://wallstreetcn.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.items || data?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || item.content_text || '').replace(/<[^>]+>/g, '').trim(),
+      description: (item.content_text || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.uri ? `https://wallstreetcn.com/articles/${item.id}` : (item.link || ''),
+      pubDate: new Date(item.display_time ? item.display_time * 1000 : Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+// APU fetcher map
+export const API_FETCHERS = {
+  '财联社': fetchClsNews,
+  '金十数据': fetchJin10News,
+  '东方财富': fetchEastMoneyNews,
+  '新浪财经': fetchSinaNews,
+  '华尔街见闻': fetchWallStreetCNNews,
+};
+
+// ── 主抓取入口 ──────────────────────────────────────────
+
+export async function fetchAllNews() {
+  const allItems = [];
+  const allFeeds = [...CONFIG.feeds, ...(CONFIG.extraFeeds || [])];
+
+  // 1. Google News RSS (batched by 8)
+  console.log('\n📡 拉取 Google News RSS (并行)...');
+  const BATCH = 8;
+  for (let b = 0; b < allFeeds.length; b += BATCH) {
+    const batch = allFeeds.slice(b, b + BATCH);
+    await Promise.allSettled(
+      batch.map((feed, j) => fetchGoogleNewsRSS(feed).then(items => {
+        console.log(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} → ${items.length} 条`);
+        allItems.push(...items);
+      }).catch(err => {
+        console.warn(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} ⚠ ${err.message}`);
+      }))
+    );
+    if (b + BATCH < allFeeds.length) await sleep(800);
+  }
+
+  // 2. Direct API sources in parallel
+  const apiSources = (CONFIG.apiSources || []).filter(s => s.enabled !== false);
+  if (apiSources.length > 0) {
+    console.log(`\n🔌 直连 ${apiSources.length} 个财经 API (并行)...`);
+    const apiPromises = apiSources.map(async (src) => {
+      const fetcher = API_FETCHERS[src.name];
+      if (!fetcher) return [];
+      const items = await fetcher(src);
+      items.forEach(it => it.sourceType = 'direct_api');
+      console.log(`  [API] ${src.name} → ${items.length} 条`);
+      return items;
+    });
+    const apiResults = await Promise.allSettled(apiPromises);
+    for (const r of apiResults) {
+      if (r.status === 'fulfilled') allItems.push(...r.value);
+    }
+  }
+
+  return allItems;
+}
