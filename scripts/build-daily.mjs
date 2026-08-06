@@ -473,6 +473,58 @@ async function fetchAllNews() {
 
 // ── 2. Claude AI 分析 + 翻译 ──────────────────────────
 
+// Match AI-consolidated brief to its most recent source news pubDate
+function findSourceDate(ai, newsItems, fallback, index) {
+  // Extract key terms from the AI title_cn
+  const title = (ai.title_cn || '').toLowerCase();
+  const summary = (ai.summary_cn || '').toLowerCase();
+  const cat = (ai.category || '');
+
+  // Find input items in same category with keyword overlap
+  let bestDate = null;
+  let bestScore = 0;
+
+  const titleWords = title.replace(/[^a-z0-9一-鿿]/g, ' ').split(/\s+/).filter(w => w.length >= 2);
+  const summaryWords = summary.replace(/[^a-z0-9一-鿿]/g, ' ').split(/\s+/).filter(w => w.length >= 2);
+
+  for (const item of newsItems) {
+    let score = 0;
+    const itemTitle = (item.title || '').toLowerCase();
+    const itemDesc = (item.description || '').toLowerCase();
+
+    // Category match bonus
+    if (item.guessedSector && item.guessedSector === cat) score += 3;
+
+    // Keyword overlap
+    for (const w of titleWords) {
+      if (itemTitle.includes(w)) score += 2;
+      if (itemDesc.includes(w)) score += 1;
+    }
+    for (const w of summaryWords) {
+      if (itemTitle.includes(w)) score += 1;
+      if (itemDesc.includes(w)) score += 1;
+    }
+
+    if (score > bestScore) {
+      bestScore = score;
+      bestDate = item.pubDate;
+    }
+  }
+
+  // If we found a good match, use it; otherwise fall back to a reasonable default
+  if (bestDate && bestScore >= 2) return bestDate;
+
+  // No good match — use the most recent matching input time, or oldest input time in same sector
+  const sectorItems = newsItems.filter(item => item.guessedSector === cat);
+  if (sectorItems.length > 0) {
+    const dates = sectorItems.map(s => s.pubDate.getTime()).sort((a, b) => b - a);
+    // Pick a time near the median of sector items (not all at the same minute)
+    return new Date(dates[Math.min(index, dates.length - 1)]);
+  }
+
+  return new Date(Math.max(fallback.getTime() - index * 120000, 0));
+}
+
 async function analyzeWithClaude(newsItems) {
   if (!CONFIG.apiKey) {
     console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
@@ -589,6 +641,8 @@ ${newsText}`;
   // Use the latest input news pubDate as the base, spread briefs across a small window
   const maxInputDate = newsItems.reduce((max, n) => n.pubDate > max ? n.pubDate : max, new Date(0));
   const baseDate = maxInputDate.getTime() > 0 ? maxInputDate : new Date();
+  // Match each AI-consolidated brief to its most recent source news pubDate
+  // by looking for input items in the same sector with overlapping keywords
   const analyzed = (result.analyzed || []).map((ai, i) => ({
     title_cn: ai.title_cn || '[未命名]',
     summary_cn: ai.summary_cn || '',
@@ -601,7 +655,7 @@ ${newsText}`;
     notes: ai.notes || '',
     title: ai.title_cn || '',
     description: ai.summary_cn || '',
-    pubDate: new Date(baseDate.getTime() - i * 60000),
+    pubDate: findSourceDate(ai, newsItems, baseDate, i),
     source: 'AI综合',
     link: '',
   }));
