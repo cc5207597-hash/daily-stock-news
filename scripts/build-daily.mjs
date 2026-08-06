@@ -237,35 +237,48 @@ const ETFS = [
 ];
 
 async function fetchETFData() {
-  console.log('\n📊 拉取板块 ETF 实时数据 (并行)...');
+  console.log('\n📊 拉取板块 ETF 实时数据 (新浪财经)...');
   const results = [];
-  const promises = ETFS.map(async (etf) => {
-    try {
-      const exchange = etf.code.startsWith('5') ? '1' : '0'; // 5开头=上海，1开头=深圳
-      const resp = await fetch(
-        `https://push2.eastmoney.com/api/qt/stock/get?secid=${exchange}.${etf.code}&fields=f43,f57,f58,f170`,
-        { headers: { 'Referer': 'https://quote.eastmoney.com/' }, timeout: 10000 }
-      );
-      if (!resp.ok) throw new Error('HTTP ' + resp.status);
-      const data = await resp.json();
-      const d = data?.data;
-      if (d && d.f43) {
-        const price = d.f43 / 100;
-        const item = { code: etf.code, name: etf.name, category: etf.category, price, change: (d.f170 || 0) / 100, date: d.f57 || '' };
-        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}  ${(d.f170/100).toFixed(2)}%`);
-        return item;
-      }
-      console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
-      return null;
-    } catch (err) {
-      console.warn(`  ${etf.name}(${etf.code}) ⚠ ${err.message}`);
-      return null;
-    }
+
+  // Sina format: sh{code} for Shanghai (5xxxxx), sz{code} for Shenzhen (1xxxxx)
+  const sinaCodes = ETFS.map(etf => {
+    const market = etf.code.startsWith('5') ? 'sh' : 'sz';
+    return market + etf.code;
   });
-  const settled = await Promise.allSettled(promises);
-  for (const r of settled) {
-    if (r.status === 'fulfilled' && r.value) results.push(r.value);
+
+  try {
+    const resp = await fetch(`https://hq.sinajs.cn/list=${sinaCodes.join(',')}`, {
+      headers: { 'Referer': 'https://finance.sina.com.cn/' },
+      timeout: 15000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const text = await resp.text();
+    // Parse each "var hq_str_XXX=\"data\";" line
+    const re = /var hq_str_(\w+)="([^"]*)"/g;
+    let match;
+    while ((match = re.exec(text)) !== null) {
+      const id = match[1];          // e.g., "sh515050"
+      const fields = match[2].split(',');
+      if (fields.length < 10) continue;
+      const code = id.replace(/^(sh|sz)/, '');
+      const etf = ETFS.find(e => e.code === code);
+      if (!etf) continue;
+      const price = parseFloat(fields[3]);    // current price
+      const prevClose = parseFloat(fields[2]); // yesterday close
+      const change = prevClose ? ((price - prevClose) / prevClose * 100) : 0;
+      if (price && price > 0) {
+        const item = { code: etf.code, name: etf.name, category: etf.category, price, change };
+        console.log(`  ${etf.name}(${etf.code}): ${price.toFixed(3)}  ${change >= 0 ? '+' : ''}${change.toFixed(2)}%`);
+        results.push(item);
+      } else {
+        console.warn(`  ${etf.name}(${etf.code}) ⚠ 无数据`);
+      }
+    }
+  } catch (err) {
+    console.warn(`  ETF 数据获取失败: ${err.message}`);
+    return [];
   }
+
   return results;
 }
 
