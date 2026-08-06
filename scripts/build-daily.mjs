@@ -82,11 +82,12 @@ const CONFIG = {
   // Direct financial API sources (supplement RSS)
   apiSources: [
     { name: '财联社', url: 'https://www.cls.cn/api/cache?app=CailianpressWeb&name=telegraph&os=web&sv=8.7.9', enabled: true },
-    { name: '东方财富', url: 'https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news&column=350,35,466,467&order=1&needInteractData=0&page_index=1&page_size=30', enabled: true },
+    { name: '金十数据', url: 'https://www.jin10.com/flash_newest.js', enabled: true },
+    { name: '东方财富', url: 'https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news_new&column=350,35,466,467&order=1&needInteractData=0&page_index=1&page_size=30&req_trace=test', enabled: true },
     { name: '新浪财经', url: 'https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&type=0', enabled: true },
     { name: '华尔街见闻', url: 'https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&limit=30', enabled: true },
   ],
-  apiSourceMaxItems: 30,
+  apiSourceMaxItems: 40,
 
   // Server酱3 WeChat push notification (set env var SERVERCHAN_SENDKEY to enable)
   serverChanSendkey: process.env.SERVERCHAN_SENDKEY || '',
@@ -121,14 +122,48 @@ async function fetchEastMoneyNews(source) {
     });
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
-    const items = (data?.data?.list || []);
+    const items = (data?.data?.list || data?.data || []);
     return items.slice(0, 30).map(item => ({
       title: (item.title || item.name || '').trim(),
-      description: (item.digest || item.summary || '').trim().substring(0, 600),
+      description: (item.digest || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.url || item.uniqueUrl || '',
-      pubDate: new Date(item.pub_time || item.showTime || Date.now()),
+      pubDate: new Date(item.pub_time || item.showTime || item.time || Date.now()),
       source: source.name,
     })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+async function fetchJin10News(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.jin10.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const raw = await resp.text();
+    // Parse "var newest = [{...},{...}];" — extract JSON array
+    const jsonStr = raw.replace(/^var newest\s*=\s*/, '').replace(/;\s*$/, '').trim();
+    const items = JSON.parse(jsonStr);
+    return items.slice(0, 40).map(item => {
+      const data = item.data || {};
+      // Content often has HTML tags like 【tag】title
+      const content = (data.content || '').replace(/<[^>]+>/g, '').trim();
+      // Extract title from 【...】pattern, or use first 50 chars
+      let title = '';
+      const titleMatch = content.match(/^【(.+?)】/);
+      if (titleMatch) {
+        title = titleMatch[0];
+      } else {
+        title = content.substring(0, 50);
+      }
+      return {
+        title,
+        description: content.substring(0, 600),
+        link: data.source_link || '',
+        pubDate: new Date(item.time || Date.now()),
+        source: source.name,
+      };
+    }).filter(n => n.title);
   } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
 }
 
@@ -351,7 +386,7 @@ async function fetchAllNews() {
   if (apiSources.length > 0) {
     console.log(`\n🔌 直连 ${apiSources.length} 个财经 API (并行)...`);
     const fetchers = {
-      '财联社': fetchClsNews, '东方财富': fetchEastMoneyNews,
+      '财联社': fetchClsNews, '金十数据': fetchJin10News, '东方财富': fetchEastMoneyNews,
       '新浪财经': fetchSinaNews, '华尔街见闻': fetchWallStreetCNNews,
     };
     const apiPromises = apiSources.map(async (src) => {
@@ -387,6 +422,39 @@ async function fetchAllNews() {
     deduped.push(item);
   }
 
+  // Pre-classify each item with a guessed sector (for balanced AI input)
+  const sectorKeywords = {
+    '半导体': ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'AMD', 'GPU', 'HBM', 'foundry', '代工', '制程', '封装', 'EDA', '光刻', 'ASML', 'DRAM', '存储', '晶圆', 'PCB', '鹏鼎', '封测', '宏碁', '三星'],
+    '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', '数据中心', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '服务器', '液冷', 'rack', '机架', '5G', '通信'],
+    '创新药': ['创新药', 'FDA', '临床试验', 'NDA', 'BLA', '抗体', 'ADC', '基因', '细胞治疗', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', '审批', '授权', '出海', 'License', '生物医药', '疫苗'],
+    '黄金': ['黄金', '金价', 'COMEX', 'gold', '美联储', '降息', '利率', '央行购金', '通胀', '紫金矿业', '山东黄金', '中金黄金', '贵金属', 'precious metal', '非农', 'CPI'],
+  };
+
+  const classifySector = (text) => {
+    const t = text.toLowerCase();
+    let best = '', bestScore = 0;
+    for (const [sector, kws] of Object.entries(sectorKeywords)) {
+      let score = 0;
+      for (const kw of kws) if (t.includes(kw.toLowerCase())) score++;
+      if (score > bestScore) { bestScore = score; best = sector; }
+    }
+    return best;
+  };
+
+  deduped.forEach(item => {
+    if (!item.guessedSector) {
+      item.guessedSector = classifySector((item.title || '') + ' ' + (item.description || ''));
+    }
+  });
+
+  // Print sector distribution
+  const sectorCounts = {};
+  for (const item of deduped) {
+    const s = item.guessedSector || '未分类';
+    sectorCounts[s] = (sectorCounts[s] || 0) + 1;
+  }
+  console.log(`  板块分布: ${Object.entries(sectorCounts).map(([k, v]) => `${k} ${v}条`).join(', ') || '无'}`);
+
   // Freshness filter
   const now = Date.now();
   const days = Math.ceil(CONFIG.maxAgeSeconds / 86400);
@@ -413,15 +481,34 @@ async function analyzeWithClaude(newsItems) {
 
   console.log('\n🤖 调用 Claude API 进行 AI 分析 + 中文翻译...');
 
-  const newsText = newsItems.map((n, i) =>
-    `[${i}] 标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
+  // Count actual sector distribution in input
+  const inputSectorCounts = {};
+  for (const n of newsItems) {
+    const s = n.guessedSector || '未分类';
+    inputSectorCounts[s] = (inputSectorCounts[s] || 0) + 1;
+  }
+  const sectorSummary = Object.entries(inputSectorCounts).map(([k, v]) => `${k} ${v}条`).join('、');
+
+  // Show items grouped by sector for better AI understanding
+  const sortedItems = [...newsItems].sort((a, b) => {
+    const sa = a.guessedSector || '未分类', sb = b.guessedSector || '未分类';
+    if (sa === sb) return b.pubDate - a.pubDate;
+    const order = {'半导体':1, '光模块':2, '创新药':3, '黄金':4, '未分类':5};
+    return (order[sa] || 9) - (order[sb] || 9);
+  });
+
+  const newsText = sortedItems.map((n, i) =>
+    `[${i}]【${n.guessedSector || '未分类'}】标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${newsItems.length} 条新闻来自 RSS 抓取。
+  const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${newsItems.length} 条新闻已按板块预分类（${sectorSummary}），每条标题前的【】标签为板块提示，请以此为主要参考进行归类。
 
-新闻来源优先级：财联社 > 金十数据 > 华尔街见闻 > 路透社 > 新浪财经 > Bloomberg > CNBC > 第一财经 > 21世纪经济报道 > 经济观察报 > WSJ > FT > Nikkei。高优先级来源的信息应优先采用和保留。
-
-核心任务：去重合并为 20-28 条行业简讯。规则：同类涨跌行情合并为一条；严厉丢弃纯情绪/个人故事/标题党；优先保留技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动、临床数据/FDA审批、金价/利率/央行购金等有产业逻辑的内容。必须确保半导体、光模块、创新药、黄金四个板块至少各有 5 条简讯。
+核心任务：从这些新闻中提炼出 12-20 条行业简讯，四个板块必须有覆盖。规则：
+1. 同类涨跌行情合并为一条，不要多条说同一件事
+2. 严厉丢弃纯情绪/个人故事/标题党/重复内容
+3. 只保留有产业逻辑支撑的内容：技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动、临床数据/FDA审批、金价/利率/央行购金
+4. "【XX板块】今日无重大新闻" 这种泛泛而谈的空话不要写，每个版块至少2条有实质内容的简讯
+5. 尽量涵盖不同板块，若某个板块输入新闻确实很少就如实反映，但不要全写半导体
 
 每条简讯包含以下字段（请严格遵守字段名）：
 - title_cn：专业平实的行业简讯标题
