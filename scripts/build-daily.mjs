@@ -78,7 +78,97 @@ const CONFIG = {
 
   maxAgeSeconds: 4 * 24 * 3600,
   maxNewsCount: 80,
+
+  // Direct financial API sources (supplement RSS)
+  apiSources: [
+    { name: '财联社', url: 'https://www.cls.cn/api/cache?app=CailianpressWeb&name=telegraph&os=web&sv=8.7.9', enabled: true },
+    { name: '东方财富', url: 'https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news&column=350,35,466,467&order=1&needInteractData=0&page_index=1&page_size=30', enabled: true },
+    { name: '新浪财经', url: 'https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&type=0', enabled: true },
+    { name: '华尔街见闻', url: 'https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&limit=30', enabled: true },
+  ],
+  apiSourceMaxItems: 30,
+
+  // Server酱3 WeChat push notification (set env var SERVERCHAN_SENDKEY to enable)
+  serverChanSendkey: process.env.SERVERCHAN_SENDKEY || '',
 };
+
+// ── 直接 API 抓取器 ────────────────────────────────────
+
+async function fetchClsNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.cls.cn/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.roll_data || data?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || '').trim(),
+      description: (item.brief || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.shareurl || `https://www.cls.cn/detail/${item.id}`,
+      pubDate: new Date((item.ctime || Math.floor(Date.now()/1000)) * 1000),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+async function fetchEastMoneyNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://www.eastmoney.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.list || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || item.name || '').trim(),
+      description: (item.digest || item.summary || '').trim().substring(0, 600),
+      link: item.url || item.uniqueUrl || '',
+      pubDate: new Date(item.pub_time || item.showTime || Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+async function fetchSinaNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://finance.sina.com.cn/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.result?.data?.feed?.list || data?.result?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.rich_text || item.title || '').replace(/<[^>]+>/g, '').trim(),
+      description: (item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.docurl || item.link || '',
+      pubDate: new Date(item.create_time ? item.create_time * 1000 : Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
+async function fetchWallStreetCNNews(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://wallstreetcn.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.items || data?.data || []);
+    return items.slice(0, 30).map(item => ({
+      title: (item.title || item.content_text || '').replace(/<[^>]+>/g, '').trim(),
+      description: (item.content_text || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+      link: item.uri ? `https://wallstreetcn.com/articles/${item.id}` : (item.link || ''),
+      pubDate: new Date(item.display_time ? item.display_time * 1000 : Date.now()),
+      source: source.name,
+    })).filter(n => n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
 
 // ── 工具函数 ──────────────────────────────────────────
 
@@ -243,13 +333,44 @@ async function fetchAllNews() {
     if (b + BATCH < allFeeds.length) await sleep(800);
   }
 
-  // Deduplicate
-  const seen = new Set();
+  // 2. Fetch direct API sources in parallel
+  const apiSources = (CONFIG.apiSources || []).filter(s => s.enabled !== false);
+  if (apiSources.length > 0) {
+    console.log(`\n🔌 直连 ${apiSources.length} 个财经 API (并行)...`);
+    const fetchers = {
+      '财联社': fetchClsNews, '东方财富': fetchEastMoneyNews,
+      '新浪财经': fetchSinaNews, '华尔街见闻': fetchWallStreetCNNews,
+    };
+    const apiPromises = apiSources.map(async (src) => {
+      const fetcher = fetchers[src.name];
+      if (!fetcher) return [];
+      const items = await fetcher(src);
+      // Tag API items for priority in dedup
+      items.forEach(it => it.sourceType = 'direct_api');
+      console.log(`  [API] ${src.name} → ${items.length} 条`);
+      return items;
+    });
+    const apiResults = await Promise.allSettled(apiPromises);
+    for (const r of apiResults) {
+      if (r.status === 'fulfilled') allItems.push(...r.value);
+    }
+  }
+
+  // Deduplicate — prefer direct API sources over RSS
+  const seen = new Map();
   const deduped = [];
   for (const item of allItems) {
     const key = item.title.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 50);
-    if (seen.has(key)) continue;
-    seen.add(key);
+    const existing = seen.get(key);
+    if (existing && existing.sourceType !== 'direct_api' && item.sourceType === 'direct_api') {
+      // Replace RSS entry with API entry (same key, API wins)
+      const idx = deduped.findIndex(d => d.title.toLowerCase().replace(/[^a-z0-9]/g, '').substring(0, 50) === key);
+      if (idx >= 0) deduped[idx] = item;
+      seen.set(key, item);
+      continue;
+    }
+    if (existing) continue;
+    seen.set(key, item);
     deduped.push(item);
   }
 
@@ -507,7 +628,7 @@ function analyzeWithKeywords(newsItems) {
 
 // ── HTML 渲染 ──────────────────────────────────────────
 
-function renderHTML(result, todayDisplay, etfData) {
+export function renderHTML(result, todayDisplay, etfData) {
   const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi } = result;
 
   const impactCls = (imp) => imp === '极高' ? 'impact-vhigh' : imp === '高' ? 'impact-high' : imp === '中' ? 'impact-mid' : 'impact-low';
@@ -683,6 +804,14 @@ function renderHTML(result, todayDisplay, etfData) {
 
   .market-summary{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;font-size:.78rem;line-height:1.6;margin-bottom:16px;}
 
+  /* History bar */
+  .history-bar{display:flex;align-items:center;justify-content:center;gap:8px;margin-bottom:12px;flex-wrap:wrap;}
+  .history-bar label{font-size:.72rem;color:var(--text-dim);font-weight:600;}
+  .history-bar select{padding:4px 10px;font-size:.72rem;border:1px solid var(--border);border-radius:8px;background:var(--card-bg);color:var(--text);cursor:pointer;max-width:200px;}
+  .history-bar button{padding:4px 16px;font-size:.68rem;font-weight:600;border:1px solid var(--border);border-radius:8px;background:var(--card-bg);cursor:pointer;transition:all .15s;}
+  .history-bar button:hover{background:#e8ecf1;}
+  .history-bar button.active{background:var(--accent);color:#fff;border-color:var(--accent);}
+
   /* Footer */
   .footer{text-align:center;padding:14px;font-size:.66rem;color:var(--text-muted);border-top:1px solid var(--border);margin-top:20px;line-height:1.7;}
   .footer strong{color:#b91c1c;}
@@ -701,6 +830,14 @@ function renderHTML(result, todayDisplay, etfData) {
   </div>
   <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
   <button class="refresh-btn" onclick="triggerRefresh()" title="手动刷新日报">🔄 刷新日报</button>
+</div>
+
+<div class="history-bar">
+  <label>历史日报</label>
+  <select id="historySelect" onchange="showHistoryDate()">
+    <option value="">-- 选择日期 --</option>
+  </select>
+  <button id="today-btn" class="active" onclick="goToday()">今天</button>
 </div>
 
 <div class="stats-mini">
@@ -831,13 +968,114 @@ async function pollStatus() {
   showToast('构建超时，请稍后手动刷新页面', 'err');
   resetBtn();
 }
+// History browsing
+async function loadHistoryDates(){
+  const sel = document.getElementById('historySelect');
+  if(!sel) return;
+  try {
+    const r = await fetch(REFRESH_URL + '/history/dates');
+    const d = await r.json();
+    sel.innerHTML = '<option value="">-- 选择日期 --</option>';
+    (d.dates || []).forEach(dt => {
+      const opt = document.createElement('option');
+      opt.value = dt;
+      const y=dt.slice(0,4), m=dt.slice(4,6), day=dt.slice(6,8);
+      opt.textContent = y + '-' + m + '-' + day;
+      sel.appendChild(opt);
+    });
+  } catch(e) { console.warn('加载历史日期失败', e); }
+}
+function showHistoryDate(){
+  const sel = document.getElementById('historySelect');
+  const dt = sel.value;
+  if(!dt) return;
+  window.location.href = REFRESH_URL + '/history?date=' + dt;
+}
+function goToday(){
+  window.location.href = REFRESH_URL + '/';
+}
+document.addEventListener('DOMContentLoaded', loadHistoryDates);
 </script>
 </body>
 </html>`;
 }
 
-function escHtml(s) {
+export function escHtml(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+// ── 推送通知 ─────────────────────────────────────────────
+
+async function sendNotification(result, etfData, dateStr) {
+  if (!CONFIG.serverChanSendkey) {
+    console.log('📤 推送通知: 未配置 (设置环境变量 SERVERCHAN_SENDKEY 以启用)');
+    return;
+  }
+
+  console.log('\n📤 发送微信推送通知...');
+
+  const { analyzed, sectorMatrix, keyPoints, marketSummary } = result;
+  const bull = analyzed.filter(n => (n.direction || '').includes('利好')).length;
+  const bear = analyzed.filter(n => (n.direction || '').includes('利空')).length;
+  const vhigh = analyzed.filter(n => n.impact === '极高').length;
+
+  const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
+  const top3 = [...analyzed].sort((a, b) => (impactRank[a.impact] || 9) - (impactRank[b.impact] || 9)).slice(0, 3);
+
+  const etfLines = ['半导体', '光模块', '创新药', '黄金'].map(cat => {
+    const items = etfData.filter(e => e.category === cat);
+    if (!items.length) return '';
+    const avg = items.reduce((s, e) => s + e.change, 0) / items.length;
+    const emoji = avg > 0 ? '📈' : avg < 0 ? '📉' : '➖';
+    return emoji + ' ' + cat + ': ' + (avg > 0 ? '+' : '') + avg.toFixed(2) + '%';
+  }).filter(Boolean).join('  ');
+
+  const displayDate = dateStr.slice(0,4) + '-' + dateStr.slice(4,6) + '-' + dateStr.slice(6,8);
+  const title = '行业板块日报 · ' + displayDate;
+  const desp = [
+    '## 📡 ' + title,
+    '',
+    '> ' + (marketSummary ? marketSummary.substring(0, 100) + '...' : '今日产业动态已更新'),
+    '',
+    '**📊 核心数据**',
+    '- 精选简讯: **' + analyzed.length + '** 条',
+    '- 利好: <font color="green">' + bull + '</font> 条 | 利空: <font color="red">' + bear + '</font> 条',
+    '- 极高影响: ' + vhigh + ' 条',
+    '',
+    '**🔥 重点关注**',
+    ...top3.map((n, i) => (i + 1) + '. ' + n.title_cn + ' — *' + n.category + ' · ' + n.direction + ' · ' + n.impact + '*'),
+    '',
+    '**📈 板块 ETF**',
+    etfLines || '暂无数据',
+    '',
+    '**💡 要点**',
+    ...(keyPoints || []).slice(0, 3).map(p => '- ' + p),
+    '',
+    '---',
+    '🤖 AI 分析 · ' + new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }),
+  ].join('\n');
+
+  const isNewKey = CONFIG.serverChanSendkey.startsWith('sctp');
+  const apiUrl = isNewKey
+    ? 'https://' + CONFIG.serverChanSendkey + '.push.ft07.com/send'
+    : 'https://sctapi.ftqq.com/' + CONFIG.serverChanSendkey + '.send';
+
+  try {
+    const resp = await fetch(apiUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json;charset=utf-8' },
+      body: JSON.stringify({ title, desp }),
+      timeout: 15000,
+    });
+    if (resp.ok) {
+      const data = await resp.json();
+      console.log('  ✅ 推送成功 (' + (data?.data?.pushid || 'ok') + ')');
+    } else {
+      console.warn('  ⚠ 推送返回 ' + resp.status);
+    }
+  } catch (err) {
+    console.warn('  ⚠ 推送失败: ' + err.message);
+  }
 }
 
 // ── 主流程 ─────────────────────────────────────────────
@@ -881,6 +1119,40 @@ async function main() {
   const indexPath = join(PROJECT_ROOT, 'index.html');
   writeFileSync(indexPath, html, 'utf-8');
   console.log(`📄 首页: ${indexPath}`);
+
+  // 5a. Save structured JSON for history browsing
+  const buildPayload = {
+    date: dateStr,
+    displayDate: todayDisplay,
+    generatedAt: new Date().toISOString(),
+    analyzed: result.analyzed.map(n => ({
+      title_cn: n.title_cn,
+      summary_cn: n.summary_cn,
+      category: n.category,
+      direction: n.direction,
+      impact: n.impact,
+      certainty: n.certainty,
+      time_window: n.time_window,
+      tickers: n.tickers,
+      notes: n.notes,
+      title: n.title,
+      description: n.description,
+      pubDate: n.pubDate.toISOString(),
+      source: n.source,
+      link: n.link,
+    })),
+    sectorMatrix: result.sectorMatrix,
+    keyPoints: result.keyPoints,
+    marketSummary: result.marketSummary,
+    isAi: result.isAi,
+    etfData: etfData,
+  };
+  const jsonPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.json`);
+  writeFileSync(jsonPath, JSON.stringify(buildPayload, null, 2), 'utf-8');
+  console.log(`📋 数据: ${jsonPath}`);
+
+  // 6. Send push notification (if configured)
+  await sendNotification(result, etfData, dateStr);
 
   console.log('\n✅ 完成！\n');
 }

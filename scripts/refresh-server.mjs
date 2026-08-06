@@ -2,14 +2,16 @@
 // 本地预览 + 手动刷新服务
 // 访问 http://127.0.0.1:3456 看最新页面，点按钮直接重建+推送
 import { execSync } from 'child_process';
-import { readFileSync, existsSync } from 'fs';
+import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
+import { renderHTML, escHtml } from './build-daily.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const INDEX = join(ROOT, 'index.html');
+const OUTPUT_DIR = join(ROOT, 'output');
 const PORT = 3456;
 
 let lastStatus = { state: 'idle', time: null, error: null };
@@ -26,6 +28,47 @@ const server = http.createServer((req, res) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
 
   if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
+
+  // List available history dates
+  if (req.method === 'GET' && req.url === '/history/dates') {
+    let dates = [];
+    if (existsSync(OUTPUT_DIR)) {
+      const files = readdirSync(OUTPUT_DIR);
+      dates = files
+        .filter(f => f.endsWith('.json'))
+        .map(f => f.replace('股市热点日报_', '').replace('.json', ''))
+        .sort()
+        .reverse();
+    }
+    serveFile(res, 200, 'application/json; charset=utf-8', JSON.stringify({ dates }));
+    return;
+  }
+
+  // Serve historical report as HTML
+  if (req.method === 'GET' && req.url.startsWith('/history?date=')) {
+    const urlObj = new URL(req.url, `http://${req.headers.host}`);
+    const dateStr = urlObj.searchParams.get('date');
+    if (!/^\d{8}$/.test(dateStr)) {
+      serveFile(res, 400, 'application/json', JSON.stringify({ error: 'Invalid date format, use YYYYMMDD' }));
+      return;
+    }
+    const jsonPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.json`);
+    if (!existsSync(jsonPath)) {
+      serveFile(res, 404, 'text/plain', '该日期无数据');
+      return;
+    }
+    try {
+      const json = JSON.parse(readFileSync(jsonPath, 'utf-8'));
+      // Convert ISO date strings back to Date objects
+      json.analyzed = (json.analyzed || []).map(n => ({ ...n, pubDate: new Date(n.pubDate) }));
+      const displayDate = json.displayDate || `${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`;
+      const html = renderHTML(json, displayDate, json.etfData || []);
+      serveFile(res, 200, 'text/html; charset=utf-8', html);
+    } catch (err) {
+      serveFile(res, 500, 'text/plain', '历史数据解析失败: ' + err.message);
+    }
+    return;
+  }
 
   // Serve index.html
   if (req.method === 'GET' && (req.url === '/' || req.url === '/index.html')) {
@@ -61,7 +104,7 @@ const server = http.createServer((req, res) => {
         execSync('node scripts/build-daily.mjs', { cwd: ROOT, stdio: 'inherit', timeout: 180_000 });
 
         console.log('  2/3 git commit...');
-        execSync('git add index.html scripts/build-daily.mjs', { cwd: ROOT, timeout: 10_000 });
+        execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs', { cwd: ROOT, timeout: 10_000 });
         execSync(`git commit -m "手动刷新: ${new Date().toLocaleString('zh-CN')}"`, { cwd: ROOT, timeout: 10_000 });
 
         console.log('  3/3 git push...');
@@ -83,5 +126,7 @@ const server = http.createServer((req, res) => {
 server.listen(PORT, '127.0.0.1', () => {
   console.log(`🌐 本地预览: http://127.0.0.1:${PORT}`);
   console.log(`   GET / — 查看最新页面`);
+  console.log(`   GET /history/dates — 历史日期列表`);
+  console.log(`   GET /history?date=YYYYMMDD — 历史日报`);
   console.log(`   POST /refresh — 触发重建+推送\n`);
 });
