@@ -220,20 +220,20 @@ function getTodayDisplay() {
 const ETFS = [
   // 半导体
   { code: '159995', name: '芯片ETF华夏', category: '半导体' },
-  { code: '512760', name: '半导体ETF国泰', category: '半导体' },
-  { code: '588200', name: '科创半导体ETF华夏', category: '半导体' },
+  { code: '512760', name: '芯片ETF国泰', category: '半导体' },
+  { code: '588200', name: '科创芯片ETF嘉实', category: '半导体' },
   // 光模块/通信
-  { code: '515050', name: '5GETF华夏', category: '光模块' },
-  { code: '515880', name: '通信ETF华夏', category: '光模块' },
-  { code: '159811', name: '通信ETF天弘', category: '光模块' },
+  { code: '515050', name: '通信ETF华夏', category: '光模块' },
+  { code: '515880', name: '通信ETF国泰', category: '光模块' },
+  { code: '159811', name: '5GETF博时', category: '光模块' },
   // 创新药
-  { code: '159839', name: '创新药ETF华夏', category: '创新药' },
-  { code: '515120', name: '创新药ETF', category: '创新药' },
+  { code: '515120', name: '创新药ETF广发', category: '创新药' },
   { code: '159858', name: '创新药ETF南方', category: '创新药' },
+  { code: '159992', name: '创新药ETF银华', category: '创新药' },
   // 黄金
   { code: '518880', name: '黄金ETF华安', category: '黄金' },
-  { code: '159934', name: '黄金ETF博时', category: '黄金' },
-  { code: '518800', name: '黄金ETF工银', category: '黄金' },
+  { code: '159934', name: '黄金ETF易方达', category: '黄金' },
+  { code: '518800', name: '黄金ETF国泰', category: '黄金' },
 ];
 
 async function fetchETFData() {
