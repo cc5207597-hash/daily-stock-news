@@ -199,6 +199,32 @@ export async function fetchWallStreetCNNews(source) {
   } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
 }
 
+// WallstreetCN information-flow endpoint — items wrapped as { resource: {...} }
+export async function fetchWallStreetCNInfoFlow(source) {
+  try {
+    const resp = await fetch(source.url, {
+      headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://wallstreetcn.com/' },
+      timeout: 10000,
+    });
+    if (!resp.ok) throw new Error('HTTP ' + resp.status);
+    const data = await resp.json();
+    const items = (data?.data?.items || []);
+    return items
+      .map(item => {
+        const res = item.resource || item;
+        if (!res || item.resource_type === 'ad') return null;
+        return {
+          title: (res.title || res.content_short || '').replace(/<[^>]+>/g, '').trim(),
+          description: (res.content_short || res.title || res.summary || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
+          link: (res.uri || (res.id ? `https://wallstreetcn.com/articles/${res.id}` : '')),
+          pubDate: new Date(res.display_time ? res.display_time * 1000 : Date.now()),
+          source: source.name,
+        };
+      })
+      .filter(n => n && n.title);
+  } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
+}
+
 // APU fetcher map
 export const API_FETCHERS = {
   '财联社': fetchClsNews,
@@ -206,6 +232,7 @@ export const API_FETCHERS = {
   '东方财富': fetchEastMoneyNews,
   '新浪财经': fetchSinaNews,
   '华尔街见闻': fetchWallStreetCNNews,
+  '华尔街见闻医药': fetchWallStreetCNInfoFlow,
 };
 
 // ── 主抓取入口 ──────────────────────────────────────────

@@ -323,7 +323,7 @@ new Chart(document.getElementById('heatmapChart'), {
   .chart-card .chart-wrap{height:200px;}
   .chart-donut .chart-wrap{height:180px;max-width:240px;margin:0 auto;}
 </style>
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js" defer></script>
+<script src="assets/chart.umd.min.js"></script>
 </head>
 <body>
 <div class="container">

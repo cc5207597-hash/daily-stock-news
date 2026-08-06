@@ -64,6 +64,8 @@ export const CONFIG = {
     { name: '东方财富', url: 'https://np-listapi.eastmoney.com/comm/web/getNewsByColumns?client=web&biz=web_news_new&column=350,35,466,467&order=1&needInteractData=0&page_index=1&page_size=30&req_trace=test', enabled: true },
     { name: '新浪财经', url: 'https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&type=0', enabled: true },
     { name: '华尔街见闻', url: 'https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&limit=30', enabled: true },
+    // 华尔街见闻医药频道 — 专门的创新药新闻源（礼来/百济/诺和诺德/药明康德等）
+    { name: '华尔街见闻医药', url: 'https://api-one.wallstcn.com/apiv1/content/information-flow?channel=medicine&client=pc&limit=15', enabled: true },
   ],
   apiSourceMaxItems: 40,
 
