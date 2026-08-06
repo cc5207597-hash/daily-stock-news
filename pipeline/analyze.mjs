@@ -237,7 +237,7 @@ function analyzeWithKeywords(newsItems) {
       if (score > bestScore) { bestScore = score; best = rule; }
     }
 
-    const rule = best || { impact: '低', dir: '中性', category: '', tickers: '—', time: '中期' };
+    const rule = best || { impact: '低', dir: '中性', category: n.guessedSector || '', tickers: '—', time: '中期' };
     return {
       ...n,
       title_cn: n.title,

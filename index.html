@@ -143,6 +143,86 @@
 <body>
 <div class="container">
 
+<div class="header">
+  <h1>📡 行业板块日报</h1>
+  <div class="subtitle">2026-08-06 · 11 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
+  <div class="badge-row">
+    <span class="chip chip-ai">AI 分析</span>
+    <span class="chip chip-ai">中文翻译</span>
+    <span class="chip">每交易日更新</span>
+  </div>
+  <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
+  <button class="refresh-btn" onclick="triggerRefresh()" title="手动刷新日报">🔄 刷新日报</button>
+</div>
+
+<div class="history-bar">
+  <label>历史日报</label>
+  <select id="historySelect" onchange="showHistoryDate()">
+    <option value="">-- 选择日期 --</option>
+  </select>
+  <button id="today-btn" class="active" onclick="goToday()">今天</button>
+</div>
+
+<div class="stats-mini">
+  <div class="st">📈利好 <b style="color:#15803d">8</b></div>
+  <div class="st">📉利空 <b style="color:#dc2626">2</b></div>
+  <div class="st">⚡极高 <b style="color:#dc2626">0</b></div>
+  <div class="st">🔥高影响 <b style="color:#ea580c">4</b></div>
+  <div class="st">📊板块 <b>4</b></div>
+</div>
+
+
+<div class="sec-title">📈 板块 ETF 指标</div>
+<div class="etf-grid">
+<div class="etf-group"><div class="etf-group-name cat-semi">半导体</div><div class="etf-item"><span class="etf-name">芯片ETF华夏</span><span class="etf-price">1.177</span><span class="etf-change" style="color:#15803d">+1.03%</span></div><div class="etf-item"><span class="etf-name">芯片ETF国泰</span><span class="etf-price">1.126</span><span class="etf-change" style="color:#15803d">+1.26%</span></div><div class="etf-item"><span class="etf-name">科创芯片ETF嘉实</span><span class="etf-price">1.180</span><span class="etf-change" style="color:#15803d">+1.20%</span></div></div><div class="etf-group"><div class="etf-group-name cat-optics">光模块</div><div class="etf-item"><span class="etf-name">通信ETF华夏</span><span class="etf-price">1.014</span><span class="etf-change" style="color:#15803d">+1.20%</span></div><div class="etf-item"><span class="etf-name">通信ETF国泰</span><span class="etf-price">0.652</span><span class="etf-change" style="color:#15803d">+1.56%</span></div><div class="etf-item"><span class="etf-name">5GETF博时</span><span class="etf-price">2.947</span><span class="etf-change" style="color:#15803d">+1.45%</span></div></div><div class="etf-group"><div class="etf-group-name cat-pharma">创新药</div><div class="etf-item"><span class="etf-name">创新药ETF广发</span><span class="etf-price">0.639</span><span class="etf-change" style="color:#dc2626">-1.39%</span></div><div class="etf-item"><span class="etf-name">创新药ETF南方</span><span class="etf-price">0.688</span><span class="etf-change" style="color:#dc2626">-1.43%</span></div><div class="etf-item"><span class="etf-name">创新药ETF银华</span><span class="etf-price">0.854</span><span class="etf-change" style="color:#dc2626">-1.39%</span></div></div><div class="etf-group"><div class="etf-group-name cat-gold">黄金</div><div class="etf-item"><span class="etf-name">黄金ETF华安</span><span class="etf-price">8.795</span><span class="etf-change" style="color:#15803d">+1.79%</span></div><div class="etf-item"><span class="etf-name">黄金ETF易方达</span><span class="etf-price">9.187</span><span class="etf-change" style="color:#15803d">+1.75%</span></div><div class="etf-item"><span class="etf-name">黄金ETF国泰</span><span class="etf-price">9.217</span><span class="etf-change" style="color:#15803d">+1.80%</span></div></div>
+</div>
+
+
+
+<div class="sec-title">板块速览</div>
+<div class="sector-row">
+
+  <div class="sc">
+    <div class="sc-name">半导体</div>
+    <div class="sc-stat">
+      <span class="badge badge-bull">利好</span>
+      <span class="impact-tag impact-vhigh">强冲击</span>
+      <br><strong>12</strong> 条新闻
+    </div>
+  </div>
+
+  <div class="sc">
+    <div class="sc-name">黄金</div>
+    <div class="sc-stat">
+      <span class="badge badge-mixed">分化</span>
+      <span class="impact-tag impact-mid">中冲击</span>
+      <br><strong>6</strong> 条新闻
+    </div>
+  </div>
+
+  <div class="sc">
+    <div class="sc-name">光模块</div>
+    <div class="sc-stat">
+      <span class="badge badge-bull">利好</span>
+      <span class="impact-tag impact-mid">中冲击</span>
+      <br><strong>4</strong> 条新闻
+    </div>
+  </div>
+
+  <div class="sc">
+    <div class="sc-name">创新药</div>
+    <div class="sc-stat">
+      <span class="badge badge-neutral">中性</span>
+      <span class="impact-tag impact-low">弱冲击</span>
+      <br><strong>0</strong> 条新闻
+    </div>
+  </div>
+
+</div>
+
+
+<div class="market-summary">💡 半导体板块受AI算力需求驱动持续高景气，台积电先进制程供不应求且SpaceX等新玩家入局芯片制造，内资PCB厂商订单饱满纷纷扩产；光模块板块受益于海外AI数据中心持续建设，需求确认度进一步提升；黄金板块在国际金价创新高与美联储加息预期间博弈，国内消费结构转向刚需与保值；创新药板块当日消息面平静。整体来看，AI算力基础设施链条仍是当前最强产业主线，贵金属受宏观政策扰动波动加大。</div>
+
 
 <div class="sec-title">📊 市场数据可视化</div>
 <div class="chart-grid">
@@ -167,77 +247,6 @@
 </div>
 
 
-<div class="header">
-  <h1>📡 行业板块日报</h1>
-  <div class="subtitle">2026-08-06 · 66 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
-  <div class="badge-row">
-    <span class="chip chip">关键词引擎</span>
-    
-    <span class="chip">每交易日更新</span>
-  </div>
-  <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
-  <button class="refresh-btn" onclick="triggerRefresh()" title="手动刷新日报">🔄 刷新日报</button>
-</div>
-
-<div class="history-bar">
-  <label>历史日报</label>
-  <select id="historySelect" onchange="showHistoryDate()">
-    <option value="">-- 选择日期 --</option>
-  </select>
-  <button id="today-btn" class="active" onclick="goToday()">今天</button>
-</div>
-
-<div class="stats-mini">
-  <div class="st">📈利好 <b style="color:#15803d">19</b></div>
-  <div class="st">📉利空 <b style="color:#dc2626">0</b></div>
-  <div class="st">⚡极高 <b style="color:#dc2626">0</b></div>
-  <div class="st">🔥高影响 <b style="color:#ea580c">11</b></div>
-  <div class="st">📊板块 <b>3</b></div>
-</div>
-
-
-<div class="sec-title">📈 板块 ETF 指标</div>
-<div class="etf-grid">
-<div class="etf-group"><div class="etf-group-name cat-semi">半导体</div><div class="etf-item"><span class="etf-name">芯片ETF华夏</span><span class="etf-price">1.177</span><span class="etf-change" style="color:#15803d">+1.03%</span></div><div class="etf-item"><span class="etf-name">芯片ETF国泰</span><span class="etf-price">1.126</span><span class="etf-change" style="color:#15803d">+1.26%</span></div><div class="etf-item"><span class="etf-name">科创芯片ETF嘉实</span><span class="etf-price">1.180</span><span class="etf-change" style="color:#15803d">+1.20%</span></div></div><div class="etf-group"><div class="etf-group-name cat-optics">光模块</div><div class="etf-item"><span class="etf-name">通信ETF华夏</span><span class="etf-price">1.014</span><span class="etf-change" style="color:#15803d">+1.20%</span></div><div class="etf-item"><span class="etf-name">通信ETF国泰</span><span class="etf-price">0.652</span><span class="etf-change" style="color:#15803d">+1.56%</span></div><div class="etf-item"><span class="etf-name">5GETF博时</span><span class="etf-price">2.947</span><span class="etf-change" style="color:#15803d">+1.45%</span></div></div><div class="etf-group"><div class="etf-group-name cat-pharma">创新药</div><div class="etf-item"><span class="etf-name">创新药ETF广发</span><span class="etf-price">0.639</span><span class="etf-change" style="color:#dc2626">-1.39%</span></div><div class="etf-item"><span class="etf-name">创新药ETF南方</span><span class="etf-price">0.688</span><span class="etf-change" style="color:#dc2626">-1.43%</span></div><div class="etf-item"><span class="etf-name">创新药ETF银华</span><span class="etf-price">0.854</span><span class="etf-change" style="color:#dc2626">-1.39%</span></div></div><div class="etf-group"><div class="etf-group-name cat-gold">黄金</div><div class="etf-item"><span class="etf-name">黄金ETF华安</span><span class="etf-price">8.795</span><span class="etf-change" style="color:#15803d">+1.79%</span></div><div class="etf-item"><span class="etf-name">黄金ETF易方达</span><span class="etf-price">9.187</span><span class="etf-change" style="color:#15803d">+1.75%</span></div><div class="etf-item"><span class="etf-name">黄金ETF国泰</span><span class="etf-price">9.217</span><span class="etf-change" style="color:#15803d">+1.80%</span></div></div>
-</div>
-
-
-
-<div class="sec-title">板块速览</div>
-<div class="sector-row">
-
-  <div class="sc">
-    <div class="sc-name">半导体</div>
-    <div class="sc-stat">
-      <span class="badge badge-bull">利好</span>
-      <span class="impact-tag impact-vhigh">强冲击</span>
-      <br><strong>10</strong> 条新闻
-    </div>
-  </div>
-
-  <div class="sc">
-    <div class="sc-name">黄金</div>
-    <div class="sc-stat">
-      <span class="badge badge-bull">利好</span>
-      <span class="impact-tag impact-vhigh">强冲击</span>
-      <br><strong>8</strong> 条新闻
-    </div>
-  </div>
-
-  <div class="sc">
-    <div class="sc-name">光模块</div>
-    <div class="sc-stat">
-      <span class="badge badge-bull">利好</span>
-      <span class="impact-tag impact-vhigh">强冲击</span>
-      <br><strong>1</strong> 条新闻
-    </div>
-  </div>
-
-</div>
-
-
-<div class="market-summary">💡 本日报聚焦半导体、光模块、创新药、黄金四大赛道，66 条新闻经关键词引擎自动分析生成。</div>
-
 <div class="sec-title">新闻列表（按时间从近到远）</div>
 <div class="news-grid">
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -246,25 +255,25 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">先进制程代工供不应求 台积电涨超2%</div>
+<div class="card-title">台积电3纳米产能提前扩张，AI核心客户订单强劲</div>
 
-<div class="card-summary">财联社8月6日电，台积电涨超2%。受英伟达、AMD、博通等核心客户强劲订单的驱动，台积电3纳米制程产能有望较原先预期提前2至3个月扩张，预计在今年第4季度初，将</div>
+<div class="card-summary">受英伟达、AMD、博通等驱动，台积电3纳米制程产能预计Q4初月投片量提升至18万片，较原计划提前2-3个月。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
-<span>财联社</span>
+<span>AI综合</span>
 <span>08-06 22:24</span>
-<span class="ticker-inline">中芯国际</span>
- <a href="https://www.cls.cn/detail/2447793" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
+<span class="ticker-inline">中芯国际,华虹公司,—</span>
+
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 先进制程供不应求，利好先进封装与晶圆代工环节</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -273,25 +282,25 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">美光科技转涨 此前一度跌超7%</div>
+<div class="card-title">SpaceX启动Terafab芯片设施建设，一期投资超168亿美元</div>
 
-<div class="card-summary">【美光科技转涨 此前一度跌超7%】财联社8月6日电，美光科技转涨，此前一度跌超7%。希捷科技收复8%的跌幅后涨近2%。其他存储股也大幅收窄跌幅。</div>
+<div class="card-summary">SpaceX将在得州Grimes县建设芯片设施Terafab，目标年产超1 Terawatt算力，反映其自身及AI产业对定制化芯片的旺盛需求。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
-<span>财联社</span>
-<span>08-06 22:13</span>
+<span>AI综合</span>
+<span>08-06 22:01</span>
+<span class="ticker-inline">北方华创,中微公司,—</span>
 
- <a href="https://www.cls.cn/detail/2447787" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>长期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 大规模资本开支利好半导体设备与基础设施产业链</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -300,25 +309,52 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">【公告全知道】PCB+CPO+英伟达+汽车电子！公司已批量供货800G光模块</div>
+<div class="card-title">阿联酋基金拟超60亿美元在日本建设AI数据中心</div>
 
-<div class="card-summary"></div>
+<div class="card-summary">阿联酋考虑投资至多1万亿日元在日本秋田县建设500兆瓦AI数据中心，将带动高速光模块等基础设施需求。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-high">高</span>
-<span>财联社</span>
-<span>08-06 22:06</span>
-<span class="ticker-inline">中际旭创、新易盛、天孚通信</span>
- <a href="https://www.cls.cn/detail/2447746" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
+<span>AI综合</span>
+<span>08-06 22:59</span>
+<span class="ticker-inline">中际旭创,新易盛,天孚通信</span>
+
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
+<div><span class="dl">确定性</span>中</div>
+<div><span class="dl">窗口</span>中期</div>
+</div>
+<div class="verify-note">📝 海外大规模AI数据中心建设利好国内光模块出口</div>
+</div>
+</div></div>
+<div class="news-card" onclick="this.classList.toggle('expanded')">
+<div class="card-left">
+<div class="card-cat cat-gold">黄金</div>
+<div class="fresh-badge">新</div>
+</div>
+<div class="card-right">
+<div class="card-title">美联储9月加息预期升温，沃什强调聚焦通胀决策</div>
+
+<div class="card-summary">英媒报道美联储主席沃什将只依据通胀数据决定9月是否加息，沟通风格转变或加大金价波动，市场对加息预期敏感。</div>
+<div class="card-meta">
+<span class="badge badge-bear">利空</span>
+<span class="impact-tag impact-high">高</span>
+<span>AI综合</span>
+<span>08-06 22:51</span>
+<span class="ticker-inline">紫金矿业,中金黄金,—</span>
+
+</div>
+<div class="card-detail">
+<div class="detail-grid">
+<div><span class="dl">方向</span>利空</div>
+<div><span class="dl">程度</span>高</div>
+<div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 加息预期压制金价，关注后续通胀数据走向</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -327,596 +363,79 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">The Baltic Dry Index fell, ending a five-day rally</div>
+<div class="card-title">一博科技订单同比增超70%，PCB及ATE产品需求旺盛</div>
 
-<div class="card-summary">The Baltic Dry Index fell, ending a five-day rally as declines in Capesize and S</div>
+<div class="card-summary">一博科技销售订单签单金额同比增长超70%，PCB制板部分工序已满产，ATE、光模块及AI相关领域增长较快，公司预计下半年销售增速明显高于上半年。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
-<span>金十数据</span>
-<span>08-06 22:29</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">Tesla and SpaceX will locate Terafab in Grimes Cou</div>
-
-<div class="card-summary">Tesla and SpaceX will locate Terafab in Grimes County, Texas. The project is a v</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>金十数据</span>
-<span>08-06 22:12</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">【特斯拉：Terafab计划在得州启动 目标实现每年超1太瓦算力】</div>
-
-<div class="card-summary">【特斯拉：Terafab计划在得州启动 目标实现每年超1太瓦算力】金十数据8月6日讯，特斯拉(TSLA.O)表示，今年早些时候，SpaceX和特斯拉宣布启动“T</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>金十数据</span>
-<span>08-06 22:11</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">USD/JPY jumped about 40 pips intraday, briefly bro</div>
-
-<div class="card-summary">USD/JPY jumped about 40 pips intraday, briefly broke above 158, up 0.18% on the </div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>金十数据</span>
-<span>08-06 22:10</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">依顿电子：拟投资29.79亿元建设高端印制电路板智能制造项目</div>
-
-<div class="card-summary">【依顿电子：拟投资29.79亿元建设高端印制电路板智能制造项目】财联社8月6日电，依顿电子(603328.SH)公告称，公司拟使用自有资金及自筹资金投资建设高端</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>财联社</span>
+<span>AI综合</span>
 <span>08-06 22:38</span>
+<span class="ticker-inline">一博科技,沪电股份,—</span>
 
- <a href="https://www.cls.cn/detail/2447803" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 直接反映AI驱动的PCB与测试设备需求高景气</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-other">综合</div>
+<div class="card-cat cat-semi">半导体</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">台风白海豚已进入48小时警戒线 进入东海后强度或再度加强</div>
+<div class="card-title">依顿电子拟29.79亿元投建高端印制电路板智能制造项目</div>
 
-<div class="card-summary">【台风白海豚已进入48小时警戒线 进入东海后强度或再度加强】财联社8月6日电，今晚20时，今年第13号台风“白海豚”已进入我国台风48小时警戒线，强度维持强台风</div>
+<div class="card-summary">依顿电子拟投资建设高端高速高多层PCB智能制造项目，建设期21个月，预计投资收益率13.01%，聚焦高端市场需求。</div>
 <div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>财联社</span>
-<span>08-06 22:37</span>
-
- <a href="https://www.cls.cn/detail/2447802" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">“恒大虹桥国际”项目将于8月31日法拍 起拍价78.4亿元</div>
-
-<div class="card-summary">【“恒大虹桥国际”项目将于8月31日法拍 起拍价78.4亿元】阿里资产平台显示，“恒大虹桥国际”项目土地使用权及在建工程将于8月31日10时开拍，起拍价约78.</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>财联社</span>
-<span>08-06 22:30</span>
-
- <a href="https://www.cls.cn/detail/2447796" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">【金牌纪要库】国产超节点进入规模部署窗口，2027年出货量有望提升至600-1200套，晶圆制造、先进封装可能成为决定出货增速的关键环节</div>
-
-<div class="card-summary"></div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>财联社</span>
-<span>08-06 22:16</span>
-
- <a href="https://www.cls.cn/detail/2447314" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">浙江省委省政府召开防御应对13号台风“白海豚”工作部署会议</div>
-
-<div class="card-summary">【浙江省委省政府召开防御应对13号台风“白海豚”工作部署会议】财联社8月6日电，据“浙江发布”，8月6日，浙江省委、省政府召开全省防御应对13号台风“白海豚”工</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>财联社</span>
-<span>08-06 21:58</span>
-
- <a href="https://www.cls.cn/detail/2447780" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">Yemeni Houthi movement urged people it says were d</div>
-
-<div class="card-summary">Yemeni Houthi movement urged people it says were deceived or misled by Yemeni le</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
+<span class="badge badge-bull">利好</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
 <span>08-06 22:38</span>
-
+<span class="ticker-inline">依顿电子,景旺电子,—</span>
 
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
+<div><span class="dl">方向</span>利好</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>中期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 内资PCB厂商加速向高端产品扩产</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-other">综合</div>
+<div class="card-cat cat-semi">半导体</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">也门胡塞武装：劝告那些受也门领导人欺骗或蒙蔽的人，趁为时未晚，离开沙特境内的敌方营地，返回家园。</div>
+<div class="card-title">西部数据股价大幅波动，存储赛道分歧加大</div>
 
-<div class="card-summary">也门胡塞武装：劝告那些受也门领导人欺骗或蒙蔽的人，趁为时未晚，离开沙特境内的敌方营地，返回家园。</div>
+<div class="card-summary">西部数据盘中一度跌超22%后收窄至10%，法国巴黎银行将其目标价从660美元上调至700美元，存储市场价格走向存在分歧。</div>
 <div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
+<span class="badge badge-mixed">分化</span>
+<span class="impact-tag impact-mid">中</span>
+<span>AI综合</span>
 <span>08-06 22:38</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">A Houthi spokesman said forces launched a large-sc</div>
-
-<div class="card-summary">A Houthi spokesman said forces launched a large-scale, precision operation using</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:34</span>
-
+<span class="ticker-inline">江波龙,兆易创新,—</span>
 
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">U.S. natural gas futures extended losses, down abo</div>
-
-<div class="card-summary">U.S. natural gas futures extended losses, down about 2%, after EIA data showed i</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:31</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国天然气期货延续跌势，跌幅达2%，EIA数据显示库存增长符合预期。</div>
-
-<div class="card-summary">美国天然气期货延续跌势，跌幅达2%，EIA数据显示库存增长符合预期。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:31</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">EIA weekly gas storage (week ended July 31): U.S. </div>
-
-<div class="card-summary">EIA weekly gas storage (week ended July 31): U.S. working gas in storage 3,117 B</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:30</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">EIA天然气报告：截至7月31日当周，美国天然气库存总量为31170亿立方英尺，较此前一周增加330</div>
-
-<div class="card-summary">EIA天然气报告：截至7月31日当周，美国天然气库存总量为31170亿立方英尺，较此前一周增加330亿立方英尺，较去年同期减少120亿立方英尺，同比降幅0.4%</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:30</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">U.S. EIA weekly natural gas stocks rose 330 Bcf in</div>
-
-<div class="card-summary">U.S. EIA weekly natural gas stocks rose 330 Bcf in the week to July 31, versus 3</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:30</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国至7月31日当周EIA天然气库存 330亿立方英尺，预期300亿立方英尺，前值280亿立方英尺。</div>
-
-<div class="card-summary">美国至7月31日当周EIA天然气库存 330亿立方英尺，预期300亿立方英尺，前值280亿立方英尺。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:30</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">SpaceX (SPCX.O) shares rose more than 5%, hitting </div>
-
-<div class="card-summary">SpaceX (SPCX.O) shares rose more than 5%, hitting an intraday high.</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:22</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">SpaceX(SPCX.O)股价上涨逾5%，创盘中新高。</div>
-
-<div class="card-summary">SpaceX(SPCX.O)股价上涨逾5%，创盘中新高。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:22</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">DR将替代LPR成贷款新基准？各地：顺应多元化基准体系发展趋势</div>
-
-<div class="card-summary">日前，中国人民银行多地分行披露，当地落地首单或首批DR基准利率贷款，并强调顺应贷款利率由单一定价基准向多元化定价基准发展的趋势，畅通货币市场利率向信贷市场传导路</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 21:20</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1350,202608063834176521.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
+<div><span class="dl">方向</span>分化</div>
+<div><span class="dl">程度</span>中</div>
+<div><span class="dl">确定性</span>中</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">据美国纽约联储数据，上个交易日（8月5日）担保隔夜融资利率（SOFR）报3.64%，之前一天报3.66%。
-
-上个交易日有效的联邦基金利率报3.63%，之前一天报3.63%。</div>
-
-<div class="card-summary">据美国纽约联储数据，上个交易日（8月5日）担保隔夜融资利率（SOFR）报3.64%，之前一天报3.66%。
-
-上个交易日有效的联邦基金利率报3.63%，之前一天</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>华尔街见闻</span>
-<span>08-06 21:52</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="https://wallstreetcn.com/articles/3146096" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 海外存储龙头波动影响国内利基型存储情绪</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -925,517 +444,79 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">Tesla (TSLA.O) said TeraFab will build in Grimes C</div>
+<div class="card-title">大厂AI人才争夺战提前，算力竞赛持续升温</div>
 
-<div class="card-summary">Tesla (TSLA.O) said TeraFab will build in Grimes County, Texas. It said chip dem</div>
+<div class="card-summary">阿里、字节、百度、DeepSeek等提前启动秋招，部分AI岗位薪酬不设上限，反映AI研发与算力需求强劲扩张。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
-<span>金十数据</span>
-<span>08-06 22:03</span>
-
+<span>AI综合</span>
+<span>08-06 22:38</span>
+<span class="ticker-inline">寒武纪,海光信息,—</span>
 
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
+<div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>中期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 AI人才竞争揭示算力芯片需求将持续高增</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
+<div class="card-cat cat-optics">光模块</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">SpaceX涨超5%，刷新日高。
+<div class="card-title">一博科技光模块领域订单随AI需求快速增长</div>
 
-美股盘初，特斯拉与美国得州州长宣布，SpaceX在Grimes县扩建，Terafab一期项目意味着168亿美元资本开支投资，SpaceX将在Grimes县建设芯片设施。</div>
-
-<div class="card-summary">SpaceX涨超5%，刷新日高。
-
-美股盘初，特斯拉与美国得州州长宣布，SpaceX在Grimes县扩建，Terafab一期项目意味着168亿美元资本开支投资，</div>
+<div class="card-summary">一博科技前三大客户之一为光模块领域领军企业，该领域订单受益于人工智能相关需求实现较快增长。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
-<span>华尔街见闻</span>
-<span>08-06 22:22</span>
+<span>AI综合</span>
+<span>08-06 22:59</span>
+<span class="ticker-inline">中际旭创,光迅科技,—</span>
 
- <a href="https://wallstreetcn.com/articles/3146110" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 从PCB供应商视角验证光模块下游高景气</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
 <div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
+<div class="card-cat cat-gold">黄金</div>
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">Terafab目标是每年生产超过1 Terawatt算力，在美国得州一期投资超168亿美元</div>
+<div class="card-title">现货黄金突破4300美元，国内金饰消费转向刚需与保值</div>
 
-<div class="card-summary">特斯拉称，公司和SpaceX需要更多芯片，Terafab将建设在美国得州Grimes County（格莱姆斯县），Terafab目标是每年生产超过1 Teraw</div>
+<div class="card-summary">现货黄金盘中突破4300美元/盎司创七周新高，深圳水贝足金999报价两日涨近50元至约1100元/克，婚庆刚需和保值型消费成为主力。</div>
 <div class="card-meta">
 <span class="badge badge-bull">利好</span>
 <span class="impact-tag impact-mid">中</span>
-<span>华尔街见闻</span>
-<span>08-06 22:01</span>
+<span>AI综合</span>
+<span>08-06 22:51</span>
+<span class="ticker-inline">紫金矿业,山东黄金,—</span>
 
- <a href="https://wallstreetcn.com/articles/3146102" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
 </div>
 <div class="card-detail">
 <div class="detail-grid">
 <div><span class="dl">方向</span>利好</div>
 <div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
+<div><span class="dl">确定性</span>高</div>
+<div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">European natural gas prices rose as much as 5.7% t</div>
-
-<div class="card-summary">European natural gas prices rose as much as 5.7% to €55.39/MWh.</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:20</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">U.S. EIA weekly natural gas storage for the week e</div>
-
-<div class="card-summary">U.S. EIA weekly natural gas storage for the week ended July 31 due in 10 minutes</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:20</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">欧洲天然气价格一度上涨5.7%，至55.39欧元/兆瓦时。</div>
-
-<div class="card-summary">欧洲天然气价格一度上涨5.7%，至55.39欧元/兆瓦时。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:20</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国至7月31日当周EIA天然气库存将于十分钟后公布。</div>
-
-<div class="card-summary">美国至7月31日当周EIA天然气库存将于十分钟后公布。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:20</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">TASS reports President Putin has ordered the creat</div>
-
-<div class="card-summary">TASS reports President Putin has ordered the creation of a diamond-cutting indus</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:19</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">金十图示：2026年08月06日（周四）华尔街恐惧与贪婪指数（美盘初）</div>
-
-<div class="card-summary">金十图示：2026年08月06日（周四）华尔街恐惧与贪婪指数（美盘初）</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:15</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">标普500指数反攻并非源于基本面好转，而是因为对冲补仓？专家警示，随“期权红利”消退及技术面超买，市</div>
-
-<div class="card-summary">标普500指数反攻并非源于基本面好转，而是因为对冲补仓？专家警示，随“期权红利”消退及技术面超买，市场或将重回基本面考验。点击查看…</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:14</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美元兑日元USD/JPY短线拉升约40点，突破158，日内涨0.18%。</div>
-
-<div class="card-summary">美元兑日元USD/JPY短线拉升约40点，突破158，日内涨0.18%。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:10</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">U.S. global supply-chain pressure index for July 0</div>
-
-<div class="card-summary">U.S. global supply-chain pressure index for July 0.8, down from 1.25 previously.</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:04</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国7月全球供应链压力指数 0.8，前值1.25。</div>
-
-<div class="card-summary">美国7月全球供应链压力指数 0.8，前值1.25。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:04</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">Tesla (TSLA.O): TeraFab aims to produce more than </div>
-
-<div class="card-summary">Tesla (TSLA.O): TeraFab aims to produce more than 1 terawatt of compute capacity</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:04</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">特斯拉(TSLA.O)：TeraFab的目标是每年生产超过1太瓦的算力。</div>
-
-<div class="card-summary">特斯拉(TSLA.O)：TeraFab的目标是每年生产超过1太瓦的算力。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>金十数据</span>
-<span>08-06 22:04</span>
-
-
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">大厂AI人才争夺战：秋招提前至盛夏，有岗位“薪酬不设上限”</div>
-
-<div class="card-summary">阿里、字节等已在本周陆续启动2027届应届生招聘。更早一些，百度的秋招在7月就已“抢跑”，向来低调的DeepSeek也在今年6月公开发布大规模招聘信息，加入这场</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:35</span>
-
- <a href="https://wallstreetcn.com/articles/3146118" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">Alphabet二月发行的债券利差走阔，公司启动最新一轮发债推介</div>
-
-<div class="card-summary">周四早盘，Alphabet公司今年2月发行的债券利差走阔。此前，该公司已启动一笔规模最高可达250亿美元的高评级债券发行推介。
-
-据Trace数据，截至美东时间</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:34</span>
-
- <a href="https://wallstreetcn.com/articles/3146117" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国能源信息署（EIA）：美国上周EIA天然气库存增加330亿立方英尺，分析师预期增加295亿立方英尺，周环比增幅1.07%（之前一周增长0.92%），至3.12万亿立方英尺。</div>
-
-<div class="card-summary">美国能源信息署（EIA）：美国上周EIA天然气库存增加330亿立方英尺，分析师预期增加295亿立方英尺，周环比增幅1.07%（之前一周增长0.92%），至3.1</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:30</span>
-
- <a href="https://wallstreetcn.com/articles/3146114" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">提醒：北京时间22:30，美国能源信息署（EIA）将发布天然气库存周报。</div>
-
-<div class="card-summary">提醒：北京时间22:30，美国能源信息署（EIA）将发布天然气库存周报。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:20</span>
-
- <a href="https://wallstreetcn.com/articles/3146108" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 金价上涨利好上游矿企，但消费端投资需求趋于保守</div>
 </div>
 </div></div>
 <div class="news-card" onclick="this.classList.toggle('expanded')">
@@ -1444,600 +525,25 @@
 <div class="fresh-badge">新</div>
 </div>
 <div class="card-right">
-<div class="card-title">部分银行房贷利率降至“2字头”！有银行房贷利率低于2.8%</div>
+<div class="card-title">*ST萃华涉嫌财务虚假记载，可能触及强制退市</div>
 
-<div class="card-summary">【部分银行房贷利率降至“2字头”】近日，社交平台上多位购房者晒出自己“2字头”的房贷利率截图，引发热议。记者调研发现，此类住房贷款多是五年期的存量贷款。</div>
+<div class="card-summary">*ST萃华因年度财务信息涉嫌虚假记载被证监会调查，可能触及重大违法强制退市情形，黄金珠宝板块再现风险警示。</div>
 <div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 20:36</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1354,202608063834085370.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
+<span class="badge badge-bear">利空</span>
+<span class="impact-tag impact-low">低</span>
+<span>AI综合</span>
+<span>08-06 22:51</span>
+<span class="ticker-inline">*ST萃华,—,—</span>
+
 </div>
 <div class="card-detail">
 <div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
+<div><span class="dl">方向</span>利空</div>
+<div><span class="dl">程度</span>低</div>
+<div><span class="dl">确定性</span>高</div>
 <div><span class="dl">窗口</span>短期</div>
 </div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-semi">半导体</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美股盘初纳指跌0.3%，存储芯片股集体大跌</div>
-
-<div class="card-summary">美股开盘，三大股指涨跌不一，纳指盘初跌0.3%，标普500指数涨0.06%，道指涨0.18%。存储芯片股延续跌势，闪迪跌超13%，市值蒸发250亿美元，上季营收</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-mid">中</span>
-<span>华尔街见闻</span>
-<span>08-06 21:31</span>
-
- <a href="https://wallstreetcn.com/articles/3146086" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>中</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">宁夏向民间资本推介106个项目 计划总投资650亿元</div>
-
-<div class="card-summary">中新网银川8月6日电(记者于晶)宁夏回族自治区发展和改革委员会8月6日正式发布2026年第二批向民间资本推介项目清单，106个项目计划总投资650亿元，旨在进一</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 21:24</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834176226.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">彭博美元指数涨0.1%，刷新日高。</div>
-
-<div class="card-summary">彭博美元指数涨0.1%，刷新日高。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:15</span>
-
- <a href="https://wallstreetcn.com/articles/3146104" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">天文望远镜观测到“猎鹰9”火箭残骸撞击月球迹象</div>
-
-<div class="card-summary">欧洲南方天文台表示，其位于智利的甚大望远镜观测到美国太空探索技术公司废弃的一枚“猎鹰9”号火箭残骸在美国东部时间5日凌晨撞击月球的相关迹象。（新华社）</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:01</span>
-
- <a href="https://wallstreetcn.com/articles/3146101" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">阿波罗（Apollo）同意以每股7.15英镑现金的价格收购易捷航空（EasyJet）。（彭博）</div>
-
-<div class="card-summary">阿波罗（Apollo）同意以每股7.15英镑现金的价格收购易捷航空（EasyJet）。（彭博）</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 21:54</span>
-
- <a href="https://wallstreetcn.com/articles/3146097" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">多地中小银行逆势上调存款利率 业内：或与大行集体重启5年期大额存单有关</div>
-
-<div class="card-summary">【多地中小银行逆势上调存款利率 业内：或与大行集体重启5年期大额存单有关】今年以来，中小银行持续下调存款利率是业内主流，但近期这种情况似乎有了新动向。今日中午，</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 20:18</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1350,202608063834065613.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">8月6日东方财富财经晚报（附新闻联播）</div>
-
-<div class="card-summary">1、宇树科技：本次发行价格150.80元/股，网上申购日为8月10日。2、网信办对派拓公司在华销售产品启动网络安全审查。3、部分银行房贷利率降至“2字头”，有银</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 21:00</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1353,202608063834070859.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国6月批发销售环比 -3%，前值 3.4%。</div>
-
-<div class="card-summary">美国6月批发销售环比 -3%，前值 3.4%。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:00</span>
-
- <a href="https://wallstreetcn.com/articles/3146100" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">美国6月批发库存环比终值 0.2%，预期 0.3%，初值 0.3%。</div>
-
-<div class="card-summary">美国6月批发库存环比终值 0.2%，预期 0.3%，初值 0.3%。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 22:00</span>
-
- <a href="https://wallstreetcn.com/articles/3146099" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">纳指转涨，此前跌0.5%。</div>
-
-<div class="card-summary">纳指转涨，此前跌0.5%。</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 21:46</span>
-
- <a href="https://wallstreetcn.com/articles/3146094" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">标普500指数低开9.76点，跌幅0.13%，报7713.79点；
-
-道琼斯工业平均指数高开77.73点，涨幅0.14%，报54426.85点；
-
-纳斯达克综合指数低开94.60点，跌幅0.36%，报26268.84点。</div>
-
-<div class="card-summary">标普500指数低开9.76点，跌幅0.13%，报7713.79点；
-
-道琼斯工业平均指数高开77.73点，涨幅0.14%，报54426.85点；
-
-纳斯达克综合</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>华尔街见闻</span>
-<span>08-06 21:30</span>
-
- <a href="https://wallstreetcn.com/articles/3146085" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">吉林省上半年贷款余额突破3万亿元 新发放企业贷款加权平均利率降至3.8%</div>
-
-<div class="card-summary">上证报中国证券网讯中国人民银行吉林省分行8月6日举行2026年上半年吉林省金融运行情况新闻发布会。记者从会上获悉，今年上半年，吉林省金融运行呈现“总量增、结构优</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 19:52</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1350,202608063834071398.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">DR贷款半月落地2.85亿：适合哪些企业，银行有何挑战</div>
-
-<div class="card-summary">7月20日前后，一笔7670万元的贷款合同在海南自贸港签下，利率不再盯LPR，也不是固定利率，而是开创性地将DR（DepositoryInstitutionsR</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 19:52</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://finance.eastmoney.com/news/1350,202608063834048322.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-gold">黄金</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">上半年吉林省企业在银行间市场发债融资139.4亿元 直接融资成本创历史新低</div>
-
-<div class="card-summary">上证报中国证券网讯（记者田甜）8月6日，记者从中国人民银行吉林省分行2026年上半年吉林省金融运行情况新闻发布会获悉，今年上半年吉林省企业在银行间市场发行债务融</div>
-<div class="card-meta">
-<span class="badge badge-bull">利好</span>
-<span class="impact-tag impact-high">高</span>
-<span>东方财富</span>
-<span>08-06 19:34</span>
-<span class="ticker-inline">紫金矿业、中金黄金</span>
- <a href="http://bond.eastmoney.com/news/1325,202608063834070956.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>利好</div>
-<div><span class="dl">程度</span>高</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>短期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">8月6日周四《新闻联播》要闻21条</div>
-
-<div class="card-summary">8月6日周四《新闻联播》要闻21条</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 20:21</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834072564.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">交易商协会召开2026年下半年工作会议：高质量建设债券市场“科技板”</div>
-
-<div class="card-summary">本报讯（记者杨洁）8月6日，据中国银行间市场交易商协会（以下简称“交易商协会”）官方公众号消息，8月3日，交易商协会召开2026年下半年工作会议。会议认真传达学</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 20:01</span>
-
- <a href="http://bond.eastmoney.com/news/1325,202608063834124214.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">2671套6折保租房！坪山又一保障房项目取得新进展</div>
-
-<div class="card-summary">深圳保障性住房建设再迎大体量供应。8月4日，南都湾财社记者从深圳市规划和自然资源局坪山管理局最新通告中获悉，位于坪山区碧岭街道的安鑫礼居项目已正式获批《建设工程</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 19:49</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834168054.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">30省份亮出财政半年报：收入好于预期，西藏新疆增速高</div>
-
-<div class="card-summary">今年上半年地方财政运行总体平稳。不过多位基层财政人士对第一财经坦言，当地财政收支矛盾仍然比较大。截至8月6日，第一财经记者梳理发现，除了广东外，其余30个省份公</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 19:48</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834049020.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">今年前7个月地方债发行约6.6万亿，花哪儿了|财税益侃</div>
-
-<div class="card-summary">近两年地方债发行规模增至10万亿元左右，今年市场预计继续保持在高位。不过，今年前7个月地方债发行规模小幅下滑，主要是新增债券发行进度慢于去年同期。根据财政部等公</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 19:48</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834048798.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">每4个劳动力养1个老人，养老床位“三连降”|晋观医养</div>
-
-<div class="card-summary">我国用二十多年时间从轻度老龄化跨越到了中度老龄化。当3.2亿老年人口、持续攀升的抚养比，以及独生子女父母集中迈入高龄三重趋势叠加，养老服务供给正经历从“增量扩张</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 19:47</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834048881.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
-</div>
-</div></div>
-<div class="news-card" onclick="this.classList.toggle('expanded')">
-<div class="card-left">
-<div class="card-cat cat-other">综合</div>
-<div class="fresh-badge">新</div>
-</div>
-<div class="card-right">
-<div class="card-title">上海产业乘势而上：“十五五”工业增加值占比保持20%以上 工业战新产值占比超过50%</div>
-
-<div class="card-summary">8月，上海一年一度的“政府开放月”活动如期而至。上海市政府办公厅会同上海市发展改革委以“奋进‘十五五’，同心向未来”为主题，聚焦科创产业、韧性城市、民生保障、绿</div>
-<div class="card-meta">
-<span class="badge badge-neutral">中性</span>
-<span class="impact-tag impact-low">低</span>
-<span>东方财富</span>
-<span>08-06 19:21</span>
-
- <a href="http://finance.eastmoney.com/news/1350,202608063834071640.html" target="_blank" rel="noopener" onclick="event.stopPropagation()" class="src-link">原文</a>
-</div>
-<div class="card-detail">
-<div class="detail-grid">
-<div><span class="dl">方向</span>中性</div>
-<div><span class="dl">程度</span>低</div>
-<div><span class="dl">确定性</span>低</div>
-<div><span class="dl">窗口</span>中期</div>
-</div>
-<div class="verify-note">📝 关键词引擎自动评级，非AI分析</div>
+<div class="verify-note">📝 个股重大风险，对整体黄金板块影响有限</div>
 </div>
 </div></div>
 </div>
@@ -2046,22 +552,24 @@
 <div class="table-wrap">
   <table>
     <thead><tr><th>板块</th><th>冲击</th><th>方向</th><th>新闻</th><th>传导逻辑</th><th>关联标的</th></tr></thead>
-    <tbody><tr><td style="font-weight:700;">半导体</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>10</td><td></td><td>—</td></tr>
-<tr><td style="font-weight:700;">黄金</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>8</td><td></td><td>—</td></tr>
-<tr><td style="font-weight:700;">光模块</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>1</td><td></td><td>—</td></tr></tbody>
+    <tbody><tr><td style="font-weight:700;">半导体</td><td class="shock-strong">强</td><td style="color:#16a34a;">利好</td><td>12</td><td>台积电3纳米产能提前扩张，SpaceX投建大型算力芯片设施，内资PCB企业订单爆发并扩产，AI算力竞赛持续，存储赛道出现分歧，整体景气度向上。</td><td>中芯国际,北方华创,一博科技,依顿电子,寒武纪</td></tr>
+<tr><td style="font-weight:700;">黄金</td><td class="shock-mid">中</td><td style="color:#ea580c;">分化</td><td>6</td><td>现货金价突破4300美元带动国内首饰价格上调，但消费结构趋于保守；美联储9月加息预期升温形成压制，板块多空交织。</td><td>紫金矿业,山东黄金,中金黄金</td></tr>
+<tr><td style="font-weight:700;">光模块</td><td class="shock-mid">中</td><td style="color:#16a34a;">利好</td><td>4</td><td>阿联酋拟投超60亿美元在日本建AI数据中心，一博科技反馈光模块订单快速增长，海外算力基建继续拉动国内光模块需求。</td><td>中际旭创,新易盛,天孚通信</td></tr>
+<tr><td style="font-weight:700;">创新药</td><td class="shock-weak">弱</td><td style="color:#ea580c;">中性</td><td>0</td><td>本日无重大创新药产业新闻，市场静待后续临床数据、FDA审批及行业政策动向。</td><td>药明康德,百济神州,恒瑞医药</td></tr></tbody>
   </table>
 </div>
 
 
 <div class="sec-title">今日要点</div>
-<div class="key-points"><div class="kp-card">今日共抓取 66 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。</div>
-<div class="kp-card">极高影响事件 0 条，高影响 11 条，利好方向 19 条。</div>
-<div class="kp-card">板块概况：半导体(利好, 强冲击, 10条)、黄金(利好, 强冲击, 8条)、光模块(利好, 强冲击, 1条)。</div>
-<div class="kp-card">重点关注：先进制程代工供不应求 台积电涨超2%；美光科技转涨 此前一度跌超7%；【公告全知道】PCB+CPO+英伟达+汽车电子！公司已批量供货800G光模块。</div></div>
+<div class="key-points"><div class="kp-card">【半导体】台积电3纳米制程在英伟达、AMD等订单驱动下提前扩产，Q4月投片量将达18万片；SpaceX启动超168亿美元Terafab芯片设施建设，算力芯片需求持续爆发。</div>
+<div class="kp-card">【半导体】一博科技订单同比增长超70%，PCB工序满产；依顿电子拟29.79亿元投建高端PCB项目，内资PCB厂商受益AI需求加速扩产。</div>
+<div class="kp-card">【光模块】阿联酋拟投资超60亿美元在日本建设500兆瓦AI数据中心，一博科技光模块客户订单快速增长，海外算力基建持续拉动光模块出口需求。</div>
+<div class="kp-card">【黄金】现货黄金盘中突破4300美元/盎司创七周新高，深圳水贝金价两日涨近50元；美联储主席沃什称将视通胀决定9月是否加息，加息预期升温对金价形成压制。</div>
+<div class="kp-card">【创新药】本日无重大创新药产业新闻，板块关注后续临床数据、FDA审批及集采政策变化。</div></div>
 
 
 <div class="footer">
-  基于多源财经 API 自动抓取 · 关键词引擎自动分类<br>
+  基于多源财经 API 自动抓取 · Claude API 智能分析 + 中文翻译<br>
   监控范围：半导体 / 光模块 / 创新药 / 黄金 &nbsp;|&nbsp; 包含韩国及美股半导体市场<br>
   不构成投资建议。<strong>股市有风险，投资需谨慎。</strong>
 </div>
@@ -2176,8 +684,8 @@ new Chart(document.getElementById('etfTrendChart'), {
 new Chart(document.getElementById('sentimentChart'), {
   type: 'doughnut',
   data: {
-    labels: ["利好","中性"],
-    datasets: [{"data":[19,47],"backgroundColor":["#16a34a","#dc2626","#9ca0af","#ea580c"],"borderWidth":0}],
+    labels: ["利好","利空","分化"],
+    datasets: [{"data":[8,2,1],"backgroundColor":["#16a34a","#dc2626","#9ca0af","#ea580c"],"borderWidth":0}],
   },
   options: {
     responsive: true, maintainAspectRatio: false, cutout: '55%',
@@ -2192,7 +700,7 @@ new Chart(document.getElementById('directionChart'), {
   type: 'bar',
   data: {
     labels: ["半导体","光模块","创新药","黄金"],
-    datasets: [{"label":"利好","data":[10,1,0,8],"backgroundColor":"#16a34a"}],
+    datasets: [{"label":"利好","data":[5,2,0,1],"backgroundColor":"#16a34a"},{"label":"利空","data":[0,0,0,2],"backgroundColor":"#dc2626"},{"label":"分化","data":[1,0,0,0],"backgroundColor":"#ea580c"}],
   },
   options: {
     responsive: true, maintainAspectRatio: false,
@@ -2211,7 +719,7 @@ new Chart(document.getElementById('heatmapChart'), {
   type: 'bar',
   data: {
     labels: ["半导体","光模块","创新药","黄金"],
-    datasets: [{"label":"低","data":[0,0,0,0],"backgroundColor":"#16a34a"},{"label":"中","data":[8,0,0,0],"backgroundColor":"#facc15"},{"label":"高","data":[2,1,0,8],"backgroundColor":"#ea580c"},{"label":"极高","data":[0,0,0,0],"backgroundColor":"#dc2626"}],
+    datasets: [{"label":"低","data":[0,0,0,1],"backgroundColor":"#16a34a"},{"label":"中","data":[4,1,0,1],"backgroundColor":"#facc15"},{"label":"高","data":[2,1,0,1],"backgroundColor":"#ea580c"},{"label":"极高","data":[0,0,0,0],"backgroundColor":"#dc2626"}],
   },
   options: {
     responsive: true, maintainAspectRatio: false,

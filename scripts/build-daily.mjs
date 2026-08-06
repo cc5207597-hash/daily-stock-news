@@ -328,8 +328,6 @@ new Chart(document.getElementById('heatmapChart'), {
 <body>
 <div class="container">
 
-${chartPanels}
-
 <div class="header">
   <h1>📡 行业板块日报</h1>
   <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
@@ -398,6 +396,8 @@ ${sectorMatrix.map(s => `
 ` : ''}
 
 ${marketSummary ? `<div class="market-summary">💡 ${escHtml(marketSummary)}</div>` : ''}
+
+${chartPanels}
 
 <div class="sec-title">新闻列表（按时间从近到远）</div>
 <div class="news-grid">
