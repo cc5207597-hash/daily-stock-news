@@ -1,8 +1,24 @@
 {
   "date": "20260807",
   "displayDate": "2026-08-07",
-  "generatedAt": "2026-08-07T13:13:59.980Z",
+  "generatedAt": "2026-08-07T13:42:19.876Z",
   "analyzed": [
+    {
+      "title_cn": "【美股开盘：三大股指齐涨】道指涨0.10%，标普500指数涨0.36%，纳指涨0.77%。微芯科技涨10.19%，爱彼迎涨9.98%，Coherent Corp涨9.74%，纽曼矿业涨5.81%，雅保化工涨5.40%。“七姐妹”方面：特斯拉涨1.12%，英伟达涨1.05%，亚马逊涨0.52%，微软涨0.24%，苹果涨0.19%，谷歌涨0.14%，Meta Platforms涨0.03%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【美股开盘：三大股指齐涨】道指涨0.10%，标普500指数涨0.36%，纳指涨0.77%。微芯科技涨10.19%，爱彼迎涨9.98%，Coherent Corp涨9.74%，纽曼矿业涨5.81%，雅保化工涨5.40%。“七姐妹”方面：特斯拉涨1.12%，英伟达涨1.05%，亚马逊涨0.52%，微软涨0.24%，苹果涨0.19%，谷歌涨0.14%，Meta Platforms涨0.03%。",
+      "description": "",
+      "pubDate": "2026-08-07T13:30:48.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsi3148958.d.html"
+    },
     {
       "title_cn": "4天2板奥士康：公司未与英伟达、谷歌开展订单合作 与AMD的业务合作尚未形成规模化收入",
       "summary_cn": "【4天2板奥士康：公司未与英伟达、谷歌开展订单合作 与AMD的业务合作处于产品送样阶段】财联社8月7日电，奥士康(002913.SZ)发布异动公告，近期，市场对",
@@ -50,6 +66,38 @@
       "pubDate": "2026-08-07T12:39:42.000Z",
       "source": "新浪财经",
       "link": ""
+    },
+    {
+      "title_cn": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
+      "summary_cn": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
+      "description": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
+      "pubDate": "2026-08-07T13:10:24.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【美股光通信板块高开 Coherent涨超11%】美股光通信板块高开，Coherent涨超11%，Credo涨超7%，康宁、Lumentum涨超6%，迈威尔科技涨超4%。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "中际旭创、新易盛、天孚通信",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【美股光通信板块高开 Coherent涨超11%】美股光通信板块高开，Coherent涨超11%，Credo涨超7%，康宁、Lumentum涨超6%，迈威尔科技涨超4%。",
+      "description": "",
+      "pubDate": "2026-08-07T13:37:17.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsm4756701.d.html"
     },
     {
       "title_cn": "QumulusAI与智能代理对冲基金（Agentic Hedge Fund）签署协议，将为其提供英伟达布莱克韦尔（NVIDIA Blackwell）GPU算力。",
@@ -100,54 +148,6 @@
       "link": "https://www.cls.cn/detail/2448788"
     },
     {
-      "title_cn": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
-      "summary_cn": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
-      "description": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
-      "pubDate": "2026-08-07T13:10:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
-      "summary_cn": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
-      "description": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
-      "pubDate": "2026-08-07T12:50:15.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
-      "summary_cn": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "药明康德、百济神州",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
-      "description": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外投资趋势展望2026》指出，中国对外投资发展基础好、韧性强、优势多、潜能大，长期向好的支撑条件和基本趋势未变，企业国际化发展、多元化布局、本地化运营的趋势更加显著。",
-      "pubDate": "2026-08-07T12:19:15.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835423078.html"
-    },
-    {
       "title_cn": "【国内期货夜盘开盘】白银连续涨4.49%，多晶硅连续涨2.95%，黄金连续涨2.45%，工业硅连续涨1.91%，鸡蛋连续涨1.72%。",
       "summary_cn": "",
       "category": "黄金",
@@ -162,6 +162,22 @@
       "pubDate": "2026-08-07T13:00:03.000Z",
       "source": "新浪财经",
       "link": ""
+    },
+    {
+      "title_cn": "费城半导体指数涨幅扩大至3%，报12418.29点。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "费城半导体指数涨幅扩大至3%，报12418.29点。",
+      "description": "",
+      "pubDate": "2026-08-07T13:34:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsc3181303.d.html"
     },
     {
       "title_cn": "COMEX 黄金 futures traded above $4,400/oz in New Y",
@@ -180,8 +196,72 @@
       "link": ""
     },
     {
-      "title_cn": "After the US nonfarm payrolls release, spot 黄金 r",
-      "summary_cn": "After the US nonfarm payrolls release, spot gold rose about $40 intraday to $4,3",
+      "title_cn": "利弗莫尔中概股龙头指数盘初上涨0.75%",
+      "summary_cn": "【利弗莫尔中概股龙头指数盘初上涨0.75%】财联社8月7日电，利弗莫尔中概股龙头指数盘初上涨0.75%。成分股中，希尔威金属矿业涨8.34%，百济神州涨5.85",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "利弗莫尔中概股龙头指数盘初上涨0.75%",
+      "description": "【利弗莫尔中概股龙头指数盘初上涨0.75%】财联社8月7日电，利弗莫尔中概股龙头指数盘初上涨0.75%。成分股中，希尔威金属矿业涨8.34%，百济神州涨5.85%，禾赛涨5.38%，奇景光电涨4.87%，传奇生物涨4.07%。",
+      "pubDate": "2026-08-07T13:31:31.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448842"
+    },
+    {
+      "title_cn": "美股三大指数高开 AI硬件个股走强",
+      "summary_cn": "【美股三大指数高开】美股三大指数高开，道琼斯指数涨0.14%，标普500指数涨0.34%，纳斯达克综合指数涨0.78%。AI硬件个股走强，英伟达股价上涨1.2%",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "美股三大指数高开 AI硬件个股走强",
+      "description": "【美股三大指数高开】美股三大指数高开，道琼斯指数涨0.14%，标普500指数涨0.34%，纳斯达克综合指数涨0.78%。AI硬件个股走强，英伟达股价上涨1.2%，台积电股价上涨1.41%，博通股价上涨2.06%，SK海力士股价下跌1.48%，美光科技股价上涨1.77%，超威半导体股价上涨0.92%，阿斯麦股价上涨2.9%，英特尔股价上涨3.33%，泛林集团股价上涨1.05%，ARM股价上涨3.54%。",
+      "pubDate": "2026-08-07T13:31:03.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448837"
+    },
+    {
+      "title_cn": "美国7月非农超预期下降，美股三大股指集体高开",
+      "summary_cn": "美国7月非农就业人数意外减少，交易员削减对美联储的加息押注，纳指盘初涨0.77%，标普500指数涨0.33%，道指涨0.10%。存储概念股盘初部分走高，闪迪涨超",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "美国7月非农超预期下降，美股三大股指集体高开",
+      "description": "美国7月非农就业人数意外减少，交易员削减对美联储的加息押注，纳指盘初涨0.77%，标普500指数涨0.33%，道指涨0.10%。存储概念股盘初部分走高，闪迪涨超3%。光通信概念股普涨，光模块制造商AAOI涨超12%，公司预计产能两年扩张10倍，1.6T最快两周获大客户认证；Coherent涨超9%。协作软件开发商Atlassian涨逾32%，业绩指引远超市场预期。爱彼迎涨逾8%，上调全年业绩预期。网络安全公司Cloudflare开盘涨12%，创历史新高。",
+      "pubDate": "2026-08-07T13:31:08.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146763"
+    },
+    {
+      "title_cn": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
+      "summary_cn": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "药明康德、百济神州",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
+      "description": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外投资趋势展望2026》指出，中国对外投资发展基础好、韧性强、优势多、潜能大，长期向好的支撑条件和基本趋势未变，企业国际化发展、多元化布局、本地化运营的趋势更加显著。",
+      "pubDate": "2026-08-07T12:19:15.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835423078.html"
+    },
+    {
+      "title_cn": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
+      "summary_cn": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -189,9 +269,9 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "After the US nonfarm payrolls release, spot 黄金 r",
-      "description": "After the US nonfarm payrolls release, spot gold rose about $40 intraday to $4,351.43/oz.",
-      "pubDate": "2026-08-07T12:31:00.000Z",
+      "title": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
+      "description": "国际黄金持续走强！非农夜会迎来变盘吗？阿汤哥正在解读行情>>>",
+      "pubDate": "2026-08-07T12:50:15.000Z",
       "source": "金十数据",
       "link": ""
     },
@@ -212,6 +292,70 @@
       "link": ""
     },
     {
+      "title_cn": "现货白银涨幅收窄至不足4%",
+      "summary_cn": "财联社8月7日电，国际贵金属走弱，现货白银抹去非农数据发布以来的涨幅。截至目前，现货黄金价格涨2.37%，报4341.09美元/盎司；现货白银价格涨3.89%，",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "现货白银涨幅收窄至不足4%",
+      "description": "财联社8月7日电，国际贵金属走弱，现货白银抹去非农数据发布以来的涨幅。截至目前，现货黄金价格涨2.37%，报4341.09美元/盎司；现货白银价格涨3.89%，报63.90美元/盎司。",
+      "pubDate": "2026-08-07T13:18:32.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448830"
+    },
+    {
+      "title_cn": "US 股票 opened after weak July nonfarm payrolls:",
+      "summary_cn": "US 股票 opened after weak July nonfarm payrolls: Dow +0.23%, S&P 500 +0.31%, Nasdaq +0.74%. 光通信-communications names led gains: Applied Optoelectronics (AAOI.O) +12.46%, Lumentum (LITE.O) +4.0%, Corning (GLW.N) +3.7%. Solar 板块 broadly higher: FTC Solar (FTCI.O) +1.8%, First Solar (FSLR) +4.5%.",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "US stocks opened after weak July nonfarm payrolls:",
+      "description": "US stocks opened after weak July nonfarm payrolls: Dow +0.23%, S&P 500 +0.31%, Nasdaq +0.74%. Optical-communications names led gains: Applied Optoelectronics (AAOI.O) +12.46%, Lumentum (LITE.O) +4.0%, Corning (GLW.N) +3.7%. Solar sector broadly higher: FTC Solar (FTCI.O) +1.8%, First Solar (FSLR) +4.5%.",
+      "pubDate": "2026-08-07T13:31:54.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【7月非农意外爆冷 纳指开涨0.74%】",
+      "summary_cn": "【7月非农意外爆冷 纳指开涨0.74%】金十数据8月7日讯，美股开盘，道指涨0.23%，标普500指数涨0.31%，纳指涨0.74%。光通信板块走强，Appli",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【7月非农意外爆冷 纳指开涨0.74%】",
+      "description": "【7月非农意外爆冷 纳指开涨0.74%】金十数据8月7日讯，美股开盘，道指涨0.23%，标普500指数涨0.31%，纳指涨0.74%。光通信板块走强，Applied Optoelectronics(AAOI.O)涨12.46%，Lumentum(LITE.O)涨4%，康宁(GLW.N)涨3.7%。太阳能板块普涨，FTC Solar(FTCI.O)涨1.8%，第一太阳能(FSLR)涨4.5%。",
+      "pubDate": "2026-08-07T13:31:41.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "After the US nonfarm payrolls release, spot 黄金 r",
+      "summary_cn": "After the US nonfarm payrolls release, spot gold rose about $40 intraday to $4,3",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "After the US nonfarm payrolls release, spot 黄金 r",
+      "description": "After the US nonfarm payrolls release, spot gold rose about $40 intraday to $4,351.43/oz.",
+      "pubDate": "2026-08-07T12:31:00.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "黄金价格短短几日便大涨超200美元，但技术分析师却警告称：一个资产的最大单日涨幅，往往发生在熊市之中",
       "summary_cn": "黄金价格短短几日便大涨超200美元，但技术分析师却警告称：一个资产的最大单日涨幅，往往发生在熊市之中……点击查看...",
       "category": "黄金",
@@ -226,6 +370,22 @@
       "pubDate": "2026-08-07T12:14:38.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "周五美股盘前你需要了解的全球要闻",
+      "summary_cn": "爆冷！美国7月非农就业人数意外减少2.3万，前两月就业下修10.3万人。\n\n特朗普谈降息：希望利率下调，但这不完全取决于沃什一人。\n\n中国央行连续21个月增持黄",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "周五美股盘前你需要了解的全球要闻",
+      "description": "爆冷！美国7月非农就业人数意外减少2.3万，前两月就业下修10.3万人。\n\n特朗普谈降息：希望利率下调，但这不完全取决于沃什一人。\n\n中国央行连续21个月增持黄金，7月购金力度提速。\n\n股市大涨拉动，日本GPIF一季度收益24.1 万亿日元创纪录。\n\n美国绕开欧洲央行售欧元撑日元，欧洲人感到“遭背叛”。\n\n380亿美元！SK海力士新建两座存储芯片工厂，产能将按客户需求逐步扩大。\n\n美国光模块龙头AAOI盘前涨超15%，公司预计产能两年扩张10倍，1.6T最快两周获大客户认证。\n\n苹果上调多款设备以旧换新回收价，幅度最高近30%。\n\n日经225指数收跌0.1%，沪指收涨1.02%，恒生指数收涨0.54%。",
+      "pubDate": "2026-08-07T13:04:38.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146757"
     },
     {
       "title_cn": "ShanghAI 黄金 Exchange 黄金 T+D rose 0.72% to 930.",
@@ -324,6 +484,22 @@
       "link": ""
     },
     {
+      "title_cn": "Lingbao 黄金 (03330.HK): group unit Habahe County ",
+      "summary_cn": "Lingbao Gold (03330.HK): group unit Habahe County Huayuan Mining Co. said explor",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "Lingbao 黄金 (03330.HK): group unit Habahe County ",
+      "description": "Lingbao Gold (03330.HK): group unit Habahe County Huayuan Mining Co. said exploration made material progress; contained resources rose to 53.94 tonnes as of June 30, 2026, up from 13.20 tonnes at end‑2025.",
+      "pubDate": "2026-08-07T11:42:51.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "灵宝黄金(03330.HK)：集团附属子公司哈巴河县华源矿业有限公司勘查工作取得阶段性重大进展，截止",
       "summary_cn": "灵宝黄金(03330.HK)：集团附属子公司哈巴河县华源矿业有限公司勘查工作取得阶段性重大进展，截止到2026年6月30日，保有资源量由2025年底的13.20",
       "category": "黄金",
@@ -336,6 +512,22 @@
       "title": "灵宝黄金(03330.HK)：集团附属子公司哈巴河县华源矿业有限公司勘查工作取得阶段性重大进展，截止",
       "description": "灵宝黄金(03330.HK)：集团附属子公司哈巴河县华源矿业有限公司勘查工作取得阶段性重大进展，截止到2026年6月30日，保有资源量由2025年底的13.20吨跃升至53.94吨。",
       "pubDate": "2026-08-07T11:42:43.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "Reserve Bank of India data show India's 黄金 reser",
+      "summary_cn": "Reserve Bank of India data show India's gold reserves stood at $104.74 billion a",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "Reserve Bank of India data show India's 黄金 reser",
+      "description": "Reserve Bank of India data show India's gold reserves stood at $104.74 billion as of July 31, up from $103.06 billion a week earlier, an increase of $1.68 billion.",
+      "pubDate": "2026-08-07T11:32:46.000Z",
       "source": "金十数据",
       "link": ""
     },
@@ -356,150 +548,6 @@
       "link": ""
     },
     {
-      "title_cn": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】",
-      "summary_cn": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】金十数据8月7日讯，宇晶股份公告，股票于2026年8月5日、2026年8月6日和2026年8月7日",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】",
-      "description": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】金十数据8月7日讯，宇晶股份公告，股票于2026年8月5日、2026年8月6日和2026年8月7日连续三个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动情形。公司目前正在筹划2026年度以简易程序向特定对象发行A股股票事项，该事项已经公司股东会授权公司董事会办理，并已经公司第五届董事会第十三次会议审议通过。截至本公告披露日，公司切磨抛设备下游应用领域以光伏行业为主，占比约90%；半导体和消费电子行业应用占比较低，其中半导体行业应用占比不超过5%，对公司业绩影响较小。",
-      "pubDate": "2026-08-07T12:00:44.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "Night session open: 中国's most-active futures co",
-      "summary_cn": "Night session open: 中国's most-active futures contracts were mostly higher. Shanghai silver rose over 4% and Shanghai 黄金 gained more than 2%. Ethylene glycol and stainless steel advanced over 1%; Shanghai nickel and tin up about 1%. Shanghai zinc and SC crude fell nearly 1%.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Night session open: China's most-active futures co",
-      "description": "Night session open: China's most-active futures contracts were mostly higher. Shanghai silver rose over 4% and Shanghai gold gained more than 2%. Ethylene glycol and stainless steel advanced over 1%; Shanghai nickel and tin up about 1%. Shanghai zinc and SC crude fell nearly 1%.",
-      "pubDate": "2026-08-07T13:00:13.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "Lingbao 黄金 (03330.HK): group unit Habahe County ",
-      "summary_cn": "Lingbao Gold (03330.HK): group unit Habahe County Huayuan Mining Co. said explor",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Lingbao 黄金 (03330.HK): group unit Habahe County ",
-      "description": "Lingbao Gold (03330.HK): group unit Habahe County Huayuan Mining Co. said exploration made material progress; contained resources rose to 53.94 tonnes as of June 30, 2026, up from 13.20 tonnes at end‑2025.",
-      "pubDate": "2026-08-07T11:42:51.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%",
-      "summary_cn": "【宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%】财联社8月7日电，宇晶股份(002943.SZ)发布异动公告，截至本公告披露日，公司切磨抛设备下游应用领",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%",
-      "description": "【宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%】财联社8月7日电，宇晶股份(002943.SZ)发布异动公告，截至本公告披露日，公司切磨抛设备下游应用领域以光伏行业为主，占比约90%；半导体和消费电子行业应用占比较低，其中半导体行业应用占比不超过5%，对公司业绩影响较小。",
-      "pubDate": "2026-08-07T11:49:15.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2448729"
-    },
-    {
-      "title_cn": "【VPD芯片通过三星验证？聚辰股份回应】",
-      "summary_cn": "【VPD芯片通过三星验证？聚辰股份回应】金十数据8月7日讯，近日，有投资者在互动平台向聚辰股份提问：市场传公司VPD芯片正式通过三星验证，应用于企业级和CXL，",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【VPD芯片通过三星验证？聚辰股份回应】",
-      "description": "【VPD芯片通过三星验证？聚辰股份回应】金十数据8月7日讯，近日，有投资者在互动平台向聚辰股份提问：市场传公司VPD芯片正式通过三星验证，应用于企业级和CXL，该产品高单价，超高毛利，公司领先对手1年以上，未来随着三星SSD放量，利润弹性巨大请问以上信息是否属实？8月7日，聚辰股份回应称，公司VPD芯片已顺利通过目标客户的测试认证，并将搭载在目标客户的模组样品上，分发给各终端客户进行测试验证。公司长期致力于为客户提供存储、模拟和混合信号集成电路产品并提供应用解决方案和技术支持服务，目前拥有存储类芯片、混合信号类芯片和NFC芯片三条主要产品线。",
-      "pubDate": "2026-08-07T11:56:51.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
-      "summary_cn": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
-      "description": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业绩主要受到人工智能等技术发展带动芯片硬件需求增长的影响。",
-      "pubDate": "2026-08-07T12:38:03.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146737"
-    },
-    {
-      "title_cn": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
-      "summary_cn": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
-      "description": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于7月量产，正处于产能爬坡阶段。据了解，为保障iPhone新机量产进度，目前富士康正迎来招工高峰期。",
-      "pubDate": "2026-08-07T12:35:59.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146736"
-    },
-    {
-      "title_cn": "国际贵金属短线拉升 现货白银涨超5%",
-      "summary_cn": "财联社8月7日电，国际贵金属短线拉升，现货黄金价格涨2.48%，报4345.82美元/盎司；现货白银价格涨5.22%，报64.72美元/盎司。",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "国际贵金属短线拉升 现货白银涨超5%",
-      "description": "财联社8月7日电，国际贵金属短线拉升，现货黄金价格涨2.48%，报4345.82美元/盎司；现货白银价格涨5.22%，报64.72美元/盎司。",
-      "pubDate": "2026-08-07T12:31:05.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2448767"
-    },
-    {
-      "title_cn": "世界卫生组织：专家指出，ERBEVO疫苗对BVD疾病及传播的有效性仍有待证实，专门针对本迪布焦病毒的疫苗仍是首选方案。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "世界卫生组织：专家指出，ERBEVO疫苗对BVD疾病及传播的有效性仍有待证实，专门针对本迪布焦病毒的疫苗仍是首选方案。",
-      "description": "",
-      "pubDate": "2026-08-07T12:37:54.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzse9924311.d.html"
-    },
-    {
       "title_cn": "美国非农报告来袭，国际黄金还会冲吗？点击观看直播分析",
       "summary_cn": "美国非农报告来袭，国际黄金还会冲吗？点击观看直播分析",
       "category": "黄金",
@@ -512,86 +560,6 @@
       "title": "美国非农报告来袭，国际黄金还会冲吗？点击观看直播分析",
       "description": "美国非农报告来袭，国际黄金还会冲吗？点击观看直播分析",
       "pubDate": "2026-08-07T11:26:00.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
-      "summary_cn": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
-      "description": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
-      "pubDate": "2026-08-07T12:11:29.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
-      "summary_cn": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "药明康德、百济神州",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
-      "description": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合服务平台浦东分平台、上海数字出海服务基地（陆家嘴数智港）、上海市知识产权保护中心黄浦分中心，实地感受上海为企业出海和数据要素流通搭建的“全链条”服务体系。",
-      "pubDate": "2026-08-07T10:42:18.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835422990.html"
-    },
-    {
-      "title_cn": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
-      "summary_cn": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "药明康德、百济神州",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
-      "description": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上半年，上海新设或并购境外项目近400个，备案投资金额同比增长105%，越来越多企业选择从上海出海。据统计，近十年，上海累计ODI（境外投资备案）出海项目近7000个，总投资超400亿美元。",
-      "pubDate": "2026-08-07T10:31:15.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835343185.html"
-    },
-    {
-      "title_cn": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
-      "summary_cn": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
-      "description": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
-      "pubDate": "2026-08-07T11:09:38.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146683"
-    },
-    {
-      "title_cn": "Reserve Bank of India data show India's 黄金 reser",
-      "summary_cn": "Reserve Bank of India data show India's gold reserves stood at $104.74 billion a",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Reserve Bank of India data show India's 黄金 reser",
-      "description": "Reserve Bank of India data show India's gold reserves stood at $104.74 billion as of July 31, up from $103.06 billion a week earlier, an increase of $1.68 billion.",
-      "pubDate": "2026-08-07T11:32:46.000Z",
       "source": "金十数据",
       "link": ""
     },
@@ -660,6 +628,198 @@
       "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsc3116625.d.html"
     },
     {
+      "title_cn": "宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%",
+      "summary_cn": "【宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%】财联社8月7日电，宇晶股份(002943.SZ)发布异动公告，截至本公告披露日，公司切磨抛设备下游应用领",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%",
+      "description": "【宇晶股份：切磨抛设备下游半导体行业应用占比不超过5%】财联社8月7日电，宇晶股份(002943.SZ)发布异动公告，截至本公告披露日，公司切磨抛设备下游应用领域以光伏行业为主，占比约90%；半导体和消费电子行业应用占比较低，其中半导体行业应用占比不超过5%，对公司业绩影响较小。",
+      "pubDate": "2026-08-07T11:49:15.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448729"
+    },
+    {
+      "title_cn": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】",
+      "summary_cn": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】金十数据8月7日讯，宇晶股份公告，股票于2026年8月5日、2026年8月6日和2026年8月7日",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】",
+      "description": "【宇晶股份：半导体行业应用占比不超过5%，对公司业绩影响较小】金十数据8月7日讯，宇晶股份公告，股票于2026年8月5日、2026年8月6日和2026年8月7日连续三个交易日收盘价格涨幅偏离值累计超过20%，属于股票交易异常波动情形。公司目前正在筹划2026年度以简易程序向特定对象发行A股股票事项，该事项已经公司股东会授权公司董事会办理，并已经公司第五届董事会第十三次会议审议通过。截至本公告披露日，公司切磨抛设备下游应用领域以光伏行业为主，占比约90%；半导体和消费电子行业应用占比较低，其中半导体行业应用占比不超过5%，对公司业绩影响较小。",
+      "pubDate": "2026-08-07T12:00:44.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【VPD芯片通过三星验证？聚辰股份回应】",
+      "summary_cn": "【VPD芯片通过三星验证？聚辰股份回应】金十数据8月7日讯，近日，有投资者在互动平台向聚辰股份提问：市场传公司VPD芯片正式通过三星验证，应用于企业级和CXL，",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【VPD芯片通过三星验证？聚辰股份回应】",
+      "description": "【VPD芯片通过三星验证？聚辰股份回应】金十数据8月7日讯，近日，有投资者在互动平台向聚辰股份提问：市场传公司VPD芯片正式通过三星验证，应用于企业级和CXL，该产品高单价，超高毛利，公司领先对手1年以上，未来随着三星SSD放量，利润弹性巨大请问以上信息是否属实？8月7日，聚辰股份回应称，公司VPD芯片已顺利通过目标客户的测试认证，并将搭载在目标客户的模组样品上，分发给各终端客户进行测试验证。公司长期致力于为客户提供存储、模拟和混合信号集成电路产品并提供应用解决方案和技术支持服务，目前拥有存储类芯片、混合信号类芯片和NFC芯片三条主要产品线。",
+      "pubDate": "2026-08-07T11:56:51.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
+      "summary_cn": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
+      "description": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业绩主要受到人工智能等技术发展带动芯片硬件需求增长的影响。",
+      "pubDate": "2026-08-07T12:38:03.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146737"
+    },
+    {
+      "title_cn": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
+      "summary_cn": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
+      "description": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于7月量产，正处于产能爬坡阶段。据了解，为保障iPhone新机量产进度，目前富士康正迎来招工高峰期。",
+      "pubDate": "2026-08-07T12:35:59.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146736"
+    },
+    {
+      "title_cn": "Night session open: 中国's most-active futures co",
+      "summary_cn": "Night session open: China's most-active futures contracts were mostly higher. Sh",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "Night session open: 中国's most-active futures co",
+      "description": "Night session open: China's most-active futures contracts were mostly higher. Shanghai silver rose over 4% and Shanghai gold gained more than 2%. Ethylene glycol and stainless steel advanced over 1%; Shanghai nickel and tin up about 1%. Shanghai zinc and SC crude fell nearly 1%.",
+      "pubDate": "2026-08-07T13:00:13.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "国际贵金属短线拉升 现货白银涨超5%",
+      "summary_cn": "财联社8月7日电，国际贵金属短线拉升，现货黄金价格涨2.48%，报4345.82美元/盎司；现货白银价格涨5.22%，报64.72美元/盎司。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "国际贵金属短线拉升 现货白银涨超5%",
+      "description": "财联社8月7日电，国际贵金属短线拉升，现货黄金价格涨2.48%，报4345.82美元/盎司；现货白银价格涨5.22%，报64.72美元/盎司。",
+      "pubDate": "2026-08-07T12:31:05.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448767"
+    },
+    {
+      "title_cn": "世界卫生组织：专家指出，ERBEVO疫苗对BVD疾病及传播的有效性仍有待证实，专门针对本迪布焦病毒的疫苗仍是首选方案。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "世界卫生组织：专家指出，ERBEVO疫苗对BVD疾病及传播的有效性仍有待证实，专门针对本迪布焦病毒的疫苗仍是首选方案。",
+      "description": "",
+      "pubDate": "2026-08-07T12:37:54.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzse9924311.d.html"
+    },
+    {
+      "title_cn": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
+      "summary_cn": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
+      "description": "金十图示：2026年08月07日（周五）中国工商银行账户贵金属行情",
+      "pubDate": "2026-08-07T12:11:29.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
+      "summary_cn": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "药明康德、百济神州",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
+      "description": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合服务平台浦东分平台、上海数字出海服务基地（陆家嘴数智港）、上海市知识产权保护中心黄浦分中心，实地感受上海为企业出海和数据要素流通搭建的“全链条”服务体系。",
+      "pubDate": "2026-08-07T10:42:18.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835422990.html"
+    },
+    {
+      "title_cn": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
+      "summary_cn": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "药明康德、百济神州",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
+      "description": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上半年，上海新设或并购境外项目近400个，备案投资金额同比增长105%，越来越多企业选择从上海出海。据统计，近十年，上海累计ODI（境外投资备案）出海项目近7000个，总投资超400亿美元。",
+      "pubDate": "2026-08-07T10:31:15.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835343185.html"
+    },
+    {
+      "title_cn": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
+      "summary_cn": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
+      "description": "现货黄金日内涨幅扩大至2%，报4325.36美元/盎司。",
+      "pubDate": "2026-08-07T11:09:38.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146683"
+    },
+    {
       "title_cn": "【机构龙虎榜解读】PCB+先进封装+铜箔，可剥铜产品通过了部分覆铜板厂商、载板厂商及相关芯片终端的认证，持续获得小批量订单，主要应用场景包括芯片封装光模块用PCB，机构大额净买入这家公司",
       "summary_cn": "",
       "category": "光模块",
@@ -708,20 +868,20 @@
       "link": "https://www.cls.cn/detail/2448702"
     },
     {
-      "title_cn": "氧化铒年内价格大幅上涨",
-      "summary_cn": "7月下旬以来，稀土主流品种仍处于下跌趋势。不过，中重稀土氧化铒价格上涨比较明显，且7月以来价格加速上涨。数据显示，氧化铒最新价格为62.75万元/吨，7月以来累",
-      "category": "光模块",
+      "title_cn": "央行连续21个月“囤金”，持续加码下单月扫货64万盎司",
+      "summary_cn": "8月7日，我国央行公布数据显示，7月末黄金储备为7608万盎司，6月末为7544万盎司，7月单月增加64万盎司，为2024年11月重启购金周期以来最大月度买入量",
+      "category": "黄金",
       "direction": "中性",
       "impact": "低",
       "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "氧化铒年内价格大幅上涨",
-      "description": "7月下旬以来，稀土主流品种仍处于下跌趋势。不过，中重稀土氧化铒价格上涨比较明显，且7月以来价格加速上涨。数据显示，氧化铒最新价格为62.75万元/吨，7月以来累计上涨33.14%，年内累计上涨77.11%。掺铒光纤放大器需求激增，进而推动稀土氧化铒的需求。虽然稀土主流品种价格目前仍处于下降通道中，但机构纷纷看好下半年稀土价格回暖。由于今年稀土价格相比去年整体抬高，稀土永磁板块上半年业绩非常亮眼，已公布业绩的14家公司中，13家公司均为预增或扭亏，其中有5家公司净利润同比翻倍式增长。（证券时报）",
-      "pubDate": "2026-08-07T11:14:13.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146687"
+      "title": "央行连续21个月“囤金”，持续加码下单月扫货64万盎司",
+      "description": "8月7日，我国央行公布数据显示，7月末黄金储备为7608万盎司，6月末为7544万盎司，7月单月增加64万盎司，为2024年11月重启购金周期以来最大月度买入量，央行实现连续21个月增持黄金。今年3月以来，我国央行购金规模持续攀升，3月至7月央行单月增持黄金规模分别为16万、26万、32万、48万、64万盎司，7月买入力度迎来阶段性峰值。",
+      "pubDate": "2026-08-07T11:28:00.000Z",
+      "source": "东方财富",
+      "link": "http://pmetal.eastmoney.com/news/11793,202608073835444979.html"
     },
     {
       "title_cn": "氧化铒年内价格大幅上涨 8月以来多数稀土概念股获资金加仓",
@@ -868,6 +1028,38 @@
       "link": "http://finance.eastmoney.com/news/1350,202608073835342980.html"
     },
     {
+      "title_cn": "氧化铒年内价格大幅上涨",
+      "summary_cn": "7月下旬以来，稀土主流品种仍处于下跌趋势。不过，中重稀土氧化铒价格上涨比较明显，且7月以来价格加速上涨。数据显示，氧化铒最新价格为62.75万元/吨，7月以来累",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "氧化铒年内价格大幅上涨",
+      "description": "7月下旬以来，稀土主流品种仍处于下跌趋势。不过，中重稀土氧化铒价格上涨比较明显，且7月以来价格加速上涨。数据显示，氧化铒最新价格为62.75万元/吨，7月以来累计上涨33.14%，年内累计上涨77.11%。掺铒光纤放大器需求激增，进而推动稀土氧化铒的需求。虽然稀土主流品种价格目前仍处于下降通道中，但机构纷纷看好下半年稀土价格回暖。由于今年稀土价格相比去年整体抬高，稀土永磁板块上半年业绩非常亮眼，已公布业绩的14家公司中，13家公司均为预增或扭亏，其中有5家公司净利润同比翻倍式增长。（证券时报）",
+      "pubDate": "2026-08-07T11:14:13.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146687"
+    },
+    {
+      "title_cn": "【我武生物：S01D片药物临床试验申请获受理】",
+      "summary_cn": "【我武生物：S01D片药物临床试验申请获受理】金十数据8月7日讯，我武生物8月7日公告，日前，公司获得国家药品监督管理局发出的《受理通知书》，由公司提交的S01",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "百济神州、药明康德、恒瑞医药",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【我武生物：S01D片药物临床试验申请获受理】",
+      "description": "【我武生物：S01D片药物临床试验申请获受理】金十数据8月7日讯，我武生物8月7日公告，日前，公司获得国家药品监督管理局发出的《受理通知书》，由公司提交的S01D片药物临床试验申请已获得正式受理。该药品具有抗结核分枝杆菌活性，用于耐药肺结核成人患者的治疗。截至本公告披露日，国内外尚未有相同化学药物获批上市。",
+      "pubDate": "2026-08-07T08:35:03.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "“新新三样”加速出海！前7个月集成电路出口额接近翻倍",
       "summary_cn": "8月7日，海关总署发布数据显示，今年前7个月我国货物贸易进出口总值30.13万亿元，同比增长17.3%，延续良好增长态势。其中，出口17.44万亿元，增长14%",
       "category": "创新药",
@@ -916,6 +1108,22 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEZvSDlZZFRtdUJWLUlLTjk1S1o5bUpmVUM3cVlROUNIbkUzeFk5eFRUdzBsWlhkemhsS3BXWVdTMFZSTUN3YzlEb1ZZR3hwUTJ2d0ZxQ0NGZFBwaUJBaHdjZXB5VTEzQTBMTWRNNzdBOG54QWxwb201WEEwdnpzWF9YRkxLSWthUEhfYU5Vd2RaanhqS0lYRmZLY0lYQVRVVTRrd09PR3lDMGN4UHZwT08yZk11RW5sYnNxWmdyMzhzZGVZcmFIWUxPY1VnU2phUmFfX3QyOVVHOXdST1dqSnBVSm83Z0E2bk8yM3hPNWdJbmItRkVfb18wWjE?oc=5"
     },
     {
+      "title_cn": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】",
+      "summary_cn": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】金十数据8月7日讯，臻宝科技公告称，全资子公司武汉臻宝拟使用2.5亿元超募资金投资新建“半导体零部件研发",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】",
+      "description": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】金十数据8月7日讯，臻宝科技公告称，全资子公司武汉臻宝拟使用2.5亿元超募资金投资新建“半导体零部件研发生产基地项目”，项目总投资5.2亿元，建设周期3年。该议案已通过董事会审议，尚需股东会批准。项目旨在提升高精密零部件本土供给规模、突破产能瓶颈、绑定客户，不过存在技术与客户验证、项目进程及效益、备案审批等风险。",
+      "pubDate": "2026-08-07T09:23:52.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "【易天股份：日常经营合同诉讼涉案4246.08万元 结果待明确】易天股份公告称，公司及子公司易天半导体与江苏穿越、河北光兴的日常经营合同诉讼，涉案金额合计约4246.08万元及利息等。目前，与江苏穿越案一审判决（未生效），江苏穿越需支付剩余货款3050万元及违约金等；与河北光兴案已终结本次执行程序，执行到位0元。公司已在2024、2025年度做相应会计处理，本次诉讼对利润的影响将依执行情况确定。",
       "summary_cn": "",
       "category": "半导体",
@@ -930,54 +1138,6 @@
       "pubDate": "2026-08-07T09:38:20.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnvkp4739795.d.html"
-    },
-    {
-      "title_cn": "振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货",
-      "summary_cn": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】财联社8月7日电，振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货",
-      "description": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】财联社8月7日电，振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
-      "pubDate": "2026-08-07T08:42:20.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2448464"
-    },
-    {
-      "title_cn": "【南向资金今日净卖出7.78亿港元】港股通（沪）方面，MINIMAX-W、中芯国际分别获净买入13.22亿港元、2.60亿港元；腾讯控股净卖出额居首，金额为9.05亿港元；港股通（深）方面，MINIMAX-W、药明生物分别获净买入9.03亿港元、7.78亿港元；腾讯控股净卖出额居首，金额为12.83亿港元。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【南向资金今日净卖出7.78亿港元】港股通（沪）方面，MINIMAX-W、中芯国际分别获净买入13.22亿港元、2.60亿港元；腾讯控股净卖出额居首，金额为9.05亿港元；港股通（深）方面，MINIMAX-W、药明生物分别获净买入9.03亿港元、7.78亿港元；腾讯控股净卖出额居首，金额为12.83亿港元。",
-      "description": "",
-      "pubDate": "2026-08-07T09:40:04.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnvkh9954976.d.html"
-    },
-    {
-      "title_cn": "【我武生物：S01D片药物临床试验申请获受理】",
-      "summary_cn": "【我武生物：S01D片药物临床试验申请获受理】金十数据8月7日讯，我武生物8月7日公告，日前，公司获得国家药品监督管理局发出的《受理通知书》，由公司提交的S01",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "百济神州、药明康德、恒瑞医药",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【我武生物：S01D片药物临床试验申请获受理】",
-      "description": "【我武生物：S01D片药物临床试验申请获受理】金十数据8月7日讯，我武生物8月7日公告，日前，公司获得国家药品监督管理局发出的《受理通知书》，由公司提交的S01D片药物临床试验申请已获得正式受理。该药品具有抗结核分枝杆菌活性，用于耐药肺结核成人患者的治疗。截至本公告披露日，国内外尚未有相同化学药物获批上市。",
-      "pubDate": "2026-08-07T08:35:03.000Z",
-      "source": "金十数据",
-      "link": ""
     },
     {
       "title_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
@@ -1028,22 +1188,6 @@
       "link": "https://www.cls.cn/detail/2448433"
     },
     {
-      "title_cn": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
-      "summary_cn": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
-      "description": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
-      "pubDate": "2026-08-07T08:27:33.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
       "title_cn": "【上海黄金交易所8月7日（周五）交易行情】",
       "summary_cn": "【上海黄金交易所8月7日（周五）交易行情】金十数据8月7日讯，延期补偿费支付方向：Au(T+D)—多付空，Ag(T+D)—多付空；注：表格数据由8月6日的20:",
       "category": "黄金",
@@ -1058,6 +1202,22 @@
       "pubDate": "2026-08-07T08:26:34.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "【金一文化：股票交易异常波动 二次并购仍处筹划阶段】金一文化公告称，公司股票在2026年8月5日至8月7日连续三个交易日收盘价格涨幅偏离值累计超20%，属异常波动。经核查，公司经营正常，内外部环境未变。二次并购仍处筹划阶段，未签意向协议，存在不确定性。近期无媒体报道重大信息，因金价上涨黄金概念活跃，金价波动或影响公司黄金珠宝业绩。控股股东、实控人在异动期间未买卖公司股票。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【金一文化：股票交易异常波动 二次并购仍处筹划阶段】金一文化公告称，公司股票在2026年8月5日至8月7日连续三个交易日收盘价格涨幅偏离值累计超20%，属异常波动。经核查，公司经营正常，内外部环境未变。二次并购仍处筹划阶段，未签意向协议，存在不确定性。近期无媒体报道重大信息，因金价上涨黄金概念活跃，金价波动或影响公司黄金珠宝业绩。控股股东、实控人在异动期间未买卖公司股票。",
+      "description": "",
+      "pubDate": "2026-08-07T08:51:19.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnrar4836065.d.html"
     },
     {
       "title_cn": "臻宝科技：拟使用超募资金2.5亿元投资建设半导体零部件研发生产基地项目",
@@ -1076,8 +1236,8 @@
       "link": "https://www.cls.cn/detail/2448534"
     },
     {
-      "title_cn": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】",
-      "summary_cn": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】金十数据8月7日讯，臻宝科技公告称，全资子公司武汉臻宝拟使用2.5亿元超募资金投资新建“半导体零部件研发",
+      "title_cn": "振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货",
+      "summary_cn": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】财联社8月7日电，振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储",
       "category": "半导体",
       "direction": "利好",
       "impact": "中",
@@ -1085,11 +1245,27 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】",
-      "description": "【臻宝科技：拟用2.5亿元超募资金投建半导体零部件项目】金十数据8月7日讯，臻宝科技公告称，全资子公司武汉臻宝拟使用2.5亿元超募资金投资新建“半导体零部件研发生产基地项目”，项目总投资5.2亿元，建设周期3年。该议案已通过董事会审议，尚需股东会批准。项目旨在提升高精密零部件本土供给规模、突破产能瓶颈、绑定客户，不过存在技术与客户验证、项目进程及效益、备案审批等风险。",
-      "pubDate": "2026-08-07T09:23:52.000Z",
-      "source": "金十数据",
-      "link": ""
+      "title": "振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货",
+      "description": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】财联社8月7日电，振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
+      "pubDate": "2026-08-07T08:42:20.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448464"
+    },
+    {
+      "title_cn": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
+      "description": "",
+      "pubDate": "2026-08-07T08:42:46.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnrap3225131.d.html"
     },
     {
       "title_cn": "据港交所文件显示，摩根大通在中际旭创H股的持股比例于08月04日从13.48%升至15.02%。高盛对中际旭创的多头持仓比例于2026年8月4日从12.19%降至11.6%。",
@@ -1140,8 +1316,24 @@
       "link": "https://www.cls.cn/detail/2448526"
     },
     {
-      "title_cn": "中国央行连续第21个月增持黄金",
-      "summary_cn": "【中国央行连续第21个月增持黄金】央行发布数据，中国7月末黄金储备7608万盎司，6月末为7544万盎司。中国央行已连续第21个月增持黄金。",
+      "title_cn": "【南向资金今日净卖出7.78亿港元】港股通（沪）方面，MINIMAX-W、中芯国际分别获净买入13.22亿港元、2.60亿港元；腾讯控股净卖出额居首，金额为9.05亿港元；港股通（深）方面，MINIMAX-W、药明生物分别获净买入9.03亿港元、7.78亿港元；腾讯控股净卖出额居首，金额为12.83亿港元。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【南向资金今日净卖出7.78亿港元】港股通（沪）方面，MINIMAX-W、中芯国际分别获净买入13.22亿港元、2.60亿港元；腾讯控股净卖出额居首，金额为9.05亿港元；港股通（深）方面，MINIMAX-W、药明生物分别获净买入9.03亿港元、7.78亿港元；腾讯控股净卖出额居首，金额为12.83亿港元。",
+      "description": "",
+      "pubDate": "2026-08-07T09:40:04.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnvkh9954976.d.html"
+    },
+    {
+      "title_cn": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
+      "summary_cn": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -1149,11 +1341,11 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "中国央行连续第21个月增持黄金",
-      "description": "【中国央行连续第21个月增持黄金】央行发布数据，中国7月末黄金储备7608万盎司，6月末为7544万盎司。中国央行已连续第21个月增持黄金。",
-      "pubDate": "2026-08-07T08:02:06.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1345,202608073835185575.html"
+      "title": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
+      "description": "金十图示：2026年08月07日（周五）上海黄金交易所市场行情",
+      "pubDate": "2026-08-07T08:27:33.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
       "title_cn": "7月末中国外储规模环升0.07%，黄金储备连增21个月",
@@ -1170,22 +1362,6 @@
       "pubDate": "2026-08-07T08:16:38.000Z",
       "source": "东方财富",
       "link": "http://finance.eastmoney.com/news/1350,202608073835210721.html"
-    },
-    {
-      "title_cn": "【金一文化：股票交易异常波动 二次并购仍处筹划阶段】金一文化公告称，公司股票在2026年8月5日至8月7日连续三个交易日收盘价格涨幅偏离值累计超20%，属异常波动。经核查，公司经营正常，内外部环境未变。二次并购仍处筹划阶段，未签意向协议，存在不确定性。近期无媒体报道重大信息，因金价上涨黄金概念活跃，金价波动或影响公司黄金珠宝业绩。控股股东、实控人在异动期间未买卖公司股票。",
-      "summary_cn": "",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【金一文化：股票交易异常波动 二次并购仍处筹划阶段】金一文化公告称，公司股票在2026年8月5日至8月7日连续三个交易日收盘价格涨幅偏离值累计超20%，属异常波动。经核查，公司经营正常，内外部环境未变。二次并购仍处筹划阶段，未签意向协议，存在不确定性。近期无媒体报道重大信息，因金价上涨黄金概念活跃，金价波动或影响公司黄金珠宝业绩。控股股东、实控人在异动期间未买卖公司股票。",
-      "description": "",
-      "pubDate": "2026-08-07T08:51:19.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnrar4836065.d.html"
     },
     {
       "title_cn": "现货黄金突破4300美元/盎司，日内涨超1.4%，报4300.04美元/盎司。",
@@ -1220,6 +1396,22 @@
       "link": "https://www.cls.cn/detail/2448497"
     },
     {
+      "title_cn": "中国央行连续第21个月增持黄金",
+      "summary_cn": "【中国央行连续第21个月增持黄金】央行发布数据，中国7月末黄金储备7608万盎司，6月末为7544万盎司。中国央行已连续第21个月增持黄金。",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "中国央行连续第21个月增持黄金",
+      "description": "【中国央行连续第21个月增持黄金】央行发布数据，中国7月末黄金储备7608万盎司，6月末为7544万盎司。中国央行已连续第21个月增持黄金。",
+      "pubDate": "2026-08-07T08:02:06.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1345,202608073835185575.html"
+    },
+    {
       "title_cn": "美股盘前，存储概念股小幅走高，闪迪、西部数据涨超2%，光通信概念股走高，Coherent涨近5%，Lumentum涨超3%。",
       "summary_cn": "美股盘前，存储概念股小幅走高，闪迪、西部数据涨超2%，光通信概念股走高，Coherent涨近5%，Lumentum涨超3%。",
       "category": "光模块",
@@ -1250,22 +1442,6 @@
       "pubDate": "2026-08-07T07:53:00.000Z",
       "source": "mrjjxw.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZOTNTVU1pNWVJUWQ0QVZNS0YxaV9DQjllaE1Rb1U4dnV4eF9wdFdPWHhzNzNBZkhzMnFkQXB4YXc5b0lBVndOM1JRUUtSdUtMTEk1b0tVYmtpVE90RTYxWHpQMFE5dw?oc=5"
-    },
-    {
-      "title_cn": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【振华风光：存储芯片已有约十款产品完成转产验证并实现小批量订货】振华风光(688439.SH)发布投资者关系活动记录表公告，公司已掌握多类存储芯片核心设计、可靠性加固与自研固件技术，技术储备覆盖NOR/NAND、DDR、EEPROM、eMMC等存储架构，主打适配严苛工况的宽温高可靠存储芯片，已有约十款产品完成转产验证并实现小批量订货。公司依托抗辐照技术优势布局RISC-V架构高可靠MCU研发，产品面向商业航天、特种装备等高可靠领域开展研制与验证工作。",
-      "description": "",
-      "pubDate": "2026-08-07T08:42:46.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnrap3225131.d.html"
     },
     {
       "title_cn": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析 - 中金在线",
@@ -1346,22 +1522,6 @@
       "pubDate": "2026-08-07T00:00:00.000Z",
       "source": "Gulf News",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYXVDVHNTc2U0aFQ2STlPX1FvYk9wRk9NdjhsemFpSl9Ya3lxT0p3NGUxeHFVeVZtNm5PZUMxeVRuMnNodDVaOTVJQ25iVXZQNVhPYng0cDB2WnkydWhZNC0zTUlDYUsyU0dlRExmdWd6ZmcwOS1wMG9sckdXQVppV1Bkc19BaEJ5Xy11RUdOUVUwU3hXSTlvNTBNUjRhSXdaTm01Rk1yREowN3PSAb4BQVVfeXFMTUpLam5CbjJReVRpdkhWd3pyU3BXQ2NQcnkyaGIzTnp5dU1kUktQbjJfWWdyN1I0eG9lUkVmNXpuY2tYZnNFNjNRMlliTURaZzUyQ0FzWWVCWkJEcHVCQ1J1Y3hEbEowbkNYRmJ3T0ctV0tRRnpmVWdNbWpObW1acUtLV28wc1o4WktIcnFqN29CbDVNVUVPQlpHTkZkN2FaUXMzSjh2TG54U2JoNW5xdEhUZUNPXzltdzFPekdVQQ?oc=5"
-    },
-    {
-      "title_cn": "Softbank 大涨s 14%, SK海力士 and 台积电 上涨 As Wall Street Rally Lifts Asian AI 股票 - Tekedia",
-      "summary_cn": "Softbank Jumps 14%, SK Hynix and TSMC Climb As Wall Street Rally Lifts Asian AI ",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "中芯国际",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Softbank 大涨s 14%, SK海力士 and 台积电 上涨 As Wall Street Rally Lifts Asian AI 股票 - Tekedia",
-      "description": "Softbank Jumps 14%, SK Hynix and TSMC Climb As Wall Street Rally Lifts Asian AI Stocks&nbsp;&nbsp; Tekedia",
-      "pubDate": "2026-08-06T13:32:08.000Z",
-      "source": "Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDU5cUFscVNLUC1RTENJbHE4MDE0Z3M5NEYyVGYtaXNLSzNTMWhoaUkzd19WUzRFZnpTemNOeVZQUmRXNURNblFSRURYMW9fc0VQc2IwZlN0aFFzVkJramtUY0JlcXNqX3gxT01vMVRITmx0dG5YZTZ6TVBwbDZKbUhtazF5cUFUZ19DSnBxalRta1dRc2FYVVpqZ0J2SkN3bDJPdVVmQWx6TmJ5OHc?oc=5"
     }
   ],
   "sectorMatrix": [
@@ -1369,44 +1529,180 @@
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 40,
-      "summary": "黄金板块40条新闻，方向以利好为主。关注：现货黄金日内涨幅扩大至3% 至6月17日以来最高水平；【现货黄金日内涨幅扩大至",
+      "news_count": 43,
+      "summary": "黄金板块43条新闻，方向以利好为主。关注：瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美",
       "tickers": "紫金矿业、山东黄金"
     },
     {
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 21,
-      "summary": "半导体板块21条新闻，方向以利好为主",
+      "news_count": 23,
+      "summary": "半导体板块23条新闻，方向以利好为主",
       "tickers": "中芯国际"
     },
     {
       "name": "光模块",
       "shock": "强",
       "direction": "利好",
-      "news_count": 14,
-      "summary": "光模块板块14条新闻，方向以利好为主",
+      "news_count": 18,
+      "summary": "光模块板块18条新闻，方向以利好为主",
       "tickers": "中际旭创、新易盛、天孚通信"
     },
     {
       "name": "创新药",
       "shock": "强",
       "direction": "利好",
-      "news_count": 10,
-      "summary": "创新药板块10条新闻，方向以利好为主",
+      "news_count": 11,
+      "summary": "创新药板块11条新闻，方向以利好为主",
       "tickers": "药明康德、百济神州、恒瑞医药"
     }
   ],
   "keyPoints": [
-    "今日共抓取 85 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 7 条，高影响 48 条，利好方向 65 条。",
-    "板块概况：黄金(利好, 强冲击, 40条)、半导体(利好, 强冲击, 21条)、光模块(利好, 强冲击, 14条)、创新药(利好, 强冲击, 10条)。",
-    "重点关注：加速进入电信运营商市场，寻找中国基站厂商合作？英伟达否认；【我武生物：S01D片药物临床试验申请获受理】；现货黄金日内涨幅扩大至3% 至6月17日以来最高水平。"
+    "今日共抓取 95 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 8 条，高影响 48 条，利好方向 67 条。",
+    "板块概况：黄金(利好, 强冲击, 43条)、半导体(利好, 强冲击, 23条)、光模块(利好, 强冲击, 18条)、创新药(利好, 强冲击, 11条)。",
+    "重点关注：加速进入电信运营商市场，寻找中国基站厂商合作？英伟达否认；【我武生物：S01D片药物临床试验申请获受理】；瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，85 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，95 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "利弗莫尔中概股龙头指数盘初上涨0.75%",
+      "description": "【利弗莫尔中概股龙头指数盘初上涨0.75%】财联社8月7日电，利弗莫尔中概股龙头指数盘初上涨0.75%。成分股中，希尔威金属矿业涨8.34%，百济神州涨5.85%，禾赛涨5.38%，奇景光电涨4.87%，传奇生物涨4.07%。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-07T13:31:31.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448842"
+    },
+    {
+      "title": "美股三大指数高开 AI硬件个股走强",
+      "description": "【美股三大指数高开】美股三大指数高开，道琼斯指数涨0.14%，标普500指数涨0.34%，纳斯达克综合指数涨0.78%。AI硬件个股走强，英伟达股价上涨1.2%，台积电股价上涨1.41%，博通股价上涨2.06%，SK海力士股价下跌1.48%，美光科技股价上涨1.77%，超威半导体股价上涨0.92%，阿斯麦股价上涨2.9%，英特尔股价上涨3.33%，泛林集团股价上涨1.05%，ARM股价上涨3.54%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-07T13:31:03.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448837"
+    },
+    {
+      "title": "现货白银涨幅收窄至不足4%",
+      "description": "财联社8月7日电，国际贵金属走弱，现货白银抹去非农数据发布以来的涨幅。截至目前，现货黄金价格涨2.37%，报4341.09美元/盎司；现货白银价格涨3.89%，报63.90美元/盎司。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-07T13:18:32.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2448830"
+    },
+    {
+      "title": "US 股票 opened after weak July nonfarm payrolls:",
+      "description": "US stocks opened after weak July nonfarm payrolls: Dow +0.23%, S&P 500 +0.31%, Nasdaq +0.74%. Optical-communications names led gains: Applied Optoelectronics (AAOI.O) +12.46%, Lumentum (LITE.O) +4.0%, Corning (GLW.N) +3.7%. Solar sector broadly higher: FTC Solar (FTCI.O) +1.8%, First Solar (FSLR) +4.5%.",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-07T13:31:54.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【7月非农意外爆冷 纳指开涨0.74%】",
+      "description": "【7月非农意外爆冷 纳指开涨0.74%】金十数据8月7日讯，美股开盘，道指涨0.23%，标普500指数涨0.31%，纳指涨0.74%。光通信板块走强，Applied Optoelectronics(AAOI.O)涨12.46%，Lumentum(LITE.O)涨4%，康宁(GLW.N)涨3.7%。太阳能板块普涨，FTC Solar(FTCI.O)涨1.8%，第一太阳能(FSLR)涨4.5%。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-07T13:31:41.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
+      "description": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-07T13:10:24.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
+      "description": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外投资趋势展望2026》指出，中国对外投资发展基础好、韧性强、优势多、潜能大，长期向好的支撑条件和基本趋势未变，企业国际化发展、多元化布局、本地化运营的趋势更加显著。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-07T12:19:15.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835423078.html"
+    },
+    {
+      "title": "央行连续21个月“囤金”，持续加码下单月扫货64万盎司",
+      "description": "8月7日，我国央行公布数据显示，7月末黄金储备为7608万盎司，6月末为7544万盎司，7月单月增加64万盎司，为2024年11月重启购金周期以来最大月度买入量，央行实现连续21个月增持黄金。今年3月以来，我国央行购金规模持续攀升，3月至7月央行单月增持黄金规模分别为16万、26万、32万、48万、64万盎司，7月买入力度迎来阶段性峰值。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-07T11:28:00.000Z",
+      "source": "东方财富",
+      "link": "http://pmetal.eastmoney.com/news/11793,202608073835444979.html"
+    },
+    {
+      "title": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
+      "description": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合服务平台浦东分平台、上海数字出海服务基地（陆家嘴数智港）、上海市知识产权保护中心黄浦分中心，实地感受上海为企业出海和数据要素流通搭建的“全链条”服务体系。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-07T10:42:18.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835422990.html"
+    },
+    {
+      "title": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
+      "description": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上半年，上海新设或并购境外项目近400个，备案投资金额同比增长105%，越来越多企业选择从上海出海。据统计，近十年，上海累计ODI（境外投资备案）出海项目近7000个，总投资超400亿美元。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-07T10:31:15.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608073835343185.html"
+    },
+    {
+      "title": "【美股光通信板块高开 Coherent涨超11%】美股光通信板块高开，Coherent涨超11%，Credo涨超7%，康宁、Lumentum涨超6%，迈威尔科技涨超4%。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-07T13:37:17.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsm4756701.d.html"
+    },
+    {
+      "title": "费城半导体指数涨幅扩大至3%，报12418.29点。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-07T13:34:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsc3181303.d.html"
+    },
+    {
+      "title": "【美股开盘：三大股指齐涨】道指涨0.10%，标普500指数涨0.36%，纳指涨0.77%。微芯科技涨10.19%，爱彼迎涨9.98%，Coherent Corp涨9.74%，纽曼矿业涨5.81%，雅保化工涨5.40%。“七姐妹”方面：特斯拉涨1.12%，英伟达涨1.05%，亚马逊涨0.52%，微软涨0.24%，苹果涨0.19%，谷歌涨0.14%，Meta Platforms涨0.03%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-07T13:30:48.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-07/detail-inimnzsi3148958.d.html"
+    },
+    {
+      "title": "美国7月非农超预期下降，美股三大股指集体高开",
+      "description": "美国7月非农就业人数意外减少，交易员削减对美联储的加息押注，纳指盘初涨0.77%，标普500指数涨0.33%，道指涨0.10%。存储概念股盘初部分走高，闪迪涨超3%。光通信概念股普涨，光模块制造商AAOI涨超12%，公司预计产能两年扩张10倍，1.6T最快两周获大客户认证；Coherent涨超9%。协作软件开发商Atlassian涨逾32%，业绩指引远超市场预期。爱彼迎涨逾8%，上调全年业绩预期。网络安全公司Cloudflare开盘涨12%，创历史新高。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-07T13:31:08.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146763"
+    },
+    {
+      "title": "周五美股盘前你需要了解的全球要闻",
+      "description": "爆冷！美国7月非农就业人数意外减少2.3万，前两月就业下修10.3万人。\n\n特朗普谈降息：希望利率下调，但这不完全取决于沃什一人。\n\n中国央行连续21个月增持黄金，7月购金力度提速。\n\n股市大涨拉动，日本GPIF一季度收益24.1 万亿日元创纪录。\n\n美国绕开欧洲央行售欧元撑日元，欧洲人感到“遭背叛”。\n\n380亿美元！SK海力士新建两座存储芯片工厂，产能将按客户需求逐步扩大。\n\n美国光模块龙头AAOI盘前涨超15%，公司预计产能两年扩张10倍，1.6T最快两周获大客户认证。\n\n苹果上调多款设备以旧换新回收价，幅度最高近30%。\n\n日经225指数收跌0.1%，沪指收涨1.02%，恒生指数收涨0.54%。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-07T13:04:38.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146757"
+    },
+    {
+      "title": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
+      "description": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业绩主要受到人工智能等技术发展带动芯片硬件需求增长的影响。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-07T12:38:03.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146737"
+    },
+    {
+      "title": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
+      "description": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于7月量产，正处于产能爬坡阶段。据了解，为保障iPhone新机量产进度，目前富士康正迎来招工高峰期。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-07T12:35:59.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3146736"
+    },
     {
       "title": "美股光通信板块盘前涨幅进一步扩大 Coherent涨超7%",
       "description": "【美股光通信板块盘前涨幅进一步扩大 Coherent涨超7%】财联社8月7日电，在美国7月非农就业人数“意外”减少2.3万人后，美股光通信板块盘前涨幅进一步扩大，Coherent涨超7%，康宁、Lumentum涨超5%，迈威尔科技、Credo涨超4%。",
@@ -1432,14 +1728,6 @@
       "link": "https://www.cls.cn/detail/2448783"
     },
     {
-      "title": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去",
-      "description": "瑞银近日上调金价预期至5000美元，认为多头买盘与避险情绪将持续支撑涨势。但美联储主席沃什正推行“去指引化”新政，令市场倍感波动。点击查看…",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T13:10:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
       "title": "Night session open: 中国's most-active futures co",
       "description": "Night session open: China's most-active futures contracts were mostly higher. Shanghai silver rose over 4% and Shanghai gold gained more than 2%. Ethylene glycol and stainless steel advanced over 1%; Shanghai nickel and tin up about 1%. Shanghai zinc and SC crude fell nearly 1%.",
       "guessedSector": "黄金",
@@ -1454,30 +1742,6 @@
       "pubDate": "2026-08-07T12:50:15.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title": "天津金融监管局答21记者：上半年助企出海资金同比增长超七成",
-      "description": "2026年以来，中国企业国际化正从“把货卖到全球”转向“在全球生产、运营、配置资源”，从“产品出海”迈向“品牌出海”与“生态出海”。商务部研究院发布的《中国对外投资趋势展望2026》指出，中国对外投资发展基础好、韧性强、优势多、潜能大，长期向好的支撑条件和基本趋势未变，企业国际化发展、多元化布局、本地化运营的趋势更加显著。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T12:19:15.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835423078.html"
-    },
-    {
-      "title": "上海“政府开放月”探营|从出海护航到数据确权，企业“走出去”有了全链条支撑",
-      "description": "8月7日，上海2026年“政府开放月”系列活动正式启幕，首场活动聚焦“科创、产业发展和企业出海”。《国际金融报》记者跟随媒体采访团，先后走进上海市企业走出去综合服务平台浦东分平台、上海数字出海服务基地（陆家嘴数智港）、上海市知识产权保护中心黄浦分中心，实地感受上海为企业出海和数据要素流通搭建的“全链条”服务体系。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T10:42:18.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835422990.html"
-    },
-    {
-      "title": "上海：上半年ODI投资额同比增长105% 越来越多企业从上海出海",
-      "description": "上证报中国证券网讯（记者宋薇萍）8月7日，在上海市“政府开放月”专访活动中，上海市商务委副主任何冬宾介绍了上海市建设走出去综合服务体系的相关情况。据披露，近年上半年，上海新设或并购境外项目近400个，备案投资金额同比增长105%，越来越多企业选择从上海出海。据统计，近十年，上海累计ODI（境外投资备案）出海项目近7000个，总投资超400亿美元。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T10:31:15.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608073835343185.html"
     },
     {
       "title": "7月末我国外储规模升至34188亿美元 连续4个月站稳3.4万亿美元",
@@ -1518,22 +1782,6 @@
       "pubDate": "2026-08-07T13:00:03.000Z",
       "source": "新浪财经",
       "link": ""
-    },
-    {
-      "title": "中巨芯：上半年归母净利润1405.77万元，同比增长72.75%",
-      "description": "中巨芯披露半年报，公司上半年实现营业收入7.99亿元，同比增长40.98%；归属于上市公司股东的净利润1405.77万元，同比增长72.75%。报告期内，公司业绩主要受到人工智能等技术发展带动芯片硬件需求增长的影响。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-07T12:38:03.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146737"
-    },
-    {
-      "title": "富士康加紧招工应对iPhone新机产能爬坡，生产旺季料持续至年底",
-      "description": "随着iPhone新机量产，代工组装厂商富士康正加紧招工应对产能爬坡，富士康部分厂区生产旺季预计持续至今年年底。\n\n7月下旬已有报道，苹果iPhone18系列已于7月量产，正处于产能爬坡阶段。据了解，为保障iPhone新机量产进度，目前富士康正迎来招工高峰期。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-07T12:35:59.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3146736"
     },
     {
       "title": "国际贵金属短线拉升 现货白银涨超5%",
@@ -1902,14 +2150,6 @@
       "pubDate": "2026-08-07T00:00:00.000Z",
       "source": "Gulf News",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQYXVDVHNTc2U0aFQ2STlPX1FvYk9wRk9NdjhsemFpSl9Ya3lxT0p3NGUxeHFVeVZtNm5PZUMxeVRuMnNodDVaOTVJQ25iVXZQNVhPYng0cDB2WnkydWhZNC0zTUlDYUsyU0dlRExmdWd6ZmcwOS1wMG9sckdXQVppV1Bkc19BaEJ5Xy11RUdOUVUwU3hXSTlvNTBNUjRhSXdaTm01Rk1yREowN3PSAb4BQVVfeXFMTUpLam5CbjJReVRpdkhWd3pyU3BXQ2NQcnkyaGIzTnp5dU1kUktQbjJfWWdyN1I0eG9lUkVmNXpuY2tYZnNFNjNRMlliTURaZzUyQ0FzWWVCWkJEcHVCQ1J1Y3hEbEowbkNYRmJ3T0ctV0tRRnpmVWdNbWpObW1acUtLV28wc1o4WktIcnFqN29CbDVNVUVPQlpHTkZkN2FaUXMzSjh2TG54U2JoNW5xdEhUZUNPXzltdzFPekdVQQ?oc=5"
-    },
-    {
-      "title": "Softbank 大涨s 14%, SK海力士 and 台积电 上涨 As Wall Street Rally Lifts Asian AI 股票 - Tekedia",
-      "description": "Softbank Jumps 14%, SK Hynix and TSMC Climb As Wall Street Rally Lifts Asian AI Stocks&nbsp;&nbsp; Tekedia",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-06T13:32:08.000Z",
-      "source": "Tekedia",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNZDU5cUFscVNLUC1RTENJbHE4MDE0Z3M5NEYyVGYtaXNLSzNTMWhoaUkzd19WUzRFZnpTemNOeVZQUmRXNURNblFSRURYMW9fc0VQc2IwZlN0aFFzVkJramtUY0JlcXNqX3gxT01vMVRITmx0dG5YZTZ6TVBwbDZKbUhtazF5cUFUZ19DSnBxalRta1dRc2FYVVpqZ0J2SkN3bDJPdVVmQWx6TmJ5OHc?oc=5"
     },
     {
       "title": "据港交所文件显示，摩根大通在中际旭创H股的持股比例于08月04日从13.48%升至15.02%。高盛对中际旭创的多头持仓比例于2026年8月4日从12.19%降至11.6%。",
@@ -2388,8 +2628,8 @@
       "datasets": [
         {
           "data": [
-            65,
-            20
+            67,
+            28
           ],
           "backgroundColor": [
             "#16a34a",
@@ -2421,28 +2661,28 @@
       ],
       "matrix": {
         "半导体": {
-          "极高": 5,
-          "高": 2,
-          "中": 10,
-          "低": 4
+          "极高": 6,
+          "高": 1,
+          "中": 11,
+          "低": 5
         },
         "光模块": {
           "极高": 0,
-          "高": 6,
+          "高": 7,
           "中": 0,
-          "低": 8
+          "低": 11
         },
         "创新药": {
           "极高": 2,
           "高": 5,
           "中": 0,
-          "低": 3
+          "低": 4
         },
         "黄金": {
           "极高": 0,
           "高": 35,
           "中": 0,
-          "低": 5
+          "低": 8
         }
       },
       "hasData": true
@@ -2458,8 +2698,8 @@
         {
           "label": "利好",
           "data": [
-            17,
-            6,
+            18,
+            7,
             7,
             35
           ],
@@ -2468,10 +2708,10 @@
         {
           "label": "中性",
           "data": [
+            5,
+            11,
             4,
-            8,
-            3,
-            5
+            8
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -2486,8 +2726,8 @@
       "datasets": [
         {
           "data": [
-            46,
-            39
+            48,
+            47
           ],
           "backgroundColor": [
             "#2563eb",
