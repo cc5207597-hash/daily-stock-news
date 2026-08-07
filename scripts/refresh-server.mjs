@@ -7,7 +7,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
 import { renderHTML, escHtml } from './build-daily.mjs';
-import { buildSentimentData, buildImpactHeatmap, buildDirectionChart } from '../pipeline/charts.mjs';
+import { buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData } from '../pipeline/charts.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -83,6 +83,7 @@ const server = http.createServer((req, res) => {
         sentiment: buildSentimentData(json.analyzed),
         heatmap: buildImpactHeatmap(json.analyzed),
         direction: buildDirectionChart(json.analyzed),
+        timeWindow: buildTimeWindowData(json.analyzed),
       };
       const html = renderHTML(json, displayDate, json.etfData || [], chartData);
       serveFile(res, 200, 'text/html; charset=utf-8', html);

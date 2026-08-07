@@ -15,7 +15,7 @@ import { formatTime, getTodayStr, getTodayDisplay } from '../pipeline/utils.mjs'
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, freshnessFilter } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
-import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
+import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
 
 // ── HTML 渲染 ──────────────────────────────────────────
 
@@ -76,7 +76,8 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
   // ── Chart panels ─────────────────────────────────────
   const hasCharts = chartData && (
     chartData.etfTrend?.hasData || chartData.sentiment?.hasData ||
-    chartData.heatmap?.hasData || chartData.direction?.hasData
+    chartData.heatmap?.hasData || chartData.direction?.hasData ||
+    chartData.timeWindow?.hasData
   );
 
   const chartPanels = hasCharts ? `
@@ -99,6 +100,10 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
   <div class="chart-card">
     <div class="chart-title">冲击热力图</div>
     <div class="chart-wrap"><canvas id="heatmapChart"></canvas></div>
+  </div>
+  <div class="chart-card">
+    <div class="chart-title">时间窗口分布</div>
+    <div class="chart-wrap chart-donut"><canvas id="timeWindowChart"></canvas></div>
   </div>
 </div>
 ` : '';
@@ -133,6 +138,21 @@ new Chart(document.getElementById('sentimentChart'), {
   data: {
     labels: ${JSON.stringify(chartData.sentiment.labels)},
     datasets: ${JSON.stringify(chartData.sentiment.datasets)},
+  },
+  options: {
+    responsive: true, maintainAspectRatio: false, cutout: '55%',
+    plugins: {
+      legend: { position: 'bottom', labels: { boxWidth: 8, padding: 10, font: { size: 10 }, usePointStyle: true } },
+    },
+  },
+});
+
+// Time window donut
+new Chart(document.getElementById('timeWindowChart'), {
+  type: 'doughnut',
+  data: {
+    labels: ${JSON.stringify(chartData.timeWindow.labels)},
+    datasets: ${JSON.stringify(chartData.timeWindow.datasets)},
   },
   options: {
     responsive: true, maintainAspectRatio: false, cutout: '55%',
@@ -644,6 +664,7 @@ async function main() {
     sentiment: buildSentimentData(result.analyzed),
     heatmap: buildImpactHeatmap(result.analyzed),
     direction: buildDirectionChart(result.analyzed),
+    timeWindow: buildTimeWindowData(result.analyzed),
   };
 
   const html = renderHTML(result, todayDisplay, etfData, chartData);

@@ -179,6 +179,26 @@ export function buildDirectionChart(analyzed) {
   };
 }
 
+// Build time-window (短期/中期/长期) donut chart data
+export function buildTimeWindowData(analyzed) {
+  const windows = ['短期', '中期', '长期'];
+  const counts = { '短期': 0, '中期': 0, '长期': 0 };
+  for (const n of analyzed) {
+    const w = n.time_window;
+    if (counts[w] !== undefined) counts[w]++;
+  }
+  const colors = { '短期': '#2563eb', '中期': '#ea580c', '长期': '#16a34a' };
+  return {
+    labels: windows.filter(w => counts[w] > 0),
+    datasets: [{
+      data: windows.filter(w => counts[w] > 0).map(w => counts[w]),
+      backgroundColor: windows.filter(w => counts[w] > 0).map(w => colors[w]),
+      borderWidth: 0,
+    }],
+    hasData: windows.some(w => counts[w] > 0),
+  };
+}
+
 // Fetch ~30 days of daily close prices for the representative ETF of each sector
 // from Sina K-line API, returning a history object in loadETFHistory's shape.
 export async function fetchETFHistoryKLine(days = 30) {
