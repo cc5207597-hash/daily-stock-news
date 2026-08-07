@@ -1,9 +1,19 @@
 // ── Pipeline: 配置 & 常量 ──────────────────────────────
 
+// GitHub Actions sets CI=true. Local runs (manual build / preview) don't.
+// On CI we talk directly to Anthropic; locally we go through the local proxy
+// because api.anthropic.com is not reachable from mainland China.
+const IS_CI = process.env.CI === 'true';
+const isLocal = !IS_CI;
+
 export const CONFIG = {
-  apiKey: 'PROXY_MANAGED',
-  apiBase: 'http://127.0.0.1:15721',
-  model: 'claude-sonnet-4-20250514',
+  isCi: IS_CI,
+
+  // Local: proxy at 127.0.0.1:15721 (ANTHROPIC_API_KEY is the placeholder the proxy accepts)
+  // CI: real key from GitHub Actions secrets, direct to api.anthropic.com
+  apiKey: IS_CI ? (process.env.ANTHROPIC_API_KEY || '') : 'PROXY_MANAGED',
+  apiBase: IS_CI ? 'https://api.anthropic.com' : 'http://127.0.0.1:15721',
+  model: IS_CI ? (process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514') : 'claude-sonnet-4-20250514',
 
   // Google News RSS feeds (blocked in mainland China, kept as fallback)
   feeds: [

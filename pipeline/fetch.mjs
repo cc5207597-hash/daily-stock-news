@@ -237,24 +237,54 @@ export const API_FETCHERS = {
 
 // ── 主抓取入口 ──────────────────────────────────────────
 
+// Probe RSS reachability (local mainland networks block Google News).
+// On CI (GitHub Actions, US host) RSS works fine and we keep all feeds.
+// Locally, if a quick probe can't reach Google News, skip all RSS to avoid
+// dozens of long timeouts — the 6 direct Chinese APIs carry the report.
+async function probeRSSAvailable(allFeeds) {
+  if (CONFIG.isCi) return true;
+  const probes = allFeeds.slice(0, 3);
+  try {
+    const results = await Promise.all(probes.map(async (feed) => {
+      const controller = new AbortController();
+      const t = setTimeout(() => controller.abort(), 3000);
+      try {
+        const resp = await fetch(feed.url, { signal: controller.signal });
+        return resp.ok;
+      } catch { return false; } finally { clearTimeout(t); }
+    }));
+    const ok = results.filter(Boolean).length;
+    if (ok === 0) {
+      console.log(`  📡 RSS 探测失败（${probes.length}/3 不可达），本地模式跳过全部 Google RSS，仅使用国内直连 API`);
+      return false;
+    }
+    return true;
+  } catch {
+    return true; // probe itself failed — fall through to normal RSS fetching
+  }
+}
+
 export async function fetchAllNews() {
   const allItems = [];
   const allFeeds = [...CONFIG.feeds, ...(CONFIG.extraFeeds || [])];
 
-  // 1. Google News RSS (batched by 8)
-  console.log('\n📡 拉取 Google News RSS (并行)...');
-  const BATCH = 8;
-  for (let b = 0; b < allFeeds.length; b += BATCH) {
-    const batch = allFeeds.slice(b, b + BATCH);
-    await Promise.allSettled(
-      batch.map((feed, j) => fetchGoogleNewsRSS(feed).then(items => {
-        console.log(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} → ${items.length} 条`);
-        allItems.push(...items);
-      }).catch(err => {
-        console.warn(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} ⚠ ${err.message}`);
-      }))
-    );
-    if (b + BATCH < allFeeds.length) await sleep(800);
+  // 1. Google News RSS (batched by 8) — skipped entirely when unreachable locally
+  const rssAvailable = await probeRSSAvailable(allFeeds);
+  if (rssAvailable) {
+    console.log('\n📡 拉取 Google News RSS (并行)...');
+    const BATCH = 8;
+    for (let b = 0; b < allFeeds.length; b += BATCH) {
+      const batch = allFeeds.slice(b, b + BATCH);
+      await Promise.allSettled(
+        batch.map((feed, j) => fetchGoogleNewsRSS(feed).then(items => {
+          console.log(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} → ${items.length} 条`);
+          allItems.push(...items);
+        }).catch(err => {
+          console.warn(`  [${b + j + 1}/${allFeeds.length}] ${feed.name} ⚠ ${err.message}`);
+        }))
+      );
+      if (b + BATCH < allFeeds.length) await sleep(800);
+    }
   }
 
   // 2. Direct API sources in parallel
