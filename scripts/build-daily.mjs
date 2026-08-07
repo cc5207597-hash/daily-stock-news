@@ -84,7 +84,7 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
 <div class="chart-grid">
   ${chartData.etfTrend.hasData ? `
   <div class="chart-card wide-chart">
-    <div class="chart-title">板块 ETF 价格走势 (30日)</div>
+    <div class="chart-title">板块 ETF 走势对比（首日=100，30日）</div>
     <div class="chart-wrap"><canvas id="etfTrendChart"></canvas></div>
   </div>
   ` : ''}
@@ -122,7 +122,7 @@ new Chart(document.getElementById('etfTrendChart'), {
     },
     scales: {
       x: { ticks: { font: { size: 9 }, maxTicksLimit: 8, maxRotation: 45 }, grid: { display: false } },
-      y: { ticks: { font: { size: 9 } }, grid: { color: '#f0f0f0' } },
+      y: { ticks: { font: { size: 9 } }, grid: { color: '#f0f0f0' }, title: { display: true, text: '指数 (首日=100)', font: { size: 9 } } },
     },
   },
 });

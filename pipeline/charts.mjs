@@ -76,11 +76,19 @@ export function accumulateETF(history, etfData, maxDays = 60) {
   return history;
 }
 
+// Normalize a series to a base-100 index so sectors with very different
+// absolute prices (gold ~9 vs semiconductor ~1.1) share one readable y-axis.
+export function normalizeSeries(prices) {
+  const first = (prices || []).find(v => v !== null && v !== undefined);
+  if (!first) return (prices || []).map(() => null);
+  return prices.map(p => (p !== null && p !== undefined) ? parseFloat((p / first * 100).toFixed(2)) : null);
+}
+
 // Build Chart.js datasets for the ETF price trend chart
 export function buildETFChartData(history) {
   const datasets = Object.keys(SECTOR_ETF).map(sector => ({
     label: sector,
-    data: history.prices[sector] || [],
+    data: normalizeSeries(history.prices[sector]),
     borderColor: SECTOR_COLORS[sector],
     backgroundColor: SECTOR_COLORS[sector] + '22',
     borderWidth: 2,
