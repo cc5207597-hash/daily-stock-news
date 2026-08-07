@@ -51,10 +51,10 @@ flowchart LR
 |------|----------|
 | 运行时 | Node.js (ESM `.mjs`, zero dependencies) |
 | 数据抓取 | `fetch` API (原生 HTTP), 正则解析 XML/JSON/JS |
-| AI 分析 | Claude API (via `http://127.0.0.1:15721` 本地代理) |
+| AI 分析 | Claude API 或本地关键词引擎兜底 (无需密钥) |
 | 渲染 | 纯字符串拼接 HTML, 内联 CSS + 原生 JS |
 | 图表 | Chart.js 4.4 (CDN), 无构建时依赖 |
-| 定时调度 | GitHub Actions (`cron: 0 1 * * *`, 北京时间 9:00) |
+| 定时调度 | GitHub Actions (`cron: 0 1 * * *`, 北京时间 9:00, 每天含周末) |
 | 部署 | `peaceiris/actions-gh-pages@v4` → GitHub Pages |
 | 推送通知 | Server酱3 (微信消息推送) |
 | 本地服务 | 原生 `http` 模块, 端口 `3456` |

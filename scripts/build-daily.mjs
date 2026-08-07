@@ -423,7 +423,7 @@ new Chart(document.getElementById('heatmapChart'), {
   <div class="badge-row">
     <span class="chip ${isAi ? 'chip-ai' : 'chip'}">${isAi ? 'AI 分析' : '关键词引擎'}</span>
     ${isAi ? '<span class="chip chip-ai">中文翻译</span>' : ''}
-    <span class="chip">每交易日更新</span>
+    <span class="chip">每天更新（含周末）</span>
   </div>
   <div class="disclaimer">免责声明：基于公开信息自动整理，不构成投资建议。股市有风险，投资需谨慎。</div>
   <button class="refresh-btn" onclick="triggerRefresh()" title="手动刷新日报">🔄 刷新日报</button>
