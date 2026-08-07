@@ -70,13 +70,16 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
     ].join('\n');
   }).join('\n');
 
-  // ── Full news list (all news of the day, grouped by sector, newest first) ──
+  // ── Full news list (all news of the day, grouped by sector, chronological) ──
+  // Sorted oldest→newest so the morning's news is at the TOP of each group —
+  // newest-first would bury the 08:00–12:00 items at the bottom where they look
+  // missing. The headline cards above keep newest-first for a news-feed feel.
   const SECTORS_ORDER = ['半导体', '光模块', '创新药', '黄金'];
   const fullNewsList = Array.isArray(fullNews) ? fullNews : [];
   const fullNewsGroups = SECTORS_ORDER.map((sector) => {
     const items = fullNewsList
       .filter(n => n.guessedSector === sector)
-      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+      .sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
     if (items.length === 0) return '';
     const itemsHTML = items.map((n) => {
       const pubDate = n.pubDate instanceof Date ? n.pubDate : new Date(n.pubDate);
@@ -108,7 +111,7 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
   }).filter(Boolean).join('\n');
 
   const fullNewsSection = fullNewsGroups ? `
-<div class="sec-title">📰 当日全部新闻 <span class="fn-total">${fullNewsList.length} 条 · 按板块分组 · 时间从近到远</span></div>
+<div class="sec-title">📰 当日全部新闻 <span class="fn-total">${fullNewsList.length} 条 · 按板块分组 · 时间从早到晚</span></div>
 <div class="fn-wrap">${fullNewsGroups}</div>
 ` : '';
 
