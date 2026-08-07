@@ -19,13 +19,34 @@ const CANDIDATES = [
 
 let healthyIdx = 0;
 
-function connectUp() {
+// 逐个尝试候选 IP，直到有一个成功。GitHub IP 轮换频繁，单个 IP 可能瞬时
+// 失效，因此每次 CONNECT 都按 healthyIdx 起步、顺序尝试整个列表。
+function connectUp(startIdx = healthyIdx) {
   return new Promise((resolve, reject) => {
-    const idx = healthyIdx;
-    const sock = net.connect({ host: CANDIDATES[idx], port: 443, timeout: 6000 });
-    sock.on('connect', () => { sock.removeAllListeners('timeout'); healthyIdx = idx; resolve(sock); });
-    sock.on('timeout', () => { sock.destroy(); reject(new Error(`timeout ${CANDIDATES[idx]}`)); });
-    sock.on('error', (e) => { reject(new Error(`${e.message} ${CANDIDATES[idx]}`)); });
+    let i = startIdx;
+    const attempts = [];
+    const tryNext = () => {
+      if (i >= CANDIDATES.length) {
+        reject(new Error(`all candidates failed: ${attempts.join(', ')}`));
+        return;
+      }
+      const ip = CANDIDATES[i];
+      const sock = net.connect({ host: ip, port: 443, timeout: 5000 });
+      const fail = (e) => {
+        attempts.push(`${ip}:${e.message}`);
+        sock.destroy();
+        i++;
+        tryNext();
+      };
+      sock.on('connect', () => {
+        sock.removeAllListeners('timeout');
+        healthyIdx = i;
+        resolve(sock);
+      });
+      sock.on('timeout', () => fail(new Error('timeout')));
+      sock.on('error', (e) => fail(e));
+    };
+    tryNext();
   });
 }
 
