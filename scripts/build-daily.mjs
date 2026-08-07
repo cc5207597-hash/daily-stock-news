@@ -718,16 +718,26 @@ export function mergeWithHistory(freshItems, historyPayload) {
   if (archived.length === 0) return freshItems;
 
   const merged = [];
-  const seen = new Map();
+  const seen = new Map();        // title dedup key → item
+  const seenLinks = new Map();   // article link → item
+
   for (const item of freshItems) {
     const key = dedupKey(item.title);
-    if (key) seen.set(key, item);
+    if (key && !seen.has(key)) seen.set(key, item);
+    if (item.link && !seenLinks.has(item.link)) seenLinks.set(item.link, item);
     merged.push(item);
   }
   for (const a of archived) {
     const key = dedupKey(a.title);
-    if (!key || !seen.has(key)) {
-      seen.set(key, a);
+    const linkKey = a.link || '';
+    // A story already seen via its title OR its link is a duplicate. The link
+    // check catches cross-language dupes: the freshly-fetched RSS item carries
+    // the English original while the archive stored the translated title_cn,
+    // so their title keys differ even though both point at the same article.
+    const dup = (key && seen.has(key)) || (linkKey && seenLinks.has(linkKey));
+    if (!dup) {
+      if (key) seen.set(key, a);
+      if (linkKey) seenLinks.set(linkKey, a);
       merged.push(a);
     }
   }
