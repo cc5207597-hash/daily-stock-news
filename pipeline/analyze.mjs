@@ -469,6 +469,13 @@ export async function analyzeWithKeywords(newsItems) {
   }
   const topNews = [...analyzed].sort((a, b) => {
     const ia = { '极高': 0, '高': 1, '中': 2, '低': 3 };
+    // Prefer fully-Chinese headlines in the digest; English/Korean leftovers
+    // (proxy/API down, local-dict partial translation) only surface if nothing
+    // better exists.
+    const isFullyCn = (s) => HAN_RE.test(s || '') && !/[a-zA-Z]{2,}/.test(s || '');
+    const aCn = isFullyCn(a.title_cn) ? 0 : 1;
+    const bCn = isFullyCn(b.title_cn) ? 0 : 1;
+    if (aCn !== bCn) return aCn - bCn;
     return (ia[a.impact] || 9) - (ia[b.impact] || 9);
   }).slice(0, 3);
   if (topNews.length > 0) {
