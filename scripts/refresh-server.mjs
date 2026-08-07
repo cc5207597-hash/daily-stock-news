@@ -6,15 +6,26 @@ import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
-import { renderHTML, escHtml } from './build-daily.mjs';
-import { buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData } from '../pipeline/charts.mjs';
+import { renderHTML } from './build-daily.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const INDEX = join(ROOT, 'index.html');
-const OUTPUT_DIR = join(ROOT, 'output');
 const HISTORY_DIR = join(ROOT, 'history');
 const PORT = 3456;
+
+const MIME = {
+  'js': 'application/javascript; charset=utf-8',
+  'css': 'text/css; charset=utf-8',
+  'html': 'text/html; charset=utf-8',
+  'json': 'application/json; charset=utf-8',
+  'png': 'image/png',
+  'jpg': 'image/jpeg',
+  'svg': 'image/svg+xml',
+};
+function mimeOf(path) {
+  return MIME[path.split('.').pop()] || 'application/octet-stream';
+}
 
 let lastStatus = { state: 'idle', time: null, error: null };
 
@@ -35,33 +46,15 @@ const server = http.createServer((req, res) => {
   if (req.method === 'GET' && req.url.startsWith('/assets/')) {
     const filePath = join(ROOT, req.url.split('?')[0]);
     if (filePath.startsWith(join(ROOT, 'assets')) && existsSync(filePath)) {
-      const ext = filePath.split('.').pop();
-      const mime = { 'js': 'application/javascript; charset=utf-8', 'css': 'text/css; charset=utf-8', 'html': 'text/html; charset=utf-8', 'png': 'image/png', 'jpg': 'image/jpeg', 'svg': 'image/svg+xml', 'json': 'application/json; charset=utf-8' }[ext] || 'application/octet-stream';
-      serveFile(res, 200, mime, readFileSync(filePath));
+      serveFile(res, 200, mimeOf(filePath), readFileSync(filePath));
     } else {
       serveFile(res, 404, 'text/plain', 'Not found');
     }
     return;
   }
 
-  // Serve static history files (dates.json, 日报_YYYYMMDD.json/.html) — same
-  // layout as the gh-pages deployment, so local preview and live behave alike.
-  if (req.method === 'GET' && req.url.startsWith('/history/')) {
-    const rel = req.url.split('?')[0].replace(/^\/history\//, '');
-    if (rel && !rel.includes('..')) {
-      const filePath = join(HISTORY_DIR, rel);
-      if (existsSync(filePath)) {
-        const ext = rel.split('.').pop();
-        const mime = { 'js': 'application/javascript; charset=utf-8', 'css': 'text/css; charset=utf-8', 'html': 'text/html; charset=utf-8', 'json': 'application/json; charset=utf-8', 'png': 'image/png', 'jpg': 'image/jpeg', 'svg': 'image/svg+xml' }[ext] || 'application/octet-stream';
-        serveFile(res, 200, mime, readFileSync(filePath));
-        return;
-      }
-    }
-    serveFile(res, 404, 'text/plain', 'Not found');
-    return;
-  }
-
-  // List available history dates
+  // List available history dates — must precede the /history/ prefix route,
+  // which would otherwise shadow this exact match.
   if (req.method === 'GET' && req.url === '/history/dates') {
     let dates = [];
     if (existsSync(HISTORY_DIR)) {
@@ -77,6 +70,22 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Serve static history files (dates.json, 日报_YYYYMMDD.json/.html) — same
+  // layout as the gh-pages deployment, so local preview and live behave alike.
+  if (req.method === 'GET' && req.url.startsWith('/history/')) {
+    // Filenames are Chinese (日报_20260807.html); browsers percent-encode them.
+    const rel = decodeURIComponent(req.url.split('?')[0].replace(/^\/history\//, ''));
+    if (rel && !rel.includes('..')) {
+      const filePath = join(HISTORY_DIR, rel);
+      if (existsSync(filePath)) {
+        serveFile(res, 200, mimeOf(filePath), readFileSync(filePath));
+        return;
+      }
+    }
+    serveFile(res, 404, 'text/plain', 'Not found');
+    return;
+  }
+
   // Serve historical report as HTML
   if (req.method === 'GET' && req.url.startsWith('/history?date=')) {
     const urlObj = new URL(req.url, `http://${req.headers.host}`);
@@ -85,7 +94,7 @@ const server = http.createServer((req, res) => {
       serveFile(res, 400, 'application/json', JSON.stringify({ error: 'Invalid date format, use YYYYMMDD' }));
       return;
     }
-    const jsonPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.json`);
+    const jsonPath = join(HISTORY_DIR, `日报_${dateStr}.json`);
     if (!existsSync(jsonPath)) {
       serveFile(res, 404, 'text/plain', '该日期无数据');
       return;
@@ -95,14 +104,8 @@ const server = http.createServer((req, res) => {
       // Convert ISO date strings back to Date objects
       json.analyzed = (json.analyzed || []).map(n => ({ ...n, pubDate: new Date(n.pubDate) }));
       const displayDate = json.displayDate || `${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`;
-      // Restore chart data — prefer the saved payload, fall back to recomputing
-      const chartData = json.chartData || {
-        etfTrend: { dates: [], datasets: [], hasData: false },
-        sentiment: buildSentimentData(json.analyzed),
-        heatmap: buildImpactHeatmap(json.analyzed),
-        direction: buildDirectionChart(json.analyzed),
-        timeWindow: buildTimeWindowData(json.analyzed),
-      };
+      // The archived payload embeds chartData, so no recompute fallback is needed.
+      const chartData = json.chartData || { etfTrend: { dates: [], datasets: [], hasData: false }, sentiment: { hasData: false }, heatmap: { hasData: false }, direction: { hasData: false }, timeWindow: { hasData: false } };
       const html = renderHTML(json, displayDate, json.etfData || [], chartData);
       serveFile(res, 200, 'text/html; charset=utf-8', html);
     } catch (err) {

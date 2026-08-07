@@ -1,6 +1,7 @@
 // ── Pipeline: 图表数据准备 ─────────────────────────────
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
+import { SECTORS, SECTOR_COLORS } from './sectors.mjs';
 
 // Pick representative ETF per sector
 const SECTOR_ETF = {
@@ -8,13 +9,6 @@ const SECTOR_ETF = {
   '光模块': '515050',
   '创新药': '515120',
   '黄金': '518880',
-};
-
-const SECTOR_COLORS = {
-  '半导体': '#7c3aed',
-  '光模块': '#0891b2',
-  '创新药': '#0d9488',
-  '黄金': '#d97706',
 };
 
 const SECTOR_PALETTE = [
@@ -126,11 +120,10 @@ export function buildSentimentData(analyzed) {
 
 // Build sector impact heatmap data
 export function buildImpactHeatmap(analyzed) {
-  const sectors = ['半导体', '光模块', '创新药', '黄金'];
   const impacts = ['极高', '高', '中', '低'];
   const matrix = {};
 
-  for (const s of sectors) {
+  for (const s of SECTORS) {
     matrix[s] = { '极高': 0, '高': 0, '中': 0, '低': 0 };
   }
 
@@ -143,7 +136,7 @@ export function buildImpactHeatmap(analyzed) {
   }
 
   return {
-    sectors,
+    sectors: SECTORS,
     impacts: [...impacts].reverse(),
     matrix,
     hasData: analyzed.length > 0,
@@ -152,11 +145,10 @@ export function buildImpactHeatmap(analyzed) {
 
 // Build sector direction stacked bar data
 export function buildDirectionChart(analyzed) {
-  const sectors = ['半导体', '光模块', '创新药', '黄金'];
   const directions = ['利好', '利空', '中性', '分化'];
   const counts = {};
 
-  for (const s of sectors) {
+  for (const s of SECTORS) {
     counts[s] = { '利好': 0, '利空': 0, '中性': 0, '分化': 0 };
   }
 
@@ -169,13 +161,13 @@ export function buildDirectionChart(analyzed) {
   }
 
   return {
-    sectors,
-    datasets: directions.filter(d => sectors.some(s => counts[s][d] > 0)).map(d => ({
+    sectors: SECTORS,
+    datasets: directions.filter(d => SECTORS.some(s => counts[s][d] > 0)).map(d => ({
       label: d,
-      data: sectors.map(s => counts[s][d]),
+      data: SECTORS.map(s => counts[s][d]),
       backgroundColor: d === '利好' ? '#16a34a' : d === '利空' ? '#dc2626' : d === '中性' ? '#9ca0af' : '#ea580c',
     })),
-    hasData: sectors.some(s => Object.values(counts[s]).reduce((a, b) => a + b, 0) > 0),
+    hasData: SECTORS.some(s => Object.values(counts[s]).reduce((a, b) => a + b, 0) > 0),
   };
 }
 

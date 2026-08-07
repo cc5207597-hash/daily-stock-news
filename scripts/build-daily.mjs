@@ -18,6 +18,7 @@ import { formatTime, getTodayStr, getTodayDisplay } from '../pipeline/utils.mjs'
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, dedupKey, freshnessFilter } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
+import { SECTORS, CATEGORY_CLS, IMPACT_RANK, impactCompare } from '../pipeline/sectors.mjs';
 import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
 
 // ── HTML 渲染 ──────────────────────────────────────────
@@ -42,7 +43,7 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
     return [
       `<div class="news-card" onclick="this.classList.toggle('expanded')">`,
       `<div class="card-left">`,
-      `<div class="card-cat cat-${n.category === '半导体' ? 'semi' : n.category === '光模块' ? 'optics' : n.category === '创新药' ? 'pharma' : n.category === '黄金' ? 'gold' : 'other'}">${escHtml(n.category || '综合')}</div>`,
+      `<div class="card-cat cat-${CATEGORY_CLS[n.category] || 'other'}">${escHtml(n.category || '综合')}</div>`,
       fresh ? `<div class="fresh-badge">新</div>` : '',
       `</div>`,
       `<div class="card-right">`,
@@ -74,9 +75,8 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
   // Sorted oldest→newest so the morning's news is at the TOP of each group —
   // newest-first would bury the 08:00–12:00 items at the bottom where they look
   // missing. The headline cards above keep newest-first for a news-feed feel.
-  const SECTORS_ORDER = ['半导体', '光模块', '创新药', '黄金'];
   const fullNewsList = Array.isArray(fullNews) ? fullNews : [];
-  const fullNewsGroups = SECTORS_ORDER.map((sector) => {
+  const fullNewsGroups = SECTORS.map((sector) => {
     const items = fullNewsList
       .filter(n => n.guessedSector === sector)
       .sort((a, b) => new Date(a.pubDate) - new Date(b.pubDate));
@@ -448,10 +448,10 @@ new Chart(document.getElementById('heatmapChart'), {
 ${etfData.length > 0 ? `
 <div class="sec-title">📈 板块 ETF 指标</div>
 <div class="etf-grid">
-${['半导体','光模块','创新药','黄金'].map(cat => {
+${SECTORS.map(cat => {
   const items = etfData.filter(e => e.category === cat);
   if (!items.length) return '';
-  const catClass = cat === '半导体' ? 'semi' : cat === '光模块' ? 'optics' : cat === '创新药' ? 'pharma' : 'gold';
+  const catClass = CATEGORY_CLS[cat] || 'other';
   return '<div class="etf-group">' +
     '<div class="etf-group-name cat-' + catClass + '">' + cat + '</div>' +
     items.map(e => {
@@ -622,10 +622,9 @@ async function sendNotification(result, etfData, dateStr) {
   const bear = analyzed.filter(n => (n.direction || '').includes('利空')).length;
   const vhigh = analyzed.filter(n => n.impact === '极高').length;
 
-  const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
-  const top3 = [...analyzed].sort((a, b) => (impactRank[a.impact] || 9) - (impactRank[b.impact] || 9)).slice(0, 3);
+  const top3 = [...analyzed].sort(impactCompare).slice(0, 3);
 
-  const etfLines = ['半导体', '光模块', '创新药', '黄金'].map(cat => {
+  const etfLines = SECTORS.map(cat => {
     const items = etfData.filter(e => e.category === cat);
     if (!items.length) return '';
     const avg = items.reduce((s, e) => s + e.change, 0) / items.length;
@@ -844,7 +843,6 @@ async function main() {
   // it), and an empty sector looks like a broken report. Pull the newest item of
   // the missing sector from the *pre-freshness* pool (deduped), which still holds
   // everything classified into a sector regardless of the 24h window.
-  const SECTORS = ['半导体', '光模块', '创新药', '黄金'];
   const present = new Set((result.analyzed || []).map(n => n.category));
   const backfillPool = deduped.filter(n => SECTORS.includes(n.guessedSector));
   const backfilled = [];
@@ -882,13 +880,10 @@ async function main() {
   if (backfilled.length > 0) console.log(`  🔧 板块兜底补齐: ${backfilled.join(', ')}`);
 
   // 4. Sort by date (newest first), then by impact
-  const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
   result.analyzed.sort((a, b) => {
     const db = new Date(b.pubDate) - new Date(a.pubDate);
     if (Math.abs(db) > 3600000) return db;
-    const ia = impactRank[a.impact] || 9;
-    const ib = impactRank[b.impact] || 9;
-    return ia - ib;
+    return (IMPACT_RANK[a.impact] ?? 9) - (IMPACT_RANK[b.impact] ?? 9);
   });
 
   // 5. Render HTML

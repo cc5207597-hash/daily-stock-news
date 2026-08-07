@@ -1,6 +1,7 @@
 // ── Pipeline: 清洗、去重与板块分类 ──────────────────────
 
 import { CONFIG, SECTOR_KEYWORDS, SECTOR_CORE_KEYWORDS } from './config.mjs';
+import { SECTORS, matchKw } from './sectors.mjs';
 
 // Regexes that identify "noise" headlines that should never enter the report:
 // aggregate digests ("1. X. 2. Y."), calendar/forecast listings, pure quotes
@@ -95,7 +96,6 @@ export function dedupAndClean(allItems) {
   });
 
   // Drop items unrelated to the four sectors
-  const SECTORS = ['半导体', '光模块', '创新药', '黄金'];
   const dropped = kept.filter(item => !SECTORS.includes(item.guessedSector));
   const filtered = kept.filter(item => SECTORS.includes(item.guessedSector));
   if (dropped.length > 0) {
@@ -119,18 +119,6 @@ export function freshnessFilter(deduped) {
   console.log(`  去重后 ${deduped.length} 条，24小时内 ${recent.length} 条`);
 
   return recent;
-}
-
-// Title hits count triple; description hits count once. Weighting the title
-// keeps the classification anchored on what the headline actually says.
-// Short Latin keywords (CRO, ADC, mRNA, DRAM, GPU...) must match on word
-// boundaries — a bare substring would let 'CRO' match inside "Semiconductor".
-function matchKw(text, kw) {
-  if (/^[a-z0-9+./#& -]+$/i.test(kw) && kw.length <= 8) {
-    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(text);
-  }
-  return text.includes(kw);
 }
 
 function classifyItem(title, description) {

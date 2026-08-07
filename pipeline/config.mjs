@@ -4,7 +4,6 @@
 // On CI we talk directly to Anthropic; locally we go through the local proxy
 // because api.anthropic.com is not reachable from mainland China.
 const IS_CI = process.env.CI === 'true';
-const isLocal = !IS_CI;
 
 export const CONFIG = {
   isCi: IS_CI,
@@ -64,10 +63,6 @@ export const CONFIG = {
     { url: 'https://news.google.com/rss/search?q=semiconductor+chip+TSMC+Samsung+SK+hynix+supply+chain&hl=en-US&gl=US&ceid=US:en&sites=nikkei', name: 'Nikkei-亚洲供应链' },
   ],
 
-  maxAgeSeconds: 4 * 24 * 3600,
-  maxNewsCount: 80,
-
-  // Direct financial API sources
   apiSources: [
     { name: '财联社', url: 'https://www.cls.cn/api/cache?app=CailianpressWeb&name=telegraph&os=web&sv=8.7.9', enabled: true },
     { name: '金十数据', url: 'https://www.jin10.com/flash_newest.js', enabled: true },

@@ -1,6 +1,8 @@
 // ── Pipeline: AI 分析与关键词引擎 ───────────────────────
 
 import { CONFIG, KEYWORD_RULES } from './config.mjs';
+import { dedupKey } from './clean.mjs';
+import { SECTORS, IMPACT_RANK, matchKw, impactCompare } from './sectors.mjs';
 
 // Match AI-consolidated brief to its most recent source news pubDate
 // Returns { date, link } so each brief keeps the source article's real
@@ -92,7 +94,9 @@ const LOCAL_DICT = [
   [/fall/gi, '下跌'], [/rise/gi, '上涨'], [/China/gi, '中国'], [/South Korea|Korea/gi, '韩国'],
   [/Japan/gi, '日本'], [/company/gi, '公司'], [/industry/gi, '行业'], [/sector/gi, '板块'],
   [/stock market/gi, '股市'], [/trading/gi, '交易'], [/artificial intelligence/gi, '人工智能'],
-  [/AI/gi, 'AI'],
+  // Standalone token only — a bare /ai/ would uppercase the substring inside
+  // words like "Shanghai"→"ShanghAI" or "gained"→"gAIned".
+  [/\bAI\b/gi, 'AI'],
   // Korean finance terms (Hangul headlines from KR feeds)
   [/삼성전자/gi, '三星电子'], [/SK하이닉스/gi, 'SK海力士'], [/엔비디아/gi, '英伟达'], [/인텔/gi, '英特尔'],
   [/반도체/gi, '半导体'], [/서버/gi, '服务器'], [/시장/gi, '市场'], [/핵심/gi, '核心'], [/요동/gi, '震荡'],
@@ -111,16 +115,8 @@ export function translateWithLocalDict(text) {
   return out;
 }
 
-// Word-boundary match for short Latin keywords (CRO, ADC, mRNA, DRAM, GPU...).
-// A bare substring would let 'CRO' match inside "Semiconductor"; this requires
-// the keyword to be surrounded by non-alphanumeric characters.
-function matchKw(text, kw) {
-  if (/^[a-z0-9+./#& -]+$/i.test(kw) && kw.length <= 8) {
-    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(text);
-  }
-  return text.includes(kw);
-}
+// Word-boundary matching for short Latin keywords lives in sectors.mjs (matchKw).
+// (Local duplicate removed in favor of the shared import.)
 
 // Batch-translate non-Chinese titles/descriptions via the Claude proxy.
 // Returns a copy of newsItems with title_cn / summary_cn set.
@@ -358,7 +354,7 @@ function dedupTranslated(items) {
   const out = [];
   for (const item of items) {
     const t = item.title_cn || item.title || '';
-    const key = t.toLowerCase().replace(/[^a-z0-9一-鿿]/g, '').substring(0, 50);
+    const key = dedupKey(t);
     if (!key) { out.push(item); continue; }
     if (seen.has(key)) {
       console.log(`  翻译后去重: ${t.substring(0, 45)}`);
@@ -432,7 +428,7 @@ export async function analyzeWithKeywords(newsItems) {
       tickers: rule.tickers || '—',
       notes: '关键词引擎自动评级，非AI分析',
     };
-  }).filter(n => ['半导体', '光模块', '创新药', '黄金'].includes(n.category));
+  }).filter(n => SECTORS.includes(n.category));
 
   const secMap = {
     '半导体': { name: '半导体', shock: '中', direction: '分化', news_count: 0, summary: '', tickers: '' },
@@ -453,11 +449,10 @@ export async function analyzeWithKeywords(newsItems) {
   }
 
   // Fill matrix summary + tickers from each sector's highest-impact news
-  const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
   for (const cat of Object.keys(secMap)) {
     const items = secItems[cat];
     if (items.length === 0) continue;
-    const sorted = [...items].sort((a, b) => (impactRank[a.impact] ?? 9) - (impactRank[b.impact] ?? 9));
+    const sorted = [...items].sort(impactCompare);
     const top = sorted[0];
     const topTitle = String(top.title_cn || '');
     const topSummary = (top.summary_cn || '').substring(0, 40);
@@ -490,7 +485,6 @@ export async function analyzeWithKeywords(newsItems) {
     points.push(`板块概况：${matrix.map(s => `${s.name}(${s.direction}, ${s.shock}冲击, ${s.news_count}条)`).join('、')}。`);
   }
   const topNews = [...analyzed].sort((a, b) => {
-    const ia = { '极高': 0, '高': 1, '中': 2, '低': 3 };
     // Prefer fully-Chinese headlines in the digest; English/Korean leftovers
     // (proxy/API down, local-dict partial translation) only surface if nothing
     // better exists.
@@ -498,7 +492,7 @@ export async function analyzeWithKeywords(newsItems) {
     const aCn = isFullyCn(a.title_cn) ? 0 : 1;
     const bCn = isFullyCn(b.title_cn) ? 0 : 1;
     if (aCn !== bCn) return aCn - bCn;
-    return (ia[a.impact] || 9) - (ia[b.impact] || 9);
+    return (IMPACT_RANK[a.impact] ?? 9) - (IMPACT_RANK[b.impact] ?? 9);
   }).slice(0, 3);
   if (topNews.length > 0) {
     points.push(`重点关注：${topNews.map(n => n.title_cn).join('；')}。`);
