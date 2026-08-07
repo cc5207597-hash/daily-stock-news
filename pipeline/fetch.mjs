@@ -2,7 +2,7 @@
 // Fetches from 5 direct Chinese financial APIs + 43 Google News RSS feeds + 12 ETF quotes
 
 import { CONFIG, ETFS } from './config.mjs';
-import { sleep, htmlToText, stripCDATA } from './utils.mjs';
+import { sleep, htmlToText, stripCDATA, parseBeijingTime } from './utils.mjs';
 
 // ── ETF 实时行情 (新浪财经) ──────────────────────────────
 
@@ -124,7 +124,7 @@ export async function fetchEastMoneyNews(source) {
       title: (item.title || item.name || '').trim(),
       description: (item.digest || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.url || item.uniqueUrl || '',
-      pubDate: new Date(item.pub_time || item.showTime || item.time || Date.now()),
+      pubDate: parseBeijingTime(item.pub_time || item.showTime || item.time),
       source: source.name,
     })).filter(n => n.title);
   } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
@@ -154,7 +154,8 @@ export async function fetchJin10News(source) {
         title,
         description: content.substring(0, 600),
         link: data.source_link || '',
-        pubDate: new Date(item.time || Date.now()),
+        // Jin10's item.time is a Beijing-time wall-clock string ("YYYY-MM-DD HH:mm:ss")
+        pubDate: parseBeijingTime(item.time),
         source: source.name,
       };
     }).filter(n => n.title);
@@ -174,9 +175,9 @@ export async function fetchSinaNews(source) {
       title: (item.rich_text || item.title || '').replace(/<[^>]+>/g, '').trim(),
       description: (item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.docurl || item.link || '',
-      // Sina's create_time is a string like "2026-08-07 16:25:41" (local time),
-      // not a Unix timestamp — parsing the string directly avoids NaN → invalid date.
-      pubDate: new Date(item.create_time || Date.now()),
+      // Sina's create_time is a "YYYY-MM-DD HH:mm:ss" string in Beijing time —
+      // parse it as such (fixed UTC+8) so CI's UTC container doesn't shift it +8h.
+      pubDate: parseBeijingTime(item.create_time),
       source: source.name,
     })).filter(n => n.title);
   } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }

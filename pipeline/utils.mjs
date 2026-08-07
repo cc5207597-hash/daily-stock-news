@@ -36,6 +36,19 @@ export function formatTime(date) {
   return `${m}-${day} ${hh}:${mm}`;
 }
 
+// Parse a "YYYY-MM-DD HH:mm:ss" string that a source publishes in Beijing time as
+// an absolute instant. new Date(str) interprets it in the *host's* local timezone
+// — on CI (UTC container) that shifts every headline +8h into "the future", while
+// locally (Beijing) it happens to be right. Interpreting the wall-clock as
+// Asia/Shanghai (fixed UTC+8, no DST) is correct everywhere.
+export function parseBeijingTime(value, fallback = Date.now()) {
+  if (value === undefined || value === null || value === '') return new Date(fallback);
+  const m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})(?::(\d{2}))?/.exec(String(value));
+  if (!m) return new Date(value);
+  const [, y, mo, d, h, mi, s] = m;
+  return new Date(Date.UTC(+y, +mo - 1, +d, +h, +mi, +(s || 0)) - 8 * 3600 * 1000);
+}
+
 // Report date always follows Beijing time — GitHub Actions runs in UTC, so the
 // naive local date would drift a day off for builds before 08:00 Beijing.
 export function getTodayStr() {
