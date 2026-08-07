@@ -15,7 +15,7 @@ import { formatTime, getTodayStr, getTodayDisplay } from '../pipeline/utils.mjs'
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, freshnessFilter } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
-import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart } from '../pipeline/charts.mjs';
+import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
 
 // ── HTML 渲染 ──────────────────────────────────────────
 
@@ -74,7 +74,10 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
   const pointsHTML = keyPoints.map(p => `<div class="kp-card">${escHtml(p)}</div>`).join('\n');
 
   // ── Chart panels ─────────────────────────────────────
-  const hasCharts = chartData && chartData.etfTrend && chartData.etfTrend.hasData;
+  const hasCharts = chartData && (
+    chartData.etfTrend?.hasData || chartData.sentiment?.hasData ||
+    chartData.heatmap?.hasData || chartData.direction?.hasData
+  );
 
   const chartPanels = hasCharts ? `
 <div class="sec-title">📊 市场数据可视化</div>
@@ -102,6 +105,7 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
 
   const chartJS = hasCharts ? `
 <script>
+${chartData.etfTrend?.hasData ? `
 // ETF Trend
 new Chart(document.getElementById('etfTrendChart'), {
   type: 'line',
@@ -122,7 +126,7 @@ new Chart(document.getElementById('etfTrendChart'), {
     },
   },
 });
-
+` : ''}
 // Sentiment donut
 new Chart(document.getElementById('sentimentChart'), {
   type: 'doughnut',
@@ -623,8 +627,15 @@ async function main() {
   // 5. Render HTML
   const todayDisplay = getTodayDisplay();
 
-  // Load & accumulate ETF price history
-  let history = loadETFHistory(OUTPUT_DIR);
+  // Load & accumulate ETF price history (backfill from Sina K-line first)
+  console.log('\n📈 回填 ETF 历史数据 (新浪K线)...');
+  let history;
+  try {
+    history = await fetchETFHistoryKLine(30);
+  } catch (err) {
+    console.warn(`  K线回填失败，使用本地历史: ${err.message}`);
+    history = loadETFHistory(OUTPUT_DIR);
+  }
   history = accumulateETF(history, etfData);
 
   // Build chart datasets
@@ -678,6 +689,7 @@ async function main() {
     marketSummary: result.marketSummary,
     isAi: result.isAi,
     etfData: etfData,
+    chartData: chartData,
   };
   const jsonPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.json`);
   writeFileSync(jsonPath, JSON.stringify(buildPayload, null, 2), 'utf-8');

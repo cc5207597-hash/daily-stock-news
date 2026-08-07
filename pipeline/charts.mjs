@@ -171,4 +171,42 @@ export function buildDirectionChart(analyzed) {
   };
 }
 
+// Fetch ~30 days of daily close prices for the representative ETF of each sector
+// from Sina K-line API, returning a history object in loadETFHistory's shape.
+export async function fetchETFHistoryKLine(days = 30) {
+  const byDate = {};
+  const allDates = new Set();
+  for (const sector of Object.keys(SECTOR_ETF)) {
+    const code = SECTOR_ETF[sector];
+    const market = code.startsWith('5') ? 'sh' : 'sz';
+    try {
+      const resp = await fetch(`https://quotes.sina.cn/cn/api/jsonp_v2.php/var%20_data=/CN_MarketDataService.getKLineData?symbol=${market}${code}&scale=240&ma=no&datalen=${days}`, {
+        headers: { 'User-Agent': 'Mozilla/5.0', 'Referer': 'https://finance.sina.com.cn/' },
+        timeout: 12000,
+      });
+      if (!resp.ok) throw new Error('HTTP ' + resp.status);
+      const text = await resp.text();
+      const m = text.match(/=\s*\(?(\[[\s\S]*\])\s*\)?\s*;/);
+      if (!m) throw new Error('parse fail');
+      const rows = JSON.parse(m[1]);
+      for (const r of rows) {
+        allDates.add(r.day);
+        if (!byDate[sector]) byDate[sector] = {};
+        byDate[sector][r.day] = parseFloat(r.close);
+      }
+      console.log(`  [K线] ${sector}(${code}) → ${rows.length} 天`);
+    } catch (err) {
+      console.warn(`  [K线] ${sector}(${code}) ⚠ ${err.message}`);
+      if (!byDate[sector]) byDate[sector] = {};
+    }
+  }
+  const dates = [...allDates].sort();
+  const prices = {};
+  for (const sector of Object.keys(SECTOR_ETF)) {
+    prices[sector] = dates.map(d => (byDate[sector] && byDate[sector][d] !== undefined) ? byDate[sector][d] : null);
+  }
+  console.log(`  [K线] 回填 ${dates.length} 个交易日 ETF 历史`);
+  return { dates, prices };
+}
+
 export { SECTOR_ETF, SECTOR_COLORS, SECTOR_PALETTE };

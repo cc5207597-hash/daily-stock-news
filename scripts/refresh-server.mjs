@@ -30,6 +30,19 @@ const server = http.createServer((req, res) => {
 
   if (req.method === 'OPTIONS') { res.writeHead(204); res.end(); return; }
 
+  // Serve static assets (e.g. /assets/chart.umd.min.js)
+  if (req.method === 'GET' && req.url.startsWith('/assets/')) {
+    const filePath = join(ROOT, req.url.split('?')[0]);
+    if (filePath.startsWith(join(ROOT, 'assets')) && existsSync(filePath)) {
+      const ext = filePath.split('.').pop();
+      const mime = { 'js': 'application/javascript; charset=utf-8', 'css': 'text/css; charset=utf-8', 'html': 'text/html; charset=utf-8', 'png': 'image/png', 'jpg': 'image/jpeg', 'svg': 'image/svg+xml', 'json': 'application/json; charset=utf-8' }[ext] || 'application/octet-stream';
+      serveFile(res, 200, mime, readFileSync(filePath));
+    } else {
+      serveFile(res, 404, 'text/plain', 'Not found');
+    }
+    return;
+  }
+
   // List available history dates
   if (req.method === 'GET' && req.url === '/history/dates') {
     let dates = [];
@@ -64,7 +77,8 @@ const server = http.createServer((req, res) => {
       // Convert ISO date strings back to Date objects
       json.analyzed = (json.analyzed || []).map(n => ({ ...n, pubDate: new Date(n.pubDate) }));
       const displayDate = json.displayDate || `${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`;
-      const chartData = {
+      // Restore chart data — prefer the saved payload, fall back to recomputing
+      const chartData = json.chartData || {
         etfTrend: { dates: [], datasets: [], hasData: false },
         sentiment: buildSentimentData(json.analyzed),
         heatmap: buildImpactHeatmap(json.analyzed),
