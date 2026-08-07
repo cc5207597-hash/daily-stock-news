@@ -348,10 +348,32 @@ ${newsText}`;
 
 // ── Entry point: AI analysis with retry, keyword engine as hard fallback ──
 
+// Dedup again after translation: two items that pointed at the same article in
+// different languages (English original fetched fresh vs. the translated title_cn
+// archived earlier) share no title key before translation but collapse to the
+// same Chinese headline afterwards — exactly the duplicates that slip past
+// mergeWithHistory's title+link checks when the article has no link.
+function dedupTranslated(items) {
+  const seen = new Map();
+  const out = [];
+  for (const item of items) {
+    const t = item.title_cn || item.title || '';
+    const key = t.toLowerCase().replace(/[^a-z0-9一-鿿]/g, '').substring(0, 50);
+    if (!key) { out.push(item); continue; }
+    if (seen.has(key)) {
+      console.log(`  翻译后去重: ${t.substring(0, 45)}`);
+      continue;
+    }
+    seen.set(key, item);
+    out.push(item);
+  }
+  return out;
+}
+
 export async function analyzeWithClaude(newsItems) {
   // Pre-translate all non-Chinese titles so the archived full-news list is
   // also fully in simplified Chinese (independent of which analysis path runs).
-  const translated = await translateItems(newsItems);
+  const translated = dedupTranslated(await translateItems(newsItems));
 
   if (!CONFIG.apiKey) {
     console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
