@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // 本地预览 + 手动刷新服务
 // 访问 http://127.0.0.1:3456 看最新页面，点按钮直接重建+推送
-import { execSync } from 'child_process';
+import { execSync, spawn } from 'child_process';
 import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -122,9 +122,21 @@ const server = http.createServer((req, res) => {
     serveFile(res, 202, 'application/json', JSON.stringify({ status: 'accepted', time: lastStatus.time }));
 
     (async () => {
+      const run = (cmd, args, opts = {}) => new Promise((resolve, reject) => {
+        const child = spawn(cmd, args, { cwd: ROOT, stdio: 'inherit', shell: false, ...opts });
+        child.on('error', reject);
+        child.on('close', (code) => {
+          if (code === 0) resolve();
+          else reject(new Error(`exit code ${code}`));
+        });
+      });
       try {
         console.log('  1/3 构建中...');
-        execSync('node scripts/build-daily.mjs', { cwd: ROOT, stdio: 'inherit', timeout: 180_000 });
+        // Run the build as an async child process with NO hard timeout — the
+        // pipeline can legitimately take 3-9 min when the AI proxy is slow and
+        // the build retries. A sync execSync with a short timeout would get
+        // killed mid-AI-analysis and leave a half-written report.
+        await run('node', ['scripts/build-daily.mjs']);
 
         console.log('  2/3 git commit...');
         execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs', { cwd: ROOT, timeout: 10_000 });
