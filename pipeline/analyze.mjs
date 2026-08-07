@@ -3,12 +3,15 @@
 import { CONFIG, KEYWORD_RULES } from './config.mjs';
 
 // Match AI-consolidated brief to its most recent source news pubDate
+// Returns { date, link } so each brief keeps the source article's real
+// publish time and a working "原文" link.
 export function findSourceDate(ai, newsItems, fallback, index) {
   const title = (ai.title_cn || '').toLowerCase();
   const summary = (ai.summary_cn || '').toLowerCase();
   const cat = (ai.category || '');
 
   let bestDate = null;
+  let bestLink = '';
   let bestScore = 0;
 
   const titleWords = title.replace(/[^a-z0-9一-鿿]/g, ' ').split(/\s+/).filter(w => w.length >= 2);
@@ -33,18 +36,20 @@ export function findSourceDate(ai, newsItems, fallback, index) {
     if (score > bestScore) {
       bestScore = score;
       bestDate = item.pubDate;
+      bestLink = item.link || '';
     }
   }
 
-  if (bestDate && bestScore >= 2) return bestDate;
+  if (bestDate && bestScore >= 2) return { date: bestDate, link: bestLink };
 
   const sectorItems = newsItems.filter(item => item.guessedSector === cat);
   if (sectorItems.length > 0) {
-    const dates = sectorItems.map(s => s.pubDate.getTime()).sort((a, b) => b - a);
-    return new Date(dates[Math.min(index, dates.length - 1)]);
+    const sorted = [...sectorItems].sort((a, b) => b.pubDate - a.pubDate);
+    const chosen = sorted[Math.min(index, sorted.length - 1)];
+    return { date: chosen.pubDate, link: chosen.link || '' };
   }
 
-  return fallback;
+  return { date: fallback, link: '' };
 }
 
 // ── Claude API analysis ──────────────────────────────────
@@ -162,22 +167,25 @@ ${newsText}`;
   const maxInputDate = newsItems.reduce((max, n) => n.pubDate > max ? n.pubDate : max, new Date(0));
   const baseDate = maxInputDate.getTime() > 0 ? maxInputDate : new Date();
 
-  const analyzed = (result.analyzed || []).map((ai, i) => ({
-    title_cn: ai.title_cn || '[未命名]',
-    summary_cn: ai.summary_cn || '',
-    category: ai.category || '',
-    direction: (ai.direction || '中性').replace('中性偏',''),
-    impact: ai.impact || '中',
-    certainty: ai.certainty || '中',
-    time_window: ai.time_window || '中期',
-    tickers: ai.tickers || '—',
-    notes: ai.notes || '',
-    title: ai.title_cn || '',
-    description: ai.summary_cn || '',
-    pubDate: findSourceDate(ai, newsItems, baseDate, i),
-    source: 'AI综合',
-    link: '',
-  }));
+  const analyzed = (result.analyzed || []).map((ai, i) => {
+    const src = findSourceDate(ai, newsItems, baseDate, i);
+    return {
+      title_cn: ai.title_cn || '[未命名]',
+      summary_cn: ai.summary_cn || '',
+      category: ai.category || '',
+      direction: (ai.direction || '中性').replace('中性偏',''),
+      impact: ai.impact || '中',
+      certainty: ai.certainty || '中',
+      time_window: ai.time_window || '中期',
+      tickers: ai.tickers || '—',
+      notes: ai.notes || '',
+      title: ai.title_cn || '',
+      description: ai.summary_cn || '',
+      pubDate: src.date,
+      source: 'AI综合',
+      link: src.link,
+    };
+  });
 
   // Merge AI sector_matrix with defaults
   const defaultMatrix = {
