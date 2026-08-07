@@ -111,6 +111,17 @@ export function translateWithLocalDict(text) {
   return out;
 }
 
+// Word-boundary match for short Latin keywords (CRO, ADC, mRNA, DRAM, GPU...).
+// A bare substring would let 'CRO' match inside "Semiconductor"; this requires
+// the keyword to be surrounded by non-alphanumeric characters.
+function matchKw(text, kw) {
+  if (/^[a-z0-9+./#& -]+$/i.test(kw) && kw.length <= 8) {
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    return new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').test(text);
+  }
+  return text.includes(kw);
+}
+
 // Batch-translate non-Chinese titles/descriptions via the Claude proxy.
 // Returns a copy of newsItems with title_cn / summary_cn set.
 async function translateItems(newsItems) {
@@ -367,20 +378,22 @@ const SECTOR_DEFAULT_TICKERS = {
   '黄金': '紫金矿业、山东黄金、中金黄金',
 };
 
-async function analyzeWithKeywords(newsItems) {
+export async function analyzeWithKeywords(newsItems) {
   // Translate non-Chinese titles so the report stays fully in simplified Chinese
   const translated = await translateItems(newsItems);
 
   const analyzed = translated.map((n) => {
-    const text = ((n.title || '') + ' ' + (n.description || '')).toLowerCase();
+    const titleText = (n.title || '').toLowerCase();
+    const descText = (n.description || '').toLowerCase();
     let best = null, bestScore = 0;
     for (const rule of KEYWORD_RULES) {
       let match = false;
       for (const k of rule.kw) {
-        if (text.includes(k.toLowerCase())) { match = true; break; }
+        if (matchKw(titleText, k)) { match = true; break; }
       }
       if (!match) continue;
-      const score = rule.kw.reduce((s, k) => s + (text.match(new RegExp(k.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length, 0);
+      // Score by count of distinct keyword hits in title (weighted) + description
+      const score = rule.kw.reduce((s, k) => s + (matchKw(titleText, k) ? 3 : 0) + (matchKw(descText, k) ? 1 : 0), 0);
       if (score > bestScore) { bestScore = score; best = rule; }
     }
 

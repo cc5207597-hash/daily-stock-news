@@ -101,9 +101,20 @@ export const ETFS = [
 // Sector classification keywords
 export const SECTOR_KEYWORDS = {
   '半导体': ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'AMD', 'GPU', 'HBM', 'foundry', '代工', '制程', '封装', 'EDA', '光刻', 'ASML', 'DRAM', '存储', '晶圆', 'PCB', '鹏鼎', '封测', '宏碁', '三星'],
-  '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', '数据中心', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '服务器', '液冷', 'rack', '机架', '5G', '通信'],
+  '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', '数据中心', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '光迅科技', '中富电路', '光库科技', '博创科技', '德科立', '太辰光', '源杰科技', '仕佳光子', '剑桥科技', '联特科技', '腾景科技', '光云科技', '光膜', '光缆', '光棒', '光纤', '数通', '相干', '单模', '多模', '光器件', '光芯片', '光模块厂'],
   '创新药': ['创新药', 'FDA', '临床试验', '临床', 'NDA', 'BLA', '抗体', 'ADC', '基因', '细胞治疗', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', '审批', '授权', '出海', 'License', '生物医药', '疫苗', '药品', '医药', '仿制药', '原料药', '抗癌', '肿瘤', 'PROTAC', 'GLP', 'mRNA', '小核酸', 'CRO', 'CDMO', '医保', '集采', '罕见病', '新药', '治疗', '双抗', '抑制剂', 'CAR-T'],
   '黄金': ['黄金', '金价', 'COMEX', 'gold', '美联储', '降息', '利率', '央行购金', '通胀', '紫金矿业', '山东黄金', '中金黄金', '贵金属', 'precious metal', '非农', 'CPI'],
+};
+
+// High-signal keywords that alone are enough to place an item in a sector.
+// Context keywords in SECTOR_KEYWORDS (利率, 美联储, 治疗, 审批...) are only
+// additive — hitting only a context word must NOT classify an item, or e.g. a
+// bank-rate story (利率) would land in 黄金.
+export const SECTOR_CORE_KEYWORDS = {
+  '半导体': ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'GPU', 'HBM', 'foundry', '代工', '制程', 'EDA', '光刻', 'ASML', 'DRAM', '晶圆', '封测'],
+  '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '光迅科技', '中富电路', '光纤', '光缆', '光器件', '光芯片', '数通'],
+  '创新药': ['创新药', 'FDA', '临床试验', 'NDA', 'BLA', 'ADC', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', 'mRNA', 'CRO', 'CDMO', '疫苗', '肿瘤', 'License', '出海'],
+  '黄金': ['黄金', '金价', 'COMEX', 'gold', '央行购金', '紫金矿业', '山东黄金', '中金黄金', '贵金属', 'precious metal', '现货黄金'],
 };
 
 // Keyword rules for local fallback analysis
