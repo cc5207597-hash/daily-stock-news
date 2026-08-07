@@ -3,7 +3,7 @@
 // 编排 ETL 流水线: fetch → clean → analyze → render → save → notify
 
 import { writeFileSync, existsSync, mkdirSync } from 'fs';
-import { join, dirname } from 'path';
+import { join, dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
@@ -791,7 +791,13 @@ async function main() {
   console.log('\n✅ 完成！\n');
 }
 
-main().catch(err => {
-  console.error('❌ 构建失败:', err);
-  process.exit(1);
-});
+// ── 入口 ──────────────────────────────────────────────
+// main() 只在 build-daily.mjs 被直接执行时运行。refresh-server.mjs 会
+// import 本模块获取 renderHTML —— 若不判断，开机启动服务会顺带触发一次
+// 完整抓取 + AI 分析（没联网时全部失败）。
+if (process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  main().catch(err => {
+    console.error('❌ 构建失败:', err);
+    process.exit(1);
+  });
+}
