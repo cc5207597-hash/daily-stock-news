@@ -13,6 +13,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const INDEX = join(ROOT, 'index.html');
 const OUTPUT_DIR = join(ROOT, 'output');
+const HISTORY_DIR = join(ROOT, 'history');
 const PORT = 3456;
 
 let lastStatus = { state: 'idle', time: null, error: null };
@@ -43,14 +44,31 @@ const server = http.createServer((req, res) => {
     return;
   }
 
+  // Serve static history files (dates.json, 日报_YYYYMMDD.json/.html) — same
+  // layout as the gh-pages deployment, so local preview and live behave alike.
+  if (req.method === 'GET' && req.url.startsWith('/history/')) {
+    const rel = req.url.split('?')[0].replace(/^\/history\//, '');
+    if (rel && !rel.includes('..')) {
+      const filePath = join(HISTORY_DIR, rel);
+      if (existsSync(filePath)) {
+        const ext = rel.split('.').pop();
+        const mime = { 'js': 'application/javascript; charset=utf-8', 'css': 'text/css; charset=utf-8', 'html': 'text/html; charset=utf-8', 'json': 'application/json; charset=utf-8', 'png': 'image/png', 'jpg': 'image/jpeg', 'svg': 'image/svg+xml' }[ext] || 'application/octet-stream';
+        serveFile(res, 200, mime, readFileSync(filePath));
+        return;
+      }
+    }
+    serveFile(res, 404, 'text/plain', 'Not found');
+    return;
+  }
+
   // List available history dates
   if (req.method === 'GET' && req.url === '/history/dates') {
     let dates = [];
-    if (existsSync(OUTPUT_DIR)) {
-      const files = readdirSync(OUTPUT_DIR);
+    if (existsSync(HISTORY_DIR)) {
+      const files = readdirSync(HISTORY_DIR);
       dates = files
-        .filter(f => f.startsWith('股市热点日报_') && f.endsWith('.json'))
-        .map(f => f.replace('股市热点日报_', '').replace('.json', ''))
+        .filter(f => f.startsWith('日报_') && f.endsWith('.json'))
+        .map(f => f.replace('日报_', '').replace('.json', ''))
         .filter(d => /^\d{8}$/.test(d))
         .sort()
         .reverse();

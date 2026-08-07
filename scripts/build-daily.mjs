@@ -2,18 +2,21 @@
 // ── 日报构建入口 ───────────────────────────────────────
 // 编排 ETL 流水线: fetch → clean → analyze → render → save → notify
 
-import { writeFileSync, existsSync, mkdirSync } from 'fs';
+import { writeFileSync, readFileSync, readdirSync, existsSync, mkdirSync } from 'fs';
 import { join, dirname, resolve } from 'path';
 import { fileURLToPath } from 'url';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const PROJECT_ROOT = join(__dirname, '..');
 const OUTPUT_DIR = join(PROJECT_ROOT, 'output');
+// Deployable history archive (not gitignored) — feeds the static history pages
+// on gh-pages. output/ stays gitignored for local ephemeral artifacts.
+const HISTORY_DIR = join(PROJECT_ROOT, 'history');
 
 import { CONFIG } from '../pipeline/config.mjs';
 import { formatTime, getTodayStr, getTodayDisplay } from '../pipeline/utils.mjs';
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
-import { dedupAndClean, freshnessFilter } from '../pipeline/clean.mjs';
+import { dedupAndClean, dedupKey, freshnessFilter } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
 import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
 
@@ -563,12 +566,13 @@ async function pollStatus() {
   showToast('构建超时，请稍后手动刷新页面', 'err');
   resetBtn();
 }
-// History browsing
+// History browsing — the archive lives as static files under history/ so the
+// picker works on the static gh-pages site (no local server needed).
 async function loadHistoryDates(){
   const sel = document.getElementById('historySelect');
   if(!sel) return;
   try {
-    const r = await fetch(REFRESH_URL + '/history/dates');
+    const r = await fetch(REFRESH_URL + '/history/dates.json');
     const d = await r.json();
     sel.innerHTML = '<option value="">-- 选择日期 --</option>';
     (d.dates || []).forEach(dt => {
@@ -584,7 +588,7 @@ function showHistoryDate(){
   const sel = document.getElementById('historySelect');
   const dt = sel.value;
   if(!dt) return;
-  window.location.href = REFRESH_URL + '/history?date=' + dt;
+  window.location.href = REFRESH_URL + '/history/日报_' + dt + '.html';
 }
 function goToday(){
   window.location.href = REFRESH_URL + '/';
@@ -674,6 +678,125 @@ async function sendNotification(result, etfData, dateStr) {
   }
 }
 
+// ── 历史日报: 加载、跨构建累积、静态化 ─────────────────────
+
+function historyJsonPath(dateStr) {
+  return join(HISTORY_DIR, `日报_${dateStr}.json`);
+}
+
+// Load today's already-archived report (from an earlier build today), so the
+// morning's news survives into the evening build instead of being dropped when
+// the fresh fetch only returns the latest items.
+function loadHistoryPayload(dateStr) {
+  const p = historyJsonPath(dateStr);
+  if (!existsSync(p)) return null;
+  try {
+    const j = JSON.parse(readFileSync(p, 'utf-8'));
+    return j;
+  } catch { return null; }
+}
+
+// Merge a freshly-fetched batch with the items archived earlier today.
+// Fresh items win on ties (same dedup key) — the re-fetched copy carries a
+// more accurate pubDate than the archived one.
+export function mergeWithHistory(freshItems, historyPayload) {
+  if (!historyPayload) return freshItems;
+  const archived = (historyPayload.fullNews || [])
+    .filter(n => n.pubDate)
+    .map(n => ({
+      title: n.title || '',
+      description: n.description || '',
+      guessedSector: n.guessedSector || '',
+      pubDate: new Date(n.pubDate),
+      source: n.source || '',
+      link: n.link || '',
+      archived: true,
+    }));
+  if (archived.length === 0) return freshItems;
+
+  const merged = [];
+  const seen = new Map();
+  for (const item of freshItems) {
+    const key = dedupKey(item.title);
+    if (key) seen.set(key, item);
+    merged.push(item);
+  }
+  for (const a of archived) {
+    const key = dedupKey(a.title);
+    if (!key || !seen.has(key)) {
+      seen.set(key, a);
+      merged.push(a);
+    }
+  }
+  console.log(`  📚 合并今日早前存档 ${archived.length} 条 → 共 ${merged.length} 条待分析`);
+  return merged;
+}
+
+// Write today's merged payload to the deployable history archive, plus a
+// static HTML page and a dates.json index so the history picker works on the
+// static gh-pages site (no local server required).
+function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
+  const buildPayload = {
+    date: dateStr,
+    displayDate: todayDisplay,
+    generatedAt: new Date().toISOString(),
+    analyzed: (result.analyzed || []).map(n => ({
+      title_cn: n.title_cn,
+      summary_cn: n.summary_cn,
+      category: n.category,
+      direction: n.direction,
+      impact: n.impact,
+      certainty: n.certainty,
+      time_window: n.time_window,
+      tickers: n.tickers,
+      notes: n.notes,
+      title: n.title,
+      description: n.description,
+      pubDate: n.pubDate instanceof Date ? n.pubDate.toISOString() : n.pubDate,
+      source: n.source,
+      link: n.link,
+    })),
+    sectorMatrix: result.sectorMatrix || [],
+    keyPoints: result.keyPoints || [],
+    marketSummary: result.marketSummary || '',
+    isAi: result.isAi,
+    fullNews: (result.fullNews || []).map(n => ({
+      title: n.title_cn || n.title,
+      description: n.description || '',
+      guessedSector: n.guessedSector || '',
+      pubDate: n.pubDate ? (n.pubDate instanceof Date ? n.pubDate.toISOString() : n.pubDate) : null,
+      source: n.source || '',
+      link: n.link || '',
+    })),
+    etfData: etfData,
+    chartData: chartData,
+  };
+
+  if (!existsSync(HISTORY_DIR)) mkdirSync(HISTORY_DIR, { recursive: true });
+  const jsonPath = historyJsonPath(dateStr);
+  writeFileSync(jsonPath, JSON.stringify(buildPayload, null, 2), 'utf-8');
+  console.log(`📚 历史存档: ${jsonPath}`);
+
+  // Static HTML page for this date (so gh-pages serves /history/日报_YYYYMMDD.html)
+  const staticHtml = renderHTML(buildPayload, todayDisplay, etfData, chartData);
+  const htmlPath = join(HISTORY_DIR, `日报_${dateStr}.html`);
+  writeFileSync(htmlPath, staticHtml, 'utf-8');
+  console.log(`📄 历史页面: ${htmlPath}`);
+
+  // Rebuild the dates.json index (all dates present in history/)
+  let dates;
+  try {
+    dates = readdirSync(HISTORY_DIR)
+      .filter(f => /^日报_\d{8}\.json$/.test(f))
+      .map(f => f.replace('日报_', '').replace('.json', ''))
+      .sort()
+      .reverse();
+  } catch { dates = []; }
+  if (!dates.includes(dateStr)) dates.unshift(dateStr);
+  writeFileSync(join(HISTORY_DIR, 'dates.json'), JSON.stringify({ dates }, null, 2), 'utf-8');
+  console.log(`🗓️  历史索引: ${HISTORY_DIR}/dates.json (${dates.length} 天)`);
+}
+
 // ── 主流程 ─────────────────────────────────────────────
 
 async function main() {
@@ -687,8 +810,15 @@ async function main() {
   // 1. Fetch news and ETF data in parallel
   const [newsItems, etfData] = await Promise.all([fetchAllNews(), fetchETFData()]);
 
+  const dateStr = getTodayStr();
+
+  // Merge today's earlier archive (if any) so the morning's news survives the
+  // evening build — the direct APIs only return the latest batch.
+  const archivedPayload = loadHistoryPayload(dateStr);
+  const mergedItems = mergeWithHistory(newsItems, archivedPayload);
+
   // 2. Clean: dedup, classify, freshness filter
-  const deduped = dedupAndClean(newsItems);
+  const deduped = dedupAndClean(mergedItems);
   const cleaned = freshnessFilter(deduped);
   console.log(`\n✅ 最终 ${cleaned.length} 条待分析新闻\n`);
 
@@ -732,9 +862,8 @@ async function main() {
 
   // 6. Write files
   if (!existsSync(OUTPUT_DIR)) mkdirSync(OUTPUT_DIR, { recursive: true });
-  const dateStr = getTodayStr();
 
-  // Save ETF history AFTER computing dateStr
+  // Save ETF history
   saveETFHistory(OUTPUT_DIR, history);
 
   const outPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.html`);
@@ -745,45 +874,8 @@ async function main() {
   writeFileSync(indexPath, html, 'utf-8');
   console.log(`📄 首页: ${indexPath}`);
 
-  // 7. Save structured JSON for history browsing
-  const buildPayload = {
-    date: dateStr,
-    displayDate: todayDisplay,
-    generatedAt: new Date().toISOString(),
-    analyzed: result.analyzed.map(n => ({
-      title_cn: n.title_cn,
-      summary_cn: n.summary_cn,
-      category: n.category,
-      direction: n.direction,
-      impact: n.impact,
-      certainty: n.certainty,
-      time_window: n.time_window,
-      tickers: n.tickers,
-      notes: n.notes,
-      title: n.title,
-      description: n.description,
-      pubDate: n.pubDate.toISOString(),
-      source: n.source,
-      link: n.link,
-    })),
-    sectorMatrix: result.sectorMatrix,
-    keyPoints: result.keyPoints,
-    marketSummary: result.marketSummary,
-    isAi: result.isAi,
-    fullNews: (result.fullNews || []).map(n => ({
-      title: n.title_cn || n.title,
-      description: n.description || '',
-      guessedSector: n.guessedSector || '',
-      pubDate: n.pubDate ? new Date(n.pubDate).toISOString() : null,
-      source: n.source || '',
-      link: n.link || '',
-    })),
-    etfData: etfData,
-    chartData: chartData,
-  };
-  const jsonPath = join(OUTPUT_DIR, `股市热点日报_${dateStr}.json`);
-  writeFileSync(jsonPath, JSON.stringify(buildPayload, null, 2), 'utf-8');
-  console.log(`📋 数据: ${jsonPath}`);
+  // 7. Deployable history archive + static page + dates index
+  saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData);
 
   // 8. Send push notification
   await sendNotification(result, etfData, dateStr);

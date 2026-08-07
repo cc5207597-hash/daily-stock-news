@@ -34,7 +34,7 @@ function isNoise(item) {
 // Normalized dedup key: keep Latin letters, digits and CJK (stripping only
 // punctuation/whitespace/case). Stripping CJK too would collapse every
 // pure-Chinese headline to an empty key and keep only the first one.
-function dedupKey(title) {
+export function dedupKey(title) {
   return String(title || '')
     .toLowerCase()
     .replace(/[^a-z0-9一-鿿]/g, '')

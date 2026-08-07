@@ -174,7 +174,9 @@ export async function fetchSinaNews(source) {
       title: (item.rich_text || item.title || '').replace(/<[^>]+>/g, '').trim(),
       description: (item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.docurl || item.link || '',
-      pubDate: new Date(item.create_time ? item.create_time * 1000 : Date.now()),
+      // Sina's create_time is a string like "2026-08-07 16:25:41" (local time),
+      // not a Unix timestamp — parsing the string directly avoids NaN → invalid date.
+      pubDate: new Date(item.create_time || Date.now()),
       source: source.name,
     })).filter(n => n.title);
   } catch (err) { console.warn(`  [API] ${source.name} ⚠ ${err.message}`); return []; }
