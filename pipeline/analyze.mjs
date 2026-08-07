@@ -44,7 +44,7 @@ export function findSourceDate(ai, newsItems, fallback, index) {
     return new Date(dates[Math.min(index, dates.length - 1)]);
   }
 
-  return new Date(Math.max(fallback.getTime() - index * 120000, 0));
+  return fallback;
 }
 
 // ── Claude API analysis ──────────────────────────────────
@@ -250,7 +250,7 @@ function analyzeWithKeywords(newsItems) {
       tickers: rule.tickers || '—',
       notes: '关键词引擎自动评级，非AI分析',
     };
-  });
+  }).filter(n => ['半导体', '光模块', '创新药', '黄金'].includes(n.category));
 
   const secMap = {
     '半导体': { name: '半导体', shock: '中', direction: '分化', news_count: 0, summary: '', tickers: '' },

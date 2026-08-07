@@ -65,9 +65,9 @@ export const CONFIG = {
     { name: '新浪财经', url: 'https://zhibo.sina.com.cn/api/zhibo/feed?page=1&page_size=30&zhibo_id=152&tag_id=0&type=0', enabled: true },
     { name: '华尔街见闻', url: 'https://api-one.wallstcn.com/apiv1/content/lives?channel=global-channel&limit=30', enabled: true },
     // 华尔街见闻医药频道 — 专门的创新药新闻源（礼来/百济/诺和诺德/药明康德等）
-    { name: '华尔街见闻医药', url: 'https://api-one.wallstcn.com/apiv1/content/information-flow?channel=medicine&client=pc&limit=15', enabled: true },
+    { name: '华尔街见闻医药', url: 'https://api-one.wallstcn.com/apiv1/content/information-flow?channel=medicine&client=pc&limit=40', enabled: true },
   ],
-  apiSourceMaxItems: 40,
+  apiSourceMaxItems: 80,
 
   serverChanSendkey: process.env.SERVERCHAN_SENDKEY || '',
 };

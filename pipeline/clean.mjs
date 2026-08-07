@@ -27,31 +27,31 @@ export function dedupAndClean(allItems) {
     }
   });
 
+  // Drop items unrelated to the four sectors
+  const SECTORS = ['半导体', '光模块', '创新药', '黄金'];
+  const dropped = deduped.filter(item => !SECTORS.includes(item.guessedSector));
+  const filtered = deduped.filter(item => SECTORS.includes(item.guessedSector));
+  if (dropped.length > 0) {
+    console.log(`  丢弃与四板块无关: ${dropped.length} 条`);
+  }
+
   // Print distribution
   const sectorCounts = {};
-  for (const item of deduped) {
+  for (const item of filtered) {
     const s = item.guessedSector || '未分类';
     sectorCounts[s] = (sectorCounts[s] || 0) + 1;
   }
   console.log(`  板块分布: ${Object.entries(sectorCounts).map(([k, v]) => `${k} ${v}条`).join(', ') || '无'}`);
 
-  return deduped;
+  return filtered;
 }
 
 export function freshnessFilter(deduped) {
   const now = Date.now();
-  const days = Math.ceil(CONFIG.maxAgeSeconds / 86400);
-  const recent = deduped.filter(item => (now - item.pubDate.getTime()) < CONFIG.maxAgeSeconds * 1000);
-  console.log(`  去重后 ${deduped.length} 条，${days}天内 ${recent.length} 条`);
+  const recent = deduped.filter(item => (now - item.pubDate.getTime()) < 24 * 3600 * 1000);
+  console.log(`  去重后 ${deduped.length} 条，24小时内 ${recent.length} 条`);
 
-  if (recent.length < 15) {
-    console.log(`  ${days}天内不足15条，放宽到14天...`);
-    const wide = deduped.filter(item => (now - item.pubDate.getTime()) < 14 * 24 * 3600 * 1000);
-    console.log(`  14天内 ${wide.length} 条`);
-    return wide.slice(0, CONFIG.maxNewsCount);
-  }
-
-  return recent.slice(0, CONFIG.maxNewsCount);
+  return recent;
 }
 
 function classifySector(text) {

@@ -101,7 +101,7 @@ export async function fetchClsNews(source) {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     const items = (data?.data?.roll_data || data?.data || []);
-    return items.slice(0, 30).map(item => ({
+    return items.slice(0, CONFIG.apiSourceMaxItems).map(item => ({
       title: (item.title || '').trim(),
       description: (item.brief || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.shareurl || `https://www.cls.cn/detail/${item.id}`,
@@ -120,7 +120,7 @@ export async function fetchEastMoneyNews(source) {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     const items = (data?.data?.list || data?.data || []);
-    return items.slice(0, 30).map(item => ({
+    return items.slice(0, CONFIG.apiSourceMaxItems).map(item => ({
       title: (item.title || item.name || '').trim(),
       description: (item.digest || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.url || item.uniqueUrl || '',
@@ -140,7 +140,7 @@ export async function fetchJin10News(source) {
     const raw = await resp.text();
     const jsonStr = raw.replace(/^var newest\s*=\s*/, '').replace(/;\s*$/, '').trim();
     const items = JSON.parse(jsonStr);
-    return items.slice(0, 40).map(item => {
+    return items.slice(0, CONFIG.apiSourceMaxItems).map(item => {
       const data = item.data || {};
       const content = (data.content || '').replace(/<[^>]+>/g, '').trim();
       let title = '';
@@ -170,7 +170,7 @@ export async function fetchSinaNews(source) {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     const items = (data?.result?.data?.feed?.list || data?.result?.data || []);
-    return items.slice(0, 30).map(item => ({
+    return items.slice(0, CONFIG.apiSourceMaxItems).map(item => ({
       title: (item.rich_text || item.title || '').replace(/<[^>]+>/g, '').trim(),
       description: (item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.docurl || item.link || '',
@@ -189,7 +189,7 @@ export async function fetchWallStreetCNNews(source) {
     if (!resp.ok) throw new Error('HTTP ' + resp.status);
     const data = await resp.json();
     const items = (data?.data?.items || data?.data || []);
-    return items.slice(0, 30).map(item => ({
+    return items.slice(0, CONFIG.apiSourceMaxItems).map(item => ({
       title: (item.title || item.content_text || '').replace(/<[^>]+>/g, '').trim(),
       description: (item.content_text || item.summary || item.content || '').replace(/<[^>]+>/g, '').trim().substring(0, 600),
       link: item.uri ? `https://wallstreetcn.com/articles/${item.id}` : (item.link || ''),
