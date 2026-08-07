@@ -825,6 +825,49 @@ async function main() {
   // 3. Analyze
   const result = await analyzeWithClaude(cleaned);
 
+  // 3b. Sector backfill — guarantee every sector has at least one card. A build
+  // can legitimately come back with a sector empty (that time window had no news,
+  // everything got age-filtered, or the keyword engine classified nothing into
+  // it), and an empty sector looks like a broken report. Pull the newest item of
+  // the missing sector from the *pre-freshness* pool (deduped), which still holds
+  // everything classified into a sector regardless of the 24h window.
+  const SECTORS = ['半导体', '光模块', '创新药', '黄金'];
+  const present = new Set((result.analyzed || []).map(n => n.category));
+  const backfillPool = deduped.filter(n => SECTORS.includes(n.guessedSector));
+  const backfilled = [];
+  for (const sector of SECTORS) {
+    if (present.has(sector)) continue;
+    const candidates = backfillPool.filter(n => n.guessedSector === sector)
+      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    if (candidates.length === 0) {
+      console.log(`  ⚠ 板块兜底: ${sector} 无可用新闻`);
+      continue;
+    }
+    const src = candidates[0];
+    result.analyzed.push({
+      title_cn: src.title_cn || src.title,
+      summary_cn: src.summary_cn || src.description?.substring(0, 80) || '',
+      category: sector,
+      direction: '中性',
+      impact: '中',
+      certainty: '低',
+      time_window: '短期',
+      tickers: '—',
+      notes: '板块兜底：当日该板块新闻较少',
+      title: src.title_cn || src.title,
+      description: src.description || '',
+      pubDate: src.pubDate,
+      source: src.source || '',
+      link: src.link || '',
+    });
+    present.add(sector);
+    backfilled.push(sector);
+    // Keep the sector matrix consistent — bump the count on the empty sector.
+    const mtx = (result.sectorMatrix || []).find(s => s.name === sector);
+    if (mtx) mtx.news_count = (mtx.news_count || 0) + 1;
+  }
+  if (backfilled.length > 0) console.log(`  🔧 板块兜底补齐: ${backfilled.join(', ')}`);
+
   // 4. Sort by date (newest first), then by impact
   const impactRank = { '极高': 0, '高': 1, '中': 2, '低': 3 };
   result.analyzed.sort((a, b) => {
