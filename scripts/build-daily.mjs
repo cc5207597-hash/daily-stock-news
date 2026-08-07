@@ -20,7 +20,7 @@ import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, build
 // ── HTML 渲染 ──────────────────────────────────────────
 
 export function renderHTML(result, todayDisplay, etfData, chartData) {
-  const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi } = result;
+  const { analyzed, sectorMatrix, keyPoints, marketSummary, isAi, fullNews } = result;
 
   const impactCls = (imp) => imp === '极高' ? 'impact-vhigh' : imp === '高' ? 'impact-high' : imp === '中' ? 'impact-mid' : 'impact-low';
   const dirCls = (d) => (d || '').includes('利好') ? 'badge-bull' : (d || '').includes('利空') ? 'badge-bear' : (d === '中性' ? 'badge-neutral' : 'badge-mixed');
@@ -66,6 +66,48 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
       `</div></div>`,
     ].join('\n');
   }).join('\n');
+
+  // ── Full news list (all news of the day, grouped by sector, newest first) ──
+  const SECTORS_ORDER = ['半导体', '光模块', '创新药', '黄金'];
+  const fullNewsList = Array.isArray(fullNews) ? fullNews : [];
+  const fullNewsGroups = SECTORS_ORDER.map((sector) => {
+    const items = fullNewsList
+      .filter(n => n.guessedSector === sector)
+      .sort((a, b) => new Date(b.pubDate) - new Date(a.pubDate));
+    if (items.length === 0) return '';
+    const itemsHTML = items.map((n) => {
+      const pubDate = n.pubDate instanceof Date ? n.pubDate : new Date(n.pubDate);
+      const title = n.title_cn || n.title;
+      // Only show the description when it is already Chinese — the description
+      // is archived untranslated, and an English body would break the all-Chinese report.
+      const rawDesc = String(n.description || '');
+      const descCn = /[一-鿿]/.test(rawDesc) ? rawDesc.substring(0, 120) : '';
+      const desc = descCn ? `<div class="fn-desc">${escHtml(descCn)}</div>` : '';
+      const link = n.link ? ` <a href="${n.link}" target="_blank" rel="noopener" class="src-link">原文</a>` : '';
+      const time = isNaN(pubDate.getTime()) ? '' : formatTime(pubDate);
+      return [
+        `<div class="fn-item">`,
+        `<div class="fn-time">${time}</div>`,
+        `<div class="fn-body">`,
+        `<div class="fn-title">${escHtml(title)}</div>`,
+        desc,
+        `<div class="fn-meta">${n.source ? `<span>${escHtml(n.source)}</span>` : ''}${link}</div>`,
+        `</div>`,
+        `</div>`,
+      ].join('\n');
+    }).join('\n');
+    return [
+      `<div class="fn-group">`,
+      `<div class="fn-group-head">${sector} <span class="fn-count">${items.length} 条</span></div>`,
+      `<div class="fn-items">${itemsHTML}</div>`,
+      `</div>`,
+    ].join('\n');
+  }).filter(Boolean).join('\n');
+
+  const fullNewsSection = fullNewsGroups ? `
+<div class="sec-title">📰 当日全部新闻 <span class="fn-total">${fullNewsList.length} 条 · 按板块分组 · 时间从近到远</span></div>
+<div class="fn-wrap">${fullNewsGroups}</div>
+` : '';
 
   const matrixRows = (Array.isArray(sectorMatrix) ? sectorMatrix : []).map(s =>
     `<tr><td style="font-weight:700;">${escHtml(s.name)}</td><td class="${shockCls(s.shock)}">${s.shock}</td><td style="color:${s.direction === '利好' ? '#16a34a' : s.direction === '利空' ? '#dc2626' : '#ea580c'};">${s.direction}</td><td>${s.news_count}</td><td>${escHtml(s.summary || s.logic || '')}</td><td>${escHtml(s.tickers || '—')}</td></tr>`
@@ -322,6 +364,23 @@ new Chart(document.getElementById('heatmapChart'), {
   .key-points{display:grid;gap:5px;margin-bottom:16px;}
   .kp-card{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:10px 14px;font-size:.76rem;line-height:1.5;border-left:3px solid var(--accent);}
 
+  /* Full news list */
+  .fn-total{font-weight:400;font-size:.66rem;color:var(--text-muted);}
+  .fn-wrap{display:grid;grid-template-columns:repeat(2,1fr);gap:10px;margin-bottom:16px;}
+  @media(max-width:640px){.fn-wrap{grid-template-columns:1fr;}}
+  .fn-group{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:10px 12px;align-self:start;}
+  .fn-group-head{font-size:.72rem;font-weight:700;color:var(--text);padding-bottom:6px;border-bottom:1px solid var(--border);margin-bottom:6px;}
+  .fn-count{font-size:.62rem;font-weight:400;color:var(--text-muted);margin-left:4px;}
+  .fn-items{display:flex;flex-direction:column;}
+  .fn-item{display:flex;gap:8px;padding:6px 0;border-bottom:1px solid #f3f4f6;}
+  .fn-item:last-child{border-bottom:none;}
+  .fn-time{flex-shrink:0;font-size:.6rem;color:var(--text-muted);padding-top:2px;width:52px;font-variant-numeric:tabular-nums;}
+  .fn-body{flex:1;min-width:0;}
+  .fn-title{font-size:.72rem;font-weight:600;color:var(--text);line-height:1.4;}
+  .fn-desc{font-size:.65rem;color:var(--text-dim);margin-top:2px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+  .fn-meta{font-size:.6rem;color:var(--text-muted);margin-top:2px;display:flex;gap:6px;align-items:center;}
+  .fn-meta a{color:var(--accent);text-decoration:none;font-weight:600;}
+
   .market-summary{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:12px 16px;font-size:.78rem;line-height:1.6;margin-bottom:16px;}
 
   /* History bar */
@@ -427,6 +486,8 @@ ${chartPanels}
 <div class="news-grid">
 ${newsCards}
 </div>
+
+${fullNewsSection}
 
 <div class="sec-title">板块冲击矩阵</div>
 <div class="table-wrap">
@@ -709,6 +770,14 @@ async function main() {
     keyPoints: result.keyPoints,
     marketSummary: result.marketSummary,
     isAi: result.isAi,
+    fullNews: (result.fullNews || []).map(n => ({
+      title: n.title_cn || n.title,
+      description: n.description || '',
+      guessedSector: n.guessedSector || '',
+      pubDate: n.pubDate ? new Date(n.pubDate).toISOString() : null,
+      source: n.source || '',
+      link: n.link || '',
+    })),
     etfData: etfData,
     chartData: chartData,
   };

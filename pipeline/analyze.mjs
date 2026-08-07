@@ -331,26 +331,31 @@ ${newsText}`;
     keyPoints: result.key_points || [],
     marketSummary: result.market_summary || '',
     isAi: true,
+    fullNews: newsItems,
   };
 }
 
 // ── Entry point: AI analysis with retry, keyword engine as hard fallback ──
 
 export async function analyzeWithClaude(newsItems) {
+  // Pre-translate all non-Chinese titles so the archived full-news list is
+  // also fully in simplified Chinese (independent of which analysis path runs).
+  const translated = await translateItems(newsItems);
+
   if (!CONFIG.apiKey) {
     console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
-    return analyzeWithKeywords(newsItems);
+    return analyzeWithKeywords(translated);
   }
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     if (attempt > 1) console.log(`\n  🔁 重试 AI 分析 (第 ${attempt}/3 次)...`);
-    const ok = await tryAnalyzeOnce(newsItems);
+    const ok = await tryAnalyzeOnce(translated);
     if (ok) return ok;
     await new Promise(r => setTimeout(r, 1500 * attempt));
   }
 
   console.log('  AI 分析 3 次均失败，回退到本地关键词引擎');
-  return analyzeWithKeywords(newsItems);
+  return analyzeWithKeywords(translated);
 }
 
 // ── Local keyword engine (fallback) ──────────────────────
@@ -463,5 +468,6 @@ async function analyzeWithKeywords(newsItems) {
     keyPoints: points,
     marketSummary: `本日报聚焦半导体、光模块、创新药、黄金四大赛道，${analyzed.length} 条新闻经关键词引擎自动分析生成。`,
     isAi: false,
+    fullNews: newsItems,
   };
 }
