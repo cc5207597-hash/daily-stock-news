@@ -1,7 +1,7 @@
 {
   "date": "20260808",
   "displayDate": "2026-08-08",
-  "generatedAt": "2026-08-08T09:42:31.107Z",
+  "generatedAt": "2026-08-08T09:46:20.720Z",
   "analyzed": [
     {
       "title_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
@@ -324,22 +324,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqimt2710953.d.html"
     },
     {
-      "title_cn": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "summary_cn": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "description": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "pubDate": "2026-08-08T01:50:11.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPakZzejM3YUlQTDU2WjdaRjVFWGs0bmJDRHMyeUg5SXlmc1RtdGNRWW02OHNuLUVPY1R1MHNXLTNsZlUzVzNkbFhGbW1GXzFuUU9nVmZLYy1tTGtsLXc1V0lPbVdkZjBFVFpubkp1dnN1YS0tekxzVmlGR2FnVkRaUWJfTVdiNE9sVHFfVVFPd3Jhd2NQQTB2SGFSOVV3MFZuM2htUWYySlhMblRob3FVRkZwVWs1YkM1TFVkbkNPWFVuWDdnQm1rVE1RYVdCdnhFTWM3MURiR0sxanNYTUgydlRkb3g5NkxLUFVVV0R6eElHSjVrWms2MA?oc=5"
-    },
-    {
       "title_cn": "紧箍咒被摘下！为何这次油价跌，黄金涨的传导顺畅了？美国前财长萨默斯告诉你什么才是黄金上涨真正的“关键",
       "summary_cn": "紧箍咒被摘下！为何这次油价跌，黄金涨的传导顺畅了？美国前财长萨默斯告诉你什么才是黄金上涨真正的“关键”…",
       "category": "黄金",
@@ -561,8 +545,8 @@
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 16,
-      "summary": "黄金板块16条新闻，方向以利好为主",
+      "news_count": 15,
+      "summary": "黄金板块15条新闻，方向以利好为主。关注：黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500",
       "tickers": "紫金矿业、山东黄金"
     },
     {
@@ -583,22 +567,14 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 34 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 9 条，高影响 15 条，利好方向 28 条。",
-    "板块概况：半导体(利好, 强冲击, 16条)、黄金(利好, 强冲击, 16条)、创新药(利好, 强冲击, 1条)、光模块(利好, 中冲击, 1条)。",
+    "今日共抓取 33 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 9 条，高影响 14 条，利好方向 27 条。",
+    "板块概况：半导体(利好, 强冲击, 16条)、黄金(利好, 强冲击, 15条)、创新药(利好, 强冲击, 1条)、光模块(利好, 中冲击, 1条)。",
     "重点关注：百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球；黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决；中国黄金协会：我国黄金储备居全球第五位。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，34 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，33 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
-    {
-      "title": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "description": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-08T01:50:11.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPakZzejM3YUlQTDU2WjdaRjVFWGs0bmJDRHMyeUg5SXlmc1RtdGNRWW02OHNuLUVPY1R1MHNXLTNsZlUzVzNkbFhGbW1GXzFuUU9nVmZLYy1tTGtsLXc1V0lPbVdkZjBFVFpubkp1dnN1YS0tekxzVmlGR2FnVkRaUWJfTVdiNE9sVHFfVVFPd3Jhd2NQQTB2SGFSOVV3MFZuM2htUWYySlhMblRob3FVRkZwVWs1YkM1TFVkbkNPWFVuWDdnQm1rVE1RYVdCdnhFTWM3MURiR0sxanNYTUgydlRkb3g5NkxLUFVVV0R6eElHSjVrWms2MA?oc=5"
-    },
     {
       "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
       "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
@@ -1169,7 +1145,7 @@
       "datasets": [
         {
           "data": [
-            28,
+            27,
             6
           ],
           "backgroundColor": [
@@ -1221,7 +1197,7 @@
         },
         "黄金": {
           "极高": 0,
-          "高": 13,
+          "高": 12,
           "中": 0,
           "低": 3
         }
@@ -1242,7 +1218,7 @@
             14,
             0,
             1,
-            13
+            12
           ],
           "backgroundColor": "#16a34a"
         },
@@ -1267,7 +1243,7 @@
       "datasets": [
         {
           "data": [
-            22,
+            21,
             12
           ],
           "backgroundColor": [
