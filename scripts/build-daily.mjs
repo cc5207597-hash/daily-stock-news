@@ -14,9 +14,9 @@ const OUTPUT_DIR = join(PROJECT_ROOT, 'output');
 const HISTORY_DIR = join(PROJECT_ROOT, 'history');
 
 import { CONFIG } from '../pipeline/config.mjs';
-import { formatTime, getTodayStr, getTodayDisplay } from '../pipeline/utils.mjs';
+import { formatTime, getTodayStr, getTodayDisplay, beijingDateKey } from '../pipeline/utils.mjs';
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
-import { dedupAndClean, dedupKey, freshnessFilter } from '../pipeline/clean.mjs';
+import { dedupAndClean, dedupKey } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
 import { SECTORS, CATEGORY_CLS, IMPACT_RANK, impactCompare } from '../pipeline/sectors.mjs';
 import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
@@ -454,6 +454,23 @@ ${keyPoints.length > 0 ? `
 </div>
 <script>
 const REFRESH_URL = '';
+// Site root derived from the current URL. On gh-pages the app lives under a
+// repo subpath (…/daily-stock-news/) — a leading-slash path like /history/…
+// would resolve against the root domain and 404. History pages sit under
+// /history/, so that segment (and any .html filename) is stripped to find
+// the directory that holds index.html.
+function siteBase(){
+  let p = window.location.pathname;
+  if (p.includes('/history/')) {
+    p = p.slice(0, p.indexOf('/history/'));
+  } else if (p.endsWith('.html')) {
+    p = p.slice(0, p.lastIndexOf('/'));
+  } else if (p.endsWith('/')) {
+    p = p.slice(0, -1);
+  }
+  return p; // '' when deployed at the domain root (local preview)
+}
+const BASE = siteBase();
 async function triggerRefresh(){
   const btn = document.querySelector('.refresh-btn');
   btn.disabled = true;
@@ -512,7 +529,7 @@ async function loadHistoryDates(){
   const sel = document.getElementById('historySelect');
   if(!sel) return;
   try {
-    const r = await fetch(REFRESH_URL + '/history/dates.json');
+    const r = await fetch(BASE + '/history/dates.json');
     const d = await r.json();
     sel.innerHTML = '<option value="">-- 选择日期 --</option>';
     (d.dates || []).forEach(dt => {
@@ -528,10 +545,10 @@ function showHistoryDate(){
   const sel = document.getElementById('historySelect');
   const dt = sel.value;
   if(!dt) return;
-  window.location.href = REFRESH_URL + '/history/日报_' + dt + '.html';
+  window.location.href = BASE + '/history/日报_' + dt + '.html';
 }
 function goToday(){
-  window.location.href = REFRESH_URL + '/';
+  window.location.href = BASE + '/';
 }
 document.addEventListener('DOMContentLoaded', loadHistoryDates);
 </script>
@@ -768,22 +785,27 @@ async function main() {
   const archivedPayload = loadHistoryPayload(dateStr);
   const mergedItems = mergeWithHistory(newsItems, archivedPayload);
 
-  // 2. Clean: dedup, classify, freshness filter
+  // 2. Clean: dedup, classify, day-bound filter
+  // Bound the report to the target Beijing day (dateStr), not a rolling 24h
+  // window — otherwise yesterday-evening headlines bleed into today's report
+  // (08-07 晚间新闻混进 08-08 日报) and the "两天混一起" complaint recurs.
   const deduped = dedupAndClean(mergedItems);
-  const cleaned = freshnessFilter(deduped);
-  console.log(`\n✅ 最终 ${cleaned.length} 条待分析新闻\n`);
+  const kept = deduped.filter(item => beijingDateKey(item.pubDate) === dateStr);
+  const dropped = deduped.length - kept.length;
+  if (dropped > 0) console.log(`  🗓️  丢弃非当日(北京时间 ${dateStr})新闻: ${dropped} 条`);
+  console.log(`\n✅ 最终 ${kept.length} 条待分析新闻（${dateStr} 当日）\n`);
 
   // 3. Analyze
-  const result = await analyzeWithClaude(cleaned);
+  const result = await analyzeWithClaude(kept);
 
   // 3b. Sector backfill — guarantee every sector has at least one card. A build
-  // can legitimately come back with a sector empty (that time window had no news,
-  // everything got age-filtered, or the keyword engine classified nothing into
-  // it), and an empty sector looks like a broken report. Pull the newest item of
-  // the missing sector from the *pre-freshness* pool (deduped), which still holds
-  // everything classified into a sector regardless of the 24h window.
+  // can legitimately come back with a sector empty (that time window had no news
+  // or the keyword engine classified nothing into it), and an empty sector looks
+  // like a broken report. Pull the newest item of the missing sector from the
+  // *day-filtered* pool (kept) — never from yesterday, so backfilled cards can't
+  // mix two days' news the way the 24h window used to.
   const present = new Set((result.analyzed || []).map(n => n.category));
-  const backfillPool = deduped.filter(n => SECTORS.includes(n.guessedSector));
+  const backfillPool = kept.filter(n => SECTORS.includes(n.guessedSector));
   const backfilled = [];
   for (const sector of SECTORS) {
     if (present.has(sector)) continue;

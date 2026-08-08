@@ -60,3 +60,13 @@ export function getTodayDisplay() {
   const bj = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
   return `${bj.getFullYear()}-${String(bj.getMonth() + 1).padStart(2, '0')}-${String(bj.getDate()).padStart(2, '0')}`;
 }
+
+// Beijing-date key (YYYYMMDD) for an arbitrary timestamp — bounds a day's report
+// to that day's news instead of a rolling 24h window, so yesterday-evening
+// headlines don't bleed into today's report (e.g. 08-07 新闻混进 08-08 日报).
+export function beijingDateKey(date) {
+  const d = date instanceof Date ? date : new Date(date);
+  if (isNaN(d.getTime())) return '';
+  const bj = new Date(d.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
+  return `${bj.getFullYear()}${String(bj.getMonth() + 1).padStart(2, '0')}${String(bj.getDate()).padStart(2, '0')}`;
+}

@@ -1,8 +1,40 @@
 {
   "date": "20260808",
   "displayDate": "2026-08-08",
-  "generatedAt": "2026-08-08T03:08:40.567Z",
+  "generatedAt": "2026-08-08T03:47:43.081Z",
   "analyzed": [
+    {
+      "title_cn": "【特朗普说很多人称他是最伟大总统之一】当地时间8月6日，有记者在采访美国总统特朗普时提出，如果民主党人在中期选举后控制国会众议院，可能会再次试图弹劾他，特朗普表示，“很多人说我是有史以来最伟大的总统之一”。记者表示“民主党人可没这么说”，特朗普则回应说，民主党人不这么说，但能看到自己的政绩。特朗普表示，现在美国获得的投资比历史上任何时期都多，比任何国家都多，投资额无人能及。他强调，美国现在真的正处于黄金时代。（CCTV国际时讯）",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【特朗普说很多人称他是最伟大总统之一】当地时间8月6日，有记者在采访美国总统特朗普时提出，如果民主党人在中期选举后控制国会众议院，可能会再次试图弹劾他，特朗普表示，“很多人说我是有史以来最伟大的总统之一”。记者表示“民主党人可没这么说”，特朗普则回应说，民主党人不这么说，但能看到自己的政绩。特朗普表示，现在美国获得的投资比历史上任何时期都多，比任何国家都多，投资额无人能及。他强调，美国现在真的正处于黄金时代。（CCTV国际时讯）",
+      "description": "",
+      "pubDate": "2026-08-08T03:41:33.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqptv6527218.d.html"
+    },
+    {
+      "title_cn": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
+      "summary_cn": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
+      "description": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
+      "pubDate": "2026-08-08T01:27:01.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2449024"
+    },
     {
       "title_cn": "英伟达 has agreed to invest $2 bln in power‑infras",
       "summary_cn": "英伟达 has agreed to invest $2 bln in power‑infrastructure developer Lancium and has committed to a further $1 bln once Lancium secures additional planned power resources, The Information reported. The transaction implies an enterp上涨 value of about $10 bln for Lancium and its land and grid‑connection assets, including the investment and debt. Lancium, backed by Blackstone, is developing Texas power projects serving OpenAI and ORACLE AI campuses.",
@@ -100,22 +132,6 @@
       "link": "https://wallstreetcn.com/articles/3146953"
     },
     {
-      "title_cn": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
-      "summary_cn": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
-      "description": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
-      "pubDate": "2026-08-08T01:27:01.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2449024"
-    },
-    {
       "title_cn": "据知情人士称，英伟达将通过首笔20亿美元的投资获得Lancium 20%的股权，如果Lancium达到某些阈值，其持股比例可能随再追加的10亿美元投资而增加。",
       "summary_cn": "",
       "category": "半导体",
@@ -180,8 +196,8 @@
       "link": ""
     },
     {
-      "title_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - Bitcoin World",
-      "summary_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead&nbsp;&nbsp; Bitcoin World",
+      "title_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - bitcoinworld.co.in",
+      "summary_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead&nbsp;&nbsp; bitcoinworld.co.in",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -189,43 +205,11 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead - Bitcoin World",
-      "description": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbsp;&nbsp; Bitcoin World",
+      "title": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead - bitcoinworld.co.in",
+      "description": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbsp;&nbsp; bitcoinworld.co.in",
       "pubDate": "2026-08-08T00:50:11.000Z",
-      "source": "Bitcoin World",
+      "source": "bitcoinworld.co.in",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jc09kQy1mNXZmT2swT25lS2FDdEtoY1FaZzBOWWpSYlZOXzNBenl5Ul9qbzFHanphZ1hDS0x3dFlzWGJ3U21IdHJCczcyTE00MWlOWjNhVVFnZ3B4X3IyLVotU29jTkh5OElZM3FB?oc=5"
-    },
-    {
-      "title_cn": "一夜上涨30元 金饰克价重回1300元",
-      "summary_cn": "【一夜上涨30元 金饰克价重回1300元】8日，国际贵金属期货收涨，COMEX黄金期货涨2.37%，报4401.3美元/盎司，本周累计涨超7%。现货黄金收涨2.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "一夜上涨30元 金饰克价重回1300元",
-      "description": "【一夜上涨30元 金饰克价重回1300元】8日，国际贵金属期货收涨，COMEX黄金期货涨2.37%，报4401.3美元/盎司，本周累计涨超7%。现货黄金收涨2.40%，报4341.91美元/盎司，本周累计涨超7%。中新经纬查询发现，8日，老庙黄金足金首饰克价1310元，较前一日上涨27元；老凤祥足金首饰克价1301元，单日上涨18元；周生生足金首饰克价1315元，单日上涨30元。",
-      "pubDate": "2026-08-08T01:48:00.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1354,202608083835797771.html"
-    },
-    {
-      "title_cn": "极端天气扰动7月外贸增速，芯片出口仍同比激增117%",
-      "summary_cn": "受极端天气影响，中国外贸在保持高位的同时增速有所回落。根据8月7日海关总署公布的数据，以美元计价，2026年7月我国外贸进出口总值6832.1亿美元，较6月回落",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "极端天气扰动7月外贸增速，芯片出口仍同比激增117%",
-      "description": "受极端天气影响，中国外贸在保持高位的同时增速有所回落。根据8月7日海关总署公布的数据，以美元计价，2026年7月我国外贸进出口总值6832.1亿美元，较6月回落159.4亿美元；同比增长25.0%，增速较6月回落5.6个百分点。与此同时，7月出口和进口同比增速分别较6月回落3.1和8.5个百分点。",
-      "pubDate": "2026-08-08T00:23:24.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608083835789924.html"
     },
     {
       "title_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
@@ -244,20 +228,20 @@
       "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqimv4303436.d.html"
     },
     {
-      "title_cn": "上海国投先导参与投资智微凌峰基金",
-      "summary_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，",
-      "category": "半导体",
+      "title_cn": "一夜上涨30元 金饰克价重回1300元",
+      "summary_cn": "【一夜上涨30元 金饰克价重回1300元】8日，国际贵金属期货收涨，COMEX黄金期货涨2.37%，报4401.3美元/盎司，本周累计涨超7%。现货黄金收涨2.",
+      "category": "黄金",
       "direction": "中性",
       "impact": "低",
       "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "上海国投先导参与投资智微凌峰基金",
-      "description": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
-      "pubDate": "2026-08-08T01:12:07.000Z",
+      "title": "一夜上涨30元 金饰克价重回1300元",
+      "description": "【一夜上涨30元 金饰克价重回1300元】8日，国际贵金属期货收涨，COMEX黄金期货涨2.37%，报4401.3美元/盎司，本周累计涨超7%。现货黄金收涨2.40%，报4341.91美元/盎司，本周累计涨超7%。中新经纬查询发现，8日，老庙黄金足金首饰克价1310元，较前一日上涨27元；老凤祥足金首饰克价1301元，单日上涨18元；周生生足金首饰克价1315元，单日上涨30元。",
+      "pubDate": "2026-08-08T01:48:00.000Z",
       "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608083835794373.html"
+      "link": "http://finance.eastmoney.com/news/1354,202608083835797771.html"
     },
     {
       "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017",
@@ -276,6 +260,38 @@
       "link": ""
     },
     {
+      "title_cn": "极端天气扰动7月外贸增速，芯片出口仍同比激增117%",
+      "summary_cn": "受极端天气影响，中国外贸在保持高位的同时增速有所回落。根据8月7日海关总署公布的数据，以美元计价，2026年7月我国外贸进出口总值6832.1亿美元，较6月回落",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "极端天气扰动7月外贸增速，芯片出口仍同比激增117%",
+      "description": "受极端天气影响，中国外贸在保持高位的同时增速有所回落。根据8月7日海关总署公布的数据，以美元计价，2026年7月我国外贸进出口总值6832.1亿美元，较6月回落159.4亿美元；同比增长25.0%，增速较6月回落5.6个百分点。与此同时，7月出口和进口同比增速分别较6月回落3.1和8.5个百分点。",
+      "pubDate": "2026-08-08T00:23:24.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608083835789924.html"
+    },
+    {
+      "title_cn": "上海国投先导参与投资智微凌峰基金",
+      "summary_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "上海国投先导参与投资智微凌峰基金",
+      "description": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
+      "pubDate": "2026-08-08T01:12:07.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608083835794373.html"
+    },
+    {
       "title_cn": "新华财经早报：8月8日",
       "summary_cn": "·海关总署：1至7月集成电路累计出口金额达2160亿美元同比增长99.5%·人民银行连续第21个月增持黄金·北京进一步优化调整房地产政策非京籍家庭购房社保个税缴",
       "category": "黄金",
@@ -292,8 +308,8 @@
       "link": "http://finance.eastmoney.com/news/1354,202608083835789634.html"
     },
     {
-      "title_cn": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - fx168news.com",
-      "summary_cn": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; fx168news.com",
+      "title_cn": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - FX168财经",
+      "summary_cn": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; FX168财经",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -301,10 +317,10 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - fx168news.com",
-      "description": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; fx168news.com",
+      "title": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - FX168财经",
+      "description": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; FX168财经",
       "pubDate": "2026-08-07T23:11:26.000Z",
-      "source": "fx168news.com",
+      "source": "FX168财经",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UVzhRdGFxclhnbVVzRWUzTFFBMmw1TzFVd2J5Z2UyX1owaVZkWEVuT1hqb1RlYl9FM3FfamVYWFhQcXdRenpKYWkzZHdWUldrU2ZhVjdPbjl6NUFhTkdmeEVCTE9RMVdNWWU2Vg?oc=5"
     },
     {
@@ -324,8 +340,8 @@
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPUWQzSkhQT2M1aHhXY3FkajhMemlOTzFXZF9LdDRBbzRzeG9DMzFEWG0xZTdwenMybTh2akUwSUZBcFJxRm5GTzdTYllPRk0wY1N4RzFkMG1DTmZxN01BYjJTazhuWnp5RUZ5dDBLcDlkY2gxWjJ4RVJnY1g5N1YxUzRsQzN0M3JaM2l5NlJKb3dFbzBEVmdQVk80RTVrN0lDUHRwSkhSZ3pWZy0tTy1oOWlUSXg2QnFIZmdvWXZkbzBkZnJRNFF6UFd6RG5VLTlEWXN5NEpvQ09hZjBaRVZMTVBLQmgybFRGU3prTWgxLWFNVVloUVJvamF5TWFEcUU0dWJtSHFBSG1YYThwRzZoUFVBY0JaNlhMbF9tNmtSMWY5Y1BpRGlydDlOOWlkdkF4TlhUeXo0MzNWZDM5SVJLV1JhMHlxTXljNks3bWdHUDFtMkgwRmxxdlRTUFJJdw?oc=5"
     },
     {
-      "title_cn": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - fx168news.com",
-      "summary_cn": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; fx168news.com",
+      "title_cn": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - FX168财经",
+      "summary_cn": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; FX168财经",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -333,10 +349,10 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - fx168news.com",
-      "description": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; fx168news.com",
+      "title": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - FX168财经",
+      "description": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; FX168财经",
       "pubDate": "2026-08-07T20:10:59.000Z",
-      "source": "fx168news.com",
+      "source": "FX168财经",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSmVkQVgzTmt0emlNS2dxUWw1SUpFT0RhRmZGRUZpblpCU3pKaXJ3WGp1dmwtVTB2RUtGRW51aENiSFZCZU1YZ0ZORjdTRWN0N1dwN0NsbTFZU2JhNEdmLWxXRk9Dc2owNk5YVA?oc=5"
     },
     {
@@ -354,177 +370,9 @@
       "pubDate": "2026-08-07T20:58:55.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3146923"
-    },
-    {
-      "title_cn": "黄金 Weekly 预测: Bullish pressure builds on easing 美联储 rate hike bets - FXStreet",
-      "summary_cn": "黄金 Weekly 预测: Bullish pressure builds on easing 美联储 rate hike bets&nbsp;&nbsp; FXStreet",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Gold Weekly Forecast: Bullish pressure builds on easing Fed rate hike bets - FXStreet",
-      "description": "Gold Weekly Forecast: Bullish pressure builds on easing Fed rate hike bets&nbsp;&nbsp; FXStreet",
-      "pubDate": "2026-08-07T14:23:05.000Z",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR1FVMDdyNGpLbFhFLUZ4Ml9ERE5wWk5oa01Dc0czX25oMjZHSk5NOVJJQmd3NFZzRnhNSTlncWJ2NnZZWGYwNjJ5SW9Ra1B0UkI3N01ydnBQRFNxT2dSY05aanU2UGNpcU56aVY1QkJUQkwtcEEzd2k4RjdubUcwWXhCcWcxdnVpbXRiRWxaWlJVN2VtWWRYcmVkVU54Y3lFTDNBQV9aT280cVVHY0ZvdmZPSzF3M2hRWnVfRg?oc=5"
-    },
-    {
-      "title_cn": "黄金 Weekly 预测: Bullish Momentum Builds As 美联储 Rate Hike Bets Fade - Bitcoin World",
-      "summary_cn": "黄金 Weekly 预测: Bullish Momentum Builds As 美联储 Rate Hike Bets Fade&nbsp;&nbsp; Bitcoin World",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Gold Weekly Forecast: Bullish Momentum Builds As Fed Rate Hike Bets Fade - Bitcoin World",
-      "description": "Gold Weekly Forecast: Bullish Momentum Builds As Fed Rate Hike Bets Fade&nbsp;&nbsp; Bitcoin World",
-      "pubDate": "2026-08-07T14:40:12.000Z",
-      "source": "Bitcoin World",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0wxVjdDVzdCQXJWSlJCUk5EaVZKMlpvdnhPVXo1aEl1QW95cS1XQVd0eDU4b0cwZXB0Tm1JU1c5VlY5N2UxV3ZISy0wam93NnM2M25XYU9xbWtKOGN1YTluYXhEaXZldW9Od29weDJCTXR1QTBMNzdSUmxkWW11LXN1dWVDR291VGlIaw?oc=5"
-    },
-    {
-      "title_cn": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯 - 财联社",
-      "summary_cn": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯&nbsp;&nbsp; 财联社",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯 - 财联社",
-      "description": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯&nbsp;&nbsp; 财联社",
-      "pubDate": "2026-08-07T11:40:15.000Z",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1adTBjSWw3TlM3cl9fMkR2aEl4RUtYMWtOSTNGekU4eXRjTmNWdVJGSGMwNXRCWUxvMlk3Z05aakRLc19waVNyOA?oc=5"
-    },
-    {
-      "title_cn": "黄金 价格 预测: Can 黄金 Still 上涨 Above $4,300 Ahead of July Non-Farm Payrolls? - 交易Key",
-      "summary_cn": "黄金 价格 预测: Can 黄金 Still 上涨 Above $4,300 Ahead of July Non-Farm Payrolls?&nbsp;&nbsp; 交易Key",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Gold Price Forecast: Can Gold Still Rise Above $4,300 Ahead of July Non-Farm Payrolls? - TradingKey",
-      "description": "Gold Price Forecast: Can Gold Still Rise Above $4,300 Ahead of July Non-Farm Payrolls?&nbsp;&nbsp; TradingKey",
-      "pubDate": "2026-08-07T09:33:01.000Z",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEZvSDlZZFRtdUJWLUlLTjk1S1o5bUpmVUM3cVlROUNIbkUzeFk5eFRUdzBsWlhkemhsS3BXWVdTMFZSTUN3YzlEb1ZZR3hwUTJ2d0ZxQ0NGZFBwaUJBaHdjZXB5VTEzQTBMTWRNNzdBOG54QWxwb201WEEwdnpzWF9YRkxLSWthUEhfYU5Vd2RaanhqS0lYRmZLY0lYQVRVVTRrd09PR3lDMGN4UHZwT08yZk11RW5sYnNxWmdyMzhzZGVZcmFIWUxPY1VnU2phUmFfX3QyOVVHOXdST1dqSnBVSm83Z0E2bk8yM3hPNWdJbmItRkVfb18wWjE?oc=5"
-    },
-    {
-      "title_cn": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿 - fx168news.com",
-      "summary_cn": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "百济神州、药明康德、恒瑞医药",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿 - fx168news.com",
-      "description": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿&nbsp;&nbsp; fx168news.com",
-      "pubDate": "2026-08-07T07:31:24.000Z",
-      "source": "fx168news.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yYkRFUWNVeTZfdE5oNmIyQlhCVGtKRHozQUJEdVdWRXgtUTRtOXU3THV4N3h4cE9jWEpCMnV5cEQ5dXZacnJhLUFrcDJFZ2JUX0xj?oc=5"
-    },
-    {
-      "title_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "summary_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "药明康德、百济神州",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
-      "pubDate": "2026-08-07T08:11:19.000Z",
-      "source": "雪球",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5"
-    },
-    {
-      "title_cn": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析 - 中金在线",
-      "summary_cn": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析&nbsp;&nbsp; 中金在线",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析 - 中金在线",
-      "description": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析&nbsp;&nbsp; 中金在线",
-      "pubDate": "2026-08-07T08:01:03.000Z",
-      "source": "中金在线",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0xwLTNUamZxVXRtUWpXMFdhMmlQTXZJMUhXRWFBdXZRYWVrRUJIMzRPUGJqNWw5dWV0b2ZCVGNQMXZ3MlhOX05SM3o4Uk9VcnJJX1EyWkNrQWJuVWVER1BLWHhHYm9oWUowU25WVQ?oc=5"
-    },
-    {
-      "title_cn": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "summary_cn": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "description": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "pubDate": "2026-08-07T05:20:28.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmZfNS1PbDVWU1RlNDBfUUdGMi1yOVVPeFFnRDI2TnpjazZjQVNxSFhLWERFTUlMN21KMUFNN2NaYVVMU2NOOS1LSGgtLW5kaXVlbkY0SzZtcHZDdHhyMDEtdVFYenI5SW9WTXZRalVDRnNDM3daM1psZWJ2WkRoOFJsRFZVRE5qd2RsX2h5RURvZ25wVXBTc3prTnJneGc?oc=5"
-    },
-    {
-      "title_cn": "黄金 价格 预测: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited - CryptoRank",
-      "summary_cn": "黄金 价格 预测: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited&nbsp;&nbsp; CryptoRank",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Gold Price Forecast: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited - CryptoRank",
-      "description": "Gold Price Forecast: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited&nbsp;&nbsp; CryptoRank",
-      "pubDate": "2026-08-07T06:16:53.000Z",
-      "source": "CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYmo2NDhiZHlJLUJHeWd4dmM4b3VrUmpOUVNKck9YUkZKLWZENnpxRWFuMjRSTmlVWE5nZ1l6ekNxNzB2a2JsaG9uUmcxVGY1UUNoX0tDUTFqRk5tVFFmNXFUX3JtVTZ5b29uZm0xU1pWR21JTE4ySU1PM09uSTk2T2RiN2IyZnVNcldNeg?oc=5"
-    },
-    {
-      "title_cn": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳 - 新浪财经",
-      "summary_cn": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳&nbsp;&nbsp; 新浪财经",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳 - 新浪财经",
-      "description": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳&nbsp;&nbsp; 新浪财经",
-      "pubDate": "2026-08-07T03:21:50.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcXFjeHhqdlpVTFRVQVRsZjJQYU9GNUpNbWJudlFhd0pWRHdVOERRcXROck0xN19hTHoyR0dVSmhCdGxnUVJKN1BaZmVaa0ttLThEV0pnVF8tQVRKUDRiMjZBc3REclBYd0o1Y0RfaVk5VHdOX0xBdnVsTndFTmVBZlk4WGY0RzZUVjJ2YkVlUlVlVTVtU0JOR1Z3RG42U3IxWklObA?oc=5"
     }
   ],
   "sectorMatrix": [
-    {
-      "name": "黄金",
-      "shock": "强",
-      "direction": "利好",
-      "news_count": 15,
-      "summary": "黄金板块15条新闻，方向以利好为主",
-      "tickers": "紫金矿业、山东黄金"
-    },
     {
       "name": "半导体",
       "shock": "强",
@@ -534,61 +382,45 @@
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
-      "name": "创新药",
+      "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 3,
-      "summary": "创新药板块3条新闻，方向以利好为主",
-      "tickers": "药明康德、百济神州、恒瑞医药"
+      "news_count": 10,
+      "summary": "黄金板块10条新闻，方向以利好为主。关注：黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500",
+      "tickers": "紫金矿业、山东黄金"
     },
     {
       "name": "光模块",
       "shock": "中",
       "direction": "利好",
-      "news_count": 1,
-      "summary": "光模块板块1条新闻，方向以利好为主",
-      "tickers": "中际旭创、新易盛、天孚通信"
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    },
+    {
+      "name": "创新药",
+      "shock": "中",
+      "direction": "利好",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
     }
   ],
   "keyPoints": [
-    "今日共抓取 32 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 10 条，高影响 14 条，利好方向 27 条。",
-    "板块概况：黄金(利好, 强冲击, 15条)、半导体(利好, 强冲击, 13条)、创新药(利好, 强冲击, 3条)、光模块(利好, 中冲击, 1条)。",
-    "重点关注：百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球；紧箍咒被摘下！为何这次油价跌，黄金涨的传导顺畅了？美国前财长萨默斯告诉你什么才是黄金上涨真正的“关键；【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯 - 财联社。"
+    "今日共抓取 23 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 9 条，高影响 8 条，利好方向 20 条。",
+    "板块概况：半导体(利好, 强冲击, 13条)、黄金(利好, 强冲击, 10条)、光模块(利好, 中冲击, 0条)、创新药(利好, 中冲击, 0条)。",
+    "重点关注：紧箍咒被摘下！为何这次油价跌，黄金涨的传导顺畅了？美国前财长萨默斯告诉你什么才是黄金上涨真正的“关键；国际金价在非农日涨约2.4%，本周累涨约7.3%；极端天气扰动7月外贸增速，芯片出口仍同比激增117%。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，32 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，23 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
-      "description": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T05:20:28.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNbmZfNS1PbDVWU1RlNDBfUUdGMi1yOVVPeFFnRDI2TnpjazZjQVNxSFhLWERFTUlMN21KMUFNN2NaYVVMU2NOOS1LSGgtLW5kaXVlbkY0SzZtcHZDdHhyMDEtdVFYenI5SW9WTXZRalVDRnNDM3daM1psZWJ2WkRoOFJsRFZVRE5qd2RsX2h5RURvZ25wVXBTc3prTnJneGc?oc=5"
-    },
-    {
-      "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T08:11:19.000Z",
-      "source": "雪球",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5"
-    },
-    {
-      "title": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - fx168news.com",
-      "description": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; fx168news.com",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T20:10:59.000Z",
-      "source": "fx168news.com",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSmVkQVgzTmt0emlNS2dxUWw1SUpFT0RhRmZGRUZpblpCU3pKaXJ3WGp1dmwtVTB2RUtGRW51aENiSFZCZU1YZ0ZORjdTRWN0N1dwN0NsbTFZU2JhNEdmLWxXRk9Dc2owNk5YVA?oc=5"
-    },
-    {
-      "title": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - fx168news.com",
-      "description": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; fx168news.com",
+      "title": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500 - FX168财经",
+      "description": "黄金单日暴涨逾7%！非农“爆雷”引爆降息交易，金价突破4370美元剑指4500&nbsp;&nbsp; FX168财经",
       "guessedSector": "黄金",
       "pubDate": "2026-08-07T23:11:26.000Z",
-      "source": "fx168news.com",
+      "source": "FX168财经",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1UVzhRdGFxclhnbVVzRWUzTFFBMmw1TzFVd2J5Z2UyX1owaVZkWEVuT1hqb1RlYl9FM3FfamVYWFhQcXdRenpKYWkzZHdWUldrU2ZhVjdPbjl6NUFhTkdmeEVCTE9RMVdNWWU2Vg?oc=5"
     },
     {
@@ -600,68 +432,28 @@
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxPUWQzSkhQT2M1aHhXY3FkajhMemlOTzFXZF9LdDRBbzRzeG9DMzFEWG0xZTdwenMybTh2akUwSUZBcFJxRm5GTzdTYllPRk0wY1N4RzFkMG1DTmZxN01BYjJTazhuWnp5RUZ5dDBLcDlkY2gxWjJ4RVJnY1g5N1YxUzRsQzN0M3JaM2l5NlJKb3dFbzBEVmdQVk80RTVrN0lDUHRwSkhSZ3pWZy0tTy1oOWlUSXg2QnFIZmdvWXZkbzBkZnJRNFF6UFd6RG5VLTlEWXN5NEpvQ09hZjBaRVZMTVBLQmgybFRGU3prTWgxLWFNVVloUVJvamF5TWFEcUU0dWJtSHFBSG1YYThwRzZoUFVBY0JaNlhMbF9tNmtSMWY5Y1BpRGlydDlOOWlkdkF4TlhUeXo0MzNWZDM5SVJLV1JhMHlxTXljNks3bWdHUDFtMkgwRmxxdlRTUFJJdw?oc=5"
     },
     {
-      "title": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析 - 中金在线",
-      "description": "A股收评：沪指涨1.02%！CRO概念、AI硬件板块集体爆发_市场分析&nbsp;&nbsp; 中金在线",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T08:01:03.000Z",
-      "source": "中金在线",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5BR0xwLTNUamZxVXRtUWpXMFdhMmlQTXZJMUhXRWFBdXZRYWVrRUJIMzRPUGJqNWw5dWV0b2ZCVGNQMXZ3MlhOX05SM3o4Uk9VcnJJX1EyWkNrQWJuVWVER1BLWHhHYm9oWUowU25WVQ?oc=5"
-    },
-    {
-      "title": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿 - fx168news.com",
-      "description": "ETF风向标 | 创新药板块大爆发，科创创新药ETF涨超8%，创新药ETF、港股创新药ETF涨超6%，黄金ETF近5日“吸金”28亿，黄金股ETF同期流入15亿&nbsp;&nbsp; fx168news.com",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-07T07:31:24.000Z",
-      "source": "fx168news.com",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE8yYkRFUWNVeTZfdE5oNmIyQlhCVGtKRHozQUJEdVdWRXgtUTRtOXU3THV4N3h4cE9jWEpCMnV5cEQ5dXZacnJhLUFrcDJFZ2JUX0xj?oc=5"
-    },
-    {
-      "title": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳 - 新浪财经",
-      "description": "算力龙头走强，光迅科技、生益科技涨停！跑赢科创50的“宽基”科技ETF涨超2.5%，冲击四连阳&nbsp;&nbsp; 新浪财经",
-      "guessedSector": "光模块",
-      "pubDate": "2026-08-07T03:21:50.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcXFjeHhqdlpVTFRVQVRsZjJQYU9GNUpNbWJudlFhd0pWRHdVOERRcXROck0xN19hTHoyR0dVSmhCdGxnUVJKN1BaZmVaa0ttLThEV0pnVF8tQVRKUDRiMjZBc3REclBYd0o1Y0RfaVk5VHdOX0xBdnVsTndFTmVBZlk4WGY0RzZUVjJ2YkVlUlVlVTVtU0JOR1Z3RG42U3IxWklObA?oc=5"
-    },
-    {
-      "title": "黄金 Weekly 预测: Bullish pressure builds on easing 美联储 rate hike bets - FXStreet",
-      "description": "Gold Weekly Forecast: Bullish pressure builds on easing Fed rate hike bets&nbsp;&nbsp; FXStreet",
+      "title": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元 - FX168财经",
+      "description": "黄金狂飙8%后再迎利好！瑞银大胆看涨：金价2027年或冲上5000美元&nbsp;&nbsp; FX168财经",
       "guessedSector": "黄金",
-      "pubDate": "2026-08-07T14:23:05.000Z",
-      "source": "FXStreet",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPR1FVMDdyNGpLbFhFLUZ4Ml9ERE5wWk5oa01Dc0czX25oMjZHSk5NOVJJQmd3NFZzRnhNSTlncWJ2NnZZWGYwNjJ5SW9Ra1B0UkI3N01ydnBQRFNxT2dSY05aanU2UGNpcU56aVY1QkJUQkwtcEEzd2k4RjdubUcwWXhCcWcxdnVpbXRiRWxaWlJVN2VtWWRYcmVkVU54Y3lFTDNBQV9aT280cVVHY0ZvdmZPSzF3M2hRWnVfRg?oc=5"
+      "pubDate": "2026-08-07T20:10:59.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE4xSmVkQVgzTmt0emlNS2dxUWw1SUpFT0RhRmZGRUZpblpCU3pKaXJ3WGp1dmwtVTB2RUtGRW51aENiSFZCZU1YZ0ZORjdTRWN0N1dwN0NsbTFZU2JhNEdmLWxXRk9Dc2owNk5YVA?oc=5"
     },
     {
-      "title": "黄金 价格 预测: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited - CryptoRank",
-      "description": "Gold Price Forecast: XAU/USD Bulls Regain Momentum as US Nonfarm Payrolls Awaited&nbsp;&nbsp; CryptoRank",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T06:16:53.000Z",
-      "source": "CryptoRank",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYmo2NDhiZHlJLUJHeWd4dmM4b3VrUmpOUVNKck9YUkZKLWZENnpxRWFuMjRSTmlVWE5nZ1l6ekNxNzB2a2JsaG9uUmcxVGY1UUNoX0tDUTFqRk5tVFFmNXFUX3JtVTZ5b29uZm0xU1pWR21JTE4ySU1PM09uSTk2T2RiN2IyZnVNcldNeg?oc=5"
-    },
-    {
-      "title": "黄金 价格 预测: Can 黄金 Still 上涨 Above $4,300 Ahead of July Non-Farm Payrolls? - 交易Key",
-      "description": "Gold Price Forecast: Can Gold Still Rise Above $4,300 Ahead of July Non-Farm Payrolls?&nbsp;&nbsp; TradingKey",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T09:33:01.000Z",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOdEZvSDlZZFRtdUJWLUlLTjk1S1o5bUpmVUM3cVlROUNIbkUzeFk5eFRUdzBsWlhkemhsS3BXWVdTMFZSTUN3YzlEb1ZZR3hwUTJ2d0ZxQ0NGZFBwaUJBaHdjZXB5VTEzQTBMTWRNNzdBOG54QWxwb201WEEwdnpzWF9YRkxLSWthUEhfYU5Vd2RaanhqS0lYRmZLY0lYQVRVVTRrd09PR3lDMGN4UHZwT08yZk11RW5sYnNxWmdyMzhzZGVZcmFIWUxPY1VnU2phUmFfX3QyOVVHOXdST1dqSnBVSm83Z0E2bk8yM3hPNWdJbmItRkVfb18wWjE?oc=5"
-    },
-    {
-      "title": "黄金 Weekly 预测: Bullish Momentum Builds As 美联储 Rate Hike Bets Fade - Bitcoin World",
-      "description": "Gold Weekly Forecast: Bullish Momentum Builds As Fed Rate Hike Bets Fade&nbsp;&nbsp; Bitcoin World",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-07T14:40:12.000Z",
-      "source": "Bitcoin World",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPS0wxVjdDVzdCQXJWSlJCUk5EaVZKMlpvdnhPVXo1aEl1QW95cS1XQVd0eDU4b0cwZXB0Tm1JU1c5VlY5N2UxV3ZISy0wam93NnM2M25XYU9xbWtKOGN1YTluYXhEaXZldW9Od29weDJCTXR1QTBMNzdSUmxkWW11LXN1dWVDR291VGlIaw?oc=5"
-    },
-    {
-      "title": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - Bitcoin World",
-      "description": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbsp;&nbsp; Bitcoin World",
+      "title": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - bitcoinworld.co.in",
+      "description": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbsp;&nbsp; bitcoinworld.co.in",
       "guessedSector": "黄金",
       "pubDate": "2026-08-08T00:50:11.000Z",
-      "source": "Bitcoin World",
+      "source": "bitcoinworld.co.in",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jc09kQy1mNXZmT2swT25lS2FDdEtoY1FaZzBOWWpSYlZOXzNBenl5Ul9qbzFHanphZ1hDS0x3dFlzWGJ3U21IdHJCczcyTE00MWlOWjNhVVFnZ3B4X3IyLVotU29jTkh5OElZM3FB?oc=5"
+    },
+    {
+      "title": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
+      "description": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-08T01:27:01.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2449024"
     },
     {
       "title": "紧箍咒被摘下！为何这次油价跌，黄金涨的传导顺畅了？美国前财长萨默斯告诉你什么才是黄金上涨真正的“关键",
@@ -736,6 +528,14 @@
       "link": "http://finance.eastmoney.com/news/1350,202608083835789924.html"
     },
     {
+      "title": "【特朗普说很多人称他是最伟大总统之一】当地时间8月6日，有记者在采访美国总统特朗普时提出，如果民主党人在中期选举后控制国会众议院，可能会再次试图弹劾他，特朗普表示，“很多人说我是有史以来最伟大的总统之一”。记者表示“民主党人可没这么说”，特朗普则回应说，民主党人不这么说，但能看到自己的政绩。特朗普表示，现在美国获得的投资比历史上任何时期都多，比任何国家都多，投资额无人能及。他强调，美国现在真的正处于黄金时代。（CCTV国际时讯）",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-08T03:41:33.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqptv6527218.d.html"
+    },
+    {
       "title": "【SK海力士据悉评估重庆资产方案 包括引入投资者】据知情人士称，SK海力士正研究旗下重庆资产的方案选项，包括引入投资者以帮助加速增长。消息人士称，作为英伟达高带宽内存芯片的重要供应商，SK海力士正与潜在顾问接洽，对该业务进行评估。知情人士表示，潜在的股权出售可能使该设施的估值达到约30亿美元。SK海力士网站显示，该公司20多年前进入中国市场，当时与无锡签署协议建设其首座大型海外晶圆制造厂。位于重庆的设施是SK海力士重要的半导体封装与测试基地。知情人士表示，竞购者可能包括中国基金和产业投资者，SK海力士可能保留该资产的少数股权。知情人士还称，相关讨论仍处于初步阶段，未必会达成任何交易。",
       "description": "",
       "guessedSector": "半导体",
@@ -750,22 +550,6 @@
       "pubDate": "2026-08-08T01:28:12.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3146953"
-    },
-    {
-      "title": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯 - 财联社",
-      "description": "【早报】道指创新高，存储、半导体板块爆发；黄金、白银大涨，油价下跌；C罗告别世界杯&nbsp;&nbsp; 财联社",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-07T11:40:15.000Z",
-      "source": "财联社",
-      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1adTBjSWw3TlM3cl9fMkR2aEl4RUtYMWtOSTNGekU4eXRjTmNWdVJGSGMwNXRCWUxvMlk3Z05aakRLc19waVNyOA?oc=5"
-    },
-    {
-      "title": "英伟达据悉拟向Lancium投资最高30亿美元 支持AI数据中心电力基础设施",
-      "description": "财联社8月8日电，据报道，英伟达将向Lancium投资至多30亿美元。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-08T01:27:01.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2449024"
     },
     {
       "title": "据知情人士称，英伟达将通过首笔20亿美元的投资获得Lancium 20%的股权，如果Lancium达到某些阈值，其持股比例可能随再追加的10亿美元投资而增加。",
@@ -1121,8 +905,8 @@
       "datasets": [
         {
           "data": [
-            27,
-            5
+            20,
+            3
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1163,17 +947,17 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 0
         },
         "创新药": {
-          "极高": 1,
-          "高": 1,
+          "极高": 0,
+          "高": 0,
           "中": 0,
-          "低": 1
+          "低": 0
         },
         "黄金": {
           "极高": 0,
-          "高": 13,
+          "高": 8,
           "中": 0,
           "低": 2
         }
@@ -1193,8 +977,8 @@
           "data": [
             12,
             0,
-            2,
-            13
+            0,
+            8
           ],
           "backgroundColor": "#16a34a"
         },
@@ -1202,8 +986,8 @@
           "label": "中性",
           "data": [
             1,
-            1,
-            1,
+            0,
+            0,
             2
           ],
           "backgroundColor": "#9ca0af"
@@ -1219,8 +1003,8 @@
       "datasets": [
         {
           "data": [
-            22,
-            10
+            17,
+            6
           ],
           "backgroundColor": [
             "#2563eb",

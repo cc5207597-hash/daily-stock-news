@@ -113,14 +113,6 @@ export function dedupAndClean(allItems) {
   return filtered;
 }
 
-export function freshnessFilter(deduped) {
-  const now = Date.now();
-  const recent = deduped.filter(item => (now - item.pubDate.getTime()) < 24 * 3600 * 1000);
-  console.log(`  去重后 ${deduped.length} 条，24小时内 ${recent.length} 条`);
-
-  return recent;
-}
-
 function classifyItem(title, description) {
   const titleText = (title || '').toLowerCase();
   const descText = (description || '').toLowerCase();

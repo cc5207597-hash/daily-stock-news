@@ -1997,6 +1997,23 @@
 </div>
 <script>
 const REFRESH_URL = '';
+// Site root derived from the current URL. On gh-pages the app lives under a
+// repo subpath (…/daily-stock-news/) — a leading-slash path like /history/…
+// would resolve against the root domain and 404. History pages sit under
+// /history/, so that segment (and any .html filename) is stripped to find
+// the directory that holds index.html.
+function siteBase(){
+  let p = window.location.pathname;
+  if (p.includes('/history/')) {
+    p = p.slice(0, p.indexOf('/history/'));
+  } else if (p.endsWith('.html')) {
+    p = p.slice(0, p.lastIndexOf('/'));
+  } else if (p.endsWith('/')) {
+    p = p.slice(0, -1);
+  }
+  return p; // '' when deployed at the domain root (local preview)
+}
+const BASE = siteBase();
 async function triggerRefresh(){
   const btn = document.querySelector('.refresh-btn');
   btn.disabled = true;
@@ -2055,7 +2072,7 @@ async function loadHistoryDates(){
   const sel = document.getElementById('historySelect');
   if(!sel) return;
   try {
-    const r = await fetch(REFRESH_URL + '/history/dates.json');
+    const r = await fetch(BASE + '/history/dates.json');
     const d = await r.json();
     sel.innerHTML = '<option value="">-- 选择日期 --</option>';
     (d.dates || []).forEach(dt => {
@@ -2071,10 +2088,10 @@ function showHistoryDate(){
   const sel = document.getElementById('historySelect');
   const dt = sel.value;
   if(!dt) return;
-  window.location.href = REFRESH_URL + '/history/日报_' + dt + '.html';
+  window.location.href = BASE + '/history/日报_' + dt + '.html';
 }
 function goToday(){
-  window.location.href = REFRESH_URL + '/';
+  window.location.href = BASE + '/';
 }
 document.addEventListener('DOMContentLoaded', loadHistoryDates);
 </script>
