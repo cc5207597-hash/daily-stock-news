@@ -1,7 +1,9 @@
 // ── Pipeline: 清洗、去重与板块分类 ──────────────────────
+// 清洗是一串可插拔的阶段,每个阶段输入 items 数组、输出 items 数组。
+// 新增清洗规则 = 在 STAGES 数组里插一个阶段,不动函数签名。
 
-import { CONFIG, SECTOR_KEYWORDS, SECTOR_CORE_KEYWORDS } from './config.mjs';
-import { SECTORS, matchKw } from './sectors.mjs';
+import { SECTORS } from './sectors.mjs';
+import { classifyItem } from './classifier.mjs';
 
 // Regexes that identify "noise" headlines that should never enter the report:
 // aggregate digests ("1. X. 2. Y."), calendar/forecast listings, pure quotes
@@ -42,7 +44,9 @@ export function dedupKey(title) {
     .substring(0, 50);
 }
 
-export function dedupAndClean(allItems) {
+// ── 清洗阶段 ────────────────────────────────────────────
+
+function stageDedup(allItems) {
   // Deduplicate — prefer direct API sources over RSS
   const seen = new Map();
   const deduped = [];
@@ -59,42 +63,49 @@ export function dedupAndClean(allItems) {
     seen.set(key, item);
     deduped.push(item);
   }
+  return deduped;
+}
 
+function stageNoise(deduped) {
   // Drop noise headlines (aggregate digests, calendars, boilerplate) early,
   // before classification — they carry no single-sector signal.
   const preNoise = deduped.length;
-  let kept = deduped.filter(item => !isNoise(item));
+  const kept = deduped.filter(item => !isNoise(item));
   if (kept.length < preNoise) {
     console.log(`  丢弃废话/聚合快讯: ${preNoise - kept.length} 条`);
   }
+  return kept;
+}
 
+function stageCollapse(kept) {
   // Collapse near-duplicates: the same story republished by many feeds with
   // slightly different phrasing (e.g. 6+ SK海力士/三星 variants). If a shorter
   // normalized title is fully contained in an already-accepted longer one, it's
   // the same story — keep the longer, more informative version only.
-  {
-    const accepted = [];
-    kept = kept.filter(item => {
-      const norm = dedupKey(item.title);
-      if (norm.length < 6) return true; // too short to be a reliable fragment
-      for (const acc of accepted) {
-        const accNorm = dedupKey(acc.title);
-        if (accNorm.length >= norm.length + 4 && accNorm.includes(norm)) return false;
-      }
-      accepted.push(item);
-      return true;
-    });
-  }
-
-  // Sector classification — title weighted far above description. A title hit
-  // is worth more than several description hits, so e.g. "主力资金监控：中际旭创"
-  // (a title full of 中际旭创) lands in 光模块 even when the description mentions 半导体.
-  kept.forEach(item => {
-    if (!item.guessedSector) {
-      item.guessedSector = classifyItem(item.title, item.description);
+  const accepted = [];
+  return kept.filter(item => {
+    const norm = dedupKey(item.title);
+    if (norm.length < 6) return true; // too short to be a reliable fragment
+    for (const acc of accepted) {
+      const accNorm = dedupKey(acc.title);
+      if (accNorm.length >= norm.length + 4 && accNorm.includes(norm)) return false;
     }
+    accepted.push(item);
+    return true;
   });
+}
 
+function stageClassify(kept) {
+  // Sector classification — the single classifier is the only source of
+  // guessedSector. 无条件重算:mergeWithHistory 合并进来的存档项可能带着旧的
+  // (错误)板块标签,若只填缺会让历史错误分类残留进今天的报表。
+  kept.forEach(item => {
+    item.guessedSector = classifyItem(item);
+  });
+  return kept;
+}
+
+function stageFilter(kept) {
   // Drop items unrelated to the four sectors
   const dropped = kept.filter(item => !SECTORS.includes(item.guessedSector));
   const filtered = kept.filter(item => SECTORS.includes(item.guessedSector));
@@ -113,31 +124,10 @@ export function dedupAndClean(allItems) {
   return filtered;
 }
 
-function classifyItem(title, description) {
-  const titleText = (title || '').toLowerCase();
-  const descText = (description || '').toLowerCase();
-  let best = '', bestScore = 0;
-  for (const [sector, kws] of Object.entries(SECTOR_KEYWORDS)) {
-    const core = SECTOR_CORE_KEYWORDS[sector] || [];
-    let score = 0;
-    let coreHit = false;
-    // Core keywords are strong signals: a single hit in the title strongly
-    // implies the sector, a hit in the description is enough to count too.
-    for (const kw of core) {
-      if (matchKw(titleText, kw)) { score += 4; coreHit = true; }
-      else if (matchKw(descText, kw)) { score += 2; coreHit = true; }
-    }
-    // Context keywords (利率, 美联储, 治疗...) only add minor weight. Without a
-    // core hit they can never alone push an item into this sector.
-    if (coreHit) {
-      for (const kw of kws) {
-        if (core.includes(kw)) continue;
-        if (matchKw(titleText, kw)) score += 1;
-        else if (matchKw(descText, kw)) score += 1;
-      }
-    }
-    if (score > bestScore) { bestScore = score; best = sector; }
-  }
-  return best;
+export function dedupAndClean(allItems) {
+  let items = allItems;
+  for (const stage of STAGES) items = stage(items);
+  return items;
 }
 
+const STAGES = [stageDedup, stageNoise, stageCollapse, stageClassify, stageFilter];

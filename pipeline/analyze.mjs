@@ -403,8 +403,13 @@ export async function analyzeWithKeywords(newsItems) {
   const analyzed = translated.map((n) => {
     const titleText = (n.title || '').toLowerCase();
     const descText = (n.description || '').toLowerCase();
+    // 板块归属由清洗层 classifier 决定(guessedSector),KEYWORD_RULES 只在本板块内
+    // 评级 —— 旧实现裸 '黄金'/'gold' 会把「黄金周」等误判再次拉进黄金,且跨板块
+    // 命中(如半导体的 "data center")会带上别板块的 tickers。
+    const sector = n.guessedSector || '';
     let best = null, bestScore = 0;
     for (const rule of KEYWORD_RULES) {
+      if (rule.category !== sector) continue;
       let match = false;
       for (const k of rule.kw) {
         if (matchKw(titleText, k)) { match = true; break; }
@@ -415,12 +420,12 @@ export async function analyzeWithKeywords(newsItems) {
       if (score > bestScore) { bestScore = score; best = rule; }
     }
 
-    const rule = best || { impact: '低', dir: '中性', category: n.guessedSector || '', tickers: '—', time: '中期' };
+    const rule = best || { impact: '低', dir: '中性', tickers: '—', time: '中期' };
     return {
       ...n,
       title_cn: n.title_cn || n.title,
       summary_cn: n.summary_cn || n.description.substring(0, 80),
-      category: rule.category || '',
+      category: sector,
       direction: rule.dir,
       impact: rule.impact,
       certainty: '低',

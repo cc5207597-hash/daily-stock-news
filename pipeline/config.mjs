@@ -93,23 +93,56 @@ export const ETFS = [
   { code: '518800', name: '黄金ETF国泰', category: '黄金' },
 ];
 
-// Sector classification keywords
-export const SECTOR_KEYWORDS = {
-  '半导体': ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'AMD', 'GPU', 'HBM', 'foundry', '代工', '制程', '封装', 'EDA', '光刻', 'ASML', 'DRAM', '存储', '晶圆', 'PCB', '鹏鼎', '封测', '宏碁', '三星'],
-  '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', '数据中心', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '光迅科技', '中富电路', '光库科技', '博创科技', '德科立', '太辰光', '源杰科技', '仕佳光子', '剑桥科技', '联特科技', '腾景科技', '光云科技', '光膜', '光缆', '光棒', '光纤', '数通', '相干', '单模', '多模', '光器件', '光芯片', '光模块厂'],
-  '创新药': ['创新药', 'FDA', '临床试验', '临床', 'NDA', 'BLA', '抗体', 'ADC', '基因', '细胞治疗', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', '审批', '授权', '出海', 'License', '生物医药', '疫苗', '药品', '医药', '仿制药', '原料药', '抗癌', '肿瘤', 'PROTAC', 'GLP', 'mRNA', '小核酸', 'CRO', 'CDMO', '医保', '集采', '罕见病', '新药', '治疗', '双抗', '抑制剂', 'CAR-T'],
-  '黄金': ['黄金', '金价', 'COMEX', 'gold', '美联储', '降息', '利率', '央行购金', '通胀', '紫金矿业', '山东黄金', '中金黄金', '贵金属', 'precious metal', '非农', 'CPI'],
-};
-
-// High-signal keywords that alone are enough to place an item in a sector.
-// Context keywords in SECTOR_KEYWORDS (利率, 美联储, 治疗, 审批...) are only
-// additive — hitting only a context word must NOT classify an item, or e.g. a
-// bank-rate story (利率) would land in 黄金.
-export const SECTOR_CORE_KEYWORDS = {
-  '半导体': ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'GPU', 'HBM', 'foundry', '代工', '制程', 'EDA', '光刻', 'ASML', 'DRAM', '晶圆', '封测'],
-  '光模块': ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '光迅科技', '中富电路', '光纤', '光缆', '光器件', '光芯片', '数通'],
-  '创新药': ['创新药', 'FDA', '临床试验', 'NDA', 'BLA', 'ADC', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', 'mRNA', 'CRO', 'CDMO', '疫苗', '肿瘤', 'License', '出海'],
-  '黄金': ['黄金', '金价', 'COMEX', 'gold', '央行购金', '紫金矿业', '山东黄金', '中金黄金', '贵金属', 'precious metal', '现货黄金'],
+// 板块分类规则 — 结构化词表,由 classifier.mjs 的唯一分类引擎消费。
+// 每板块:
+//   core:      进入该板块的必要信号词,标题命中 +4 / 描述命中 +2
+//   context:   仅当 core 命中后加分的补充语境词(标题+1 / 描述+1),单独命中不能入板块
+//   exclude:   假阳性排除模式(支持 RegExp),命中且不含 excludeContext 白名单 → veto 该板块
+//   excludeContext: 命中 exclude 后仍判该板块的语境白名单
+//   threshold: 进入该板块的最低分数
+// 对比旧实现 SECTOR_KEYWORDS/CORE 平铺数组:现在能表达"排除词/词组/宏观因子与
+// 板块的关系",黄金的利率/美联储/非农/CPI/通胀等宏观因子降为 context —— 降息/CPI
+// 新闻不再单独进黄金,仅当标题同时有金属语境词(金价/COMEX/央行购金…)时才算黄金。
+export const SECTOR_RULES = {
+  '半导体': {
+    core: ['芯片', '半导体', '台积电', 'TSMC', '中芯', 'Nvidia', '英伟达', 'GPU', 'HBM', 'foundry', '代工', '制程', 'EDA', '光刻', 'ASML', 'DRAM', '晶圆', '封测'],
+    context: ['AMD', '存储', 'PCB', '鹏鼎', '封装', '宏碁', '三星', '海力士', 'Micron', '美光', '先进制程', 'CoWoS', '2nm', '3nm'],
+    exclude: [],
+    excludeContext: [],
+    threshold: 1,
+  },
+  '光模块': {
+    core: ['光模块', '光通信', '硅光', '800G', '1.6T', 'CPO', 'LPO', 'transceiver', 'optical', '中际旭创', '新易盛', '天孚通信', '光迅科技', '中富电路', '光纤', '光缆', '光器件', '光芯片', '数通'],
+    context: ['数据中心', 'data center', '服务器', 'server', '散热', '液冷', '冷却', '光库科技', '博创科技', '德科立', '太辰光', '源杰科技', '仕佳光子', '剑桥科技', '联特科技', '腾景科技', '光云科技', '光膜', '光棒', '相干', '单模', '多模', '光模块厂'],
+    exclude: [],
+    excludeContext: [],
+    threshold: 1,
+  },
+  '创新药': {
+    core: ['创新药', 'FDA', '临床试验', '临床', 'NDA', 'BLA', 'ADC', 'biotech', 'pharma', '药明康德', '百济神州', '恒瑞医药', 'mRNA', 'CRO', 'CDMO', '疫苗', '肿瘤', 'License', '出海'],
+    context: ['生物医药', '医药', '药品', '抗体', '基因', '细胞治疗', '双抗', '抑制剂', 'CAR-T', 'GLP', 'PROTAC', '小核酸', '抗癌', '罕见病', '新药', '治疗', '仿制药', '原料药', '医保', '集采', '审批', '授权'],
+    exclude: [],
+    excludeContext: [],
+    threshold: 1,
+  },
+  '黄金': {
+    // '黄金'/'gold' 本身是强信号,保留在 core —— 「中国黄金协会:黄金储备全球第五」
+    // 「金饰克价重返1300」这类标题只有'黄金'二字,若降为 context 会漏检。假阳性
+    // (黄金时代/黄金周/golden age/Goldman)由下方 exclude veto 兜底。
+    // 宏观因子(利率/美联储/非农/CPI/通胀)才是降为 context 的对象 —— 降息/CPI 新闻
+    // 不再单独进黄金,仅当标题同时有金属语境词时加分。
+    core: ['黄金', 'gold', '金价', 'COMEX', '央行购金', '紫金矿业', '山东黄金', '中金黄金', '赤峰黄金', '银泰黄金', '贵金属', 'precious metal', 'gold price', '现货黄金', 'gold ETF', '黄金ETF', 'gold reserve'],
+    context: ['利率', '美联储', '降息', '非农', 'CPI', '通胀', '加息', 'Fed', 'rate cut', 'inflation'],
+    // 中文「黄金+非金属后缀」+ 英文 golden 词组 + 投行 Goldman → 假阳性,veto
+    exclude: [
+      /黄金(?:时代|周|十年|水道|分割|海岸|假期|标准|法则|时段|岁月|比例|王朝)/,
+      /golden\s+(age|era|week|ratio|coast)/i,
+      /goldman/i,
+    ],
+    // 命中 exclude 但仍判黄金的金属语境白名单
+    excludeContext: ['金价', '央行', '贵金属', 'COMEX', '现货黄金', '黄金ETF', '紫金矿业', '山东黄金', '中金黄金', '赤峰黄金', '银泰黄金', 'gold price', 'precious metal', 'central bank', 'gold ETF', 'gold reserve'],
+    threshold: 1,
+  },
 };
 
 // Keyword rules for local fallback analysis
