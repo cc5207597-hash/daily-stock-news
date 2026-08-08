@@ -3,3 +3,4 @@ output/
 .env
 .env.local
 .claude/
+refresh-state.json

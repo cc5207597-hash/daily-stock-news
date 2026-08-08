@@ -1,5 +1,6 @@
 // ── Pipeline: AI 分析与关键词引擎 ───────────────────────
 
+import net from 'node:net';
 import { CONFIG, KEYWORD_RULES } from './config.mjs';
 import { dedupKey } from './clean.mjs';
 import { SECTORS, IMPACT_RANK, matchKw, impactCompare } from './sectors.mjs';
@@ -78,6 +79,28 @@ function extractTextBlock(data) {
   return responseText || data?.choices?.[0]?.message?.content || '';
 }
 
+// ── 本地 proxy 可用性探测(快速失败) ──────────────────────
+// 用户不想配置 ANTHROPIC_API_KEY,本地分析走 127.0.0.1:15721 的 proxy。
+// 若 proxy 没在运行,旧逻辑会对着不存在的服务空等 3×180s 重试 + 90s 翻译,
+// 手动刷新因此最坏 9 分钟才回退到关键词引擎。这里用 1.5s TCP 探测:
+// 连不上 → 跳过所有 AI/翻译重试,直接关键词引擎+本地词典;
+// 连得上 → 现有 AI 优先逻辑逐字节不变。
+let _proxyReachable = null;
+export function proxyReachable() {
+  if (_proxyReachable !== null) return _proxyReachable;
+  try {
+    const { hostname, port } = new URL(CONFIG.apiBase);
+    if (!['localhost', '127.0.0.1', '::1'].includes(hostname)) return false;
+    _proxyReachable = new Promise((resolve) => {
+      const sock = net.connect({ host: hostname, port: Number(port), timeout: 1500 });
+      sock.once('connect', () => { sock.destroy(); resolve(true); });
+      sock.once('error', () => { sock.destroy(); resolve(false); });
+      sock.once('timeout', () => { sock.destroy(); resolve(false); });
+    });
+  } catch { _proxyReachable = false; }
+  return _proxyReachable;
+}
+
 // Hard fallback glossary for English/Korean feed titles when the API is down
 const LOCAL_DICT = [
   [/SK hynix/gi, 'SK海力士'], [/Samsung/gi, '三星'], [/TSMC/gi, '台积电'], [/Micron/gi, '美光'],
@@ -127,6 +150,16 @@ async function translateItems(newsItems) {
   });
   if (toTranslate.length === 0) return newsItems;
   console.log(`  🌐 翻译 ${toTranslate.length} 条非中文标题...`);
+
+  // proxy 没在运行 → 不空等 90s 超时,直接本地词典(analyzeWithClaude 入口
+  // 已有同样的前置探测,这里缓存复用)。
+  if (await proxyReachable() === false) {
+    console.warn('  ⚠ 本地 proxy 未运行,跳过批量翻译,使用本地词典');
+    return newsItems.map(n => {
+      if (!needsTranslation(n.title)) return n;
+      return { ...n, title_cn: translateWithLocalDict(n.title), summary_cn: translateWithLocalDict(n.description), originalTitle: n.title };
+    });
+  }
 
   try {
     const prompt = `你是财经新闻翻译。把以下 JSON 数组中的英文/韩文标题和描述翻译成简体中文金融术语，公司名可保留或译名（如 SK Hynix→SK海力士、Nvidia→英伟达、Samsung→三星）。原样返回 JSON 数组（每个对象含 id/title/desc），不要 markdown 代码块，不要加注释：\n${JSON.stringify(toTranslate)}`;
@@ -367,14 +400,24 @@ function dedupTranslated(items) {
 }
 
 export async function analyzeWithClaude(newsItems) {
+  if (!CONFIG.apiKey) {
+    console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
+    return analyzeWithKeywords(newsItems);
+  }
+
+  // 本地 proxy 快速失败:proxy 没在运行,跳过 3×180s 重试 + 90s 翻译空等,
+  // 直接关键词引擎+本地词典 —— 手动刷新不会因此卡 9 分钟。
+  // proxy 在线时跳过此分支,现有 AI 优先逻辑不变。
+  if (CONFIG.apiBase.startsWith('http://127.0.0.1') || CONFIG.apiBase.startsWith('http://localhost')) {
+    if (await proxyReachable() === false) {
+      console.log('\n⚠ 本地 proxy (127.0.0.1:15721) 未运行，跳过 AI 分析，使用本地关键词引擎\n');
+      return analyzeWithKeywords(newsItems);
+    }
+  }
+
   // Pre-translate all non-Chinese titles so the archived full-news list is
   // also fully in simplified Chinese (independent of which analysis path runs).
   const translated = dedupTranslated(await translateItems(newsItems));
-
-  if (!CONFIG.apiKey) {
-    console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
-    return analyzeWithKeywords(translated);
-  }
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     if (attempt > 1) console.log(`\n  🔁 重试 AI 分析 (第 ${attempt}/3 次)...`);
