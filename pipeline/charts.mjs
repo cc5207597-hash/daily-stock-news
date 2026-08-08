@@ -2,6 +2,7 @@
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { SECTORS, SECTOR_COLORS } from './sectors.mjs';
+import { beijingDateKey } from './utils.mjs';
 
 // Pick representative ETF per sector
 const SECTOR_ETF = {
@@ -33,10 +34,13 @@ export function saveETFHistory(outputDir, history) {
   writeFileSync(join(outputDir, 'etf_history.json'), JSON.stringify(history, null, 2), 'utf-8');
 }
 
-// Append today's ETF data to the history and keep last N entries
+// Append today's ETF data to the history and keep last N entries.
+// The bucket date follows the Beijing day (not the host's local date), so a CI
+// build before 08:00 Beijing writes into the correct day.
 export function accumulateETF(history, etfData, maxDays = 60) {
   const today = new Date();
-  const dateStr = `${today.getFullYear()}-${String(today.getMonth()+1).padStart(2,'0')}-${String(today.getDate()).padStart(2,'0')}`;
+  const key = beijingDateKey(today);
+  const dateStr = `${key.slice(0,4)}-${key.slice(4,6)}-${key.slice(6,8)}`;
 
   // If today is already recorded, replace it
   const existingIdx = history.dates.indexOf(dateStr);

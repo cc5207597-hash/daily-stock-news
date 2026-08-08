@@ -22,51 +22,67 @@ export function stripCDATA(s) {
   return (s || '').replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '').trim();
 }
 
-// Render news timestamps in Beijing time regardless of where the build runs
-// (GitHub Actions runs in UTC — using the server's local time would show
-// afternoon news as 08:xx). Format "08-07 16:02".
-export function formatTime(date) {
+// ── 北京时间工具 ─────────────────────────────────────────
+// 北京 = 固定 UTC+8,不参与夏令时,偏移恒定。任何"把时间戳换算成北京钟面"的操作
+// 都用这里的确定性算术偏移,绝不依赖 toLocaleString(timeZone)/时区库——那些东西
+// 依赖宿主 ICU 数据库与进程时区,在 Windows 与 GitHub Actions(UTC)上行为不一致,
+// 正是时区 bug 反复出现的根子。
+//
+// toBeijing(date) 返回一个"北京钟面"的 Date:它只是把原时间戳加了 8 小时,再读取
+// getUTC* 字段,得到的年月日时分秒就是北京的墙钟时间,与运行环境时区完全无关。
+const BJ_OFFSET_MS = 8 * 3600 * 1000;
+
+function toBeijing(date) {
   const d = date instanceof Date ? date : new Date(date);
-  if (isNaN(d.getTime())) return '';
-  const bj = new Date(d.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
-  const m = String(bj.getMonth() + 1).padStart(2, '0');
-  const day = String(bj.getDate()).padStart(2, '0');
-  const hh = String(bj.getHours()).padStart(2, '0');
-  const mm = String(bj.getMinutes()).padStart(2, '0');
-  return `${m}-${day} ${hh}:${mm}`;
+  if (isNaN(d.getTime())) return null;
+  return new Date(d.getTime() + BJ_OFFSET_MS);
 }
 
-// Parse a "YYYY-MM-DD HH:mm:ss" string that a source publishes in Beijing time as
-// an absolute instant. new Date(str) interprets it in the *host's* local timezone
-// — on CI (UTC container) that shifts every headline +8h into "the future", while
-// locally (Beijing) it happens to be right. Interpreting the wall-clock as
-// Asia/Shanghai (fixed UTC+8, no DST) is correct everywhere.
+function pad2(n) { return String(n).padStart(2, '0'); }
+
+// 渲染新闻时间戳为北京钟面时间,格式 "08-07 16:02"。
+// GitHub Actions 在 UTC 运行——若用服务器本地时间显示,下午的新闻会变成 08:xx。
+export function formatTime(date) {
+  const bj = toBeijing(date);
+  if (!bj) return '';
+  return `${pad2(bj.getUTCMonth() + 1)}-${pad2(bj.getUTCDate())} ${pad2(bj.getUTCHours())}:${pad2(bj.getUTCMinutes())}`;
+}
+
+// 当天(按北京日)的 YYYYMMDD —— 日报的日期归属。CI 在北京 0-8 点构建时,
+// 用宿主日期会落后一天。
+export function getTodayStr() {
+  const bj = toBeijing(new Date());
+  return `${bj.getUTCFullYear()}${pad2(bj.getUTCMonth() + 1)}${pad2(bj.getUTCDate())}`;
+}
+
+export function getTodayDisplay() {
+  const bj = toBeijing(new Date());
+  return `${bj.getUTCFullYear()}-${pad2(bj.getUTCMonth() + 1)}-${pad2(bj.getUTCDate())}`;
+}
+
+// 任意时间戳的北京日键(YYYYMMDD)。日报按此键分天:只有当天(北京)的新闻进当天日报,
+// 昨晚的新闻不会混进今天的报表。
+export function beijingDateKey(date) {
+  const bj = toBeijing(date);
+  if (!bj) return '';
+  return `${bj.getUTCFullYear()}${pad2(bj.getUTCMonth() + 1)}${pad2(bj.getUTCDate())}`;
+}
+
+// 北京钟面的完整字符串 "2026-08-08 17:36:54",用于日志/推送/页面展示。
+// 传入 date 时格式化该时间戳,缺省为当前时间。
+export function beijingNowString(date = new Date()) {
+  const bj = toBeijing(date);
+  if (!bj) return '';
+  return `${bj.getUTCFullYear()}-${pad2(bj.getUTCMonth() + 1)}-${pad2(bj.getUTCDate())} ${pad2(bj.getUTCHours())}:${pad2(bj.getUTCMinutes())}:${pad2(bj.getUTCSeconds())}`;
+}
+
+// 解析 "YYYY-MM-DD HH:mm:ss" 字符串(源以北京钟面发布)为绝对时间戳。
+// new Date(str) 会按宿主时区解释——在 CI(UTC)上会整体错 +8h,本地(北京)碰巧对。
+// 把 wall-clock 当作 Asia/Shanghai(固定 UTC+8)换算,任何环境都对。
 export function parseBeijingTime(value, fallback = Date.now()) {
   if (value === undefined || value === null || value === '') return new Date(fallback);
   const m = /^(\d{4})-(\d{2})-(\d{2})[ T](\d{1,2}):(\d{2})(?::(\d{2}))?/.exec(String(value));
   if (!m) return new Date(value);
   const [, y, mo, d, h, mi, s] = m;
   return new Date(Date.UTC(+y, +mo - 1, +d, +h, +mi, +(s || 0)) - 8 * 3600 * 1000);
-}
-
-// Report date always follows Beijing time — GitHub Actions runs in UTC, so the
-// naive local date would drift a day off for builds before 08:00 Beijing.
-export function getTodayStr() {
-  const bj = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
-  return `${bj.getFullYear()}${String(bj.getMonth() + 1).padStart(2, '0')}${String(bj.getDate()).padStart(2, '0')}`;
-}
-
-export function getTodayDisplay() {
-  const bj = new Date(new Date().toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
-  return `${bj.getFullYear()}-${String(bj.getMonth() + 1).padStart(2, '0')}-${String(bj.getDate()).padStart(2, '0')}`;
-}
-
-// Beijing-date key (YYYYMMDD) for an arbitrary timestamp — bounds a day's report
-// to that day's news instead of a rolling 24h window, so yesterday-evening
-// headlines don't bleed into today's report (e.g. 08-07 新闻混进 08-08 日报).
-export function beijingDateKey(date) {
-  const d = date instanceof Date ? date : new Date(date);
-  if (isNaN(d.getTime())) return '';
-  const bj = new Date(d.toLocaleString('en-US', { timeZone: 'Asia/Shanghai' }));
-  return `${bj.getFullYear()}${String(bj.getMonth() + 1).padStart(2, '0')}${String(bj.getDate()).padStart(2, '0')}`;
 }

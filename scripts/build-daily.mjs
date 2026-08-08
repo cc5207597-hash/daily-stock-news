@@ -14,7 +14,7 @@ const OUTPUT_DIR = join(PROJECT_ROOT, 'output');
 const HISTORY_DIR = join(PROJECT_ROOT, 'history');
 
 import { CONFIG } from '../pipeline/config.mjs';
-import { formatTime, getTodayStr, getTodayDisplay, beijingDateKey } from '../pipeline/utils.mjs';
+import { formatTime, getTodayStr, getTodayDisplay, beijingDateKey, beijingNowString } from '../pipeline/utils.mjs';
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, dedupKey } from '../pipeline/clean.mjs';
 import { analyzeWithClaude } from '../pipeline/analyze.mjs';
@@ -375,6 +375,7 @@ new Chart(document.getElementById('heatmapChart'), {
 <div class="header">
   <h1>📡 行业板块日报</h1>
   <div class="subtitle">${todayDisplay} · ${analyzed.length} 条精选 · 半导体 / 光模块 / 创新药 / 黄金</div>
+  <div class="subtitle">⏱ 最后更新: ${result.generatedAt ? beijingNowString(new Date(result.generatedAt)) : beijingNowString()}（北京时间）</div>
   <div class="badge-row">
     <span class="chip ${isAi ? 'chip-ai' : 'chip'}">${isAi ? 'AI 分析' : '关键词引擎'}</span>
     ${isAi ? '<span class="chip chip-ai">中文翻译</span>' : ''}
@@ -613,7 +614,7 @@ async function sendNotification(result, etfData, dateStr) {
     ...(keyPoints || []).slice(0, 3).map(p => '- ' + p),
     '',
     '---',
-    '🤖 AI 分析 · ' + new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' }),
+    '🤖 AI 分析 · ' + beijingNowString(),
   ].join('\n');
 
   const isNewKey = CONFIG.serverChanSendkey.startsWith('sctp');
@@ -810,7 +811,7 @@ async function main() {
   console.log('═══════════════════════════════════════');
   console.log('  全球股市热点日报 · 自动构建');
   console.log('═══════════════════════════════════════');
-  console.log(`  时间: ${new Date().toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' })}`);
+  console.log(`  时间(北京时间): ${beijingNowString()}`);
   console.log(`  AI 分析: ${CONFIG.apiKey ? 'Claude API' : '未启用 (关键词引擎)'}`);
   console.log(`  Google News RSS: ${CONFIG.feeds.length} 源`);
 
@@ -888,6 +889,8 @@ async function main() {
 
   // 5. Render HTML
   const todayDisplay = getTodayDisplay();
+  // Stamp the build time so the "最后更新" line shows when this report was made.
+  result.generatedAt = result.generatedAt || new Date().toISOString();
 
   // Load & accumulate ETF price history (backfill from Sina K-line first)
   console.log('\n📈 回填 ETF 历史数据 (新浪K线)...');

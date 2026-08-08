@@ -7,6 +7,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
 import { renderHTML, rebuildChartData } from './build-daily.mjs';
+import { beijingNowString } from '../pipeline/utils.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -161,7 +162,7 @@ const server = http.createServer((req, res) => {
 
         console.log('  2/3 git commit...');
         execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs history/', { cwd: ROOT, timeout: 10_000 });
-        execSync(`git commit -m "手动刷新: ${new Date().toLocaleString('zh-CN')}"`, { cwd: ROOT, timeout: 10_000 });
+        execSync(`git commit -m "手动刷新: ${beijingNowString()}"`, { cwd: ROOT, timeout: 10_000 });
 
         console.log('  3/3 git push...');
         execSync('git push', { cwd: ROOT, timeout: 30_000 });
