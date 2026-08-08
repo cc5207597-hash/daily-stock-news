@@ -59,12 +59,11 @@ const server = http.createServer((req, res) => {
     let dates = [];
     if (existsSync(HISTORY_DIR)) {
       const files = readdirSync(HISTORY_DIR);
-      dates = files
-        .filter(f => f.startsWith('日报_') && f.endsWith('.json'))
-        .map(f => f.replace('日报_', '').replace('.json', ''))
-        .filter(d => /^\d{8}$/.test(d))
-        .sort()
-        .reverse();
+      dates = [...new Set(
+        files
+          .filter(f => /^日报_\d{8}\.(json|html)$/.test(f))
+          .map(f => f.replace('日报_', '').replace(/\.(json|html)$/, ''))
+      )].sort().reverse();
     }
     serveFile(res, 200, 'application/json; charset=utf-8', JSON.stringify({ dates }));
     return;
@@ -160,7 +159,7 @@ const server = http.createServer((req, res) => {
         await run('node', ['scripts/build-daily.mjs']);
 
         console.log('  2/3 git commit...');
-        execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs', { cwd: ROOT, timeout: 10_000 });
+        execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs history/', { cwd: ROOT, timeout: 10_000 });
         execSync(`git commit -m "手动刷新: ${new Date().toLocaleString('zh-CN')}"`, { cwd: ROOT, timeout: 10_000 });
 
         console.log('  3/3 git push...');

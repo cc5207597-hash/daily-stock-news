@@ -63,6 +63,15 @@ flowchart LR
 
 ---
 
+## 在线访问
+
+- **主链接（GitHub Pages）**：<https://cc5207597-hash.github.io/daily-stock-news/>
+- **备用镜像（jsDelivr CDN，国内网络更稳）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
+
+每天（含周末）北京时间 09:00 / 16:00 自动构建更新。若主链接偶发打不开，用备用镜像即可。
+
+---
+
 ## 快速开始
 
 ```bash

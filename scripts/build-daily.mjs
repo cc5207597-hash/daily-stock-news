@@ -733,13 +733,15 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
   console.log(`📄 历史页面: ${htmlPath}`);
 
   // Rebuild the dates.json index (all dates present in history/)
+  // Scan both .json and .html archives — legacy dates (e.g. 08-04/05) may only
+  // have a static HTML page, no JSON payload.
   let dates;
   try {
-    dates = readdirSync(HISTORY_DIR)
-      .filter(f => /^日报_\d{8}\.json$/.test(f))
-      .map(f => f.replace('日报_', '').replace('.json', ''))
-      .sort()
-      .reverse();
+    dates = [...new Set(
+      readdirSync(HISTORY_DIR)
+        .filter(f => /^日报_\d{8}\.(json|html)$/.test(f))
+        .map(f => f.replace('日报_', '').replace(/\.(json|html)$/, ''))
+    )].sort().reverse();
   } catch { dates = []; }
   if (!dates.includes(dateStr)) dates.unshift(dateStr);
   writeFileSync(join(HISTORY_DIR, 'dates.json'), JSON.stringify({ dates }, null, 2), 'utf-8');
