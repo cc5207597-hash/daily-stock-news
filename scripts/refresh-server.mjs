@@ -6,7 +6,7 @@ import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
-import { renderHTML } from './build-daily.mjs';
+import { renderHTML, rebuildChartData } from './build-daily.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -103,8 +103,9 @@ const server = http.createServer((req, res) => {
       // Convert ISO date strings back to Date objects
       json.analyzed = (json.analyzed || []).map(n => ({ ...n, pubDate: new Date(n.pubDate) }));
       const displayDate = json.displayDate || `${dateStr.slice(0,4)}-${dateStr.slice(4,6)}-${dateStr.slice(6,8)}`;
-      // The archived payload embeds chartData, so no recompute fallback is needed.
-      const chartData = json.chartData || { etfTrend: { dates: [], datasets: [], hasData: false }, sentiment: { hasData: false }, heatmap: { hasData: false }, direction: { hasData: false }, timeWindow: { hasData: false } };
+      // Rebuild charts from the archive payload — legacy archives may carry an
+      // empty all-hasData:false chartData, and this restores the 5 panels.
+      const chartData = rebuildChartData(json);
       const html = renderHTML(json, displayDate, json.etfData || [], chartData);
       serveFile(res, 200, 'text/html; charset=utf-8', html);
     } catch (err) {

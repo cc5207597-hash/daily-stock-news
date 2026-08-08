@@ -765,6 +765,40 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
   console.log(`🗓️  历史索引: ${HISTORY_DIR}/dates.json (${dates.length} 天)`);
 }
 
+// ── 历史图表重建 ─────────────────────────────────────────
+// An archive may be missing chart data entirely (legacy payloads, e.g. 08-06
+// carries an empty all-hasData:false chartData). Rebuild the five datasets from
+// what the archive does have — sentiment/heatmap/direction/time-window come from
+// analyzed; the ETF trend comes from the local etf_history.json accumulated by
+// fetchETFHistoryKLine (independent of the archive's etfData, so it still covers
+// that date). Returns a chartData in renderHTML's current shape.
+export function rebuildChartData(payload) {
+  const analyzed = payload.analyzed || [];
+  const chartData = {
+    etfTrend: { dates: [], datasets: [], hasData: false },
+    sentiment: buildSentimentData(analyzed),
+    heatmap: buildImpactHeatmap(analyzed),
+    direction: buildDirectionChart(analyzed),
+    timeWindow: buildTimeWindowData(analyzed),
+  };
+  // Prefer chart data already stored in the archive if it has real content.
+  const stored = payload.chartData;
+  if (stored) {
+    if (stored.etfTrend?.hasData) chartData.etfTrend = stored.etfTrend;
+    if (stored.sentiment?.hasData) chartData.sentiment = stored.sentiment;
+    if (stored.heatmap?.hasData) chartData.heatmap = stored.heatmap;
+    if (stored.direction?.hasData) chartData.direction = stored.direction;
+    if (stored.timeWindow?.hasData) chartData.timeWindow = stored.timeWindow;
+  }
+  // ETF trend: if the archive carries no usable series, fall back to the
+  // accumulated local history (K-line backfill covers ~30 trading days).
+  if (!chartData.etfTrend.hasData) {
+    const history = loadETFHistory(OUTPUT_DIR);
+    chartData.etfTrend = buildETFChartData(history);
+  }
+  return chartData;
+}
+
 // ── 主流程 ─────────────────────────────────────────────
 
 async function main() {

@@ -130,7 +130,7 @@ export function buildImpactHeatmap(analyzed) {
   for (const n of analyzed) {
     const cat = n.category;
     const imp = n.impact;
-    if (matrix[cat] && matrix[cat][imp] !== undefined) {
+    if (cat && matrix[cat] && matrix[cat][imp] !== undefined) {
       matrix[cat][imp]++;
     }
   }
@@ -155,7 +155,7 @@ export function buildDirectionChart(analyzed) {
   for (const n of analyzed) {
     const cat = n.category;
     const dir = n.direction;
-    if (counts[cat] && counts[cat][dir] !== undefined) {
+    if (cat && counts[cat] && counts[cat][dir] !== undefined) {
       counts[cat][dir]++;
     }
   }
