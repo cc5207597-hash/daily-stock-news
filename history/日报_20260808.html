@@ -138,7 +138,23 @@
   .chart-card .chart-wrap{height:200px;}
   .chart-donut .chart-wrap{height:180px;max-width:240px;margin:0 auto;}
 </style>
-<script src="assets/chart.umd.min.js"></script>
+<script>
+// Site root derived from the current URL. On gh-pages the app lives under a
+// repo subpath (…/daily-stock-news/). A static relative <script src="assets/…">
+// resolves correctly on the index page but breaks on history pages, which sit
+// under /history/ — the browser would look for /history/assets/… → 404, and
+// Chart.js never loads (5 charts go blank). Derive the root and load the chart
+// library synchronously via document.write so it's ready before the chart
+// <script> at the bottom of <body> runs.
+(function(){
+  var p = window.location.pathname;
+  if (p.indexOf('/history/') >= 0) p = p.slice(0, p.indexOf('/history/'));
+  else if (p.slice(-5) === '.html') p = p.slice(0, p.lastIndexOf('/'));
+  else if (p.slice(-1) === '/') p = p.slice(0, -1);
+  window.BASE = p; // '' when deployed at the domain root (local preview)
+  document.write('<script src="' + p + '/assets/chart.umd.min.js"><\/scr' + 'ipt>');
+})();
+</script>
 </head>
 <body>
 <div class="container">
@@ -1012,23 +1028,12 @@
 </div>
 <script>
 const REFRESH_URL = '';
-// Site root derived from the current URL. On gh-pages the app lives under a
-// repo subpath (…/daily-stock-news/) — a leading-slash path like /history/…
-// would resolve against the root domain and 404. History pages sit under
-// /history/, so that segment (and any .html filename) is stripped to find
-// the directory that holds index.html.
-function siteBase(){
-  let p = window.location.pathname;
-  if (p.includes('/history/')) {
-    p = p.slice(0, p.indexOf('/history/'));
-  } else if (p.endsWith('.html')) {
-    p = p.slice(0, p.lastIndexOf('/'));
-  } else if (p.endsWith('/')) {
-    p = p.slice(0, -1);
-  }
-  return p; // '' when deployed at the domain root (local preview)
-}
-const BASE = siteBase();
+// BASE was set by the inline script in <head> (which also injected Chart.js).
+// It holds the site root derived from the current URL — '' at the domain root
+// (local preview), '/daily-stock-news' on gh-pages. All history/asset paths
+// below join against it so they resolve correctly on both the index page and
+// history pages under /history/.
+const BASE = window.BASE || '';
 async function triggerRefresh(){
   const btn = document.querySelector('.refresh-btn');
   btn.disabled = true;
