@@ -1,27 +1,11 @@
 {
   "date": "20260808",
   "displayDate": "2026-08-08",
-  "generatedAt": "2026-08-08T10:49:55.989Z",
+  "generatedAt": "2026-08-08T13:04:28.994Z",
   "analyzed": [
     {
-      "title_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "summary_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "药明康德、百济神州",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
-      "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
-      "pubDate": "2026-08-08T08:30:17.000Z",
-      "source": "雪球",
-      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5"
-    },
-    {
-      "title_cn": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决",
-      "summary_cn": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决于这一关键区域的资金博弈...",
+      "title_cn": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句",
+      "summary_cn": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句号。大额交易再度踩中地缘冲突关键节点.....点击查看...",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -29,11 +13,43 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决",
-      "description": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决于这一关键区域的资金博弈...",
-      "pubDate": "2026-08-08T08:51:49.000Z",
+      "title": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句",
+      "description": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句号。大额交易再度踩中地缘冲突关键节点.....点击查看...",
+      "pubDate": "2026-08-08T12:22:49.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "本周大盘主力资金累计净流入620.1亿元，元件、通信设备板块净流入居前，个股工业富联、天孚通信净流入最多。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "本周大盘主力资金累计净流入620.1亿元，元件、通信设备板块净流入居前，个股工业富联、天孚通信净流入最多。",
+      "description": "",
+      "pubDate": "2026-08-08T12:00:02.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimrerm4123467.d.html"
+    },
+    {
+      "title_cn": "周末投资舆情热点",
+      "summary_cn": "【周末投资舆情热点】\n1）PCB：高盛大幅上调AI服务器PCB和CCL预测，2028年市场规模将达840亿和480亿美元。\n2）医药生物：近期，药明康德、百济神",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "周末投资舆情热点",
+      "description": "【周末投资舆情热点】\n1）PCB：高盛大幅上调AI服务器PCB和CCL预测，2028年市场规模将达840亿和480亿美元。\n2）医药生物：近期，药明康德、百济神州等药企上调2026年全年业绩指引；1-7月中国创新药BD交易总金额达1063亿美元，全球前十BD交易中国独占8席。\n3）AI4S：斯坦福团队用生成式AI程序Evo2设计并制造16种合成噬菌体，AI4S正在完成一场科学范式的系统性跨越。\n4）HBM：SK海力士宣布，将在韩国投资384亿美元建设晶圆厂，扩大高带宽存储器（HBM）、下一代DRAM及NAND闪存产能。",
+      "pubDate": "2026-08-08T10:13:08.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2449129"
     },
     {
       "title_cn": "中国黄金协会：我国黄金储备居全球第五位",
@@ -66,6 +82,38 @@
       "pubDate": "2026-08-08T08:00:05.000Z",
       "source": "东方财富",
       "link": "http://pmetal.eastmoney.com/news/11793,202608083835836534.html"
+    },
+    {
+      "title_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "summary_cn": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "药明康德、百济神州",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+      "pubDate": "2026-08-08T08:30:17.000Z",
+      "source": "雪球",
+      "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5"
+    },
+    {
+      "title_cn": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决",
+      "summary_cn": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决于这一关键区域的资金博弈...",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决",
+      "description": "黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决于这一关键区域的资金博弈...",
+      "pubDate": "2026-08-08T08:51:49.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
       "title_cn": "景林资产二季度大举清仓美股科技巨头 转投半导体上游设备与算力基建",
@@ -341,7 +389,7 @@
     },
     {
       "title_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - Bitcoin World",
-      "summary_cn": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead&nbsp;&nbsp; Bitcoin World",
+      "summary_cn": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbs",
       "category": "黄金",
       "direction": "利好",
       "impact": "高",
@@ -349,27 +397,11 @@
       "time_window": "短期",
       "tickers": "紫金矿业、山东黄金",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead - Bitcoin World",
+      "title": "Oil And 黄金 价格 Outlook: Key Levels And 市场 Drivers For The Week Ahead - Bitcoin World",
       "description": "Oil And Gold Price Outlook: Key Levels And Market Drivers For The Week Ahead&nbsp;&nbsp; Bitcoin World",
       "pubDate": "2026-08-08T00:50:11.000Z",
       "source": "Bitcoin World",
       "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Jc09kQy1mNXZmT2swT25lS2FDdEtoY1FaZzBOWWpSYlZOXzNBenl5Ul9qbzFHanphZ1hDS0x3dFlzWGJ3U21IdHJCczcyTE00MWlOWjNhVVFnZ3B4X3IyLVotU29jTkh5OElZM3FB?oc=5"
-    },
-    {
-      "title_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
-      "description": "",
-      "pubDate": "2026-08-08T01:12:26.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqimv4303436.d.html"
     },
     {
       "title_cn": "一夜上涨30元 金饰克价重回1300元",
@@ -388,22 +420,6 @@
       "link": "http://finance.eastmoney.com/news/1354,202608083835797771.html"
     },
     {
-      "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017",
-      "summary_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017.537吨。",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "低",
-      "time_window": "短期",
-      "tickers": "紫金矿业、山东黄金",
-      "notes": "关键词引擎自动评级，非AI分析",
-      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017",
-      "description": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017.537吨。",
-      "pubDate": "2026-08-08T00:12:05.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
       "title_cn": "极端天气扰动7月外贸增速，芯片出口仍同比激增117%",
       "summary_cn": "受极端天气影响，中国外贸在保持高位的同时增速有所回落。根据8月7日海关总署公布的数据，以美元计价，2026年7月我国外贸进出口总值6832.1亿美元，较6月回落",
       "category": "半导体",
@@ -420,6 +436,22 @@
       "link": "http://finance.eastmoney.com/news/1350,202608083835789924.html"
     },
     {
+      "title_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，目标规模30亿元。LP阵容汇聚中微公司、澜起科技等半导体龙头的旗下平台，工业X射线检测领域企业日联科技的子公司，以及地方国资平台，形成“产业资本+国有资本”的深度联合。智微凌峰基金以半导体设备、零部件、材料及先进封装等集成电路核心环节为主攻方向，重点挖掘“卡脖子”领域的“隐形冠军”。",
+      "description": "",
+      "pubDate": "2026-08-08T01:12:26.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimqimv4303436.d.html"
+    },
+    {
       "title_cn": "上海国投先导参与投资智微凌峰基金",
       "summary_cn": "【上海国投先导参与投资智微凌峰基金】近日，上海国投先导公示对上海智微凌峰创业投资合伙企业（有限合伙）（简称“智微凌峰基金”）的投资。该基金由智微资本担任管理人，",
       "category": "半导体",
@@ -434,6 +466,22 @@
       "pubDate": "2026-08-08T01:12:07.000Z",
       "source": "东方财富",
       "link": "http://finance.eastmoney.com/news/1350,202608083835794373.html"
+    },
+    {
+      "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017",
+      "summary_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017.537吨。",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "紫金矿业、山东黄金",
+      "notes": "关键词引擎自动评级，非AI分析",
+      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017",
+      "description": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加2.818吨，当前持仓量为1017.537吨。",
+      "pubDate": "2026-08-08T00:12:05.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
       "title_cn": "新华财经早报：8月8日",
@@ -517,7 +565,7 @@
     },
     {
       "title_cn": "台积电 & Researchers Make Big Breakthrough In 芯片 Transistor Technology As Part Of Push Towards Developing Sub-1-nanometer Technologies - wccftech.com",
-      "summary_cn": "台积电 & Researchers Make Big Breakthrough In 芯片 Transistor Technology As Part Of Push Towards Developing Sub-1-nanometer Technologies&nbsp;&nbsp; wccftech.com",
+      "summary_cn": "TSMC & Researchers Make Big Breakthrough In Chip Transistor Technology As Part O",
       "category": "半导体",
       "direction": "利好",
       "impact": "高",
@@ -525,7 +573,7 @@
       "time_window": "中期",
       "tickers": "中芯国际",
       "notes": "关键词引擎自动评级，非AI分析",
-      "title": "TSMC & Researchers Make Big Breakthrough In Chip Transistor Technology As Part Of Push Towards Developing Sub-1-nanometer Technologies - wccftech.com",
+      "title": "台积电 & Researchers Make Big Breakthrough In 芯片 Transistor Technology As Part Of Push Towards Developing Sub-1-nanometer Technologies - wccftech.com",
       "description": "TSMC & Researchers Make Big Breakthrough In Chip Transistor Technology As Part Of Push Towards Developing Sub-1-nanometer Technologies&nbsp;&nbsp; wccftech.com",
       "pubDate": "2026-08-07T16:16:41.000Z",
       "source": "wccftech.com",
@@ -537,16 +585,16 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 16,
-      "summary": "半导体板块16条新闻，方向以利好为主",
+      "news_count": 17,
+      "summary": "半导体板块17条新闻，方向以利好为主",
       "tickers": "中芯国际"
     },
     {
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 15,
-      "summary": "黄金板块15条新闻，方向以利好为主",
+      "news_count": 16,
+      "summary": "黄金板块16条新闻，方向以利好为主。关注：从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的",
       "tickers": "紫金矿业、山东黄金"
     },
     {
@@ -561,20 +609,60 @@
       "name": "光模块",
       "shock": "中",
       "direction": "利好",
-      "news_count": 1,
-      "summary": "光模块板块1条新闻，方向以利好为主。关注：【上半年制造业企业转型升级步伐加快】市场监管总局公布数据显示，上半年制造业企业",
+      "news_count": 2,
+      "summary": "光模块板块2条新闻，方向以利好为主。关注：本周大盘主力资金累计净流入620.1亿元，元件、通信设备板块净流入居前，个股工",
       "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 33 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 9 条，高影响 14 条，利好方向 27 条。",
-    "板块概况：半导体(利好, 强冲击, 16条)、黄金(利好, 强冲击, 15条)、创新药(利好, 强冲击, 1条)、光模块(利好, 中冲击, 1条)。",
-    "重点关注：百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球；黄金强势行情能否延续？此处看涨期权出现减持，多空资金重调布局。金价后续能否进一步打开上涨空间，或取决；中国黄金协会：我国黄金储备居全球第五位。"
+    "今日共抓取 36 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 9 条，高影响 15 条，利好方向 28 条。",
+    "板块概况：半导体(利好, 强冲击, 17条)、黄金(利好, 强冲击, 16条)、创新药(利好, 强冲击, 1条)、光模块(利好, 中冲击, 2条)。",
+    "重点关注：从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句；中国黄金协会：我国黄金储备居全球第五位；2026年上半年黄金首饰消费量同比下降33.88%。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，33 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，36 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "周末投资舆情热点",
+      "description": "【周末投资舆情热点】\n1）PCB：高盛大幅上调AI服务器PCB和CCL预测，2028年市场规模将达840亿和480亿美元。\n2）医药生物：近期，药明康德、百济神州等药企上调2026年全年业绩指引；1-7月中国创新药BD交易总金额达1063亿美元，全球前十BD交易中国独占8席。\n3）AI4S：斯坦福团队用生成式AI程序Evo2设计并制造16种合成噬菌体，AI4S正在完成一场科学范式的系统性跨越。\n4）HBM：SK海力士宣布，将在韩国投资384亿美元建设晶圆厂，扩大高带宽存储器（HBM）、下一代DRAM及NAND闪存产能。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-08T10:13:08.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2449129"
+    },
+    {
+      "title": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句",
+      "description": "从美伊紧张局势降级到美日联合干预日元，长期美债收益率“红线”暴露，持续6个月的黄金调整行情正式画上句号。大额交易再度踩中地缘冲突关键节点.....点击查看...",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-08T12:22:49.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "中国黄金协会：我国黄金储备居全球第五位",
+      "description": "【中国黄金协会：我国黄金储备居全球第五位】日前，中国黄金协会发布的最新统计数据显示：2026年上半年，我国黄金消费量511.412吨，同比增长1.23%。其中：黄金首饰132.133吨，同比下降33.88%；金条及金币339.336吨，同比增长28.42%；工业及其他用金39.943吨，同比下降2.90%。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-08T08:47:26.000Z",
+      "source": "东方财富",
+      "link": "http://pmetal.eastmoney.com/news/11793,202608083835838861.html"
+    },
+    {
+      "title": "2026年上半年黄金首饰消费量同比下降33.88%",
+      "description": "近日，中国黄金协会发布2026年上半年黄金消费最新统计数据，2026年上半年，我国黄金消费量511.412吨，同比增长1.23%。其中，黄金首饰132.133吨，同比下降33.88%；金条及金币339.336吨，同比增长28.42%；工业及其他用金39.943吨，同比下降2.90%。中国黄金协会表示，受金价高位大幅波动叠加黄金税收新政落地执行等影响，国内黄金消费结构持续分化。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-08T08:00:05.000Z",
+      "source": "东方财富",
+      "link": "http://pmetal.eastmoney.com/news/11793,202608083835836534.html"
+    },
+    {
+      "title": "本周大盘主力资金累计净流入620.1亿元，元件、通信设备板块净流入居前，个股工业富联、天孚通信净流入最多。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-08T12:00:02.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-08/detail-inimrerm4123467.d.html"
+    },
     {
       "title": "国际金价站上近7周以来高位 黄金主题ETF放量反弹 - 新浪财经",
       "description": "国际金价站上近7周以来高位 黄金主题ETF放量反弹&nbsp;&nbsp; 新浪财经",
@@ -638,22 +726,6 @@
       "pubDate": "2026-08-08T08:51:49.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title": "中国黄金协会：我国黄金储备居全球第五位",
-      "description": "【中国黄金协会：我国黄金储备居全球第五位】日前，中国黄金协会发布的最新统计数据显示：2026年上半年，我国黄金消费量511.412吨，同比增长1.23%。其中：黄金首饰132.133吨，同比下降33.88%；金条及金币339.336吨，同比增长28.42%；工业及其他用金39.943吨，同比下降2.90%。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-08T08:47:26.000Z",
-      "source": "东方财富",
-      "link": "http://pmetal.eastmoney.com/news/11793,202608083835838861.html"
-    },
-    {
-      "title": "2026年上半年黄金首饰消费量同比下降33.88%",
-      "description": "近日，中国黄金协会发布2026年上半年黄金消费最新统计数据，2026年上半年，我国黄金消费量511.412吨，同比增长1.23%。其中，黄金首饰132.133吨，同比下降33.88%；金条及金币339.336吨，同比增长28.42%；工业及其他用金39.943吨，同比下降2.90%。中国黄金协会表示，受金价高位大幅波动叠加黄金税收新政落地执行等影响，国内黄金消费结构持续分化。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-08T08:00:05.000Z",
-      "source": "东方财富",
-      "link": "http://pmetal.eastmoney.com/news/11793,202608083835836534.html"
     },
     {
       "title": "景林资产二季度大举清仓美股科技巨头 转投半导体上游设备与算力基建",
@@ -1145,8 +1217,8 @@
       "datasets": [
         {
           "data": [
-            27,
-            6
+            28,
+            8
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1181,13 +1253,13 @@
           "极高": 9,
           "高": 1,
           "中": 4,
-          "低": 2
+          "低": 3
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 2
         },
         "创新药": {
           "极高": 0,
@@ -1197,7 +1269,7 @@
         },
         "黄金": {
           "极高": 0,
-          "高": 12,
+          "高": 13,
           "中": 0,
           "低": 3
         }
@@ -1218,15 +1290,15 @@
             14,
             0,
             1,
-            12
+            13
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "中性",
           "data": [
+            3,
             2,
-            1,
             0,
             3
           ],
@@ -1243,8 +1315,8 @@
       "datasets": [
         {
           "data": [
-            21,
-            12
+            22,
+            14
           ],
           "backgroundColor": [
             "#2563eb",

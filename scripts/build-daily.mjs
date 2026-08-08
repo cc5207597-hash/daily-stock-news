@@ -477,22 +477,48 @@ const REFRESH_URL = '';
 // below join against it so they resolve correctly on both the index page and
 // history pages under /history/.
 const BASE = window.BASE || '';
-async function triggerRefresh(){
+const PHASE_CN = { fetch: '抓取新闻', analyze: 'AI 分析', 'analyze-kw': '关键词引擎', chart: '图表数据', write: '写入文件', commit: '提交 git', push: '推送 git', done: '完成', error: '失败' };
+let refreshStartedAt = 0;
+let refreshTimer = null;
+let lastPhase = 'fetch';
+function isLocalHost() { return ['localhost', '127.0.0.1', '::1', '0.0.0.0'].includes(location.hostname); }
+function updateBtnPhase(phase) {
   const btn = document.querySelector('.refresh-btn');
+  if (!btn) return;
+  const label = PHASE_CN[phase] || (phase ? String(phase) : '构建中');
+  btn.textContent = '⏳ ' + label + (refreshStartedAt ? ' ' + Math.round((Date.now() - refreshStartedAt) / 1000) + 's' : '');
+}
+function startBtnTimer() {
+  stopBtnTimer();
+  refreshTimer = setInterval(() => { if (document.querySelector('.refresh-btn')?.disabled) updateBtnPhase(lastPhase); }, 1000);
+}
+function stopBtnTimer() { if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; } }
+async function triggerRefresh() {
+  const btn = document.querySelector('.refresh-btn');
+  // 线上 gh-pages 没有本地刷新服务,按钮不发起无效请求
+  if (!isLocalHost()) {
+    showToast('刷新按钮仅在本机预览 (http://127.0.0.1:3456) 可用', 'err');
+    return;
+  }
+  if (btn.disabled) return; // 已在进行中,避免重复轮询
   btn.disabled = true;
-  btn.textContent = '⏳ 构建中...';
+  btn.textContent = '⏳ 提交中...';
+  refreshStartedAt = Date.now();
   try {
     const r = await fetch(REFRESH_URL + '/refresh', { method: 'POST' });
     const d = await r.json();
-    if (r.ok) {
-      showToast('已提交刷新，约2分钟后生效', 'ok');
+    if (r.status === 202) {
+      showToast(d.status === 'already_running' ? '构建已在进行,完成后自动刷新' : '已开始重建,完成后自动刷新', 'ok');
+      lastPhase = d.phase || 'fetch';
+      updateBtnPhase(lastPhase);
+      startBtnTimer();
       pollStatus();
     } else {
       showToast(d.message || '请求失败', 'err');
       resetBtn();
     }
-  } catch(e) {
-    showToast('刷新服务未启动，请本地运行 refresh-server.mjs', 'err');
+  } catch (e) {
+    showToast('刷新服务未启动,请本地运行 refresh-server.mjs', 'err');
     resetBtn();
   }
 }
@@ -504,29 +530,41 @@ function showToast(msg, type) {
   setTimeout(() => { t.style.opacity = '0'; setTimeout(() => t.remove(), 300); }, 4000);
 }
 function resetBtn() {
+  stopBtnTimer();
   const btn = document.querySelector('.refresh-btn');
   btn.disabled = false;
   btn.textContent = '🔄 刷新日报';
 }
 async function pollStatus() {
-  for (let i = 0; i < 12; i++) {
-    await new Promise(r => setTimeout(r, 10000));
+  const MAX = 75; // 8s × 75 ≈ 10 分钟,覆盖 AI proxy 最坏 3×180s 重试
+  let netErrors = 0;
+  for (let i = 0; i < MAX; i++) {
+    await new Promise(r => setTimeout(r, 8000));
     try {
-      const r = await fetch(REFRESH_URL + '/status');
+      const r = await fetch(REFRESH_URL + '/status', { cache: 'no-store' });
       const d = await r.json();
+      netErrors = 0;
+      if (d.phase) lastPhase = d.phase;
+      updateBtnPhase(d.phase || lastPhase);
       if (d.state === 'done') {
-        showToast('刷新完成！3秒后自动重载', 'ok');
-        setTimeout(() => location.reload(), 3000);
+        stopBtnTimer();
+        const pf = d.phase === 'push_failed';
+        showToast(pf ? '刷新完成(推送 main 失败,本地已更新),即将重载' : '刷新完成!即将自动重载', pf ? 'err' : 'ok');
+        setTimeout(() => location.reload(), 1500);
         return;
       }
       if (d.state === 'error') {
-        showToast('刷新失败，请查看服务端日志', 'err');
+        stopBtnTimer();
+        showToast('刷新失败:' + (d.error || '请查看服务端日志'), 'err');
         resetBtn();
         return;
       }
-    } catch(e) { resetBtn(); return; }
+    } catch (e) {
+      if (++netErrors >= 3) { stopBtnTimer(); showToast('刷新服务失去响应,请检查是否关闭', 'err'); resetBtn(); return; }
+    }
   }
-  showToast('构建超时，请稍后手动刷新页面', 'err');
+  stopBtnTimer();
+  showToast('构建超时,请查看服务端日志', 'err');
   resetBtn();
 }
 // History browsing — the archive lives as static files under history/ so the

@@ -1,8 +1,18 @@
 #!/usr/bin/env node
 // 本地预览 + 手动刷新服务
 // 访问 http://127.0.0.1:3456 看最新页面，点按钮直接重建+推送
-import { execSync, spawn } from 'child_process';
-import { readFileSync, readdirSync, existsSync } from 'fs';
+//
+// 2026-08 优化(解决「按不动/按完很久/卡死」):
+//   - git add/commit/push 全部异步化(execSync 会阻塞单线程事件循环,
+//     push 最长 30s 期间 /status 全部挂起 → 前端表现为卡死)
+//   - 状态落盘 refresh-state.json + 启动恢复:服务器中途被杀残留的
+//     running 状态自动标记为 error,不再永久卡住刷新按钮
+//   - /refresh 单槽 join:构建进行中再点返回 already_running,前端继续
+//     轮询等待,不重复起第二个构建,也不报 409
+//   - 构建子进程 stdout 扫描阶段标记 → /status 带 phase 进度,前端可
+//     展示"进行到哪一步"
+import { spawn } from 'child_process';
+import { readFileSync, readdirSync, existsSync, writeFileSync, renameSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import http from 'http';
@@ -13,6 +23,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const INDEX = join(ROOT, 'index.html');
 const HISTORY_DIR = join(ROOT, 'history');
+const STATE_FILE = join(ROOT, 'refresh-state.json');
 const PORT = 3456;
 
 const MIME = {
@@ -28,7 +39,185 @@ function mimeOf(path) {
   return MIME[path.split('.').pop()] || 'application/octet-stream';
 }
 
-let lastStatus = { state: 'idle', time: null, error: null };
+// ── 状态持久化 ──────────────────────────────────────────
+// 每次转换原子写入(tmp + rename),服务器重启/被杀后仍能恢复真实状态。
+function loadState() {
+  let st = { state: 'idle', phase: null, startedAt: null, finishedAt: null, runId: null, error: null, generatedAt: null };
+  try {
+    if (existsSync(STATE_FILE)) {
+      const saved = JSON.parse(readFileSync(STATE_FILE, 'utf-8'));
+      if (saved && typeof saved === 'object') st = { ...st, ...saved };
+    }
+  } catch (err) {
+    console.warn(`  ⚠ 读取状态文件失败,使用默认: ${err.message}`);
+  }
+  // 上次构建被中断(服务器重启/被杀/崩溃)残留的 running → 自动恢复为 error,
+  // 否则刷新按钮会被永久卡在"构建中"。
+  if (st.state === 'running') {
+    st = { ...st, state: 'error', error: '上次构建在服务器重启时被中断,请重试', finishedAt: new Date().toISOString() };
+    saveState(st);
+    console.log('  ♻️ 检测到上次构建被中断,running 状态已恢复为 error');
+  }
+  return st;
+}
+
+function saveState(next) {
+  try {
+    const tmp = STATE_FILE + '.tmp';
+    writeFileSync(tmp, JSON.stringify(next, null, 2), 'utf-8');
+    renameSync(tmp, STATE_FILE);
+  } catch (err) {
+    console.warn(`  ⚠ 保存状态失败: ${err.message}`);
+  }
+}
+
+let lastStatus = loadState();
+let activeRun = null; // 当前构建的 run 句柄,用于检测是否仍在跑
+
+// ── 异步子进程执行 ──────────────────────────────────────
+// spawn + stdio:'pipe'。必须持续消费 stdout/stderr,否则管道背压会反过来
+// 卡住子进程。超时则 kill。resolve/reject 不阻塞事件循环。
+function run(cmd, args, { timeout = 0, onStdout = null, onStderr = null } = {}) {
+  return new Promise((resolve, reject) => {
+    const child = spawn(cmd, args, { cwd: ROOT, stdio: 'pipe', shell: false });
+    let outBuf = '';
+    let errBuf = '';
+    let timedOut = false;
+
+    const timer = timeout > 0
+      ? setTimeout(() => {
+          timedOut = true;
+          child.kill('SIGKILL');
+          reject(new Error(`"${cmd} ${args.join(' ')}" 超时(${timeout / 1000}s)已终止`));
+        }, timeout)
+      : null;
+
+    child.stdout.on('data', (chunk) => {
+      outBuf += chunk.toString();
+      if (onStdout) onStdout(outBuf);
+    });
+    child.stderr.on('data', (chunk) => {
+      errBuf += chunk.toString();
+      if (onStderr) onStderr(errBuf);
+    });
+    child.on('error', (err) => {
+      if (timer) clearTimeout(timer);
+      reject(err);
+    });
+    child.on('close', (code) => {
+      if (timer) clearTimeout(timer);
+      if (timedOut) return;
+      if (code === 0) resolve({ stdout: outBuf, stderr: errBuf });
+      else reject(new Error(`${cmd} ${args.join(' ')} 退出码 ${code}${errBuf ? `: ${errBuf.trim().slice(-300)}` : ''}`));
+    });
+  });
+}
+
+// ── 构建阶段机:扫描子进程 stdout 标记 → phase ──────────
+const PHASE_LABELS = {
+  idle: '空闲',
+  fetch: '抓取新闻',
+  analyze: 'AI 分析',
+  'analyze-kw': '关键词引擎',
+  chart: '图表数据',
+  write: '写入文件',
+  commit: '提交 git',
+  push: '推送 git',
+  done: '完成',
+  error: '失败',
+};
+
+function phaseFromLine(line) {
+  if (line.includes('拉取') || line.includes('直连')) return 'fetch';
+  if (line.includes('调用 Claude API') || line.includes('翻译') || line.includes('AI 分析')) return 'analyze';
+  if (line.includes('关键词引擎')) return 'analyze-kw';
+  if (line.includes('回填 ETF') || line.includes('ETF 历史')) return 'chart';
+  if (line.includes('输出:') || line.includes('首页:')) return 'write';
+  return null;
+}
+
+function updatePhase(phase) {
+  if (phase && phase !== lastStatus.phase) {
+    lastStatus = { ...lastStatus, phase };
+    saveState(lastStatus);
+  }
+}
+
+// ── 刷新执行体 ──────────────────────────────────────────
+async function runRefresh(runId) {
+  const started = new Date();
+  lastStatus = {
+    state: 'running', phase: 'fetch', startedAt: started.toISOString(),
+    finishedAt: null, runId, error: null, generatedAt: null,
+  };
+  saveState(lastStatus);
+  console.log(`\n[${beijingNowString(started)}] 🔄 开始刷新 (runId=${runId})`);
+
+  let lastChunk = '';
+  const onStdout = (buf) => {
+    // 只在新增内容里找阶段标记,避免反复全量扫描
+    const fresh = buf.slice(lastChunk.length);
+    lastChunk = buf;
+    const phase = phaseFromLine(fresh);
+    if (phase) updatePhase(phase);
+  };
+
+  // 构建子进程超时(900s):真正卡死的构建不再永久占槽
+  const BUILD_TIMEOUT = 900_000;
+
+  try {
+    updatePhase('fetch');
+    await run('node', ['scripts/build-daily.mjs'], { timeout: BUILD_TIMEOUT, onStdout });
+
+    // 构建成功 → git commit(有变更才提交)
+    updatePhase('commit');
+    await run('git', ['add', 'index.html', 'scripts/build-daily.mjs', 'scripts/refresh-server.mjs', 'history/'], { timeout: 15_000 });
+    try {
+      await run('git', ['diff', '--cached', '--quiet'], { timeout: 15_000 });
+      console.log('  ✓ 无变更,跳过提交');
+    } catch {
+      await run('git', ['commit', '-m', `手动刷新: ${beijingNowString()}`], { timeout: 15_000 });
+    }
+
+    // 推送 main。失败不浪费一次成功构建:本地 index.html 已是新内容,
+    // 前端照常重载并提示推送失败。重试一次应对临时网络抖动。
+    updatePhase('push');
+    let pushed = false;
+    for (let attempt = 1; attempt <= 2; attempt++) {
+      try {
+        await run('git', ['push'], { timeout: 60_000 });
+        pushed = true;
+        break;
+      } catch (err) {
+        console.error(`  ⚠ push 失败(第 ${attempt} 次): ${err.message}`);
+        if (attempt === 1) await new Promise(r => setTimeout(r, 2000));
+      }
+    }
+
+    if (pushed) {
+      lastStatus = {
+        state: 'done', phase: 'done', startedAt: lastStatus.startedAt,
+        finishedAt: new Date().toISOString(), runId, error: null, generatedAt: new Date().toISOString(),
+      };
+      console.log(`  ✅ 刷新完成 (${beijingNowString()})`);
+    } else {
+      lastStatus = {
+        state: 'done', phase: 'push_failed', startedAt: lastStatus.startedAt,
+        finishedAt: new Date().toISOString(), runId,
+        error: '推送 main 失败(本地页面已是新内容,线上站点保持上次部署)', generatedAt: new Date().toISOString(),
+      };
+      console.log('  ⚠️ 构建成功但推送 main 失败(本地页面已更新)');
+    }
+  } catch (err) {
+    lastStatus = {
+      state: 'error', phase: 'error', startedAt: lastStatus.startedAt,
+      finishedAt: new Date().toISOString(), runId, error: err.message, generatedAt: null,
+    };
+    console.error(`  ❌ 刷新失败: ${err.message}`);
+  }
+  saveState(lastStatus);
+  activeRun = null;
+}
 
 function serveFile(res, code, contentType, body) {
   res.writeHead(code, { 'Content-Type': contentType });
@@ -125,55 +314,37 @@ const server = http.createServer((req, res) => {
     return;
   }
 
-  // Status endpoint
+  // Status endpoint — 返回完整状态对象。no-store 防止代理/缓存把轮询结果
+  // 缓存成旧值(尤其构建进行中),否则前端会一直看到第一次的 running。
   if (req.method === 'GET' && req.url === '/status') {
-    serveFile(res, 200, 'application/json', JSON.stringify(lastStatus));
+    const body = JSON.stringify({
+      ...lastStatus,
+      phaseLabel: PHASE_LABELS[lastStatus.phase] || lastStatus.phase || '',
+      running: lastStatus.state === 'running' || !!activeRun,
+    });
+    res.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8', 'Cache-Control': 'no-store' });
+    res.end(body);
     return;
   }
 
-  // Refresh endpoint — run build + push
+  // Refresh endpoint — 单槽:构建进行中再点 = join 等待,不重复起第二个构建
   if (req.method === 'POST' && req.url === '/refresh') {
-    if (lastStatus.state === 'running') {
-      serveFile(res, 409, 'application/json', JSON.stringify({ status: 'error', message: '已有构建正在运行' }));
+    if (lastStatus.state === 'running' || activeRun) {
+      serveFile(res, 202, 'application/json', JSON.stringify({
+        status: 'already_running',
+        message: '构建已在进行,完成后自动刷新',
+        time: lastStatus.startedAt,
+      }));
       return;
     }
 
-    lastStatus = { state: 'running', time: new Date().toISOString(), error: null };
-    console.log(`\n[${lastStatus.time}] 🔄 收到手动刷新请求`);
+    const runId = new Date().getTime().toString(36);
+    serveFile(res, 202, 'application/json', JSON.stringify({
+      status: 'accepted', message: '已开始重建', time: new Date().toISOString(), runId,
+    }));
 
-    serveFile(res, 202, 'application/json', JSON.stringify({ status: 'accepted', time: lastStatus.time }));
-
-    (async () => {
-      const run = (cmd, args, opts = {}) => new Promise((resolve, reject) => {
-        const child = spawn(cmd, args, { cwd: ROOT, stdio: 'inherit', shell: false, ...opts });
-        child.on('error', reject);
-        child.on('close', (code) => {
-          if (code === 0) resolve();
-          else reject(new Error(`exit code ${code}`));
-        });
-      });
-      try {
-        console.log('  1/3 构建中...');
-        // Run the build as an async child process with NO hard timeout — the
-        // pipeline can legitimately take 3-9 min when the AI proxy is slow and
-        // the build retries. A sync execSync with a short timeout would get
-        // killed mid-AI-analysis and leave a half-written report.
-        await run('node', ['scripts/build-daily.mjs']);
-
-        console.log('  2/3 git commit...');
-        execSync('git add index.html scripts/build-daily.mjs scripts/refresh-server.mjs history/', { cwd: ROOT, timeout: 10_000 });
-        execSync(`git commit -m "手动刷新: ${beijingNowString()}"`, { cwd: ROOT, timeout: 10_000 });
-
-        console.log('  3/3 git push...');
-        execSync('git push', { cwd: ROOT, timeout: 30_000 });
-
-        lastStatus = { state: 'done', time: new Date().toISOString(), error: null };
-        console.log('  ✅ 刷新完成');
-      } catch (err) {
-        lastStatus = { state: 'error', time: new Date().toISOString(), error: err.message };
-        console.error(`  ❌ 刷新失败: ${err.message}`);
-      }
-    })();
+    activeRun = runRefresh(runId);
+    activeRun.catch(() => {}); // 防止未捕获 rejection 触发 Node 警告
     return;
   }
 
@@ -185,5 +356,6 @@ server.listen(PORT, '127.0.0.1', () => {
   console.log(`   GET / — 查看最新页面`);
   console.log(`   GET /history/dates — 历史日期列表`);
   console.log(`   GET /history?date=YYYYMMDD — 历史日报`);
+  console.log(`   GET /status — 当前刷新状态(构建阶段/进度)`);
   console.log(`   POST /refresh — 触发重建+推送\n`);
 });
