@@ -42,10 +42,19 @@ export function accumulateETF(history, etfData, maxDays = 60) {
   const key = beijingDateKey(today);
   const dateStr = `${key.slice(0,4)}-${key.slice(4,6)}-${key.slice(6,8)}`;
 
+  // 归一化:保证每个板块都有一条与 dates 对齐的价格序列。旧存档/异常数据可能缺
+  // 某个板块的 prices 键,若不经初始化就直接按索引就地写入,会抛 TypeError 打断
+  // 整次构建。
+  history.dates = Array.isArray(history.dates) ? history.dates : [];
+  history.prices = history.prices && typeof history.prices === 'object' ? history.prices : {};
+  for (const sector of Object.keys(SECTOR_ETF)) {
+    if (!Array.isArray(history.prices[sector])) history.prices[sector] = new Array(history.dates.length).fill(null);
+  }
+
   // If today is already recorded, replace it
   const existingIdx = history.dates.indexOf(dateStr);
   if (existingIdx >= 0) {
-    for (const [sector, etfCode] of Object.entries(SECTOR_ETF)) {
+    for (const sector of Object.keys(SECTOR_ETF)) {
       const items = etfData.filter(e => e.category === sector);
       if (items.length > 0) {
         const avg = items.reduce((s, e) => s + e.price, 0) / items.length;
@@ -54,8 +63,7 @@ export function accumulateETF(history, etfData, maxDays = 60) {
     }
   } else {
     history.dates.push(dateStr);
-    for (const [sector, etfCode] of Object.entries(SECTOR_ETF)) {
-      if (!history.prices[sector]) history.prices[sector] = [];
+    for (const sector of Object.keys(SECTOR_ETF)) {
       const items = etfData.filter(e => e.category === sector);
       const avg = items.length > 0 ? items.reduce((s, e) => s + e.price, 0) / items.length : null;
       history.prices[sector].push(avg !== null ? parseFloat(avg.toFixed(4)) : null);

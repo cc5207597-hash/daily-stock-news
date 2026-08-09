@@ -1,9 +1,10 @@
 // ── Pipeline: AI 分析与关键词引擎 ───────────────────────
 
 import net from 'node:net';
-import { CONFIG, KEYWORD_RULES } from './config.mjs';
+import { CONFIG } from './config.mjs';
 import { dedupKey } from './clean.mjs';
-import { SECTORS, IMPACT_RANK, matchKw, impactCompare } from './sectors.mjs';
+import { SECTORS, IMPACT_RANK, impactCompare } from './sectors.mjs';
+import { scoreNewsItem, sectorShock } from './sentiment.mjs';
 
 // Match AI-consolidated brief to its most recent source news pubDate
 // Returns { date, link } so each brief keeps the source article's real
@@ -139,7 +140,6 @@ export function translateWithLocalDict(text) {
 }
 
 // Word-boundary matching for short Latin keywords lives in sectors.mjs (matchKw).
-// (Local duplicate removed in favor of the shared import.)
 
 // Batch-translate non-Chinese titles/descriptions via the Claude proxy.
 // Returns a copy of newsItems with title_cn / summary_cn set.
@@ -444,37 +444,23 @@ export async function analyzeWithKeywords(newsItems) {
   const translated = await translateItems(newsItems);
 
   const analyzed = translated.map((n) => {
-    const titleText = (n.title || '').toLowerCase();
-    const descText = (n.description || '').toLowerCase();
-    // 板块归属由清洗层 classifier 决定(guessedSector),KEYWORD_RULES 只在本板块内
-    // 评级 —— 旧实现裸 '黄金'/'gold' 会把「黄金周」等误判再次拉进黄金,且跨板块
-    // 命中(如半导体的 "data center")会带上别板块的 tickers。
+    // 板块归属由清洗层 classifier 决定(guessedSector);评级由 sentiment.mjs 评分
+    // 引擎负责:命中信号的 base 累计方向分/冲击分 → direction/impact/certainty/
+    // time_window/notes,全部可审计可复现(旧 KEYWORD_RULES 是"命中哪条规则就取
+    // 写死的评级",不可解释)。
     const sector = n.guessedSector || '';
-    let best = null, bestScore = 0;
-    for (const rule of KEYWORD_RULES) {
-      if (rule.category !== sector) continue;
-      let match = false;
-      for (const k of rule.kw) {
-        if (matchKw(titleText, k)) { match = true; break; }
-      }
-      if (!match) continue;
-      // Score by count of distinct keyword hits in title (weighted) + description
-      const score = rule.kw.reduce((s, k) => s + (matchKw(titleText, k) ? 3 : 0) + (matchKw(descText, k) ? 1 : 0), 0);
-      if (score > bestScore) { bestScore = score; best = rule; }
-    }
-
-    const rule = best || { impact: '低', dir: '中性', tickers: '—', time: '中期' };
+    const rating = scoreNewsItem(n);
     return {
       ...n,
       title_cn: n.title_cn || n.title,
       summary_cn: n.summary_cn || n.description.substring(0, 80),
       category: sector,
-      direction: rule.dir,
-      impact: rule.impact,
-      certainty: '低',
-      time_window: rule.time,
-      tickers: rule.tickers || '—',
-      notes: '关键词引擎自动评级，非AI分析',
+      direction: rating.direction,
+      impact: rating.impact,
+      certainty: rating.certainty,
+      time_window: rating.time_window,
+      tickers: '—',
+      notes: rating.notes,
     };
   }).filter(n => SECTORS.includes(n.category));
 
@@ -492,8 +478,12 @@ export async function analyzeWithKeywords(newsItems) {
       secItems[cat].push(item);
       if (item.direction.includes('利好')) secMap[cat].direction = '利好';
       else if (item.direction.includes('利空')) secMap[cat].direction = '利空';
-      if (item.impact === '极高' || item.impact === '高') secMap[cat].shock = '强';
     }
+  }
+  // 板块冲击:加权新闻数(impact 数值 × 方向强度)→ 强/中/弱,替代旧"见一条极高/高
+  // 就整块变强"的粗糙判断,平滑且可解释。
+  for (const cat of Object.keys(secMap)) {
+    secMap[cat].shock = sectorShock(secItems[cat]);
   }
 
   // Fill matrix summary + tickers from each sector's highest-impact news

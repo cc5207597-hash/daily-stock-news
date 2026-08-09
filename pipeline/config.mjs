@@ -144,22 +144,3 @@ export const SECTOR_RULES = {
     threshold: 1,
   },
 };
-
-// Keyword rules for local fallback analysis
-export const KEYWORD_RULES = [
-  { kw: ['Nvidia','英伟达','GPU','H100','H200','B100','B200','Blackwell','Hopper','Rubin'], category: '半导体', impact: '极高', dir: '利好', tickers: '—', time: '短期' },
-  { kw: ['TSMC','台积电','foundry','代工','3nm','2nm','先进制程','CoWoS'], category: '半导体', impact: '高', dir: '利好', tickers: '中芯国际', time: '中期' },
-  { kw: ['ASML','光刻','lithography','EUV','DUV'], category: '半导体', impact: '高', dir: '分化', tickers: '北方华创、中微公司', time: '中期' },
-  { kw: ['HBM','高带宽内存','SK hynix','Samsung','美光','Micron'], category: '半导体', impact: '高', dir: '利好', tickers: '—', time: '短期' },
-  { kw: ['chip ban','chip export','chip restriction','芯片管制','出口管制','semiconductor export','sanction','制裁','entity list'], category: '半导体', impact: '极高', dir: '分化', tickers: '中芯国际、北方华创、中微公司', time: '短期' },
-  { kw: ['optical','transceiver','光模块','800G','1.6T','800g','1.6t','CPO','LPO','光通信','硅光','silicon photonic'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、新易盛、天孚通信', time: '短期' },
-  { kw: ['data center','数据中心','hyperscaler','云服务','cloud','AWS','Azure','Google Cloud'], category: '光模块', impact: '高', dir: '利好', tickers: '中际旭创、工业富联', time: '中期' },
-  { kw: ['FDA','approval','clinical trial','临床试验','NDA','BLA','创新药','biotech','pharma','drug approval','抗体','ADC','gene therapy','细胞治疗'], category: '创新药', impact: '极高', dir: '利好', tickers: '百济神州、药明康德、恒瑞医药', time: '中期' },
-  { kw: ['药明康德','百济神州','恒瑞医药','信达生物','康龙化成','License-out','出海','授权','BD交易'], category: '创新药', impact: '高', dir: '利好', tickers: '药明康德、百济神州', time: '中期' },
-  { kw: ['gold','黄金','COMEX','gold price','金价','gold ETF','央行购金','central bank gold','gold reserve','precious metal'], category: '黄金', impact: '高', dir: '利好', tickers: '紫金矿业、山东黄金', time: '短期' },
-  { kw: ['Fed','美联储','rate cut','降息','利率','inflation','通胀','gold forecast','黄金预测'], category: '黄金', impact: '高', dir: '利好', tickers: '紫金矿业、中金黄金', time: '短期' },
-  { kw: ['chip','semiconductor','半导体','芯片','processor','封测','EDA','IP'], category: '半导体', impact: '中', dir: '利好', tickers: '—', time: '中期' },
-  { kw: ['server','服务器','rack','机架','cooling','散热','液冷'], category: '光模块', impact: '中', dir: '利好', tickers: '工业富联、浪潮信息', time: '短期' },
-  { kw: ['quantum','量子','quantum computing'], category: '半导体', impact: '低', dir: '利好', tickers: '—', time: '长期' },
-  { kw: ['China chip','国产替代','自主可控','localization','domestic chip','国产芯片'], category: '半导体', impact: '高', dir: '利好', tickers: '中芯国际、北方华创、海光信息', time: '中期' },
-];
