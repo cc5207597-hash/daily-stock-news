@@ -1,8 +1,168 @@
 {
   "date": "20260809",
   "displayDate": "2026-08-09",
-  "generatedAt": "2026-08-09T10:03:09.773Z",
+  "generatedAt": "2026-08-09T14:07:42.580Z",
   "analyzed": [
+    {
+      "title_cn": "【远大医药：在研创新药获FDA快速通道认定】8月9日，远大医药（00512.HK）披露公告，公司FAP靶点创新核药GPN01530-2获得美国FDA授予快速通道资格（FTD）。GPN01530-2目前已获FDA批准开展用于诊断实体瘤的I/II期临床研究，此次获快速通道资格认定，有望加快GPN01530-2未来开发及上市进程。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:临床·利好(120)+传闻·中性(10)",
+      "title": "【远大医药：在研创新药获FDA快速通道认定】8月9日，远大医药（00512.HK）披露公告，公司FAP靶点创新核药GPN01530-2获得美国FDA授予快速通道资格（FTD）。GPN01530-2目前已获FDA批准开展用于诊断实体瘤的I/II期临床研究，此次获快速通道资格认定，有望加快GPN01530-2未来开发及上市进程。",
+      "description": "",
+      "pubDate": "2026-08-09T13:19:28.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwi3356653.d.html"
+    },
+    {
+      "title_cn": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】",
+      "summary_cn": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】金十数据8月9日讯，欧菲光公告称，公司针对8月6日媒体报道《欧菲光遭举报！实控人蔡",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】",
+      "description": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】金十数据8月9日讯，欧菲光公告称，公司针对8月6日媒体报道《欧菲光遭举报！实控人蔡荣军被指设体外公司掏空上市公司资产》进行澄清。公司与实控人蔡荣军控制公司新菲光、新思考的研发目标、技术路线、产品应用场景各不相同。公司研发形成的工艺、技术、专利均服务于本公司产品，不存在与新思考、新菲光互相通用、共享的研发技术及专利，亦不存在由公司承担研发亏损风险但将成熟工艺无合理授权或技术转让费直接复用于新菲光光模块产品的情况。公司未为新菲光生产或代工该报道所述光模块光学组件、玻璃桥、精密结构件等产品，不存在人为压低公司零部件售价、向新菲光转移利润的行为，也不存在“早年从欧菲光拆分VCM马达核心业务，欧菲光承担全部研发成本，成熟后高毛利业务归新思考。”的情况。相关报道所述内容系网络谣传，公司已正式向相关媒体发出《撤稿通知函》，要求删除不实报道并停止传播。针对相关不实报道及误导性信息，公司已报案并采取必要法律及应对措施，将依法追究相关主体的法律责任。",
+      "pubDate": "2026-08-09T13:30:45.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【中国创新药企迈入价值兑现期：创新药纳保打开确定性增长通道】两年前，康方生物实验室里走出的依沃西单抗注射液（下称“依沃西”）在国际头对头Ⅲ期临床中击败全球原“药王”K药（帕博利珠单抗）。海外医药圈评论称，中国生物制药行业正在迎来“DeepSeek时刻”。 两年过去，依沃西的两款适应证已先后进入国家基本医保目录。在广东某县域，确诊肺癌晚期的张大爷年事已高，受不了频繁进城住院的折腾和高企的费用，也难耐传统含化疗方案的毒性。医保政策一落地，他选了依沃西这套“去化疗”一线方案，每疗程自费压到2000元上下。 从国际顶刊的学术认可，到一张普通患者的药费清单，这是本土创新药价值兑现的一个缩影。 近年来，创新药从获批到进入医保目录的周期已由原先的数年压缩至1年左右，约80%的创新药可在上市两年内纳入医保支付范围。一个正被反复验证的行业共识是：一旦国内创新药的支付瓶颈得以打通，产品便会进入销售放量期，并逐步转化为持续的营收增长。今年以来，多家头部创新药企已凭借自研管线实质兑现商业化收益。 但与此同时，“一个支付方”的博弈终究有边界，本土市场的规模天花板也客观存在。在借助医保解决本土患者可及性问题的同时，中国创新药企仍需在全球市场上寻找更高维度的价值兑现场。（一财）",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【中国创新药企迈入价值兑现期：创新药纳保打开确定性增长通道】两年前，康方生物实验室里走出的依沃西单抗注射液（下称“依沃西”）在国际头对头Ⅲ期临床中击败全球原“药王”K药（帕博利珠单抗）。海外医药圈评论称，中国生物制药行业正在迎来“DeepSeek时刻”。 两年过去，依沃西的两款适应证已先后进入国家基本医保目录。在广东某县域，确诊肺癌晚期的张大爷年事已高，受不了频繁进城住院的折腾和高企的费用，也难耐传统含化疗方案的毒性。医保政策一落地，他选了依沃西这套“去化疗”一线方案，每疗程自费压到2000元上下。 从国际顶刊的学术认可，到一张普通患者的药费清单，这是本土创新药价值兑现的一个缩影。 近年来，创新药从获批到进入医保目录的周期已由原先的数年压缩至1年左右，约80%的创新药可在上市两年内纳入医保支付范围。一个正被反复验证的行业共识是：一旦国内创新药的支付瓶颈得以打通，产品便会进入销售放量期，并逐步转化为持续的营收增长。今年以来，多家头部创新药企已凭借自研管线实质兑现商业化收益。 但与此同时，“一个支付方”的博弈终究有边界，本土市场的规模天花板也客观存在。在借助医保解决本土患者可及性问题的同时，中国创新药企仍需在全球市场上寻找更高维度的价值兑现场。（一财）",
+      "description": "",
+      "pubDate": "2026-08-09T13:50:46.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtuei5384636.d.html"
+    },
+    {
+      "title_cn": "【知情人士：苹果测试长鑫科技存储芯片，用于iPhone和MacBook】据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步洽谈，目标是在中国销售的部分设备中使用这些芯片。此外，笔记本电脑制造商惠普（HP）和宏碁（Acer）已开始在销往美国以外市场的设备中使用长鑫存储的芯片，以缓解供应短缺。（中新经纬）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【知情人士：苹果测试长鑫科技存储芯片，用于iPhone和MacBook】据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步洽谈，目标是在中国销售的部分设备中使用这些芯片。此外，笔记本电脑制造商惠普（HP）和宏碁（Acer）已开始在销往美国以外市场的设备中使用长鑫存储的芯片，以缓解供应短缺。（中新经纬）",
+      "description": "",
+      "pubDate": "2026-08-09T13:35:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtuef3233312.d.html"
+    },
+    {
+      "title_cn": "【杠杆ETF规模激增放大市场波动，华尔街日内动量交易迎爆发式增长】随着杠杆ETF资产规模的爆炸式增长，其每日机械性再平衡机制正显著放大市场波动，进而为华尔街日内动量交易策略创造了新的获利途径。当前，半导体等科技板块已成为此类短期趋势交易的核心领域。杠杆ETF的运作机制决定了其具有天然的顺周期特征。为维持既定杠杆倍数，此类基金在市场上涨时必须追加买入，下跌时则被迫卖出。在此背景下，专注于高波动资产的日内动量策略迎来了显著增长。数据显示，自2024年以来，针对半导体行业的日内动量有效策略数量增长逾两倍。这类策略通过严格的量化规则在价格大幅波动时捕捉短期趋势，其风险调整后收益远超美股整体指数表现。摩根大通策略师指出，当前市场的高波动性特征令人回想起1998年技术革命时期，为日内动量策略提供了极佳的交易环境。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【杠杆ETF规模激增放大市场波动，华尔街日内动量交易迎爆发式增长】随着杠杆ETF资产规模的爆炸式增长，其每日机械性再平衡机制正显著放大市场波动，进而为华尔街日内动量交易策略创造了新的获利途径。当前，半导体等科技板块已成为此类短期趋势交易的核心领域。杠杆ETF的运作机制决定了其具有天然的顺周期特征。为维持既定杠杆倍数，此类基金在市场上涨时必须追加买入，下跌时则被迫卖出。在此背景下，专注于高波动资产的日内动量策略迎来了显著增长。数据显示，自2024年以来，针对半导体行业的日内动量有效策略数量增长逾两倍。这类策略通过严格的量化规则在价格大幅波动时捕捉短期趋势，其风险调整后收益远超美股整体指数表现。摩根大通策略师指出，当前市场的高波动性特征令人回想起1998年技术革命时期，为日内动量策略提供了极佳的交易环境。",
+      "description": "",
+      "pubDate": "2026-08-09T13:03:45.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwi3349219.d.html"
+    },
+    {
+      "title_cn": "报道：苹果测试长鑫科技存储芯片，用于iPhone和MacBook",
+      "summary_cn": "据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。\n",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "报道：苹果测试长鑫科技存储芯片，用于iPhone和MacBook",
+      "description": "据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。\n\n报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步洽谈，目标是在中国销售的部分设备中使用这些芯片。路透社此前报道称，长鑫存储正考虑在北京建设第二座存储芯片工厂，以提高产能。此外，笔记本电脑制造商惠普（HP）和宏碁（Acer）已开始在销往美国以外市场的设备中使用长鑫存储的芯片，以缓解供应短缺。（中新经纬）",
+      "pubDate": "2026-08-09T13:36:25.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3147106"
+    },
+    {
+      "title_cn": "CITIC Securities says the Hang Seng Composite Inde",
+      "summary_cn": "CITIC Securities says the Hang Seng Composite Index has seen an 财报-expectations reversal over the past month; interim results beats and positive 利润 guidance have driven upward revisions to full-year 财报. The Hang Seng TECH index is lagging, hit by divergent passenger-car 利润ability and higher capex at leading internet platforms that compress near-term margins. 板块 outlook: upgrades for healthcare (CXO and large-cap 制药), financials (broker asset management and insurers), utilities and cyclical transport; downgrades for consumer, property and information technology. Flow",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "CITIC Securities says the Hang Seng Composite Inde",
+      "description": "CITIC Securities says the Hang Seng Composite Index has seen an earnings-expectations reversal over the past month; interim results beats and positive profit guidance have driven upward revisions to full-year earnings. The Hang Seng TECH index is lagging, hit by divergent passenger-car profitability and higher capex at leading internet platforms that compress near-term margins. Sector outlook: upgrades for healthcare (CXO and large-cap pharma), financials (broker asset management and insurers), utilities and cyclical transport; downgrades for consumer, property and information technology. Flow",
+      "pubDate": "2026-08-09T12:00:04.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【中信证券：利空出尽或支撑港股行情延续】",
+      "summary_cn": "【中信证券：利空出尽或支撑港股行情延续】金十数据8月9日讯，中信证券研报指出，近一个月恒生综指迎来业绩预期反转，中报超预期与利好预告推动全年盈利上修；而恒科指数",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【中信证券：利空出尽或支撑港股行情延续】",
+      "description": "【中信证券：利空出尽或支撑港股行情延续】金十数据8月9日讯，中信证券研报指出，近一个月恒生综指迎来业绩预期反转，中报超预期与利好预告推动全年盈利上修；而恒科指数受制于乘用车盈利分化及头部互联网平台资本开支扩张对短期利润率的压制，预期修复相对滞后。行业上，医疗保健（CXO与制药龙头驱动）、金融（券商资管与保险）、公用事业及周期运输景气上行；消费、地产及资讯科技预期遭下调。交易层面呈现资金回补超跌低位板块与交易高景气业绩动能的“双管齐下”特征。面对财报密集披露期与海内外宏观扰动，配置建议维持“红利防守+成长弹性”杠铃策略：防守端锁定高股息、低β“类债”资产；进攻端聚焦互联网巨头、双向资金加仓的机器人与生物科技，以及技术硬件与AI应用，兼顾创新药及工业金属的催化布局。",
+      "pubDate": "2026-08-09T11:59:49.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【欧菲光澄清媒体报道： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】欧菲光(002456.SZ)公告称，公司针对媒体报道《欧菲光遭举报！实控人蔡荣军被指设体外公司掏空上市公司资产》进行澄清。公司与实控人蔡荣军控制公司新菲光、新思考的研发目标、技术路线、产品应用场景各不相同。公司研发形成的工艺、技术、专利均服务于本公司产品，不存在与新思考、新菲光互相通用、共享的研发技术及专利，亦不存在由公司承担研发亏损风险但将成熟工艺无合理授权或技术转让费直接复用于新菲光光模块产品的情况。公司未为新菲光生产或代工该报道所述光模块光学组件、玻璃桥、精密结构件等产品，不存在人为压低公司零部件售价、向新菲光转移利润的行为，也不存在“早年从欧菲光拆分VCM马达核心业务，欧菲光承担全部研发成本，成熟后高毛利业务归新思考。”的情况。相关报道所述内容系网络谣传，公司已正式向相关媒体发出《撤稿通知函》，要求删除不实报道并停止传播。针对相关不实报道及误导性信息，公司已报案并采取必要法律及应对措施，将依法追究相关主体的法律责任。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【欧菲光澄清媒体报道： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】欧菲光(002456.SZ)公告称，公司针对媒体报道《欧菲光遭举报！实控人蔡荣军被指设体外公司掏空上市公司资产》进行澄清。公司与实控人蔡荣军控制公司新菲光、新思考的研发目标、技术路线、产品应用场景各不相同。公司研发形成的工艺、技术、专利均服务于本公司产品，不存在与新思考、新菲光互相通用、共享的研发技术及专利，亦不存在由公司承担研发亏损风险但将成熟工艺无合理授权或技术转让费直接复用于新菲光光模块产品的情况。公司未为新菲光生产或代工该报道所述光模块光学组件、玻璃桥、精密结构件等产品，不存在人为压低公司零部件售价、向新菲光转移利润的行为，也不存在“早年从欧菲光拆分VCM马达核心业务，欧菲光承担全部研发成本，成熟后高毛利业务归新思考。”的情况。相关报道所述内容系网络谣传，公司已正式向相关媒体发出《撤稿通知函》，要求删除不实报道并停止传播。针对相关不实报道及误导性信息，公司已报案并采取必要法律及应对措施，将依法追究相关主体的法律责任。",
+      "description": "",
+      "pubDate": "2026-08-09T12:51:58.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwf1740063.d.html"
+    },
+    {
+      "title_cn": "【61%！7月挖掘机出口占比再破纪录，出海持续释放增长动能】7月国内挖掘机出口占比达61%，同比增逾两成。中国工程机械工业协会数据显示，2026年7月，挖掘机主要制造企业销售各类挖掘机19521台，同比增长13.9%。这一增速虽较6月的35.3%有所回落，但行业整体向好的势头并未改变。其中，国内销量7608台，同比增长4.13%；出口11913台，同比增长21.2%。出口占比达到61%。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【61%！7月挖掘机出口占比再破纪录，出海持续释放增长动能】7月国内挖掘机出口占比达61%，同比增逾两成。中国工程机械工业协会数据显示，2026年7月，挖掘机主要制造企业销售各类挖掘机19521台，同比增长13.9%。这一增速虽较6月的35.3%有所回落，但行业整体向好的势头并未改变。其中，国内销量7608台，同比增长4.13%；出口11913台，同比增长21.2%。出口占比达到61%。",
+      "description": "",
+      "pubDate": "2026-08-09T12:41:13.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwf1734560.d.html"
+    },
     {
       "title_cn": "【电报解读】英伟达Vera Rubin正全面加速量产！分析师看好液冷已升级为AI数据中心的刚性基础设施，Vera Rubin全面量产标志着行业进入业绩集中释放期，这家公司的液冷产品有规模化成熟应用",
       "summary_cn": "",
@@ -18,6 +178,22 @@
       "pubDate": "2026-08-09T08:49:58.000Z",
       "source": "财联社",
       "link": "https://www.cls.cn/detail/2449309"
+    },
+    {
+      "title_cn": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
+      "summary_cn": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
+      "description": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI）环比下降0.7%，同比上涨3.5%，涨幅比上月回落0.6个百分点。值得注意的是，新动能发展势头依旧不减。",
+      "pubDate": "2026-08-09T09:46:22.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608093835942838.html"
     },
     {
       "title_cn": "【财联社早知道】溢价45%！A股存储巨头完成37亿元定增，机构称AI数据中心存储芯片供应短缺的情况仍在加剧；英伟达据悉拟向Lancium投资最高30亿美元，支持AI数据中心电力基础设施",
@@ -68,38 +244,6 @@
       "link": "https://www.cls.cn/detail/2449332"
     },
     {
-      "title_cn": "方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎",
-      "summary_cn": "【方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎】财联社8月9日电，方正证券研报表示，市场超跌反弹进入攻坚期，科技与景气赛道分化演绎。继续关注三方面配",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎",
-      "description": "【方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎】财联社8月9日电，方正证券研报表示，市场超跌反弹进入攻坚期，科技与景气赛道分化演绎。继续关注三方面配置机会，一是科技股也需要精选结构，指数层面来看双创从底部反弹幅度在10%左右，参考主线典型的超跌反弹幅度来看还有空间，AI叙事在美股CSP财报之后出现一些变化，竞争性的资本开支边际弱化，云业务以及健康的现金流是胜负手，因此AI内部硬件和应用会适当均衡，重点关注海外算力中拥挤度不高的核心标的，以及国产算力中景气确定性较强的半导体设备和材料，相对低位的AI应用以及恒生科技需要重视；二是关注HALO资产的布局机会，美联储加息预期弱化，除了核心",
-      "pubDate": "2026-08-09T08:58:51.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2449326"
-    },
-    {
-      "title_cn": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
-      "summary_cn": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
-      "description": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI）环比下降0.7%，同比上涨3.5%，涨幅比上月回落0.6个百分点。值得注意的是，新动能发展势头依旧不减。",
-      "pubDate": "2026-08-09T09:46:22.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608093835942838.html"
-    },
-    {
       "title_cn": "【银河证券：A股市场正从“预期博弈”转向“现实验证”】银河证券研报表示，8月A股市场正从“预期博弈”转向“现实验证”，围绕业绩、政策、外围风险三大线索展开。一是业绩验证。8月中下旬是A股中报披露最密集的窗口，市场有望围绕中报业绩预期验证展开定价。二是政策验证。7月政治局会议对下半年经济工作做出部署，后续进入政策细则出台与执行验证阶段。三是外围风险验证。美联储政策路径仍是全球市场关注焦点。建议均衡配置。关注一：科技景气与产业趋势未改。关注半导体及产业链（存储芯片、半导体设备与材料、先进封装）、元件、通信设备、储能/电力配套、人形机器人、商业航天等。关注二：重视防御性底仓的配置价值。关注煤炭、煤化工、金融、公用事业、新能源等。辅助线：资源品与周期制造板块有望迎来修复。关注有色金属、基础化工、建筑材料、钢铁板块等。",
       "summary_cn": "",
       "category": "半导体",
@@ -132,8 +276,8 @@
       "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtiqi1765316.d.html"
     },
     {
-      "title_cn": "Ark Invest boosts stakes in 英伟达, Taiwan 半导体 after Meta’s 财报 miss - Crypto Briefing",
-      "summary_cn": "Ark Invest boosts stakes in 英伟达, Taiwan 半导体 after Meta’s 财报 miss&nbsp;&nbsp; Crypto Briefing",
+      "title_cn": "台积电 vs. 英伟达: Which AI 股票 is a Better Investment? - 交易Key",
+      "summary_cn": "台积电 vs. 英伟达: Which AI 股票 is a Better Investment?&nbsp;&nbsp; 交易Key",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -141,10 +285,26 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss - Crypto Briefing",
-      "description": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss&nbsp;&nbsp; Crypto Briefing",
+      "title": "TSMC vs. Nvidia: Which AI Stock is a Better Investment? - TradingKey",
+      "description": "TSMC vs. Nvidia: Which AI Stock is a Better Investment?&nbsp;&nbsp; TradingKey",
+      "pubDate": "2026-08-09T06:51:16.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdXJCVjIyVV9HeUpVSVJzUHFDNFJ6Z0hGNlZHb0RCeV9ZYmZ4cUlpSnlrc2paYVlfam1VdEFyRkpzNlA0eWJjdzVXS1drUFFfbVZoQjI1WlNFNFpjalBOVEZkc1FVZTJ1TEo4OTRJdzdYZXJ5WG5Pb1VWX1JmVHFvem44bnJwWnN0SEU4VXNjM2M1RU5CcHQtOVVfSDBxdm5fQnZFYm9fVEdZdmh0VFV1aHBqaVBkR1FqVzVONzJQZHFwdw?oc=5"
+    },
+    {
+      "title_cn": "Ark Invest boosts stakes in 英伟达, Taiwan 半导体 after Meta’s 财报 miss - cryptobriefing.com",
+      "summary_cn": "Ark Invest boosts stakes in 英伟达, Taiwan 半导体 after Meta’s 财报 miss&nbsp;&nbsp; cryptobriefing.com",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss - cryptobriefing.com",
+      "description": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss&nbsp;&nbsp; cryptobriefing.com",
       "pubDate": "2026-08-09T07:16:57.000Z",
-      "source": "Crypto Briefing",
+      "source": "cryptobriefing.com",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VWFR2YzBUb1M5ZDRTajhNaGxlMy1DQjROUlJvWGFTdGlPUlloeGtuNWNGODRhRl9ESmVXeW51ODZ6b2t6eTh6azNyM1BKZl95MGpQZFVMOFFic3JNakdnMW9qejlrTHdSYU0xcHhwanJCUQ?oc=5"
     },
     {
@@ -473,9 +633,17 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 15,
-      "summary": "半导体板块15条新闻，方向以利好为主",
+      "news_count": 20,
+      "summary": "半导体板块20条新闻，方向以利好为主",
       "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "创新药",
+      "shock": "强",
+      "direction": "利好",
+      "news_count": 10,
+      "summary": "创新药板块10条新闻，方向以利好为主",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "黄金",
@@ -484,14 +652,6 @@
       "news_count": 7,
       "summary": "黄金板块7条新闻，方向以利好为主",
       "tickers": "紫金矿业、山东黄金、中金黄金"
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 5,
-      "summary": "创新药板块5条新闻，方向以利好为主。关注：东吴证券：大盘底部蓄势 新一轮行情将徐徐展开；【东吴证券：大盘底部蓄势 新一轮",
-      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
@@ -503,20 +663,28 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 29 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 1 条，高影响 3 条，利好方向 3 条。",
-    "板块概况：半导体(利好, 强冲击, 15条)、黄金(利好, 中冲击, 7条)、创新药(利好, 弱冲击, 5条)、光模块(利好, 弱冲击, 2条)。",
-    "重点关注：【三星得州工厂即将投产，首批实习生招聘正式启动】三星电子即将为其位于得克萨斯州的先进晶圆代工厂开启首届实习生招募，该工厂计划于今年年底正式投产。消息显示，三星电子近期启动美国泰勒工厂明年夏季的实习生招聘。三星每年都会在全球主要基地开展实习项目，泰勒工厂首次被纳入明年实习计划。实习周期为 11 周，实习生可跟随在职工程师，参与产品、工艺、技术相关实操项目。；银河证券：A股市场正从“预期博弈”转向“现实验证”；东吴证券：大盘底部蓄势 新一轮行情将徐徐展开。"
+    "今日共抓取 39 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 2 条，高影响 3 条，利好方向 4 条。",
+    "板块概况：半导体(利好, 强冲击, 20条)、创新药(利好, 强冲击, 10条)、黄金(利好, 中冲击, 7条)、光模块(利好, 弱冲击, 2条)。",
+    "重点关注：【三星得州工厂即将投产，首批实习生招聘正式启动】三星电子即将为其位于得克萨斯州的先进晶圆代工厂开启首届实习生招募，该工厂计划于今年年底正式投产。消息显示，三星电子近期启动美国泰勒工厂明年夏季的实习生招聘。三星每年都会在全球主要基地开展实习项目，泰勒工厂首次被纳入明年实习计划。实习周期为 11 周，实习生可跟随在职工程师，参与产品、工艺、技术相关实操项目。；【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】；【中信证券：利空出尽或支撑港股行情延续】。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，29 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，39 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss - Crypto Briefing",
-      "description": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss&nbsp;&nbsp; Crypto Briefing",
+      "title": "TSMC vs. Nvidia: Which AI Stock is a Better Investment? - TradingKey",
+      "description": "TSMC vs. Nvidia: Which AI Stock is a Better Investment?&nbsp;&nbsp; TradingKey",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T06:51:16.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdXJCVjIyVV9HeUpVSVJzUHFDNFJ6Z0hGNlZHb0RCeV9ZYmZ4cUlpSnlrc2paYVlfam1VdEFyRkpzNlA0eWJjdzVXS1drUFFfbVZoQjI1WlNFNFpjalBOVEZkc1FVZTJ1TEo4OTRJdzdYZXJ5WG5Pb1VWX1JmVHFvem44bnJwWnN0SEU4VXNjM2M1RU5CcHQtOVVfSDBxdm5fQnZFYm9fVEdZdmh0VFV1aHBqaVBkR1FqVzVONzJQZHFwdw?oc=5"
+    },
+    {
+      "title": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss - cryptobriefing.com",
+      "description": "Ark Invest boosts stakes in Nvidia, Taiwan Semiconductor after Meta’s earnings miss&nbsp;&nbsp; cryptobriefing.com",
       "guessedSector": "半导体",
       "pubDate": "2026-08-09T07:16:57.000Z",
-      "source": "Crypto Briefing",
+      "source": "cryptobriefing.com",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1VWFR2YzBUb1M5ZDRTajhNaGxlMy1DQjROUlJvWGFTdGlPUlloeGtuNWNGODRhRl9ESmVXeW51ODZ6b2t6eTh6azNyM1BKZl95MGpQZFVMOFFic3JNakdnMW9qejlrTHdSYU0xcHhwanJCUQ?oc=5"
     },
     {
@@ -526,6 +694,94 @@
       "pubDate": "2026-08-09T00:09:02.000Z",
       "source": "TradingKey",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTkhYR1d0X2dPRUdkalFvNHhHNHhQWDd6SGFhWXBpUnRaTUlFNFhta3BqTzJmbnYtVWJFQXE4V3FFQUJGWXJSWDhqRExOSzNlajdCcHcxNFVOZkVxS3V6M2VweU9vOHh2a0V4b1NhVlQ4cE1tVDcyZ3ZrSHdUV3BHSi16b2FwU01YbzBXa0xSUnZSU0o2NHBwd0M1cDU0eS1ZcllIRzZRTXNrUDlWTmMtbnF1MFJfNnI5Sk9UeWZDalZTaFdqejZtYnJn?oc=5"
+    },
+    {
+      "title": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】",
+      "description": "【欧菲光澄清： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】金十数据8月9日讯，欧菲光公告称，公司针对8月6日媒体报道《欧菲光遭举报！实控人蔡荣军被指设体外公司掏空上市公司资产》进行澄清。公司与实控人蔡荣军控制公司新菲光、新思考的研发目标、技术路线、产品应用场景各不相同。公司研发形成的工艺、技术、专利均服务于本公司产品，不存在与新思考、新菲光互相通用、共享的研发技术及专利，亦不存在由公司承担研发亏损风险但将成熟工艺无合理授权或技术转让费直接复用于新菲光光模块产品的情况。公司未为新菲光生产或代工该报道所述光模块光学组件、玻璃桥、精密结构件等产品，不存在人为压低公司零部件售价、向新菲光转移利润的行为，也不存在“早年从欧菲光拆分VCM马达核心业务，欧菲光承担全部研发成本，成熟后高毛利业务归新思考。”的情况。相关报道所述内容系网络谣传，公司已正式向相关媒体发出《撤稿通知函》，要求删除不实报道并停止传播。针对相关不实报道及误导性信息，公司已报案并采取必要法律及应对措施，将依法追究相关主体的法律责任。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T13:30:45.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "CITIC Securities says the Hang Seng Composite Inde",
+      "description": "CITIC Securities says the Hang Seng Composite Index has seen an earnings-expectations reversal over the past month; interim results beats and positive profit guidance have driven upward revisions to full-year earnings. The Hang Seng TECH index is lagging, hit by divergent passenger-car profitability and higher capex at leading internet platforms that compress near-term margins. Sector outlook: upgrades for healthcare (CXO and large-cap pharma), financials (broker asset management and insurers), utilities and cyclical transport; downgrades for consumer, property and information technology. Flow",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-09T12:00:04.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【中信证券：利空出尽或支撑港股行情延续】",
+      "description": "【中信证券：利空出尽或支撑港股行情延续】金十数据8月9日讯，中信证券研报指出，近一个月恒生综指迎来业绩预期反转，中报超预期与利好预告推动全年盈利上修；而恒科指数受制于乘用车盈利分化及头部互联网平台资本开支扩张对短期利润率的压制，预期修复相对滞后。行业上，医疗保健（CXO与制药龙头驱动）、金融（券商资管与保险）、公用事业及周期运输景气上行；消费、地产及资讯科技预期遭下调。交易层面呈现资金回补超跌低位板块与交易高景气业绩动能的“双管齐下”特征。面对财报密集披露期与海内外宏观扰动，配置建议维持“红利防守+成长弹性”杠铃策略：防守端锁定高股息、低β“类债”资产；进攻端聚焦互联网巨头、双向资金加仓的机器人与生物科技，以及技术硬件与AI应用，兼顾创新药及工业金属的催化布局。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-09T11:59:49.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
+      "description": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI）环比下降0.7%，同比上涨3.5%，涨幅比上月回落0.6个百分点。值得注意的是，新动能发展势头依旧不减。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T09:46:22.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608093835942838.html"
+    },
+    {
+      "title": "【中国创新药企迈入价值兑现期：创新药纳保打开确定性增长通道】两年前，康方生物实验室里走出的依沃西单抗注射液（下称“依沃西”）在国际头对头Ⅲ期临床中击败全球原“药王”K药（帕博利珠单抗）。海外医药圈评论称，中国生物制药行业正在迎来“DeepSeek时刻”。 两年过去，依沃西的两款适应证已先后进入国家基本医保目录。在广东某县域，确诊肺癌晚期的张大爷年事已高，受不了频繁进城住院的折腾和高企的费用，也难耐传统含化疗方案的毒性。医保政策一落地，他选了依沃西这套“去化疗”一线方案，每疗程自费压到2000元上下。 从国际顶刊的学术认可，到一张普通患者的药费清单，这是本土创新药价值兑现的一个缩影。 近年来，创新药从获批到进入医保目录的周期已由原先的数年压缩至1年左右，约80%的创新药可在上市两年内纳入医保支付范围。一个正被反复验证的行业共识是：一旦国内创新药的支付瓶颈得以打通，产品便会进入销售放量期，并逐步转化为持续的营收增长。今年以来，多家头部创新药企已凭借自研管线实质兑现商业化收益。 但与此同时，“一个支付方”的博弈终究有边界，本土市场的规模天花板也客观存在。在借助医保解决本土患者可及性问题的同时，中国创新药企仍需在全球市场上寻找更高维度的价值兑现场。（一财）",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-09T13:50:46.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtuei5384636.d.html"
+    },
+    {
+      "title": "【知情人士：苹果测试长鑫科技存储芯片，用于iPhone和MacBook】据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步洽谈，目标是在中国销售的部分设备中使用这些芯片。此外，笔记本电脑制造商惠普（HP）和宏碁（Acer）已开始在销往美国以外市场的设备中使用长鑫存储的芯片，以缓解供应短缺。（中新经纬）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T13:35:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtuef3233312.d.html"
+    },
+    {
+      "title": "【远大医药：在研创新药获FDA快速通道认定】8月9日，远大医药（00512.HK）披露公告，公司FAP靶点创新核药GPN01530-2获得美国FDA授予快速通道资格（FTD）。GPN01530-2目前已获FDA批准开展用于诊断实体瘤的I/II期临床研究，此次获快速通道资格认定，有望加快GPN01530-2未来开发及上市进程。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-09T13:19:28.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwi3356653.d.html"
+    },
+    {
+      "title": "【杠杆ETF规模激增放大市场波动，华尔街日内动量交易迎爆发式增长】随着杠杆ETF资产规模的爆炸式增长，其每日机械性再平衡机制正显著放大市场波动，进而为华尔街日内动量交易策略创造了新的获利途径。当前，半导体等科技板块已成为此类短期趋势交易的核心领域。杠杆ETF的运作机制决定了其具有天然的顺周期特征。为维持既定杠杆倍数，此类基金在市场上涨时必须追加买入，下跌时则被迫卖出。在此背景下，专注于高波动资产的日内动量策略迎来了显著增长。数据显示，自2024年以来，针对半导体行业的日内动量有效策略数量增长逾两倍。这类策略通过严格的量化规则在价格大幅波动时捕捉短期趋势，其风险调整后收益远超美股整体指数表现。摩根大通策略师指出，当前市场的高波动性特征令人回想起1998年技术革命时期，为日内动量策略提供了极佳的交易环境。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T13:03:45.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwi3349219.d.html"
+    },
+    {
+      "title": "【欧菲光澄清媒体报道： 不存在人为压低公司零部件售价、向实控人控制公司转移利润的行为】欧菲光(002456.SZ)公告称，公司针对媒体报道《欧菲光遭举报！实控人蔡荣军被指设体外公司掏空上市公司资产》进行澄清。公司与实控人蔡荣军控制公司新菲光、新思考的研发目标、技术路线、产品应用场景各不相同。公司研发形成的工艺、技术、专利均服务于本公司产品，不存在与新思考、新菲光互相通用、共享的研发技术及专利，亦不存在由公司承担研发亏损风险但将成熟工艺无合理授权或技术转让费直接复用于新菲光光模块产品的情况。公司未为新菲光生产或代工该报道所述光模块光学组件、玻璃桥、精密结构件等产品，不存在人为压低公司零部件售价、向新菲光转移利润的行为，也不存在“早年从欧菲光拆分VCM马达核心业务，欧菲光承担全部研发成本，成熟后高毛利业务归新思考。”的情况。相关报道所述内容系网络谣传，公司已正式向相关媒体发出《撤稿通知函》，要求删除不实报道并停止传播。针对相关不实报道及误导性信息，公司已报案并采取必要法律及应对措施，将依法追究相关主体的法律责任。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T12:51:58.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwf1740063.d.html"
+    },
+    {
+      "title": "【61%！7月挖掘机出口占比再破纪录，出海持续释放增长动能】7月国内挖掘机出口占比达61%，同比增逾两成。中国工程机械工业协会数据显示，2026年7月，挖掘机主要制造企业销售各类挖掘机19521台，同比增长13.9%。这一增速虽较6月的35.3%有所回落，但行业整体向好的势头并未改变。其中，国内销量7608台，同比增长4.13%；出口11913台，同比增长21.2%。出口占比达到61%。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-09T12:41:13.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-09/detail-inimtpwf1734560.d.html"
+    },
+    {
+      "title": "报道：苹果测试长鑫科技存储芯片，用于iPhone和MacBook",
+      "description": "据《华尔街日报》8月9日报道，苹果公司正在其iPhone和MacBook等产品线中测试长鑫存储（CXMT）的存储芯片，以缓解因人工智能热潮引发的内存短缺问题。\n\n报道援引知情人士称，苹果公司已与中国最大的芯片制造商长鑫存储就零部件供应展开初步洽谈，目标是在中国销售的部分设备中使用这些芯片。路透社此前报道称，长鑫存储正考虑在北京建设第二座存储芯片工厂，以提高产能。此外，笔记本电脑制造商惠普（HP）和宏碁（Acer）已开始在销往美国以外市场的设备中使用长鑫存储的芯片，以缓解供应短缺。（中新经纬）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-09T13:36:25.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3147106"
     },
     {
       "title": "【财联社早知道】溢价45%！A股存储巨头完成37亿元定增，机构称AI数据中心存储芯片供应短缺的情况仍在加剧；英伟达据悉拟向Lancium投资最高30亿美元，支持AI数据中心电力基础设施",
@@ -552,14 +808,6 @@
       "link": "https://www.cls.cn/detail/2449332"
     },
     {
-      "title": "方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎",
-      "description": "【方正证券：市场超跌反弹进入攻坚期 科技与景气赛道分化演绎】财联社8月9日电，方正证券研报表示，市场超跌反弹进入攻坚期，科技与景气赛道分化演绎。继续关注三方面配置机会，一是科技股也需要精选结构，指数层面来看双创从底部反弹幅度在10%左右，参考主线典型的超跌反弹幅度来看还有空间，AI叙事在美股CSP财报之后出现一些变化，竞争性的资本开支边际弱化，云业务以及健康的现金流是胜负手，因此AI内部硬件和应用会适当均衡，重点关注海外算力中拥挤度不高的核心标的，以及国产算力中景气确定性较强的半导体设备和材料，相对低位的AI应用以及恒生科技需要重视；二是关注HALO资产的布局机会，美联储加息预期弱化，除了核心",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-09T08:58:51.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2449326"
-    },
-    {
       "title": "【电报解读】英伟达Vera Rubin正全面加速量产！分析师看好液冷已升级为AI数据中心的刚性基础设施，Vera Rubin全面量产标志着行业进入业绩集中释放期，这家公司的液冷产品有规模化成熟应用",
       "description": "",
       "guessedSector": "半导体",
@@ -574,14 +822,6 @@
       "pubDate": "2026-08-09T08:13:29.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title": "【新华解读】7月PPI同比涨幅回落 半导体全产业链价格上行",
-      "description": "新华财经北京8月9日电（记者陆宇航）国家统计局9日发布的数据显示，7月份，国内部分行业需求增加，但受输入性和季节性等因素影响，我国工业生产者出厂价格指数（PPI）环比下降0.7%，同比上涨3.5%，涨幅比上月回落0.6个百分点。值得注意的是，新动能发展势头依旧不减。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-09T09:46:22.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608093835942838.html"
     },
     {
       "title": "APEC“中国年”，深圳出海再破浪",
@@ -1049,8 +1289,8 @@
       "datasets": [
         {
           "data": [
-            3,
-            25,
+            4,
+            34,
             1
           ],
           "backgroundColor": [
@@ -1087,7 +1327,7 @@
           "极高": 0,
           "高": 3,
           "中": 0,
-          "低": 12
+          "低": 17
         },
         "光模块": {
           "极高": 0,
@@ -1096,10 +1336,10 @@
           "低": 2
         },
         "创新药": {
-          "极高": 0,
+          "极高": 1,
           "高": 0,
           "中": 0,
-          "低": 5
+          "低": 9
         },
         "黄金": {
           "极高": 1,
@@ -1123,7 +1363,7 @@
           "data": [
             3,
             0,
-            0,
+            1,
             0
           ],
           "backgroundColor": "#16a34a"
@@ -1131,9 +1371,9 @@
         {
           "label": "中性",
           "data": [
-            12,
+            17,
             2,
-            5,
+            9,
             6
           ],
           "backgroundColor": "#9ca0af"
@@ -1159,8 +1399,8 @@
       "datasets": [
         {
           "data": [
-            4,
-            25
+            5,
+            34
           ],
           "backgroundColor": [
             "#2563eb",
