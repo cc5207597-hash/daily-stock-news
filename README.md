@@ -54,7 +54,7 @@ flowchart LR
 | AI 分析 | Claude API 或本地关键词引擎兜底 (无需密钥) |
 | 渲染 | 纯字符串拼接 HTML, 内联 CSS + 原生 JS |
 | 图表 | Chart.js 4.4 (CDN), 无构建时依赖 |
-| 定时调度 | GitHub Actions (`cron: 0 1 * * *`, 北京时间 9:00, 每天含周末) |
+| 定时调度 | GitHub Actions (`cron: 0 1/8/12 * * *`, 北京时间 09/16/20, 每天含周末) + 心跳兜底 (`0 6/14 * * *`, 北京 14/22, 当天存档缺失才补建) |
 | 部署 | `peaceiris/actions-gh-pages@v4` → GitHub Pages |
 | 推送通知 | Server酱3 (微信消息推送) |
 | 本地服务 | 原生 `http` 模块, 端口 `3456` |
@@ -68,7 +68,7 @@ flowchart LR
 - **主链接（GitHub Pages）**：<https://cc5207597-hash.github.io/daily-stock-news/>
 - **备用镜像（jsDelivr CDN，国内网络更稳）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
 
-每天（含周末）北京时间 09:00 / 16:00 自动构建更新。若主链接偶发打不开，用备用镜像即可。
+每天（含周末）北京时间 09:00 / 16:00 / 20:00 自动构建更新；另有心跳兜底（北京 14:00 / 22:00），主时段被 GitHub cron 漂移/跳过时当天存档缺失会自动补建，保证日报当天必出。若主链接偶发打不开，用备用镜像即可。
 
 ---
 
@@ -102,7 +102,9 @@ node scripts/refresh-server.mjs
 
 ```
 daily-stock-news/
-├── .github/workflows/daily.yml    # GitHub Actions 定时构建 + 部署
+├── .github/workflows/
+│   ├── daily.yml               # 主构建:定时(北京 09/16/20) + 手动触发,构建/提交/部署
+│   └── daily-heartbeat.yml     # 心跳自愈:北京 14/22 兜底,当天存档缺失才补建
 ├── scripts/
 │   ├── build-daily.mjs            # 构建入口（编排 ETL 流水线 + 渲染 + 推送）
 │   └── refresh-server.mjs         # 本地刷新服务（端口 3456，含历史 API）
@@ -136,7 +138,7 @@ daily-stock-news/
 - **历史数据浏览** — 每日输出 JSON 结构化数据，前端下拉框按日期回溯，刷新服务动态渲染（含图表）
 - **微信推送** — Server酱3 每日推送 Markdown 摘要（板块 ETF + 核心数据 + TOP 3 + 要点）
 - **一键刷新** — 网页按钮触发完整管线：重建 → git commit → git push，前端轮询状态，完成后自动重载
-- **GitHub Actions 全自动** — 每日北京时间 9:00 构建并部署到 GitHub Pages
+- **GitHub Actions 全自动** — 每日北京时间 09/16/20 构建并部署到 GitHub Pages，心跳兜底 14/22 防漏
 
 ---
 
