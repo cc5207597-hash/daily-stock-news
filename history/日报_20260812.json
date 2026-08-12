@@ -1,8 +1,200 @@
 {
   "date": "20260812",
   "displayDate": "2026-08-12",
-  "generatedAt": "2026-08-11T17:17:37.276Z",
+  "generatedAt": "2026-08-12T06:04:10.633Z",
   "analyzed": [
+    {
+      "title_cn": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的",
+      "summary_cn": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的",
+      "description": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "pubDate": "2026-08-12T05:31:13.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】",
+      "summary_cn": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】金十数据8月12日讯，8月11日，有媒体报道称，前山姆中国首席采购官张青已",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】",
+      "description": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】金十数据8月12日讯，8月11日，有媒体报道称，前山姆中国首席采购官张青已于近期加入博裕资本，开始规划星巴克供应链改造的相关战略，包括寻找国内头部的优质供应商，加速本土化。其中，星巴克中国的烘焙部分将由百胜中国代工，而纸杯、吸管、抹茶粉都将由蜜雪冰城代工。8月12日，星巴克中国方面回应称，“对于网传‘星巴克纸杯吸管或由蜜雪冰城代工’、‘更换咖啡豆供应商’等信息，严重失实。我们始终秉持可持续高质量发展理念，坚持开放姿态，和行业供应链伙伴们协同发展、互惠共生，致力于为顾客提供始终如一的高品质咖啡产品和星巴克服务体验。请大家理性辨别各类网传消息，勿随意转发不实传闻。”",
+      "pubDate": "2026-08-12T05:28:19.000Z",
+      "source": "金十数据",
+      "link": "https://baijiahao.baidu.com/s?id=1873294067520680725"
+    },
+    {
+      "title_cn": "集采下的中药饮片行业困境：有企业“亏两千万”保市场",
+      "summary_cn": "【集采下的中药饮片行业困境：有企业“亏两千万”保市场】第二轮全国中药饮片集采于近日收官。本轮集采在规则设计之初即明确“稳临床、保质量、反内卷、防围标”的原则。但",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "集采下的中药饮片行业困境：有企业“亏两千万”保市场",
+      "description": "【集采下的中药饮片行业困境：有企业“亏两千万”保市场】第二轮全国中药饮片集采于近日收官。本轮集采在规则设计之初即明确“稳临床、保质量、反内卷、防围标”的原则。但部分企业反馈，实际降价压力较首轮不降反增。",
+      "pubDate": "2026-08-12T05:52:40.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1348,202608123839060239.html"
+    },
+    {
+      "title_cn": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "description": "",
+      "pubDate": "2026-08-12T05:31:32.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-12/detail-inimzumt4008910.d.html"
+    },
+    {
+      "title_cn": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目标在2029年前开发出国产100量子比特量子计算机，并力争在2035年前成为量子芯片制造领域世界第一。\n\n目标在2030年前实现登月。\n\n目标在2035年前实现脑机接口（BCI）产品的商业化。",
+      "summary_cn": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目标在2029年前开发出国产100量子比特量子计算机，并力争在2035年前成为量子芯片制造领域世界第一。\n\n目标在2030年前实现登月。\n\n目标在2035年前实现脑机接口（BCI）产品的商业化。",
+      "description": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目标在2029年前开发出国产100量子比特量子计算机，并力争在2035年前成为量子芯片制造领域世界第一。\n\n目标在2030年前实现登月。\n\n目标在2035年前实现脑机接口（BCI）产品的商业化。",
+      "pubDate": "2026-08-12T05:32:20.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148420"
+    },
+    {
+      "title_cn": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
+      "summary_cn": "星巴克中国8月12日表示，对于网传“星巴克纸杯吸管或由蜜雪冰城代工”、“更换咖啡豆供应商”等信息，严重失实。“我们始终秉持可持续高质量发展理念，坚持开放姿态，和",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
+      "description": "星巴克中国8月12日表示，对于网传“星巴克纸杯吸管或由蜜雪冰城代工”、“更换咖啡豆供应商”等信息，严重失实。“我们始终秉持可持续高质量发展理念，坚持开放姿态，和行业供应链伙伴们协同发展、互惠共生，致力于为顾客提供始终如一的高品质咖啡产品和星巴克服务体验。”星巴克中国表示。（界面新闻）",
+      "pubDate": "2026-08-12T05:26:29.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148427"
+    },
+    {
+      "title_cn": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "summary_cn": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "description": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "pubDate": "2026-08-12T05:02:03.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148414"
+    },
+    {
+      "title_cn": "机构：AI需求激增 2026年半导体市场增幅上调至94.1%",
+      "summary_cn": "Omdia发文称，由于AI需求持续超过全球供应能力，推动DRAM和NAND市场实现强劲增长，Omdia将2026年全球半导体市场营收增长预测上调至同比增长94.",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "机构：AI需求激增 2026年半导体市场增幅上调至94.1%",
+      "description": "Omdia发文称，由于AI需求持续超过全球供应能力，推动DRAM和NAND市场实现强劲增长，Omdia将2026年全球半导体市场营收增长预测上调至同比增长94.1%。预计2026年存储器芯片（Memory IC）收入将占全球半导体总营收的50%以上。与此同时，AI需求已超出当前半导体产业的芯片制造和封装能力，高带宽内存（HBM）、先进封装以及先进制程产能等关键环节的瓶颈预计至少将持续至2027年。",
+      "pubDate": "2026-08-12T04:45:20.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148411"
+    },
+    {
+      "title_cn": "黄金 价格 预测: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
+      "summary_cn": "黄金 价格 预测: XAU/USD awaits US CPI inflation for the next big move&nbsp;&nbsp; FXStreet",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
+      "description": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move&nbsp;&nbsp; FXStreet",
+      "pubDate": "2026-08-12T02:41:12.000Z",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGw2ZjB6Q042QUxEVVFiZ1NWT2xTTE4wYzVQOXlpN2NMZlI1TzFOYnpDNl9CZzFrV0VrU1pubnVFZkx6WFN2VXk3bTlsaVp2V2JybEViTDZQM0xKYUpMWVJOZ1lYeWNNcGpkeWhKT2ZFN2U4bEkza2Z6OXBLazcycVVBc2FiNDd5X0Nta1VVZ3pBSi05MnRVTUEtdlh4Z242WXV3TXpGQnFNOEtVUkJHOTlRbzdKZGNTS01WUQ?oc=5"
+    },
+    {
+      "title_cn": "浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程",
+      "summary_cn": "【浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程】浙江省人民政府办公厅印发《关于推进脑机接口产学研联动的若干措施》的通知。其中提到，支持开展临床研究。",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程",
+      "description": "【浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程】浙江省人民政府办公厅印发《关于推进脑机接口产学研联动的若干措施》的通知。其中提到，支持开展临床研究。结合临床资源优势、规范管理能力等，分类建设脑机接口临床试验基地、临床与转化病房、临床预备队列，对仅用于临床研究的床位，不纳入病床效益、周转率、使用率、疾病诊断相关分组（DRGs）临床绩效等考核评价体系。推动审评审批改革。",
+      "pubDate": "2026-08-12T02:57:11.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608123838966439.html"
+    },
+    {
+      "title_cn": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "summary_cn": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
+      "pubDate": "2026-08-12T01:05:39.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
+    },
+    {
+      "title_cn": "HBM Known Good Die (KGD) Screening & Test 市场 Size 2036 - factmr.com",
+      "summary_cn": "HBM Known Good Die (KGD) Screening & Test 市场 Size 2036&nbsp;&nbsp; factmr.com",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "HBM Known Good Die (KGD) Screening & Test Market Size 2036 - factmr.com",
+      "description": "HBM Known Good Die (KGD) Screening & Test Market Size 2036&nbsp;&nbsp; factmr.com",
+      "pubDate": "2026-08-11T19:35:15.000Z",
+      "source": "factmr.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lvVktaSl9RNW41Zk5iSTV6cFd6WExNMTZRYUx4VGUtV2RxU3czMHJTNzRBOXFJZ0ZZQURCXzlSN240MlljUVoyT0tESU5HVFRUeEE3MTRSbWpWNkdUNmVVQUdYNmotak1qcTZURkF4VUMyUHNPbGhQcDJnRzNock8tbks?oc=5"
+    },
     {
       "title_cn": "【英伟达信用风险指标回落 CEO澄清5000亿美元融资计划】一项与英伟达相关的信用风险指标周二回落，此前该公司表示将限制自身在一项5000亿美元融资计划中的风险敞口。该计划旨在为人工智能投资提供融资，而这类投资正推动对英伟达芯片的需求。英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。",
       "summary_cn": "",
@@ -71,19 +263,27 @@
   "sectorMatrix": [
     {
       "name": "半导体",
-      "shock": "弱",
+      "shock": "中",
       "direction": "分化",
-      "news_count": 3,
-      "summary": "半导体板块3条新闻，方向以分化为主",
+      "news_count": 11,
+      "summary": "半导体板块11条新闻，方向以分化为主",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "创新药",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 1,
-      "summary": "创新药板块1条新闻，方向以利好为主。关注：南非启动应急响应，严防埃博拉疫情蔓延；刚果（金）的埃博拉疫情仍在蔓延和加剧。引",
+      "news_count": 4,
+      "summary": "创新药板块4条新闻，方向以利好为主。关注：集采下的中药饮片行业困境：有企业“亏两千万”保市场；【集采下的中药饮片行业困境",
       "tickers": "百济神州、药明康德、恒瑞医药"
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 1,
+      "summary": "黄金板块1条新闻，方向以利好为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
@@ -92,25 +292,113 @@
       "news_count": 0,
       "summary": "",
       "tickers": ""
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
     }
   ],
   "keyPoints": [
-    "今日共抓取 4 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "今日共抓取 16 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
     "极高影响事件 0 条，高影响 0 条，利好方向 0 条。",
-    "板块概况：半导体(分化, 弱冲击, 3条)、创新药(利好, 弱冲击, 1条)、光模块(利好, 弱冲击, 0条)、黄金(利好, 弱冲击, 0条)。",
-    "重点关注：南非启动应急响应，严防埃博拉疫情蔓延；英伟达信用风险指标回落，黄仁勋澄清5000亿美元融资计划；【英伟达信用风险指标回落 CEO澄清5000亿美元融资计划】一项与英伟达相关的信用风险指标周二回落，此前该公司表示将限制自身在一项5000亿美元融资计划中的风险敞口。该计划旨在为人工智能投资提供融资，而这类投资正推动对英伟达芯片的需求。英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。。"
+    "板块概况：半导体(分化, 中冲击, 11条)、创新药(利好, 弱冲击, 4条)、黄金(利好, 弱冲击, 1条)、光模块(利好, 弱冲击, 0条)。",
+    "重点关注：韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的；【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】；集采下的中药饮片行业困境：有企业“亏两千万”保市场。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，4 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，16 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "HBM Known Good Die (KGD) Screening & Test Market Size 2036 - factmr.com",
+      "description": "HBM Known Good Die (KGD) Screening & Test Market Size 2036&nbsp;&nbsp; factmr.com",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-11T19:35:15.000Z",
+      "source": "factmr.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lvVktaSl9RNW41Zk5iSTV6cFd6WExNMTZRYUx4VGUtV2RxU3czMHJTNzRBOXFJZ0ZZQURCXzlSN240MlljUVoyT0tESU5HVFRUeEE3MTRSbWpWNkdUNmVVQUdYNmotak1qcTZURkF4VUMyUHNPbGhQcDJnRzNock8tbks?oc=5"
+    },
+    {
+      "title": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
+      "description": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move&nbsp;&nbsp; FXStreet",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T02:41:12.000Z",
+      "source": "FXStreet",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGw2ZjB6Q042QUxEVVFiZ1NWT2xTTE4wYzVQOXlpN2NMZlI1TzFOYnpDNl9CZzFrV0VrU1pubnVFZkx6WFN2VXk3bTlsaVp2V2JybEViTDZQM0xKYUpMWVJOZ1lYeWNNcGpkeWhKT2ZFN2U4bEkza2Z6OXBLazcycVVBc2FiNDd5X0Nta1VVZ3pBSi05MnRVTUEtdlh4Z242WXV3TXpGQnFNOEtVUkJHOTlRbzdKZGNTS01WUQ?oc=5"
+    },
+    {
+      "title": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的",
+      "description": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:31:13.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】",
+      "description": "【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】金十数据8月12日讯，8月11日，有媒体报道称，前山姆中国首席采购官张青已于近期加入博裕资本，开始规划星巴克供应链改造的相关战略，包括寻找国内头部的优质供应商，加速本土化。其中，星巴克中国的烘焙部分将由百胜中国代工，而纸杯、吸管、抹茶粉都将由蜜雪冰城代工。8月12日，星巴克中国方面回应称，“对于网传‘星巴克纸杯吸管或由蜜雪冰城代工’、‘更换咖啡豆供应商’等信息，严重失实。我们始终秉持可持续高质量发展理念，坚持开放姿态，和行业供应链伙伴们协同发展、互惠共生，致力于为顾客提供始终如一的高品质咖啡产品和星巴克服务体验。请大家理性辨别各类网传消息，勿随意转发不实传闻。”",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:28:19.000Z",
+      "source": "金十数据",
+      "link": "https://baijiahao.baidu.com/s?id=1873294067520680725"
+    },
+    {
+      "title": "集采下的中药饮片行业困境：有企业“亏两千万”保市场",
+      "description": "【集采下的中药饮片行业困境：有企业“亏两千万”保市场】第二轮全国中药饮片集采于近日收官。本轮集采在规则设计之初即明确“稳临床、保质量、反内卷、防围标”的原则。但部分企业反馈，实际降价压力较首轮不降反增。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T05:52:40.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1348,202608123839060239.html"
+    },
+    {
+      "title": "浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程",
+      "description": "【浙江：建立脑机接口医疗器械产品研发清单 加快产品上市进程】浙江省人民政府办公厅印发《关于推进脑机接口产学研联动的若干措施》的通知。其中提到，支持开展临床研究。结合临床资源优势、规范管理能力等，分类建设脑机接口临床试验基地、临床与转化病房、临床预备队列，对仅用于临床研究的床位，不纳入病床效益、周转率、使用率、疾病诊断相关分组（DRGs）临床绩效等考核评价体系。推动审评审批改革。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T02:57:11.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608123838966439.html"
+    },
+    {
+      "title": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:31:32.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-12/detail-inimzumt4008910.d.html"
+    },
+    {
+      "title": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目标在2029年前开发出国产100量子比特量子计算机，并力争在2035年前成为量子芯片制造领域世界第一。\n\n目标在2030年前实现登月。\n\n目标在2035年前实现脑机接口（BCI）产品的商业化。",
+      "description": "韩国政府：将启动7个“种子”项目，涉及核能、量子、航天和生物领域，以确保未来增长引擎。\n\n目标在2035年前实现国产小型模块化核反应堆（SMR）的商业化。\n\n目标在2029年前开发出国产100量子比特量子计算机，并力争在2035年前成为量子芯片制造领域世界第一。\n\n目标在2030年前实现登月。\n\n目标在2035年前实现脑机接口（BCI）产品的商业化。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:32:20.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148420"
+    },
+    {
+      "title": "星巴克中国回应“蜜雪冰城代工”传闻：严重失实",
+      "description": "星巴克中国8月12日表示，对于网传“星巴克纸杯吸管或由蜜雪冰城代工”、“更换咖啡豆供应商”等信息，严重失实。“我们始终秉持可持续高质量发展理念，坚持开放姿态，和行业供应链伙伴们协同发展、互惠共生，致力于为顾客提供始终如一的高品质咖啡产品和星巴克服务体验。”星巴克中国表示。（界面新闻）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:26:29.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148427"
+    },
+    {
+      "title": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "description": "创业板指午后涨幅扩大至2%，光纤、光刻机、存储芯片等板块涨幅居前。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T05:02:03.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148414"
+    },
+    {
+      "title": "机构：AI需求激增 2026年半导体市场增幅上调至94.1%",
+      "description": "Omdia发文称，由于AI需求持续超过全球供应能力，推动DRAM和NAND市场实现强劲增长，Omdia将2026年全球半导体市场营收增长预测上调至同比增长94.1%。预计2026年存储器芯片（Memory IC）收入将占全球半导体总营收的50%以上。与此同时，AI需求已超出当前半导体产业的芯片制造和封装能力，高带宽内存（HBM）、先进封装以及先进制程产能等关键环节的瓶颈预计至少将持续至2027年。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T04:45:20.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148411"
+    },
+    {
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T01:05:39.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
+    },
     {
       "title": "【英伟达信用风险指标回落 CEO澄清5000亿美元融资计划】一项与英伟达相关的信用风险指标周二回落，此前该公司表示将限制自身在一项5000亿美元融资计划中的风险敞口。该计划旨在为人工智能投资提供融资，而这类投资正推动对英伟达芯片的需求。英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。",
       "description": "",
@@ -149,85 +437,85 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.187,
-      "change": -1.4937759336099599
+      "price": 1.199,
+      "change": 1.0109519797809612
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.14,
-      "change": -1.2987012987013093
+      "price": 1.151,
+      "change": 0.964912280701765
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.196,
-      "change": -1.6447368421052648
+      "price": 1.209,
+      "change": 1.0869565217391408
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.017,
-      "change": -0.19627085377821413
+      "price": 1.039,
+      "change": 2.163225172074732
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.646,
-      "change": 0.31055900621118043
+      "price": 0.66,
+      "change": 2.1671826625387016
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 2.97,
-      "change": -0.1680672268907527
+      "price": 3.007,
+      "change": 1.245791245791243
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.691,
-      "change": 0.5822416302765491
+      "price": 0.689,
+      "change": -0.28943560057887147
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.743,
-      "change": 0.5412719891745607
+      "price": 0.74,
+      "change": -0.4037685060565279
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.922,
-      "change": 0.3264417845484225
+      "price": 0.92,
+      "change": -0.21691973969631254
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.009,
-      "change": 0.04441976679621942
+      "price": 9.062,
+      "change": 0.5883005883005777
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.412,
-      "change": 0.05315190815351102
+      "price": 9.468,
+      "change": 0.5949851253718568
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.445,
-      "change": 0.08477270318958245
+      "price": 9.5,
+      "change": 0.5823186871360477
     }
   ],
   "chartData": {
@@ -299,7 +587,7 @@
             36.5,
             36.28,
             35.74,
-            35.36
+            35.72
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -343,7 +631,7 @@
             78.19,
             76.39,
             76.24,
-            115.76
+            117.59
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -387,7 +675,7 @@
             108.28,
             109.39,
             110.03,
-            125.05
+            124.68
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -431,7 +719,7 @@
             107.51,
             108.87,
             108.92,
-            112.3
+            112.96
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -449,7 +737,7 @@
       "datasets": [
         {
           "data": [
-            4
+            16
           ],
           "backgroundColor": [
             "#16a34a",
@@ -483,7 +771,7 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 3
+          "低": 11
         },
         "光模块": {
           "极高": 0,
@@ -495,13 +783,13 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 4
         },
         "黄金": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 1
         }
       },
       "hasData": true
@@ -517,10 +805,10 @@
         {
           "label": "中性",
           "data": [
-            3,
+            11,
             0,
-            1,
-            0
+            4,
+            1
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -534,7 +822,7 @@
       "datasets": [
         {
           "data": [
-            4
+            16
           ],
           "backgroundColor": [
             "#ea580c"
