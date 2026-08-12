@@ -1,8 +1,200 @@
 {
   "date": "20260812",
   "displayDate": "2026-08-12",
-  "generatedAt": "2026-08-12T06:04:10.633Z",
+  "generatedAt": "2026-08-12T11:12:38.601Z",
   "analyzed": [
+    {
+      "title_cn": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势 - 中华网",
+      "summary_cn": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势&nbsp;&nbsp; 中华网",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势 - 中华网",
+      "description": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势&nbsp;&nbsp; 中华网",
+      "pubDate": "2026-08-12T10:11:17.000Z",
+      "source": "中华网",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qNzRzM2ZVVjZ0Q2VKT1FlWkplQlN4UTZ4aVFrbVJqSGJJR245cTliUXl2Z0pzaUhzUEVHUHJJeDA1V2Fva0hHM2dpak9GSENKU180b3EwVjJMN3lNT19weUdJUDF1OGtDZldKWmRYX1M?oc=5"
+    },
+    {
+      "title_cn": "7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排",
+      "summary_cn": "【7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排】财联社8月12日电，百花医药(600721.SH)发布股票交易严重异常波",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排",
+      "description": "【7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排】财联社8月12日电，百花医药(600721.SH)发布股票交易严重异常波动暨风险提示公告，公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发。公司主营业务未发生重大变化，市场环境、行业政策没有发生重大调整，股价短期内连续上涨，股价涨幅与公司经营情况严重偏离。公司控制权变更事项已于2026年6月9日完成股权交割事项，公司控股股东已变更为金华聚新，公司实际控制人已变更为金华市国资委。根据详式权益变动报告，控股股东无在未来36个月内对上市公司及其控股子公司进行重大资产重组的明确计划或安排。",
+      "pubDate": "2026-08-12T11:11:16.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2452607"
+    },
+    {
+      "title_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "summary_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "pubDate": "2026-08-12T11:02:29.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "summary_cn": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "description": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "pubDate": "2026-08-12T11:00:20.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【百花医药：公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发】百花医药公告，公司股票连续10个交易日内日收盘价格涨幅偏离值累计超过100%，根据上海证券交易所的有关规定，属于股票交易严重异常波动情形。公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发。公司2026年第一季度实现营业收入6,718.29万元，同比下降30.68%，归属于上市公司股东的净利润664.27万元，同比下降67.94%。公司主营业务未发生重大变化，市场环境、行业政策没有发生重大调整，股价短期内连续上涨，股价涨幅与公司经营情况严重偏离。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【百花医药：公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发】百花医药公告，公司股票连续10个交易日内日收盘价格涨幅偏离值累计超过100%，根据上海证券交易所的有关规定，属于股票交易严重异常波动情形。公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发。公司2026年第一季度实现营业收入6,718.29万元，同比下降30.68%，归属于上市公司股东的净利润664.27万元，同比下降67.94%。公司主营业务未发生重大变化，市场环境、行业政策没有发生重大调整，股价短期内连续上涨，股价涨幅与公司经营情况严重偏离。",
+      "description": "",
+      "pubDate": "2026-08-12T11:06:25.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-12/detail-ininaezk5249939.d.html"
+    },
+    {
+      "title_cn": "【耐普矿机：2026年上半年营收4.97亿元 净亏损1176万元】耐普矿机公告称，2026年上半年营收4.97亿元，同比增长20.38%；净亏损1176.01万元，同比下降169.24%。公司拟以2.19亿股为基数，每10股派发现金红利0.8元（含税）。此外，公司于2026年1月发行4.50亿元可转换公司债券，7月22日开始转股；与紫金矿业签订战略合作协议；拟自筹1000万美元在哈萨克斯坦投资设立全资孙公司。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【耐普矿机：2026年上半年营收4.97亿元 净亏损1176万元】耐普矿机公告称，2026年上半年营收4.97亿元，同比增长20.38%；净亏损1176.01万元，同比下降169.24%。公司拟以2.19亿股为基数，每10股派发现金红利0.8元（含税）。此外，公司于2026年1月发行4.50亿元可转换公司债券，7月22日开始转股；与紫金矿业签订战略合作协议；拟自筹1000万美元在哈萨克斯坦投资设立全资孙公司。",
+      "description": "",
+      "pubDate": "2026-08-12T11:04:39.000Z",
+      "source": "新浪财经",
+      "link": ""
+    },
+    {
+      "title_cn": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）",
+      "summary_cn": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）",
+      "description": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）",
+      "pubDate": "2026-08-12T09:59:57.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148567"
+    },
+    {
+      "title_cn": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻",
+      "summary_cn": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12%&nbsp;&nbsp; 华尔街见闻",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻",
+      "description": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12%&nbsp;&nbsp; 华尔街见闻",
+      "pubDate": "2026-08-12T08:52:17.000Z",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5"
+    },
+    {
+      "title_cn": "黄金 价格 预测: Can 黄金 Keep Rising After Reclaiming $4,400 as 市场s Await Upcoming CPI Data? - 交易Key",
+      "summary_cn": "黄金 价格 预测: Can 黄金 Keep Rising After Reclaiming $4,400 as 市场s Await Upcoming CPI Data?&nbsp;&nbsp; 交易Key",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Forecast: Can Gold Keep Rising After Reclaiming $4,400 as Markets Await Upcoming CPI Data? - TradingKey",
+      "description": "Gold Price Forecast: Can Gold Keep Rising After Reclaiming $4,400 as Markets Await Upcoming CPI Data?&nbsp;&nbsp; TradingKey",
+      "pubDate": "2026-08-12T06:33:32.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGxyQkF5a3BzMlpJWGZ3RFV3WWhNWFp1aHRaQ1R5cEd0VWhPOVpzQ3V3aGlqczBDbVgzcHo1bUtGM01jemZwX016N0lCNlM0bEVneVpVR2hhWDFnQXp0SG42ZGJ2VXQwNXM0RXg3cDZaaGpqa0d2Z1d2bzVpYjhMcW1wU3RuWlhTbFVybklqdkk5V1ZHTk1mVzB6WTh2UkVNallPNDZYSVZrUmZRZ05jb2J5ajhQSUpDSmgzX1JLR1VBQQ?oc=5"
+    },
+    {
+      "title_cn": "黄金 上涨s to $4,399 as 市场s await key US CPI report - Mettis Global",
+      "summary_cn": "黄金 上涨s to $4,399 as 市场s await key US CPI report&nbsp;&nbsp; Mettis Global",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold rises to $4,399 as markets await key US CPI report - Mettis Global",
+      "description": "Gold rises to $4,399 as markets await key US CPI report&nbsp;&nbsp; Mettis Global",
+      "pubDate": "2026-08-12T07:31:26.000Z",
+      "source": "Mettis Global",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQVI0bng5WG9SSVdFOXp1ZHpVdVd0bm10UTMxckF0Rks1WlFSaWNzY2ZnSDliNF9fUHFFRkxWaDhiZG5HeG9TMTVQOUNhbWd6VlZOSmZiWEZlanVHdjU1cEdnbmFJUEowVjFwVkMxTlJxcXh3c0x1eHhOQUtITUpHZHN6XzFhcUlyMU9zblpR?oc=5"
+    },
+    {
+      "title_cn": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35% - caiwennews.com",
+      "summary_cn": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35%&nbsp;&nbsp; caiwennews.com",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35% - caiwennews.com",
+      "description": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35%&nbsp;&nbsp; caiwennews.com",
+      "pubDate": "2026-08-12T05:18:10.000Z",
+      "source": "caiwennews.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLX2otdXRYekVGb25JOUs1Qmx5TURTOGctOHFfQU9MNjdTY2swQ3hMLTlab0hnU05KNVFRS0lFZzZyTzZYZnFHS3owSEJsVlhhVUt3Z3VYWnc4NGk1?oc=5"
+    },
+    {
+      "title_cn": "黄金 rebounds towards 10-week high as 市场s brace for U.S. CPI data - CNBC",
+      "summary_cn": "黄金 rebounds towards 10-week high as 市场s brace for U.S. CPI data&nbsp;&nbsp; CNBC",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold rebounds towards 10-week high as markets brace for U.S. CPI data - CNBC",
+      "description": "Gold rebounds towards 10-week high as markets brace for U.S. CPI data&nbsp;&nbsp; CNBC",
+      "pubDate": "2026-08-12T05:15:00.000Z",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1pidmVwSW9INWtyZktCTHFOTTFUX3NUSmF6bzU4OGNXcGxCczJUQ212YlQ5V3JWWDl5eWxLT3lnN3ZGV1hwNGZoeGh1TXJCVmFzcUlNeUNzT1Z6czF2c1JSdmJ4SXc0aFJwMmVTZUJFZ3Y4RXZ4SVQ3bWxER2JDWURGX1NsUklqNkc1Nnd0Vm9nczJQc0lvYy16VWRuV3FaRDhsV0JqY9IBrAFBVV95cUxQdGF4c1BQbW1iYVpGZGhPUGhITV9VdmpZeTNqSlpEbVN1NE5PQ01SYWljd2JfaDluNERMdkN3TnRia2wxbDVwUExyV2pzWThZamFud081eU1wV2c4d29iMUxuOUFfVm15TGY0NktNME9mc0hSWFhjN2xLVXdUWjA4c2E1dVZoM0xkbFJYZlJRRS0yc3MxM2t3Q01UVm1VQ1BITWduRVMxdTctZmNW?oc=5"
+    },
     {
       "title_cn": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的",
       "summary_cn": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的领军者。",
@@ -132,6 +324,22 @@
       "link": "https://wallstreetcn.com/articles/3148411"
     },
     {
+      "title_cn": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻 - 新浪网",
+      "summary_cn": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻&nbsp;&nbsp; 新浪网",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻 - 新浪网",
+      "description": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-12T03:11:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15UWJwdGcwMUtUTHdMcEtrbXdaOFdhZUJDQnV1UjNTbnFjWDgtOF9wdUptVGFvUlJIQUxScEstTm1pVmtndk1nSV9xLTJCNXVDcDZGVWRTN1EyRUpxNDM4TnFOaw?oc=5"
+    },
+    {
       "title_cn": "黄金 价格 预测: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
       "summary_cn": "黄金 价格 预测: XAU/USD awaits US CPI inflation for the next big move&nbsp;&nbsp; FXStreet",
       "category": "黄金",
@@ -194,6 +402,22 @@
       "pubDate": "2026-08-11T19:35:15.000Z",
       "source": "factmr.com",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lvVktaSl9RNW41Zk5iSTV6cFd6WExNMTZRYUx4VGUtV2RxU3czMHJTNzRBOXFJZ0ZZQURCXzlSN240MlljUVoyT0tESU5HVFRUeEE3MTRSbWpWNkdUNmVVQUdYNmotak1qcTZURkF4VUMyUHNPbGhQcDJnRzNock8tbks?oc=5"
+    },
+    {
+      "title_cn": "New US smart platform speeds development of 1.6T photonic 芯片s for 数据中心s - interestingengineering.com",
+      "summary_cn": "New US smart platform speeds development of 1.6T photonic 芯片s for 数据中心s&nbsp;&nbsp; interestingengineering.com",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "New US smart platform speeds development of 1.6T photonic chips for data centers - interestingengineering.com",
+      "description": "New US smart platform speeds development of 1.6T photonic chips for data centers&nbsp;&nbsp; interestingengineering.com",
+      "pubDate": "2026-08-11T16:32:00.000Z",
+      "source": "interestingengineering.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckRjMENVTWw5d1NDRm5wYy1JdGtqcFZjWVB2QTlKSWU2REUzbW1zdXB2WVN4MVQ1Ykg3QWVROWJzUWdmYXVkS2NUd1JKcHJNcThZeXNkZTVXUUwwRm1FUmZHczRYd3h1cFU0SHU4aDR3dUFwNnBEMGtldjcyb2U3ZWs4RXpkMWJ4X3YwekdNdDNheTJhZFQ5Vl9jWjQ5QTJPM2MtQVBYa0xiUHBkTDdhOXduN3Nma1J4OXJYdGR0Z2JPS2YwbHc?oc=5"
     },
     {
       "title_cn": "【英伟达信用风险指标回落 CEO澄清5000亿美元融资计划】一项与英伟达相关的信用风险指标周二回落，此前该公司表示将限制自身在一项5000亿美元融资计划中的风险敞口。该计划旨在为人工智能投资提供融资，而这类投资正推动对英伟达芯片的需求。英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。",
@@ -265,51 +489,91 @@
       "name": "半导体",
       "shock": "中",
       "direction": "分化",
-      "news_count": 11,
-      "summary": "半导体板块11条新闻，方向以分化为主",
+      "news_count": 15,
+      "summary": "半导体板块15条新闻，方向以分化为主",
       "tickers": "中芯国际、北方华创、中微公司"
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 4,
-      "summary": "创新药板块4条新闻，方向以利好为主。关注：集采下的中药饮片行业困境：有企业“亏两千万”保市场；【集采下的中药饮片行业困境",
-      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "黄金",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 1,
-      "summary": "黄金板块1条新闻，方向以利好为主",
+      "news_count": 7,
+      "summary": "黄金板块7条新闻，方向以利好为主。关注：多未来5年黄金能涨到几元一克？机构预测金价下一步走势 - 中华网",
       "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 6,
+      "summary": "创新药板块6条新闻，方向以利好为主。关注：7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "news_count": 2,
+      "summary": "光模块板块2条新闻，方向以利好为主。关注：创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、",
+      "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 16 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "今日共抓取 30 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
     "极高影响事件 0 条，高影响 0 条，利好方向 0 条。",
-    "板块概况：半导体(分化, 中冲击, 11条)、创新药(利好, 弱冲击, 4条)、黄金(利好, 弱冲击, 1条)、光模块(利好, 弱冲击, 0条)。",
-    "重点关注：韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的；【星巴克中国回应“代工传闻”：纸杯吸管由蜜雪冰城代工、更换咖啡豆供应商等信息严重失实】；集采下的中药饮片行业困境：有企业“亏两千万”保市场。"
+    "板块概况：半导体(分化, 中冲击, 15条)、黄金(利好, 弱冲击, 7条)、创新药(利好, 弱冲击, 6条)、光模块(利好, 弱冲击, 2条)。",
+    "重点关注：多未来5年黄金能涨到几元一克？机构预测金价下一步走势 - 中华网；创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻；A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻 - 新浪网。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，16 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，30 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "HBM Known Good Die (KGD) Screening & Test Market Size 2036 - factmr.com",
-      "description": "HBM Known Good Die (KGD) Screening & Test Market Size 2036&nbsp;&nbsp; factmr.com",
+      "title": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势 - 中华网",
+      "description": "多未来5年黄金能涨到几元一克？机构预测金价下一步走势&nbsp;&nbsp; 中华网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T10:11:17.000Z",
+      "source": "中华网",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1qNzRzM2ZVVjZ0Q2VKT1FlWkplQlN4UTZ4aVFrbVJqSGJJR245cTliUXl2Z0pzaUhzUEVHUHJJeDA1V2Fva0hHM2dpak9GSENKU180b3EwVjJMN3lNT19weUdJUDF1OGtDZldKWmRYX1M?oc=5"
+    },
+    {
+      "title": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻",
+      "description": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12%&nbsp;&nbsp; 华尔街见闻",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-12T08:52:17.000Z",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5"
+    },
+    {
+      "title": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35% - caiwennews.com",
+      "description": "AI算力供不应求传导至设备端，半导体设备ETF华夏涨3.35%&nbsp;&nbsp; caiwennews.com",
       "guessedSector": "半导体",
-      "pubDate": "2026-08-11T19:35:15.000Z",
-      "source": "factmr.com",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lvVktaSl9RNW41Zk5iSTV6cFd6WExNMTZRYUx4VGUtV2RxU3czMHJTNzRBOXFJZ0ZZQURCXzlSN240MlljUVoyT0tESU5HVFRUeEE3MTRSbWpWNkdUNmVVQUdYNmotak1qcTZURkF4VUMyUHNPbGhQcDJnRzNock8tbks?oc=5"
+      "pubDate": "2026-08-12T05:18:10.000Z",
+      "source": "caiwennews.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBLX2otdXRYekVGb25JOUs1Qmx5TURTOGctOHFfQU9MNjdTY2swQ3hMLTlab0hnU05KNVFRS0lFZzZyTzZYZnFHS3owSEJsVlhhVUt3Z3VYWnc4NGk1?oc=5"
+    },
+    {
+      "title": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻 - 新浪网",
+      "description": "A 股股价第一第二双双大涨|联讯仪器|源杰科技|投资建设|半导体科技产业园_新浪新闻&nbsp;&nbsp; 新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T03:11:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE15UWJwdGcwMUtUTHdMcEtrbXdaOFdhZUJDQnV1UjNTbnFjWDgtOF9wdUptVGFvUlJIQUxScEstTm1pVmtndk1nSV9xLTJCNXVDcDZGVWRTN1EyRUpxNDM4TnFOaw?oc=5"
+    },
+    {
+      "title": "New US smart platform speeds development of 1.6T photonic chips for data centers - interestingengineering.com",
+      "description": "New US smart platform speeds development of 1.6T photonic chips for data centers&nbsp;&nbsp; interestingengineering.com",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-11T16:32:00.000Z",
+      "source": "interestingengineering.com",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQckRjMENVTWw5d1NDRm5wYy1JdGtqcFZjWVB2QTlKSWU2REUzbW1zdXB2WVN4MVQ1Ykg3QWVROWJzUWdmYXVkS2NUd1JKcHJNcThZeXNkZTVXUUwwRm1FUmZHczRYd3h1cFU0SHU4aDR3dUFwNnBEMGtldjcyb2U3ZWs4RXpkMWJ4X3YwekdNdDNheTJhZFQ5Vl9jWjQ5QTJPM2MtQVBYa0xiUHBkTDdhOXduN3Nma1J4OXJYdGR0Z2JPS2YwbHc?oc=5"
+    },
+    {
+      "title": "Gold rebounds towards 10-week high as markets brace for U.S. CPI data - CNBC",
+      "description": "Gold rebounds towards 10-week high as markets brace for U.S. CPI data&nbsp;&nbsp; CNBC",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T05:15:00.000Z",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1pidmVwSW9INWtyZktCTHFOTTFUX3NUSmF6bzU4OGNXcGxCczJUQ212YlQ5V3JWWDl5eWxLT3lnN3ZGV1hwNGZoeGh1TXJCVmFzcUlNeUNzT1Z6czF2c1JSdmJ4SXc0aFJwMmVTZUJFZ3Y4RXZ4SVQ3bWxER2JDWURGX1NsUklqNkc1Nnd0Vm9nczJQc0lvYy16VWRuV3FaRDhsV0JqY9IBrAFBVV95cUxQdGF4c1BQbW1iYVpGZGhPUGhITV9VdmpZeTNqSlpEbVN1NE5PQ01SYWljd2JfaDluNERMdkN3TnRia2wxbDVwUExyV2pzWThZamFud081eU1wV2c4d29iMUxuOUFfVm15TGY0NktNME9mc0hSWFhjN2xLVXdUWjA4c2E1dVZoM0xkbFJYZlJRRS0yc3MxM2t3Q01UVm1VQ1BITWduRVMxdTctZmNW?oc=5"
     },
     {
       "title": "Gold Price Forecast: XAU/USD awaits US CPI inflation for the next big move - FXStreet",
@@ -318,6 +582,86 @@
       "pubDate": "2026-08-12T02:41:12.000Z",
       "source": "FXStreet",
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNGw2ZjB6Q042QUxEVVFiZ1NWT2xTTE4wYzVQOXlpN2NMZlI1TzFOYnpDNl9CZzFrV0VrU1pubnVFZkx6WFN2VXk3bTlsaVp2V2JybEViTDZQM0xKYUpMWVJOZ1lYeWNNcGpkeWhKT2ZFN2U4bEkza2Z6OXBLazcycVVBc2FiNDd5X0Nta1VVZ3pBSi05MnRVTUEtdlh4Z242WXV3TXpGQnFNOEtVUkJHOTlRbzdKZGNTS01WUQ?oc=5"
+    },
+    {
+      "title": "Gold Price Forecast: Can Gold Keep Rising After Reclaiming $4,400 as Markets Await Upcoming CPI Data? - TradingKey",
+      "description": "Gold Price Forecast: Can Gold Keep Rising After Reclaiming $4,400 as Markets Await Upcoming CPI Data?&nbsp;&nbsp; TradingKey",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T06:33:32.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTGxyQkF5a3BzMlpJWGZ3RFV3WWhNWFp1aHRaQ1R5cEd0VWhPOVpzQ3V3aGlqczBDbVgzcHo1bUtGM01jemZwX016N0lCNlM0bEVneVpVR2hhWDFnQXp0SG42ZGJ2VXQwNXM0RXg3cDZaaGpqa0d2Z1d2bzVpYjhMcW1wU3RuWlhTbFVybklqdkk5V1ZHTk1mVzB6WTh2UkVNallPNDZYSVZrUmZRZ05jb2J5ajhQSUpDSmgzX1JLR1VBQQ?oc=5"
+    },
+    {
+      "title": "Gold rises to $4,399 as markets await key US CPI report - Mettis Global",
+      "description": "Gold rises to $4,399 as markets await key US CPI report&nbsp;&nbsp; Mettis Global",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T07:31:26.000Z",
+      "source": "Mettis Global",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQVI0bng5WG9SSVdFOXp1ZHpVdVd0bm10UTMxckF0Rks1WlFSaWNzY2ZnSDliNF9fUHFFRkxWaDhiZG5HeG9TMTVQOUNhbWd6VlZOSmZiWEZlanVHdjU1cEdnbmFJUEowVjFwVkMxTlJxcXh3c0x1eHhOQUtITUpHZHN6XzFhcUlyMU9zblpR?oc=5"
+    },
+    {
+      "title": "7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排",
+      "description": "【7连板百花医药：不涉及创新药研发 控股股东无未来36个月内进行重大资产重组计划或安排】财联社8月12日电，百花医药(600721.SH)发布股票交易严重异常波动暨风险提示公告，公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发。公司主营业务未发生重大变化，市场环境、行业政策没有发生重大调整，股价短期内连续上涨，股价涨幅与公司经营情况严重偏离。公司控制权变更事项已于2026年6月9日完成股权交割事项，公司控股股东已变更为金华聚新，公司实际控制人已变更为金华市国资委。根据详式权益变动报告，控股股东无在未来36个月内对上市公司及其控股子公司进行重大资产重组的明确计划或安排。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T11:11:16.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2452607"
+    },
+    {
+      "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月13日开市起至当日10:30停牌。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T11:02:29.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "description": "CPI数据能否助力黄金上破？VIP盯盘管家资金流向、指标信号秒速提醒，限时9折加入>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T11:00:20.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【百花医药：公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发】百花医药公告，公司股票连续10个交易日内日收盘价格涨幅偏离值累计超过100%，根据上海证券交易所的有关规定，属于股票交易严重异常波动情形。公司是以小分子化学仿制药研发为主的CRO企业，不涉及创新药研发。公司2026年第一季度实现营业收入6,718.29万元，同比下降30.68%，归属于上市公司股东的净利润664.27万元，同比下降67.94%。公司主营业务未发生重大变化，市场环境、行业政策没有发生重大调整，股价短期内连续上涨，股价涨幅与公司经营情况严重偏离。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T11:06:25.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-12/detail-ininaezk5249939.d.html"
+    },
+    {
+      "title": "【耐普矿机：2026年上半年营收4.97亿元 净亏损1176万元】耐普矿机公告称，2026年上半年营收4.97亿元，同比增长20.38%；净亏损1176.01万元，同比下降169.24%。公司拟以2.19亿股为基数，每10股派发现金红利0.8元（含税）。此外，公司于2026年1月发行4.50亿元可转换公司债券，7月22日开始转股；与紫金矿业签订战略合作协议；拟自筹1000万美元在哈萨克斯坦投资设立全资孙公司。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T11:04:39.000Z",
+      "source": "新浪财经",
+      "link": ""
+    },
+    {
+      "title": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）",
+      "description": "【但斌美股持仓“大换血”】具体操作上，东方港湾海外基金清仓了苹果、三倍做多纳斯达克100ETF、特斯拉、CIRCLE INTERNET GROUP INC等6只标的。同时，其新买入英特尔、闪迪、超威半导体、迈威尔科技、Arm Holdings plc ADR、博通、Lumentum等7只标的，上述标的均为AI硬件相关公司。从整体的持仓情况来看，东方港湾美股第一大重仓股仍为谷歌-C，持仓占其组合的比重约为23%，相比一季度有所减仓。同时，东方港湾还清仓了谷歌-A及二倍做多谷歌ETF。（上证报）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T09:59:57.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148567"
+    },
+    {
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T01:05:39.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
+    },
+    {
+      "title": "HBM Known Good Die (KGD) Screening & Test Market Size 2036 - factmr.com",
+      "description": "HBM Known Good Die (KGD) Screening & Test Market Size 2036&nbsp;&nbsp; factmr.com",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-11T19:35:15.000Z",
+      "source": "factmr.com",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS1lvVktaSl9RNW41Zk5iSTV6cFd6WExNMTZRYUx4VGUtV2RxU3czMHJTNzRBOXFJZ0ZZQURCXzlSN240MlljUVoyT0tESU5HVFRUeEE3MTRSbWpWNkdUNmVVQUdYNmotak1qcTZURkF4VUMyUHNPbGhQcDJnRzNock8tbks?oc=5"
     },
     {
       "title": "韩国政府：计划到2029年自主研发100量子比特的量子计算机，力争到2035年成为量子芯片制造领域的",
@@ -392,14 +736,6 @@
       "link": "https://wallstreetcn.com/articles/3148411"
     },
     {
-      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
-      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-12T01:05:39.000Z",
-      "source": "华尔街见闻医药",
-      "link": "https://wallstreetcn.com/member/articles/3779064"
-    },
-    {
       "title": "【英伟达信用风险指标回落 CEO澄清5000亿美元融资计划】一项与英伟达相关的信用风险指标周二回落，此前该公司表示将限制自身在一项5000亿美元融资计划中的风险敞口。该计划旨在为人工智能投资提供融资，而这类投资正推动对英伟达芯片的需求。英伟达票息5.625%、2056年到期债券的收益率较可比美国国债高113个基点，利差收窄2个基点。与此同时，根据ICE Data Services的数据，5年期信用违约掉期报价一度收窄5个基点，至72.11个基点。",
       "description": "",
       "guessedSector": "半导体",
@@ -437,50 +773,50 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.199,
-      "change": 1.0109519797809612
+      "price": 1.209,
+      "change": 1.8534119629317625
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.151,
-      "change": 0.964912280701765
+      "price": 1.159,
+      "change": 1.666666666666678
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.209,
-      "change": 1.0869565217391408
+      "price": 1.218,
+      "change": 1.8394648829431453
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.039,
-      "change": 2.163225172074732
+      "price": 1.048,
+      "change": 3.048180924287133
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.66,
-      "change": 2.1671826625387016
+      "price": 0.665,
+      "change": 2.9411764705882377
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 3.007,
-      "change": 1.245791245791243
+      "price": 3.033,
+      "change": 2.121212121212112
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.689,
-      "change": -0.28943560057887147
+      "price": 0.688,
+      "change": -0.43415340086830717
     },
     {
       "code": "159858",
@@ -493,35 +829,34 @@
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.92,
-      "change": -0.21691973969631254
+      "price": 0.919,
+      "change": -0.3253796095444688
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.062,
-      "change": 0.5883005883005777
+      "price": 9.103,
+      "change": 1.0434010434010368
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.468,
-      "change": 0.5949851253718568
+      "price": 9.507,
+      "change": 1.0093497662558313
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.5,
-      "change": 0.5823186871360477
+      "price": 9.543,
+      "change": 1.0375860243514978
     }
   ],
   "chartData": {
     "etfTrend": {
       "dates": [
-        "2026-07-01",
         "2026-07-02",
         "2026-07-03",
         "2026-07-06",
@@ -558,36 +893,35 @@
           "label": "半导体",
           "data": [
             100,
-            90.91,
-            90.33,
-            90.61,
-            45.2,
-            44.96,
-            49.44,
-            46.22,
-            43.9,
-            44.6,
+            99.37,
+            99.67,
+            49.72,
+            49.45,
+            54.39,
+            50.84,
+            48.29,
+            49.06,
+            46.27,
+            43.62,
+            40.41,
+            39.65,
+            43.62,
+            43.46,
+            41.8,
             42.07,
-            39.66,
-            36.74,
-            36.04,
-            39.66,
-            39.51,
-            38,
-            38.24,
-            38.48,
-            35.41,
-            34.69,
-            32.52,
-            33.66,
-            31.29,
-            32.97,
-            35.08,
-            35.44,
-            36.5,
-            36.28,
-            35.74,
-            35.72
+            42.33,
+            38.95,
+            38.16,
+            35.77,
+            37.03,
+            34.42,
+            36.27,
+            38.59,
+            38.99,
+            40.15,
+            39.91,
+            39.32,
+            39.59
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -602,36 +936,35 @@
           "label": "光模块",
           "data": [
             100,
-            91.6,
-            93.1,
-            90.1,
-            89.88,
-            89.21,
-            96.1,
-            91.68,
-            86.88,
-            92.58,
-            89.88,
-            87.78,
-            79.01,
-            76.31,
-            83.06,
-            79.54,
-            79.24,
-            76.99,
-            79.31,
-            71.59,
-            71.66,
-            66.04,
-            68.97,
-            67.84,
-            73.91,
-            75.11,
-            76.01,
-            78.19,
-            76.39,
-            76.24,
-            117.59
+            101.64,
+            98.36,
+            98.12,
+            97.38,
+            104.91,
+            100.08,
+            94.84,
+            101.06,
+            98.12,
+            95.83,
+            86.25,
+            83.31,
+            90.67,
+            86.82,
+            86.5,
+            84.04,
+            86.58,
+            78.15,
+            78.23,
+            72.09,
+            75.29,
+            74.06,
+            80.69,
+            82,
+            82.98,
+            85.35,
+            83.39,
+            83.22,
+            129.46
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -645,7 +978,6 @@
         {
           "label": "创新药",
           "data": [
-            100,
             100,
             103.03,
             103.82,
@@ -675,7 +1007,7 @@
             108.28,
             109.39,
             110.03,
-            124.68
+            124.57
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -690,36 +1022,35 @@
           "label": "黄金",
           "data": [
             100,
-            102.47,
-            104.85,
-            104.35,
-            103.94,
-            103.84,
-            103.3,
-            103.26,
-            101.79,
-            101.23,
-            101.18,
-            101.11,
-            100.48,
-            100.57,
-            102.38,
-            103.49,
-            103.49,
-            101.38,
-            102.79,
-            101.56,
-            101.46,
-            101.08,
-            101.96,
-            101.77,
-            101.66,
-            104.46,
-            106.34,
-            107.51,
-            108.87,
-            108.92,
-            112.96
+            102.32,
+            101.84,
+            101.44,
+            101.35,
+            100.81,
+            100.78,
+            99.34,
+            98.8,
+            98.75,
+            98.68,
+            98.06,
+            98.15,
+            99.92,
+            101,
+            101,
+            98.94,
+            100.32,
+            99.12,
+            99.02,
+            98.64,
+            99.5,
+            99.32,
+            99.21,
+            101.95,
+            103.78,
+            104.92,
+            106.25,
+            106.3,
+            110.73
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -737,7 +1068,7 @@
       "datasets": [
         {
           "data": [
-            16
+            30
           ],
           "backgroundColor": [
             "#16a34a",
@@ -771,25 +1102,25 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 11
+          "低": 15
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 2
         },
         "创新药": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 4
+          "低": 6
         },
         "黄金": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 7
         }
       },
       "hasData": true
@@ -805,10 +1136,10 @@
         {
           "label": "中性",
           "data": [
-            11,
-            0,
-            4,
-            1
+            15,
+            2,
+            6,
+            7
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -822,7 +1153,7 @@
       "datasets": [
         {
           "data": [
-            16
+            30
           ],
           "backgroundColor": [
             "#ea580c"
