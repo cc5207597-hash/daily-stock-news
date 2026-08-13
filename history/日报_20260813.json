@@ -1,8 +1,232 @@
 {
   "date": "20260813",
   "displayDate": "2026-08-13",
-  "generatedAt": "2026-08-12T17:33:11.919Z",
+  "generatedAt": "2026-08-13T06:06:14.574Z",
   "analyzed": [
+    {
+      "title_cn": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "summary_cn": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)",
+      "title": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "description": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "pubDate": "2026-08-13T06:03:02.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)",
+      "title": "【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。",
+      "description": "",
+      "pubDate": "2026-08-13T06:01:44.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkt3524829.d.html"
+    },
+    {
+      "title_cn": "中国 A-share 黄金-related 股票 extended losses ",
+      "summary_cn": "中国 A-share 黄金-related 股票 extended losses in afternoon trade; Xiaocheng Technology fell more than 8%, Zhaojin 黄金 dropped over 6%, Hunan Silver and Shengda Resources also declined.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "China A-share gold-related stocks extended losses ",
+      "description": "China A-share gold-related stocks extended losses in afternoon trade; Xiaocheng Technology fell more than 8%, Zhaojin Gold dropped over 6%, Hunan Silver and Shengda Resources also declined.",
+      "pubDate": "2026-08-13T06:03:11.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "现货黄金失守4380美元/盎司，日内跌0.66%。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "现货黄金失守4380美元/盎司，日内跌0.66%。",
+      "description": "",
+      "pubDate": "2026-08-13T06:04:23.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkq4799006.d.html"
+    },
+    {
+      "title_cn": "现货黄金失守4390美元/盎司，日内跌0.43%。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "现货黄金失守4390美元/盎司，日内跌0.43%。",
+      "description": "",
+      "pubDate": "2026-08-13T05:43:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkq4787580.d.html"
+    },
+    {
+      "title_cn": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "summary_cn": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "description": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "pubDate": "2026-08-13T05:09:28.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148925"
+    },
+    {
+      "title_cn": "英伟达 股票 财报 August 2026: AI 芯片 Leader's Q2 Preview & Investment Outlook - 英特尔lectia AI",
+      "summary_cn": "英伟达 股票 财报 August 2026: AI 芯片 Leader's Q2 Preview & Investment Outlook&nbsp;&nbsp; 英特尔lectia AI",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook - Intellectia AI",
+      "description": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook&nbsp;&nbsp; Intellectia AI",
+      "pubDate": "2026-08-13T04:05:42.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZelNmOVRacVh2WDNfTXBQMmxJNFRyWDdWU1hWUzdrY2RPMDhGd3hkVzZySjdEOWtGM1plZ09zTEJGSzNPbzlfbE9EWnkyUjVqYW1teHc1b3dMa25ObGJIbXdPOHotaFZta3Nn?oc=5"
+    },
+    {
+      "title_cn": "AI 芯片 股票 August 2026: 英伟达 vs AMD Investment Analysis - 英特尔lectia AI",
+      "summary_cn": "AI 芯片 股票 August 2026: 英伟达 vs AMD Investment Analysis&nbsp;&nbsp; 英特尔lectia AI",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "AI Chip Stocks August 2026: Nvidia vs AMD Investment Analysis - Intellectia AI",
+      "description": "AI Chip Stocks August 2026: Nvidia vs AMD Investment Analysis&nbsp;&nbsp; Intellectia AI",
+      "pubDate": "2026-08-13T00:10:21.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hNjg3V1lHY296SVZIMmVNRDE2X3FDQXdNS1dabXhFcFR5X3hNQWhiVm9KSkM0QjN0dW9USmZkaGwzOUp0RnBEYjV2T3l0TnB5SG81QXpNeE9RR1VIenBKSHNEN0g?oc=5"
+    },
+    {
+      "title_cn": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "summary_cn": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
+      "pubDate": "2026-08-13T00:06:02.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
+    },
+    {
+      "title_cn": "Where 黄金 价格 is headed next as 美联储 rate hike and inflation odds change direction - CNBC",
+      "summary_cn": "Where 黄金 价格 is headed next as 美联储 rate hike and inflation odds change direction&nbsp;&nbsp; CNBC",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:宏观·利空(40)",
+      "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction - CNBC",
+      "description": "Where gold price is headed next as Fed rate hike and inflation odds change direction&nbsp;&nbsp; CNBC",
+      "pubDate": "2026-08-12T19:22:32.000Z",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE9EUXZra0w3S0ZDbGRzTHRDc1dyMEc0ZkpWVEFaeElqYVN5eWFFdzhPVE1qTDBPdnJPNHc0UlloNlhQem1KQUhhZTVOVTJWT1JCelRnUkpBLU9BaGs2blVNT2NZaUFlYUJpOVRBeVZndE9TaE5aOWxieHlwRFJsLVhRR3p3d9IBiwFBVV95cUxOV0ZZUWFRWEsyVGtkaFdSTGlYRi1BN290OEdpdFJ4dU8yVXFGbksxQmtZN0hfdTRuT05BUHQyR29Hdm5XdHhmOEhTUTNOSmFHTjB3cDRaVnlMTEtTUjJGa3hadFFmLVQ4SkRmbjdSNFJrVjd5cTVja2Q2OG1ZLTNGSTlrdTBiVmJnWUVJ?oc=5"
+    },
+    {
+      "title_cn": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药 - QQ News",
+      "summary_cn": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药&nbsp;&nbsp; QQ",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药 - QQ News",
+      "description": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药&nbsp;&nbsp; QQ News",
+      "pubDate": "2026-08-12T17:23:00.000Z",
+      "source": "QQ News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yNHBqWVlVTHdjNl8tWkhkb3VpRlVaZDNkMHZxazMzVDFTZ1VUZzZ2Z1hDUnktaGh0cGxsdVE1eTQ2eVlIOG82VFhoTFNEYzRXdlo2WXRn?oc=5"
+    },
+    {
+      "title_cn": "英特尔 Is Up 176% This Year. Is It Time to Take 利润s on INTC, AMD, 博通, and 英伟达? - 24/7 Wall St.",
+      "summary_cn": "英特尔 Is Up 176% This Year. Is It Time to Take 利润s on INTC, AMD, 博通, and 英伟达?&nbsp;&nbsp; 24/7 Wall St.",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA? - 24/7 Wall St.",
+      "description": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?&nbsp;&nbsp; 24/7 Wall St.",
+      "pubDate": "2026-08-12T18:07:57.000Z",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ295RXQ3ZjQ0a09vQTVIZ0NkY1FWUEFxTWNsRnRNMi03VHBmRU0xVWhNTndCWE1LUzA4cS0tdUpJTVlodjRYbm9RYkp6cGVuLTZlSlZvNGRiRDNzS2xaRjNaemFnWjFRb3NfcmNOSzRLN0dWUmd2WFl1bXR0bl9OWW9OVFZvZjM1RjZ1MHhlMC1vQnVZS2lXdURGUXBlQ3NQSS04QUVQRS04bjhiWk56TlRqZ2dQVmh2aXQ3UXVBN0xpT1NuaHFF?oc=5"
+    },
+    {
+      "title_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s - Wccftech",
+      "summary_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s&nbsp;&nbsp; Wccftech",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - Wccftech",
+      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; Wccftech",
+      "pubDate": "2026-08-12T17:41:00.000Z",
+      "source": "Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBSVFl6VTdzeDFOR0FCcXRQbklaQjRfQjZUMUt0N2dXMDhkQndHMWRmWmRqaWU4d2E5R0JFVk1PWnJiMHM3ZkFxd3VRR3dIZmdKQk1zNDFDZThWMFJWWUhHNzlmWU5nZ2puTHZxakgtNG5ZTTRIZjFZZDJyTEVuQnBMcFhzTV9LZFkwUGNyS3AyUThwcHRyNTBMU1k2X3lZM1HSAacBQVVfeXFMT3p1WWY1OGo1WFlLSUpxOXE4YklkLUZFUXEtRUNKbGpUMEZUdXF0WUNSM1FDVzB0dUxueEMwdERKeDNIc21fWjJyeUFfTFRMZDFwNVExQUV1T2dWeWtxNDE1LS0wSFVaRjlHVzdDMG5jcnhMOHF4X3VGMGpTUHctVG8ySVJHWHpsbV9jSUlBaUtfYl9ycDgzdmpiTWtfSkVkOFpRdWloNG8?oc=5"
+    },
+    {
+      "title_cn": "台积电 营收 飙升s 45% as AI 芯片 需求 From 英伟达, AMD, and Apple - Memeburn",
+      "summary_cn": "台积电 营收 飙升s 45% as AI 芯片 需求 From 英伟达, AMD, and Apple&nbsp;&nbsp; Memeburn",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "TSMC Revenue Surges 45% as AI Chip Demand From Nvidia, AMD, and Apple - Memeburn",
+      "description": "TSMC Revenue Surges 45% as AI Chip Demand From Nvidia, AMD, and Apple&nbsp;&nbsp; Memeburn",
+      "pubDate": "2026-08-12T17:08:53.000Z",
+      "source": "Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9reG8wSVVSeHBqMDBDUDlKTDMzdmJGQV90OGN3UTBHdXY1c0hnQU1OQXpSaXlVcTJvZ2NoQ1c0RE1ORzJDNnpkY1NZdF9PVTNTMGFkb2FOWQ?oc=5"
+    },
     {
       "title_cn": "【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】",
       "summary_cn": "【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】金十数据8月13日讯，当地时间8月12日，南苏丹卫生部长卢克·汤普森·托安在新闻发布会上表示，自2025年",
@@ -22,47 +246,159 @@
   ],
   "sectorMatrix": [
     {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 1,
-      "summary": "创新药板块1条新闻，方向以利好为主。关注：【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】；【南苏丹霍乱疫情致17",
-      "tickers": "百济神州、药明康德、恒瑞医药"
+      "name": "黄金",
+      "shock": "强",
+      "direction": "利空",
+      "news_count": 6,
+      "summary": "黄金板块6条新闻，方向以利空为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "半导体",
       "shock": "弱",
       "direction": "分化",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "news_count": 5,
+      "summary": "半导体板块5条新闻，方向以分化为主",
+      "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 3,
+      "summary": "创新药板块3条新闻，方向以利好为主。关注：康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "news_count": 1,
+      "summary": "光模块板块1条新闻，方向以利好为主",
+      "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 1 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 0 条，利好方向 0 条。",
-    "板块概况：创新药(利好, 弱冲击, 1条)、半导体(分化, 弱冲击, 0条)、光模块(利好, 弱冲击, 0条)、黄金(利好, 弱冲击, 0条)。",
-    "重点关注：【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】。"
+    "今日共抓取 15 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 0 条，高影响 3 条，利好方向 0 条。",
+    "板块概况：黄金(利空, 强冲击, 6条)、半导体(分化, 弱冲击, 5条)、创新药(利好, 弱冲击, 3条)、光模块(利好, 弱冲击, 1条)。",
+    "重点关注：A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。；【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。；现货黄金失守4380美元/盎司，日内跌0.66%。。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，1 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，15 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药 - QQ News",
+      "description": "康方生物双抗药物获批第三项适应证，此前击败百济神州；阿斯利康加入口服减重药“混战”：4500人Ⅲ期临床试验只对标安慰剂｜掘金创新药&nbsp;&nbsp; QQ News",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-12T17:23:00.000Z",
+      "source": "QQ News",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yNHBqWVlVTHdjNl8tWkhkb3VpRlVaZDNkMHZxazMzVDFTZ1VUZzZ2Z1hDUnktaGh0cGxsdVE1eTQ2eVlIOG82VFhoTFNEYzRXdlo2WXRn?oc=5"
+    },
+    {
+      "title": "AI Chip Stocks August 2026: Nvidia vs AMD Investment Analysis - Intellectia AI",
+      "description": "AI Chip Stocks August 2026: Nvidia vs AMD Investment Analysis&nbsp;&nbsp; Intellectia AI",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T00:10:21.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hNjg3V1lHY296SVZIMmVNRDE2X3FDQXdNS1dabXhFcFR5X3hNQWhiVm9KSkM0QjN0dW9USmZkaGwzOUp0RnBEYjV2T3l0TnB5SG81QXpNeE9RR1VIenBKSHNEN0g?oc=5"
+    },
+    {
+      "title": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA? - 24/7 Wall St.",
+      "description": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?&nbsp;&nbsp; 24/7 Wall St.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T18:07:57.000Z",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ295RXQ3ZjQ0a09vQTVIZ0NkY1FWUEFxTWNsRnRNMi03VHBmRU0xVWhNTndCWE1LUzA4cS0tdUpJTVlodjRYbm9RYkp6cGVuLTZlSlZvNGRiRDNzS2xaRjNaemFnWjFRb3NfcmNOSzRLN0dWUmd2WFl1bXR0bl9OWW9OVFZvZjM1RjZ1MHhlMC1vQnVZS2lXdURGUXBlQ3NQSS04QUVQRS04bjhiWk56TlRqZ2dQVmh2aXQ3UXVBN0xpT1NuaHFF?oc=5"
+    },
+    {
+      "title": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook - Intellectia AI",
+      "description": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook&nbsp;&nbsp; Intellectia AI",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T04:05:42.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZelNmOVRacVh2WDNfTXBQMmxJNFRyWDdWU1hWUzdrY2RPMDhGd3hkVzZySjdEOWtGM1plZ09zTEJGSzNPbzlfbE9EWnkyUjVqYW1teHc1b3dMa25ObGJIbXdPOHotaFZta3Nn?oc=5"
+    },
+    {
+      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - Wccftech",
+      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; Wccftech",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T17:41:00.000Z",
+      "source": "Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBSVFl6VTdzeDFOR0FCcXRQbklaQjRfQjZUMUt0N2dXMDhkQndHMWRmWmRqaWU4d2E5R0JFVk1PWnJiMHM3ZkFxd3VRR3dIZmdKQk1zNDFDZThWMFJWWUhHNzlmWU5nZ2puTHZxakgtNG5ZTTRIZjFZZDJyTEVuQnBMcFhzTV9LZFkwUGNyS3AyUThwcHRyNTBMU1k2X3lZM1HSAacBQVVfeXFMT3p1WWY1OGo1WFlLSUpxOXE4YklkLUZFUXEtRUNKbGpUMEZUdXF0WUNSM1FDVzB0dUxueEMwdERKeDNIc21fWjJyeUFfTFRMZDFwNVExQUV1T2dWeWtxNDE1LS0wSFVaRjlHVzdDMG5jcnhMOHF4X3VGMGpTUHctVG8ySVJHWHpsbV9jSUlBaUtfYl9ycDgzdmpiTWtfSkVkOFpRdWloNG8?oc=5"
+    },
+    {
+      "title": "TSMC Revenue Surges 45% as AI Chip Demand From Nvidia, AMD, and Apple - Memeburn",
+      "description": "TSMC Revenue Surges 45% as AI Chip Demand From Nvidia, AMD, and Apple&nbsp;&nbsp; Memeburn",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T17:08:53.000Z",
+      "source": "Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9reG8wSVVSeHBqMDBDUDlKTDMzdmJGQV90OGN3UTBHdXY1c0hnQU1OQXpSaXlVcTJvZ2NoQ1c0RE1ORzJDNnpkY1NZdF9PVTNTMGFkb2FOWQ?oc=5"
+    },
+    {
+      "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction - CNBC",
+      "description": "Where gold price is headed next as Fed rate hike and inflation odds change direction&nbsp;&nbsp; CNBC",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-12T19:22:32.000Z",
+      "source": "CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQcE9EUXZra0w3S0ZDbGRzTHRDc1dyMEc0ZkpWVEFaeElqYVN5eWFFdzhPVE1qTDBPdnJPNHc0UlloNlhQem1KQUhhZTVOVTJWT1JCelRnUkpBLU9BaGs2blVNT2NZaUFlYUJpOVRBeVZndE9TaE5aOWxieHlwRFJsLVhRR3p3d9IBiwFBVV95cUxOV0ZZUWFRWEsyVGtkaFdSTGlYRi1BN290OEdpdFJ4dU8yVXFGbksxQmtZN0hfdTRuT05BUHQyR29Hdm5XdHhmOEhTUTNOSmFHTjB3cDRaVnlMTEtTUjJGa3hadFFmLVQ4SkRmbjdSNFJrVjd5cTVja2Q2OG1ZLTNGSTlrdTBiVmJnWUVJ?oc=5"
+    },
+    {
+      "title": "China A-share gold-related stocks extended losses ",
+      "description": "China A-share gold-related stocks extended losses in afternoon trade; Xiaocheng Technology fell more than 8%, Zhaojin Gold dropped over 6%, Hunan Silver and Shengda Resources also declined.",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T06:03:11.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "description": "A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T06:03:02.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "现货黄金失守4380美元/盎司，日内跌0.66%。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T06:04:23.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkq4799006.d.html"
+    },
+    {
+      "title": "【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T06:01:44.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkt3524829.d.html"
+    },
+    {
+      "title": "现货黄金失守4390美元/盎司，日内跌0.43%。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T05:43:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-13/detail-inincxkq4787580.d.html"
+    },
+    {
+      "title": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "description": "A股CPO概念股持续活跃，剑桥科技、星网锐捷双双涨停，共进股份此前封板，锐捷网络、天孚通信涨超10%，德科立、炬光科技等涨幅居前。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-13T05:09:28.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3148925"
+    },
+    {
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-13T00:06:02.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
+    },
     {
       "title": "【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】",
       "description": "【南苏丹霍乱疫情致1721人死亡 确诊病例超11万例】金十数据8月13日讯，当地时间8月12日，南苏丹卫生部长卢克·汤普森·托安在新闻发布会上表示，自2025年9月以来，南苏丹卫生部门已登记1721例霍乱疫情死亡病例和110574例确诊病例。此次霍乱疫情已遍布全国9个州55个县和3个行政区，是南苏丹迄今最大规模的霍乱疫情。南卫生部表示已联合国家公共卫生研究所、世界卫生组织和其他合作伙伴共同实施干预措施，包括开展口服霍乱疫苗接种运动，以及强化水、环境卫生和个人卫生等措施，近期感染病例数已呈下降趋势。",
@@ -77,85 +413,85 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.209,
-      "change": 1.8534119629317625
+      "price": 1.223,
+      "change": 1.1579818031430944
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.159,
-      "change": 1.666666666666678
+      "price": 1.172,
+      "change": 1.1216566005176791
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.218,
-      "change": 1.8394648829431453
+      "price": 1.24,
+      "change": 1.8062397372742216
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.048,
-      "change": 3.048180924287133
+      "price": 1.069,
+      "change": 2.003816793893121
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.665,
-      "change": 2.9411764705882377
+      "price": 0.681,
+      "change": 2.406015037593987
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 3.033,
-      "change": 2.121212121212112
+      "price": 3.094,
+      "change": 2.0112100230794576
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.688,
-      "change": -0.43415340086830717
+      "price": 0.702,
+      "change": 2.0348837209302344
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.74,
-      "change": -0.4037685060565279
+      "price": 0.755,
+      "change": 2.027027027027029
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.919,
-      "change": -0.3253796095444688
+      "price": 0.938,
+      "change": 2.06746463547333
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.103,
-      "change": 1.0434010434010368
+      "price": 9.03,
+      "change": -0.8019334285400461
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.507,
-      "change": 1.0093497662558313
+      "price": 9.432,
+      "change": -0.7888923950773039
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.543,
-      "change": 1.0375860243514978
+      "price": 9.467,
+      "change": -0.7963952635439457
     }
   ],
   "chartData": {
@@ -227,7 +563,7 @@
             39.91,
             39.32,
             40.05,
-            39.59
+            40.14
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -271,7 +607,7 @@
             83.39,
             83.22,
             85.76,
-            129.46
+            132.14
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -315,7 +651,7 @@
             109.39,
             110.03,
             109.55,
-            124.57
+            127.12
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -359,7 +695,7 @@
             106.25,
             106.3,
             107.41,
-            110.73
+            109.85
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -377,7 +713,8 @@
       "datasets": [
         {
           "data": [
-            1
+            3,
+            12
           ],
           "backgroundColor": [
             "#16a34a",
@@ -389,6 +726,7 @@
         }
       ],
       "labels": [
+        "利空",
         "中性"
       ],
       "hasData": true
@@ -411,25 +749,25 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 5
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 1
         },
         "创新药": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 3
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
+          "高": 3,
           "中": 0,
-          "低": 0
+          "低": 3
         }
       },
       "hasData": true
@@ -443,12 +781,22 @@
       ],
       "datasets": [
         {
-          "label": "中性",
+          "label": "利空",
           "data": [
             0,
             0,
+            0,
+            3
+          ],
+          "backgroundColor": "#dc2626"
+        },
+        {
+          "label": "中性",
+          "data": [
+            5,
             1,
-            0
+            3,
+            3
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -457,14 +805,17 @@
     },
     "timeWindow": {
       "labels": [
+        "短期",
         "中期"
       ],
       "datasets": [
         {
           "data": [
-            1
+            3,
+            12
           ],
           "backgroundColor": [
+            "#2563eb",
             "#ea580c"
           ],
           "borderWidth": 0
