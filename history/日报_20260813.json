@@ -1,8 +1,72 @@
 {
   "date": "20260813",
   "displayDate": "2026-08-13",
-  "generatedAt": "2026-08-13T11:12:59.945Z",
+  "generatedAt": "2026-08-13T15:32:37.603Z",
   "analyzed": [
+    {
+      "title_cn": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+” - 新浪财经",
+      "summary_cn": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+”&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+” - 新浪财经",
+      "description": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+”&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-13T14:35:38.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTEJnYUNzMkF0cXVtRFdHRlZjWXdSRVlXaTdJTWNDdUxWaWp0UXdMSGlNZi15aTNQakI1SDFDU2hVVlNDdUlsSmJqc1lnLXpLLU1ac3k4eGpWMFJheDNrLURBTmtyYmFENUdVNFM3ZzdrenlFMnlpaUtGQ3RHUGNuOFhRQ2lOczFWTjZzLVV3MzBOa3g3MUtuMA?oc=5"
+    },
+    {
+      "title_cn": "美股存储芯片股大涨，闪迪涨逾15%",
+      "summary_cn": "美股存储芯片股大涨，闪迪涨幅扩大至逾15%，公司此前公布2028财年至2030财年营收增长预期。西部数据涨近10%，SK海力士涨超8%，美光科技涨近7%，希捷科",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "美股存储芯片股大涨，闪迪涨逾15%",
+      "description": "美股存储芯片股大涨，闪迪涨幅扩大至逾15%，公司此前公布2028财年至2030财年营收增长预期。西部数据涨近10%，SK海力士涨超8%，美光科技涨近7%，希捷科技涨近6%。",
+      "pubDate": "2026-08-13T15:25:13.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149233"
+    },
+    {
+      "title_cn": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "summary_cn": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "description": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "pubDate": "2026-08-13T14:36:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149221"
+    },
+    {
+      "title_cn": "英伟达 财报 Preview August 2026: AI 芯片 Leader's Next Catalyst - 英特尔lectia AI",
+      "summary_cn": "英伟达 财报 Preview August 2026: AI 芯片 Leader's Next Catalyst&nbsp;&nbsp; 英特尔lectia AI",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst - Intellectia AI",
+      "description": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst&nbsp;&nbsp; Intellectia AI",
+      "pubDate": "2026-08-13T12:10:54.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hRVhIS2h1ekllZmxXUWlpeVQyMjE2S0F2Sld3YllUOTc4QmZQbDFDc0x2UXFLMFp2X2RoaWxnM1p4ZzBMWk5aVDhnV0ozWTVZM1h5cV9BdVFHUkM5cWdGNVVZWlpyRXVIM09URVVQZ0c?oc=5"
+    },
     {
       "title_cn": "【亚虹医药：APL-2501临床试验申请获得FDA批准】",
       "summary_cn": "【亚虹医药：APL-2501临床试验申请获得FDA批准】金十数据8月13日讯，亚虹医药公告，控股子公司 Baylink Biosciences Inc 收到美国",
@@ -148,6 +212,22 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNVFR6Y0hsSnp4ZHF0QXh4WjFqZWdFcmZxMHg2ekVYd05lOG1pUm5zVEVZdnktazRyZ0hDZ2MyNkN5LXlnUFNVU0ZhUjdhdV9MWXgxOFlfNURHZlhNQUZjbHpYa1FhcURCcGFrYVYzUDdESUk4aVN3QklvQlhGNVljOE9sQ3JXZkliR1JmLUJfTXlYU2dDLVpCaHVHaWE0ZkFESzFocnlrcTJiT3JDY280VEln?oc=5"
     },
     {
+      "title_cn": "The Unsung Kings of AI: Why 英伟达 Can’t Build GPUs Without 台积电 and SK海力士 - The Smart Investor",
+      "summary_cn": "The Unsung Kings of AI: Why 英伟达 Can’t Build GPUs Without 台积电 and SK海力士&nbsp;&nbsp; The Smart Investor",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "The Unsung Kings of AI: Why NVIDIA Can’t Build GPUs Without TSMC and SK Hynix - The Smart Investor",
+      "description": "The Unsung Kings of AI: Why NVIDIA Can’t Build GPUs Without TSMC and SK Hynix&nbsp;&nbsp; The Smart Investor",
+      "pubDate": "2026-08-13T09:30:00.000Z",
+      "source": "The Smart Investor",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkJGaTVhMWJ0dWp4REl6TnMyZVg0ZnNUX0taN1ZhMDVuclFCSGJRTnZpUXZ1Z0VyVTM3YVpTOThnSnJTRmJFQmR5cEpzWktaVW5OZlZVU1J5TzVsam00M1JlSmt2OG9sZk1sWThRM3lJWW1mOWNXZ2R1clJta0xuY1d2UXRNLU9pTVR5ZDlvZmhqNU85azlBTzJzVFdGVnAxNFdkWXZKZHNma21L?oc=5"
+    },
+    {
       "title_cn": "黄金 价格 预测: Cooling US Inflation Sets the Stage for a Break Above $5,000 - FXEmpire",
       "summary_cn": "黄金 价格 预测: Cooling US Inflation Sets the Stage for a Break Above $5,000&nbsp;&nbsp; FXEmpire",
       "category": "黄金",
@@ -196,22 +276,6 @@
       "link": "https://wallstreetcn.com/articles/3149098"
     },
     {
-      "title_cn": "黄金重新站上4400美元/盎司，反弹还是反转？ - 21财经",
-      "summary_cn": "黄金重新站上4400美元/盎司，反弹还是反转？&nbsp;&nbsp; 21财经",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "黄金重新站上4400美元/盎司，反弹还是反转？ - 21财经",
-      "description": "黄金重新站上4400美元/盎司，反弹还是反转？&nbsp;&nbsp; 21财经",
-      "pubDate": "2026-08-13T07:53:18.000Z",
-      "source": "21财经",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM1VFN3NrZlZ3aHMwWnZpcTVoQm9Kd2ctTlZnelZzcFNlRjRYczhubjJkMUdUTW9TWWdZbWdicFQ4R0pwM3VGeDNfRFFMRkVqel83VGxXWS1kS1E3Y0M5RzJJN3FYclNGS0VpdG5ma0I1ZUwwY09RTkZuOWVIbEhrZk1QNG9PaW1FTWNid0pFWDA3T1A1?oc=5"
-    },
-    {
       "title_cn": "黄金 价格 预测: Cooling CPI Weakens 美联储 Rate Hike Expectations, Can PPI Push 黄金 Above $4,500? - 交易Key",
       "summary_cn": "黄金 价格 预测: Cooling CPI Weakens 美联储 Rate Hike Expectations, Can PPI Push 黄金 Above $4,500?&nbsp;&nbsp; 交易Key",
       "category": "黄金",
@@ -226,6 +290,22 @@
       "pubDate": "2026-08-13T07:29:08.000Z",
       "source": "TradingKey",
       "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmxvR2RiRWFwdlM5aXg1NktjWkhQak5CZUU2TGQ4WjhDZmowYWZmRjhZVnFnZlVEX3BwRExDazZxZExNS3paUEpuSE5yTFBjV2JJVzA3R204eWNxOHdMSXJIa29qSmE1b2dQdUE4M2EyRlZQNnNId0dZNXV5ZHFJYWl0Tko2THVpYWdSdmgtQnZtd041WG5KUjZST0swd08wWXppUEEyRUx5YjBldVJsRUtYalJ4NHlWTTc4Qng3WWZOUQ?oc=5"
+    },
+    {
+      "title_cn": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
+      "summary_cn": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
+      "description": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
+      "pubDate": "2026-08-13T07:01:54.000Z",
+      "source": "同花顺财经",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MVnFqYkNBLTRsSHRUM0tqNlc2OHNsMlplTVZVc1lLLWZwV0plOXhKRkZTMFQweTRZYVUyQWFJbGVUX2xaWktnNy1qQ2owc0w3WnlhY2tsODh6OURfTVE?oc=5"
     },
     {
       "title_cn": "超4300股飘绿！贵金属领跌，黄金、白银跳水；13天9板传智教育跌停；生物科技、CRO领涨，创新药近10股涨停｜A股收盘 - 每日经济新闻",
@@ -258,22 +338,6 @@
       "pubDate": "2026-08-13T06:03:02.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title_cn": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
-      "summary_cn": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
-      "description": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
-      "pubDate": "2026-08-13T07:01:54.000Z",
-      "source": "同花顺财经",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MVnFqYkNBLTRsSHRUM0tqNlc2OHNsMlplTVZVc1lLLWZwV0plOXhKRkZTMFQweTRZYVUyQWFJbGVUX2xaWktnNy1qQ2owc0w3WnlhY2tsODh6OURfTVE?oc=5"
     },
     {
       "title_cn": "【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。",
@@ -452,8 +516,8 @@
       "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ295RXQ3ZjQ0a09vQTVIZ0NkY1FWUEFxTWNsRnRNMi03VHBmRU0xVWhNTndCWE1LUzA4cS0tdUpJTVlodjRYbm9RYkp6cGVuLTZlSlZvNGRiRDNzS2xaRjNaemFnWjFRb3NfcmNOSzRLN0dWUmd2WFl1bXR0bl9OWW9OVFZvZjM1RjZ1MHhlMC1vQnVZS2lXdURGUXBlQ3NQSS04QUVQRS04bjhiWk56TlRqZ2dQVmh2aXQ3UXVBN0xpT1NuaHFF?oc=5"
     },
     {
-      "title_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s - wccftech.com",
-      "summary_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s&nbsp;&nbsp; wccftech.com",
+      "title_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s - Wccftech",
+      "summary_cn": "台积电 Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI 芯片s&nbsp;&nbsp; Wccftech",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -461,15 +525,15 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - wccftech.com",
-      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; wccftech.com",
+      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - Wccftech",
+      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; Wccftech",
       "pubDate": "2026-08-12T17:41:00.000Z",
-      "source": "wccftech.com",
+      "source": "Wccftech",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBSVFl6VTdzeDFOR0FCcXRQbklaQjRfQjZUMUt0N2dXMDhkQndHMWRmWmRqaWU4d2E5R0JFVk1PWnJiMHM3ZkFxd3VRR3dIZmdKQk1zNDFDZThWMFJWWUhHNzlmWU5nZ2puTHZxakgtNG5ZTTRIZjFZZDJyTEVuQnBMcFhzTV9LZFkwUGNyS3AyUThwcHRyNTBMU1k2X3lZM1HSAacBQVVfeXFMT3p1WWY1OGo1WFlLSUpxOXE4YklkLUZFUXEtRUNKbGpUMEZUdXF0WUNSM1FDVzB0dUxueEMwdERKeDNIc21fWjJyeUFfTFRMZDFwNVExQUV1T2dWeWtxNDE1LS0wSFVaRjlHVzdDMG5jcnhMOHF4X3VGMGpTUHctVG8ySVJHWHpsbV9jSUlBaUtfYl9ycDgzdmpiTWtfSkVkOFpRdWloNG8?oc=5"
     },
     {
-      "title_cn": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - TradingKey",
-      "summary_cn": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; TradingKey",
+      "title_cn": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - tradingkey.com",
+      "summary_cn": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; tradingkey.com",
       "category": "黄金",
       "direction": "分化",
       "impact": "极高",
@@ -477,10 +541,10 @@
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:技术·利好(40)+宏观·利空(40)",
-      "title": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - TradingKey",
-      "description": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; TradingKey",
+      "title": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - tradingkey.com",
+      "description": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; tradingkey.com",
       "pubDate": "2026-08-12T16:22:00.000Z",
-      "source": "TradingKey",
+      "source": "tradingkey.com",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUWNJMzJuMktHTGRUdlhGTWZmcnhPdWJGTlFiS3UwZDk1RzVnUGdfQkhXTWFjMGJZU25oR1JJYkNkMUNPcTFnbjBqZXhaOC1OQTRoM19YZE1qWFZIa1lfeHA5SkNBem9GUDl2bTVaQVF3Q3IyaTVZUF9GUm5uS3RCM3ZDWnZ3SzBhT19zaE9JYm5RVlo1aTByQk1Vdk1FSldKUXVtajFBeGxVWHQwRzF0VDc1S0ZYakhfNUlRNnh3Q0JoMUlYY3BGY0hIUUw?oc=5"
     },
     {
@@ -535,10 +599,10 @@
     },
     {
       "name": "半导体",
-      "shock": "弱",
+      "shock": "中",
       "direction": "分化",
-      "news_count": 9,
-      "summary": "半导体板块9条新闻，方向以分化为主",
+      "news_count": 13,
+      "summary": "半导体板块13条新闻，方向以分化为主",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
@@ -551,14 +615,22 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 32 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "今日共抓取 36 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
     "极高影响事件 3 条，高影响 3 条，利好方向 2 条。",
-    "板块概况：黄金(利空, 强冲击, 14条)、创新药(利好, 强冲击, 7条)、半导体(分化, 弱冲击, 9条)、光模块(利好, 弱冲击, 2条)。",
-    "重点关注：A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。；【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。；黄金重新站上4400美元/盎司，反弹还是反转？ - 21财经。"
+    "板块概况：黄金(利空, 强冲击, 14条)、创新药(利好, 强冲击, 7条)、半导体(分化, 中冲击, 13条)、光模块(利好, 弱冲击, 2条)。",
+    "重点关注：A股黄金概念股午后持续走低，晓程科技跌超8%，招金黄金跌超6%，湖南白银、盛达资源等跟跌。；【贵金属板块持续走低】贵金属板块持续走低，晓程科技跌超7%，招金黄金、湖南白银、山东黄金、四川黄金等跟跌。；美股存储芯片股大涨，闪迪涨逾15%。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，32 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，36 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "The Unsung Kings of AI: Why NVIDIA Can’t Build GPUs Without TSMC and SK Hynix - The Smart Investor",
+      "description": "The Unsung Kings of AI: Why NVIDIA Can’t Build GPUs Without TSMC and SK Hynix&nbsp;&nbsp; The Smart Investor",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T09:30:00.000Z",
+      "source": "The Smart Investor",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVkJGaTVhMWJ0dWp4REl6TnMyZVg0ZnNUX0taN1ZhMDVuclFCSGJRTnZpUXZ1Z0VyVTM3YVpTOThnSnJTRmJFQmR5cEpzWktaVW5OZlZVU1J5TzVsam00M1JlSmt2OG9sZk1sWThRM3lJWW1mOWNXZ2R1clJta0xuY1d2UXRNLU9pTVR5ZDlvZmhqNU85azlBTzJzVFdGVnAxNFdkWXZKZHNma21L?oc=5"
+    },
     {
       "title": "Zealand sells its rights to Takeda’s blood cancer drug for $100M ahead of FDA approval decision - Fierce Biotech",
       "description": "Zealand sells its rights to Takeda’s blood cancer drug for $100M ahead of FDA approval decision&nbsp;&nbsp; Fierce Biotech",
@@ -576,28 +648,20 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1yNHBqWVlVTHdjNl8tWkhkb3VpRlVaZDNkMHZxazMzVDFTZ1VUZzZ2Z1hDUnktaGh0cGxsdVE1eTQ2eVlIOG82VFhoTFNEYzRXdlo2WXRn?oc=5"
     },
     {
-      "title": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - TradingKey",
-      "description": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; TradingKey",
+      "title": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？ - tradingkey.com",
+      "description": "黄金价格预测：CPI降温削弱美联储加息预期，PPI能否推动金价突破4500美元？&nbsp;&nbsp; tradingkey.com",
       "guessedSector": "黄金",
       "pubDate": "2026-08-12T16:22:00.000Z",
-      "source": "TradingKey",
+      "source": "tradingkey.com",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNUWNJMzJuMktHTGRUdlhGTWZmcnhPdWJGTlFiS3UwZDk1RzVnUGdfQkhXTWFjMGJZU25oR1JJYkNkMUNPcTFnbjBqZXhaOC1OQTRoM19YZE1qWFZIa1lfeHA5SkNBem9GUDl2bTVaQVF3Q3IyaTVZUF9GUm5uS3RCM3ZDWnZ3SzBhT19zaE9JYm5RVlo1aTByQk1Vdk1FSldKUXVtajFBeGxVWHQwRzF0VDc1S0ZYakhfNUlRNnh3Q0JoMUlYY3BGY0hIUUw?oc=5"
     },
     {
-      "title": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook - Intellectia AI",
-      "description": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook&nbsp;&nbsp; Intellectia AI",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-13T10:07:30.000Z",
-      "source": "Intellectia AI",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZelNmOVRacVh2WDNfTXBQMmxJNFRyWDdWU1hWUzdrY2RPMDhGd3hkVzZySjdEOWtGM1plZ09zTEJGSzNPbzlfbE9EWnkyUjVqYW1teHc1b3dMa25ObGJIbXdPOHotaFZta3Nn?oc=5"
-    },
-    {
-      "title": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA? - 24/7 Wall St.",
-      "description": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?&nbsp;&nbsp; 24/7 Wall St.",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-12T18:07:57.000Z",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ295RXQ3ZjQ0a09vQTVIZ0NkY1FWUEFxTWNsRnRNMi03VHBmRU0xVWhNTndCWE1LUzA4cS0tdUpJTVlodjRYbm9RYkp6cGVuLTZlSlZvNGRiRDNzS2xaRjNaemFnWjFRb3NfcmNOSzRLN0dWUmd2WFl1bXR0bl9OWW9OVFZvZjM1RjZ1MHhlMC1vQnVZS2lXdURGUXBlQ3NQSS04QUVQRS04bjhiWk56TlRqZ2dQVmh2aXQ3UXVBN0xpT1NuaHFF?oc=5"
+      "title": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+” - 新浪财经",
+      "description": "瑞银喊黄金“4000以下闭眼买”，LBMA调查显示“年底看到4500+”&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T14:35:38.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTEJnYUNzMkF0cXVtRFdHRlZjWXdSRVlXaTdJTWNDdUxWaWp0UXdMSGlNZi15aTNQakI1SDFDU2hVVlNDdUlsSmJqc1lnLXpLLU1ac3k4eGpWMFJheDNrLURBTmtyYmFENUdVNFM3ZzdrenlFMnlpaUtGQ3RHUGNuOFhRQ2lOczFWTjZzLVV3MzBOa3g3MUtuMA?oc=5"
     },
     {
       "title": "AI Chip Stocks August 2026: Nvidia vs AMD Investment Analysis - Intellectia AI",
@@ -608,12 +672,28 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9hNjg3V1lHY296SVZIMmVNRDE2X3FDQXdNS1dabXhFcFR5X3hNQWhiVm9KSkM0QjN0dW9USmZkaGwzOUp0RnBEYjV2T3l0TnB5SG81QXpNeE9RR1VIenBKSHNEN0g?oc=5"
     },
     {
-      "title": "黄金重新站上4400美元/盎司，反弹还是反转？ - 21财经",
-      "description": "黄金重新站上4400美元/盎司，反弹还是反转？&nbsp;&nbsp; 21财经",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-13T07:53:18.000Z",
-      "source": "21财经",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQM1VFN3NrZlZ3aHMwWnZpcTVoQm9Kd2ctTlZnelZzcFNlRjRYczhubjJkMUdUTW9TWWdZbWdicFQ4R0pwM3VGeDNfRFFMRkVqel83VGxXWS1kS1E3Y0M5RzJJN3FYclNGS0VpdG5ma0I1ZUwwY09RTkZuOWVIbEhrZk1QNG9PaW1FTWNid0pFWDA3T1A1?oc=5"
+      "title": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA? - 24/7 Wall St.",
+      "description": "Intel Is Up 176% This Year. Is It Time to Take Profits on INTC, AMD, Broadcom, and NVIDIA?&nbsp;&nbsp; 24/7 Wall St.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-12T18:07:57.000Z",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQ295RXQ3ZjQ0a09vQTVIZ0NkY1FWUEFxTWNsRnRNMi03VHBmRU0xVWhNTndCWE1LUzA4cS0tdUpJTVlodjRYbm9RYkp6cGVuLTZlSlZvNGRiRDNzS2xaRjNaemFnWjFRb3NfcmNOSzRLN0dWUmd2WFl1bXR0bl9OWW9OVFZvZjM1RjZ1MHhlMC1vQnVZS2lXdURGUXBlQ3NQSS04QUVQRS04bjhiWk56TlRqZ2dQVmh2aXQ3UXVBN0xpT1NuaHFF?oc=5"
+    },
+    {
+      "title": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst - Intellectia AI",
+      "description": "NVIDIA Earnings Preview August 2026: AI Chip Leader's Next Catalyst&nbsp;&nbsp; Intellectia AI",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T12:10:54.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1hRVhIS2h1ekllZmxXUWlpeVQyMjE2S0F2Sld3YllUOTc4QmZQbDFDc0x2UXFLMFp2X2RoaWxnM1p4ZzBMWk5aVDhnV0ozWTVZM1h5cV9BdVFHUkM5cWdGNVVZWlpyRXVIM09URVVQZ0c?oc=5"
+    },
+    {
+      "title": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook - Intellectia AI",
+      "description": "Nvidia Stock Earnings August 2026: AI Chip Leader's Q2 Preview & Investment Outlook&nbsp;&nbsp; Intellectia AI",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T10:07:30.000Z",
+      "source": "Intellectia AI",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZelNmOVRacVh2WDNfTXBQMmxJNFRyWDdWU1hWUzdrY2RPMDhGd3hkVzZySjdEOWtGM1plZ09zTEJGSzNPbzlfbE9EWnkyUjVqYW1teHc1b3dMa25ObGJIbXdPOHotaFZta3Nn?oc=5"
     },
     {
       "title": "Where gold price is headed next as Fed rate hike and inflation odds change direction - CNBC",
@@ -632,14 +712,6 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOVXdQWE02YllsZi1ISFNhSXFqZDRzWlBhSnhTVUJNUlVadHplZEdUQ2JqaTNBR3RiclpVZUtyaU53MGFleG9mWjAyRnc3NjlkZzJFNTN4dHlDYVpmZEQzajRxZ0FiWW8wb2ZoVUU1STU3NjktaVoxb0Qwa05pMGdSNWNyN3RGazBXaWJYRG4xdC0wSDEtTVlzVUh6QzlCa1dRN3dzR3pGVmpQbGd0eXVycG42MnJfSW1uSDhBczJyTXFUTG8tM1RucHJpLVF0SEhHcVZ4YnQ5YWkzSWVMcTlpUQ?oc=5"
     },
     {
-      "title": "Gold Price Forecast: Cooling CPI Weakens Fed Rate Hike Expectations, Can PPI Push Gold Above $4,500? - TradingKey",
-      "description": "Gold Price Forecast: Cooling CPI Weakens Fed Rate Hike Expectations, Can PPI Push Gold Above $4,500?&nbsp;&nbsp; TradingKey",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-13T07:29:08.000Z",
-      "source": "TradingKey",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmxvR2RiRWFwdlM5aXg1NktjWkhQak5CZUU2TGQ4WjhDZmowYWZmRjhZVnFnZlVEX3BwRExDazZxZExNS3paUEpuSE5yTFBjV2JJVzA3R204eWNxOHdMSXJIa29qSmE1b2dQdUE4M2EyRlZQNnNId0dZNXV5ZHFJYWl0Tko2THVpYWdSdmgtQnZtd041WG5KUjZST0swd08wWXppUEEyRUx5YjBldVJsRUtYalJ4NHlWTTc4Qng3WWZOUQ?oc=5"
-    },
-    {
       "title": "Gold Price Forecast: XAU/USD clings to 100-day SMA, with upside risks intact - FXStreet",
       "description": "Gold Price Forecast: XAU/USD clings to 100-day SMA, with upside risks intact&nbsp;&nbsp; FXStreet",
       "guessedSector": "黄金",
@@ -648,12 +720,28 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbUthSGNEalVCd1RXekZKZDByMVlDdE1HTExzbnBvZC1wLVg5YXJJU2gxclN4M0FCdU9EOS1QZkgzLUMwUlQxaE9EanZzRXNpckxNNjFNeHQzSEtWR3p3SU1xOExLcEtfR2wtazhYOEhNdXAtXzJtSkVmNWJjVXVmbnhOZkxxRFd2NURzVkJGWFJXWGtNYjhBVDFBSFZvaUdfUnhtdnJ2SXNWOVQwclJPdmluZ3RPc0pNVlYwNHNn?oc=5"
     },
     {
-      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - wccftech.com",
-      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; wccftech.com",
+      "title": "Gold Price Forecast: Cooling CPI Weakens Fed Rate Hike Expectations, Can PPI Push Gold Above $4,500? - TradingKey",
+      "description": "Gold Price Forecast: Cooling CPI Weakens Fed Rate Hike Expectations, Can PPI Push Gold Above $4,500?&nbsp;&nbsp; TradingKey",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-13T07:29:08.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQmxvR2RiRWFwdlM5aXg1NktjWkhQak5CZUU2TGQ4WjhDZmowYWZmRjhZVnFnZlVEX3BwRExDazZxZExNS3paUEpuSE5yTFBjV2JJVzA3R204eWNxOHdMSXJIa29qSmE1b2dQdUE4M2EyRlZQNnNId0dZNXV5ZHFJYWl0Tko2THVpYWdSdmgtQnZtd041WG5KUjZST0swd08wWXppUEEyRUx5YjBldVJsRUtYalJ4NHlWTTc4Qng3WWZOUQ?oc=5"
+    },
+    {
+      "title": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips - Wccftech",
+      "description": "TSMC Exec Makes Big Announcement & Confirms 98% Yield For CoWoS Packaged AI Chips&nbsp;&nbsp; Wccftech",
       "guessedSector": "半导体",
       "pubDate": "2026-08-12T17:41:00.000Z",
-      "source": "wccftech.com",
+      "source": "Wccftech",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNRjBSVFl6VTdzeDFOR0FCcXRQbklaQjRfQjZUMUt0N2dXMDhkQndHMWRmWmRqaWU4d2E5R0JFVk1PWnJiMHM3ZkFxd3VRR3dIZmdKQk1zNDFDZThWMFJWWUhHNzlmWU5nZ2puTHZxakgtNG5ZTTRIZjFZZDJyTEVuQnBMcFhzTV9LZFkwUGNyS3AyUThwcHRyNTBMU1k2X3lZM1HSAacBQVVfeXFMT3p1WWY1OGo1WFlLSUpxOXE4YklkLUZFUXEtRUNKbGpUMEZUdXF0WUNSM1FDVzB0dUxueEMwdERKeDNIc21fWjJyeUFfTFRMZDFwNVExQUV1T2dWeWtxNDE1LS0wSFVaRjlHVzdDMG5jcnhMOHF4X3VGMGpTUHctVG8ySVJHWHpsbV9jSUlBaUtfYl9ycDgzdmpiTWtfSkVkOFpRdWloNG8?oc=5"
+    },
+    {
+      "title": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
+      "description": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-13T07:01:54.000Z",
+      "source": "同花顺财经",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MVnFqYkNBLTRsSHRUM0tqNlc2OHNsMlplTVZVc1lLLWZwV0plOXhKRkZTMFQweTRZYVUyQWFJbGVUX2xaWktnNy1qQ2owc0w3WnlhY2tsODh6OURfTVE?oc=5"
     },
     {
       "title": "超4300股飘绿！贵金属领跌，黄金、白银跳水；13天9板传智教育跌停；生物科技、CRO领涨，创新药近10股涨停｜A股收盘 - 每日经济新闻",
@@ -664,12 +752,28 @@
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBRY19icDctRXc0UEhNOWVpMW0xeGxyZXpMZkVqSmpCSWNJX1I3bXdqS3I4M2ZjRlJ1SHFVbXlXSmRTWVlJcGtNeXhMY2pJVWFXMWFfdzBvZnExWHlUc0x0VmY4MjNtQQ?oc=5"
     },
     {
-      "title": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃 - 同花顺财经",
-      "description": "A股收评：科创50指数冲高回落跌1.11%，创新药、CRO概念板块表现活跃&nbsp;&nbsp; 同花顺财经",
+      "title": "美股存储芯片股大涨，闪迪涨逾15%",
+      "description": "美股存储芯片股大涨，闪迪涨幅扩大至逾15%，公司此前公布2028财年至2030财年营收增长预期。西部数据涨近10%，SK海力士涨超8%，美光科技涨近7%，希捷科技涨近6%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T15:25:13.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149233"
+    },
+    {
+      "title": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "description": "费城半导体指数涨超2%，超微电脑涨超10%，英特尔涨近5%，美光科技涨超4%，闪迪涨近6%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-13T14:36:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149221"
+    },
+    {
+      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
+      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
       "guessedSector": "创新药",
-      "pubDate": "2026-08-13T07:01:54.000Z",
-      "source": "同花顺财经",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9MVnFqYkNBLTRsSHRUM0tqNlc2OHNsMlplTVZVc1lLLWZwV0plOXhKRkZTMFQweTRZYVUyQWFJbGVUX2xaWktnNy1qQ2owc0w3WnlhY2tsODh6OURfTVE?oc=5"
+      "pubDate": "2026-08-13T00:06:02.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/member/articles/3779064"
     },
     {
       "title": "【金螳螂：公司洁净类装修业务目前占公司营业收入及净利润的比例较低】",
@@ -742,14 +846,6 @@
       "pubDate": "2026-08-13T09:51:14.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3149098"
-    },
-    {
-      "title": "AI制药初探：200+药物分子进入临床试验，产业链上游开启三位数业绩大爆发",
-      "description": "全球AI制药市场规模预计将从2025年的约28亿美元增长至2035年的160-240亿美元（CAGR 23-27%），亚太地区正以27%以上的增速成为增长主引擎。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-13T00:06:02.000Z",
-      "source": "华尔街见闻医药",
-      "link": "https://wallstreetcn.com/member/articles/3779064"
     },
     {
       "title": "TSMC Revenue Surges 45% as AI Chip Demand From Nvidia, AMD, and Apple - Memeburn",
@@ -1118,7 +1214,7 @@
           "data": [
             2,
             3,
-            26,
+            30,
             1
           ],
           "backgroundColor": [
@@ -1156,7 +1252,7 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 9
+          "低": 13
         },
         "光模块": {
           "极高": 0,
@@ -1210,7 +1306,7 @@
         {
           "label": "中性",
           "data": [
-            9,
+            13,
             2,
             5,
             10
@@ -1239,7 +1335,7 @@
         {
           "data": [
             6,
-            26
+            30
           ],
           "backgroundColor": [
             "#2563eb",
