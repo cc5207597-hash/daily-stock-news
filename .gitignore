@@ -4,3 +4,4 @@ output/
 .env.local
 .claude/
 refresh-state.json
+.edgeone/

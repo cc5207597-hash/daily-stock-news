@@ -65,9 +65,9 @@ flowchart LR
 
 ## 在线访问
 
-- **国内主链接（EdgeOne Pages）**：`https://daily-stock-news-xxx.pages.dev`（待注册 EdgeOne 并配置 `EDGEONE_API_TOKEN` 后自动部署，届时填入真实域名）
+- **国内主链接（jsDelivr 镜像）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
 - **主链接（GitHub Pages）**：<https://cc5207597-hash.github.io/daily-stock-news/>
-- **备用镜像（jsDelivr CDN，国内网络较稳）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
+- **EdgeOne Pages（国内加速，待启用）**：部署管线已就绪（token 门控），待绑定已 ICP 备案的自定义域名后启用，届时填入真实链接。
 
 每天（含周末）北京时间 09:00 / 16:00 / 20:00 自动构建更新；另有心跳兜底（北京 14:00 / 22:00），主时段被 GitHub cron 漂移/跳过时当天存档缺失会自动补建，保证日报当天必出。若主链接偶发打不开，用备用镜像即可。
 
@@ -96,6 +96,7 @@ node scripts/refresh-server.mjs
 |------|------|
 | `ANTHROPIC_API_KEY` | Claude API Key（CI 中通过 GitHub Secrets 注入；本地通过代理自动管理） |
 | `SERVERCHAN_SENDKEY` | Server酱3 SendKey，配置后自动推送微信通知 |
+| `EDGEONE_API_TOKEN` | EdgeOne Pages API Token（国内加速，待绑定备案域名后配置启用；未配置时自动跳过） |
 
 ---
 
