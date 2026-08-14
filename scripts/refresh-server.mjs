@@ -23,8 +23,9 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const INDEX = join(ROOT, 'index.html');
 const HISTORY_DIR = join(ROOT, 'history');
+const QUALITY_DIR = join(ROOT, 'quality');
 const STATE_FILE = join(ROOT, 'refresh-state.json');
-const PORT = 3456;
+const PORT = Number(process.env.PORT) || 3456;
 
 const MIME = {
   'js': 'application/javascript; charset=utf-8',
@@ -266,6 +267,21 @@ const server = http.createServer((req, res) => {
     const rel = decodeURIComponent(req.url.split('?')[0].replace(/^\/history\//, ''));
     if (rel && !rel.includes('..')) {
       const filePath = join(HISTORY_DIR, rel);
+      if (existsSync(filePath)) {
+        serveFile(res, 200, mimeOf(filePath), readFileSync(filePath));
+        return;
+      }
+    }
+    serveFile(res, 404, 'text/plain', 'Not found');
+    return;
+  }
+
+  // Serve quality review page (index.html + report.json) — same layout as the
+  // gh-pages deployment, so local preview and live behave alike.
+  if (req.method === 'GET' && req.url.startsWith('/quality/')) {
+    const rel = decodeURIComponent(req.url.split('?')[0].replace(/^\/quality\//, ''));
+    if (rel && !rel.includes('..')) {
+      const filePath = join(QUALITY_DIR, rel);
       if (existsSync(filePath)) {
         serveFile(res, 200, mimeOf(filePath), readFileSync(filePath));
         return;

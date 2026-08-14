@@ -1,0 +1,396 @@
+{
+  "days": [
+    {
+      "date": "20260806",
+      "displayDate": "2026-08-06",
+      "isAi": false,
+      "newsCount": 64,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 0,
+        "high": 14
+      },
+      "signalHitRate": 0,
+      "directions": {
+        "利好": 4,
+        "利空": 0,
+        "分化": 0,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "半导体",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "强"
+        }
+      ]
+    },
+    {
+      "date": "20260807",
+      "displayDate": "2026-08-07",
+      "isAi": false,
+      "newsCount": 95,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 8,
+        "high": 48
+      },
+      "signalHitRate": 0,
+      "directions": {
+        "利好": 4,
+        "利空": 0,
+        "分化": 0,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "半导体",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "强"
+        }
+      ]
+    },
+    {
+      "date": "20260808",
+      "displayDate": "2026-08-08",
+      "isAi": true,
+      "newsCount": 15,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 1,
+        "high": 8
+      },
+      "signalHitRate": 0,
+      "directions": {
+        "利好": 2,
+        "利空": 0,
+        "分化": 2,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "分化",
+          "shock": "强"
+        },
+        {
+          "name": "黄金",
+          "direction": "分化",
+          "shock": "强"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "中"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "中"
+        }
+      ]
+    },
+    {
+      "date": "20260809",
+      "displayDate": "2026-08-09",
+      "isAi": false,
+      "newsCount": 39,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 2,
+        "high": 3
+      },
+      "signalHitRate": 33,
+      "directions": {
+        "利好": 4,
+        "利空": 0,
+        "分化": 0,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "中"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "弱"
+        }
+      ]
+    },
+    {
+      "date": "20260810",
+      "displayDate": "2026-08-10",
+      "isAi": false,
+      "newsCount": 53,
+      "sectorCount": 4,
+      "missingSectors": [
+        "光模块"
+      ],
+      "covered": false,
+      "impact": {
+        "vhigh": 0,
+        "high": 11
+      },
+      "signalHitRate": 36,
+      "directions": {
+        "利好": 4,
+        "利空": 0,
+        "分化": 0,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "弱"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "弱"
+        }
+      ]
+    },
+    {
+      "date": "20260811",
+      "displayDate": "2026-08-11",
+      "isAi": false,
+      "newsCount": 55,
+      "sectorCount": 4,
+      "missingSectors": [
+        "光模块"
+      ],
+      "covered": false,
+      "impact": {
+        "vhigh": 1,
+        "high": 7
+      },
+      "signalHitRate": 33,
+      "directions": {
+        "利好": 3,
+        "利空": 1,
+        "分化": 0,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "黄金",
+          "direction": "利空",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "弱"
+        }
+      ]
+    },
+    {
+      "date": "20260812",
+      "displayDate": "2026-08-12",
+      "isAi": false,
+      "newsCount": 37,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 0,
+        "high": 0
+      },
+      "signalHitRate": 32,
+      "directions": {
+        "利好": 3,
+        "利空": 0,
+        "分化": 1,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "分化",
+          "shock": "中"
+        },
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "弱"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "弱"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "弱"
+        }
+      ]
+    },
+    {
+      "date": "20260813",
+      "displayDate": "2026-08-13",
+      "isAi": false,
+      "newsCount": 36,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 3,
+        "high": 3
+      },
+      "signalHitRate": 25,
+      "directions": {
+        "利好": 2,
+        "利空": 1,
+        "分化": 1,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "黄金",
+          "direction": "利空",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "半导体",
+          "direction": "分化",
+          "shock": "中"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "弱"
+        }
+      ]
+    },
+    {
+      "date": "20260814",
+      "displayDate": "2026-08-14",
+      "isAi": true,
+      "newsCount": 12,
+      "sectorCount": 4,
+      "missingSectors": [],
+      "covered": true,
+      "impact": {
+        "vhigh": 0,
+        "high": 7
+      },
+      "signalHitRate": 0,
+      "directions": {
+        "利好": 3,
+        "利空": 0,
+        "分化": 1,
+        "中性": 0
+      },
+      "matrix": [
+        {
+          "name": "半导体",
+          "direction": "分化",
+          "shock": "强"
+        },
+        {
+          "name": "光模块",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "中"
+        }
+      ]
+    }
+  ],
+  "total": 9,
+  "coveredAll": 7,
+  "coverageRate": 78,
+  "avgImpactHigh": 13,
+  "consistency": {
+    "黄金": 50,
+    "半导体": 67,
+    "创新药": 83,
+    "光模块": 50
+  }
+}

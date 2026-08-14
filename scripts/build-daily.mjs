@@ -969,6 +969,14 @@ async function main() {
   // 7. Deployable history archive + static page + dates index
   saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData);
 
+  // 7.5 数据质量/历史表现回看页(读 history/ + output/etf_history 计算,不影响主流程)
+  try {
+    const { execFileSync } = await import('node:child_process');
+    execFileSync(process.execPath, [join(PROJECT_ROOT, 'scripts/quality-report.mjs')], { stdio: 'inherit' });
+  } catch (err) {
+    console.warn(`  ⚠ 数据质量回看页生成失败: ${err.message}`);
+  }
+
   // 8. Send push notification
   await sendNotification(result, etfData, dateStr);
 
