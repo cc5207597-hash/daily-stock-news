@@ -344,13 +344,13 @@
       "date": "20260814",
       "displayDate": "2026-08-14",
       "isAi": false,
-      "newsCount": 62,
+      "newsCount": 74,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 2,
-        "high": 2
+        "vhigh": 3,
+        "high": 3
       },
       "signalHitRate": 32,
       "directions": {
