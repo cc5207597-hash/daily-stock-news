@@ -61,3 +61,12 @@ jobs:
           publish_dir: '.'
           publish_branch: gh-pages
           force_orphan: true
+
+      # 国内镜像:EdgeOne Pages(腾讯,国内节点)。
+      # 未配置 EDGEONE_API_TOKEN 前自动跳过,不影响 gh-pages 主部署。
+      # 首次部署会自动创建 daily-stock-news 项目并分配默认免费域名。
+      - name: Deploy to EdgeOne Pages (国内镜像)
+        if: env.EDGEONE_PAGES_API_TOKEN != ''
+        env:
+          EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
+        run: npx edgeone makers deploy . --name daily-stock-news --area global --json

@@ -65,8 +65,9 @@ flowchart LR
 
 ## 在线访问
 
+- **国内主链接（EdgeOne Pages）**：`https://daily-stock-news-xxx.pages.dev`（待注册 EdgeOne 并配置 `EDGEONE_API_TOKEN` 后自动部署，届时填入真实域名）
 - **主链接（GitHub Pages）**：<https://cc5207597-hash.github.io/daily-stock-news/>
-- **备用镜像（jsDelivr CDN，国内网络更稳）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
+- **备用镜像（jsDelivr CDN，国内网络较稳）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html>
 
 每天（含周末）北京时间 09:00 / 16:00 / 20:00 自动构建更新；另有心跳兜底（北京 14:00 / 22:00），主时段被 GitHub cron 漂移/跳过时当天存档缺失会自动补建，保证日报当天必出。若主链接偶发打不开，用备用镜像即可。
 
