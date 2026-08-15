@@ -386,19 +386,17 @@
       "date": "20260815",
       "displayDate": "2026-08-15",
       "isAi": false,
-      "newsCount": 4,
+      "newsCount": 14,
       "sectorCount": 4,
       "missingSectors": [
-        "光模块",
-        "创新药",
-        "黄金"
+        "光模块"
       ],
       "covered": false,
       "impact": {
         "vhigh": 0,
-        "high": 0
+        "high": 2
       },
-      "signalHitRate": 0,
+      "signalHitRate": 29,
       "directions": {
         "利好": 3,
         "利空": 0,
@@ -409,20 +407,20 @@
         {
           "name": "半导体",
           "direction": "分化",
-          "shock": "弱"
-        },
-        {
-          "name": "光模块",
-          "direction": "利好",
-          "shock": "弱"
+          "shock": "中"
         },
         {
           "name": "创新药",
           "direction": "利好",
-          "shock": "弱"
+          "shock": "中"
         },
         {
           "name": "黄金",
+          "direction": "利好",
+          "shock": "弱"
+        },
+        {
+          "name": "光模块",
           "direction": "利好",
           "shock": "弱"
         }

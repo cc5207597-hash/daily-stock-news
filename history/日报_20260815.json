@@ -1,8 +1,168 @@
 {
   "date": "20260815",
   "displayDate": "2026-08-15",
-  "generatedAt": "2026-08-14T16:36:27.433Z",
+  "generatedAt": "2026-08-15T03:23:57.585Z",
   "analyzed": [
+    {
+      "title_cn": "【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。",
+      "description": "",
+      "pubDate": "2026-08-15T03:11:55.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininkfhq3629447.d.html"
+    },
+    {
+      "title_cn": "【第二届世界人形机器人运动会赛事门票发售 开幕式多种票型紧俏】第二届世界人形机器人运动会将于8月22日在北京开幕。昨天（14日），赛事各类门票已全面发售。目前，开幕式多种票型已售罄，仅剩少量余票；周末场、晚间黄金场及多人套票需求持续走高。（央视新闻）",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【第二届世界人形机器人运动会赛事门票发售 开幕式多种票型紧俏】第二届世界人形机器人运动会将于8月22日在北京开幕。昨天（14日），赛事各类门票已全面发售。目前，开幕式多种票型已售罄，仅剩少量余票；周末场、晚间黄金场及多人套票需求持续走高。（央视新闻）",
+      "description": "",
+      "pubDate": "2026-08-15T02:37:51.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininkfhq3613164.d.html"
+    },
+    {
+      "title_cn": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。",
+      "summary_cn": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。",
+      "description": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。",
+      "pubDate": "2026-08-15T02:32:05.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149921"
+    },
+    {
+      "title_cn": "订单饱满结构升级 CXO企业半年度业绩释放回暖信号",
+      "summary_cn": "【订单饱满结构升级 CXO企业半年度业绩释放回暖信号】财联社8月15日电，伴随创新药BD（商务拓展）出海持续活跃，CXO（医药研发生产外包）行业景气度显著回升。",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:订单·利好(60)+传闻·中性(5)",
+      "title": "订单饱满结构升级 CXO企业半年度业绩释放回暖信号",
+      "description": "【订单饱满结构升级 CXO企业半年度业绩释放回暖信号】财联社8月15日电，伴随创新药BD（商务拓展）出海持续活跃，CXO（医药研发生产外包）行业景气度显著回升。近期，多家CXO上市公司陆续发布半年度经营情况，在手订单增长、新分子业务加快放量成为行业共性特征。有医药行业专家在接受记者采访时表示，本轮CXO行业复苏呈现更为积极的特征，随着创新药出海步伐加快，下半年行业景气度有望延续。",
+      "pubDate": "2026-08-15T00:21:21.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2455071"
+    },
+    {
+      "title_cn": "“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？",
+      "summary_cn": "【“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？】8月11日，一则消息搅动全球存储市场：韩国存储芯片巨头SK海力士重启了搁置四年的大连NAND闪存二号工",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(20)+政策·分化(25·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)",
+      "title": "“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？",
+      "description": "【“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？】8月11日，一则消息搅动全球存储市场：韩国存储芯片巨头SK海力士重启了搁置四年的大连NAND闪存二号工厂建设，投产后大连厂区产能将扩大约50%。一座沉寂四年的工厂，为何在此时重启？答案藏在价格里——过去一年，NAND闪存价格暴涨近10倍。但重启背后，SK海力士的算盘远不止“扩产”：产能放在中国还是韩国，如何应对美国出口管制政策，每一步都牵动全球存储版图的重划。",
+      "pubDate": "2026-08-15T00:43:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202608143842058196.html"
+    },
+    {
+      "title_cn": "WSJ reports 英伟达 and OpenAI are nearing a financ",
+      "summary_cn": "WSJ reports 英伟达 and OpenAI are nearing a financing deal to build a large data‑center campus in Ohio; revised terms cut 英伟达’s planned financial guarantee from about $250 bln to under $120 bln. The reduction is intended to address investor concerns over 英伟达 using its balance sheet to support 需求 for its AI 芯片s. Under the discussed framework 英伟达 would guarantee the first phase (roughly 5 GW of power capacity); financing for later phases is to be decided. OpenAI is still negotiating and aims to sign binding leases for about 10 GW of capacity in the coming days, and the agreement c",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "WSJ reports NVIDIA and OpenAI are nearing a financ",
+      "description": "WSJ reports NVIDIA and OpenAI are nearing a financing deal to build a large data‑center campus in Ohio; revised terms cut NVIDIA’s planned financial guarantee from about $250 bln to under $120 bln. The reduction is intended to address investor concerns over NVIDIA using its balance sheet to support demand for its AI chips. Under the discussed framework NVIDIA would guarantee the first phase (roughly 5 GW of power capacity); financing for later phases is to be decided. OpenAI is still negotiating and aims to sign binding leases for about 10 GW of capacity in the coming days, and the agreement c",
+      "pubDate": "2026-08-15T01:01:32.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】",
+      "summary_cn": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】金十数据8月15日讯，据华尔街日报报道，知情人士透露，英伟达与OpenAI正接近达成一项融资",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】",
+      "description": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】金十数据8月15日讯，据华尔街日报报道，知情人士透露，英伟达与OpenAI正接近达成一项融资协议，以在俄亥俄州建设一个大型数据中心园区。但双方已重新调整了交易结构，英伟达最初将只为这一数百亿美元规模扩建计划的一半提供担保，而非全额。修订后的计划将英伟达的财务担保金额从2500亿美元降至不到1200亿美元。这一调整是为了回应投资者对这家芯片制造商风险敞口的担忧，它正利用自身资产负债表来提振对其人工智能芯片的需求。协议最早可能于本周末签署。根据目前讨论的方案框架，英伟达将为第一阶段（总计约5吉瓦电力容量）提供财务担保，后续阶段是否及如何融资将再做决定。据两位了解该项目的人士透露，OpenAI仍在谈判，计划在未来几天内为该项目中10吉瓦的容量签署具有约束力的租约。",
+      "pubDate": "2026-08-15T01:01:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023",
+      "summary_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023.528吨。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023",
+      "description": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023.528吨。",
+      "pubDate": "2026-08-15T00:13:12.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "Wall Street Journal, citing sources, reports NVIDI",
+      "summary_cn": "Wall Street Journal, citing sources, reports 英伟达 and OpenAI have revised the deal structure for a 10 GW Ohio data‑center project. 英伟达 will guarantee 5 GW of capacity, reducing its guarantee exposure to under $120 billion from $250 billion.",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Wall Street Journal, citing sources, reports NVIDI",
+      "description": "Wall Street Journal, citing sources, reports NVIDIA and OpenAI have revised the deal structure for a 10 GW Ohio data‑center project. NVIDIA will guarantee 5 GW of capacity, reducing its guarantee exposure to under $120 billion from $250 billion.",
+      "pubDate": "2026-08-15T00:04:40.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目",
+      "summary_cn": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目的交易提议结构。英伟达将保证5吉瓦的项目，将担保金额从250",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目",
+      "description": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目的交易提议结构。英伟达将保证5吉瓦的项目，将担保金额从2500亿美元降低至不足1200亿美元。",
+      "pubDate": "2026-08-15T00:04:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
     {
       "title_cn": "SEC filings show SoftBank Group cut its stake in T",
       "summary_cn": "SEC filings show SoftBank Group cut its stake in 台积电 (TSM.N) by 71.5% to 565,000 depositary receipts.",
@@ -71,11 +231,27 @@
   "sectorMatrix": [
     {
       "name": "半导体",
-      "shock": "弱",
+      "shock": "中",
       "direction": "分化",
-      "news_count": 4,
-      "summary": "半导体板块4条新闻，方向以分化为主",
+      "news_count": 11,
+      "summary": "半导体板块11条新闻，方向以分化为主",
       "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "创新药",
+      "shock": "中",
+      "direction": "利好",
+      "news_count": 1,
+      "summary": "创新药板块1条新闻，方向以利好为主",
+      "tickers": "百济神州、药明康德、恒瑞医药"
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 2,
+      "summary": "黄金板块2条新闻，方向以利好为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
@@ -84,33 +260,97 @@
       "news_count": 0,
       "summary": "",
       "tickers": ""
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
     }
   ],
   "keyPoints": [
-    "今日共抓取 4 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 0 条，利好方向 0 条。",
-    "板块概况：半导体(分化, 弱冲击, 4条)、光模块(利好, 弱冲击, 0条)、创新药(利好, 弱冲击, 0条)、黄金(利好, 弱冲击, 0条)。",
-    "重点关注：SEC filings show SoftBank Group cut its stake in T；美国证券交易委员会（SEC）文件显示，软银集团将其在台积电(TSM.N)的股份减少71.5%，降至5；文件显示软银将其在台积电的持股削减71.5%至565000ADS。。"
+    "今日共抓取 14 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 0 条，高影响 2 条，利好方向 1 条。",
+    "板块概况：半导体(分化, 中冲击, 11条)、创新药(利好, 中冲击, 1条)、黄金(利好, 弱冲击, 2条)、光模块(利好, 弱冲击, 0条)。",
+    "重点关注：【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。；【第二届世界人形机器人运动会赛事门票发售 开幕式多种票型紧俏】第二届世界人形机器人运动会将于8月22日在北京开幕。昨天（14日），赛事各类门票已全面发售。目前，开幕式多种票型已售罄，仅剩少量余票；周末场、晚间黄金场及多人套票需求持续走高。（央视新闻）；印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，4 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，14 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "订单饱满结构升级 CXO企业半年度业绩释放回暖信号",
+      "description": "【订单饱满结构升级 CXO企业半年度业绩释放回暖信号】财联社8月15日电，伴随创新药BD（商务拓展）出海持续活跃，CXO（医药研发生产外包）行业景气度显著回升。近期，多家CXO上市公司陆续发布半年度经营情况，在手订单增长、新分子业务加快放量成为行业共性特征。有医药行业专家在接受记者采访时表示，本轮CXO行业复苏呈现更为积极的特征，随着创新药出海步伐加快，下半年行业景气度有望延续。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-15T00:21:21.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2455071"
+    },
+    {
+      "title": "WSJ reports NVIDIA and OpenAI are nearing a financ",
+      "description": "WSJ reports NVIDIA and OpenAI are nearing a financing deal to build a large data‑center campus in Ohio; revised terms cut NVIDIA’s planned financial guarantee from about $250 bln to under $120 bln. The reduction is intended to address investor concerns over NVIDIA using its balance sheet to support demand for its AI chips. Under the discussed framework NVIDIA would guarantee the first phase (roughly 5 GW of power capacity); financing for later phases is to be decided. OpenAI is still negotiating and aims to sign binding leases for about 10 GW of capacity in the coming days, and the agreement c",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T01:01:32.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】",
+      "description": "【据悉英伟达缩减为OpenAI数据中心提供2500亿美元担保的计划】金十数据8月15日讯，据华尔街日报报道，知情人士透露，英伟达与OpenAI正接近达成一项融资协议，以在俄亥俄州建设一个大型数据中心园区。但双方已重新调整了交易结构，英伟达最初将只为这一数百亿美元规模扩建计划的一半提供担保，而非全额。修订后的计划将英伟达的财务担保金额从2500亿美元降至不到1200亿美元。这一调整是为了回应投资者对这家芯片制造商风险敞口的担忧，它正利用自身资产负债表来提振对其人工智能芯片的需求。协议最早可能于本周末签署。根据目前讨论的方案框架，英伟达将为第一阶段（总计约5吉瓦电力容量）提供财务担保，后续阶段是否及如何融资将再做决定。据两位了解该项目的人士透露，OpenAI仍在谈判，计划在未来几天内为该项目中10吉瓦的容量签署具有约束力的租约。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T01:01:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023",
+      "description": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023.528吨。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-15T00:13:12.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "Wall Street Journal, citing sources, reports NVIDI",
+      "description": "Wall Street Journal, citing sources, reports NVIDIA and OpenAI have revised the deal structure for a 10 GW Ohio data‑center project. NVIDIA will guarantee 5 GW of capacity, reducing its guarantee exposure to under $120 billion from $250 billion.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T00:04:40.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目",
+      "description": "据华尔街日报：消息人士称，英伟达(NVDA.O)与OpenAI已修订在俄亥俄州10千兆瓦数据中心项目的交易提议结构。英伟达将保证5吉瓦的项目，将担保金额从2500亿美元降低至不足1200亿美元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T00:04:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？",
+      "description": "【“捂”了四年的大连工厂有意重启 SK海力士在下什么棋？】8月11日，一则消息搅动全球存储市场：韩国存储芯片巨头SK海力士重启了搁置四年的大连NAND闪存二号工厂建设，投产后大连厂区产能将扩大约50%。一座沉寂四年的工厂，为何在此时重启？答案藏在价格里——过去一年，NAND闪存价格暴涨近10倍。但重启背后，SK海力士的算盘远不止“扩产”：产能放在中国还是韩国，如何应对美国出口管制政策，每一步都牵动全球存储版图的重划。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T00:43:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202608143842058196.html"
+    },
+    {
+      "title": "【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T03:11:55.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininkfhq3629447.d.html"
+    },
+    {
+      "title": "【第二届世界人形机器人运动会赛事门票发售 开幕式多种票型紧俏】第二届世界人形机器人运动会将于8月22日在北京开幕。昨天（14日），赛事各类门票已全面发售。目前，开幕式多种票型已售罄，仅剩少量余票；周末场、晚间黄金场及多人套票需求持续走高。（央视新闻）",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-15T02:37:51.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininkfhq3613164.d.html"
+    },
+    {
+      "title": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。",
+      "description": "印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T02:32:05.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3149921"
+    },
     {
       "title": "SEC filings show SoftBank Group cut its stake in T",
       "description": "SEC filings show SoftBank Group cut its stake in TSMC (TSM.N) by 71.5% to 565,000 depositary receipts.",
@@ -449,7 +689,9 @@
       "datasets": [
         {
           "data": [
-            4
+            1,
+            12,
+            1
           ],
           "backgroundColor": [
             "#16a34a",
@@ -461,7 +703,9 @@
         }
       ],
       "labels": [
-        "中性"
+        "利好",
+        "中性",
+        "分化"
       ],
       "hasData": true
     },
@@ -481,9 +725,9 @@
       "matrix": {
         "半导体": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 0,
-          "低": 4
+          "低": 10
         },
         "光模块": {
           "极高": 0,
@@ -493,7 +737,7 @@
         },
         "创新药": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 0,
           "低": 0
         },
@@ -501,7 +745,7 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 2
         }
       },
       "hasData": true
@@ -515,28 +759,51 @@
       ],
       "datasets": [
         {
+          "label": "利好",
+          "data": [
+            0,
+            0,
+            1,
+            0
+          ],
+          "backgroundColor": "#16a34a"
+        },
+        {
           "label": "中性",
           "data": [
-            4,
+            10,
+            0,
+            0,
+            2
+          ],
+          "backgroundColor": "#9ca0af"
+        },
+        {
+          "label": "分化",
+          "data": [
+            1,
             0,
             0,
             0
           ],
-          "backgroundColor": "#9ca0af"
+          "backgroundColor": "#ea580c"
         }
       ],
       "hasData": true
     },
     "timeWindow": {
       "labels": [
+        "短期",
         "中期"
       ],
       "datasets": [
         {
           "data": [
-            4
+            1,
+            13
           ],
           "backgroundColor": [
+            "#2563eb",
             "#ea580c"
           ],
           "borderWidth": 0
