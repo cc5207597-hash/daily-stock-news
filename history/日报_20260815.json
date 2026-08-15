@@ -1,8 +1,104 @@
 {
   "date": "20260815",
   "displayDate": "2026-08-15",
-  "generatedAt": "2026-08-15T03:23:57.585Z",
+  "generatedAt": "2026-08-15T08:59:57.469Z",
   "analyzed": [
+    {
+      "title_cn": "新方法可给单个免疫细胞“体检”",
+      "summary_cn": "【新方法可给单个免疫细胞“体检”】财联社8月15日电，瑞典卡罗琳医学院与瑞典生命科学实验室联合开发出一种分析血液中免疫细胞状态的新方法，可获取单个免疫细胞的多项",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "新方法可给单个免疫细胞“体检”",
+      "description": "【新方法可给单个免疫细胞“体检”】财联社8月15日电，瑞典卡罗琳医学院与瑞典生命科学实验室联合开发出一种分析血液中免疫细胞状态的新方法，可获取单个免疫细胞的多项物理特性。测试结果显示，该方法能够区分动脉粥样硬化患者与健康人群的免疫细胞。研究人员表示，这种方法能够综合反映免疫细胞的健康状态，并可作为基因或蛋白质分析等耗时且成本较高的分析方法的补充。同时，这一方法为研究炎症和疾病机制提供了新工具，也可能用于分析其他疾病中的免疫细胞变化。但研究人员强调，该方法仍需进一步验证才可能进入临床应用。下一步，团队将扩大患者样本规模，并检验该方法在其他疾病中的适用性。相关研究成果日前已发表在英国《自然·纳米技",
+      "pubDate": "2026-08-15T07:50:50.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2455139"
+    },
+    {
+      "title_cn": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经",
+      "summary_cn": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:央行购金·利好(50)+传闻·中性(10)",
+      "title": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经",
+      "description": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-15T05:26:11.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUFQ0b3Iwd1hRTWRObUxkenNUX3BFY0lGMDZXSzlQVmtVb1dadlp0cTczemxwZ2s4c014TTlHVFFlTk5CYkk0Sm9rNVNCZzhpUnFaSlRZWTZzb01DcVNoR1RBNUxNcjBxNHIwdkFocU1Ma0J0NkFmano4U2xac1FkdS04U01hNTFTdjJkZ05udDVKVmMwZmJjVWJSSk90V0RGNlJISmcwMWFidw?oc=5"
+    },
+    {
+      "title_cn": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步",
+      "summary_cn": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步方向，或取决于这两个位置谁先被突破。",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(20)",
+      "title": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步",
+      "description": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步方向，或取决于这两个位置谁先被突破。",
+      "pubDate": "2026-08-15T06:20:55.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "A股高开，存储芯片、半导体板块走强 - 新浪网",
+      "summary_cn": "A股高开，存储芯片、半导体板块走强&nbsp;&nbsp; 新浪网",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "A股高开，存储芯片、半导体板块走强 - 新浪网",
+      "description": "A股高开，存储芯片、半导体板块走强&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-15T05:40:30.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV1ctNkd6VlZTZEFVNWdTc2R3UnV6NS1xeVFoYnhrVDRVVGlwMjJMY3Q5ZEJXT1JuVk5DZ0hoOWxaSFZBTEl3dEVacHlYSDB0ODNmNTZ1eGVzdjcxbW1GYXc0aGQxQU1Rdnh3U29mUmRaYWwxcWtaNlMyb0M2TzZjUjBR?oc=5"
+    },
+    {
+      "title_cn": "中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议",
+      "summary_cn": "【中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议】据中广核技消息，8月14日，第32届中国国际医用仪器设备展览会暨技术交流会在北京国家会议中心开幕，中",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议",
+      "description": "【中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议】据中广核技消息，8月14日，第32届中国国际医用仪器设备展览会暨技术交流会在北京国家会议中心开幕，中广核技携全线核医疗产品参展。展会现场，中广核医疗科技（绵阳）有限公司与四川大学华西医院签署《质子弧形治疗与自适应治疗临床联合开发》合作协议，双方将围绕质子动态弧形治疗和自适应治疗技术的临床转化开展协同研发。",
+      "pubDate": "2026-08-15T05:02:34.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608153842404646.html"
+    },
+    {
+      "title_cn": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更是暴涨15%，康宁、Lumentum也硬气得很。这说明，AI算力这个硬逻辑，在美股依然有人买单，而且资金开始从纯芯片设 - 新浪网",
+      "summary_cn": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更是暴涨15%，康宁、Lumentum也硬气得很。这说明，AI算力这个硬逻辑，在美股依然有人买单，而且资金开始从纯芯片设 - 新浪网",
+      "description": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更是暴涨15%，康宁、Lumentum也硬气得很。这说明，AI算力这个硬逻辑，在美股依然有人买单，而且资金开始从纯芯片设&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-15T02:30:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKM3VuWDI3M3ZIOEJ5cmZEVDB0a2R5bFJISHJJbW03b3pLUkR4cnR5RHVISnlXWDJkSzk0V0ZFZmRfc1JUQmNEa1E4czNKbURDMXdVYzhuRmlnRlo5OGtYc3ZHWQ?oc=5"
+    },
     {
       "title_cn": "【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。",
       "summary_cn": "",
@@ -116,6 +212,22 @@
       "link": ""
     },
     {
+      "title_cn": "瑞银：明年上半年金价或涨至5000美元 - 新浪财经",
+      "summary_cn": "瑞银：明年上半年金价或涨至5000美元&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "瑞银：明年上半年金价或涨至5000美元 - 新浪财经",
+      "description": "瑞银：明年上半年金价或涨至5000美元&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-14T23:37:30.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjFZNGJ0U0dzZjlNRkVUU0N0dVlqX3p1T1BGdFpNNzVxTk1XQmpnT2V5TE8zN09NYUkwVWpMb1NCaFo4eDhPcmlfWW5kd1B4RnRzZnJuenVUbURaMXN5bXdTNHR6eVhCdDgyTlZCX2g3WlV4WUFvcGlGTlBIT3VkZ3JGNVM5SlVfMUlKNXZYOEt5ZWkteG1RUg?oc=5"
+    },
+    {
       "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023",
       "summary_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加0.285吨，当前持仓量为1023.528吨。",
       "category": "黄金",
@@ -162,6 +274,38 @@
       "pubDate": "2026-08-15T00:04:28.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value - Tech股票²",
+      "summary_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; Tech股票²",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - TechStock²",
+      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; TechStock²",
+      "pubDate": "2026-08-14T18:25:57.000Z",
+      "source": "TechStock²",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDRudnYtNVJzRHFsWU1BRXkwNmtWUmNWZ1BiSGRabnAzTkVxVTVkbVhQX2VDRG5HVFBsbTEyRk9WUUJSYUUweHJMbVNZM0lEdkZwSFlKYlB5dXZvRFZBNlJJMk1yekRZQklkaTFoWUVtQnZYNFdIQ0JRTXoxbHFkeGh5bG1ZbVRQSkhIUXZaZTI1a2thZ3lF?oc=5"
+    },
+    {
+      "title_cn": "Why Is 美光 Technology 股票 Still Undervalued? 存储 芯片 价格 Hikes, HBM 需求 and Cyclical Risks - 交易Key",
+      "summary_cn": "Why Is 美光 Technology 股票 Still Undervalued? 存储 芯片 价格 Hikes, HBM 需求 and Cyclical Risks&nbsp;&nbsp; 交易Key",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Why Is Micron Technology Stock Still Undervalued? Memory Chip Price Hikes, HBM Demand and Cyclical Risks - TradingKey",
+      "description": "Why Is Micron Technology Stock Still Undervalued? Memory Chip Price Hikes, HBM Demand and Cyclical Risks&nbsp;&nbsp; TradingKey",
+      "pubDate": "2026-08-14T19:06:03.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUJ0YzdJUlVqc3UzdUVQZkdLdzFaWXZ6SEV3cVFPQnFwTWd4T1EwOVdLdjBSNElsY0FsVWhYaHJFeHdDWGduUjRfMHRCN2xFUldORW9ZbUg5WmQ4eEEzTTU2T1Iwc0JFS3Z0Rjl0SjRDbVBsUHh4WXlhQ0pFYmJYRmxMeFVjM0oyQkRpQlRvOUswNGdyck5wWVlaZWQtbEJSY1poVmFUVzVDZHUtRVNaQlloR1VJVnl2NUo0?oc=5"
     },
     {
       "title_cn": "SEC filings show SoftBank Group cut its stake in T",
@@ -230,28 +374,28 @@
   ],
   "sectorMatrix": [
     {
+      "name": "黄金",
+      "shock": "强",
+      "direction": "利好",
+      "news_count": 6,
+      "summary": "黄金板块6条新闻，方向以利好为主。关注：瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
       "name": "半导体",
       "shock": "中",
       "direction": "分化",
-      "news_count": 11,
-      "summary": "半导体板块11条新闻，方向以分化为主",
+      "news_count": 14,
+      "summary": "半导体板块14条新闻，方向以分化为主",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "创新药",
       "shock": "中",
       "direction": "利好",
-      "news_count": 1,
-      "summary": "创新药板块1条新闻，方向以利好为主",
+      "news_count": 3,
+      "summary": "创新药板块3条新闻，方向以利好为主",
       "tickers": "百济神州、药明康德、恒瑞医药"
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 2,
-      "summary": "黄金板块2条新闻，方向以利好为主",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
@@ -263,14 +407,86 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 14 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 2 条，利好方向 1 条。",
-    "板块概况：半导体(分化, 中冲击, 11条)、创新药(利好, 中冲击, 1条)、黄金(利好, 弱冲击, 2条)、光模块(利好, 弱冲击, 0条)。",
-    "重点关注：【国内唯一通用光量子计算整机企业完成超亿融资，韦豪创芯、共达电声联合领投】合肥硅臻芯片技术有限公司（以下简称“硅臻芯片”）近日完成超亿元B轮融资。本轮融资由韦豪创芯、共达电声联合领投，华策影视、苏创投、苏金控、创领资本、后浪资本等机构跟投。融资资金将主要用于万比特专用光计算集群与通用量子计算芯片组的研发。；【第二届世界人形机器人运动会赛事门票发售 开幕式多种票型紧俏】第二届世界人形机器人运动会将于8月22日在北京开幕。昨天（14日），赛事各类门票已全面发售。目前，开幕式多种票型已售罄，仅剩少量余票；周末场、晚间黄金场及多人套票需求持续走高。（央视新闻）；印度总理莫迪：决心在2047年前将印度建设成为发达国家。\n\n未来7-8年内印度将新建多达8座芯片工厂。\n\n预计到2047年印度核能发电量达到100吉瓦，印度计划启动5座核反应堆。\n\n印度必须寻求替代能源。。"
+    "今日共抓取 23 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 0 条，高影响 3 条，利好方向 3 条。",
+    "板块概况：黄金(利好, 强冲击, 6条)、半导体(分化, 中冲击, 14条)、创新药(利好, 中冲击, 3条)、光模块(利好, 弱冲击, 0条)。",
+    "重点关注：瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经；瑞银：明年上半年金价或涨至5000美元 - 新浪财经；A股高开，存储芯片、半导体板块走强 - 新浪网。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，14 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，23 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - TechStock²",
+      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; TechStock²",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-14T18:25:57.000Z",
+      "source": "TechStock²",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDRudnYtNVJzRHFsWU1BRXkwNmtWUmNWZ1BiSGRabnAzTkVxVTVkbVhQX2VDRG5HVFBsbTEyRk9WUUJSYUUweHJMbVNZM0lEdkZwSFlKYlB5dXZvRFZBNlJJMk1yekRZQklkaTFoWUVtQnZYNFdIQ0JRTXoxbHFkeGh5bG1ZbVRQSkhIUXZaZTI1a2thZ3lF?oc=5"
+    },
+    {
+      "title": "Why Is Micron Technology Stock Still Undervalued? Memory Chip Price Hikes, HBM Demand and Cyclical Risks - TradingKey",
+      "description": "Why Is Micron Technology Stock Still Undervalued? Memory Chip Price Hikes, HBM Demand and Cyclical Risks&nbsp;&nbsp; TradingKey",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-14T19:06:03.000Z",
+      "source": "TradingKey",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUJ0YzdJUlVqc3UzdUVQZkdLdzFaWXZ6SEV3cVFPQnFwTWd4T1EwOVdLdjBSNElsY0FsVWhYaHJFeHdDWGduUjRfMHRCN2xFUldORW9ZbUg5WmQ4eEEzTTU2T1Iwc0JFS3Z0Rjl0SjRDbVBsUHh4WXlhQ0pFYmJYRmxMeFVjM0oyQkRpQlRvOUswNGdyck5wWVlaZWQtbEJSY1poVmFUVzVDZHUtRVNaQlloR1VJVnl2NUo0?oc=5"
+    },
+    {
+      "title": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经",
+      "description": "瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-15T05:26:11.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNUFQ0b3Iwd1hRTWRObUxkenNUX3BFY0lGMDZXSzlQVmtVb1dadlp0cTczemxwZ2s4c014TTlHVFFlTk5CYkk0Sm9rNVNCZzhpUnFaSlRZWTZzb01DcVNoR1RBNUxNcjBxNHIwdkFocU1Ma0J0NkFmano4U2xac1FkdS04U01hNTFTdjJkZ05udDVKVmMwZmJjVWJSSk90V0RGNlJISmcwMWFidw?oc=5"
+    },
+    {
+      "title": "瑞银：明年上半年金价或涨至5000美元 - 新浪财经",
+      "description": "瑞银：明年上半年金价或涨至5000美元&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-14T23:37:30.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWjFZNGJ0U0dzZjlNRkVUU0N0dVlqX3p1T1BGdFpNNzVxTk1XQmpnT2V5TE8zN09NYUkwVWpMb1NCaFo4eDhPcmlfWW5kd1B4RnRzZnJuenVUbURaMXN5bXdTNHR6eVhCdDgyTlZCX2g3WlV4WUFvcGlGTlBIT3VkZ3JGNVM5SlVfMUlKNXZYOEt5ZWkteG1RUg?oc=5"
+    },
+    {
+      "title": "A股高开，存储芯片、半导体板块走强 - 新浪网",
+      "description": "A股高开，存储芯片、半导体板块走强&nbsp;&nbsp; 新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T05:40:30.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPV1ctNkd6VlZTZEFVNWdTc2R3UnV6NS1xeVFoYnhrVDRVVGlwMjJMY3Q5ZEJXT1JuVk5DZ0hoOWxaSFZBTEl3dEVacHlYSDB0ODNmNTZ1eGVzdjcxbW1GYXc0aGQxQU1Rdnh3U29mUmRaYWwxcWtaNlMyb0M2TzZjUjBR?oc=5"
+    },
+    {
+      "title": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更是暴涨15%，康宁、Lumentum也硬气得很。这说明，AI算力这个硬逻辑，在美股依然有人买单，而且资金开始从纯芯片设 - 新浪网",
+      "description": "第三个，看一眼外围的“影子”——光通信和存储。周五美股虽然指数难看，但“科技七巨头”里特斯拉、苹果是红的，光通信股AppliedOptoelectronics更是暴涨15%，康宁、Lumentum也硬气得很。这说明，AI算力这个硬逻辑，在美股依然有人买单，而且资金开始从纯芯片设&nbsp;&nbsp; 新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T02:30:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKM3VuWDI3M3ZIOEJ5cmZEVDB0a2R5bFJISHJJbW03b3pLUkR4cnR5RHVISnlXWDJkSzk0V0ZFZmRfc1JUQmNEa1E4czNKbURDMXdVYzhuRmlnRlo5OGtYc3ZHWQ?oc=5"
+    },
+    {
+      "title": "新方法可给单个免疫细胞“体检”",
+      "description": "【新方法可给单个免疫细胞“体检”】财联社8月15日电，瑞典卡罗琳医学院与瑞典生命科学实验室联合开发出一种分析血液中免疫细胞状态的新方法，可获取单个免疫细胞的多项物理特性。测试结果显示，该方法能够区分动脉粥样硬化患者与健康人群的免疫细胞。研究人员表示，这种方法能够综合反映免疫细胞的健康状态，并可作为基因或蛋白质分析等耗时且成本较高的分析方法的补充。同时，这一方法为研究炎症和疾病机制提供了新工具，也可能用于分析其他疾病中的免疫细胞变化。但研究人员强调，该方法仍需进一步验证才可能进入临床应用。下一步，团队将扩大患者样本规模，并检验该方法在其他疾病中的适用性。相关研究成果日前已发表在英国《自然·纳米技",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-15T07:50:50.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2455139"
+    },
+    {
+      "title": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步",
+      "description": "最新期权布局显示，黄金并未形成单边趋势。43XX附近有多头资金防守，44XX则有空头压制。市场下一步方向，或取决于这两个位置谁先被突破。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-15T06:20:55.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议",
+      "description": "【中广核医疗与四川大学华西医院签署质子治疗创新技术合作协议】据中广核技消息，8月14日，第32届中国国际医用仪器设备展览会暨技术交流会在北京国家会议中心开幕，中广核技携全线核医疗产品参展。展会现场，中广核医疗科技（绵阳）有限公司与四川大学华西医院签署《质子弧形治疗与自适应治疗临床联合开发》合作协议，双方将围绕质子动态弧形治疗和自适应治疗技术的临床转化开展协同研发。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-15T05:02:34.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608153842404646.html"
+    },
     {
       "title": "订单饱满结构升级 CXO企业半年度业绩释放回暖信号",
       "description": "【订单饱满结构升级 CXO企业半年度业绩释放回暖信号】财联社8月15日电，伴随创新药BD（商务拓展）出海持续活跃，CXO（医药研发生产外包）行业景气度显著回升。近期，多家CXO上市公司陆续发布半年度经营情况，在手订单增长、新分子业务加快放量成为行业共性特征。有医药行业专家在接受记者采访时表示，本轮CXO行业复苏呈现更为积极的特征，随着创新药出海步伐加快，下半年行业景气度有望延续。",
@@ -689,8 +905,8 @@
       "datasets": [
         {
           "data": [
-            1,
-            12,
+            3,
+            19,
             1
           ],
           "backgroundColor": [
@@ -727,7 +943,7 @@
           "极高": 0,
           "高": 1,
           "中": 0,
-          "低": 10
+          "低": 13
         },
         "光模块": {
           "极高": 0,
@@ -739,13 +955,13 @@
           "极高": 0,
           "高": 1,
           "中": 0,
-          "低": 0
+          "低": 2
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
-          "中": 0,
-          "低": 2
+          "高": 1,
+          "中": 1,
+          "低": 4
         }
       },
       "hasData": true
@@ -764,17 +980,17 @@
             0,
             0,
             1,
-            0
+            2
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "中性",
           "data": [
-            10,
+            13,
             0,
-            0,
-            2
+            2,
+            4
           ],
           "backgroundColor": "#9ca0af"
         },
@@ -799,8 +1015,8 @@
       "datasets": [
         {
           "data": [
-            1,
-            13
+            2,
+            21
           ],
           "backgroundColor": [
             "#2563eb",
