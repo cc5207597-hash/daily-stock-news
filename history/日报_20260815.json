@@ -1,8 +1,40 @@
 {
   "date": "20260815",
   "displayDate": "2026-08-15",
-  "generatedAt": "2026-08-15T08:59:57.469Z",
+  "generatedAt": "2026-08-15T13:40:02.832Z",
   "analyzed": [
+    {
+      "title_cn": "Not 英伟达. Not AMD. This 芯片 股票 Will Be the Biggest Winner of the Historic AI 半导体 Boom - The Motley Fool",
+      "summary_cn": "Not 英伟达. Not AMD. This 芯片 股票 Will Be the Biggest Winner of the Historic AI 半导体 Boom&nbsp;&nbsp; The Motley Fool",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom - The Motley Fool",
+      "description": "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom&nbsp;&nbsp; The Motley Fool",
+      "pubDate": "2026-08-15T13:28:50.000Z",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMjk5ZWRMcm1HMU84YWV6T3VOYl9INHlzX2VCRHl1Z0pCZ3ZVeGlvdGozcUdPUllfU19heExPWXVUazNNbkRrUEgyTlpOMktYcXl3MWNoampRU1htNU1RanZWbzRjS0M1dmhWeHV4c0wwcm5XZ1g5ME80R0VIMlBHVHRIRHBwSmN0ODRyYjhzLU8yZGJwdFRDQg?oc=5"
+    },
+    {
+      "title_cn": "【中国海诚中标云南沃森生物能碳管理平台项目】据中国海诚消息，近日，中国海诚中标云南沃森生物能碳管理平台项目。此次中标是公司在生物医药能碳服务领域的重要突破，也进一步拓宽了公司在生物疫苗赛道的新业务布局。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:订单·利好(60)+技术·利好(40)",
+      "title": "【中国海诚中标云南沃森生物能碳管理平台项目】据中国海诚消息，近日，中国海诚中标云南沃森生物能碳管理平台项目。此次中标是公司在生物医药能碳服务领域的重要突破，也进一步拓宽了公司在生物疫苗赛道的新业务布局。",
+      "description": "",
+      "pubDate": "2026-08-15T12:18:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininmani2097926.d.html"
+    },
     {
       "title_cn": "新方法可给单个免疫细胞“体检”",
       "summary_cn": "【新方法可给单个免疫细胞“体检”】财联社8月15日电，瑞典卡罗琳医学院与瑞典生命科学实验室联合开发出一种分析血液中免疫细胞状态的新方法，可获取单个免疫细胞的多项",
@@ -276,8 +308,8 @@
       "link": ""
     },
     {
-      "title_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value - Tech股票²",
-      "summary_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; Tech股票²",
+      "title_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value - ts2.tech",
+      "summary_cn": "Belgium’s €9 Million 黄金 Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; ts2.tech",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -285,10 +317,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - TechStock²",
-      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; TechStock²",
+      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - ts2.tech",
+      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; ts2.tech",
       "pubDate": "2026-08-14T18:25:57.000Z",
-      "source": "TechStock²",
+      "source": "ts2.tech",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDRudnYtNVJzRHFsWU1BRXkwNmtWUmNWZ1BiSGRabnAzTkVxVTVkbVhQX2VDRG5HVFBsbTEyRk9WUUJSYUUweHJMbVNZM0lEdkZwSFlKYlB5dXZvRFZBNlJJMk1yekRZQklkaTFoWUVtQnZYNFdIQ0JRTXoxbHFkeGh5bG1ZbVRQSkhIUXZaZTI1a2thZ3lF?oc=5"
     },
     {
@@ -306,6 +338,22 @@
       "pubDate": "2026-08-14T19:06:03.000Z",
       "source": "TradingKey",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQaUJ0YzdJUlVqc3UzdUVQZkdLdzFaWXZ6SEV3cVFPQnFwTWd4T1EwOVdLdjBSNElsY0FsVWhYaHJFeHdDWGduUjRfMHRCN2xFUldORW9ZbUg5WmQ4eEEzTTU2T1Iwc0JFS3Z0Rjl0SjRDbVBsUHh4WXlhQ0pFYmJYRmxMeFVjM0oyQkRpQlRvOUswNGdyck5wWVlaZWQtbEJSY1poVmFUVzVDZHUtRVNaQlloR1VJVnl2NUo0?oc=5"
+    },
+    {
+      "title_cn": "A股四大指数集体高开，存储芯片、半导体等板块走强 - 东方财富",
+      "summary_cn": "A股四大指数集体高开，存储芯片、半导体等板块走强&nbsp;&nbsp; 东方财富",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "A股四大指数集体高开，存储芯片、半导体等板块走强 - 东方财富",
+      "description": "A股四大指数集体高开，存储芯片、半导体等板块走强&nbsp;&nbsp; 东方财富",
+      "pubDate": "2026-08-14T16:25:54.000Z",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnI1TUJWRWVvSDZKdXdtN1dCWl92dGJ3b3luM1JMRmltTWhNbmN3NEFJSk9XRGQySlNySm9namRCbTdEMDVRUU5MR3A4QWl4dGVpdTMxa0Q1OWZQOTBJNA?oc=5"
     },
     {
       "title_cn": "SEC filings show SoftBank Group cut its stake in T",
@@ -374,6 +422,14 @@
   ],
   "sectorMatrix": [
     {
+      "name": "半导体",
+      "shock": "强",
+      "direction": "分化",
+      "news_count": 16,
+      "summary": "半导体板块16条新闻，方向以分化为主",
+      "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
@@ -382,19 +438,11 @@
       "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
-      "name": "半导体",
-      "shock": "中",
-      "direction": "分化",
-      "news_count": 14,
-      "summary": "半导体板块14条新闻，方向以分化为主",
-      "tickers": "中芯国际、北方华创、中微公司"
-    },
-    {
       "name": "创新药",
-      "shock": "中",
+      "shock": "强",
       "direction": "利好",
-      "news_count": 3,
-      "summary": "创新药板块3条新闻，方向以利好为主",
+      "news_count": 4,
+      "summary": "创新药板块4条新闻，方向以利好为主。关注：【中国海诚中标云南沃森生物能碳管理平台项目】据中国海诚消息，近日，中国海诚中标",
       "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
@@ -407,21 +455,29 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 23 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 3 条，利好方向 3 条。",
-    "板块概况：黄金(利好, 强冲击, 6条)、半导体(分化, 中冲击, 14条)、创新药(利好, 中冲击, 3条)、光模块(利好, 弱冲击, 0条)。",
-    "重点关注：瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经；瑞银：明年上半年金价或涨至5000美元 - 新浪财经；A股高开，存储芯片、半导体板块走强 - 新浪网。"
+    "今日共抓取 26 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 1 条，高影响 3 条，利好方向 4 条。",
+    "板块概况：半导体(分化, 强冲击, 16条)、黄金(利好, 强冲击, 6条)、创新药(利好, 强冲击, 4条)、光模块(利好, 弱冲击, 0条)。",
+    "重点关注：【中国海诚中标云南沃森生物能碳管理平台项目】据中国海诚消息，近日，中国海诚中标云南沃森生物能碳管理平台项目。此次中标是公司在生物医药能碳服务领域的重要突破，也进一步拓宽了公司在生物疫苗赛道的新业务布局。；瑞银高呼金价明年上半年有望挑战5000美元，实际利率下行与央行购金成支柱 - 新浪财经；瑞银：明年上半年金价或涨至5000美元 - 新浪财经。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，23 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，26 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - TechStock²",
-      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; TechStock²",
+      "title": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value - ts2.tech",
+      "description": "Belgium’s €9 Million Gold Stash Matches Only 23 COMEX Contracts in Value&nbsp;&nbsp; ts2.tech",
       "guessedSector": "黄金",
       "pubDate": "2026-08-14T18:25:57.000Z",
-      "source": "TechStock²",
+      "source": "ts2.tech",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQZDRudnYtNVJzRHFsWU1BRXkwNmtWUmNWZ1BiSGRabnAzTkVxVTVkbVhQX2VDRG5HVFBsbTEyRk9WUUJSYUUweHJMbVNZM0lEdkZwSFlKYlB5dXZvRFZBNlJJMk1yekRZQklkaTFoWUVtQnZYNFdIQ0JRTXoxbHFkeGh5bG1ZbVRQSkhIUXZaZTI1a2thZ3lF?oc=5"
+    },
+    {
+      "title": "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom - The Motley Fool",
+      "description": "Not Nvidia. Not AMD. This Chip Stock Will Be the Biggest Winner of the Historic AI Semiconductor Boom&nbsp;&nbsp; The Motley Fool",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-15T13:28:50.000Z",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMjk5ZWRMcm1HMU84YWV6T3VOYl9INHlzX2VCRHl1Z0pCZ3ZVeGlvdGozcUdPUllfU19heExPWXVUazNNbkRrUEgyTlpOMktYcXl3MWNoampRU1htNU1RanZWbzRjS0M1dmhWeHV4c0wwcm5XZ1g5ME80R0VIMlBHVHRIRHBwSmN0ODRyYjhzLU8yZGJwdFRDQg?oc=5"
     },
     {
       "title": "Why Is Micron Technology Stock Still Undervalued? Memory Chip Price Hikes, HBM Demand and Cyclical Risks - TradingKey",
@@ -462,6 +518,22 @@
       "pubDate": "2026-08-15T02:30:00.000Z",
       "source": "新浪网",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBKM3VuWDI3M3ZIOEJ5cmZEVDB0a2R5bFJISHJJbW03b3pLUkR4cnR5RHVISnlXWDJkSzk0V0ZFZmRfc1JUQmNEa1E4czNKbURDMXdVYzhuRmlnRlo5OGtYc3ZHWQ?oc=5"
+    },
+    {
+      "title": "A股四大指数集体高开，存储芯片、半导体等板块走强 - 东方财富",
+      "description": "A股四大指数集体高开，存储芯片、半导体等板块走强&nbsp;&nbsp; 东方财富",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-14T16:25:54.000Z",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE83RnI1TUJWRWVvSDZKdXdtN1dCWl92dGJ3b3luM1JMRmltTWhNbmN3NEFJSk9XRGQySlNySm9namRCbTdEMDVRUU5MR3A4QWl4dGVpdTMxa0Q1OWZQOTBJNA?oc=5"
+    },
+    {
+      "title": "【中国海诚中标云南沃森生物能碳管理平台项目】据中国海诚消息，近日，中国海诚中标云南沃森生物能碳管理平台项目。此次中标是公司在生物医药能碳服务领域的重要突破，也进一步拓宽了公司在生物疫苗赛道的新业务布局。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-15T12:18:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-15/detail-ininmani2097926.d.html"
     },
     {
       "title": "新方法可给单个免疫细胞“体检”",
@@ -905,8 +977,8 @@
       "datasets": [
         {
           "data": [
-            3,
-            19,
+            4,
+            21,
             1
           ],
           "backgroundColor": [
@@ -943,7 +1015,7 @@
           "极高": 0,
           "高": 1,
           "中": 0,
-          "低": 13
+          "低": 15
         },
         "光模块": {
           "极高": 0,
@@ -952,7 +1024,7 @@
           "低": 0
         },
         "创新药": {
-          "极高": 0,
+          "极高": 1,
           "高": 1,
           "中": 0,
           "低": 2
@@ -979,7 +1051,7 @@
           "data": [
             0,
             0,
-            1,
+            2,
             2
           ],
           "backgroundColor": "#16a34a"
@@ -987,7 +1059,7 @@
         {
           "label": "中性",
           "data": [
-            13,
+            15,
             0,
             2,
             4
@@ -1015,8 +1087,8 @@
       "datasets": [
         {
           "data": [
-            2,
-            21
+            3,
+            23
           ],
           "backgroundColor": [
             "#2563eb",
