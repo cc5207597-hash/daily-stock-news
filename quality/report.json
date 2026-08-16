@@ -430,7 +430,7 @@
       "date": "20260816",
       "displayDate": "2026-08-16",
       "isAi": false,
-      "newsCount": 22,
+      "newsCount": 34,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
@@ -438,7 +438,7 @@
         "vhigh": 1,
         "high": 1
       },
-      "signalHitRate": 14,
+      "signalHitRate": 9,
       "directions": {
         "利好": 4,
         "利空": 0,
