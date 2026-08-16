@@ -430,15 +430,15 @@
       "date": "20260816",
       "displayDate": "2026-08-16",
       "isAi": false,
-      "newsCount": 12,
+      "newsCount": 22,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 0,
+        "vhigh": 1,
         "high": 1
       },
-      "signalHitRate": 17,
+      "signalHitRate": 14,
       "directions": {
         "利好": 4,
         "利空": 0,
@@ -452,9 +452,9 @@
           "shock": "强"
         },
         {
-          "name": "光模块",
+          "name": "黄金",
           "direction": "利好",
-          "shock": "弱"
+          "shock": "中"
         },
         {
           "name": "创新药",
@@ -462,7 +462,7 @@
           "shock": "弱"
         },
         {
-          "name": "黄金",
+          "name": "光模块",
           "direction": "利好",
           "shock": "弱"
         }
