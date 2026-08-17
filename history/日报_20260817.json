@@ -1,8 +1,456 @@
 {
   "date": "20260817",
   "displayDate": "2026-08-17",
-  "generatedAt": "2026-08-17T10:04:10.104Z",
+  "generatedAt": "2026-08-17T13:57:20.683Z",
   "analyzed": [
+    {
+      "title_cn": "【风口研报·洞察】英伟达CPO迈入全面量产，光通信测试链条从“测模块”走向“测芯片+光引擎+封装+整机”，推动测试设备价值量持续升级；AI大应用时代或到来",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(40)",
+      "title": "【风口研报·洞察】英伟达CPO迈入全面量产，光通信测试链条从“测模块”走向“测芯片+光引擎+封装+整机”，推动测试设备价值量持续升级；AI大应用时代或到来",
+      "description": "",
+      "pubDate": "2026-08-17T13:48:08.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456016"
+    },
+    {
+      "title_cn": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "summary_cn": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(40)",
+      "title": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "description": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "pubDate": "2026-08-17T13:32:45.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>",
+      "summary_cn": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>>",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)",
+      "title": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>",
+      "description": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>>",
+      "pubDate": "2026-08-17T13:26:04.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "美股半导体设备股走高",
+      "summary_cn": "【美股半导体设备股走高】财联社8月17日电，美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(5·仅行情描述,不含基本面,方向中性)",
+      "title": "美股半导体设备股走高",
+      "description": "【美股半导体设备股走高】财联社8月17日电，美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "pubDate": "2026-08-17T13:56:52.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456435"
+    },
+    {
+      "title_cn": "费城半导体指数涨2%",
+      "summary_cn": "财联社8月17日电，费城半导体指数涨2%，报12668.44点。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数涨2%",
+      "description": "财联社8月17日电，费城半导体指数涨2%，报12668.44点。",
+      "pubDate": "2026-08-17T13:50:48.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456432"
+    },
+    {
+      "title_cn": "美股光通信板块盘初走高",
+      "summary_cn": "【美股光通信板块盘初走高】财联社8月17日电，美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美股光通信板块盘初走高",
+      "description": "【美股光通信板块盘初走高】财联社8月17日电，美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "pubDate": "2026-08-17T13:43:59.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456429"
+    },
+    {
+      "title_cn": "利弗莫尔中概股龙头指数盘初上涨0.9%",
+      "summary_cn": "【利弗莫尔中概股龙头指数盘初上涨0.9%】财联社8月17日电，利弗莫尔中概股龙头指数盘初上涨0.9%，报9551.71点。成分股中，华住涨7.21%，和黄医药涨",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "利弗莫尔中概股龙头指数盘初上涨0.9%",
+      "description": "【利弗莫尔中概股龙头指数盘初上涨0.9%】财联社8月17日电，利弗莫尔中概股龙头指数盘初上涨0.9%，报9551.71点。成分股中，华住涨7.21%，和黄医药涨3.93%，亚朵涨2.34%，百济神州涨2.16%，奇景光电涨2.1%。",
+      "pubDate": "2026-08-17T13:32:35.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456422"
+    },
+    {
+      "title_cn": "【财联社早知道】美股存储芯片盘前继续走强，机构称行业供需缺口将延续至2027年，这家公司的产品已批量供货长江存储、SK海力士等多家客户；蚂蚁集团CEO称智能体商业将在6至12个月内爆发",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【财联社早知道】美股存储芯片盘前继续走强，机构称行业供需缺口将延续至2027年，这家公司的产品已批量供货长江存储、SK海力士等多家客户；蚂蚁集团CEO称智能体商业将在6至12个月内爆发",
+      "description": "",
+      "pubDate": "2026-08-17T13:08:05.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456057"
+    },
+    {
+      "title_cn": "Fullgoal Investment Research Institute cut its gol",
+      "summary_cn": "Fullgoal Investment Research Institute cut its 黄金 价格 targets, lowering the end-2026 target to $4,900–$5,100 per ounce from $5,300–$5,500 and the 2027 target to $5,400–$5,600 per ounce from $5,800–$6,000, while still 预测ing long-term upside for 黄金.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Fullgoal Investment Research Institute cut its gol",
+      "description": "Fullgoal Investment Research Institute cut its gold price targets, lowering the end-2026 target to $4,900–$5,100 per ounce from $5,300–$5,500 and the 2027 target to $5,400–$5,600 per ounce from $5,800–$6,000, while still forecasting long-term upside for gold.",
+      "pubDate": "2026-08-17T13:33:47.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,9",
+      "summary_cn": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,900至5,100美元，将2027年黄金目标价从每盎司5,80",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,9",
+      "description": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,900至5,100美元，将2027年黄金目标价从每盎司5,800至6,000美元下调至5,400至5,600美元，仍预计黄金价格长期将上涨。",
+      "pubDate": "2026-08-17T13:33:40.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "英伟达 (NVDA.O) shares rose 0.8%. OpenAI pledged t",
+      "summary_cn": "英伟达 (NVDA.O) shares rose 0.8%. OpenAI pledged to deploy 英伟达 AI infrastructure at scale by 2030.",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "NVIDIA (NVDA.O) shares rose 0.8%. OpenAI pledged t",
+      "description": "NVIDIA (NVDA.O) shares rose 0.8%. OpenAI pledged to deploy NVIDIA AI infrastructure at scale by 2030.",
+      "pubDate": "2026-08-17T13:31:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "summary_cn": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "description": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "pubDate": "2026-08-17T13:31:22.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”....",
+      "summary_cn": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”......今日盘后有哪些值得关注的公告？",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”....",
+      "description": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”......今日盘后有哪些值得关注的公告？",
+      "pubDate": "2026-08-17T13:18:12.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【美股半导体设备股走高】美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "【美股半导体设备股走高】美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "description": "",
+      "pubDate": "2026-08-17T13:57:03.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7738017.d.html"
+    },
+    {
+      "title_cn": "现货黄金15分钟内拉升逾20美元，现报4404美元/盎司。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "现货黄金15分钟内拉升逾20美元，现报4404美元/盎司。",
+      "description": "",
+      "pubDate": "2026-08-17T13:54:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh9008621.d.html"
+    },
+    {
+      "title_cn": "费城半导体指数涨2%，报12668.44点。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数涨2%，报12668.44点。",
+      "description": "",
+      "pubDate": "2026-08-17T13:51:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7734453.d.html"
+    },
+    {
+      "title_cn": "【摩根大通：股票买盘群体范围“广泛”】由安德鲁・泰勒牵头的摩根大通市场情报团队表示，未来数周，大批股票买方或将寻求重新提高总敞口、重新加杠杆。该团队在研报中写道，潜在买方包括计划回购股份的企业、个人投资者以及量化交易机构。团队维持 “战术性看多” 观点。他们称：“市场继续在担忧声浪中上行。” 本周市场关注点为周三美联储会议纪要，市场将从中挖掘主席凯文・沃什的政策思路线索；下周重点则是英伟达财报以及杰克逊霍尔全球央行年会。他们写道，后两项事件或将 “改变市场叙事”。上周市场担忧因素包括通胀、零售销售等增长数据，以及美债拍卖与美联储官员讲话。上月末，摩根大通表示其内部指标 “发出买入信号”，该信号历史上通常预示标普 500 指数即将上涨。自那以后，该基准指数已累计上涨约 5%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "【摩根大通：股票买盘群体范围“广泛”】由安德鲁・泰勒牵头的摩根大通市场情报团队表示，未来数周，大批股票买方或将寻求重新提高总敞口、重新加杠杆。该团队在研报中写道，潜在买方包括计划回购股份的企业、个人投资者以及量化交易机构。团队维持 “战术性看多” 观点。他们称：“市场继续在担忧声浪中上行。” 本周市场关注点为周三美联储会议纪要，市场将从中挖掘主席凯文・沃什的政策思路线索；下周重点则是英伟达财报以及杰克逊霍尔全球央行年会。他们写道，后两项事件或将 “改变市场叙事”。上周市场担忧因素包括通胀、零售销售等增长数据，以及美债拍卖与美联储官员讲话。上月末，摩根大通表示其内部指标 “发出买入信号”，该信号历史上通常预示标普 500 指数即将上涨。自那以后，该基准指数已累计上涨约 5%。",
+      "description": "",
+      "pubDate": "2026-08-17T13:47:45.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7732230.d.html"
+    },
+    {
+      "title_cn": "【国能日新：公司已在人工智能、并行计算等方向进行前瞻性资源布局】国能日新8月17日在业绩说明会上表示，公司已在人工智能、并行计算等方向进行前瞻性资源布局，建成多套由HPC与GPU集群构成的高性能算力底座。硬件资源不仅支撑了大规模气象模型与深度学习模型的训练与推理，也为实时交易决策所需的密集计算提供坚实基础，形成显著的算力壁垒。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【国能日新：公司已在人工智能、并行计算等方向进行前瞻性资源布局】国能日新8月17日在业绩说明会上表示，公司已在人工智能、并行计算等方向进行前瞻性资源布局，建成多套由HPC与GPU集群构成的高性能算力底座。硬件资源不仅支撑了大规模气象模型与深度学习模型的训练与推理，也为实时交易决策所需的密集计算提供坚实基础，形成显著的算力壁垒。",
+      "description": "",
+      "pubDate": "2026-08-17T13:45:34.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh9002852.d.html"
+    },
+    {
+      "title_cn": "【美股光通信板块盘初走高】美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【美股光通信板块盘初走高】美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "description": "",
+      "pubDate": "2026-08-17T13:44:12.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruye0030815.d.html"
+    },
+    {
+      "title_cn": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨1%，日常消费品ETF跌近1%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨1%，日常消费品ETF跌近1%。",
+      "description": "",
+      "pubDate": "2026-08-17T13:35:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh8996529.d.html"
+    },
+    {
+      "title_cn": "富国银行投资研究所将2027年末金价目标区间从此前预测的每盎司5800-6000美元下调至每盎司5400-5600美元。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "富国银行投资研究所将2027年末金价目标区间从此前预测的每盎司5800-6000美元下调至每盎司5400-5600美元。",
+      "description": "",
+      "pubDate": "2026-08-17T13:32:39.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh8994016.d.html"
+    },
+    {
+      "title_cn": "费城半导体指数涨1.5%，报12610.92点。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数涨1.5%，报12610.92点。",
+      "description": "",
+      "pubDate": "2026-08-17T13:31:59.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7721459.d.html"
+    },
+    {
+      "title_cn": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "summary_cn": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "description": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "pubDate": "2026-08-17T13:48:19.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150550"
+    },
+    {
+      "title_cn": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "summary_cn": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "description": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "pubDate": "2026-08-17T13:35:30.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150547"
+    },
+    {
+      "title_cn": "美股盘初：纳指涨0.2%，存储芯片股普涨",
+      "summary_cn": "道指跌0.2%，标普500指数涨0.02%。存储芯片股普涨，闪迪涨约5%，SK海力士涨约4%，希捷科技涨2%，西部数据涨约4%，美光科技涨约4%。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美股盘初：纳指涨0.2%，存储芯片股普涨",
+      "description": "道指跌0.2%，标普500指数涨0.02%。存储芯片股普涨，闪迪涨约5%，SK海力士涨约4%，希捷科技涨2%，西部数据涨约4%，美光科技涨约4%。",
+      "pubDate": "2026-08-17T13:31:38.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150545"
+    },
+    {
+      "title_cn": "周一美股盘前你需要了解的全球要闻",
+      "summary_cn": "中国7月社零同比增长0.6%，通讯器材消费大增20.4%，汽车下滑17%。\n\n中国7月规模以上工业增加值同比放缓至4.5%，装备制造业和高技术制造业增势良好。\n",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(5)",
+      "title": "周一美股盘前你需要了解的全球要闻",
+      "description": "中国7月社零同比增长0.6%，通讯器材消费大增20.4%，汽车下滑17%。\n\n中国7月规模以上工业增加值同比放缓至4.5%，装备制造业和高技术制造业增势良好。\n\n中国1-7月房地产开发投资同比下降19.2%，新建商品房销售额同比下降13.1%。\n\n7月70城房价：一线城市二手房价环比涨幅继续回落至0.2%，各线城市房价同比降幅再收窄。\n\n中国1-7月份城镇固定资产投资下降6.7%，航空、航天器及设备制造业增长19.2%。\n\n两部门发布“十五五”油气规划：2030年国内油气供应量将达4.4亿吨油当量。\n\n特朗普威胁称，如果阿曼妨碍美国，美国将轰炸阿曼。\n\n美国屡次“违约”，伊朗强硬派放弃对美幻想，被曝秘密扩军备战“新一轮对抗”。\n\n美国8月纽约联储制造业指数升至20.6，创2021年底以来最快扩张。\n\n欧洲央行：AI行情回调可能给欧元区带来严重后果。\n\n英伟达：OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦。\n\nAI烧钱停不下来！Alphabet首次赴澳发债，拟募资50亿澳元。\n\niPhone 17系列或月底前全球涨价，单台最高多花近千元。\n\nAnthropic IPO估值有多激进？华尔街押注：2028年收入狂飙至2000亿美元。\n\n美股盘前：三大股指期货涨跌不一，存储芯片概念股普涨，金银油上涨，人民币创三年半新高。\n\n日经225指数收",
+      "pubDate": "2026-08-17T12:46:52.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150529"
+    },
+    {
+      "title_cn": "英伟达：OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦",
+      "summary_cn": "英伟达表示，OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦，并有机会扩大至约16吉瓦。英伟达称，按目前规模计算，",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "英伟达：OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦",
+      "description": "英伟达表示，OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦，并有机会扩大至约16吉瓦。英伟达称，按目前规模计算，这一合作到2030年可能对应约6000亿美元的英伟达计算基础设施收入。",
+      "pubDate": "2026-08-17T12:43:17.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150525"
+    },
+    {
+      "title_cn": "英伟达将向SB Energy投资15亿美元",
+      "summary_cn": "英伟达将向SB Energy投资15亿美元，并作为位于俄亥俄州派克县PORTS-Pike科技园区的独家AI算力基础设施供应商，OpenAI则为该园区的唯一客户。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "英伟达将向SB Energy投资15亿美元",
+      "description": "英伟达将向SB Energy投资15亿美元，并作为位于俄亥俄州派克县PORTS-Pike科技园区的独家AI算力基础设施供应商，OpenAI则为该园区的唯一客户。英伟达提供15亿美元资本及信用支持，用于土地、电力和建筑外壳建设；SB Energy负责基础设施开发与运营，与OpenAI签订20年期租赁协议。英伟达的信用支持锁定4.25 IT-GW的初始算力容量，并拥有选择权可扩展至剩余3.75 IT-GW（总计8 IT-GW）。（彭博）",
+      "pubDate": "2026-08-17T12:34:48.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150520"
+    },
     {
       "title_cn": "港股半导体股爆发，千亿光纤龙头涨超12%，商汤涨近9%，药明康德创新高，分析称市场最差阶段或已过去 - 同花顺财经",
       "summary_cn": "港股半导体股爆发，千亿光纤龙头涨超12%，商汤涨近9%，药明康德创新高，分析称市场最差阶段或已过去&nbsp;&nbsp; 同花顺财经",
@@ -503,46 +951,270 @@
   "sectorMatrix": [
     {
       "name": "半导体",
-      "shock": "中",
+      "shock": "强",
       "direction": "利好",
-      "news_count": 11,
-      "summary": "半导体板块11条新闻，方向以利好为主。关注：【里昂升中芯国际目标价至97.5港元 第三季指引胜市场预期】；【里昂升中芯国",
+      "news_count": 28,
+      "summary": "半导体板块28条新闻，方向以利好为主",
       "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "黄金",
+      "shock": "强",
+      "direction": "利空",
+      "news_count": 15,
+      "summary": "黄金板块15条新闻，方向以利空为主。关注：黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "创新药",
       "shock": "中",
       "direction": "利好",
-      "news_count": 6,
-      "summary": "创新药板块6条新闻，方向以利好为主。关注：药明康德A股涨超5%，H股涨超4%，齐创历史新高，A+H股总市值突破5000亿",
+      "news_count": 7,
+      "summary": "创新药板块7条新闻，方向以利好为主。关注：药明康德A股涨超5%，H股涨超4%，齐创历史新高，A+H股总市值突破5000亿",
       "tickers": "百济神州、药明康德、恒瑞医药"
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 9,
-      "summary": "黄金板块9条新闻，方向以利好为主",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 5,
-      "summary": "光模块板块5条新闻，方向以利好为主。关注：【三连板共进股份：800G高速交换机产品主要客户为国内品牌商 其收入占主营业务",
+      "news_count": 9,
+      "summary": "光模块板块9条新闻，方向以利好为主。关注：美股光通信板块盘初走高；【美股光通信板块盘初走高】财联社8月17日电，美股光通",
       "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 31 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 1 条，利好方向 2 条。",
-    "板块概况：半导体(利好, 中冲击, 11条)、创新药(利好, 中冲击, 6条)、黄金(利好, 弱冲击, 9条)、光模块(利好, 弱冲击, 5条)。",
-    "重点关注：药明康德A股涨超5%，H股涨超4%，齐创历史新高，A+H股总市值突破5000亿。；【里昂升中芯国际目标价至97.5港元 第三季指引胜市场预期】；【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社。"
+    "今日共抓取 59 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 0 条，高影响 4 条，利好方向 4 条。",
+    "板块概况：半导体(利好, 强冲击, 28条)、黄金(利空, 强冲击, 15条)、创新药(利好, 中冲击, 7条)、光模块(利好, 弱冲击, 9条)。",
+    "重点关注：黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>；药明康德A股涨超5%，H股涨超4%，齐创历史新高，A+H股总市值突破5000亿。；【里昂升中芯国际目标价至97.5港元 第三季指引胜市场预期】。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，31 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，59 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "美股半导体设备股走高",
+      "description": "【美股半导体设备股走高】财联社8月17日电，美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:56:52.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456435"
+    },
+    {
+      "title": "费城半导体指数涨2%",
+      "description": "财联社8月17日电，费城半导体指数涨2%，报12668.44点。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:50:48.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456432"
+    },
+    {
+      "title": "【风口研报·洞察】英伟达CPO迈入全面量产，光通信测试链条从“测模块”走向“测芯片+光引擎+封装+整机”，推动测试设备价值量持续升级；AI大应用时代或到来",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:48:08.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456016"
+    },
+    {
+      "title": "美股光通信板块盘初走高",
+      "description": "【美股光通信板块盘初走高】财联社8月17日电，美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-17T13:43:59.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456429"
+    },
+    {
+      "title": "利弗莫尔中概股龙头指数盘初上涨0.9%",
+      "description": "【利弗莫尔中概股龙头指数盘初上涨0.9%】财联社8月17日电，利弗莫尔中概股龙头指数盘初上涨0.9%，报9551.71点。成分股中，华住涨7.21%，和黄医药涨3.93%，亚朵涨2.34%，百济神州涨2.16%，奇景光电涨2.1%。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-17T13:32:35.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456422"
+    },
+    {
+      "title": "【财联社早知道】美股存储芯片盘前继续走强，机构称行业供需缺口将延续至2027年，这家公司的产品已批量供货长江存储、SK海力士等多家客户；蚂蚁集团CEO称智能体商业将在6至12个月内爆发",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:08:05.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2456057"
+    },
+    {
+      "title": "Fullgoal Investment Research Institute cut its gol",
+      "description": "Fullgoal Investment Research Institute cut its gold price targets, lowering the end-2026 target to $4,900–$5,100 per ounce from $5,300–$5,500 and the 2027 target to $5,400–$5,600 per ounce from $5,800–$6,000, while still forecasting long-term upside for gold.",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:33:47.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,9",
+      "description": "富国投资研究所下调黄金目标价，将2026年底黄金目标价从每盎司5,300至5,500美元下调至4,900至5,100美元，将2027年黄金目标价从每盎司5,800至6,000美元下调至5,400至5,600美元，仍预计黄金价格长期将上涨。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:33:40.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "description": "黄金等待突破信号，多头潜在空间有多大？​《大有作V》栏目更新，3分钟解读国际金走势>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:32:45.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "NVIDIA (NVDA.O) shares rose 0.8%. OpenAI pledged t",
+      "description": "NVIDIA (NVDA.O) shares rose 0.8%. OpenAI pledged to deploy NVIDIA AI infrastructure at scale by 2030.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:31:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "description": "英伟达(NVDA.O)上涨0.8%，OpenAI承诺将在2030年前大规模部署英伟达AI基础设施。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:31:22.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>",
+      "description": "黄金空头死守4440，多头能否一举击破！黄金回调已经充分！金十研究员Steven正在直播，立即观看>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:26:04.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”....",
+      "description": "锂矿龙头半年净利同比增超10倍，六天五板“追光者”提示交易风险，又一产业链公司计划“造光纤”......今日盘后有哪些值得关注的公告？",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-17T13:18:12.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【美股半导体设备股走高】美股半导体设备股走高，AXT Inc大涨超11%，应用材料、艾马克技术涨超5%，科磊、泰瑞达、泛林集团涨约2%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:57:03.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7738017.d.html"
+    },
+    {
+      "title": "现货黄金15分钟内拉升逾20美元，现报4404美元/盎司。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:54:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh9008621.d.html"
+    },
+    {
+      "title": "费城半导体指数涨2%，报12668.44点。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:51:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7734453.d.html"
+    },
+    {
+      "title": "【摩根大通：股票买盘群体范围“广泛”】由安德鲁・泰勒牵头的摩根大通市场情报团队表示，未来数周，大批股票买方或将寻求重新提高总敞口、重新加杠杆。该团队在研报中写道，潜在买方包括计划回购股份的企业、个人投资者以及量化交易机构。团队维持 “战术性看多” 观点。他们称：“市场继续在担忧声浪中上行。” 本周市场关注点为周三美联储会议纪要，市场将从中挖掘主席凯文・沃什的政策思路线索；下周重点则是英伟达财报以及杰克逊霍尔全球央行年会。他们写道，后两项事件或将 “改变市场叙事”。上周市场担忧因素包括通胀、零售销售等增长数据，以及美债拍卖与美联储官员讲话。上月末，摩根大通表示其内部指标 “发出买入信号”，该信号历史上通常预示标普 500 指数即将上涨。自那以后，该基准指数已累计上涨约 5%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:47:45.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7732230.d.html"
+    },
+    {
+      "title": "【国能日新：公司已在人工智能、并行计算等方向进行前瞻性资源布局】国能日新8月17日在业绩说明会上表示，公司已在人工智能、并行计算等方向进行前瞻性资源布局，建成多套由HPC与GPU集群构成的高性能算力底座。硬件资源不仅支撑了大规模气象模型与深度学习模型的训练与推理，也为实时交易决策所需的密集计算提供坚实基础，形成显著的算力壁垒。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:45:34.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh9002852.d.html"
+    },
+    {
+      "title": "【美股光通信板块盘初走高】美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨超4%，Lumentum涨超3%。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-17T13:44:12.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruye0030815.d.html"
+    },
+    {
+      "title": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨1%，日常消费品ETF跌近1%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:35:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh8996529.d.html"
+    },
+    {
+      "title": "富国银行投资研究所将2027年末金价目标区间从此前预测的每盎司5800-6000美元下调至每盎司5400-5600美元。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T13:32:39.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruyh8994016.d.html"
+    },
+    {
+      "title": "费城半导体指数涨1.5%，报12610.92点。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:31:59.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-17/detail-ininruym7721459.d.html"
+    },
+    {
+      "title": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "description": "美股光通信板块盘初走高，迈威尔科技涨超6%，Coherent涨近5%，Lumentum涨近3%。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-17T13:48:19.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150550"
+    },
+    {
+      "title": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "description": "美股盘初，主要行业ETF涨跌不一，半导体ETF涨超1%，全球科技股指数ETF涨近1%，日常消费品ETF跌近1%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:35:30.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150547"
+    },
+    {
+      "title": "美股盘初：纳指涨0.2%，存储芯片股普涨",
+      "description": "道指跌0.2%，标普500指数涨0.02%。存储芯片股普涨，闪迪涨约5%，SK海力士涨约4%，希捷科技涨2%，西部数据涨约4%，美光科技涨约4%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T13:31:38.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150545"
+    },
+    {
+      "title": "周一美股盘前你需要了解的全球要闻",
+      "description": "中国7月社零同比增长0.6%，通讯器材消费大增20.4%，汽车下滑17%。\n\n中国7月规模以上工业增加值同比放缓至4.5%，装备制造业和高技术制造业增势良好。\n\n中国1-7月房地产开发投资同比下降19.2%，新建商品房销售额同比下降13.1%。\n\n7月70城房价：一线城市二手房价环比涨幅继续回落至0.2%，各线城市房价同比降幅再收窄。\n\n中国1-7月份城镇固定资产投资下降6.7%，航空、航天器及设备制造业增长19.2%。\n\n两部门发布“十五五”油气规划：2030年国内油气供应量将达4.4亿吨油当量。\n\n特朗普威胁称，如果阿曼妨碍美国，美国将轰炸阿曼。\n\n美国屡次“违约”，伊朗强硬派放弃对美幻想，被曝秘密扩军备战“新一轮对抗”。\n\n美国8月纽约联储制造业指数升至20.6，创2021年底以来最快扩张。\n\n欧洲央行：AI行情回调可能给欧元区带来严重后果。\n\n英伟达：OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦。\n\nAI烧钱停不下来！Alphabet首次赴澳发债，拟募资50亿澳元。\n\niPhone 17系列或月底前全球涨价，单台最高多花近千元。\n\nAnthropic IPO估值有多激进？华尔街押注：2028年收入狂飙至2000亿美元。\n\n美股盘前：三大股指期货涨跌不一，存储芯片概念股普涨，金银油上涨，人民币创三年半新高。\n\n日经225指数收",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T12:46:52.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150529"
+    },
+    {
+      "title": "英伟达：OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦",
+      "description": "英伟达表示，OpenAI已承诺到2030年大规模部署英伟达AI基础设施，现有及计划中的部署规模约为12吉瓦，并有机会扩大至约16吉瓦。英伟达称，按目前规模计算，这一合作到2030年可能对应约6000亿美元的英伟达计算基础设施收入。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T12:43:17.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150525"
+    },
+    {
+      "title": "英伟达将向SB Energy投资15亿美元",
+      "description": "英伟达将向SB Energy投资15亿美元，并作为位于俄亥俄州派克县PORTS-Pike科技园区的独家AI算力基础设施供应商，OpenAI则为该园区的唯一客户。英伟达提供15亿美元资本及信用支持，用于土地、电力和建筑外壳建设；SB Energy负责基础设施开发与运营，与OpenAI签订20年期租赁协议。英伟达的信用支持锁定4.25 IT-GW的初始算力容量，并拥有选择权可扩展至剩余3.75 IT-GW（总计8 IT-GW）。（彭博）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-17T12:34:48.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150520"
+    },
     {
       "title": "Nvidia Earnings August 2026: AI Chip Leader Investment Outlook & Analysis - Intellectia AI",
       "description": "Nvidia Earnings August 2026: AI Chip Leader Investment Outlook & Analysis&nbsp;&nbsp; Intellectia AI",
@@ -1092,8 +1764,9 @@
       "datasets": [
         {
           "data": [
-            2,
-            29
+            4,
+            1,
+            54
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1106,6 +1779,7 @@
       ],
       "labels": [
         "利好",
+        "利空",
         "中性"
       ],
       "hasData": true
@@ -1126,27 +1800,27 @@
       "matrix": {
         "半导体": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 1,
-          "低": 10
+          "低": 26
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 5
+          "低": 9
         },
         "创新药": {
           "极高": 0,
           "高": 1,
           "中": 0,
-          "低": 5
+          "低": 6
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
+          "高": 2,
           "中": 0,
-          "低": 9
+          "低": 13
         }
       },
       "hasData": true
@@ -1162,20 +1836,30 @@
         {
           "label": "利好",
           "data": [
-            1,
+            2,
             0,
             1,
-            0
+            1
           ],
           "backgroundColor": "#16a34a"
         },
         {
+          "label": "利空",
+          "data": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "backgroundColor": "#dc2626"
+        },
+        {
           "label": "中性",
           "data": [
-            10,
-            5,
-            5,
-            9
+            26,
+            9,
+            6,
+            13
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -1190,8 +1874,8 @@
       "datasets": [
         {
           "data": [
-            1,
-            30
+            4,
+            55
           ],
           "backgroundColor": [
             "#2563eb",
