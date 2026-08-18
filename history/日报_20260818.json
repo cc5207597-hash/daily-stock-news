@@ -1,8 +1,200 @@
 {
   "date": "20260818",
   "displayDate": "2026-08-18",
-  "generatedAt": "2026-08-18T03:28:37.136Z",
+  "generatedAt": "2026-08-18T09:18:05.205Z",
   "analyzed": [
+    {
+      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-18T08:34:03.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OZ3g4UGJfZXgxOHZjQ2thY1VEQ29VVlhUUDNGRHNQQkdpdm04dFQyem00Nk5mOUFHXzlrWlg2cUo4VDcxTEFnem1haWhua1FmaFRQOFR1MmlkZHpHNU16SXlmLXVHTDBHZ1dNb1J3?oc=5"
+    },
+    {
+      "title_cn": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】",
+      "summary_cn": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】金十数据8月18日讯，百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】",
+      "description": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】金十数据8月18日讯，百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图进一步扩大。在迪拜，萝卜快跑开启全无人商业化运营，除自有App外，乘客也可通过UberApp叫车；在香港，萝卜快跑获得当地首批全无人测试牌照，并在机场岛启动测试，成为全球首个在“右舵左行”体系开展全无人驾驶测试的平台；在伦敦，萝卜快跑联合Uber、Lyft启动开放道路测试。同时，萝卜快跑与哈萨克斯坦企业Turlov Private HoldingLtd.（TPH）签署战略合作协议，双方将共同探索在哈萨克斯坦开展无人驾驶出行服务。6月，萝卜快跑与Post Bus合作在瑞士开展公开道路测试。截至目前，萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里，其中全无人驾驶里程超2.4亿公里。",
+      "pubDate": "2026-08-18T09:08:54.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴",
+      "summary_cn": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴涨……点击查看...",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴",
+      "description": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴涨……点击查看...",
+      "pubDate": "2026-08-18T09:07:03.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "Aug 18 — Baidu (09888.HK) reported Q2 2026 营收",
+      "summary_cn": "Aug 18 — Baidu (09888.HK) reported Q2 2026 营收 of 31.3 bln yuan. General business 营收 was 25.2 bln yuan, with AI accounting for 50% — the second consecutive quarter above half. AI cloud infrastructure 营收 was 7.3 bln yuan, up 50% YoY; GPU cloud 营收 rose 283% YoY and has 纪录ed four straight quarters of triple‑digit growth. AI applications 营收 was 2.5 bln yuan, up 3% YoY, and AI-native 市场ing 营收 was 2.6 bln yuan. Founder Robin Li said continued AI growth confirms Baidu’s transition to an AI-first 公司 and strengthens confidence in its long-term growth outlook.",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Aug 18 — Baidu (09888.HK) reported Q2 2026 revenue",
+      "description": "Aug 18 — Baidu (09888.HK) reported Q2 2026 revenue of 31.3 bln yuan. General business revenue was 25.2 bln yuan, with AI accounting for 50% — the second consecutive quarter above half. AI cloud infrastructure revenue was 7.3 bln yuan, up 50% YoY; GPU cloud revenue rose 283% YoY and has recorded four straight quarters of triple‑digit growth. AI applications revenue was 2.5 bln yuan, up 3% YoY, and AI-native marketing revenue was 2.6 bln yuan. Founder Robin Li said continued AI growth confirms Baidu’s transition to an AI-first company and strengthens confidence in its long-term growth outlook.",
+      "pubDate": "2026-08-18T09:05:34.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】",
+      "summary_cn": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】金十数据8月18日讯，8月18日，百度(09888.HK)发布2026年第二季度财报，显示季度总营收",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】",
+      "description": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】金十数据8月18日讯，8月18日，百度(09888.HK)发布2026年第二季度财报，显示季度总营收313亿元；百度一般性业务收入252亿元，其中AI业务收入占比50%，已连续两季占比过半。百度创始人李彦宏表示，AI业务的持续增长，进一步印证了百度从一家以互联网为核心的公司转型为一家以AI为先的公司，也进一步增强了百度对长期增长潜力的信心。财报披露，二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "pubDate": "2026-08-18T09:05:14.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【眼科管线失利刷屏，贝达药业20CM跌停，公司回应】8月18日，贝达药业股价大幅低开、迅速封死跌停。消息面上，8月17日，EyePoint公布其眼科药物伏罗尼布眼科缓释制剂DURAVYU（EYP-1901）治疗湿性老年黄斑变性LUGANO全球III期试验未达到预设主要疗效终点。受此影响，EYPT隔夜美股大跌66.98%。对此，贝达药业方面回应记者，公司海外子公司和EYPT是有合作关系的，且合作了很多年。昨天EYPT公布了伏罗尼布眼科缓释制剂III期临床研究一项结果，确实没有达到预期，还有一项结果，预计10月份出来。这个药品没有上市，因此对公司现有业务没有什么影响。该事项暂未触发上市公司强制信息披露标准，目前公司在半年报披露静默期，公司业绩及后续情况以公司公告为准。（中证金牛座）",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【眼科管线失利刷屏，贝达药业20CM跌停，公司回应】8月18日，贝达药业股价大幅低开、迅速封死跌停。消息面上，8月17日，EyePoint公布其眼科药物伏罗尼布眼科缓释制剂DURAVYU（EYP-1901）治疗湿性老年黄斑变性LUGANO全球III期试验未达到预设主要疗效终点。受此影响，EYPT隔夜美股大跌66.98%。对此，贝达药业方面回应记者，公司海外子公司和EYPT是有合作关系的，且合作了很多年。昨天EYPT公布了伏罗尼布眼科缓释制剂III期临床研究一项结果，确实没有达到预期，还有一项结果，预计10月份出来。这个药品没有上市，因此对公司现有业务没有什么影响。该事项暂未触发上市公司强制信息披露标准，目前公司在半年报披露静默期，公司业绩及后续情况以公司公告为准。（中证金牛座）",
+      "description": "",
+      "pubDate": "2026-08-18T09:17:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7305213.d.html"
+    },
+    {
+      "title_cn": "【复旦微电：与关联方成立注册资本7000万元合资公司】复旦微电公告称，2026年8月17日，公司与卓垣瑞芯、卓垣昱芯、周军先生及王延政先生订立股东协议，约定在上海成立合资公司上海卓垣弘芯半导体科技有限公司，注册资本7000万元。其中公司以无形资产认缴出资1750万元，持股25.00%；卓垣瑞芯认缴出资1921万元，持股27.44%；卓垣昱芯认缴出资1330万元，持股19.00%；周军先生认缴出资1333万元，持股19.04%；王延政先生认缴出资666万元，持股9.52%。该交易属于公司关联交易，可获豁免独立股东批准。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【复旦微电：与关联方成立注册资本7000万元合资公司】复旦微电公告称，2026年8月17日，公司与卓垣瑞芯、卓垣昱芯、周军先生及王延政先生订立股东协议，约定在上海成立合资公司上海卓垣弘芯半导体科技有限公司，注册资本7000万元。其中公司以无形资产认缴出资1750万元，持股25.00%；卓垣瑞芯认缴出资1921万元，持股27.44%；卓垣昱芯认缴出资1330万元，持股19.00%；周军先生认缴出资1333万元，持股19.04%；王延政先生认缴出资666万元，持股9.52%。该交易属于公司关联交易，可获豁免独立股东批准。",
+      "description": "",
+      "pubDate": "2026-08-18T09:12:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7301396.d.html"
+    },
+    {
+      "title_cn": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图进一步扩大。在迪拜，萝卜快跑开启全无人商业化运营，除自有App外，乘客也可通过UberApp叫车；在香港，萝卜快跑获得当地首批全无人测试牌照，并在机场岛启动测试，成为全球首个在“右舵左行”体系开展全无人驾驶测试的平台；在伦敦，萝卜快跑联合Uber、Lyft启动开放道路测试。同时，萝卜快跑与哈萨克斯坦企业Turlov Private HoldingLtd.（TPH）签署战略合作协议，双方将共同探索在哈萨克斯坦开展无人驾驶出行服务。6月，萝卜快跑与Post Bus合作在瑞士开展公开道路测试。截至目前，萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里，其中全无人驾驶里程超2.4亿公里。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图进一步扩大。在迪拜，萝卜快跑开启全无人商业化运营，除自有App外，乘客也可通过UberApp叫车；在香港，萝卜快跑获得当地首批全无人测试牌照，并在机场岛启动测试，成为全球首个在“右舵左行”体系开展全无人驾驶测试的平台；在伦敦，萝卜快跑联合Uber、Lyft启动开放道路测试。同时，萝卜快跑与哈萨克斯坦企业Turlov Private HoldingLtd.（TPH）签署战略合作协议，双方将共同探索在哈萨克斯坦开展无人驾驶出行服务。6月，萝卜快跑与Post Bus合作在瑞士开展公开道路测试。截至目前，萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里，其中全无人驾驶里程超2.4亿公里。",
+      "description": "",
+      "pubDate": "2026-08-18T09:08:57.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7298248.d.html"
+    },
+    {
+      "title_cn": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "summary_cn": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "description": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "pubDate": "2026-08-18T09:07:00.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150992"
+    },
+    {
+      "title_cn": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease 药物 awaiting FDA nod - fierce生物科技.com",
+      "summary_cn": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease 药物 awaiting FDA nod&nbsp;&nbsp; fierce生物科技.com",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease drug awaiting FDA nod - fiercebiotech.com",
+      "description": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease drug awaiting FDA nod&nbsp;&nbsp; fiercebiotech.com",
+      "pubDate": "2026-08-18T07:00:00.000Z",
+      "source": "fiercebiotech.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVk1tOVlmcGJEXzBOOGMxMjFwLWVkbGxXdmVMTGZtNnU2Zi01a0lTd0FfNjFvM3l6NjlHRHlSZVRNc3NYRnozaEZRTGNPRU40clBDY0c2QUs0NzNiUThUVGwyazY2RzRRTThzVnhzLWtOSHp3dmR6eTJMb1JqQkR2dFd4c2loaXBUUnN0dmJzcmJMc0xSM05LSnJaTmNEbDVGaXlqaTgxNzZmVEU?oc=5"
+    },
+    {
+      "title_cn": "黄金 价格 prediction today: Will 黄金 continue its rally? Check August 18, 2026 outlook - The Times of India",
+      "summary_cn": "黄金 价格 prediction today: Will 黄金 continue its rally? Check August 18, 2026 outlook&nbsp;&nbsp; The Times of India",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "Gold price prediction today: Will gold continue its rally? Check August 18, 2026 outlook - The Times of India",
+      "description": "Gold price prediction today: Will gold continue its rally? Check August 18, 2026 outlook&nbsp;&nbsp; The Times of India",
+      "pubDate": "2026-08-18T06:05:00.000Z",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOT2hZV1RheUZjRmhXQWVJRWdDcHM5Y0pLaTJVbHRMWllWR0dKcWREVktoR3BValdBQjVGbjFEUFVUQS1wX2hzNEhBQ1ZNeko0VVNPR2hKSjdZb0g2ZFJQWThmTnFoVzBXMUhtM3NhbmdCMlpUQ0NKb1llMzFWMlUyVjY0b2VtMHFFS1UyU3dDaDhGbHFEY2Q4ZlIzN25MZ3BpUXNFTlBnRnF3NFRfRkZHTjA2UFdJcWRueHROejBnczhacTlWY2ROY2JiYl9MQlV0bFZQd1hYVG9zR1lmSmRqV2trcWdRWF9NNW1xNWt2b3dVbTh5bnhIdlJJbi0xa1NNYUloNnMxcmZKQjJSMkZNVlU4U1I2cTVVSkVKTnpvZExya1R6Z1NrTHM0VdIBsAJBVV95cUxQd0g1LUdtT3Fkenh6T0VRQW5BRmNFZU5Na0JHZ1UxNnB6aW9TR3NJTFV1WW9QRkhuV3BMa0hTTUd0cFRSTWs5RWpCd1pycldfRFl3eHMtdVk2aGhmakxJUXowcThTYjdkN0hXRnZ6WUl1R2I1ZjFubnh0NFZrdDk5ZDhQNHduSEp6TkpRWjE5dldTa25YWHJSZVhLV1IxcmR6SkdOcGtadWZYQzF5NGhydHpYb0lwSmtYejVxTVZIUjhKR3FPZkdGeUV3WHh4ZzNXMXpYelRBanpxVTV3UlVGLUdsN1BSRlA3RE9CRHE0cm5STWUtenBiNV90Z1Bqem9rYU9uWEpCS1M0dVJPVkhiMGMtVkZhZllLcWhSNFY1UzJXZWVQMHotYmNBNXllaWFI?oc=5"
+    },
+    {
+      "title_cn": "金价周涨超7%！最新预测来了 - 新浪财经",
+      "summary_cn": "金价周涨超7%！最新预测来了&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利好(60)",
+      "title": "金价周涨超7%！最新预测来了 - 新浪财经",
+      "description": "金价周涨超7%！最新预测来了&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-18T02:37:16.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxNak40cUxObFpqN2tSTi14UHJQVlg2aF9Ya3A2dDlJNVU4NlVLNVYyY0c1NDhibTNpT1J3M00xMXhfLV9TOXA2T0hESHhxZWNlakpEeUN5SWw3Smh2Yy1NZDRZTFNNaEpGZ1N4Q083S29pM0JiMWc0ckl0Sm5XeEk4VzhJYlpYUlo0cmw3XzFVb1dseHBkTlBNd0lnYW1ISk5mcl9aTDRLN0ptOWFjM01PZXhGS1hHaWNTR3lOMVNXZ3ZfLVpydXJkTEtqcGRpRWpGTGctR0JGTlM5RVEzNUpJZ3NnSWVHLW5OWlhnU0RteDUySVdVSWl0R2I4dnFENjRoc0hWNjdQNXUzdG8tdk0xbFM0eENiN205TEZUc0JkX3M1NVZnWUJSOHZ6ZmF2aWZRcUlWR2Q3R0N5ZlBHQ1E0ZFVOQjRBREhEVjlCTmJwdFY2am9oLXFfUVBmZlk3d1RGTVd2RDFRT0JFZEUxRHhjN1NPX2RyM3o5SGotaUcwWnk2dzhZRjJTLTlBc1lxSHc0NzFjOXN4SVZERVlNTTlicmZHM0RIZ05ZYXFsUzljbFhMSUUwYkJxbTd3VWpkZEVkRmJ3?oc=5"
+    },
     {
       "title_cn": "【韩美半导体将投资1300亿韩元建设其最大工厂】韩美半导体在一份声明中表示，计划投资 1300 亿韩元在仁川建造其有史以来最大的工厂，以扩大人工智能半导体设备的生产。该公司将斥资560亿韩元收购位于仁川的一处现有厂房，并将其改建为第八家工厂，预计将于2027年第二季度开始量产。该工厂将生产用于HBM的TC键合机和混合键合机，以及用于高性能存储器的2.5D封装设备、BOC和COB封装设备。该公司表示，这将使其现有生产设施与全球最大的HBM TC和混合键合器生产基地相结合，成为全球最大的生产基地。",
       "summary_cn": "",
@@ -18,6 +210,38 @@
       "pubDate": "2026-08-18T03:16:47.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-18/detail-inintats8671831.d.html"
+    },
+    {
+      "title_cn": "黄金 and silver 价格 today, August 18: Check rates of 24K, 22K 黄金 in Delhi, Mumbai, Kolkata other... - Moneycontrol.com",
+      "summary_cn": "黄金 and silver 价格 today, August 18: Check rates of 24K, 22K 黄金 in Delhi, Mumbai, Kolkata other...&nbsp;&nbsp; Moneycontrol.com",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold and silver price today, August 18: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other... - Moneycontrol.com",
+      "description": "Gold and silver price today, August 18: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other...&nbsp;&nbsp; Moneycontrol.com",
+      "pubDate": "2026-08-18T03:05:26.000Z",
+      "source": "Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPQ3BIUVRJcm1tdU1ZbVBDQnhqM20xdFdtdnNHU2ZWdTF0WVVUaU0tbTNQSTlTUGxfTXJYV091LXBMQnVLQ2pVZG5kWl9JOTIyelVZVUZvOFk2NVEyMjVfQnBWckJZc3VnLWZoZnNHSGt6ZU5zTUQ2Yzc2QXdPaXZOaWs1N0JZWHBQNzZQR1pRZV9OYzJpUzJEai1hWWhBQWIxUC1yY05EQzhiemFCRmpLT1dsV3V4MThUS1cyNVZaNWN4UWdUODMtc3l6YTM3azJESUNUZXdqOVIwdDJhMGtseHEwUlE2cWc1eTJjX2VOYWc2aTZkRmRfMHh6ZXZUa0pNT1BkUEtja9IBjAJBVV95cUxNVGNIMUxKSVpXaEtRNGdFRmItNlJyUi0zaGw4cTFKTjNTcm80dVJneTBnY0k2a21udEZWMWpYcTFIOGpLdG0tU2VTNGFsNzhFbXgwWWpyaWJDNURRS2c1ZzNkZ1lDVThVUC1yZHM3UHhtbHRzSVJ4VEpNZ1JsblNzNWozSm5zTmdjRDRRdFZEbVJxYmpIT21QTnVmekpjMFRqMHpZTDNZMUlhNGhlSmZ2SDQ3a2d6QjdxVFAzRG5FV19EZHRrc1dWSmVIdTVvUGs1WkwyRlk4enI0bURNWG1MOGF1Wl9kcDFyb3kwS1o5ajhrdGx1bzFvZ3hPZlAzZ0RIdTZwby1CUGFYZjhn?oc=5"
+    },
+    {
+      "title_cn": "黄金 价格 预测: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch - Bitcoin World",
+      "summary_cn": "黄金 价格 预测: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch&nbsp;&nbsp; Bitcoin World",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Forecast: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch - Bitcoin World",
+      "description": "Gold Price Forecast: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch&nbsp;&nbsp; Bitcoin World",
+      "pubDate": "2026-08-18T03:35:11.000Z",
+      "source": "Bitcoin World",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83bExtYWZZR0E3ZlZpYnJhSEx1NlZKNXpFb2NnOVd2dnBHbzdRbWlJcmJNVThwenhfNEZXTmhxU0xVUGUtZkZSRGdaelVyZzlPS3VZYTdBX245QlJwdmV1UWFoTEgtVGpBZkpzbGdvS0RRVG1qRTNWcHJqOA?oc=5"
     },
     {
       "title_cn": "金十图示：2026年08月18日（周二）上海金早盘价为953.79元/克，较国际金价(953.9元/",
@@ -114,51 +338,283 @@
       "pubDate": "2026-08-18T02:06:47.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3150784"
+    },
+    {
+      "title_cn": "黄金 上涨s 1% amid softer dollar, 下跌ing 美联储 rate hike bets; oil caps gains - Investing.com Australia",
+      "summary_cn": "黄金 上涨s 1% amid softer dollar, 下跌ing 美联储 rate hike bets; oil caps gains&nbsp;&nbsp; Investing.com Australia",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:宏观·利空(40)",
+      "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains - Investing.com Australia",
+      "description": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains&nbsp;&nbsp; Investing.com Australia",
+      "pubDate": "2026-08-18T00:19:32.000Z",
+      "source": "Investing.com Australia",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdVpVTzNpY2RPYVBnNGNnWXFwN3JsTmhZMEt2VzZaWFlsbURnMEt3VFdlX1o2VjJzQVkwS1dHZWlqMTBmWlhDdGpNdjBwQUVyVkpKV0UzUkxvNmZwc29Gc1BoQkxscUxhX0ZXZ2JTenZ1TURIRHk4cGdBOFRTSjk4dVZGY1RZVkpZUnBneGF1enNhOGdTNDBBYzBVS1BkME1GYkF3ZG5rRS1vNzJla2ctdGFEdHVsQUVUTHMw?oc=5"
+    },
+    {
+      "title_cn": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - cls.cn",
+      "summary_cn": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; cls.cn",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - cls.cn",
+      "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; cls.cn",
+      "pubDate": "2026-08-18T00:37:23.000Z",
+      "source": "cls.cn",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+    },
+    {
+      "title_cn": "黄金 slips on firmer Treasury yields, oil 价格s; 美联储 minutes in focus - Reuters",
+      "summary_cn": "黄金 slips on firmer Treasury yields, oil 价格s; 美联储 minutes in focus&nbsp;&nbsp; Reuters",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus - Reuters",
+      "description": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus&nbsp;&nbsp; Reuters",
+      "pubDate": "2026-08-18T01:05:00.000Z",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSG9XMjZPS3g0am1fSnhSbndBTlUwbkxHN0FJanR5OFRlZUgwUzZPVjRxcnVGQjUtdmdnYVU5a0xNYXhFcGJNY0t2SlVvTHg3QW1yVFQyRTEyckdHU1hhTFhDRWwyMzZBeTQ0alMxUmJ1TmQ4bVp4aXFNdGljOVJ5WVRNbEptdWZqaVJPVFkydVNQYTBrRmRZMU5PLWZ0cW5qbFp3cTUwOVA1b1FpRnBBMlF2QXRFdw?oc=5"
+    },
+    {
+      "title_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "summary_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
+      "pubDate": "2026-08-17T21:15:45.000Z",
+      "source": "风闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5"
+    },
+    {
+      "title_cn": "黄金 and Silver 价格s Are Rising. Here's Which Precious Metal May Have More Upside - The Motley Fool",
+      "summary_cn": "黄金 and Silver 价格s Are Rising. Here's Which Precious Metal May Have More Upside&nbsp;&nbsp; The Motley Fool",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "title": "Gold and Silver Prices Are Rising. Here's Which Precious Metal May Have More Upside - The Motley Fool",
+      "description": "Gold and Silver Prices Are Rising. Here's Which Precious Metal May Have More Upside&nbsp;&nbsp; The Motley Fool",
+      "pubDate": "2026-08-17T21:28:00.000Z",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQnFRMEJTLTdkTFJaT2lSclU3U0lPUGxaQVpZREg3aVUzMnptMGNObGxVYW1RU2E2ZkVLbFByVXpyNkt5czdNMlhGWTR4NlpnU1BuYk54QUN3a3lsSXd3NFhQeFFWSlBab0FvbzctcjB5Ull1VWNKWWcxTEdlZnVNd3pLcFdjOTZzRHNVRmRhYUloamcyOFcwLQ?oc=5"
     }
   ],
   "sectorMatrix": [
     {
+      "name": "黄金",
+      "shock": "强",
+      "direction": "利空",
+      "news_count": 9,
+      "summary": "黄金板块9条新闻，方向以利空为主。关注：金价周涨超7%！最新预测来了 - 新浪财经",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
       "name": "半导体",
       "shock": "中",
       "direction": "利好",
-      "news_count": 3,
-      "summary": "半导体板块3条新闻，方向以利好为主",
+      "news_count": 9,
+      "summary": "半导体板块9条新闻，方向以利好为主",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "创新药",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 3,
-      "summary": "创新药板块3条新闻，方向以利好为主",
+      "news_count": 7,
+      "summary": "创新药板块7条新闻，方向以利好为主",
       "tickers": "百济神州、药明康德、恒瑞医药"
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 1,
-      "summary": "黄金板块1条新闻，方向以利好为主。关注：金十图示：2026年08月18日（周二）上海金早盘价为953.79元/克，较国际",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "news_count": 1,
+      "summary": "光模块板块1条新闻，方向以利好为主",
+      "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 7 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 0 条，高影响 1 条，利好方向 1 条。",
-    "板块概况：半导体(利好, 中冲击, 3条)、创新药(利好, 弱冲击, 3条)、黄金(利好, 弱冲击, 1条)、光模块(利好, 弱冲击, 0条)。",
-    "重点关注：金十图示：2026年08月18日（周二）上海金早盘价为953.79元/克，较国际金价(953.9元/；A股半导体板块早盘拉升，立昂微直线涨停，优迅股份、有研硅、西安奕材涨超10%，上海合晶、沪硅产业、有研新材跟涨。；【韩美半导体将投资1300亿韩元建设其最大工厂】韩美半导体在一份声明中表示，计划投资 1300 亿韩元在仁川建造其有史以来最大的工厂，以扩大人工智能半导体设备的生产。该公司将斥资560亿韩元收购位于仁川的一处现有厂房，并将其改建为第八家工厂，预计将于2027年第二季度开始量产。该工厂将生产用于HBM的TC键合机和混合键合机，以及用于高性能存储器的2.5D封装设备、BOC和COB封装设备。该公司表示，这将使其现有生产设施与全球最大的HBM TC和混合键合器生产基地相结合，成为全球最大的生产基地。。"
+    "今日共抓取 26 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 0 条，高影响 3 条，利好方向 2 条。",
+    "板块概况：黄金(利空, 强冲击, 9条)、半导体(利好, 中冲击, 9条)、创新药(利好, 弱冲击, 7条)、光模块(利好, 弱冲击, 1条)。",
+    "重点关注：金价周涨超7%！最新预测来了 - 新浪财经；港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经；【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，7 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，26 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
+    {
+      "title": "金价周涨超7%！最新预测来了 - 新浪财经",
+      "description": "金价周涨超7%！最新预测来了&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T02:37:16.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiwwNBVV95cUxNak40cUxObFpqN2tSTi14UHJQVlg2aF9Ya3A2dDlJNVU4NlVLNVYyY0c1NDhibTNpT1J3M00xMXhfLV9TOXA2T0hESHhxZWNlakpEeUN5SWw3Smh2Yy1NZDRZTFNNaEpGZ1N4Q083S29pM0JiMWc0ckl0Sm5XeEk4VzhJYlpYUlo0cmw3XzFVb1dseHBkTlBNd0lnYW1ISk5mcl9aTDRLN0ptOWFjM01PZXhGS1hHaWNTR3lOMVNXZ3ZfLVpydXJkTEtqcGRpRWpGTGctR0JGTlM5RVEzNUpJZ3NnSWVHLW5OWlhnU0RteDUySVdVSWl0R2I4dnFENjRoc0hWNjdQNXUzdG8tdk0xbFM0eENiN205TEZUc0JkX3M1NVZnWUJSOHZ6ZmF2aWZRcUlWR2Q3R0N5ZlBHQ1E0ZFVOQjRBREhEVjlCTmJwdFY2am9oLXFfUVBmZlk3d1RGTVd2RDFRT0JFZEUxRHhjN1NPX2RyM3o5SGotaUcwWnk2dzhZRjJTLTlBc1lxSHc0NzFjOXN4SVZERVlNTTlicmZHM0RIZ05ZYXFsUzljbFhMSUUwYkJxbTd3VWpkZEVkRmJ3?oc=5"
+    },
+    {
+      "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-17T21:15:45.000Z",
+      "source": "风闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5"
+    },
+    {
+      "title": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease drug awaiting FDA nod - fiercebiotech.com",
+      "description": "Leo ‘really strengthening’ pipeline with $435M deal for Tanabe rare skin disease drug awaiting FDA nod&nbsp;&nbsp; fiercebiotech.com",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-18T07:00:00.000Z",
+      "source": "fiercebiotech.com",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVk1tOVlmcGJEXzBOOGMxMjFwLWVkbGxXdmVMTGZtNnU2Zi01a0lTd0FfNjFvM3l6NjlHRHlSZVRNc3NYRnozaEZRTGNPRU40clBDY0c2QUs0NzNiUThUVGwyazY2RzRRTThzVnhzLWtOSHp3dmR6eTJMb1JqQkR2dFd4c2loaXBUUnN0dmJzcmJMc0xSM05LSnJaTmNEbDVGaXlqaTgxNzZmVEU?oc=5"
+    },
+    {
+      "title": "Gold and Silver Prices Are Rising. Here's Which Precious Metal May Have More Upside - The Motley Fool",
+      "description": "Gold and Silver Prices Are Rising. Here's Which Precious Metal May Have More Upside&nbsp;&nbsp; The Motley Fool",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-17T21:28:00.000Z",
+      "source": "The Motley Fool",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQnFRMEJTLTdkTFJaT2lSclU3U0lPUGxaQVpZREg3aVUzMnptMGNObGxVYW1RU2E2ZkVLbFByVXpyNkt5czdNMlhGWTR4NlpnU1BuYk54QUN3a3lsSXd3NFhQeFFWSlBab0FvbzctcjB5Ull1VWNKWWcxTEdlZnVNd3pLcFdjOTZzRHNVRmRhYUloamcyOFcwLQ?oc=5"
+    },
+    {
+      "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - cls.cn",
+      "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; cls.cn",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T00:37:23.000Z",
+      "source": "cls.cn",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+    },
+    {
+      "title": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus - Reuters",
+      "description": "Gold slips on firmer Treasury yields, oil prices; Fed minutes in focus&nbsp;&nbsp; Reuters",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T01:05:00.000Z",
+      "source": "Reuters",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSG9XMjZPS3g0am1fSnhSbndBTlUwbkxHN0FJanR5OFRlZUgwUzZPVjRxcnVGQjUtdmdnYVU5a0xNYXhFcGJNY0t2SlVvTHg3QW1yVFQyRTEyckdHU1hhTFhDRWwyMzZBeTQ0alMxUmJ1TmQ4bVp4aXFNdGljOVJ5WVRNbEptdWZqaVJPVFkydVNQYTBrRmRZMU5PLWZ0cW5qbFp3cTUwOVA1b1FpRnBBMlF2QXRFdw?oc=5"
+    },
+    {
+      "title": "Gold price prediction today: Will gold continue its rally? Check August 18, 2026 outlook - The Times of India",
+      "description": "Gold price prediction today: Will gold continue its rally? Check August 18, 2026 outlook&nbsp;&nbsp; The Times of India",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T06:05:00.000Z",
+      "source": "The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxOT2hZV1RheUZjRmhXQWVJRWdDcHM5Y0pLaTJVbHRMWllWR0dKcWREVktoR3BValdBQjVGbjFEUFVUQS1wX2hzNEhBQ1ZNeko0VVNPR2hKSjdZb0g2ZFJQWThmTnFoVzBXMUhtM3NhbmdCMlpUQ0NKb1llMzFWMlUyVjY0b2VtMHFFS1UyU3dDaDhGbHFEY2Q4ZlIzN25MZ3BpUXNFTlBnRnF3NFRfRkZHTjA2UFdJcWRueHROejBnczhacTlWY2ROY2JiYl9MQlV0bFZQd1hYVG9zR1lmSmRqV2trcWdRWF9NNW1xNWt2b3dVbTh5bnhIdlJJbi0xa1NNYUloNnMxcmZKQjJSMkZNVlU4U1I2cTVVSkVKTnpvZExya1R6Z1NrTHM0VdIBsAJBVV95cUxQd0g1LUdtT3Fkenh6T0VRQW5BRmNFZU5Na0JHZ1UxNnB6aW9TR3NJTFV1WW9QRkhuV3BMa0hTTUd0cFRSTWs5RWpCd1pycldfRFl3eHMtdVk2aGhmakxJUXowcThTYjdkN0hXRnZ6WUl1R2I1ZjFubnh0NFZrdDk5ZDhQNHduSEp6TkpRWjE5dldTa25YWHJSZVhLV1IxcmR6SkdOcGtadWZYQzF5NGhydHpYb0lwSmtYejVxTVZIUjhKR3FPZkdGeUV3WHh4ZzNXMXpYelRBanpxVTV3UlVGLUdsN1BSRlA3RE9CRHE0cm5STWUtenBiNV90Z1Bqem9rYU9uWEpCS1M0dVJPVkhiMGMtVkZhZllLcWhSNFY1UzJXZWVQMHotYmNBNXllaWFI?oc=5"
+    },
+    {
+      "title": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains - Investing.com Australia",
+      "description": "Gold rises 1% amid softer dollar, falling Fed rate hike bets; oil caps gains&nbsp;&nbsp; Investing.com Australia",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T00:19:32.000Z",
+      "source": "Investing.com Australia",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdVpVTzNpY2RPYVBnNGNnWXFwN3JsTmhZMEt2VzZaWFlsbURnMEt3VFdlX1o2VjJzQVkwS1dHZWlqMTBmWlhDdGpNdjBwQUVyVkpKV0UzUkxvNmZwc29Gc1BoQkxscUxhX0ZXZ2JTenZ1TURIRHk4cGdBOFRTSjk4dVZGY1RZVkpZUnBneGF1enNhOGdTNDBBYzBVS1BkME1GYkF3ZG5rRS1vNzJla2ctdGFEdHVsQUVUTHMw?oc=5"
+    },
+    {
+      "title": "Gold and silver price today, August 18: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other... - Moneycontrol.com",
+      "description": "Gold and silver price today, August 18: Check rates of 24K, 22K gold in Delhi, Mumbai, Kolkata other...&nbsp;&nbsp; Moneycontrol.com",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T03:05:26.000Z",
+      "source": "Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPQ3BIUVRJcm1tdU1ZbVBDQnhqM20xdFdtdnNHU2ZWdTF0WVVUaU0tbTNQSTlTUGxfTXJYV091LXBMQnVLQ2pVZG5kWl9JOTIyelVZVUZvOFk2NVEyMjVfQnBWckJZc3VnLWZoZnNHSGt6ZU5zTUQ2Yzc2QXdPaXZOaWs1N0JZWHBQNzZQR1pRZV9OYzJpUzJEai1hWWhBQWIxUC1yY05EQzhiemFCRmpLT1dsV3V4MThUS1cyNVZaNWN4UWdUODMtc3l6YTM3azJESUNUZXdqOVIwdDJhMGtseHEwUlE2cWc1eTJjX2VOYWc2aTZkRmRfMHh6ZXZUa0pNT1BkUEtja9IBjAJBVV95cUxNVGNIMUxKSVpXaEtRNGdFRmItNlJyUi0zaGw4cTFKTjNTcm80dVJneTBnY0k2a21udEZWMWpYcTFIOGpLdG0tU2VTNGFsNzhFbXgwWWpyaWJDNURRS2c1ZzNkZ1lDVThVUC1yZHM3UHhtbHRzSVJ4VEpNZ1JsblNzNWozSm5zTmdjRDRRdFZEbVJxYmpIT21QTnVmekpjMFRqMHpZTDNZMUlhNGhlSmZ2SDQ3a2d6QjdxVFAzRG5FV19EZHRrc1dWSmVIdTVvUGs1WkwyRlk4enI0bURNWG1MOGF1Wl9kcDFyb3kwS1o5ajhrdGx1bzFvZ3hPZlAzZ0RIdTZwby1CUGFYZjhn?oc=5"
+    },
+    {
+      "title": "Gold Price Forecast: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch - Bitcoin World",
+      "description": "Gold Price Forecast: XAU/USD Consolidates Before Next Move Higher – Key Levels to Watch&nbsp;&nbsp; Bitcoin World",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T03:35:11.000Z",
+      "source": "Bitcoin World",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83bExtYWZZR0E3ZlZpYnJhSEx1NlZKNXpFb2NnOVd2dnBHbzdRbWlJcmJNVThwenhfNEZXTmhxU0xVUGUtZkZSRGdaelVyZzlPS3VZYTdBX245QlJwdmV1UWFoTEgtVGpBZkpzbGdvS0RRVG1qRTNWcHJqOA?oc=5"
+    },
+    {
+      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T08:34:03.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1OZ3g4UGJfZXgxOHZjQ2thY1VEQ29VVlhUUDNGRHNQQkdpdm04dFQyem00Nk5mOUFHXzlrWlg2cUo4VDcxTEFnem1haWhua1FmaFRQOFR1MmlkZHpHNU16SXlmLXVHTDBHZ1dNb1J3?oc=5"
+    },
+    {
+      "title": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】",
+      "description": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】金十数据8月18日讯，百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图进一步扩大。在迪拜，萝卜快跑开启全无人商业化运营，除自有App外，乘客也可通过UberApp叫车；在香港，萝卜快跑获得当地首批全无人测试牌照，并在机场岛启动测试，成为全球首个在“右舵左行”体系开展全无人驾驶测试的平台；在伦敦，萝卜快跑联合Uber、Lyft启动开放道路测试。同时，萝卜快跑与哈萨克斯坦企业Turlov Private HoldingLtd.（TPH）签署战略合作协议，双方将共同探索在哈萨克斯坦开展无人驾驶出行服务。6月，萝卜快跑与Post Bus合作在瑞士开展公开道路测试。截至目前，萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里，其中全无人驾驶里程超2.4亿公里。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-18T09:08:54.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴",
+      "description": "受美国经济数据疲软与中东地缘局势的双重扰动，全球资金正加速重返黄金市场，甚至有人在期权市场暗中押注暴涨……点击查看...",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T09:07:03.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "Aug 18 — Baidu (09888.HK) reported Q2 2026 revenue",
+      "description": "Aug 18 — Baidu (09888.HK) reported Q2 2026 revenue of 31.3 bln yuan. General business revenue was 25.2 bln yuan, with AI accounting for 50% — the second consecutive quarter above half. AI cloud infrastructure revenue was 7.3 bln yuan, up 50% YoY; GPU cloud revenue rose 283% YoY and has recorded four straight quarters of triple‑digit growth. AI applications revenue was 2.5 bln yuan, up 3% YoY, and AI-native marketing revenue was 2.6 bln yuan. Founder Robin Li said continued AI growth confirms Baidu’s transition to an AI-first company and strengthens confidence in its long-term growth outlook.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T09:05:34.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】",
+      "description": "【百度Q2财报：总营收313亿元 AI业务收入占比连续过半】金十数据8月18日讯，8月18日，百度(09888.HK)发布2026年第二季度财报，显示季度总营收313亿元；百度一般性业务收入252亿元，其中AI业务收入占比50%，已连续两季占比过半。百度创始人李彦宏表示，AI业务的持续增长，进一步印证了百度从一家以互联网为核心的公司转型为一家以AI为先的公司，也进一步增强了百度对长期增长潜力的信心。财报披露，二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T09:05:14.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【眼科管线失利刷屏，贝达药业20CM跌停，公司回应】8月18日，贝达药业股价大幅低开、迅速封死跌停。消息面上，8月17日，EyePoint公布其眼科药物伏罗尼布眼科缓释制剂DURAVYU（EYP-1901）治疗湿性老年黄斑变性LUGANO全球III期试验未达到预设主要疗效终点。受此影响，EYPT隔夜美股大跌66.98%。对此，贝达药业方面回应记者，公司海外子公司和EYPT是有合作关系的，且合作了很多年。昨天EYPT公布了伏罗尼布眼科缓释制剂III期临床研究一项结果，确实没有达到预期，还有一项结果，预计10月份出来。这个药品没有上市，因此对公司现有业务没有什么影响。该事项暂未触发上市公司强制信息披露标准，目前公司在半年报披露静默期，公司业绩及后续情况以公司公告为准。（中证金牛座）",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-18T09:17:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7305213.d.html"
+    },
+    {
+      "title": "【复旦微电：与关联方成立注册资本7000万元合资公司】复旦微电公告称，2026年8月17日，公司与卓垣瑞芯、卓垣昱芯、周军先生及王延政先生订立股东协议，约定在上海成立合资公司上海卓垣弘芯半导体科技有限公司，注册资本7000万元。其中公司以无形资产认缴出资1750万元，持股25.00%；卓垣瑞芯认缴出资1921万元，持股27.44%；卓垣昱芯认缴出资1330万元，持股19.00%；周军先生认缴出资1333万元，持股19.04%；王延政先生认缴出资666万元，持股9.52%。该交易属于公司关联交易，可获豁免独立股东批准。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T09:12:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7301396.d.html"
+    },
+    {
+      "title": "【百度：萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里】百度(09888.HK)发布2026年第二季度财报，萝卜快跑出海版图进一步扩大。在迪拜，萝卜快跑开启全无人商业化运营，除自有App外，乘客也可通过UberApp叫车；在香港，萝卜快跑获得当地首批全无人测试牌照，并在机场岛启动测试，成为全球首个在“右舵左行”体系开展全无人驾驶测试的平台；在伦敦，萝卜快跑联合Uber、Lyft启动开放道路测试。同时，萝卜快跑与哈萨克斯坦企业Turlov Private HoldingLtd.（TPH）签署战略合作协议，双方将共同探索在哈萨克斯坦开展无人驾驶出行服务。6月，萝卜快跑与Post Bus合作在瑞士开展公开道路测试。截至目前，萝卜快跑已覆盖全球28个城市，累计自动驾驶里程超3.5亿公里，其中全无人驾驶里程超2.4亿公里。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-18T09:08:57.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-18/detail-ininttrp7298248.d.html"
+    },
+    {
+      "title": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "description": "【百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%】百度集团：二季度百度AI云基础设施收入73亿元，同比增长50%，其中GPU云同比增长283%，已连续四个季度实现三位数增长；AI应用收入25亿元，同比增长3%；AI原生营销服务收入26亿元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T09:07:00.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3150992"
+    },
     {
       "title": "金十图示：2026年08月18日（周二）上海金早盘价为953.79元/克，较国际金价(953.9元/",
       "description": "金十图示：2026年08月18日（周二）上海金早盘价为953.79元/克，较国际金价(953.9元/克)，低0.11元/克",
@@ -221,91 +677,90 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.254,
-      "change": -0.7125890736341961
+      "price": 1.264,
+      "change": 0.07917656373714267
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.195,
-      "change": -0.8298755186721999
+      "price": 1.202,
+      "change": -0.2489626556016692
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.265,
-      "change": -0.7843137254901967
+      "price": 1.275,
+      "change": 0
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.099,
-      "change": -1.6114592658907805
+      "price": 1.101,
+      "change": -1.4324082363473603
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.712,
-      "change": -0.9735744089012526
+      "price": 0.709,
+      "change": -1.3908205841446466
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 3.151,
-      "change": -1.56201187129023
+      "price": 3.15,
+      "change": -1.5932521087160312
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.689,
-      "change": -0.7204610951008652
+      "price": 0.687,
+      "change": -1.0086455331411952
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.742,
-      "change": -0.6693440428380193
+      "price": 0.74,
+      "change": -0.9370816599732271
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.922,
-      "change": -0.5393743257820932
+      "price": 0.919,
+      "change": -0.8629989212513492
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.066,
-      "change": -0.022055580061743404
+      "price": 9.078,
+      "change": 0.11027790030877578
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.473,
-      "change": -0.010555203715425857
+      "price": 9.483,
+      "change": 0.09499683343888897
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.505,
-      "change": -0.031552376945712425
+      "price": 9.516,
+      "change": 0.08413967185528919
     }
   ],
   "chartData": {
     "etfTrend": {
       "dates": [
-        "2026-07-07",
         "2026-07-08",
         "2026-07-09",
         "2026-07-10",
@@ -342,36 +797,35 @@
           "label": "半导体",
           "data": [
             100,
-            99.47,
-            109.39,
-            102.27,
-            97.14,
-            98.67,
-            93.07,
-            87.74,
-            81.28,
-            79.75,
-            87.74,
-            87.41,
-            84.08,
-            84.61,
-            85.14,
-            78.35,
-            76.75,
-            71.95,
-            74.48,
-            69.22,
-            72.95,
-            77.61,
-            78.41,
-            80.75,
-            80.28,
-            79.08,
-            80.55,
-            79.41,
-            80.15,
-            84.14,
-            82.48
+            109.98,
+            102.81,
+            97.66,
+            99.2,
+            93.57,
+            88.21,
+            81.71,
+            80.17,
+            88.21,
+            87.88,
+            84.53,
+            85.06,
+            85.6,
+            78.77,
+            77.16,
+            72.34,
+            74.88,
+            69.59,
+            73.34,
+            78.03,
+            78.83,
+            81.18,
+            80.71,
+            79.5,
+            80.98,
+            79.84,
+            80.58,
+            84.59,
+            83.52
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -386,36 +840,35 @@
           "label": "光模块",
           "data": [
             100,
-            99.25,
-            106.92,
-            102,
-            96.66,
-            103,
-            100,
-            97.66,
-            87.91,
-            84.9,
-            92.41,
-            88.49,
-            88.16,
-            85.65,
-            88.24,
-            79.65,
-            79.73,
-            73.48,
-            76.73,
-            75.48,
-            82.24,
-            83.57,
-            84.57,
-            86.99,
-            84.99,
-            84.82,
-            87.41,
-            87.16,
-            89.57,
-            93.16,
-            137.95
+            107.73,
+            102.77,
+            97.39,
+            103.78,
+            100.76,
+            98.4,
+            88.57,
+            85.55,
+            93.11,
+            89.16,
+            88.82,
+            86.3,
+            88.91,
+            80.25,
+            80.34,
+            74.03,
+            77.31,
+            76.05,
+            82.86,
+            84.2,
+            85.21,
+            87.65,
+            85.63,
+            85.46,
+            88.07,
+            87.82,
+            90.25,
+            93.87,
+            138.93
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -430,36 +883,35 @@
           "label": "创新药",
           "data": [
             100,
-            97.91,
-            99.68,
-            103.05,
-            102.09,
-            105.63,
-            109.97,
-            109.32,
-            101.13,
-            104.98,
-            105.79,
-            105.95,
-            105.31,
-            100.8,
-            103.38,
-            101.13,
-            102.25,
-            100.32,
-            101.45,
-            99.84,
-            103.05,
-            104.18,
-            102.73,
-            109.32,
-            110.45,
-            111.09,
-            110.61,
-            111.74,
-            110.61,
-            111.58,
-            126.09
+            101.81,
+            105.25,
+            104.27,
+            107.88,
+            112.32,
+            111.66,
+            103.28,
+            107.22,
+            108.05,
+            108.21,
+            107.55,
+            102.96,
+            105.58,
+            103.28,
+            104.43,
+            102.46,
+            103.61,
+            101.97,
+            105.25,
+            106.4,
+            104.93,
+            111.66,
+            112.81,
+            113.46,
+            112.97,
+            114.12,
+            112.97,
+            113.96,
+            128.41
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -474,36 +926,35 @@
           "label": "黄金",
           "data": [
             100,
-            99.91,
-            99.38,
-            99.35,
-            97.93,
-            97.39,
-            97.35,
-            97.28,
-            96.67,
-            96.75,
-            98.5,
-            99.57,
-            99.57,
-            97.53,
-            98.89,
-            97.71,
+            99.48,
+            99.44,
+            98.02,
+            97.49,
+            97.44,
+            97.37,
+            96.76,
+            96.84,
+            98.59,
+            99.66,
+            99.66,
             97.62,
-            97.24,
-            98.09,
-            97.91,
+            98.99,
             97.8,
-            100.5,
-            102.3,
-            103.43,
-            104.75,
-            104.79,
-            105.89,
-            105.18,
-            104.06,
-            105.48,
-            108.74
+            97.71,
+            97.33,
+            98.18,
+            98,
+            97.89,
+            100.59,
+            102.4,
+            103.53,
+            104.84,
+            104.89,
+            105.98,
+            105.27,
+            104.16,
+            105.58,
+            108.96
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -521,8 +972,9 @@
       "datasets": [
         {
           "data": [
+            2,
             1,
-            6
+            23
           ],
           "backgroundColor": [
             "#16a34a",
@@ -535,6 +987,7 @@
       ],
       "labels": [
         "利好",
+        "利空",
         "中性"
       ],
       "hasData": true
@@ -557,25 +1010,25 @@
           "极高": 0,
           "高": 1,
           "中": 0,
-          "低": 2
+          "低": 8
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 1
         },
         "创新药": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 3
+          "低": 7
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
+          "高": 2,
           "中": 0,
-          "低": 1
+          "低": 7
         }
       },
       "hasData": true
@@ -594,17 +1047,27 @@
             1,
             0,
             0,
-            0
+            1
           ],
           "backgroundColor": "#16a34a"
         },
         {
+          "label": "利空",
+          "data": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "backgroundColor": "#dc2626"
+        },
+        {
           "label": "中性",
           "data": [
-            2,
-            0,
-            3,
-            1
+            8,
+            1,
+            7,
+            7
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -619,8 +1082,8 @@
       "datasets": [
         {
           "data": [
-            1,
-            6
+            3,
+            23
           ],
           "backgroundColor": [
             "#2563eb",
