@@ -556,15 +556,15 @@
       "date": "20260819",
       "displayDate": "2026-08-19",
       "isAi": false,
-      "newsCount": 20,
+      "newsCount": 29,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 1,
-        "high": 1
+        "high": 2
       },
-      "signalHitRate": 20,
+      "signalHitRate": 21,
       "directions": {
         "利好": 4,
         "利空": 0,
