@@ -1,18 +1,20 @@
 // ── Pipeline: 配置 & 常量 ──────────────────────────────
 
 // GitHub Actions sets CI=true. Local runs (manual build / preview) don't.
-// On CI we talk directly to Anthropic; locally we go through the local proxy
-// because api.anthropic.com is not reachable from mainland China.
+// On CI we talk directly to a Claude-compatible API; locally we go through
+// the local proxy. Default CI endpoint is Zhipu GLM's Anthropic-compatible
+// API (free tier, reachable from mainland China); ANTHROPIC_BASE_URL env can
+// switch back to api.anthropic.com or any other compatible endpoint.
 const IS_CI = process.env.CI === 'true';
 
 export const CONFIG = {
   isCi: IS_CI,
 
   // Local: proxy at 127.0.0.1:15721 (ANTHROPIC_API_KEY is the placeholder the proxy accepts)
-  // CI: real key from GitHub Actions secrets, direct to api.anthropic.com
+  // CI: real key from GitHub Actions secrets, direct to a Claude-compatible endpoint
   apiKey: IS_CI ? (process.env.ANTHROPIC_API_KEY || '') : 'PROXY_MANAGED',
-  apiBase: IS_CI ? 'https://api.anthropic.com' : 'http://127.0.0.1:15721',
-  model: IS_CI ? (process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-20250514') : 'claude-sonnet-4-20250514',
+  apiBase: IS_CI ? (process.env.ANTHROPIC_BASE_URL || 'https://open.bigmodel.cn/api/anthropic') : 'http://127.0.0.1:15721',
+  model: IS_CI ? (process.env.ANTHROPIC_MODEL || 'glm-4.5-flash') : 'claude-sonnet-4-20250514',
 
   // Google News RSS feeds (blocked in mainland China, kept as fallback)
   feeds: [

@@ -20,7 +20,7 @@ flowchart LR
     subgraph Pipeline["ETL 流水线 (pipeline/)"]
         B1["fetch.mjs<br/>并发抓取"]
         B2["clean.mjs<br/>去重 + 分类 + 时效过滤"]
-        B3["analyze.mjs<br/>Claude AI 分析 / 关键词兜底"]
+        B3["analyze.mjs<br/>AI 逐条研判 / 关键词兜底"]
         B4["charts.mjs<br/>ETF 历史 + 情绪图表数据"]
     end
 
@@ -96,7 +96,9 @@ node scripts/refresh-server.mjs
 
 | 变量 | 说明 |
 |------|------|
-| `ANTHROPIC_API_KEY` | Claude API Key（CI 中通过 GitHub Secrets 注入；本地通过代理自动管理） |
+| `ANTHROPIC_API_KEY` | Claude 兼容 API Key（CI 中通过 GitHub Secrets 注入，默认指向智谱 GLM 免费端点；本地通过代理自动管理） |
+| `ANTHROPIC_BASE_URL` | 可选，覆盖 Claude 兼容 API 地址（默认 `https://open.bigmodel.cn/api/anthropic`） |
+| `ANTHROPIC_MODEL` | 可选，覆盖 AI 研判模型（默认 `glm-4.5-flash`，免费） |
 | `SERVERCHAN_SENDKEY` | Server酱3 SendKey，配置后自动推送微信通知 |
 | `EDGEONE_API_TOKEN` | EdgeOne Pages API Token（国内加速，待绑定备案域名后配置启用；未配置时自动跳过） |
 | `REFRESH_URL` | 公网一键刷新代理地址（腾讯云 SCF 函数 URL），构建时注入前端按钮；未配置时使用代码内置默认值 |
@@ -121,7 +123,7 @@ daily-stock-news/
 │   ├── utils.mjs                  # 工具函数（HTML 清洗、日期格式化）
 │   ├── fetch.mjs                  # 数据抓取层（5 API + 43 RSS + 12 ETF 行情）
 │   ├── clean.mjs                  # 清洗层（去重、板块分类、时效性过滤）
-│   ├── analyze.mjs                # AI 分析层（Claude API + 关键词引擎兜底）
+│   ├── analyze.mjs                # AI 分析层（Claude 兼容 API 逐条研判 + 关键词引擎兜底）
 │   └── charts.mjs                 # 图表数据层（ETF 历史累积、情绪/冲击/方向数据集）
 ├── output/                        # 构建产物
 │   ├── 股市热点日报_20260804.html
@@ -139,7 +141,7 @@ daily-stock-news/
 
 - **模块化 ETL 流水线** — `pipeline/` 目录 6 个模块，职责分离：`fetch`（数据抓取）→ `clean`（去重分类）→ `analyze`（AI 分析）→ `charts`（图表数据），`scripts/build-daily.mjs` 负责编排 + HTML 渲染 + 推送
 - **多源聚合** — 5 个中文财经 API 直连 + 43 条 Google News RSS Feed，8 路并行分批抓取。直接 API 源优先于 RSS 源去重
-- **AI 智能分析** — Claude API 对新闻逐条研判，输出中文标题、板块归类、方向判断（利好/利空/中性/分化）、影响评级（极高/高/中/低），附带确定性评分和时间窗口，每条简讯关联 A 股标的；AI 不可用时自动降级为本地关键词引擎
+- **AI 智能分析** — Claude 兼容 API（默认智谱 GLM 免费模型）对新闻逐条研判，输出中文标题、板块归类、方向判断（利好/利空/中性/分化）、影响评级（极高/高/中/低），附带确定性评分和时间窗口，每条简讯关联 A 股标的；AI 不可用时自动降级为本地关键词引擎
 - **板块方向硬校准** — 板块最终方向以当日 ETF 实际涨跌为准（±3% 硬阈值）：跌超 3% 强制利空、涨超 3% 强制利好、±1%~3% 强制中性、±1% 内由新闻研判决定；大跌板块内的中性新闻顺势调向，但明确利好/利空（如 FDA 获批）不受行情覆盖
 - **关键词引擎兜底** — API 不可用时自动降级为本地关键词匹配引擎（含涨跌行情信号，覆盖四大赛道），保证日报照常出
 - **数据可视化** — Chart.js 渲染 4 张图表：ETF 价格走势折线图、情绪分布环形图、板块方向堆叠柱状图、冲击热力图；ETF 价格数据每日累积至 `etf_history.json`
