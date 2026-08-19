@@ -66,8 +66,8 @@ flowchart LR
 ## 在线访问
 
 - **国内主链接（jsDelivr 镜像）**：<https://cdn.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html> —— 每次构建后 CI 自动清理 CDN 缓存，镜像即时更新到最新日报，无需手动刷新
+- **辅助（EdgeOne Pages 预览，国内节点）**：构建后 3 小时内可通过 EdgeOne 预览链接查看最新版（免 CDN 缓存延迟），每次构建后去 [EdgeOne 控制台](https://edgeone.cloud.tencent.com/pages) → `daily-stock-news` 项目 → 部署列表 → 预览获取。长期稳定访问需绑定已备案自定义域名
 - **主链接（GitHub Pages，海外稳定）**：<https://cc5207597-hash.github.io/daily-stock-news/>
-- **EdgeOne Pages（腾讯，国内节点）**：EdgeOne 免费档提供 3 小时时效的预览链接，需在 [EdgeOne 控制台](https://edgeone.cloud.tencent.com/pages) 的 `daily-stock-news` 项目内查看；长期稳定国内访问需绑定已备案自定义域名
 - ~~Zeabur~~：免费档已关停（2026/3 起共享集群停止接受新项目），不再作为主链接
 
 每天（含周末）北京时间 09:00 / 16:00 / 20:00 自动构建更新；另有心跳兜底（北京 14:00 / 22:00），主时段被 GitHub cron 漂移/跳过时当天存档缺失会自动补建，保证日报当天必出。若主链接偶发打不开，用备用镜像即可。
