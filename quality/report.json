@@ -562,7 +562,7 @@
       "covered": true,
       "impact": {
         "vhigh": 5,
-        "high": 5
+        "high": 6
       },
       "signalHitRate": 25,
       "directions": {
