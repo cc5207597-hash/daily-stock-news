@@ -1,0 +1,947 @@
+{
+  "date": "20260819",
+  "displayDate": "2026-08-19",
+  "generatedAt": "2026-08-19T03:31:11.173Z",
+  "analyzed": [
+    {
+      "title_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+      "summary_cn": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(40)",
+      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+      "description": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、徐汇园、漕河泾园等为示范引领的人工智能先导产业集群。提升智能计算能力，突破光计算、类脑等颠覆性芯片架构，构建超算智算融合、云边端协同的自主算力体系，建设浦江公共算力服务平台。",
+      "pubDate": "2026-08-19T02:29:39.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151442"
+    },
+    {
+      "title_cn": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "summary_cn": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
+      "pubDate": "2026-08-19T02:31:05.000Z",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
+    },
+    {
+      "title_cn": "黄金距离4500只差临门一脚？央行和ETF已经先动手了 - FX168财经",
+      "summary_cn": "黄金距离4500只差临门一脚？央行和ETF已经先动手了&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "黄金距离4500只差临门一脚？央行和ETF已经先动手了 - FX168财经",
+      "description": "黄金距离4500只差临门一脚？央行和ETF已经先动手了&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-08-19T03:15:06.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
+    },
+    {
+      "title_cn": "ChiNext Index fell 5%, Shenzhen Composite Index fe",
+      "summary_cn": "ChiNext Index fell 5%, Shenzhen Composite Index fell nearly 4%, Shanghai Composite fell 1.98% and STAR 50 Index fell 6%. MLCC, CPO and 存储-芯片 板块s led the declines.",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "ChiNext Index fell 5%, Shenzhen Composite Index fe",
+      "description": "ChiNext Index fell 5%, Shenzhen Composite Index fell nearly 4%, Shanghai Composite fell 1.98% and STAR 50 Index fell 6%. MLCC, CPO and memory-chip sectors led the declines.",
+      "pubDate": "2026-08-19T03:24:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存",
+      "summary_cn": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存",
+      "description": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "pubDate": "2026-08-19T03:24:20.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】",
+      "summary_cn": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】金十数据8月19日讯，8月19日，波士顿科学宣布，上海临港工厂生产的新一代FARASTAR心脏脉冲电场消融系统",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】",
+      "description": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】金十数据8月19日讯，8月19日，波士顿科学宣布，上海临港工厂生产的新一代FARASTAR心脏脉冲电场消融系统正式获得国家药监局批准。从注册申请获得受理到正式获批，创下公司在华本土生产设备项目最快获批纪录，较公司以往同类项目的平均审批周期缩短约1.5个月。产品采用面向未来临床需求开发的全球最新一代设备平台，意味着该核心设备在中国的本土化从更高起点展开；临港基地的生产范围也由高端介入耗材拓展至复杂设备平台。",
+      "pubDate": "2026-08-19T03:20:53.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【韩国智库上调经济增长预期，高于政府预测】",
+      "summary_cn": "【韩国智库上调经济增长预期，高于政府预测】金十数据8月19日讯，韩国开发研究院（KDI）表示，预计韩国经济2026年增长3.2%，高于5月预测的2.5%，理由是",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【韩国智库上调经济增长预期，高于政府预测】",
+      "description": "【韩国智库上调经济增长预期，高于政府预测】金十数据8月19日讯，韩国开发研究院（KDI）表示，预计韩国经济2026年增长3.2%，高于5月预测的2.5%，理由是全球芯片需求强劲，预计效益逐步传导至韩国国内经济。这一最新预测高于韩国政府3%的预测，以及国际货币基金组织（IMF）上月发布的2.6%的预测。在经济学家和政策制定者纷纷上调增长预期之际，KDI正试图将不断飙升的AI需求纳入考量，并判断这种需求还能持续多久。KDI表示，韩国经济自去年下半年以来的扩张势头预计将延续，AI需求继续推动半导体出口，将抵消中东战争导致进口成本上升的影响。KDI预计，韩国出口今年将增长8.7%，明年增长5%。",
+      "pubDate": "2026-08-19T03:13:35.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员",
+      "summary_cn": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员工组成的同行工会（Donghaeng Union）宣布，将在",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员",
+      "description": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员工组成的同行工会（Donghaeng Union）宣布，将在位于首尔瑞草区的三星总部外举行大规模集会，要求公司向每位员工发放1000股库存股。该工会的核心诉求是为DX部门的员工争取额外补偿。工会认为，每位DX员工应获得1000股三星电子的库存股。工会表示，5月份达成的工资协议导致负责半导体的DS部门与负责智能手机、电视和家用电器的DX部门之间基于绩效的薪酬差距过大，加剧了DX员工的相对剥夺感。因此，工会要求公司提供单独的额外补偿。如果向上个月在职的49,345名DX员工每人授予1,000股，则总共需要4934.5万股。假设三星电子的股价约为每股25万韩元，那么总股本将超过12万亿韩元。",
+      "pubDate": "2026-08-19T03:10:38.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也",
+      "summary_cn": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也录得约75亿美元净买入；但同期科技ETF整体流出约34亿美元",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也",
+      "description": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也录得约75亿美元净买入；但同期科技ETF整体流出约34亿美元（-1.4z），其中SOXL、SMH和SOXX三只半导体ETF合计流出约39亿美元。这种分化拉长到4周后更明显。QQQ累计流入154亿美元；SOXX同期却流出56亿美元。单周来看，SOXX和SMH也分别流出21亿美元和13亿美元。资金仍在通过纳指和大型科技获取科技敞口，同时持续降低半导体板块配置。这说明近期科技交易已经开始从「整体买入」转向内部再配置。半导体仍处在AI主线核心位置，但资金拥挤和前期涨幅较大后，部分投资者正在主动降低这一环节的风险敞口。后续如果QQQ继续吸金、半导体资金流仍未止跌，科技内部的相对表现分化可能继续扩大。",
+      "pubDate": "2026-08-19T03:02:18.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "创业板指跌5％，深证成指跌近4％，沪指跌1.98％，科创50指数跌6％，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指跌5％，深证成指跌近4％，沪指跌1.98％，科创50指数跌6％，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "description": "",
+      "pubDate": "2026-08-19T03:25:03.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyq8304649.d.html"
+    },
+    {
+      "title_cn": "【韩国智库上调今年经济增长预期至3.2%，因AI需求强劲】韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。在经济学家和政策制定者纷纷调整经济增长预期之际，韩国开发研究院（KDI）发布了最新预测，试图将人工智能需求的强劲增长纳入考量，并评估这种增长势头能够持续多久。KDI表示，自去年下半年以来韩国经济的扩张势头预计将保持，因为人工智能需求将继续推动半导体出口，抵消中东冲突导致的进口成本上升。KDI预计，今年韩国半导体出口将增长8.7%，明年将增长5%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【韩国智库上调今年经济增长预期至3.2%，因AI需求强劲】韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。在经济学家和政策制定者纷纷调整经济增长预期之际，韩国开发研究院（KDI）发布了最新预测，试图将人工智能需求的强劲增长纳入考量，并评估这种增长势头能够持续多久。KDI表示，自去年下半年以来韩国经济的扩张势头预计将保持，因为人工智能需求将继续推动半导体出口，抵消中东冲突导致的进口成本上升。KDI预计，今年韩国半导体出口将增长8.7%，明年将增长5%。",
+      "description": "",
+      "pubDate": "2026-08-19T03:05:30.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvfsv7146171.d.html"
+    },
+    {
+      "title_cn": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "summary_cn": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(5·仅行情描述,不含基本面,方向中性)",
+      "title": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "description": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港涨停。下跌方面，算力硬件股下挫，天洋新材等跌停；半导体板块调整，华虹宏力等跌超10%。个股呈现普跌态势，沪深京三市近5000股飘绿，上午半天成交1.63万亿。午间收盘沪指跌1.96%，深成指跌3.97%，创业板跌4.98%。",
+      "pubDate": "2026-08-19T03:30:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151472"
+    },
+    {
+      "title_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "summary_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "pubDate": "2026-08-19T03:22:31.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151466"
+    },
+    {
+      "title_cn": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+      "summary_cn": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:订单·利好(60)+扩产·利好(20)",
+      "title": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+      "description": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89%。上述订单具备明确转化预期，但收入转化需要一定时间周期。其中，设计服务订单通常需9—12个月设计研发周期；量产服务业务订单受客户产品出货规划、合作晶圆厂产能排期等因素影响，从签约开始通常需6—18个月完整生产交付周期。",
+      "pubDate": "2026-08-19T02:12:46.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151436"
+    },
+    {
+      "title_cn": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "summary_cn": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "description": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "pubDate": "2026-08-19T02:18:35.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151439"
+    },
+    {
+      "title_cn": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
+      "summary_cn": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; 财联社",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(10·仅行情描述,不含基本面,方向中性)",
+      "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
+      "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; 财联社",
+      "pubDate": "2026-08-18T22:14:53.000Z",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+    },
+    {
+      "title_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s - 交易View",
+      "summary_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s&nbsp;&nbsp; 交易View",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets - TradingView",
+      "description": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets&nbsp;&nbsp; TradingView",
+      "pubDate": "2026-08-18T18:06:35.000Z",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
+    },
+    {
+      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
+      "title_cn": "黄金 and Silver: The Hidden Forces Driving Its 价格 Movements - Substack",
+      "summary_cn": "黄金 and Silver: The Hidden Forces Driving Its 价格 Movements&nbsp;&nbsp; Substack",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold and Silver: The Hidden Forces Driving Its Price Movements - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
+      "pubDate": "2026-08-18T17:07:04.000Z",
+      "source": "Substack",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
+    },
+    {
+      "title_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "summary_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
+      "pubDate": "2026-08-18T17:15:00.000Z",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
+    }
+  ],
+  "sectorMatrix": [
+    {
+      "name": "半导体",
+      "shock": "强",
+      "direction": "利好",
+      "news_count": 13,
+      "summary": "半导体板块13条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
+      "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 4,
+      "summary": "黄金板块4条新闻，方向以利好为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
+      "name": "光模块",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 2,
+      "summary": "光模块板块2条新闻，方向以利好为主",
+      "tickers": "中际旭创、新易盛、天孚通信"
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 1,
+      "summary": "创新药板块1条新闻，方向以利好为主。关注：【全球最新一代脉冲电场消融核心设备在华创纪录获批】；【全球最新一代脉冲电场消融",
+      "tickers": "百济神州、药明康德、恒瑞医药"
+    }
+  ],
+  "keyPoints": [
+    "今日共抓取 20 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 1 条，高影响 1 条，利好方向 2 条。",
+    "板块概况：半导体(利好, 强冲击, 13条)、黄金(利好, 弱冲击, 4条)、光模块(利好, 弱冲击, 2条)、创新药(利好, 弱冲击, 1条)。",
+    "重点关注：上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构；【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社；【全球最新一代脉冲电场消融核心设备在华创纪录获批】。"
+  ],
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，20 条新闻经关键词引擎自动分析生成。",
+  "isAi": false,
+  "fullNews": [
+    {
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T02:31:05.000Z",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
+    },
+    {
+      "title": "黄金距离4500只差临门一脚？央行和ETF已经先动手了 - FX168财经",
+      "description": "黄金距离4500只差临门一脚？央行和ETF已经先动手了&nbsp;&nbsp; FX168财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T03:15:06.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
+    },
+    {
+      "title": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets - TradingView",
+      "description": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets&nbsp;&nbsp; TradingView",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T18:06:35.000Z",
+      "source": "TradingView",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
+    },
+    {
+      "title": "Gold and Silver: The Hidden Forces Driving Its Price Movements - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T17:07:04.000Z",
+      "source": "Substack",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
+    },
+    {
+      "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
+      "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; 财联社",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T22:14:53.000Z",
+      "source": "财联社",
+      "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+    },
+    {
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T17:15:00.000Z",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
+    },
+    {
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
+      "title": "ChiNext Index fell 5%, Shenzhen Composite Index fe",
+      "description": "ChiNext Index fell 5%, Shenzhen Composite Index fell nearly 4%, Shanghai Composite fell 1.98% and STAR 50 Index fell 6%. MLCC, CPO and memory-chip sectors led the declines.",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-19T03:24:28.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存",
+      "description": "创业板指跌5%，深证成指跌近4%，沪指跌1.98%，科创50指数跌6%，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-19T03:24:20.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】",
+      "description": "【全球最新一代脉冲电场消融核心设备在华创纪录获批】金十数据8月19日讯，8月19日，波士顿科学宣布，上海临港工厂生产的新一代FARASTAR心脏脉冲电场消融系统正式获得国家药监局批准。从注册申请获得受理到正式获批，创下公司在华本土生产设备项目最快获批纪录，较公司以往同类项目的平均审批周期缩短约1.5个月。产品采用面向未来临床需求开发的全球最新一代设备平台，意味着该核心设备在中国的本土化从更高起点展开；临港基地的生产范围也由高端介入耗材拓展至复杂设备平台。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T03:20:53.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【韩国智库上调经济增长预期，高于政府预测】",
+      "description": "【韩国智库上调经济增长预期，高于政府预测】金十数据8月19日讯，韩国开发研究院（KDI）表示，预计韩国经济2026年增长3.2%，高于5月预测的2.5%，理由是全球芯片需求强劲，预计效益逐步传导至韩国国内经济。这一最新预测高于韩国政府3%的预测，以及国际货币基金组织（IMF）上月发布的2.6%的预测。在经济学家和政策制定者纷纷上调增长预期之际，KDI正试图将不断飙升的AI需求纳入考量，并判断这种需求还能持续多久。KDI表示，韩国经济自去年下半年以来的扩张势头预计将延续，AI需求继续推动半导体出口，将抵消中东战争导致进口成本上升的影响。KDI预计，韩国出口今年将增长8.7%，明年增长5%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:13:35.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员",
+      "description": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员工组成的同行工会（Donghaeng Union）宣布，将在位于首尔瑞草区的三星总部外举行大规模集会，要求公司向每位员工发放1000股库存股。该工会的核心诉求是为DX部门的员工争取额外补偿。工会认为，每位DX员工应获得1000股三星电子的库存股。工会表示，5月份达成的工资协议导致负责半导体的DS部门与负责智能手机、电视和家用电器的DX部门之间基于绩效的薪酬差距过大，加剧了DX员工的相对剥夺感。因此，工会要求公司提供单独的额外补偿。如果向上个月在职的49,345名DX员工每人授予1,000股，则总共需要4934.5万股。假设三星电子的股价约为每股25万韩元，那么总股本将超过12万亿韩元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:10:38.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也",
+      "description": "摩根大通数据显示，过去一周美股科技内部出现明显资金分化。QQQ单周流入约30亿美元，纳指100期货也录得约75亿美元净买入；但同期科技ETF整体流出约34亿美元（-1.4z），其中SOXL、SMH和SOXX三只半导体ETF合计流出约39亿美元。这种分化拉长到4周后更明显。QQQ累计流入154亿美元；SOXX同期却流出56亿美元。单周来看，SOXX和SMH也分别流出21亿美元和13亿美元。资金仍在通过纳指和大型科技获取科技敞口，同时持续降低半导体板块配置。这说明近期科技交易已经开始从「整体买入」转向内部再配置。半导体仍处在AI主线核心位置，但资金拥挤和前期涨幅较大后，部分投资者正在主动降低这一环节的风险敞口。后续如果QQQ继续吸金、半导体资金流仍未止跌，科技内部的相对表现分化可能继续扩大。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:02:18.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "创业板指跌5％，深证成指跌近4％，沪指跌1.98％，科创50指数跌6％，MLCC概念、CPO板块、存储芯片板块跌幅居前。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:25:03.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyq8304649.d.html"
+    },
+    {
+      "title": "【韩国智库上调今年经济增长预期至3.2%，因AI需求强劲】韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。在经济学家和政策制定者纷纷调整经济增长预期之际，韩国开发研究院（KDI）发布了最新预测，试图将人工智能需求的强劲增长纳入考量，并评估这种增长势头能够持续多久。KDI表示，自去年下半年以来韩国经济的扩张势头预计将保持，因为人工智能需求将继续推动半导体出口，抵消中东冲突导致的进口成本上升。KDI预计，今年韩国半导体出口将增长8.7%，明年将增长5%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:05:30.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvfsv7146171.d.html"
+    },
+    {
+      "title": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "description": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港涨停。下跌方面，算力硬件股下挫，天洋新材等跌停；半导体板块调整，华虹宏力等跌超10%。个股呈现普跌态势，沪深京三市近5000股飘绿，上午半天成交1.63万亿。午间收盘沪指跌1.96%，深成指跌3.97%，创业板跌4.98%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:30:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151472"
+    },
+    {
+      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:22:31.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151466"
+    },
+    {
+      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+      "description": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、徐汇园、漕河泾园等为示范引领的人工智能先导产业集群。提升智能计算能力，突破光计算、类脑等颠覆性芯片架构，构建超算智算融合、云边端协同的自主算力体系，建设浦江公共算力服务平台。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T02:29:39.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151442"
+    },
+    {
+      "title": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "description": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T02:18:35.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151439"
+    },
+    {
+      "title": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+      "description": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89%。上述订单具备明确转化预期，但收入转化需要一定时间周期。其中，设计服务订单通常需9—12个月设计研发周期；量产服务业务订单受客户产品出货规划、合作晶圆厂产能排期等因素影响，从签约开始通常需6—18个月完整生产交付周期。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T02:12:46.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151436"
+    }
+  ],
+  "etfData": [
+    {
+      "code": "159995",
+      "name": "芯片ETF华夏",
+      "category": "半导体",
+      "price": 1.174,
+      "change": -7.120253164556968
+    },
+    {
+      "code": "512760",
+      "name": "芯片ETF国泰",
+      "category": "半导体",
+      "price": 1.119,
+      "change": -6.905158069883524
+    },
+    {
+      "code": "588200",
+      "name": "科创芯片ETF嘉实",
+      "category": "半导体",
+      "price": 1.19,
+      "change": -6.666666666666663
+    },
+    {
+      "code": "515050",
+      "name": "通信ETF华夏",
+      "category": "光模块",
+      "price": 1.029,
+      "change": -6.539509536784747
+    },
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "category": "光模块",
+      "price": 0.663,
+      "change": -6.488011283497874
+    },
+    {
+      "code": "159811",
+      "name": "5GETF博时",
+      "category": "光模块",
+      "price": 2.955,
+      "change": -6.190476190476186
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "category": "创新药",
+      "price": 0.673,
+      "change": -2.0378457059679786
+    },
+    {
+      "code": "159858",
+      "name": "创新药ETF南方",
+      "category": "创新药",
+      "price": 0.724,
+      "change": -2.162162162162164
+    },
+    {
+      "code": "159992",
+      "name": "创新药ETF银华",
+      "category": "创新药",
+      "price": 0.897,
+      "change": -2.393906420021765
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "category": "黄金",
+      "price": 8.997,
+      "change": -0.8922670191672122
+    },
+    {
+      "code": "159934",
+      "name": "黄金ETF易方达",
+      "category": "黄金",
+      "price": 9.397,
+      "change": -0.9068860065380185
+    },
+    {
+      "code": "518800",
+      "name": "黄金ETF国泰",
+      "category": "黄金",
+      "price": 9.431,
+      "change": -0.8932324506095088
+    }
+  ],
+  "chartData": {
+    "etfTrend": {
+      "dates": [
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31",
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19"
+      ],
+      "datasets": [
+        {
+          "label": "半导体",
+          "data": [
+            100,
+            109.98,
+            102.81,
+            97.66,
+            99.2,
+            93.57,
+            88.21,
+            81.71,
+            80.17,
+            88.21,
+            87.88,
+            84.53,
+            85.06,
+            85.6,
+            78.77,
+            77.16,
+            72.34,
+            74.88,
+            69.59,
+            73.34,
+            78.03,
+            78.83,
+            81.18,
+            80.71,
+            79.5,
+            80.98,
+            79.84,
+            80.58,
+            84.59,
+            84.66,
+            77.76
+          ],
+          "borderColor": "#7c3aed",
+          "backgroundColor": "#7c3aed22",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "光模块",
+          "data": [
+            100,
+            107.73,
+            102.77,
+            97.39,
+            103.78,
+            100.76,
+            98.4,
+            88.57,
+            85.55,
+            93.11,
+            89.16,
+            88.82,
+            86.3,
+            88.91,
+            80.25,
+            80.34,
+            74.03,
+            77.31,
+            76.05,
+            82.86,
+            84.2,
+            85.21,
+            87.65,
+            85.63,
+            85.46,
+            88.07,
+            87.82,
+            90.25,
+            93.87,
+            92.52,
+            130.17
+          ],
+          "borderColor": "#0891b2",
+          "backgroundColor": "#0891b222",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "创新药",
+          "data": [
+            100,
+            101.81,
+            105.25,
+            104.27,
+            107.88,
+            112.32,
+            111.66,
+            103.28,
+            107.22,
+            108.05,
+            108.21,
+            107.55,
+            102.96,
+            105.58,
+            103.28,
+            104.43,
+            102.46,
+            103.61,
+            101.97,
+            105.25,
+            106.4,
+            104.93,
+            111.66,
+            112.81,
+            113.46,
+            112.97,
+            114.12,
+            112.97,
+            113.96,
+            112.81,
+            125.57
+          ],
+          "borderColor": "#0d9488",
+          "backgroundColor": "#0d948822",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "黄金",
+          "data": [
+            100,
+            99.48,
+            99.44,
+            98.02,
+            97.49,
+            97.44,
+            97.37,
+            96.76,
+            96.84,
+            98.59,
+            99.66,
+            99.66,
+            97.62,
+            98.99,
+            97.8,
+            97.71,
+            97.33,
+            98.18,
+            98,
+            97.89,
+            100.59,
+            102.4,
+            103.53,
+            104.84,
+            104.89,
+            105.98,
+            105.27,
+            104.16,
+            105.58,
+            105.69,
+            107.99
+          ],
+          "borderColor": "#d97706",
+          "backgroundColor": "#d9770622",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        }
+      ],
+      "hasData": true
+    },
+    "sentiment": {
+      "datasets": [
+        {
+          "data": [
+            2,
+            18
+          ],
+          "backgroundColor": [
+            "#16a34a",
+            "#dc2626",
+            "#9ca0af",
+            "#ea580c"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "labels": [
+        "利好",
+        "中性"
+      ],
+      "hasData": true
+    },
+    "heatmap": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "impacts": [
+        "低",
+        "中",
+        "高",
+        "极高"
+      ],
+      "matrix": {
+        "半导体": {
+          "极高": 1,
+          "高": 1,
+          "中": 0,
+          "低": 11
+        },
+        "光模块": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 2
+        },
+        "创新药": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 1
+        },
+        "黄金": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 4
+        }
+      },
+      "hasData": true
+    },
+    "direction": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "datasets": [
+        {
+          "label": "利好",
+          "data": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": "#16a34a"
+        },
+        {
+          "label": "中性",
+          "data": [
+            11,
+            2,
+            1,
+            4
+          ],
+          "backgroundColor": "#9ca0af"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期",
+        "中期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            2,
+            18
+          ],
+          "backgroundColor": [
+            "#2563eb",
+            "#ea580c"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "hasData": true
+    }
+  }
+}
