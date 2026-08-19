@@ -99,10 +99,10 @@ node scripts/refresh-server.mjs
 | `ANTHROPIC_API_KEY` | Claude API Key（CI 中通过 GitHub Secrets 注入；本地通过代理自动管理） |
 | `SERVERCHAN_SENDKEY` | Server酱3 SendKey，配置后自动推送微信通知 |
 | `EDGEONE_API_TOKEN` | EdgeOne Pages API Token（国内加速，待绑定备案域名后配置启用；未配置时自动跳过） |
-| `REFRESH_URL` | 公网一键刷新代理地址（腾讯云 SCF 函数 URL），CI 构建时注入前端按钮 |
-| `REFRESH_SECRET` | 与云函数 `SHARED_SECRET` 相同的共享密钥，CI 构建时注入前端 |
+| `REFRESH_URL` | 公网一键刷新代理地址（腾讯云 SCF 函数 URL），构建时注入前端按钮；未配置时使用代码内置默认值 |
+| `REFRESH_SECRET` | 与云函数 `SHARED_SECRET` 相同的共享密钥，构建时注入前端；未配置时使用代码内置默认值 |
 
-> 主链接 GitHub Pages 为纯静态托管，**无需任何环境变量**：构建/推送全部在 GitHub Actions 完成，每次构建后自动部署，构建完即可看到最新日报。公网一键刷新需在 SCF 云函数配置 `GITHUB_PAT` + `SHARED_SECRET`（见 `scripts/cloud-refresh.mjs` 头部注释）。
+> 主链接 GitHub Pages 为纯静态托管，**无需任何环境变量**：构建/推送全部在 GitHub Actions 完成，每次构建后自动部署，构建完即可看到最新日报。公网一键刷新的代理地址与密钥已内置在代码中（见 `scripts/cloud-refresh.mjs` 头部注释），无需额外配置。
 
 ---
 

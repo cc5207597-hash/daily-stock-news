@@ -474,8 +474,8 @@ ${keyPoints.length > 0 ? `
 
 </div>
 <script>
-const REFRESH_URL = ${JSON.stringify(process.env.REFRESH_URL || '')};
-const REFRESH_SECRET = ${JSON.stringify(process.env.REFRESH_SECRET || '')};
+const REFRESH_URL = ${JSON.stringify(process.env.REFRESH_URL || 'https://1384887796-0ww1bkypy1.ap-guangzhou.tencentscf.com')};
+const REFRESH_SECRET = ${JSON.stringify(process.env.REFRESH_SECRET || '87vBu0o-PR89DWTVf8Eqko2j')};
 // BASE was set by the inline script in <head> (which also injected Chart.js).
 // It holds the site root derived from the current URL — '' at the domain root
 // (local preview), '/daily-stock-news' on gh-pages. All history/asset paths
@@ -489,6 +489,8 @@ let lastPhase = 'fetch';
 function isLocalHost() { return ['localhost', '127.0.0.1', '::1', '0.0.0.0'].includes(location.hostname); }
 // 公网可用: 配置了云端刷新代理(REFRESH_URL 非空); 本机可用: 本地预览服务
 function refreshAvailable() { return !!(REFRESH_URL || isLocalHost()); }
+// 云端代理仅在公网域名生效; 本机(localhost)下即使注入了云端 URL 也走本地 refresh-server
+const isCloud = !!(REFRESH_URL && !isLocalHost());
 function updateBtnPhase(phase) {
   const btn = document.querySelector('.refresh-btn');
   if (!btn) return;
@@ -512,7 +514,7 @@ async function triggerRefresh() {
   refreshStartedAt = Date.now();
 
   // ── 云端代理模式: 触发 GitHub Actions 重建,前端轮询 build-state.json ──
-  if (REFRESH_URL) {
+  if (isCloud) {
     const runId = Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8);
     try {
       const r = await fetch(REFRESH_URL + '/refresh', {
@@ -544,7 +546,7 @@ async function triggerRefresh() {
     return;
   }
   try {
-    const r = await fetch(REFRESH_URL + '/refresh', { method: 'POST' });
+    const r = await fetch('/refresh', { method: 'POST' });
     const d = await r.json();
     if (r.status === 202) {
       showToast(d.status === 'already_running' ? '构建已在进行,完成后自动刷新' : '已开始重建,完成后自动刷新', 'ok');
@@ -576,7 +578,7 @@ function resetBtn() {
 }
 async function pollStatus(myRunId) {
   // ── 云端模式: 轮询 history/build-state.json,用 runId 精确判断"这一次"构建完成 ──
-  if (REFRESH_URL) {
+  if (isCloud) {
     const MAX = 90; // 8s × 90 ≈ 12 分钟,覆盖 Actions 排队 + 构建 + 部署
     let netErrors = 0;
     for (let i = 0; i < MAX; i++) {
@@ -610,7 +612,7 @@ async function pollStatus(myRunId) {
   for (let i = 0; i < MAX; i++) {
     await new Promise(r => setTimeout(r, 8000));
     try {
-      const r = await fetch(REFRESH_URL + '/status', { cache: 'no-store' });
+      const r = await fetch('/status', { cache: 'no-store' });
       const d = await r.json();
       netErrors = 0;
       if (d.phase) lastPhase = d.phase;

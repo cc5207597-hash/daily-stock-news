@@ -564,11 +564,11 @@
         "vhigh": 2,
         "high": 3
       },
-      "signalHitRate": 21,
+      "signalHitRate": 0,
       "directions": {
-        "利好": 4,
+        "利好": 3,
         "利空": 0,
-        "分化": 0,
+        "分化": 1,
         "中性": 0
       },
       "matrix": [
@@ -579,7 +579,7 @@
         },
         {
           "name": "半导体",
-          "direction": "利好",
+          "direction": "分化",
           "shock": "强"
         },
         {
@@ -590,7 +590,7 @@
         {
           "name": "光模块",
           "direction": "利好",
-          "shock": "弱"
+          "shock": "中"
         }
       ]
     }

@@ -5,3 +5,4 @@ output/
 .claude/
 refresh-state.json
 .edgeone/
+.scf-deploy/
