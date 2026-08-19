@@ -216,6 +216,10 @@ new Chart(document.getElementById('heatmapChart'), {
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- 日报每日更新,禁浏览器缓存,配合 CI 的 jsDelivr purge 保证镜像即时可见(普通 F5 即刷新) -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>行业板块日报 · ${todayDisplay}</title>
 <style>
   :root {

@@ -1,27 +1,27 @@
 {
   "date": "20260819",
   "displayDate": "2026-08-19",
-  "generatedAt": "2026-08-19T09:27:25.321Z",
+  "generatedAt": "2026-08-19T11:46:43.935Z",
   "analyzed": [
     {
-      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
-      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
-      "category": "半导体",
+      "title_cn": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "summary_cn": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "category": "黄金",
       "direction": "中性",
       "impact": "低",
       "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
-      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
-      "pubDate": "2026-08-19T09:16:15.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
+      "title": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "description": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "pubDate": "2026-08-19T11:31:40.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
-      "title_cn": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
-      "summary_cn": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试",
+      "title_cn": "默克和莫德纳表示，他们的实验性个性化",
+      "summary_cn": "默克和莫德纳表示，他们的实验性个性化mRNA疫苗与默克的Keytruda联用，在超过1100名高危或晚期黑色素瘤患者的III期试验中达到了主要终点",
       "category": "创新药",
       "direction": "中性",
       "impact": "低",
@@ -29,11 +29,107 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
-      "description": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试验批准通知书》，注射用HY07121（皮下注射）用于治疗晚期实体瘤的临床试验获得批准。该药品为抗PD-1、抗TIGIT、IL-15/IL-15Rα三靶点抗体融合蛋白，属1类创新型治疗用生物制品。",
-      "pubDate": "2026-08-19T09:08:11.000Z",
+      "title": "Merck and Moderna said their experimental personal",
+      "description": "Merck and Moderna said their experimental personalized mRNA vaccine, given with Merck’s Keytruda, met the primary endpoint in a Phase III trial of more than 1,100 high‑risk or advanced melanoma patients, significantly extending recurrence‑free survival versus Keytruda alone and lowering risk of distant metastasis. The result builds on positive Phase II data earlier this year; the trial will continue to evaluate additional endpoints including overall survival. The companies plan to present data at an upcoming international medical meeting; no timing for a U.S. regulatory submission was disclose",
+      "pubDate": "2026-08-19T11:11:10.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】",
+      "summary_cn": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】金十数据8月19日讯，默沙东和Moderna周三宣布，一款联合研发的实验性个",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(5)+行情·中性(5·仅行情描述,不含基本面,方向中性)",
+      "title": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】",
+      "description": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】金十数据8月19日讯，默沙东和Moderna周三宣布，一款联合研发的实验性个性化癌症疫苗在首次晚期临床试验中取得积极初步结果，使得距离申请该治疗方案获批更近一步。这款基于mRNA的疫苗与默沙东的免疫疗法Keytruda联合使用，在针对1100多名高风险或晚期黑色素瘤患者的三期试验中达到了关键目标，即与单独使用Keytruda相比，显著延长了患者黑色素瘤不复发的时间。该治疗还降低了癌症扩散至身体其他部位的风险。这些结果建立在今年早些时候同一方案积极的二期试验数据之上。三期临床试验将继续评估其他疗效指标，包括该疗法对患者总体生存期的获益。两家公司计划在即将召开的国际医学会议上公布相关数据，但目前尚不清楚他们何时计划向美国提交上市申请。默沙东股价盘前现涨近8%，Moderna大涨逾60%。",
+      "pubDate": "2026-08-19T11:10:59.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】",
+      "summary_cn": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】金十数据8月19日讯，光迅科技公告，2026年上半年营业收入66.1亿元，同比增长26.07",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】",
+      "description": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】金十数据8月19日讯，光迅科技公告，2026年上半年营业收入66.1亿元，同比增长26.07%；归属于上市公司股东的净利润5.82亿元，同比增长56.34%；扣非净利润5.68亿元，同比增长57.77%。公司拟以8.28亿为基数，向全体股东每10股派发现金红利3.7元（含税）。",
+      "pubDate": "2026-08-19T11:09:01.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "中韩半导体ETF华泰柏瑞(513310)将于2026年8月20日开市起至当日10:30停牌。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "中韩半导体ETF华泰柏瑞(513310)将于2026年8月20日开市起至当日10:30停牌。",
+      "description": "",
+      "pubDate": "2026-08-19T11:20:23.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwawh8291970.d.html"
+    },
+    {
+      "title_cn": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19%。",
+      "summary_cn": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19%。",
+      "description": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19%。",
+      "pubDate": "2026-08-19T10:57:30.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151745"
+    },
+    {
+      "title_cn": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "summary_cn": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "description": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "pubDate": "2026-08-19T10:54:01.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151743"
+    },
+    {
+      "title_cn": "地方国资争相“炒股”，不是人人都是合肥",
+      "summary_cn": "对绝大多数地方而言，与其幻想押中下一个长鑫科技，不如先想清楚一个问题：自己手里的财政家底，经得起几次“交学费”？2026年，中国资本市场炙手可热的话题，莫过于长",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(20)",
+      "title": "地方国资争相“炒股”，不是人人都是合肥",
+      "description": "对绝大多数地方而言，与其幻想押中下一个长鑫科技，不如先想清楚一个问题：自己手里的财政家底，经得起几次“交学费”？2026年，中国资本市场炙手可热的话题，莫过于长鑫科技登陆科创板。近期这家国产存储芯片龙头市值突破4万亿元，合肥市区两级国资体系穿透合计持股对应市值逾万亿元。2025年合肥市财政收入才977亿元，这笔账面浮盈相当于全市财政收入的十倍。",
+      "pubDate": "2026-08-19T09:15:43.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608193846366984.html"
     },
     {
       "title_cn": "全民医保“十五五”规划发布，支持创新药高质量发展",
@@ -52,70 +148,6 @@
       "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
     },
     {
-      "title_cn": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
-      "summary_cn": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
-      "description": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来由台积电（TSMC）主导。（路透）",
-      "pubDate": "2026-08-19T08:52:02.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151634"
-    },
-    {
-      "title_cn": "【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(40)",
-      "title": "【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。",
-      "description": "",
-      "pubDate": "2026-08-19T04:48:43.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyt7104602.d.html"
-    },
-    {
-      "title_cn": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "summary_cn": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
-      "pubDate": "2026-08-19T04:27:46.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
-    },
-    {
-      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
-      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
-      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
-      "pubDate": "2026-08-19T03:43:34.000Z",
-      "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45a016VmVhUVhfbXp5d2NzRnNGUnNsajMxSzE4ckRKcFdDcmFuUDctYXV5UFVNb2taY0NTMDZ1eEVRaW5RMGx1UkNoMnplZmFvVVBQb1lqZXNKVDFGRTgtZHBTZTl1TnN4aUd4V0xkdjdOZw?oc=5"
-    },
-    {
       "title_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
       "summary_cn": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、",
       "category": "半导体",
@@ -132,8 +164,8 @@
       "link": "https://wallstreetcn.com/articles/3151442"
     },
     {
-      "title_cn": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
-      "summary_cn": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
+      "title_cn": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "summary_cn": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -141,10 +173,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
-      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
       "pubDate": "2026-08-19T02:31:05.000Z",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
     },
     {
@@ -164,136 +196,8 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
     },
     {
-      "title_cn": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】",
-      "summary_cn": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】金十数据8月19日讯，据英国金融时报报道，知情人士称，若特朗普升级战争，伊朗考虑将欧洲境内的军事目标纳入",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】",
-      "description": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】金十数据8月19日讯，据英国金融时报报道，知情人士称，若特朗普升级战争，伊朗考虑将欧洲境内的军事目标纳入打击范围。知情人士表示，伊朗军方已评估打击保加利亚等东南欧国家的美国军事资产。伊朗军方还评估了在局势升级时切断霍尔木兹海峡海底光缆的方案。",
-      "pubDate": "2026-08-19T04:06:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】",
-      "summary_cn": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】金十数据8月19日讯，国家医保局解读《全民医疗保障“十五五”规划》。其中提出，稳步推进",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】",
-      "description": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】金十数据8月19日讯，国家医保局解读《全民医疗保障“十五五”规划》。其中提出，稳步推进国家组织药品、高值医用耗材集采，同时指导各地组建“一省牵头、全国参与”的联盟采购，在中药、生物药、医用耗材等领域持续深耕，逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围，减轻群众费用负担。按照党中央、国务院部署要求，坚持“稳临床、保质量、反内卷、防围标”原则，优化完善采购规则，进一步提升集采产品与临床需求的匹配度，与药监部门协同做好中选产品质量保障，引导行业公平、理性竞争，坚决打击医药集采领域围标串标。",
-      "pubDate": "2026-08-19T04:04:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】",
-      "summary_cn": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】金十数据8月19日讯，港股早盘低开后震荡走高，恒指收涨0.24%，报25533.38点；科指收跌0.82%",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】",
-      "description": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】金十数据8月19日讯，港股早盘低开后震荡走高，恒指收涨0.24%，报25533.38点；科指收跌0.82%，报4700.55点。盘面上，半导体概念领跌，电子设备和元件、通信设备板块走低；高股息板块逆势走高，油气股活跃，内房股走高，个股方面，巨星传奇(06683.HK)跌13.3%，华虹宏力(01347.HK)、剑桥科技(06166.HK)跌超12%，百度(09888.HK)绩后跌近12%，优必选(09880.HK)跌超10%，中际旭创(03308.HK)、长飞光纤光缆(06869.HK)跌超9%，中国联通(00762.HK)绩后跌7.8%，兆易创新(03986.HK)、MINIMAX-W(00100.HK)、建滔积层板(01888.HK)跌超7%；小米集团(01810.HK)涨近7%，美团(03690.HK)涨超3%，农业银行(01288.HK)、中信银行(00998.HK)、中国石油股份(00857.HK)涨2%，泡泡玛特(09992.HK)、腾讯控股(00700.HK)涨超1%。",
-      "pubDate": "2026-08-19T04:03:52.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债",
-      "summary_cn": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债本身，而是这把挂在角落的“钥匙”，点击查看精细拆解>>",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债",
-      "description": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债本身，而是这把挂在角落的“钥匙”，点击查看精细拆解>>",
-      "pubDate": "2026-08-19T04:01:38.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "【和誉-B：口服小分子pan-KRAS抑制剂ABSK211新药临床试验申请获NMPA批准】和誉-B(02256)发布公告，中国国家药品监督管理局(NMPA)已批准ABSK211的新药临床试验(IND)申请。ABSK211是一款口服、高效力小分子pan-KRAS抑制剂，对多种KRAS基因改变具有广谱活性，用于治疗携带KRAS基因改变的晚期实体瘤患者。此前， ABSK211已于7月8日获得美国食品药品监督管理局(FDA)的IND批准。在中国及美国均获得IND批准是ABSK211全球临床开发计划的关键里程碑。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:传闻·中性(10)",
-      "title": "【和誉-B：口服小分子pan-KRAS抑制剂ABSK211新药临床试验申请获NMPA批准】和誉-B(02256)发布公告，中国国家药品监督管理局(NMPA)已批准ABSK211的新药临床试验(IND)申请。ABSK211是一款口服、高效力小分子pan-KRAS抑制剂，对多种KRAS基因改变具有广谱活性，用于治疗携带KRAS基因改变的晚期实体瘤患者。此前， ABSK211已于7月8日获得美国食品药品监督管理局(FDA)的IND批准。在中国及美国均获得IND批准是ABSK211全球临床开发计划的关键里程碑。",
-      "description": "",
-      "pubDate": "2026-08-19T04:39:33.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyt7097766.d.html"
-    },
-    {
-      "title_cn": "早间要闻汇总",
-      "summary_cn": "科创50指数半日跌超6%，创业板指跌近5%，全市场下跌个股近5000只。\n\n芯片股抛售蔓延亚洲，日股跌逾2%，韩股跌逾5%。\n\n特朗普推迟对加拿大征收50%关税",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:传闻·中性(5)",
-      "title": "早间要闻汇总",
-      "description": "科创50指数半日跌超6%，创业板指跌近5%，全市场下跌个股近5000只。\n\n芯片股抛售蔓延亚洲，日股跌逾2%，韩股跌逾5%。\n\n特朗普推迟对加拿大征收50%关税三天，称美、加已达成协议。\n\n报道：若特朗普升温战争，伊朗正考虑将欧洲境内的军事目标纳入打击范围。\n\n宇树科技上市首日高开630%，中一签赚近50万元，梁文锋打新宇树科技浮盈11亿，雷军赚152亿，美团系浮盈333亿，大疆痛失超250亿。\n\n中国首次实现运载火箭陆地回收！朱雀三号遥二一子级按预定程序成功软着陆。\n\n嫦娥七号器箭组合体完成垂直转运，计划近日择机实施发射。\n\n长江存储IPO辅导状态变更为“辅导验收”。\n\n《全民医疗保障“十五五”规划》发布。",
-      "pubDate": "2026-08-19T04:30:44.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151486"
-    },
-    {
-      "title_cn": "韩国AI初创公司称其新模型可媲美阿里巴巴的Qwen 3.7 Max",
-      "summary_cn": "韩国人工智能(AI)初创公司Motif Technologies首席执行官Junghwan Lim称，该公司利用价值2500万美元的、由政府支持的英伟达B200",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "韩国AI初创公司称其新模型可媲美阿里巴巴的Qwen 3.7 Max",
-      "description": "韩国人工智能(AI)初创公司Motif Technologies首席执行官Junghwan Lim称，该公司利用价值2500万美元的、由政府支持的英伟达B200 GPU开发出了其最新的大语言模型Motif 3。Motif 3在Artificial Analysis Intelligence Index中获得47分，这一成绩远高于同类模型的平均水平，并与阿里巴巴的Qwen 3.7 Max持平。Motif正探索一种新型的代币即服务(token-as-a-service)商业模式，该模式允许基础设施提供商管理GPU集群，而终端用户只需根据其产生的输入和输出量付费。",
-      "pubDate": "2026-08-19T04:13:17.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151484"
-    },
-    {
-      "title_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
-      "summary_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
-      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
-      "pubDate": "2026-08-19T03:22:31.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151466"
-    },
-    {
-      "title_cn": "ChiNext Index fell 5%, Shenzhen Composite Index fe",
-      "summary_cn": "ChiNext Index fell 5%, Shenzhen Composite Index fell nearly 4%, Shanghai Composite fell 1.98% and STAR 50 Index fell 6%. MLCC, CPO and 存储-芯片 板块s led the declines.",
+      "title_cn": "创业板指数下跌5%，深证成指下",
+      "summary_cn": "创业板指数下跌5%，深证成指下跌近4%，上证指数下跌1.98%，科创50指数下跌6%。MLCC、CPO和存储芯片板块领跌。",
       "category": "光模块",
       "direction": "中性",
       "impact": "低",
@@ -356,22 +260,6 @@
       "link": ""
     },
     {
-      "title_cn": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
-      "summary_cn": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:订单·利好(60)+扩产·利好(20)",
-      "title": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
-      "description": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89%。上述订单具备明确转化预期，但收入转化需要一定时间周期。其中，设计服务订单通常需9—12个月设计研发周期；量产服务业务订单受客户产品出货规划、合作晶圆厂产能排期等因素影响，从签约开始通常需6—18个月完整生产交付周期。",
-      "pubDate": "2026-08-19T02:12:46.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151436"
-    },
-    {
       "title_cn": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员",
       "summary_cn": "据韩媒报道，在与公司达成工资协议不到三个月后，三星电子工会再次走上街头。主要由设备体验（DX）部门员工组成的同行工会（Donghaeng Union）宣布，将在",
       "category": "半导体",
@@ -420,38 +308,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyq8304649.d.html"
     },
     {
-      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
-      "category": "黄金",
-      "direction": "利空",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:价格·利空(60)",
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
-      "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "手机网易网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
-    },
-    {
-      "title_cn": "黄金, silver 价格s 下跌 today: Key factors investors should watch - CNBC TV18",
-      "summary_cn": "黄金, silver 价格s 下跌 today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Gold, silver prices fall today: Key factors investors should watch - CNBC TV18",
-      "description": "Gold, silver prices fall today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
-      "pubDate": "2026-08-19T02:16:31.000Z",
-      "source": "CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWhwclowYWRUcEJtZ1VScThqMjVyRW1mdnppY0hNbG5VS1VxazdZSzB6ZDRnT2NyM29Rc1VZSnFxR0VSMnNXUkhBU2IzOUV4bnZjTDd5akprQ29vSldzRDZxOHAxbzVoc0lJWlYyN3I5ODlScWVNSWFhdWlHVHRMOEZCeGNMeEpfNkZNUlV5TzlVYWtGeDRGRXMyRE5nNVZHb2JwSUh1X0M5Yzg5Rlhha2NqOEJnQdIBuwFBVV95cUxQczZOWlJkWkpzQS0tdUdmSGRKOFpDcHI3WDd5Mld5WjQyeWYzWlpFa2xkS2ZjY1BlRTJ3b21iZlRrNHhkTkMxbEplTWlUaVdUbXEwTzBNNkFqckdob0xnN2lndHYwTkVsWGVtaUtIcGFGZ0ZmZW5XWndFYzR3T3ZMcjBmQkFkd080Z0N0R2VHY3ZoSl9jdG8tS0dWYVBrRmVhMXZHdzEwR1llZVBJVmxrY1RaaFRNLUI1a1A0?oc=5"
-    },
-    {
       "title_cn": "【韩国智库上调今年经济增长预期至3.2%，因AI需求强劲】韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。在经济学家和政策制定者纷纷调整经济增长预期之际，韩国开发研究院（KDI）发布了最新预测，试图将人工智能需求的强劲增长纳入考量，并评估这种增长势头能够持续多久。KDI表示，自去年下半年以来韩国经济的扩张势头预计将保持，因为人工智能需求将继续推动半导体出口，抵消中东冲突导致的进口成本上升。KDI预计，今年韩国半导体出口将增长8.7%，明年将增长5%。",
       "summary_cn": "",
       "category": "半导体",
@@ -466,6 +322,54 @@
       "pubDate": "2026-08-19T03:05:30.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvfsv7146171.d.html"
+    },
+    {
+      "title_cn": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "summary_cn": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·中性(5·仅行情描述,不含基本面,方向中性)",
+      "title": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "description": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港涨停。下跌方面，算力硬件股下挫，天洋新材等跌停；半导体板块调整，华虹宏力等跌超10%。个股呈现普跌态势，沪深京三市近5000股飘绿，上午半天成交1.63万亿。午间收盘沪指跌1.96%，深成指跌3.97%，创业板跌4.98%。",
+      "pubDate": "2026-08-19T03:30:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151472"
+    },
+    {
+      "title_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "summary_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "pubDate": "2026-08-19T03:22:31.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151466"
+    },
+    {
+      "title_cn": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+      "summary_cn": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:订单·利好(60)+扩产·利好(20)",
+      "title": "芯原股份：今年目前新签订单增长至151.42亿元，AI算力相关订单占比90%",
+      "description": "芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订单进一步增长至151.42亿元，AI算力相关订单占比90%，数据处理领域订单占比89%。上述订单具备明确转化预期，但收入转化需要一定时间周期。其中，设计服务订单通常需9—12个月设计研发周期；量产服务业务订单受客户产品出货规划、合作晶圆厂产能排期等因素影响，从签约开始通常需6—18个月完整生产交付周期。",
+      "pubDate": "2026-08-19T02:12:46.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151436"
     },
     {
       "title_cn": "创业板指、科创50均跌超4%，沪指跌1.78%，深成指跌3.34%，算力硬件、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超5000只。",
@@ -500,8 +404,8 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
     },
     {
-      "title_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s - 交易View",
-      "summary_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s&nbsp;&nbsp; 交易View",
+      "title_cn": "英伟达、AMD、美光领跌芯片股，伊朗紧张局势搅动市场 - TradingView",
+      "summary_cn": "英伟达、AMD、美光领跌芯片股，伊朗紧张局势搅动市场&nbsp;&nbsp; TradingView",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -516,8 +420,8 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "title_cn": "2026年黄金价格展望：富国银行认为有11%上涨空间，上调目标价 - 新闻与统计 - IndexBox",
+      "summary_cn": "2026年黄金价格展望：富国银行认为有11%上涨空间，上调目标价 - 新闻与统计&nbsp;&nbsp; IndexBox",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -532,8 +436,8 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
     },
     {
-      "title_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements - Substack",
-      "summary_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements&nbsp;&nbsp; Substack",
+      "title_cn": "黄金与白银：推动其价格波动的隐藏力量 - Substack",
+      "summary_cn": "黄金与白银：推动其价格波动的隐藏力量&nbsp;&nbsp; Substack",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -541,15 +445,15 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Gold and Silver: The Hidden Forces Driving Their Price Movements - Substack",
-      "description": "Gold and Silver: The Hidden Forces Driving Their Price Movements&nbsp;&nbsp; Substack",
+      "title": "Gold and Silver: The Hidden Forces Driving Its Price Movements - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
       "pubDate": "2026-08-18T17:07:04.000Z",
       "source": "Substack",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
     },
     {
-      "title_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
-      "summary_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
+      "title_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "summary_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -557,10 +461,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
-      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
       "pubDate": "2026-08-18T17:15:00.000Z",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
     }
   ],
@@ -569,50 +473,122 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 19,
-      "summary": "半导体板块19条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
+      "news_count": 15,
+      "summary": "半导体板块15条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
       "tickers": "中芯国际、北方华创、中微公司"
-    },
-    {
-      "name": "黄金",
-      "shock": "中",
-      "direction": "利空",
-      "news_count": 7,
-      "summary": "黄金板块7条新闻，方向以利空为主。关注：黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 -",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "创新药",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 5,
-      "summary": "创新药板块5条新闻，方向以利好为主",
+      "news_count": 6,
+      "summary": "创新药板块6条新闻，方向以利好为主。关注：默克和莫德纳表示，他们的实验性个性化",
       "tickers": "百济神州、药明康德、恒瑞医药"
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 5,
+      "summary": "黄金板块5条新闻，方向以利好为主。关注：美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>；美联",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "利好",
-      "news_count": 4,
-      "summary": "光模块板块4条新闻，方向以利好为主。关注：【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】；【知情人士：若美升级",
+      "news_count": 3,
+      "summary": "光模块板块3条新闻，方向以利好为主。关注：【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】；【光迅科",
       "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 35 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 1 条，高影响 3 条，利好方向 3 条。",
-    "板块概况：半导体(利好, 强冲击, 19条)、黄金(利空, 中冲击, 7条)、创新药(利好, 弱冲击, 5条)、光模块(利好, 弱冲击, 4条)。",
-    "重点关注：黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网；【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。；上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构。"
+    "今日共抓取 29 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 1 条，高影响 1 条，利好方向 3 条。",
+    "板块概况：半导体(利好, 强冲击, 15条)、创新药(利好, 弱冲击, 6条)、黄金(利好, 弱冲击, 5条)、光模块(利好, 弱冲击, 3条)。",
+    "重点关注：上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构；地方国资争相“炒股”，不是人人都是合肥；美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，35 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，29 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
-      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
+      "title": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "description": "美联储纪要恐掀波澜，国际黄金转换区间在哪？点击观看金十研究员文成直播分析>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T11:31:40.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "默克和莫德纳表示，其实验性个性化",
+      "description": "Merck and Moderna said their experimental personalized mRNA vaccine, given with Merck’s Keytruda, met the primary endpoint in a Phase III trial of more than 1,100 high‑risk or advanced melanoma patients, significantly extending recurrence‑free survival versus Keytruda alone and lowering risk of distant metastasis. The result builds on positive Phase II data earlier this year; the trial will continue to evaluate additional endpoints including overall survival. The companies plan to present data at an upcoming international medical meeting; no timing for a U.S. regulatory submission was disclose",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T11:11:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】",
+      "description": "【Moderna与默沙东联合研发癌症疫苗展现积极效果 Moderna盘前暴涨60%】金十数据8月19日讯，默沙东和Moderna周三宣布，一款联合研发的实验性个性化癌症疫苗在首次晚期临床试验中取得积极初步结果，使得距离申请该治疗方案获批更近一步。这款基于mRNA的疫苗与默沙东的免疫疗法Keytruda联合使用，在针对1100多名高风险或晚期黑色素瘤患者的三期试验中达到了关键目标，即与单独使用Keytruda相比，显著延长了患者黑色素瘤不复发的时间。该治疗还降低了癌症扩散至身体其他部位的风险。这些结果建立在今年早些时候同一方案积极的二期试验数据之上。三期临床试验将继续评估其他疗效指标，包括该疗法对患者总体生存期的获益。两家公司计划在即将召开的国际医学会议上公布相关数据，但目前尚不清楚他们何时计划向美国提交上市申请。默沙东股价盘前现涨近8%，Moderna大涨逾60%。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T11:10:59.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】",
+      "description": "【光迅科技：2026年上半年净利润5.82亿元，同比增56.34%】金十数据8月19日讯，光迅科技公告，2026年上半年营业收入66.1亿元，同比增长26.07%；归属于上市公司股东的净利润5.82亿元，同比增长56.34%；扣非净利润5.68亿元，同比增长57.77%。公司拟以8.28亿为基数，向全体股东每10股派发现金红利3.7元（含税）。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-19T11:09:01.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "地方国资争相“炒股”，不是人人都是合肥",
+      "description": "对绝大多数地方而言，与其幻想押中下一个长鑫科技，不如先想清楚一个问题：自己手里的财政家底，经得起几次“交学费”？2026年，中国资本市场炙手可热的话题，莫过于长鑫科技登陆科创板。近期这家国产存储芯片龙头市值突破4万亿元，合肥市区两级国资体系穿透合计持股对应市值逾万亿元。2025年合肥市财政收入才977亿元，这笔账面浮盈相当于全市财政收入的十倍。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T09:15:43.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608193846366984.html"
+    },
+    {
+      "title": "全民医保“十五五”规划发布，支持创新药高质量发展",
+      "description": "8月19日国家医保局网站消息，国家医保局近日印发《全民医疗保障“十五五”规划》。《规划》提出，到2030年，基本医保公共服务可及性进一步增强，医疗保障法制体系基本形成，医保基金管理不断强化，基金运行安全可持续，医保安全保障能力巩固提升，基于大数据、人工智能等技术的精细化管理、精准化服务广泛应用，医保基金使用效能进一步提升，医保标准化加快建设。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T08:24:28.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
+    },
+    {
+      "title": "中韩半导体ETF华泰柏瑞(513310)将于2026年8月20日开市起至当日10:30停牌。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T11:20:23.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwawh8291970.d.html"
+    },
+    {
+      "title": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19%。",
+      "description": "Moderna美股盘前涨超50%，默沙东前涨近6%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。其他疫苗股跟涨，BioNTech美股盘前涨近19%。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T10:57:30.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151745"
+    },
+    {
+      "title": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "description": "Moderna美股盘前上涨超30%，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T10:54:01.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151743"
+    },
+    {
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - finance.sina.com.cn",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; finance.sina.com.cn",
       "guessedSector": "黄金",
       "pubDate": "2026-08-19T02:31:05.000Z",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
     },
     {
@@ -624,15 +600,7 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
     },
     {
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "手机网易网",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
-    },
-    {
-      "title": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets - TradingView",
+      "title": "英伟达、AMD、美光领跌芯片股，伊朗紧张局势令市场震荡 - TradingView",
       "description": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets&nbsp;&nbsp; TradingView",
       "guessedSector": "半导体",
       "pubDate": "2026-08-18T18:06:35.000Z",
@@ -640,20 +608,12 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title": "Gold and Silver: The Hidden Forces Driving Their Price Movements - Substack",
-      "description": "Gold and Silver: The Hidden Forces Driving Their Price Movements&nbsp;&nbsp; Substack",
+      "title": "黄金与白银：推动其价格走势的隐藏力量 - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
       "guessedSector": "黄金",
       "pubDate": "2026-08-18T17:07:04.000Z",
       "source": "Substack",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
-    },
-    {
-      "title": "Gold, silver prices fall today: Key factors investors should watch - CNBC TV18",
-      "description": "Gold, silver prices fall today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T02:16:31.000Z",
-      "source": "CNBC TV18",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWhwclowYWRUcEJtZ1VScThqMjVyRW1mdnppY0hNbG5VS1VxazdZSzB6ZDRnT2NyM29Rc1VZSnFxR0VSMnNXUkhBU2IzOUV4bnZjTDd5akprQ29vSldzRDZxOHAxbzVoc0lJWlYyN3I5ODlScWVNSWFhdWlHVHRMOEZCeGNMeEpfNkZNUlV5TzlVYWtGeDRGRXMyRE5nNVZHb2JwSUh1X0M5Yzg5Rlhha2NqOEJnQdIBuwFBVV95cUxQczZOWlJkWkpzQS0tdUdmSGRKOFpDcHI3WDd5Mld5WjQyeWYzWlpFa2xkS2ZjY1BlRTJ3b21iZlRrNHhkTkMxbEplTWlUaVdUbXEwTzBNNkFqckdob0xnN2lndHYwTkVsWGVtaUtIcGFGZ0ZmZW5XWndFYzR3T3ZMcjBmQkFkd080Z0N0R2VHY3ZoSl9jdG8tS0dWYVBrRmVhMXZHdzEwR1llZVBJVmxrY1RaaFRNLUI1a1A0?oc=5"
     },
     {
       "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
@@ -664,15 +624,15 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
     },
     {
-      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
-      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - finance.sina.com.cn",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; finance.sina.com.cn",
       "guessedSector": "半导体",
       "pubDate": "2026-08-18T17:15:00.000Z",
-      "source": "新浪财经",
+      "source": "finance.sina.com.cn",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
     },
     {
-      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "title": "2026年金价展望：富国银行预计有11%上行空间，修正目标位 - 新闻与统计 - IndexBox",
       "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
       "guessedSector": "黄金",
       "pubDate": "2026-08-18T18:30:00.000Z",
@@ -680,127 +640,7 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
     },
     {
-      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
-      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T09:16:15.000Z",
-      "source": "新浪财经",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
-    },
-    {
-      "title": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
-      "description": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试验批准通知书》，注射用HY07121（皮下注射）用于治疗晚期实体瘤的临床试验获得批准。该药品为抗PD-1、抗TIGIT、IL-15/IL-15Rα三靶点抗体融合蛋白，属1类创新型治疗用生物制品。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-19T09:08:11.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "全民医保“十五五”规划发布，支持创新药高质量发展",
-      "description": "8月19日国家医保局网站消息，国家医保局近日印发《全民医疗保障“十五五”规划》。《规划》提出，到2030年，基本医保公共服务可及性进一步增强，医疗保障法制体系基本形成，医保基金管理不断强化，基金运行安全可持续，医保安全保障能力巩固提升，基于大数据、人工智能等技术的精细化管理、精准化服务广泛应用，医保基金使用效能进一步提升，医保标准化加快建设。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-19T08:24:28.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
-    },
-    {
-      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T04:27:46.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
-    },
-    {
-      "title": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
-      "description": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来由台积电（TSMC）主导。（路透）",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T08:52:02.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151634"
-    },
-    {
-      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
-      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T03:43:34.000Z",
-      "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45a016VmVhUVhfbXp5d2NzRnNGUnNsajMxSzE4ckRKcFdDcmFuUDctYXV5UFVNb2taY0NTMDZ1eEVRaW5RMGx1UkNoMnplZmFvVVBQb1lqZXNKVDFGRTgtZHBTZTl1TnN4aUd4V0xkdjdOZw?oc=5"
-    },
-    {
-      "title": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】",
-      "description": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】金十数据8月19日讯，据英国金融时报报道，知情人士称，若特朗普升级战争，伊朗考虑将欧洲境内的军事目标纳入打击范围。知情人士表示，伊朗军方已评估打击保加利亚等东南欧国家的美国军事资产。伊朗军方还评估了在局势升级时切断霍尔木兹海峡海底光缆的方案。",
-      "guessedSector": "光模块",
-      "pubDate": "2026-08-19T04:06:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】",
-      "description": "【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】金十数据8月19日讯，国家医保局解读《全民医疗保障“十五五”规划》。其中提出，稳步推进国家组织药品、高值医用耗材集采，同时指导各地组建“一省牵头、全国参与”的联盟采购，在中药、生物药、医用耗材等领域持续深耕，逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围，减轻群众费用负担。按照党中央、国务院部署要求，坚持“稳临床、保质量、反内卷、防围标”原则，优化完善采购规则，进一步提升集采产品与临床需求的匹配度，与药监部门协同做好中选产品质量保障，引导行业公平、理性竞争，坚决打击医药集采领域围标串标。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-19T04:04:24.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】",
-      "description": "【港股午评：恒指半日涨0.24% 百度绩后跌近12%】金十数据8月19日讯，港股早盘低开后震荡走高，恒指收涨0.24%，报25533.38点；科指收跌0.82%，报4700.55点。盘面上，半导体概念领跌，电子设备和元件、通信设备板块走低；高股息板块逆势走高，油气股活跃，内房股走高，个股方面，巨星传奇(06683.HK)跌13.3%，华虹宏力(01347.HK)、剑桥科技(06166.HK)跌超12%，百度(09888.HK)绩后跌近12%，优必选(09880.HK)跌超10%，中际旭创(03308.HK)、长飞光纤光缆(06869.HK)跌超9%，中国联通(00762.HK)绩后跌7.8%，兆易创新(03986.HK)、MINIMAX-W(00100.HK)、建滔积层板(01888.HK)跌超7%；小米集团(01810.HK)涨近7%，美团(03690.HK)涨超3%，农业银行(01288.HK)、中信银行(00998.HK)、中国石油股份(00857.HK)涨2%，泡泡玛特(09992.HK)、腾讯控股(00700.HK)涨超1%。",
-      "guessedSector": "光模块",
-      "pubDate": "2026-08-19T04:03:52.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债",
-      "description": "美债长端收益率创19年新高，黄金手里拿到的却是两套方向相反的剧本！真正能分辨哪套剧本在跑的，不是美债本身，而是这把挂在角落的“钥匙”，点击查看精细拆解>>",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T04:01:38.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。",
-      "description": "",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T04:48:43.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyt7104602.d.html"
-    },
-    {
-      "title": "【和誉-B：口服小分子pan-KRAS抑制剂ABSK211新药临床试验申请获NMPA批准】和誉-B(02256)发布公告，中国国家药品监督管理局(NMPA)已批准ABSK211的新药临床试验(IND)申请。ABSK211是一款口服、高效力小分子pan-KRAS抑制剂，对多种KRAS基因改变具有广谱活性，用于治疗携带KRAS基因改变的晚期实体瘤患者。此前， ABSK211已于7月8日获得美国食品药品监督管理局(FDA)的IND批准。在中国及美国均获得IND批准是ABSK211全球临床开发计划的关键里程碑。",
-      "description": "",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-19T04:39:33.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyt7097766.d.html"
-    },
-    {
-      "title": "早间要闻汇总",
-      "description": "科创50指数半日跌超6%，创业板指跌近5%，全市场下跌个股近5000只。\n\n芯片股抛售蔓延亚洲，日股跌逾2%，韩股跌逾5%。\n\n特朗普推迟对加拿大征收50%关税三天，称美、加已达成协议。\n\n报道：若特朗普升温战争，伊朗正考虑将欧洲境内的军事目标纳入打击范围。\n\n宇树科技上市首日高开630%，中一签赚近50万元，梁文锋打新宇树科技浮盈11亿，雷军赚152亿，美团系浮盈333亿，大疆痛失超250亿。\n\n中国首次实现运载火箭陆地回收！朱雀三号遥二一子级按预定程序成功软着陆。\n\n嫦娥七号器箭组合体完成垂直转运，计划近日择机实施发射。\n\n长江存储IPO辅导状态变更为“辅导验收”。\n\n《全民医疗保障“十五五”规划》发布。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T04:30:44.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151486"
-    },
-    {
-      "title": "韩国AI初创公司称其新模型可媲美阿里巴巴的Qwen 3.7 Max",
-      "description": "韩国人工智能(AI)初创公司Motif Technologies首席执行官Junghwan Lim称，该公司利用价值2500万美元的、由政府支持的英伟达B200 GPU开发出了其最新的大语言模型Motif 3。Motif 3在Artificial Analysis Intelligence Index中获得47分，这一成绩远高于同类模型的平均水平，并与阿里巴巴的Qwen 3.7 Max持平。Motif正探索一种新型的代币即服务(token-as-a-service)商业模式，该模式允许基础设施提供商管理GPU集群，而终端用户只需根据其产生的输入和输出量付费。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T04:13:17.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151484"
-    },
-    {
-      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
-      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T03:22:31.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151466"
-    },
-    {
-      "title": "ChiNext Index fell 5%, Shenzhen Composite Index fe",
+      "title": "创业板指数下跌5%，深证成指下跌",
       "description": "ChiNext Index fell 5%, Shenzhen Composite Index fell nearly 4%, Shanghai Composite fell 1.98% and STAR 50 Index fell 6%. MLCC, CPO and memory-chip sectors led the declines.",
       "guessedSector": "光模块",
       "pubDate": "2026-08-19T03:24:28.000Z",
@@ -862,6 +702,22 @@
       "pubDate": "2026-08-19T03:05:30.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvfsv7146171.d.html"
+    },
+    {
+      "title": "8月19日午间收评：创业板指半日跌近5%，全市场下跌个股近5000只",
+      "description": "市场早间低开低走，三大指数集体下挫。煤炭板块逆势大涨，宝泰隆、陕西黑猫、大有能源、美锦能源涨停。银行板块盘中拉升，中信银行涨超4%。航运板块临近午盘异动，南京港涨停。下跌方面，算力硬件股下挫，天洋新材等跌停；半导体板块调整，华虹宏力等跌超10%。个股呈现普跌态势，沪深京三市近5000股飘绿，上午半天成交1.63万亿。午间收盘沪指跌1.96%，深成指跌3.97%，创业板跌4.98%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:30:44.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151472"
+    },
+    {
+      "title": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "description": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T03:22:31.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151466"
     },
     {
       "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
@@ -1189,8 +1045,7 @@
         {
           "data": [
             3,
-            1,
-            31
+            26
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1203,7 +1058,6 @@
       ],
       "labels": [
         "利好",
-        "利空",
         "中性"
       ],
       "hasData": true
@@ -1224,27 +1078,27 @@
       "matrix": {
         "半导体": {
           "极高": 1,
-          "高": 2,
-          "中": 0,
-          "低": 16
+          "高": 1,
+          "中": 1,
+          "低": 12
         },
         "光模块": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 4
+          "低": 3
         },
         "创新药": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 5
+          "低": 6
         },
         "黄金": {
           "极高": 0,
-          "高": 1,
+          "高": 0,
           "中": 0,
-          "低": 6
+          "低": 5
         }
       },
       "hasData": true
@@ -1268,22 +1122,12 @@
           "backgroundColor": "#16a34a"
         },
         {
-          "label": "利空",
-          "data": [
-            0,
-            0,
-            0,
-            1
-          ],
-          "backgroundColor": "#dc2626"
-        },
-        {
           "label": "中性",
           "data": [
-            16,
-            4,
-            5,
-            6
+            12,
+            3,
+            6,
+            5
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -1298,8 +1142,8 @@
       "datasets": [
         {
           "data": [
-            4,
-            31
+            2,
+            27
           ],
           "backgroundColor": [
             "#2563eb",

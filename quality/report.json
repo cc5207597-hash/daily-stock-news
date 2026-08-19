@@ -556,18 +556,18 @@
       "date": "20260819",
       "displayDate": "2026-08-19",
       "isAi": false,
-      "newsCount": 35,
+      "newsCount": 29,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 1,
-        "high": 3
+        "high": 1
       },
-      "signalHitRate": 20,
+      "signalHitRate": 21,
       "directions": {
-        "利好": 3,
-        "利空": 1,
+        "利好": 4,
+        "利空": 0,
         "分化": 0,
         "中性": 0
       },
@@ -578,12 +578,12 @@
           "shock": "强"
         },
         {
-          "name": "黄金",
-          "direction": "利空",
-          "shock": "中"
+          "name": "创新药",
+          "direction": "利好",
+          "shock": "弱"
         },
         {
-          "name": "创新药",
+          "name": "黄金",
           "direction": "利好",
           "shock": "弱"
         },
@@ -598,7 +598,7 @@
   "total": 14,
   "coveredAll": 11,
   "coverageRate": 79,
-  "avgImpactHigh": 10,
+  "avgImpactHigh": 9,
   "consistency": {
     "黄金": 56,
     "半导体": 67,

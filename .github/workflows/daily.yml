@@ -70,3 +70,10 @@ jobs:
         env:
           EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
         run: npx edgeone makers deploy . --name daily-stock-news --area global --json
+
+      # jsDelivr 镜像缓存清理:jsDelivr 对 @main 引用缓存 s-maxage=12h,
+      # 不清则国内镜像看到的是 12h 前的旧日报。构建完立即 purge,镜像即时更新。
+      # 幂等、无需 token;偶发失败不阻断(下轮定时会重试)。
+      - name: Purge jsDelivr mirror cache
+        run: |
+          curl -s "https://purge.jsdelivr.net/gh/cc5207597-hash/daily-stock-news@main/index.html,gh/cc5207597-hash/daily-stock-news@main/history/dates.json,gh/cc5207597-hash/daily-stock-news@main/quality/index.html"
