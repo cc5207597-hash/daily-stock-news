@@ -367,8 +367,8 @@ const server = http.createServer((req, res) => {
   serveFile(res, 404, 'text/plain', 'Not found');
 });
 
-server.listen(PORT, '127.0.0.1', () => {
-  console.log(`🌐 本地预览: http://127.0.0.1:${PORT}`);
+server.listen(PORT, '0.0.0.0', () => {
+  console.log(`🌐 服务已启动: http://0.0.0.0:${PORT} (本地访问 http://127.0.0.1:${PORT})`);
   console.log(`   GET / — 查看最新页面`);
   console.log(`   GET /history/dates — 历史日期列表`);
   console.log(`   GET /history?date=YYYYMMDD — 历史日报`);

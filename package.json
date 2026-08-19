@@ -5,6 +5,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "node scripts/build-daily.mjs"
+    "build": "node scripts/build-daily.mjs",
+    "start": "node scripts/refresh-server.mjs"
   }
 }
