@@ -4,7 +4,11 @@
 
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { scoreNewsItem, sectorShock, sanitizeRating, SIGNALS } from '../pipeline/sentiment.mjs';
+import {
+  scoreNewsItem, sectorShock, sanitizeRating, SIGNALS,
+  sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
+  aggregateDirection, applyEtfCalibration,
+} from '../pipeline/sentiment.mjs';
 
 const item = (title, description = '', guessedSector = '') => ({ title, description, guessedSector });
 
@@ -102,4 +106,126 @@ test('sanitizeRating:非法枚举回退默认', () => {
   assert.equal(r.impact, '中');
   assert.equal(r.certainty, '低');
   assert.equal(r.time_window, '中期');
+});
+
+// ── 行情类信号:涨跌行情直接计入方向(修复中性泛滥) ──────
+
+test('行情信号:半导体暴跌 → 利空(不再中性)', () => {
+  const r = scoreNewsItem(item('半导体板块暴跌,多只个股跌停', '', '半导体'));
+  assert.equal(r.direction, '利空');
+});
+
+test('行情信号:光模块重挫/领跌 → 利空', () => {
+  for (const t of ['光模块板块重挫', '光模块个股领跌两市', '光模块持续走低']) {
+    assert.equal(scoreNewsItem(item(t, '', '光模块')).direction, '利空', t);
+  }
+});
+
+test('行情信号:创新药大跌 → 利空', () => {
+  assert.equal(scoreNewsItem(item('创新药板块大跌超4%', '', '创新药')).direction, '利空');
+});
+
+test('行情信号:黄金金价大跌 → 利空(既有信号叠加)', () => {
+  assert.equal(scoreNewsItem(item('金价大跌,现货黄金跳水', '', '黄金')).direction, '利空');
+});
+
+test('行情信号:上涨行情 → 利好(不再压成中性)', () => {
+  const r = scoreNewsItem(item('半导体板块大涨,芯片股领涨', '', '半导体'));
+  assert.equal(r.direction, '利好');
+});
+
+// ── ETF 硬校准工具 ─────────────────────────────────────
+
+const etf = (category, change) => ({ category, change });
+
+test('sectorAvgChange:同板块多只 ETF 取均值;无数据返回 null', () => {
+  const data = [etf('半导体', -10), etf('半导体', -6), etf('黄金', 2)];
+  assert.equal(sectorAvgChange(data, '半导体'), -8);
+  assert.equal(sectorAvgChange(data, '光模块'), null);
+  assert.equal(sectorAvgChange([], '半导体'), null);
+});
+
+test('etfDirectionFor:±3% 阈值边界', () => {
+  assert.equal(etfDirectionFor(-8), '利空');
+  assert.equal(etfDirectionFor(-3.01), '利空');
+  assert.equal(etfDirectionFor(-3), '中性');
+  assert.equal(etfDirectionFor(-2.5), '中性');
+  assert.equal(etfDirectionFor(-1.01), '中性');
+  assert.equal(etfDirectionFor(-1), null); // ±1% 内不干预
+  assert.equal(etfDirectionFor(-0.5), null);
+  assert.equal(etfDirectionFor(0), null);
+  assert.equal(etfDirectionFor(0.9), null);
+  assert.equal(etfDirectionFor(1), null);
+  assert.equal(etfDirectionFor(1.5), '中性');
+  assert.equal(etfDirectionFor(3), '中性');
+  assert.equal(etfDirectionFor(3.5), '利好');
+  assert.equal(etfDirectionFor(NaN), null);
+});
+
+test('aggregateDirection:5利空+末条利好 → 利空(修复最后写入胜出)', () => {
+  const items = [
+    { direction: '利空', impact: '高' }, { direction: '利空', impact: '中' },
+    { direction: '利空', impact: '中' }, { direction: '利空', impact: '中' },
+    { direction: '利空', impact: '中' },
+    { direction: '利好', impact: '中' },
+  ];
+  assert.equal(aggregateDirection(items), '利空');
+});
+
+test('aggregateDirection:全中性 → 中性', () => {
+  assert.equal(aggregateDirection([{ direction: '中性', impact: '中' }, { direction: '中性', impact: '高' }]), '中性');
+});
+
+test('aggregateDirection:有分化票且利好利空并存 → 分化', () => {
+  const items = [
+    { direction: '利好', impact: '中' },
+    { direction: '利空', impact: '中' },
+    { direction: '分化', impact: '高' },
+  ];
+  assert.equal(aggregateDirection(items), '分化');
+});
+
+test('reRateNeutralsToMarket:大跌板块内中性→利空,明确利好保持不变', () => {
+  const data = [etf('半导体', -8)];
+  const analyzed = [
+    { category: '半导体', direction: '中性', notes: '仅行情描述' },
+    { category: '半导体', direction: '利好', notes: 'FDA获批' },
+    { category: '黄金', direction: '中性', notes: '无行情' },
+  ];
+  const out = reRateNeutralsToMarket(analyzed, data);
+  assert.equal(out[0].direction, '利空');
+  assert.match(out[0].notes, /ETF/);
+  assert.equal(out[1].direction, '利好'); // 明确利好不被行情翻转
+  assert.equal(out[2].direction, '中性'); // 无行情板块不动
+});
+
+test('reRateNeutralsToMarket:±1% 内不调向', () => {
+  const data = [etf('半导体', 0.5)];
+  const out = reRateNeutralsToMarket([{ category: '半导体', direction: '中性', notes: '' }], data);
+  assert.equal(out[0].direction, '中性');
+});
+
+test('applyEtfCalibration:板块方向被硬校准(-8→利空, -2.3→中性, +3.5→利好)', () => {
+  const secMap = {
+    '半导体': { name: '半导体', direction: '利好', news_count: 5 },
+    '创新药': { name: '创新药', direction: '利好', news_count: 3 },
+    '黄金': { name: '黄金', direction: '利空', news_count: 2 },
+  };
+  const data = [etf('半导体', -8), etf('创新药', -2.3), etf('黄金', 3.5)];
+  applyEtfCalibration(secMap, data);
+  assert.equal(secMap['半导体'].direction, '利空');
+  assert.equal(secMap['创新药'].direction, '中性');
+  assert.equal(secMap['黄金'].direction, '利好');
+  assert.match(secMap['半导体'].notes, /ETF校准/);
+});
+
+test('applyEtfCalibration:±1% 内不干预,板块新闻缺失也按行情校准', () => {
+  const secMap = {
+    '半导体': { name: '半导体', direction: '利好', news_count: 0 },
+    '黄金': { name: '黄金', direction: '中性', news_count: 0 },
+  };
+  const data = [etf('半导体', 0.8), etf('黄金', -5)];
+  applyEtfCalibration(secMap, data);
+  assert.equal(secMap['半导体'].direction, '利好'); // ±1% 内保留新闻研判
+  assert.equal(secMap['黄金'].direction, '利空');   // 新闻缺失仍按行情校准
 });

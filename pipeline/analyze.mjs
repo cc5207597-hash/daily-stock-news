@@ -4,57 +4,11 @@ import net from 'node:net';
 import { CONFIG } from './config.mjs';
 import { dedupKey } from './clean.mjs';
 import { SECTORS, IMPACT_RANK, impactCompare } from './sectors.mjs';
-import { scoreNewsItem, sectorShock } from './sentiment.mjs';
-
-// Match AI-consolidated brief to its most recent source news pubDate
-// Returns { date, link } so each brief keeps the source article's real
-// publish time and a working "原文" link.
-export function findSourceDate(ai, newsItems, fallback, index) {
-  const title = (ai.title_cn || '').toLowerCase();
-  const summary = (ai.summary_cn || '').toLowerCase();
-  const cat = (ai.category || '');
-
-  let bestDate = null;
-  let bestLink = '';
-  let bestScore = 0;
-
-  const titleWords = title.replace(/[^a-z0-9一-鿿]/g, ' ').split(/\s+/).filter(w => w.length >= 2);
-  const summaryWords = summary.replace(/[^a-z0-9一-鿿]/g, ' ').split(/\s+/).filter(w => w.length >= 2);
-
-  for (const item of newsItems) {
-    let score = 0;
-    const itemTitle = (item.title || '').toLowerCase();
-    const itemDesc = (item.description || '').toLowerCase();
-
-    if (item.guessedSector && item.guessedSector === cat) score += 3;
-
-    for (const w of titleWords) {
-      if (itemTitle.includes(w)) score += 2;
-      if (itemDesc.includes(w)) score += 1;
-    }
-    for (const w of summaryWords) {
-      if (itemTitle.includes(w)) score += 1;
-      if (itemDesc.includes(w)) score += 1;
-    }
-
-    if (score > bestScore) {
-      bestScore = score;
-      bestDate = item.pubDate;
-      bestLink = item.link || '';
-    }
-  }
-
-  if (bestDate && bestScore >= 2) return { date: bestDate, link: bestLink };
-
-  const sectorItems = newsItems.filter(item => item.guessedSector === cat);
-  if (sectorItems.length > 0) {
-    const sorted = [...sectorItems].sort((a, b) => b.pubDate - a.pubDate);
-    const chosen = sorted[Math.min(index, sorted.length - 1)];
-    return { date: chosen.pubDate, link: chosen.link || '' };
-  }
-
-  return { date: fallback, link: '' };
-}
+import {
+  scoreNewsItem, sectorShock, sanitizeRating,
+  sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
+  aggregateDirection, applyEtfCalibration,
+} from './sentiment.mjs';
 
 // ── Claude API analysis ──────────────────────────────────
 
@@ -198,57 +152,73 @@ async function translateItems(newsItems) {
   }
 }
 
-// One attempt at full AI analysis; returns null on any failure so the caller can retry
-async function tryAnalyzeOnce(newsItems) {
-  console.log('\n🤖 调用 Claude API 进行 AI 分析 + 中文翻译...');
+// 当日板块行情背景(供 AI 研判时对照)
+function marketContext(etfData) {
+  if (!Array.isArray(etfData) || etfData.length === 0) return '';
+  const parts = SECTORS.map(s => {
+    const avg = sectorAvgChange(etfData, s);
+    return avg === null ? `${s}: 无行情` : `${s}: ETF 平均 ${avg >= 0 ? '+' : ''}${avg.toFixed(1)}%`;
+  });
+  return `当日各板块 ETF 实际涨跌:\n${parts.join('\n')}`;
+}
+
+// One attempt at full per-item AI judgment; returns null on any failure so the caller can retry
+async function tryAnalyzeOnce(newsItems, etfData) {
+  console.log('\n🤖 调用 Claude API 进行逐条 AI 研判 + 中文翻译...');
+
+  // 只研判四板块条目,与关键词路径一致,省 token
+  const targets = newsItems.filter(n => SECTORS.includes(n.guessedSector));
 
   // Count sector distribution
   const inputSectorCounts = {};
-  for (const n of newsItems) {
+  for (const n of targets) {
     const s = n.guessedSector || '未分类';
     inputSectorCounts[s] = (inputSectorCounts[s] || 0) + 1;
   }
   const sectorSummary = Object.entries(inputSectorCounts).map(([k, v]) => `${k} ${v}条`).join('、');
 
+  // 每条先跑关键词预评分作为基线(带稳定 id 供 AI 回填)
+  const rated = targets.map((n, i) => {
+    const rating = scoreNewsItem(n);
+    return { ...n, __id: i, keyword: rating };
+  });
+
   // Sort items by sector for better AI understanding
-  const sortedItems = [...newsItems].sort((a, b) => {
+  const sortedItems = [...rated].sort((a, b) => {
     const sa = a.guessedSector || '未分类', sb = b.guessedSector || '未分类';
     if (sa === sb) return b.pubDate - a.pubDate;
     const order = {'半导体':1, '光模块':2, '创新药':3, '黄金':4, '未分类':5};
     return (order[sa] || 9) - (order[sb] || 9);
   });
 
-  const newsText = sortedItems.map((n, i) =>
-    `[${i}]【${n.guessedSector || '未分类'}】标题: ${n.title}\n    描述: ${n.description}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
+  const newsText = sortedItems.map(n =>
+    `[${n.__id}]【${n.guessedSector || '未分类'}】标题: ${n.title}\n    描述: ${n.description}\n    关键词预判: ${n.keyword.direction}/${n.keyword.impact}\n    日期: ${n.pubDate.toISOString()}\n    来源: ${n.source}`
   ).join('\n\n');
 
-  const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${newsItems.length} 条新闻已按板块预分类（${sectorSummary}），每条标题前的【】标签为板块提示，请以此为主要参考进行归类。
+  const prompt = `你是资深金融分析师，专注半导体、光模块、创新药、黄金四大赛道。以下 ${rated.length} 条新闻已按板块预分类（${sectorSummary}），每条标题前的【】标签为板块提示。每条附了本地关键词引擎的预判（方向/影响），供你参考，但以你的专业判断为准。
 
-核心任务：从这些新闻中提炼出 12-20 条行业简讯，四个板块必须有覆盖。规则：
-1. 同类涨跌行情合并为一条，不要多条说同一件事
-2. 严厉丢弃纯情绪/个人故事/标题党/重复内容
-3. 只保留有产业逻辑支撑的内容：技术突破、政策/制裁变化、客户订单、产能扩张、竞争格局变动、临床数据/FDA审批、金价/利率/央行购金
-4. 每个版块至少2条有实质内容的简讯
-5. 尽量涵盖不同板块，若某个板块输入新闻确实很少就如实反映，但不要全写半导体
+${marketContext(etfData)}
 
-每条简讯包含以下字段（请严格遵守字段名）：
-- title_cn：专业平实的行业简讯标题
-- summary_cn：客观事实提炼，包含具体公司名/数据/技术细节，30-60字
-- category：半导体 / 光模块 / 创新药 / 黄金（四选一）
+核心任务：对每条新闻逐一给出研判，条目数必须与输入完全一致（逐条全量研判，不要合并、不要删减）。规则：
+1. 方向判断必须结合当日板块行情：板块 ETF 大跌(平均跌幅超3%)时，该板块的行情类/利空类新闻应判"利空"；大涨(超3%)时行情类应判"利好"。不得因"仅是行情描述"就判中性 —— 涨跌行情本身就是方向。
+2. 只调"中性"：有明确基本面(业绩/FDA/订单/制裁等)的新闻按其自身逻辑判断，不要被板块行情强行翻转。
+3. 若某条确属噪声/重复，仍要给方向(可标中性/低)，不要删条。
+4. 对关键词预判复核：同意则 notes 留"同意关键词预判"，修正则写明修正理由（如"板块大跌，行情类应判利空"）。
+
+每个对象包含以下字段（请严格遵守）：
+- id：对应输入编号，必须与输入的 [N] 一致
 - direction：利好 / 利空 / 中性 / 分化
 - impact：极高 / 高 / 中 / 低
 - certainty：高 / 中 / 低
 - time_window：短期 / 中期 / 长期
-- tickers：1-3个直接关联的A股标的（如中际旭创、中芯国际、药明康德、紫金矿业等），不确定标"—"
-- notes：补充说明，无则留空
+- notes：研判依据，30 字内
 
 另外生成：
-- sector_matrix：固定四条，分别对应半导体、光模块、创新药、黄金，每条的字段：name、shock（强/中/弱）、direction、news_count、summary、tickers
 - key_points：4-6条，以【板块】开头，包含具体数据或标的
-- market_summary：一段话总结产业动态
+- market_summary：一段话总结当日产业动态
 
 输出 JSON，不要 markdown 包裹，不要任何其他文字：
-{"analyzed": [{"title_cn": "...", "summary_cn": "...", "category": "半导体", "direction": "利空", "impact": "高", "certainty": "高", "time_window": "短期", "tickers": "标的", "notes": ""}], "sector_matrix": [{"name": "半导体", "shock": "强", "direction": "分化", "news_count": 5, "summary": "...", "tickers": "..."}], "key_points": ["【半导体】..."], "market_summary": "..."}
+{"analyzed": [{"id": 0, "direction": "利空", "impact": "高", "certainty": "中", "time_window": "短期", "notes": ""}], "key_points": ["【半导体】..."], "market_summary": "..."}
 
 新闻原文：
 
@@ -265,7 +235,7 @@ ${newsText}`;
       },
       body: JSON.stringify({
         model: CONFIG.model,
-        max_tokens: 16384,
+        max_tokens: 32768,
         messages: [{ role: 'user', content: prompt }],
       }),
       timeout: 180000,
@@ -308,66 +278,50 @@ ${newsText}`;
     return null;
   }
 
-  // Process AI output with proper source dates
-  const maxInputDate = newsItems.reduce((max, n) => n.pubDate > max ? n.pubDate : max, new Date(0));
+  // 按 id 合并回条目:缺 id 的条目保留关键词预判,不丢数据
+  const byId = new Map();
+  for (const a of result.analyzed) {
+    if (typeof a.id === 'number' || typeof a.id === 'string') byId.set(String(a.id), a);
+  }
+  const maxInputDate = targets.reduce((max, n) => n.pubDate > max ? n.pubDate : max, new Date(0));
   const baseDate = maxInputDate.getTime() > 0 ? maxInputDate : new Date();
 
-  const analyzed = (result.analyzed || []).map((ai, i) => {
-    const src = findSourceDate(ai, newsItems, baseDate, i);
+  const analyzed = rated.map(n => {
+    const ai = byId.get(String(n.__id));
+    const kw = n.keyword;
+    const direction = ai?.direction ? sanitizeRating({ direction: ai.direction }).direction : kw.direction;
+    const impact = ai?.impact ? sanitizeRating({ impact: ai.impact }).impact : kw.impact;
+    const certainty = ai?.certainty ? sanitizeRating({ certainty: ai.certainty }).certainty : kw.certainty;
+    const time_window = ai?.time_window ? sanitizeRating({ time_window: ai.time_window }).time_window : kw.time_window;
+    const notes = ai?.notes && !String(ai.notes).includes('同意关键词预判')
+      ? `AI研判:${ai.notes}`
+      : kw.notes;
     return {
-      title_cn: ai.title_cn || '[未命名]',
-      summary_cn: ai.summary_cn || '',
-      category: ai.category || '',
-      direction: (ai.direction || '中性').replace('中性偏',''),
-      impact: ai.impact || '中',
-      certainty: ai.certainty || '中',
-      time_window: ai.time_window || '中期',
-      tickers: ai.tickers || '—',
-      notes: ai.notes || '',
-      title: ai.title_cn || '',
-      description: ai.summary_cn || '',
-      pubDate: src.date,
-      source: 'AI综合',
-      link: src.link,
+      title_cn: n.title_cn || n.title,
+      summary_cn: n.summary_cn || n.description.substring(0, 80),
+      category: n.guessedSector,
+      direction,
+      impact,
+      certainty,
+      time_window,
+      tickers: '—',
+      notes,
+      title: n.title_cn || n.title,
+      description: n.description,
+      pubDate: n.pubDate || baseDate,
+      source: n.source || 'AI研判',
+      link: n.link || '',
     };
   });
 
-  // Merge AI sector_matrix with defaults
-  const defaultMatrix = {
-    '半导体': { name: '半导体', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
-    '光模块': { name: '光模块', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
-    '创新药': { name: '创新药', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
-    '黄金': { name: '黄金', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
-  };
-  const aiMatrix = result.sector_matrix || [];
-  for (const s of aiMatrix) {
-    if (defaultMatrix[s.name]) {
-      defaultMatrix[s.name] = {
-        name: s.name,
-        shock: s.shock || '中',
-        direction: s.direction || '中性',
-        news_count: s.news_count || 0,
-        summary: s.summary || '',
-        tickers: s.tickers || '',
-      };
-    }
-  }
-  // Count actual categories
-  for (const item of analyzed) {
-    if (item.category && defaultMatrix[item.category]) {
-      defaultMatrix[item.category].news_count++;
-    }
-  }
+  console.log(`  AI 逐条研判: ${analyzed.length} 条（原始 ${newsItems.length} 条，筛选 ${targets.length} 条）`);
 
-  const sectorMatrix = Object.values(defaultMatrix).filter(s => s.news_count >= 0);
-  const shockOrder = { '强': 0, '中': 1, '弱': 2 };
-  sectorMatrix.sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
-
-  console.log(`  AI去重合并: ${analyzed.length} 条行业简讯（原始 ${newsItems.length} 条）`);
+  // 让返回的逐条方向与板块矩阵一致:中性条目随大盘行情调向
+  const reRated = reRateNeutralsToMarket(analyzed, etfData);
 
   return {
-    analyzed,
-    sectorMatrix,
+    analyzed: reRated,
+    sectorMatrix: buildSectorMatrix(reRated, etfData),
     keyPoints: result.key_points || [],
     marketSummary: result.market_summary || '',
     isAi: true,
@@ -399,10 +353,10 @@ function dedupTranslated(items) {
   return out;
 }
 
-export async function analyzeWithClaude(newsItems) {
+export async function analyzeWithClaude(newsItems, etfData) {
   if (!CONFIG.apiKey) {
     console.log('\n⚠ ANTHROPIC_API_KEY 未设置，使用本地关键词引擎\n');
-    return analyzeWithKeywords(newsItems);
+    return analyzeWithKeywords(newsItems, etfData);
   }
 
   // 本地 proxy 快速失败:proxy 没在运行,跳过 3×180s 重试 + 90s 翻译空等,
@@ -411,7 +365,7 @@ export async function analyzeWithClaude(newsItems) {
   if (CONFIG.apiBase.startsWith('http://127.0.0.1') || CONFIG.apiBase.startsWith('http://localhost')) {
     if (await proxyReachable() === false) {
       console.log('\n⚠ 本地 proxy (127.0.0.1:15721) 未运行，跳过 AI 分析，使用本地关键词引擎\n');
-      return analyzeWithKeywords(newsItems);
+      return analyzeWithKeywords(newsItems, etfData);
     }
   }
 
@@ -421,13 +375,13 @@ export async function analyzeWithClaude(newsItems) {
 
   for (let attempt = 1; attempt <= 3; attempt++) {
     if (attempt > 1) console.log(`\n  🔁 重试 AI 分析 (第 ${attempt}/3 次)...`);
-    const ok = await tryAnalyzeOnce(translated);
+    const ok = await tryAnalyzeOnce(translated, etfData);
     if (ok) return ok;
     await new Promise(r => setTimeout(r, 1500 * attempt));
   }
 
   console.log('  AI 分析 3 次均失败，回退到本地关键词引擎');
-  return analyzeWithKeywords(translated);
+  return analyzeWithKeywords(translated, etfData);
 }
 
 // ── Local keyword engine (fallback) ──────────────────────
@@ -439,52 +393,35 @@ const SECTOR_DEFAULT_TICKERS = {
   '黄金': '紫金矿业、山东黄金、中金黄金',
 };
 
-export async function analyzeWithKeywords(newsItems) {
-  // Translate non-Chinese titles so the report stays fully in simplified Chinese
-  const translated = await translateItems(newsItems);
-
-  const analyzed = translated.map((n) => {
-    // 板块归属由清洗层 classifier 决定(guessedSector);评级由 sentiment.mjs 评分
-    // 引擎负责:命中信号的 base 累计方向分/冲击分 → direction/impact/certainty/
-    // time_window/notes,全部可审计可复现(旧 KEYWORD_RULES 是"命中哪条规则就取
-    // 写死的评级",不可解释)。
-    const sector = n.guessedSector || '';
-    const rating = scoreNewsItem(n);
-    return {
-      ...n,
-      title_cn: n.title_cn || n.title,
-      summary_cn: n.summary_cn || n.description.substring(0, 80),
-      category: sector,
-      direction: rating.direction,
-      impact: rating.impact,
-      certainty: rating.certainty,
-      time_window: rating.time_window,
-      tickers: '—',
-      notes: rating.notes,
-    };
-  }).filter(n => SECTORS.includes(n.category));
-
+// 共享板块矩阵构建(AI 与关键词两路径统一走它):
+// 1. 中性跟随行情(reRateNeutralsToMarket,须在聚合前)
+// 2. 分板块聚合:news_count + 加权投票(aggregateDirection,修复"最后写入胜出")
+// 3. ETF 硬校准(applyEtfCalibration,板块方向最终以当日 ETF 涨跌为准)
+// 4. 冲击 sectorShock + summary/tickers
+// 返回排序后的矩阵数组。
+export function buildSectorMatrix(analyzed, etfData) {
+  const reRated = reRateNeutralsToMarket(analyzed, etfData);
   const secMap = {
-    '半导体': { name: '半导体', shock: '中', direction: '分化', news_count: 0, summary: '', tickers: '' },
-    '光模块': { name: '光模块', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
-    '创新药': { name: '创新药', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
-    '黄金': { name: '黄金', shock: '中', direction: '利好', news_count: 0, summary: '', tickers: '' },
+    '半导体': { name: '半导体', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '光模块': { name: '光模块', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '创新药': { name: '创新药', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
+    '黄金': { name: '黄金', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
   };
   const secItems = { '半导体': [], '光模块': [], '创新药': [], '黄金': [] };
-  for (const item of analyzed) {
+  for (const item of reRated) {
     const cat = item.category;
     if (cat && secMap[cat]) {
       secMap[cat].news_count++;
       secItems[cat].push(item);
-      if (item.direction.includes('利好')) secMap[cat].direction = '利好';
-      else if (item.direction.includes('利空')) secMap[cat].direction = '利空';
     }
   }
-  // 板块冲击:加权新闻数(impact 数值 × 方向强度)→ 强/中/弱,替代旧"见一条极高/高
-  // 就整块变强"的粗糙判断,平滑且可解释。
   for (const cat of Object.keys(secMap)) {
+    secMap[cat].direction = aggregateDirection(secItems[cat]);
     secMap[cat].shock = sectorShock(secItems[cat]);
   }
+
+  // ETF 硬校准:板块方向最终以当日 ETF 实际涨跌为准(±3% 阈值,±1% 内不干预)
+  applyEtfCalibration(secMap, etfData);
 
   // Fill matrix summary + tickers from each sector's highest-impact news
   for (const cat of Object.keys(secMap)) {
@@ -513,16 +450,48 @@ export async function analyzeWithKeywords(newsItems) {
   }
 
   const shockOrder = { '强': 0, '中': 1, '弱': 2 };
-  const matrix = Object.values(secMap).sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
+  return Object.values(secMap).sort((a, b) => shockOrder[a.shock] - shockOrder[b.shock] || b.news_count - a.news_count);
+}
+
+export async function analyzeWithKeywords(newsItems, etfData) {
+  // Translate non-Chinese titles so the report stays fully in simplified Chinese
+  const translated = await translateItems(newsItems);
+
+  const analyzed = translated.map((n) => {
+    // 板块归属由清洗层 classifier 决定(guessedSector);评级由 sentiment.mjs 评分
+    // 引擎负责:命中信号的 base 累计方向分/冲击分 → direction/impact/certainty/
+    // time_window/notes,全部可审计可复现(旧 KEYWORD_RULES 是"命中哪条规则就取
+    // 写死的评级",不可解释)。
+    const sector = n.guessedSector || '';
+    const rating = scoreNewsItem(n);
+    return {
+      ...n,
+      title_cn: n.title_cn || n.title,
+      summary_cn: n.summary_cn || n.description.substring(0, 80),
+      category: sector,
+      direction: rating.direction,
+      impact: rating.impact,
+      certainty: rating.certainty,
+      time_window: rating.time_window,
+      tickers: '—',
+      notes: rating.notes,
+    };
+  }).filter(n => SECTORS.includes(n.category));
+
+  // 板块方向:先中性跟随行情,再加权投票聚合,最后 ETF 硬校准
+  const matrix = buildSectorMatrix(analyzed, etfData);
+
+  // 让返回的逐条方向与矩阵一致:中性条目随大盘行情调向(卡片/情绪图随之改善)
+  const reRated = reRateNeutralsToMarket(analyzed, etfData);
 
   const points = [
-    `今日共抓取 ${analyzed.length} 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。`,
-    `极高影响事件 ${analyzed.filter(n => n.impact === '极高').length} 条，高影响 ${analyzed.filter(n => n.impact === '高').length} 条，利好方向 ${analyzed.filter(n => n.direction.includes('利好')).length} 条。`,
+    `今日共抓取 ${reRated.length} 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。`,
+    `极高影响事件 ${reRated.filter(n => n.impact === '极高').length} 条，高影响 ${reRated.filter(n => n.impact === '高').length} 条，利好方向 ${reRated.filter(n => n.direction.includes('利好')).length} 条。`,
   ];
   if (matrix.length > 0) {
     points.push(`板块概况：${matrix.map(s => `${s.name}(${s.direction}, ${s.shock}冲击, ${s.news_count}条)`).join('、')}。`);
   }
-  const topNews = [...analyzed].sort((a, b) => {
+  const topNews = [...reRated].sort((a, b) => {
     // Prefer fully-Chinese headlines in the digest; English/Korean leftovers
     // (proxy/API down, local-dict partial translation) only surface if nothing
     // better exists.
@@ -537,10 +506,10 @@ export async function analyzeWithKeywords(newsItems) {
   }
 
   return {
-    analyzed,
+    analyzed: reRated,
     sectorMatrix: matrix,
     keyPoints: points,
-    marketSummary: `本日报聚焦半导体、光模块、创新药、黄金四大赛道，${analyzed.length} 条新闻经关键词引擎自动分析生成。`,
+    marketSummary: `本日报聚焦半导体、光模块、创新药、黄金四大赛道，${reRated.length} 条新闻经关键词引擎自动分析生成。`,
     isAi: false,
     fullNews: newsItems,
   };

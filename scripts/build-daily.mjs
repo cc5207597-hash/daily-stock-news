@@ -17,7 +17,8 @@ import { CONFIG } from '../pipeline/config.mjs';
 import { formatTime, getTodayStr, getTodayDisplay, beijingDateKey, beijingNowString } from '../pipeline/utils.mjs';
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, dedupKey } from '../pipeline/clean.mjs';
-import { analyzeWithClaude } from '../pipeline/analyze.mjs';
+import { analyzeWithClaude, buildSectorMatrix } from '../pipeline/analyze.mjs';
+import { scoreNewsItem } from '../pipeline/sentiment.mjs';
 import { SECTORS, CATEGORY_CLS, IMPACT_RANK, impactCompare } from '../pipeline/sectors.mjs';
 import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
 
@@ -966,7 +967,7 @@ async function main() {
   console.log(`\n✅ 最终 ${kept.length} 条待分析新闻（${dateStr} 当日）\n`);
 
   // 3. Analyze
-  const result = await analyzeWithClaude(kept);
+  const result = await analyzeWithClaude(kept, etfData);
 
   // 3b. Sector backfill — guarantee every sector has at least one card. A build
   // can legitimately come back with a sector empty (that time window had no news
@@ -986,16 +987,21 @@ async function main() {
       continue;
     }
     const src = candidates[0];
+    // 兜底卡方向:先按关键词评分引擎判定;中性时沿用该板块矩阵(已被 ETF 校准)
+    // 的方向,避免大跌板块的兜底卡仍显示中性。
+    const rating = scoreNewsItem(src);
+    const mtxDir = (result.sectorMatrix || []).find(s => s.name === sector)?.direction;
+    const direction = rating.direction === '中性' && mtxDir ? mtxDir : rating.direction;
     result.analyzed.push({
       title_cn: src.title_cn || src.title,
       summary_cn: src.summary_cn || src.description?.substring(0, 80) || '',
       category: sector,
-      direction: '中性',
-      impact: '中',
+      direction,
+      impact: rating.impact,
       certainty: '低',
       time_window: '短期',
       tickers: '—',
-      notes: '板块兜底：当日该板块新闻较少',
+      notes: `板块兜底：当日该板块新闻较少${direction === '中性' ? '' : `（按板块方向${direction}）`}`,
       title: src.title_cn || src.title,
       description: src.description || '',
       pubDate: src.pubDate,
@@ -1004,11 +1010,12 @@ async function main() {
     });
     present.add(sector);
     backfilled.push(sector);
-    // Keep the sector matrix consistent — bump the count on the empty sector.
-    const mtx = (result.sectorMatrix || []).find(s => s.name === sector);
-    if (mtx) mtx.news_count = (mtx.news_count || 0) + 1;
   }
-  if (backfilled.length > 0) console.log(`  🔧 板块兜底补齐: ${backfilled.join(', ')}`);
+  if (backfilled.length > 0) {
+    console.log(`  🔧 板块兜底补齐: ${backfilled.join(', ')}`);
+    // 兜底后重建板块矩阵,保证 news_count/方向/summary 与卡片一致
+    result.sectorMatrix = buildSectorMatrix(result.analyzed, etfData);
+  }
 
   // 4. Sort by date (newest first), then by impact
   result.analyzed.sort((a, b) => {

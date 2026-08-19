@@ -97,3 +97,31 @@ test('降级产物:板块矩阵每块有中文 summary,不至于空', async () =
     assert.ok(s.news_count >= 0, `${s.name} news_count 应 >=0`);
   }
 });
+
+// ── ETF 硬校准:板块方向以当日 ETF 涨跌为准 ─────────────
+
+test('关键词引擎:大跌板块矩阵被 ETF 校准为利空', async () => {
+  const etfData = [
+    { category: '半导体', change: -8.2 },
+    { category: '光模块', change: -7.9 },
+    { category: '创新药', change: -2.3 },
+    { category: '黄金', change: -1.1 },
+  ];
+  const r = await analyzeWithKeywords(
+    [item('半导体板块继续调整', '光刻胶概念走弱', '半导体')],
+    etfData,
+  );
+  const sem = r.sectorMatrix.find(s => s.name === '半导体');
+  assert.equal(sem.direction, '利空');
+  // 逐条方向:中性条目随行情调向(卡片/情绪图一致)
+  const a = r.analyzed.find(n => n.category === '半导体');
+  assert.equal(a.direction, '利空');
+  assert.match(a.notes, /ETF/);
+});
+
+test('关键词引擎:±1% 内涨跌不干预新闻研判', async () => {
+  const etfData = [{ category: '黄金', change: 0.6 }];
+  const r = await analyzeWithKeywords([item('央行购金,金价大涨', '', '黄金')], etfData);
+  const gold = r.sectorMatrix.find(s => s.name === '黄金');
+  assert.equal(gold.direction, '利好'); // 央行购金基本面利好,不被 ±1% 行情覆盖
+});

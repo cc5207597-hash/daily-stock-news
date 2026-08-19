@@ -41,9 +41,13 @@ export const SIGNALS = [
   // ── 宏观(对黄金方向)──
   { cat: '宏观', kw: ['降息', '美联储降息', '鸽派', 'rate cut', 'Fed cut', 'dovish'], dir: '利好', base: 20, weight: 2, sectors: ['黄金'], note: '降息→持有黄金机会成本下降,利好黄金' },
   { cat: '宏观', kw: ['加息', '鹰派', '通胀超预期', 'rate hike', 'hawkish'], dir: '利空', base: 20, weight: 2, sectors: ['黄金'] },
-  // ── 软信号(弱,方向中性)──
+  // ── 软信号(弱)──
   { cat: '传闻', kw: ['传闻', '或考虑', '据报道', '有望', '计划', 'may', 'could', 'reportedly', 'in talks'], dir: '中性', base: 10, weight: 1 },
-  { cat: '行情', kw: ['股价上涨', '大涨', '涨停', '领涨', 'surge', 'rally', 'soars', 'climbs'], dir: '中性', base: 10, weight: 1, note: '仅行情描述,不含基本面,方向中性' },
+  // 行情类信号计入方向:涨/跌行情本身就是板块方向的最直接体现。
+  // base=15 恰好越过 WEAK_MAX=15 压制(15 < 15 为假),下跌词同样命中即利空,
+  // 避免"板块暴跌新闻被压成中性"。
+  { cat: '行情', kw: ['股价上涨', '大涨', '涨停', '领涨', 'surge', 'rally', 'soars', 'climbs'], dir: '利好', base: 15, weight: 1, note: '板块行情上涨' },
+  { cat: '行情', kw: ['暴跌', '重挫', '大跌', '跳水', '下挫', '领跌', '闪崩', '持续走低', '跌幅居前', 'crashed', 'plunge', 'plummet', 'slump', 'tumble', 'selloff', 'nosedive'], dir: '利空', base: 18, weight: 2, note: '板块行情走弱' },
 ];
 
 // 冲击分 → impact 档位阈值(可配置)
@@ -176,4 +180,85 @@ export function sanitizeRating(r) {
     score: r.score || 0,
     hitSignals: r.hitSignals || [],
   };
+}
+
+// ── 板块方向:ETF 硬校准 + 加权聚合 ────────────────────
+// ETF 实时涨跌是板块方向的最直接证据,新闻研判只负责解释"为什么"。
+// 硬校准阈值(用户选定 ±3%):|avg|≤1% 不干预,1%~3% 强制中性,>3% 强制利好/利空。
+
+// 板块 ETF 单日平均涨跌幅(百分比);该板块无行情数据返回 null
+export function sectorAvgChange(etfData, sector) {
+  if (!Array.isArray(etfData)) return null;
+  const changes = etfData
+    .filter(e => e && e.category === sector && typeof e.change === 'number')
+    .map(e => e.change);
+  if (changes.length === 0) return null;
+  return changes.reduce((a, b) => a + b, 0) / changes.length;
+}
+
+// ETF 涨跌幅 → 强制板块方向;±1% 内不干预(返回 null 由新闻研判决定)
+export function etfDirectionFor(avgChange) {
+  if (typeof avgChange !== 'number' || !Number.isFinite(avgChange)) return null;
+  if (avgChange < -3) return '利空';
+  if (avgChange < -1) return '中性';
+  if (avgChange <= 1) return null;
+  if (avgChange <= 3) return '中性';
+  return '利好';
+}
+
+// 板块内"中性"条目顺势跟随行情:仅当 |板块ETF涨跌|>3% 时,把该板块的
+// 中性条目调成市场方向。只调中性,尊重既有利好/利空/分化(不覆盖 FDA 获批
+// 这类明确利好)。返回新的 analyzed 数组。
+export function reRateNeutralsToMarket(analyzed, etfData) {
+  if (!Array.isArray(etfData) || etfData.length === 0) return analyzed;
+  const bySector = {};
+  for (const n of analyzed) {
+    if (!bySector[n.category]) bySector[n.category] = sectorAvgChange(etfData, n.category);
+  }
+  return analyzed.map(n => {
+    const avg = bySector[n.category];
+    const forced = etfDirectionFor(avg);
+    if (!forced || n.direction !== '中性') return n;
+    return { ...n, direction: forced, notes: `${n.notes || ''}；结合板块行情(ETF ${avg.toFixed(1)}%)调至${forced}`.trim() };
+  });
+}
+
+// 加权投票聚合板块方向,修复"最后写入胜出":利空比重大时不再被末条利好覆盖。
+// 按 impact 加权(极高4/高3/中2/低1),利好+1 / 利空-1 / 分化+0.2 / 中性0。
+// net/total 超 ±0.15 判单边方向,否则按票型(含分化票 → 分化;只含中性 → 中性)。
+export function aggregateDirection(items) {
+  let net = 0, total = 0, hasSplit = false, hasPos = false, hasNeg = false;
+  for (const n of items) {
+    const w = IMPACT_VALUE[n.impact] ?? 1;
+    const d = n.direction;
+    const wgt = (d === '利好') ? 1 : (d === '利空') ? -1 : (d === '分化') ? 0.2 : 0;
+    net += wgt * w;
+    total += w;
+    if (d === '分化') hasSplit = true;
+    if (d === '利好') hasPos = true;
+    if (d === '利空') hasNeg = true;
+  }
+  if (total === 0) return '中性';
+  const ratio = net / total;
+  if (ratio > 0.15) return '利好';
+  if (ratio < -0.15) return '利空';
+  if (hasSplit && (hasPos || hasNeg)) return '分化';
+  return '中性';
+}
+
+// ETF 硬校准:板块方向最终以当日 ETF 涨跌为准。仅当该板块行情数据可用且
+// 涨跌幅超出 ±1%(etfDirectionFor 非 null)时强制覆写;±1% 内保留新闻研判结果。
+// 板块新闻缺失(空 secItems)同样生效,板块方向以行情为准。
+export function applyEtfCalibration(secMap, etfData) {
+  if (!Array.isArray(etfData) || etfData.length === 0) return;
+  for (const cat of Object.keys(secMap)) {
+    const avg = sectorAvgChange(etfData, cat);
+    const forced = etfDirectionFor(avg);
+    if (!forced || !secMap[cat]) continue;
+    const prev = secMap[cat].direction;
+    secMap[cat].direction = forced;
+    if (prev !== forced) {
+      secMap[cat].notes = (secMap[cat].notes || '') + `；ETF校准(当日${avg >= 0 ? '+' : ''}${avg.toFixed(1)}%)`;
+    }
+  }
 }
