@@ -474,18 +474,21 @@ ${keyPoints.length > 0 ? `
 
 </div>
 <script>
-const REFRESH_URL = '';
+const REFRESH_URL = ${JSON.stringify(process.env.REFRESH_URL || '')};
+const REFRESH_SECRET = ${JSON.stringify(process.env.REFRESH_SECRET || '')};
 // BASE was set by the inline script in <head> (which also injected Chart.js).
 // It holds the site root derived from the current URL — '' at the domain root
 // (local preview), '/daily-stock-news' on gh-pages. All history/asset paths
 // below join against it so they resolve correctly on both the index page and
 // history pages under /history/.
 const BASE = window.BASE || '';
-const PHASE_CN = { fetch: '抓取新闻', analyze: 'AI 分析', 'analyze-kw': '关键词引擎', chart: '图表数据', write: '写入文件', commit: '提交 git', push: '推送 git', done: '完成', error: '失败' };
+const PHASE_CN = { fetch: '抓取新闻', analyze: 'AI 分析', 'analyze-kw': '关键词引擎', chart: '图表数据', write: '写入文件', commit: '提交 git', push: '推送 git', cloud: '云端构建', done: '完成', error: '失败' };
 let refreshStartedAt = 0;
 let refreshTimer = null;
 let lastPhase = 'fetch';
 function isLocalHost() { return ['localhost', '127.0.0.1', '::1', '0.0.0.0'].includes(location.hostname); }
+// 公网可用: 配置了云端刷新代理(REFRESH_URL 非空); 本机可用: 本地预览服务
+function refreshAvailable() { return !!(REFRESH_URL || isLocalHost()); }
 function updateBtnPhase(phase) {
   const btn = document.querySelector('.refresh-btn');
   if (!btn) return;
@@ -499,15 +502,47 @@ function startBtnTimer() {
 function stopBtnTimer() { if (refreshTimer) { clearInterval(refreshTimer); refreshTimer = null; } }
 async function triggerRefresh() {
   const btn = document.querySelector('.refresh-btn');
-  // 线上 gh-pages 没有本地刷新服务,按钮不发起无效请求
-  if (!isLocalHost()) {
-    showToast('刷新按钮仅在本机预览 (http://127.0.0.1:3456) 可用', 'err');
+  if (!refreshAvailable()) {
+    showToast('刷新服务不可用', 'err');
     return;
   }
   if (btn.disabled) return; // 已在进行中,避免重复轮询
   btn.disabled = true;
   btn.textContent = '⏳ 提交中...';
   refreshStartedAt = Date.now();
+
+  // ── 云端代理模式: 触发 GitHub Actions 重建,前端轮询 build-state.json ──
+  if (REFRESH_URL) {
+    const runId = Date.now().toString(36) + '-' + Math.random().toString(36).slice(2, 8);
+    try {
+      const r = await fetch(REFRESH_URL + '/refresh', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', ...(REFRESH_SECRET ? { 'X-Refresh-Secret': REFRESH_SECRET } : {}) },
+        body: JSON.stringify({ runId }),
+      });
+      const d = await r.json();
+      if (r.status === 202 && d.status === 'accepted') {
+        showToast('已在云端触发构建,完成后自动刷新', 'ok');
+        lastPhase = 'cloud';
+        updateBtnPhase(lastPhase);
+        startBtnTimer();
+        pollStatus(runId);
+      } else {
+        showToast(d.message || d.error || '请求失败', 'err');
+        resetBtn();
+      }
+    } catch (e) {
+      showToast('云端刷新服务异常,请稍后再试', 'err');
+      resetBtn();
+    }
+    return;
+  }
+
+  // ── 本机模式: 本地 refresh-server 的 /refresh + /status ──
+  if (!isLocalHost()) {
+    showToast('刷新按钮仅在本机预览 (http://127.0.0.1:3456) 可用', 'err');
+    return;
+  }
   try {
     const r = await fetch(REFRESH_URL + '/refresh', { method: 'POST' });
     const d = await r.json();
@@ -539,7 +574,37 @@ function resetBtn() {
   btn.disabled = false;
   btn.textContent = '🔄 刷新日报';
 }
-async function pollStatus() {
+async function pollStatus(myRunId) {
+  // ── 云端模式: 轮询 history/build-state.json,用 runId 精确判断"这一次"构建完成 ──
+  if (REFRESH_URL) {
+    const MAX = 90; // 8s × 90 ≈ 12 分钟,覆盖 Actions 排队 + 构建 + 部署
+    let netErrors = 0;
+    for (let i = 0; i < MAX; i++) {
+      await new Promise(r => setTimeout(r, 8000));
+      try {
+        // _t 时间戳 + no-store,双重防 GitHub Pages 缓存旧文件
+        const r = await fetch(BASE + '/history/build-state.json?_t=' + Date.now(), { cache: 'no-store' });
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        const d = await r.json();
+        netErrors = 0;
+        updateBtnPhase('cloud');
+        if (d.state === 'done' && myRunId && d.runId === myRunId) {
+          stopBtnTimer();
+          showToast('刷新完成!即将自动重载', 'ok');
+          setTimeout(() => location.reload(), 1500);
+          return;
+        }
+      } catch (e) {
+        if (++netErrors >= 5) { stopBtnTimer(); showToast('云端构建暂不可见,请稍后刷新页面', 'err'); resetBtn(); return; }
+      }
+    }
+    stopBtnTimer();
+    showToast('云端构建超时,请查看 GitHub Actions 运行记录', 'err');
+    resetBtn();
+    return;
+  }
+
+  // ── 本机模式: 轮询 /status ──
   const MAX = 75; // 8s × 75 ≈ 10 分钟,覆盖 AI proxy 最坏 3×180s 重试
   let netErrors = 0;
   for (let i = 0; i < MAX; i++) {
@@ -598,7 +663,16 @@ function showHistoryDate(){
 function goToday(){
   window.location.href = BASE + '/';
 }
-document.addEventListener('DOMContentLoaded', loadHistoryDates);
+document.addEventListener('DOMContentLoaded', () => {
+  loadHistoryDates();
+  // 刷新按钮显隐: 公网无代理时隐藏(避免不可用的按钮),历史页隐藏;本机预览始终显示
+  const btn = document.querySelector('.refresh-btn');
+  if (btn) {
+    const onHistory = window.location.pathname.indexOf('/history/') >= 0;
+    if (onHistory && !isLocalHost()) btn.style.display = 'none';
+    else if (!refreshAvailable()) btn.style.display = 'none';
+  }
+});
 </script>
 ${chartJS}
 </body>
@@ -811,6 +885,18 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
   if (!dates.includes(dateStr)) dates.unshift(dateStr);
   writeFileSync(join(HISTORY_DIR, 'dates.json'), JSON.stringify({ dates }, null, 2), 'utf-8');
   console.log(`🗓️  历史索引: ${HISTORY_DIR}/dates.json (${dates.length} 天)`);
+
+  // 公网一键刷新状态: 部署到 gh-pages, 前端轮询此文件判断云端构建完成。
+  // 放 history/ 下可被 workflow 的 `git add history/` 自动提交, 无需改 workflow。
+  // runId 由云端代理经 workflow_dispatch inputs 传入, 前端用它精确匹配"这一次"构建;
+  // 定时构建无 runId → 写空串, 不会误配前端请求。
+  writeFileSync(join(HISTORY_DIR, 'build-state.json'), JSON.stringify({
+    runId: process.env.RUN_ID || '',
+    generatedAt: new Date().toISOString(),
+    date: dateStr,
+    state: 'done',
+  }, null, 2), 'utf-8');
+  console.log(`🚀 构建状态: ${HISTORY_DIR}/build-state.json (runId=${process.env.RUN_ID || 'none'})`);
 }
 
 // ── 历史图表重建 ─────────────────────────────────────────
