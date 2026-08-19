@@ -555,16 +555,16 @@
     {
       "date": "20260819",
       "displayDate": "2026-08-19",
-      "isAi": true,
-      "newsCount": 76,
+      "isAi": false,
+      "newsCount": 84,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 0,
-        "high": 26
+        "vhigh": 5,
+        "high": 5
       },
-      "signalHitRate": 26,
+      "signalHitRate": 32,
       "directions": {
         "利好": 0,
         "利空": 2,
@@ -598,7 +598,7 @@
   "total": 14,
   "coveredAll": 11,
   "coverageRate": 79,
-  "avgImpactHigh": 11,
+  "avgImpactHigh": 10,
   "consistency": {
     "黄金": 56,
     "半导体": 67,
