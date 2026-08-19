@@ -556,15 +556,15 @@
       "date": "20260819",
       "displayDate": "2026-08-19",
       "isAi": false,
-      "newsCount": 76,
+      "newsCount": 85,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 3,
-        "high": 4
+        "high": 7
       },
-      "signalHitRate": 25,
+      "signalHitRate": 28,
       "directions": {
         "利好": 4,
         "利空": 0,
@@ -573,12 +573,12 @@
       },
       "matrix": [
         {
-          "name": "半导体",
+          "name": "黄金",
           "direction": "利好",
           "shock": "强"
         },
         {
-          "name": "黄金",
+          "name": "半导体",
           "direction": "利好",
           "shock": "强"
         },
@@ -590,7 +590,7 @@
         {
           "name": "光模块",
           "direction": "利好",
-          "shock": "中"
+          "shock": "强"
         }
       ]
     }
