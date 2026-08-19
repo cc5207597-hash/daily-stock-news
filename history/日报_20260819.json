@@ -1,8 +1,72 @@
 {
   "date": "20260819",
   "displayDate": "2026-08-19",
-  "generatedAt": "2026-08-19T05:02:09.149Z",
+  "generatedAt": "2026-08-19T09:27:25.321Z",
   "analyzed": [
+    {
+      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-19T09:16:15.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
+    },
+    {
+      "title_cn": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
+      "summary_cn": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
+      "description": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试验批准通知书》，注射用HY07121（皮下注射）用于治疗晚期实体瘤的临床试验获得批准。该药品为抗PD-1、抗TIGIT、IL-15/IL-15Rα三靶点抗体融合蛋白，属1类创新型治疗用生物制品。",
+      "pubDate": "2026-08-19T09:08:11.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "全民医保“十五五”规划发布，支持创新药高质量发展",
+      "summary_cn": "8月19日国家医保局网站消息，国家医保局近日印发《全民医疗保障“十五五”规划》。《规划》提出，到2030年，基本医保公共服务可及性进一步增强，医疗保障法制体系基",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "全民医保“十五五”规划发布，支持创新药高质量发展",
+      "description": "8月19日国家医保局网站消息，国家医保局近日印发《全民医疗保障“十五五”规划》。《规划》提出，到2030年，基本医保公共服务可及性进一步增强，医疗保障法制体系基本形成，医保基金管理不断强化，基金运行安全可持续，医保安全保障能力巩固提升，基于大数据、人工智能等技术的精细化管理、精准化服务广泛应用，医保基金使用效能进一步提升，医保标准化加快建设。",
+      "pubDate": "2026-08-19T08:24:28.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
+    },
+    {
+      "title_cn": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
+      "summary_cn": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
+      "description": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来由台积电（TSMC）主导。（路透）",
+      "pubDate": "2026-08-19T08:52:02.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151634"
+    },
     {
       "title_cn": "【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。",
       "summary_cn": "",
@@ -20,8 +84,56 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyt7104602.d.html"
     },
     {
-      "title_cn": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经_金融信息服务商",
-      "summary_cn": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经_金融信息服务商",
+      "title_cn": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
+      "summary_cn": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
+      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
+      "pubDate": "2026-08-19T04:27:46.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
+    },
+    {
+      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
+      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
+      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
+      "pubDate": "2026-08-19T03:43:34.000Z",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45a016VmVhUVhfbXp5d2NzRnNGUnNsajMxSzE4ckRKcFdDcmFuUDctYXV5UFVNb2taY0NTMDZ1eEVRaW5RMGx1UkNoMnplZmFvVVBQb1lqZXNKVDFGRTgtZHBTZTl1TnN4aUd4V0xkdjdOZw?oc=5"
+    },
+    {
+      "title_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+      "summary_cn": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(40)",
+      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
+      "description": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、徐汇园、漕河泾园等为示范引领的人工智能先导产业集群。提升智能计算能力，突破光计算、类脑等颠覆性芯片架构，构建超算智算融合、云边端协同的自主算力体系，建设浦江公共算力服务平台。",
+      "pubDate": "2026-08-19T02:29:39.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151442"
+    },
+    {
+      "title_cn": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
+      "summary_cn": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -29,10 +141,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经_金融信息服务商",
-      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经_金融信息服务商",
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
       "pubDate": "2026-08-19T02:31:05.000Z",
-      "source": "新浪财经_金融信息服务商",
+      "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
     },
     {
@@ -50,22 +162,6 @@
       "pubDate": "2026-08-19T03:15:06.000Z",
       "source": "FX168财经",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
-    },
-    {
-      "title_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
-      "summary_cn": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
-      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 手机新浪网",
-      "pubDate": "2026-08-19T03:43:34.000Z",
-      "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE45a016VmVhUVhfbXp5d2NzRnNGUnNsajMxSzE4ckRKcFdDcmFuUDctYXV5UFVNb2taY0NTMDZ1eEVRaW5RMGx1UkNoMnplZmFvVVBQb1lqZXNKVDFGRTgtZHBTZTl1TnN4aUd4V0xkdjdOZw?oc=5"
     },
     {
       "title_cn": "【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】",
@@ -132,22 +228,6 @@
       "link": ""
     },
     {
-      "title_cn": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "summary_cn": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
-      "pubDate": "2026-08-19T04:27:46.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
-    },
-    {
       "title_cn": "【和誉-B：口服小分子pan-KRAS抑制剂ABSK211新药临床试验申请获NMPA批准】和誉-B(02256)发布公告，中国国家药品监督管理局(NMPA)已批准ABSK211的新药临床试验(IND)申请。ABSK211是一款口服、高效力小分子pan-KRAS抑制剂，对多种KRAS基因改变具有广谱活性，用于治疗携带KRAS基因改变的晚期实体瘤患者。此前， ABSK211已于7月8日获得美国食品药品监督管理局(FDA)的IND批准。在中国及美国均获得IND批准是ABSK211全球临床开发计划的关键里程碑。",
       "summary_cn": "",
       "category": "创新药",
@@ -194,22 +274,6 @@
       "pubDate": "2026-08-19T04:13:17.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3151484"
-    },
-    {
-      "title_cn": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
-      "summary_cn": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(40)",
-      "title": "上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构",
-      "description": "上海市科学技术委员会印发《上海张江高新技术产业开发区发展“十五五”规划》，其中提出，聚焦算力、大模型、语料数据、科学智能、应用等重点领域创新，形成以张江核心园、徐汇园、漕河泾园等为示范引领的人工智能先导产业集群。提升智能计算能力，突破光计算、类脑等颠覆性芯片架构，构建超算智算融合、云边端协同的自主算力体系，建设浦江公共算力服务平台。",
-      "pubDate": "2026-08-19T02:29:39.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151442"
     },
     {
       "title_cn": "创业板指跌超5%，科创50指数跌超6%，沪指跌1.98%，深成指跌3.99%，算力硬件、半导体芯片、机器人、创新药等方向跌幅居前，沪深京三市下跌个股近4900只。",
@@ -356,6 +420,38 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininvmyq8304649.d.html"
     },
     {
+      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
+      "pubDate": "2026-08-19T01:50:20.000Z",
+      "source": "手机网易网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
+    },
+    {
+      "title_cn": "黄金, silver 价格s 下跌 today: Key factors investors should watch - CNBC TV18",
+      "summary_cn": "黄金, silver 价格s 下跌 today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold, silver prices fall today: Key factors investors should watch - CNBC TV18",
+      "description": "Gold, silver prices fall today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
+      "pubDate": "2026-08-19T02:16:31.000Z",
+      "source": "CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWhwclowYWRUcEJtZ1VScThqMjVyRW1mdnppY0hNbG5VS1VxazdZSzB6ZDRnT2NyM29Rc1VZSnFxR0VSMnNXUkhBU2IzOUV4bnZjTDd5akprQ29vSldzRDZxOHAxbzVoc0lJWlYyN3I5ODlScWVNSWFhdWlHVHRMOEZCeGNMeEpfNkZNUlV5TzlVYWtGeDRGRXMyRE5nNVZHb2JwSUh1X0M5Yzg5Rlhha2NqOEJnQdIBuwFBVV95cUxQczZOWlJkWkpzQS0tdUdmSGRKOFpDcHI3WDd5Mld5WjQyeWYzWlpFa2xkS2ZjY1BlRTJ3b21iZlRrNHhkTkMxbEplTWlUaVdUbXEwTzBNNkFqckdob0xnN2lndHYwTkVsWGVtaUtIcGFGZ0ZmZW5XWndFYzR3T3ZMcjBmQkFkd080Z0N0R2VHY3ZoSl9jdG8tS0dWYVBrRmVhMXZHdzEwR1llZVBJVmxrY1RaaFRNLUI1a1A0?oc=5"
+    },
+    {
       "title_cn": "【韩国智库上调今年经济增长预期至3.2%，因AI需求强劲】韩国一个国营智库上调了今年的经济增长预期，超过了政府的预期。预计人工智能推动的全球半导体行业繁荣将强于预期，从而带动出口和投资。韩国开发研究院报告称，预计2026年经济增长率为3.2%，高于5月份预测的2.5%，理由是全球芯片需求强劲，预计将对当地经济产生积极影响。这一修正后的预测高于政府此前预测的3%和国际货币基金组织上个月发布的2.6%的预测值。在经济学家和政策制定者纷纷调整经济增长预期之际，韩国开发研究院（KDI）发布了最新预测，试图将人工智能需求的强劲增长纳入考量，并评估这种增长势头能够持续多久。KDI表示，自去年下半年以来韩国经济的扩张势头预计将保持，因为人工智能需求将继续推动半导体出口，抵消中东冲突导致的进口成本上升。KDI预计，今年韩国半导体出口将增长8.7%，明年将增长5%。",
       "summary_cn": "",
       "category": "半导体",
@@ -404,38 +500,6 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
     },
     {
-      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "pubDate": "2026-08-18T18:30:00.000Z",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
-    },
-    {
-      "title_cn": "黄金 and Silver: The Hidden Forces Driving Its 价格 Movements - Substack",
-      "summary_cn": "黄金 and Silver: The Hidden Forces Driving Its 价格 Movements&nbsp;&nbsp; Substack",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Gold and Silver: The Hidden Forces Driving Its Price Movements - Substack",
-      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
-      "pubDate": "2026-08-18T17:07:04.000Z",
-      "source": "Substack",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
-    },
-    {
       "title_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s - 交易View",
       "summary_cn": "英伟达, AMD, 美光 Lead 芯片 股票 Selloff as Iran Tensions Rattle 市场s&nbsp;&nbsp; 交易View",
       "category": "半导体",
@@ -452,8 +516,40 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经_金融信息服务商",
-      "summary_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经_金融信息服务商",
+      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
+      "title_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements - Substack",
+      "summary_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements&nbsp;&nbsp; Substack",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold and Silver: The Hidden Forces Driving Their Price Movements - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Their Price Movements&nbsp;&nbsp; Substack",
+      "pubDate": "2026-08-18T17:07:04.000Z",
+      "source": "Substack",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
+    },
+    {
+      "title_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
+      "summary_cn": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -461,10 +557,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经_金融信息服务商",
-      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经_金融信息服务商",
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
       "pubDate": "2026-08-18T17:15:00.000Z",
-      "source": "新浪财经_金融信息服务商",
+      "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
     }
   ],
@@ -473,17 +569,25 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 17,
-      "summary": "半导体板块17条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
+      "news_count": 19,
+      "summary": "半导体板块19条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "黄金",
+      "shock": "中",
+      "direction": "利空",
+      "news_count": 7,
+      "summary": "黄金板块7条新闻，方向以利空为主。关注：黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 -",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
+      "name": "创新药",
       "shock": "弱",
       "direction": "利好",
       "news_count": 5,
-      "summary": "黄金板块5条新闻，方向以利好为主。关注：黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经_金融信息服务商",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
+      "summary": "创新药板块5条新闻，方向以利好为主",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
@@ -492,31 +596,23 @@
       "news_count": 4,
       "summary": "光模块板块4条新闻，方向以利好为主。关注：【知情人士：若美升级战争 伊朗考虑打击欧洲境内军事目标】；【知情人士：若美升级",
       "tickers": "中际旭创、新易盛、天孚通信"
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 3,
-      "summary": "创新药板块3条新闻，方向以利好为主。关注：【国家医保局：逐步将临床用量大、价格虚高的药品、医用耗材品种纳入采购范围】；【",
-      "tickers": "百济神州、药明康德、恒瑞医药"
     }
   ],
   "keyPoints": [
-    "今日共抓取 29 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 1 条，高影响 2 条，利好方向 3 条。",
-    "板块概况：半导体(利好, 强冲击, 17条)、黄金(利好, 弱冲击, 5条)、光模块(利好, 弱冲击, 4条)、创新药(利好, 弱冲击, 3条)。",
-    "重点关注：【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。；上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构；黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经_金融信息服务商。"
+    "今日共抓取 35 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 1 条，高影响 3 条，利好方向 3 条。",
+    "板块概况：半导体(利好, 强冲击, 19条)、黄金(利空, 中冲击, 7条)、创新药(利好, 弱冲击, 5条)、光模块(利好, 弱冲击, 4条)。",
+    "重点关注：黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网；【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。；上海张江高新技术产业开发区发展“十五五”规划：提升智能计算能力，突破光计算、类脑等颠覆性芯片架构。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，29 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，35 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
-      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经_金融信息服务商",
-      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经_金融信息服务商",
+      "title": "黄金强势反弹后，现在是“上车”好时机吗？ - 新浪财经",
+      "description": "黄金强势反弹后，现在是“上车”好时机吗？&nbsp;&nbsp; 新浪财经",
       "guessedSector": "黄金",
       "pubDate": "2026-08-19T02:31:05.000Z",
-      "source": "新浪财经_金融信息服务商",
+      "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWXBBQ290QnJIYkd3eGU5NFQ5SEdMNDlXQ09qUUN6OXVFaS12UU4tXzFPYlFhQ2lrZ3o3aUFPSmFlQU9rR3E5VktEZE13TFk2RmRkdlhoQ2trY3c4R3FiQzZWNXN6QWY2V0o3WkNsN0pQeTlOMUVyX2dCSDNrWlNMaFlWdFNRR04ySHJrOXFsOEJkSWwxd2Z3YQ?oc=5"
     },
     {
@@ -528,12 +624,12 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
     },
     {
-      "title": "Gold and Silver: The Hidden Forces Driving Its Price Movements - Substack",
-      "description": "Gold and Silver: The Hidden Forces Driving Its Price Movements&nbsp;&nbsp; Substack",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
       "guessedSector": "黄金",
-      "pubDate": "2026-08-18T17:07:04.000Z",
-      "source": "Substack",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
+      "pubDate": "2026-08-19T01:50:20.000Z",
+      "source": "手机网易网",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
     },
     {
       "title": "Nvidia, AMD, Micron Lead Chip Stocks Selloff as Iran Tensions Rattle Markets - TradingView",
@@ -544,12 +640,20 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经_金融信息服务商",
-      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经_金融信息服务商",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-18T17:15:00.000Z",
-      "source": "新浪财经_金融信息服务商",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
+      "title": "Gold and Silver: The Hidden Forces Driving Their Price Movements - Substack",
+      "description": "Gold and Silver: The Hidden Forces Driving Their Price Movements&nbsp;&nbsp; Substack",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T17:07:04.000Z",
+      "source": "Substack",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnN3eEJnMllBa3V6X3A3NnBQcGljSHNHcGVjQmotSU9HamdDNWxQc3BnMDZqV1dJVjVZdHloal9ENjlqVGV0ZmRuSEtmX1B3NThHZ0ZFaXhSamhoSmhBMzd4WEMxRG1KbWhvUm5VcHZSYXQyREpRUW80M3hFYXJwU0tR?oc=5"
+    },
+    {
+      "title": "Gold, silver prices fall today: Key factors investors should watch - CNBC TV18",
+      "description": "Gold, silver prices fall today: Key factors investors should watch&nbsp;&nbsp; CNBC TV18",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T02:16:31.000Z",
+      "source": "CNBC TV18",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQWhwclowYWRUcEJtZ1VScThqMjVyRW1mdnppY0hNbG5VS1VxazdZSzB6ZDRnT2NyM29Rc1VZSnFxR0VSMnNXUkhBU2IzOUV4bnZjTDd5akprQ29vSldzRDZxOHAxbzVoc0lJWlYyN3I5ODlScWVNSWFhdWlHVHRMOEZCeGNMeEpfNkZNUlV5TzlVYWtGeDRGRXMyRE5nNVZHb2JwSUh1X0M5Yzg5Rlhha2NqOEJnQdIBuwFBVV95cUxQczZOWlJkWkpzQS0tdUdmSGRKOFpDcHI3WDd5Mld5WjQyeWYzWlpFa2xkS2ZjY1BlRTJ3b21iZlRrNHhkTkMxbEplTWlUaVdUbXEwTzBNNkFqckdob0xnN2lndHYwTkVsWGVtaUtIcGFGZ0ZmZW5XWndFYzR3T3ZMcjBmQkFkd080Z0N0R2VHY3ZoSl9jdG8tS0dWYVBrRmVhMXZHdzEwR1llZVBJVmxrY1RaaFRNLUI1a1A0?oc=5"
     },
     {
       "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
@@ -560,12 +664,60 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
     },
     {
+      "title": "费城半导体指数重返牛市，对A股科技配置有何启示？ - 新浪财经",
+      "description": "费城半导体指数重返牛市，对A股科技配置有何启示？&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-18T17:15:00.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPaEtZOWdPcExYQl9ySDBCNWhiaW1sV0pNcGpyZGY1LUh6UHBwekdISnJLWHJCRE5IYWRFZERtSEVrMWtkLU1WTGtlMlI5anI0ekItTllKaVY2aFV0dlpiUzljNkxFZEd1cnBYcWM2N2EybFA3cWxNWjJ5SVRxcVVVcmFPSm90N1hVdzNoTnhKaFB3NXF1SUtnLWEyVVhPTElQOGs5OEZMc1RVOElhdWszckQtUWM0NXVDanU3bzdYbFJtaHlrbXprelFMTXJKMHFSbjNUNFZxU2JGdUpDQWZ0MGJZTE93M0ZMMzdkaEpTbVVwZ29UaWZOWHFn?oc=5"
+    },
+    {
       "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
       "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
       "guessedSector": "黄金",
       "pubDate": "2026-08-18T18:30:00.000Z",
       "source": "IndexBox",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
+      "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
+      "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T09:16:15.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
+    },
+    {
+      "title": "【汇宇制药：注射用HY07121获临床试验批准通知书】",
+      "description": "【汇宇制药：注射用HY07121获临床试验批准通知书】金十数据8月19日讯，汇宇制药公告，公司全资子公司汇宇海玥近日收到国家药品监督管理局核准签发的《药物临床试验批准通知书》，注射用HY07121（皮下注射）用于治疗晚期实体瘤的临床试验获得批准。该药品为抗PD-1、抗TIGIT、IL-15/IL-15Rα三靶点抗体融合蛋白，属1类创新型治疗用生物制品。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T09:08:11.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "全民医保“十五五”规划发布，支持创新药高质量发展",
+      "description": "8月19日国家医保局网站消息，国家医保局近日印发《全民医疗保障“十五五”规划》。《规划》提出，到2030年，基本医保公共服务可及性进一步增强，医疗保障法制体系基本形成，医保基金管理不断强化，基金运行安全可持续，医保安全保障能力巩固提升，基于大数据、人工智能等技术的精细化管理、精准化服务广泛应用，医保基金使用效能进一步提升，医保标准化加快建设。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T08:24:28.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
+    },
+    {
+      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
+      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T04:27:46.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
+    },
+    {
+      "title": "报道：三星因需求激增上调芯片代工价格，涨幅最高达15%",
+      "description": "两位知情人士透露，三星电子已将对新订单的部分先进合约芯片制造服务价格上调，最高涨幅达15%，原因是人工智能（AI）芯片需求正导致产能趋于紧张——这一业务长期以来由台积电（TSMC）主导。（路透）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T08:52:02.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151634"
     },
     {
       "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 手机新浪网",
@@ -606,14 +758,6 @@
       "pubDate": "2026-08-19T04:01:38.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title": "存储“双雄”会师A股进程加速！长存控股完成IPO辅导",
-      "description": "【存储“双雄”会师A股进程加速！长存控股完成IPO辅导】证监会官网显示，长江存储控股股份有限公司日前向湖北证监局提交《辅导工作完成报告》，公司IPO辅导状态变更为辅导验收。从产业版图来看，长存控股旗下子公司涵盖长江存储、长存资本、长存科服、宏茂微等多家企业，长存控股已逐步构建了“闪存制造、晶圆代工、封装测试、产业投资、园区运营与创新孵化”等业务板块协同发展的产业生态，业务体系涵盖了从产品研发、生产制造到产业投资、创新孵化的全价值链环节。",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T04:27:46.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1344,202608193845949768.html"
     },
     {
       "title": "【三菱化学将在福冈建设胶体二氧化硅生产设施】三菱化学将在日本福冈县的九州工厂新建生产设施，实现超高纯度胶体二氧化硅的商业化量产。该胶体二氧化硅将用作半导体抛光剂原材料。项目将于 2028 年 10 月投产。",
@@ -749,43 +893,43 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.169,
-      "change": -7.515822784810125
+      "price": 1.163,
+      "change": -7.990506329113922
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.115,
-      "change": -7.237936772046587
+      "price": 1.109,
+      "change": -7.737104825291179
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.184,
-      "change": -7.137254901960782
+      "price": 1.177,
+      "change": -7.686274509803911
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.023,
-      "change": -7.084468664850142
+      "price": 1.012,
+      "change": -8.083560399636692
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.661,
-      "change": -6.770098730606479
+      "price": 0.652,
+      "change": -8.039492242595196
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 2.942,
-      "change": -6.603174603174596
+      "price": 2.914,
+      "change": -7.492063492063485
     },
     {
       "code": "515120",
@@ -812,28 +956,27 @@
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 8.978,
-      "change": -1.1015642211940917
+      "price": 8.974,
+      "change": -1.1456267900418509
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.379,
-      "change": -1.0966993567436567
+      "price": 9.375,
+      "change": -1.1388801012337924
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.415,
-      "change": -1.0613703236654148
+      "price": 9.404,
+      "change": -1.176965111391342
     }
   ],
   "chartData": {
     "etfTrend": {
       "dates": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-13",
@@ -870,36 +1013,35 @@
           "label": "半导体",
           "data": [
             100,
-            109.98,
-            102.81,
-            97.66,
-            99.2,
-            93.57,
-            88.21,
-            81.71,
-            80.17,
-            88.21,
-            87.88,
-            84.53,
-            85.06,
-            85.6,
-            78.77,
-            77.16,
-            72.34,
-            74.88,
-            69.59,
-            73.34,
-            78.03,
-            78.83,
-            81.18,
-            80.71,
-            79.5,
-            80.98,
-            79.84,
-            80.58,
-            84.59,
-            84.66,
-            77.43
+            93.48,
+            88.79,
+            90.19,
+            85.08,
+            80.21,
+            74.3,
+            72.9,
+            80.21,
+            79.9,
+            76.86,
+            77.34,
+            77.83,
+            71.62,
+            70.16,
+            65.77,
+            68.09,
+            63.28,
+            66.69,
+            70.95,
+            71.68,
+            73.81,
+            73.39,
+            72.29,
+            73.63,
+            72.59,
+            73.26,
+            76.92,
+            76.98,
+            70.02
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -914,36 +1056,35 @@
           "label": "光模块",
           "data": [
             100,
-            107.73,
-            102.77,
-            97.39,
-            103.78,
-            100.76,
-            98.4,
-            88.57,
-            85.55,
-            93.11,
-            89.16,
-            88.82,
-            86.3,
-            88.91,
-            80.25,
-            80.34,
-            74.03,
-            77.31,
-            76.05,
-            82.86,
-            84.2,
-            85.21,
-            87.65,
-            85.63,
-            85.46,
-            88.07,
-            87.82,
-            90.25,
-            93.87,
-            92.52,
-            129.58
+            95.4,
+            90.41,
+            96.33,
+            93.53,
+            91.34,
+            82.22,
+            79.41,
+            86.43,
+            82.76,
+            82.45,
+            80.11,
+            82.53,
+            74.49,
+            74.57,
+            68.72,
+            71.76,
+            70.59,
+            76.91,
+            78.16,
+            79.1,
+            81.36,
+            79.49,
+            79.33,
+            81.75,
+            81.51,
+            83.78,
+            87.13,
+            85.88,
+            119.03
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -958,36 +1099,35 @@
           "label": "创新药",
           "data": [
             100,
-            101.81,
-            105.25,
-            104.27,
-            107.88,
-            112.32,
-            111.66,
-            103.28,
-            107.22,
-            108.05,
-            108.21,
-            107.55,
-            102.96,
-            105.58,
-            103.28,
-            104.43,
-            102.46,
-            103.61,
-            101.97,
-            105.25,
-            106.4,
-            104.93,
-            111.66,
-            112.81,
-            113.46,
-            112.97,
-            114.12,
-            112.97,
-            113.96,
-            112.81,
-            125.4
+            103.39,
+            102.42,
+            105.97,
+            110.32,
+            109.68,
+            101.45,
+            105.32,
+            106.13,
+            106.29,
+            105.65,
+            101.13,
+            103.71,
+            101.45,
+            102.58,
+            100.65,
+            101.77,
+            100.16,
+            103.39,
+            104.52,
+            103.06,
+            109.68,
+            110.81,
+            111.45,
+            110.97,
+            112.1,
+            110.97,
+            111.94,
+            110.81,
+            123.18
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -1002,36 +1142,35 @@
           "label": "黄金",
           "data": [
             100,
-            99.48,
-            99.44,
-            98.02,
-            97.49,
-            97.44,
-            97.37,
-            96.76,
-            96.84,
-            98.59,
-            99.66,
-            99.66,
-            97.62,
-            98.99,
-            97.8,
-            97.71,
-            97.33,
-            98.18,
+            99.96,
+            98.54,
             98,
-            97.89,
-            100.59,
-            102.4,
-            103.53,
-            104.84,
-            104.89,
-            105.98,
-            105.27,
-            104.16,
-            105.58,
-            105.69,
-            107.78
+            97.95,
+            97.88,
+            97.27,
+            97.35,
+            99.11,
+            100.19,
+            100.19,
+            98.14,
+            99.51,
+            98.31,
+            98.22,
+            97.85,
+            98.7,
+            98.51,
+            98.41,
+            101.12,
+            102.94,
+            104.07,
+            105.4,
+            105.44,
+            106.54,
+            105.83,
+            104.71,
+            106.13,
+            106.25,
+            108.27
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -1050,7 +1189,8 @@
         {
           "data": [
             3,
-            26
+            1,
+            31
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1063,6 +1203,7 @@
       ],
       "labels": [
         "利好",
+        "利空",
         "中性"
       ],
       "hasData": true
@@ -1085,7 +1226,7 @@
           "极高": 1,
           "高": 2,
           "中": 0,
-          "低": 14
+          "低": 16
         },
         "光模块": {
           "极高": 0,
@@ -1097,13 +1238,13 @@
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 3
+          "低": 5
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 0,
-          "低": 5
+          "低": 6
         }
       },
       "hasData": true
@@ -1127,12 +1268,22 @@
           "backgroundColor": "#16a34a"
         },
         {
+          "label": "利空",
+          "data": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "backgroundColor": "#dc2626"
+        },
+        {
           "label": "中性",
           "data": [
-            14,
+            16,
             4,
-            3,
-            5
+            5,
+            6
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -1147,8 +1298,8 @@
       "datasets": [
         {
           "data": [
-            3,
-            26
+            4,
+            31
           ],
           "backgroundColor": [
             "#2563eb",
