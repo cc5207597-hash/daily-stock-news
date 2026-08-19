@@ -556,13 +556,13 @@
       "date": "20260819",
       "displayDate": "2026-08-19",
       "isAi": false,
-      "newsCount": 87,
+      "newsCount": 92,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 3,
-        "high": 7
+        "high": 8
       },
       "signalHitRate": 28,
       "directions": {

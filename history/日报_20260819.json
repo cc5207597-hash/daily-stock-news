@@ -1,7 +1,7 @@
 {
   "date": "20260819",
   "displayDate": "2026-08-19",
-  "generatedAt": "2026-08-19T14:03:48.302Z",
+  "generatedAt": "2026-08-19T14:07:07.185Z",
   "analyzed": [
     {
       "title_cn": "国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集",
@@ -34,6 +34,22 @@
       "pubDate": "2026-08-19T13:16:21.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiee8245192.d.html"
+    },
+    {
+      "title_cn": "天孚通信：CPO配套产品已进入量产交付阶段",
+      "summary_cn": "【天孚通信：CPO配套产品已进入量产交付阶段】财联社8月19日电，天孚通信(300394.SZ)接受机构调研时表示，公司CPO相关配套产品已进入量产交付阶段，产",
+      "category": "光模块",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(40)",
+      "title": "天孚通信：CPO配套产品已进入量产交付阶段",
+      "description": "【天孚通信：CPO配套产品已进入量产交付阶段】财联社8月19日电，天孚通信(300394.SZ)接受机构调研时表示，公司CPO相关配套产品已进入量产交付阶段，产品良率已满足规模量产需要，公司会围绕客户需求预测提前准备产能，满足客户长期提产需求。面向CPO应用的FAU、ELS外置光源等相关产品目前处于交付状态。产能方面，公司无源产品线下半年仍会继续扩充产能，以更好满足交付需要；有源产品线受个别物料阶段性供应短缺影响上半年产能利用率较低，目前瓶颈物料供给已有好转，正在逐步提升产能利用率。自2026年第三季度起，相关物料短缺状况已逐步得到缓解，供应情况整体呈改善趋势。生产基地方面，泰国生产基地无源、",
+      "pubDate": "2026-08-19T13:43:27.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458723"
     },
     {
       "title_cn": "【天孚通信：公司CPO相关配套产品已进入量产交付阶段】",
@@ -116,6 +132,22 @@
       "link": ""
     },
     {
+      "title_cn": "受现货黄金上涨影响 美股黄金股盘初全线走高",
+      "summary_cn": "【受现货黄金上涨影响 美股黄金股盘初全线走高】财联社8月19日电，现货黄金日内涨近3%，美股黄金股盘初全线走高，科尔黛伦矿业涨超7%，伊格尔矿业、纽曼矿业、金罗",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利好(30)",
+      "title": "受现货黄金上涨影响 美股黄金股盘初全线走高",
+      "description": "【受现货黄金上涨影响 美股黄金股盘初全线走高】财联社8月19日电，现货黄金日内涨近3%，美股黄金股盘初全线走高，科尔黛伦矿业涨超7%，伊格尔矿业、纽曼矿业、金罗斯黄金涨超6%，泛美白银、金田、Barrick Mining涨超5%。",
+      "pubDate": "2026-08-19T13:43:54.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458724"
+    },
+    {
       "title_cn": "Tianfu Communications said in an investor-relation",
       "summary_cn": "Tianfu Communications said in an investor-relations 纪录 that its CPO (co-packaged optics) supporting products have entered mass production and delivery and product yields meet scale-production requirements. The 公司 will pre-position capacity based on customer 需求 预测s to meet customers' long-term ramp needs.",
       "category": "光模块",
@@ -164,22 +196,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiee8272178.d.html"
     },
     {
-      "title_cn": "周三美股盘前你需要了解的全球要闻",
-      "summary_cn": "据央视，司法部发布关于欧盟外国补贴调查相关做法构成不当域外管辖的公告。\n\n长期美债收益率应声下跌！美国财政部将长期单次回购上限提高至至少40亿美元。\n\n最后一刻",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(20)+行情·中性(5·仅行情描述,不含基本面,方向中性)",
-      "title": "周三美股盘前你需要了解的全球要闻",
-      "description": "据央视，司法部发布关于欧盟外国补贴调查相关做法构成不当域外管辖的公告。\n\n长期美债收益率应声下跌！美国财政部将长期单次回购上限提高至至少40亿美元。\n\n最后一刻“达成协议”！特朗普宣布推迟对加拿大加征50%关税。\n\n美国国债收益率曲线急剧趋平，美国财政部宣布扩大长期名义国债回购规模。\n\n据央视，伊朗称若利益受损，将通过提高霍尔木兹海峡关税等方式反制。\n\n美债最敏感时刻：160亿美元长债拍卖+美联储纪要，明日凌晨考验市场。\n\nAI需求挤压产能，三星上调芯片制造价格，最高涨幅达15%。\n\n夜盘股价直线拉升！SK海力士拟回购注销40万亿韩元股份、承诺将至少50%现金流回馈股东。\n\n快手Q2营收355.4亿元符合预期，可灵AI收入暴增超200%，月活用户大超预估。\n\nModerna美股盘前涨超100%，mRNA癌症疫苗三期试验成功，黑色素瘤治疗迎来历史性突破。\n\n迈威尔科技美股盘前涨超12%，公司向谷歌发行可购买至多5897万股股票的认股权证。\n\n美国财政部出手！美国长债收益率下行，美股期货应声走高，美元下跌，金银大涨。\n\n日经225指数收跌3.2%，沪指收跌2.4%，恒指收涨0.09%。",
-      "pubDate": "2026-08-19T13:01:36.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3151806"
-    },
-    {
       "title_cn": "US open: Dow +0.3%, S&P 500 +0.4%, Nasdaq +0.3%. M",
       "summary_cn": "US open: Dow +0.3%, S&P 500 +0.4%, Nasdaq +0.3%. Moderna (MRNA.O) 飙升d 90% after Merck (MRK.N) reported Phase III success for an mRNA cancer vaccine, describing a historic breakthrough in melanoma treatment; Merck rose 8.4%. Marvell (MRVL.O) 上涨ed 9.7% after issuing warrants to Google to buy up to 58.97 mln shares. SK海力士 (SKHY.O) advanced 4.2% after announcing plans to repurchase and cancel KRW 40 trillion of shares.",
       "category": "创新药",
@@ -210,6 +226,86 @@
       "pubDate": "2026-08-19T13:30:28.000Z",
       "source": "金十数据",
       "link": ""
+    },
+    {
+      "title_cn": "费城半导体指数日内跌幅扩大至2%",
+      "summary_cn": "【费城半导体指数日内跌幅扩大至2%】财联社8月19日电，费城半导体指数日内跌幅扩大至2%。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "费城半导体指数日内跌幅扩大至2%",
+      "description": "【费城半导体指数日内跌幅扩大至2%】财联社8月19日电，费城半导体指数日内跌幅扩大至2%。",
+      "pubDate": "2026-08-19T14:04:52.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458740"
+    },
+    {
+      "title_cn": "周三美股盘前你需要了解的全球要闻",
+      "summary_cn": "据央视，司法部发布关于欧盟外国补贴调查相关做法构成不当域外管辖的公告。\n\n长期美债收益率应声下跌！美国财政部将长期单次回购上限提高至至少40亿美元。\n\n最后一刻",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(20)+行情·中性(5·仅行情描述,不含基本面,方向中性)",
+      "title": "周三美股盘前你需要了解的全球要闻",
+      "description": "据央视，司法部发布关于欧盟外国补贴调查相关做法构成不当域外管辖的公告。\n\n长期美债收益率应声下跌！美国财政部将长期单次回购上限提高至至少40亿美元。\n\n最后一刻“达成协议”！特朗普宣布推迟对加拿大加征50%关税。\n\n美国国债收益率曲线急剧趋平，美国财政部宣布扩大长期名义国债回购规模。\n\n据央视，伊朗称若利益受损，将通过提高霍尔木兹海峡关税等方式反制。\n\n美债最敏感时刻：160亿美元长债拍卖+美联储纪要，明日凌晨考验市场。\n\nAI需求挤压产能，三星上调芯片制造价格，最高涨幅达15%。\n\n夜盘股价直线拉升！SK海力士拟回购注销40万亿韩元股份、承诺将至少50%现金流回馈股东。\n\n快手Q2营收355.4亿元符合预期，可灵AI收入暴增超200%，月活用户大超预估。\n\nModerna美股盘前涨超100%，mRNA癌症疫苗三期试验成功，黑色素瘤治疗迎来历史性突破。\n\n迈威尔科技美股盘前涨超12%，公司向谷歌发行可购买至多5897万股股票的认股权证。\n\n美国财政部出手！美国长债收益率下行，美股期货应声走高，美元下跌，金银大涨。\n\n日经225指数收跌3.2%，沪指收跌2.4%，恒指收涨0.09%。",
+      "pubDate": "2026-08-19T13:01:36.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3151806"
+    },
+    {
+      "title_cn": "Moderna涨幅扩大至120% 创2024年6月以来新高",
+      "summary_cn": "【Moderna涨幅扩大至120% 创2024年6月以来新高】财联社8月19日电，Moderna涨幅扩大至120%，报138.7美元/股。创2024年6月以来新",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Moderna涨幅扩大至120% 创2024年6月以来新高",
+      "description": "【Moderna涨幅扩大至120% 创2024年6月以来新高】财联社8月19日电，Moderna涨幅扩大至120%，报138.7美元/股。创2024年6月以来新高。消息面上，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "pubDate": "2026-08-19T13:54:53.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458733"
+    },
+    {
+      "title_cn": "【电报解读】mRNA癌症疫苗里程碑！Moderna联手默沙东黑色素瘤试验成功，盘前股价飙涨110%，快速梳理mRNA相关标的（附表）",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【电报解读】mRNA癌症疫苗里程碑！Moderna联手默沙东黑色素瘤试验成功，盘前股价飙涨110%，快速梳理mRNA相关标的（附表）",
+      "description": "",
+      "pubDate": "2026-08-19T13:51:27.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458671"
+    },
+    {
+      "title_cn": "中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性",
+      "summary_cn": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】财联社8月19日电，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性",
+      "description": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】财联社8月19日电，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“维吾尔强迫劳动预防法”（UFLPA）实体清单，禁止企业生产的商品进入美国；伦敦金银市场协会（LBMA）据此暂停相关企业合格交割资格。相关措施缺乏事实依据，违背市场化原则，扰乱全球黄金产业链稳定，中国黄金协会对此坚决反对。\n\n我国黄金产业链完整，具备抵御外部风险的充足韧性。中国黄金协会将凝聚行业力量，协同开展维权应对，及时向主管部门反映情况；持续推进行业合规自律、溯源体系与绿色矿山建设，主动开展国际专业对话，争取客观公正的行业评价。中国黄",
+      "pubDate": "2026-08-19T13:46:20.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458727"
     },
     {
       "title_cn": "The Nasdaq 生物科技nology Index rose 5%, its larges",
@@ -258,22 +354,6 @@
       "pubDate": "2026-08-19T13:48:43.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title_cn": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】",
-      "summary_cn": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】金十数据8月19日讯，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】",
-      "description": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】金十数据8月19日讯，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“维吾尔强迫劳动预防法”（UFLPA）实体清单，禁止企业生产的商品进入美国；伦敦金银市场协会（LBMA）据此暂停相关企业合格交割资格。相关措施缺乏事实依据，违背市场化原则，扰乱全球黄金产业链稳定，中国黄金协会对此坚决反对。我国黄金产业链完整，具备抵御外部风险的充足韧性。中国黄金协会敦促美方停止基于虚假信息实施制裁打压；呼吁LBMA秉持中立专业立场，尊重客观事实，纠正不当决定。全球黄金行业应坚持互利共赢，共同维护公平有序的国际黄金市场秩序。",
-      "pubDate": "2026-08-19T13:48:33.000Z",
-      "source": "金十数据",
-      "link": "https://www.stcn.com/article/detail/4088552.html"
     },
     {
       "title_cn": "Moderna (MRNA.O) shares rose as much as 100% intra",
@@ -356,22 +436,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9294380.d.html"
     },
     {
-      "title_cn": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
-      "description": "",
-      "pubDate": "2026-08-19T13:44:20.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
-    },
-    {
       "title_cn": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "summary_cn": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "category": "半导体",
@@ -436,38 +500,6 @@
       "link": "https://wallstreetcn.com/articles/3151818"
     },
     {
-      "title_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to it",
-      "summary_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to its highest level since May.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:传闻·中性(5)",
-      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
-      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
-      "pubDate": "2026-08-19T13:32:02.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "summary_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "pubDate": "2026-08-19T13:31:58.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
       "title_cn": "医保“十五五”定调“真创新”，医药产业迎价值导向新周期",
       "summary_cn": "未来五年，我国医药产业将迎来价值导向的新周期。“全链条支持创新药”已经写入了国务院《国民健康“十五五”规划》；在《全民医疗保障“十五五”规划》（下称“规划”）中",
       "category": "创新药",
@@ -498,6 +530,54 @@
       "pubDate": "2026-08-19T12:57:54.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3151800"
+    },
+    {
+      "title_cn": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
+      "description": "",
+      "pubDate": "2026-08-19T13:44:20.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
+    },
+    {
+      "title_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to it",
+      "summary_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to its highest level since May.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(5)",
+      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
+      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
+      "pubDate": "2026-08-19T13:32:02.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "summary_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "pubDate": "2026-08-19T13:31:58.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
       "title_cn": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
@@ -562,22 +642,6 @@
       "pubDate": "2026-08-19T13:32:06.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiee8255635.d.html"
-    },
-    {
-      "title_cn": "恒瑞医药上半年营收下滑1.9%，净利润44.65亿元同比微增，拟最高20亿回购股份 | 财报见闻",
-      "summary_cn": "恒瑞医药上半年实现营业收入154.56亿元，同比微降1.94%；归属于上市公司股东的净利润44.65亿元，同比仅增0.34%，基本保持平稳。公司利润总额49.5",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "恒瑞医药上半年营收下滑1.9%，净利润44.65亿元同比微增，拟最高20亿回购股份 | 财报见闻",
-      "description": "恒瑞医药上半年实现营业收入154.56亿元，同比微降1.94%；归属于上市公司股东的净利润44.65亿元，同比仅增0.34%，基本保持平稳。公司利润总额49.52亿元，同比小降1.95%，净利润的微增主要得益于税收及非经营性因素的支撑。",
-      "pubDate": "2026-08-19T11:40:42.000Z",
-      "source": "华尔街见闻医药",
-      "link": "https://wallstreetcn.com/articles/3779810"
     },
     {
       "title_cn": "迈威尔科技美股盘前涨近9%，公司向谷歌发行可购买至多5897万股股票的认股权证",
@@ -820,6 +884,22 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6977574.d.html"
     },
     {
+      "title_cn": "恒瑞医药上半年营收下滑1.9%，净利润44.65亿元同比微增，拟最高20亿回购股份 | 财报见闻",
+      "summary_cn": "恒瑞医药上半年实现营业收入154.56亿元，同比微降1.94%；归属于上市公司股东的净利润44.65亿元，同比仅增0.34%，基本保持平稳。公司利润总额49.5",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "恒瑞医药上半年营收下滑1.9%，净利润44.65亿元同比微增，拟最高20亿回购股份 | 财报见闻",
+      "description": "恒瑞医药上半年实现营业收入154.56亿元，同比微降1.94%；归属于上市公司股东的净利润44.65亿元，同比仅增0.34%，基本保持平稳。公司利润总额49.52亿元，同比小降1.95%，净利润的微增主要得益于税收及非经营性因素的支撑。",
+      "pubDate": "2026-08-19T11:40:42.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/articles/3779810"
+    },
+    {
       "title_cn": "湖南黄金：拟调整重组配套募资规模至不超10.5亿元 股票停牌",
       "summary_cn": "湖南黄金公告，公司正在筹划发行股份购买资产并募集配套资金暨关联交易事项，拟收购湖南黄金天岳矿业有限公司100%股权及湖南中南黄金冶炼有限公司100%股权。本次拟",
       "category": "黄金",
@@ -996,8 +1076,8 @@
       "link": "http://finance.eastmoney.com/news/1350,202608193846278377.html"
     },
     {
-      "title_cn": "台积电 Won the Bet Again: How the World’s Top 半导体 Leader Defied 行业 Odds - 36Kr",
-      "summary_cn": "台积电 Won the Bet Again: How the World’s Top 半导体 Leader Defied 行业 Odds&nbsp;&nbsp; 36Kr",
+      "title_cn": "台积电 Won the Bet Again: How the World’s Top 半导体 Leader Defied 行业 Odds - eu.36kr.com",
+      "summary_cn": "台积电 Won the Bet Again: How the World’s Top 半导体 Leader Defied 行业 Odds&nbsp;&nbsp; eu.36kr.com",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
@@ -1005,10 +1085,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds - 36Kr",
-      "description": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds&nbsp;&nbsp; 36Kr",
+      "title": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds - eu.36kr.com",
+      "description": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds&nbsp;&nbsp; eu.36kr.com",
       "pubDate": "2026-08-19T06:02:52.000Z",
-      "source": "36Kr",
+      "source": "eu.36kr.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yeEgtWXYxWXEtTkdLM2c3LVVpTlpXc3Rmdm4xZVZXTHRaNEUwakZ6LW11dW9uZndjNmNzZWNXWjJ5Y1RpcHRNRC1uNWpaOUdMd2pV?oc=5"
     },
     {
@@ -1268,8 +1348,8 @@
       "link": "https://wallstreetcn.com/articles/3151436"
     },
     {
-      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
-      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
+      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
       "category": "黄金",
       "direction": "利空",
       "impact": "高",
@@ -1277,10 +1357,10 @@
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:价格·利空(60)",
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
       "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "163.com",
+      "source": "手机网易网",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
     },
     {
@@ -1332,6 +1412,22 @@
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
     },
     {
+      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
       "title_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements - Substack",
       "summary_cn": "黄金 and Silver: The Hidden Forces Driving Their 价格 Movements&nbsp;&nbsp; Substack",
       "category": "黄金",
@@ -1364,8 +1460,8 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026 - KITCO",
-      "summary_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026&nbsp;&nbsp; KITCO",
+      "title_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026 - kitco.com",
+      "summary_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026&nbsp;&nbsp; kitco.com",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -1373,27 +1469,11 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - KITCO",
-      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; KITCO",
+      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - kitco.com",
+      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; kitco.com",
       "pubDate": "2026-08-18T17:59:39.000Z",
-      "source": "KITCO",
+      "source": "kitco.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
-    },
-    {
-      "title_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "summary_cn": "黄金 价格 Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "pubDate": "2026-08-18T18:30:00.000Z",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
     }
   ],
   "sectorMatrix": [
@@ -1401,42 +1481,42 @@
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 30,
-      "summary": "黄金板块30条新闻，方向以利好为主。关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集",
+      "news_count": 31,
+      "summary": "黄金板块31条新闻，方向以利好为主。关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集",
       "tickers": "紫金矿业、山东黄金、中金黄金"
     },
     {
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 27,
-      "summary": "半导体板块27条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
+      "news_count": 28,
+      "summary": "半导体板块28条新闻，方向以利好为主。关注：芯原股份8月17日在电话会议表示，2026年1月1日至8月17日，公司新签订",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "创新药",
       "shock": "强",
       "direction": "利好",
-      "news_count": 23,
-      "summary": "创新药板块23条新闻，方向以利好为主",
+      "news_count": 25,
+      "summary": "创新药板块25条新闻，方向以利好为主",
       "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
       "shock": "强",
       "direction": "利好",
-      "news_count": 7,
-      "summary": "光模块板块7条新闻，方向以利好为主",
+      "news_count": 8,
+      "summary": "光模块板块8条新闻，方向以利好为主",
       "tickers": "中际旭创、新易盛、天孚通信"
     }
   ],
   "keyPoints": [
-    "今日共抓取 87 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 3 条，高影响 7 条，利好方向 13 条。",
-    "板块概况：黄金(利好, 强冲击, 30条)、半导体(利好, 强冲击, 27条)、创新药(利好, 强冲击, 23条)、光模块(利好, 强冲击, 7条)。",
-    "重点关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集；现货黄金突破4460美元/盎司，日内涨2.91%。；【金价跃升 美国财政部国债回购计划推动美债收益率走低】黄金升至6月初以来最高，此前美国财政部宣布将扩大较长期限国债回购规模后，美国长期国债收益率下跌。金价一度上涨2.6%，突破每盎司4,445美元；与此同时，美国30年期国债收益率下跌，美元指数走低。收益率下降利好无息资产黄金，而美元走弱则降低了许多买家的买入成本。美国财政部周三表示，将把10年期至30年期国债的“流动性支持回购操作规模至少提高一倍”。这一公告发布之际，全球长期债券近期重挫，美国30年期国债收益率本周一度升至2007年以来最高水平。伦敦时间下午2:12，现货黄金上涨2.6%，报每盎司4,446.74美元。白银上涨2.7%，铂金和钯金也走高。彭博美元指数下跌0.6%。。"
+    "今日共抓取 92 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 3 条，高影响 8 条，利好方向 15 条。",
+    "板块概况：黄金(利好, 强冲击, 31条)、半导体(利好, 强冲击, 28条)、创新药(利好, 强冲击, 25条)、光模块(利好, 强冲击, 8条)。",
+    "重点关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集；现货黄金突破4460美元/盎司，日内涨2.91%。；黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，87 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，92 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
@@ -1456,11 +1536,11 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
     },
     {
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
       "guessedSector": "黄金",
       "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "163.com",
+      "source": "手机网易网",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
     },
     {
@@ -1504,27 +1584,11 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2Z3E2dm5odmdWeXdNRU5tTU1GQ3ZjNW52OGRYQU96SEg3N2hmRWVYYk5WUmsxQ3NLaEoxVklaOTY2MTYyeVJ3OFdnV3p3dGZrUkxvTGJVVTVhcXFaZFFlWWJSdG9MWGl5SG1j?oc=5"
     },
     {
-      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - KITCO",
-      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; KITCO",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-18T17:59:39.000Z",
-      "source": "KITCO",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
-    },
-    {
-      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-18T18:30:00.000Z",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
-    },
-    {
-      "title": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds - 36Kr",
-      "description": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds&nbsp;&nbsp; 36Kr",
+      "title": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds - eu.36kr.com",
+      "description": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds&nbsp;&nbsp; eu.36kr.com",
       "guessedSector": "半导体",
       "pubDate": "2026-08-19T06:02:52.000Z",
-      "source": "36Kr",
+      "source": "eu.36kr.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yeEgtWXYxWXEtTkdLM2c3LVVpTlpXc3Rmdm4xZVZXTHRaNEUwakZ6LW11dW9uZndjNmNzZWNXWjJ5Y1RpcHRNRC1uNWpaOUdMd2pV?oc=5"
     },
     {
@@ -1536,12 +1600,76 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeXlXX21UdkJSMGJOcEVuTlNVNUUtZUx0QmpoWHpxbkFhSEVTWk1ZaU5GbDRGTG1YekUwWDFYbjVPSV9aOVZyLWNYZUdYcEpaUXpidC16MjE3dDFfREJFTGxvanBsQnVyRnRMbU5XMHR2ZndnMGp2WDRuTDhGMk9lYjU1RUU?oc=5"
     },
     {
+      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - kitco.com",
+      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; kitco.com",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T17:59:39.000Z",
+      "source": "kitco.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
+    },
+    {
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
+    },
+    {
       "title": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19% - 新浪财经",
       "description": "港股半导体股领跌，智谱跌超13%，阿里巴巴涨超3%，医药、黄金股爆发，周生生涨超19%&nbsp;&nbsp; 新浪财经",
       "guessedSector": "半导体",
       "pubDate": "2026-08-19T09:16:15.000Z",
       "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
+    },
+    {
+      "title": "费城半导体指数日内跌幅扩大至2%",
+      "description": "【费城半导体指数日内跌幅扩大至2%】财联社8月19日电，费城半导体指数日内跌幅扩大至2%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T14:04:52.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458740"
+    },
+    {
+      "title": "Moderna涨幅扩大至120% 创2024年6月以来新高",
+      "description": "【Moderna涨幅扩大至120% 创2024年6月以来新高】财联社8月19日电，Moderna涨幅扩大至120%，报138.7美元/股。创2024年6月以来新高。消息面上，公司与默沙东宣布黑色素瘤皮肤癌疫苗在大型试验中达到目标影响。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T13:54:53.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458733"
+    },
+    {
+      "title": "【电报解读】mRNA癌症疫苗里程碑！Moderna联手默沙东黑色素瘤试验成功，盘前股价飙涨110%，快速梳理mRNA相关标的（附表）",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T13:51:27.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458671"
+    },
+    {
+      "title": "中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性",
+      "description": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】财联社8月19日电，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“维吾尔强迫劳动预防法”（UFLPA）实体清单，禁止企业生产的商品进入美国；伦敦金银市场协会（LBMA）据此暂停相关企业合格交割资格。相关措施缺乏事实依据，违背市场化原则，扰乱全球黄金产业链稳定，中国黄金协会对此坚决反对。\n\n我国黄金产业链完整，具备抵御外部风险的充足韧性。中国黄金协会将凝聚行业力量，协同开展维权应对，及时向主管部门反映情况；持续推进行业合规自律、溯源体系与绿色矿山建设，主动开展国际专业对话，争取客观公正的行业评价。中国黄",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T13:46:20.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458727"
+    },
+    {
+      "title": "受现货黄金上涨影响 美股黄金股盘初全线走高",
+      "description": "【受现货黄金上涨影响 美股黄金股盘初全线走高】财联社8月19日电，现货黄金日内涨近3%，美股黄金股盘初全线走高，科尔黛伦矿业涨超7%，伊格尔矿业、纽曼矿业、金罗斯黄金涨超6%，泛美白银、金田、Barrick Mining涨超5%。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T13:43:54.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458724"
+    },
+    {
+      "title": "天孚通信：CPO配套产品已进入量产交付阶段",
+      "description": "【天孚通信：CPO配套产品已进入量产交付阶段】财联社8月19日电，天孚通信(300394.SZ)接受机构调研时表示，公司CPO相关配套产品已进入量产交付阶段，产品良率已满足规模量产需要，公司会围绕客户需求预测提前准备产能，满足客户长期提产需求。面向CPO应用的FAU、ELS外置光源等相关产品目前处于交付状态。产能方面，公司无源产品线下半年仍会继续扩充产能，以更好满足交付需要；有源产品线受个别物料阶段性供应短缺影响上半年产能利用率较低，目前瓶颈物料供给已有好转，正在逐步提升产能利用率。自2026年第三季度起，相关物料短缺状况已逐步得到缓解，供应情况整体呈改善趋势。生产基地方面，泰国生产基地无源、",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-19T13:43:27.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2458723"
     },
     {
       "title": "The Nasdaq Biotechnology Index rose 5%, its larges",
@@ -1566,14 +1694,6 @@
       "pubDate": "2026-08-19T13:48:43.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】",
-      "description": "【中国黄金协会：我国黄金产业链完整 具备抵御外部风险的充足韧性】金十数据8月19日讯，中国黄金协会发布严正声明称，近期，美国国土安全部将国内部分黄金企业加入所谓“维吾尔强迫劳动预防法”（UFLPA）实体清单，禁止企业生产的商品进入美国；伦敦金银市场协会（LBMA）据此暂停相关企业合格交割资格。相关措施缺乏事实依据，违背市场化原则，扰乱全球黄金产业链稳定，中国黄金协会对此坚决反对。我国黄金产业链完整，具备抵御外部风险的充足韧性。中国黄金协会敦促美方停止基于虚假信息实施制裁打压；呼吁LBMA秉持中立专业立场，尊重客观事实，纠正不当决定。全球黄金行业应坚持互利共赢，共同维护公平有序的国际黄金市场秩序。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T13:48:33.000Z",
-      "source": "金十数据",
-      "link": "https://www.stcn.com/article/detail/4088552.html"
     },
     {
       "title": "Tianfu Communications said in an investor-relation",
@@ -1672,14 +1792,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6996231.d.html"
     },
     {
-      "title": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
-      "description": "",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-19T13:44:20.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
-    },
-    {
       "title": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "description": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "guessedSector": "半导体",
@@ -1734,6 +1846,14 @@
       "pubDate": "2026-08-19T11:40:42.000Z",
       "source": "华尔街见闻医药",
       "link": "https://wallstreetcn.com/articles/3779810"
+    },
+    {
+      "title": "ADI（亚德诺半导体）股价在第三季度业绩公布后下跌1%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-19T13:44:20.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
     },
     {
       "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
@@ -2436,9 +2556,9 @@
       "datasets": [
         {
           "data": [
-            13,
+            15,
             2,
-            72
+            75
           ],
           "backgroundColor": [
             "#16a34a",
@@ -2474,11 +2594,11 @@
           "极高": 1,
           "高": 1,
           "中": 1,
-          "低": 24
+          "低": 25
         },
         "光模块": {
           "极高": 0,
-          "高": 2,
+          "高": 3,
           "中": 1,
           "低": 4
         },
@@ -2486,12 +2606,12 @@
           "极高": 0,
           "高": 1,
           "中": 5,
-          "低": 17
+          "低": 19
         },
         "黄金": {
           "极高": 2,
           "高": 3,
-          "中": 0,
+          "中": 1,
           "低": 25
         }
       },
@@ -2509,9 +2629,9 @@
           "label": "利好",
           "data": [
             3,
-            3,
             4,
-            3
+            4,
+            4
           ],
           "backgroundColor": "#16a34a"
         },
@@ -2528,9 +2648,9 @@
         {
           "label": "中性",
           "data": [
-            24,
+            25,
             4,
-            19,
+            21,
             25
           ],
           "backgroundColor": "#9ca0af"
@@ -2546,8 +2666,8 @@
       "datasets": [
         {
           "data": [
-            10,
-            77
+            11,
+            81
           ],
           "backgroundColor": [
             "#2563eb",
