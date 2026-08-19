@@ -556,13 +556,13 @@
       "date": "20260819",
       "displayDate": "2026-08-19",
       "isAi": false,
-      "newsCount": 29,
+      "newsCount": 57,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 1,
-        "high": 1
+        "vhigh": 2,
+        "high": 3
       },
       "signalHitRate": 21,
       "directions": {
@@ -573,6 +573,11 @@
       },
       "matrix": [
         {
+          "name": "黄金",
+          "direction": "利好",
+          "shock": "强"
+        },
+        {
           "name": "半导体",
           "direction": "利好",
           "shock": "强"
@@ -580,12 +585,7 @@
         {
           "name": "创新药",
           "direction": "利好",
-          "shock": "弱"
-        },
-        {
-          "name": "黄金",
-          "direction": "利好",
-          "shock": "弱"
+          "shock": "中"
         },
         {
           "name": "光模块",
@@ -598,7 +598,7 @@
   "total": 14,
   "coveredAll": 11,
   "coverageRate": 79,
-  "avgImpactHigh": 9,
+  "avgImpactHigh": 10,
   "consistency": {
     "黄金": 56,
     "半导体": 67,
