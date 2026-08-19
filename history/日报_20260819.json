@@ -1,7 +1,7 @@
 {
   "date": "20260819",
   "displayDate": "2026-08-19",
-  "generatedAt": "2026-08-19T13:59:32.018Z",
+  "generatedAt": "2026-08-19T14:03:48.302Z",
   "analyzed": [
     {
       "title_cn": "国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集",
@@ -212,6 +212,38 @@
       "link": ""
     },
     {
+      "title_cn": "The Nasdaq 生物科技nology Index rose 5%, its larges",
+      "summary_cn": "The Nasdaq 生物科技nology Index rose 5%, its largest intraday gain since April 2025; Moderna (MRNA.O) 上涨ed nearly 120% and Merck (MRK.N) gained 11.3%.",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "The Nasdaq Biotechnology Index rose 5%, its larges",
+      "description": "The Nasdaq Biotechnology Index rose 5%, its largest intraday gain since April 2025; Moderna (MRNA.O) climbed nearly 120% and Merck (MRK.N) gained 11.3%.",
+      "pubDate": "2026-08-19T13:56:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna",
+      "summary_cn": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna(MRNA.O)现涨近120%，默沙东(MRK.N)上涨11",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna",
+      "description": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna(MRNA.O)现涨近120%，默沙东(MRK.N)上涨11.3%。",
+      "pubDate": "2026-08-19T13:56:04.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "中国 黄金 Association said the U.S. Department of",
       "summary_cn": "中国 黄金 Association said the U.S. Department of Homeland Security recently added several Chinese 黄金 firms to a UFLPA entity list, barring their products from entering the U.S., and the LBMA has suspended the affected firms' good-delivery eligibility. The association said the measures lack factual basis, breach 市场 principles and disrupt the stability of the global 黄金 供应 chain, and it strongly opposes them. It said 中国's 黄金 行业 chain is complete and has sufficient resilience to withstand external risks, urged the U.S. to cease sanctions based on false information, and cal",
       "category": "黄金",
@@ -272,38 +304,6 @@
       "title": "纳斯达克生物科技指数在Moderna和默沙东的黑色素瘤疫苗在大型试验中取得成功后上涨3.2%。",
       "description": "纳斯达克生物科技指数在Moderna和默沙东的黑色素瘤疫苗在大型试验中取得成功后上涨3.2%。",
       "pubDate": "2026-08-19T13:35:12.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to it",
-      "summary_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to its highest level since May.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:传闻·中性(5)",
-      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
-      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
-      "pubDate": "2026-08-19T13:32:02.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "summary_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "pubDate": "2026-08-19T13:31:58.000Z",
       "source": "金十数据",
       "link": ""
     },
@@ -372,22 +372,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
     },
     {
-      "title_cn": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
-      "description": "",
-      "pubDate": "2026-08-19T13:39:40.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289504.d.html"
-    },
-    {
       "title_cn": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "summary_cn": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "category": "半导体",
@@ -452,6 +436,38 @@
       "link": "https://wallstreetcn.com/articles/3151818"
     },
     {
+      "title_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to it",
+      "summary_cn": "NYSE Arca 黄金 Miners Index rose 5.18 points to its highest level since May.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(5)",
+      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
+      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
+      "pubDate": "2026-08-19T13:32:02.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "summary_cn": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "pubDate": "2026-08-19T13:31:58.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
       "title_cn": "医保“十五五”定调“真创新”，医药产业迎价值导向新周期",
       "summary_cn": "未来五年，我国医药产业将迎来价值导向的新周期。“全链条支持创新药”已经写入了国务院《国民健康“十五五”规划》；在《全民医疗保障“十五五”规划》（下称“规划”）中",
       "category": "创新药",
@@ -482,6 +498,22 @@
       "pubDate": "2026-08-19T12:57:54.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3151800"
+    },
+    {
+      "title_cn": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
+      "description": "",
+      "pubDate": "2026-08-19T13:39:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289504.d.html"
     },
     {
       "title_cn": "博通(AVGO.O)下跌2%，因迈威尔科技与谷歌达成定制芯片协议。",
@@ -1236,8 +1268,8 @@
       "link": "https://wallstreetcn.com/articles/3151436"
     },
     {
-      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
+      "title_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
+      "summary_cn": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
       "category": "黄金",
       "direction": "利空",
       "impact": "高",
@@ -1245,10 +1277,10 @@
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:价格·利空(60)",
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
       "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "手机网易网",
+      "source": "163.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
     },
     {
@@ -1332,8 +1364,8 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026 - kitco.com",
-      "summary_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026&nbsp;&nbsp; kitco.com",
+      "title_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026 - KITCO",
+      "summary_cn": "Wells Fargo reiterates positive outlook for precious metals, still sees 黄金 at $4,900 in 2026&nbsp;&nbsp; KITCO",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
@@ -1341,10 +1373,10 @@
       "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
-      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - kitco.com",
-      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; kitco.com",
+      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - KITCO",
+      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; KITCO",
       "pubDate": "2026-08-18T17:59:39.000Z",
-      "source": "kitco.com",
+      "source": "KITCO",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
     },
     {
@@ -1385,8 +1417,8 @@
       "name": "创新药",
       "shock": "强",
       "direction": "利好",
-      "news_count": 21,
-      "summary": "创新药板块21条新闻，方向以利好为主",
+      "news_count": 23,
+      "summary": "创新药板块23条新闻，方向以利好为主",
       "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
@@ -1399,12 +1431,12 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 85 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "今日共抓取 87 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
     "极高影响事件 3 条，高影响 7 条，利好方向 13 条。",
-    "板块概况：黄金(利好, 强冲击, 30条)、半导体(利好, 强冲击, 27条)、创新药(利好, 强冲击, 21条)、光模块(利好, 强冲击, 7条)。",
-    "重点关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集；现货黄金突破4460美元/盎司，日内涨2.91%。；黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网。"
+    "板块概况：黄金(利好, 强冲击, 30条)、半导体(利好, 强冲击, 27条)、创新药(利好, 强冲击, 23条)、光模块(利好, 强冲击, 7条)。",
+    "重点关注：国际现货黄金筹码峰边界清晰，价格因美国扩大长债回购规模而暴涨，已经完全突破密集区压制，当下需留意密集；现货黄金突破4460美元/盎司，日内涨2.91%。；【金价跃升 美国财政部国债回购计划推动美债收益率走低】黄金升至6月初以来最高，此前美国财政部宣布将扩大较长期限国债回购规模后，美国长期国债收益率下跌。金价一度上涨2.6%，突破每盎司4,445美元；与此同时，美国30年期国债收益率下跌，美元指数走低。收益率下降利好无息资产黄金，而美元走弱则降低了许多买家的买入成本。美国财政部周三表示，将把10年期至30年期国债的“流动性支持回购操作规模至少提高一倍”。这一公告发布之际，全球长期债券近期重挫，美国30年期国债收益率本周一度升至2007年以来最高水平。伦敦时间下午2:12，现货黄金上涨2.6%，报每盎司4,446.74美元。白银上涨2.7%，铂金和钯金也走高。彭博美元指数下跌0.6%。。"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，85 条新闻经关键词引擎自动分析生成。",
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，87 条新闻经关键词引擎自动分析生成。",
   "isAi": false,
   "fullNews": [
     {
@@ -1424,11 +1456,11 @@
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBUTZxWjV5bE9yNHl3V3ZlREp0dEJkZXNkZHZOeFdGcU9NMEFwVnJHcGRBV29adlhpOVVOWDZncU03a1NpdWpoVFZDQ0lVZ2taNERTZkxWRHMwQjJQY2ppV09QUmR6SjVESUxLbg?oc=5"
     },
     {
-      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 手机网易网",
-      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 手机网易网",
+      "title": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调 - 163.com",
+      "description": "黄金早参｜美国30年期国债收益率升至近19年高位，油价维持高位，金价承压回调&nbsp;&nbsp; 163.com",
       "guessedSector": "黄金",
       "pubDate": "2026-08-19T01:50:20.000Z",
-      "source": "手机网易网",
+      "source": "163.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE85bUdHR2N4ZENCLVFRRk5wcGtUQ2VJOHFnNHJNNk43Wm14U1QxRXN3RzFMMHY3bGdXRUJUbVVSb3dPQTZqX2N4WUlkN3pYZkZKbGptTGxBOHZmdzNHZlVNWVl3?oc=5"
     },
     {
@@ -1456,22 +1488,6 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPN0FxVzJfVXVTYlVYaXRxYU5BeFdsRGYwNDhQc3Qxb3ExWGtRTlUwVlRHeVYtRWpyNTUwZjY2S2dzR3Z4VU5RYXVFWjMzU0U1c0JrS0JLX2oyNnp2Wjc2RUFnT29XYUpxaFN2QzhJVTdQTUwxeE5hT1hpZ0k3LUxqbl9BTGlFbk9yVGdBR2xXd0h6bjUzVE5YR29uNTNXSHFIa1hYcU9BRWc4SGRXWEpqbzVKcHZOMTF1LWRjRE5yZEUzeFB3NXZ0Qm1yTDQ1U1k?oc=5"
     },
     {
-      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - kitco.com",
-      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; kitco.com",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-18T17:59:39.000Z",
-      "source": "kitco.com",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
-    },
-    {
-      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
-      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-18T18:30:00.000Z",
-      "source": "IndexBox",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
-    },
-    {
       "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
       "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; 财联社",
       "guessedSector": "半导体",
@@ -1486,6 +1502,22 @@
       "pubDate": "2026-08-19T05:00:54.000Z",
       "source": "财经号",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFB2Z3E2dm5odmdWeXdNRU5tTU1GQ3ZjNW52OGRYQU96SEg3N2hmRWVYYk5WUmsxQ3NLaEoxVklaOTY2MTYyeVJ3OFdnV3p3dGZrUkxvTGJVVTVhcXFaZFFlWWJSdG9MWGl5SG1j?oc=5"
+    },
+    {
+      "title": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026 - KITCO",
+      "description": "Wells Fargo reiterates positive outlook for precious metals, still sees gold at $4,900 in 2026&nbsp;&nbsp; KITCO",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T17:59:39.000Z",
+      "source": "KITCO",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZkdib3lUOHQ2dkdYdy1ueUtZTFBPd1dmQkdYS1VsdkREcVF4RUZ1Vk5VVmxBMzNhcS05UzNVT2ZONkE3RDVUNTVSRDVDa3hYZGg2WU5yQXpjczdkYy1wZEwtV2hyd2dsc2ZmNW0tYmJnOTBweGhPbnFLRm02QXBOa3RhNzZoMV8zQWJRanNXMHJzM1ZOVG0tR010WDB2UE11cG5wa2hNQVpvZW82NEFBTXlUejB2V1Nh?oc=5"
+    },
+    {
+      "title": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics - IndexBox",
+      "description": "Gold Price Outlook 2026: Wells Fargo Sees 11% Upside, Revised Targets - News and Statistics&nbsp;&nbsp; IndexBox",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-18T18:30:00.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQWGMya3RkWmZaVDNwZGo3OFNPZVE3bkVWbTBZVnJfYTU4Q2NMMVVDeFlkVFU5NVlnWDJhYnkyY2tQTW16b0wyZ3VZeXVYMzhoTElPTURBbWVLcVZael9CUjhLTFBZZk5MQksyWkxqMlVvZ0E3SFJoQThneDFrQVVOWG4ydGJVRmRFWng5dmtZUzA2Q282RnNvR0lZSHFZbzJzSHNiQQ?oc=5"
     },
     {
       "title": "TSMC Won the Bet Again: How the World’s Top Semiconductor Leader Defied Industry Odds - 36Kr",
@@ -1510,6 +1542,22 @@
       "pubDate": "2026-08-19T09:16:15.000Z",
       "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQMXFXYWd0aFFtXzBETzdGaEJEaUtHako2MmI0eHllMXR4d1B0by1zTlpRcmVVNnFSVnUyZlJMR2JiZWlxSEJRN3JnLW9NY29KTmVpTFdyb29fTjRFYnUtVHUwb2dOam1NTnJDNHlpc2lBXzZ6ZzR2czVySlNGOGMtVnVWRnVCWWN5VDgxVWFEc3JlMWYtYTNUY2I4al8yN1A0S1djYjU1Y09yNXNWb05CVEJn?oc=5"
+    },
+    {
+      "title": "The Nasdaq Biotechnology Index rose 5%, its larges",
+      "description": "The Nasdaq Biotechnology Index rose 5%, its largest intraday gain since April 2025; Moderna (MRNA.O) climbed nearly 120% and Merck (MRK.N) gained 11.3%.",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T13:56:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna",
+      "description": "金十数据8月19日讯，纳斯达克生物科技指数上涨5%，为2025年4月以来最大盘中涨幅，Moderna(MRNA.O)现涨近120%，默沙东(MRK.N)上涨11.3%。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T13:56:04.000Z",
+      "source": "金十数据",
+      "link": ""
     },
     {
       "title": "China Gold Association said the U.S. Department of",
@@ -1564,22 +1612,6 @@
       "description": "纳斯达克生物科技指数在Moderna和默沙东的黑色素瘤疫苗在大型试验中取得成功后上涨3.2%。",
       "guessedSector": "创新药",
       "pubDate": "2026-08-19T13:35:12.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
-      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T13:32:02.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-19T13:31:58.000Z",
       "source": "金十数据",
       "link": ""
     },
@@ -1648,22 +1680,6 @@
       "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiei6993859.d.html"
     },
     {
-      "title": "【天孚通信：公司 CPO 相关配套产品已进入量产交付阶段】天孚通信在投资者关系活动记录表表示，目前，公司 CPO 相关配套产品已进入量产交付阶段，产品良率已满足规模量产需要，公司会围绕客户需求预测提前准备产能，满足客户长期提产需求。",
-      "description": "",
-      "guessedSector": "光模块",
-      "pubDate": "2026-08-19T13:40:24.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289981.d.html"
-    },
-    {
-      "title": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
-      "description": "",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-19T13:39:40.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289504.d.html"
-    },
-    {
       "title": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "description": "美股盘初，主要行业ETF涨跌不一，生物科技指数ETF涨超4%，医疗业ETF涨近3%，半导体ETF跌0.6%。",
       "guessedSector": "半导体",
@@ -1718,6 +1734,38 @@
       "pubDate": "2026-08-19T11:40:42.000Z",
       "source": "华尔街见闻医药",
       "link": "https://wallstreetcn.com/articles/3779810"
+    },
+    {
+      "title": "NYSE Arca Gold Miners Index rose 5.18 points to it",
+      "description": "NYSE Arca Gold Miners Index rose 5.18 points to its highest level since May.",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T13:32:02.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "description": "纽约证券交易所Arca黄金矿业指数上涨5.18点，升至5月以来最高水平。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-19T13:31:58.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【天孚通信：公司 CPO 相关配套产品已进入量产交付阶段】天孚通信在投资者关系活动记录表表示，目前，公司 CPO 相关配套产品已进入量产交付阶段，产品良率已满足规模量产需要，公司会围绕客户需求预测提前准备产能，满足客户长期提产需求。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-19T13:40:24.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289981.d.html"
+    },
+    {
+      "title": "【Moderna(MRNA.O)盘中涨幅达100％，总市值站上500亿美元】公司与默沙东宣布黑色素瘤疫苗研究取得成功。默沙东(MRK.N)上涨10％，BioNTech上涨17.6％。",
+      "description": "",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-19T13:39:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-19/detail-ininwiep9289504.d.html"
     },
     {
       "title": "博通(AVGO.O)下跌2%，因迈威尔科技与谷歌达成定制芯片协议。",
@@ -2390,7 +2438,7 @@
           "data": [
             13,
             2,
-            70
+            72
           ],
           "backgroundColor": [
             "#16a34a",
@@ -2438,7 +2486,7 @@
           "极高": 0,
           "高": 1,
           "中": 5,
-          "低": 15
+          "低": 17
         },
         "黄金": {
           "极高": 2,
@@ -2482,7 +2530,7 @@
           "data": [
             24,
             4,
-            17,
+            19,
             25
           ],
           "backgroundColor": "#9ca0af"
@@ -2499,7 +2547,7 @@
         {
           "data": [
             10,
-            75
+            77
           ],
           "backgroundColor": [
             "#2563eb",
