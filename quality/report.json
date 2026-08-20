@@ -598,15 +598,15 @@
       "date": "20260820",
       "displayDate": "2026-08-20",
       "isAi": true,
-      "newsCount": 48,
+      "newsCount": 67,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 1,
-        "high": 6
+        "vhigh": 2,
+        "high": 3
       },
-      "signalHitRate": 0,
+      "signalHitRate": 24,
       "directions": {
         "利好": 1,
         "利空": 0,
