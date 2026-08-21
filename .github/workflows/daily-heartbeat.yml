@@ -85,6 +85,7 @@ jobs:
       # 首次部署会自动创建 daily-stock-news 项目并分配默认免费域名。
       - name: Deploy to EdgeOne Pages (国内镜像)
         if: steps.check.outputs.missing == 'true' && env.EDGEONE_PAGES_API_TOKEN != ''
+        continue-on-error: true
         env:
           EDGEONE_PAGES_API_TOKEN: ${{ secrets.EDGEONE_API_TOKEN }}
         run: npx edgeone makers deploy . --name daily-stock-news --area global --json
