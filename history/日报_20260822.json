@@ -1,9 +1,83 @@
 {
   "date": "20260822",
   "displayDate": "2026-08-22",
-  "generatedAt": "2026-08-21T16:15:11.730Z",
-  "analyzed": [],
+  "generatedAt": "2026-08-21T16:44:12.128Z",
+  "analyzed": [
+    {
+      "title_cn": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "summary_cn": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(40)+价格·利好(60)",
+      "title": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "description": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "pubDate": "2026-08-21T16:39:13.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "现货黄金突破4620美元/盎司，日内涨2.25%。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(40)+价格·利好(60)",
+      "title": "现货黄金突破4620美元/盎司，日内涨2.25%。",
+      "description": "",
+      "pubDate": "2026-08-21T16:39:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipazsi8033799.d.html"
+    },
+    {
+      "title_cn": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
+      "summary_cn": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:板块上涨，行情类利好",
+      "title": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
+      "description": "Spot gold breached $4,620/oz, up 2.23% intraday.",
+      "pubDate": "2026-08-21T16:39:22.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【高盛：黄金看涨期权需求激增 或放大金价波动】高盛分析师在报告中表示，黄金看涨期权需求激增，加大了金价剧烈波动的风险。Lina Thomas等分析师在报告中写道，黄金看涨期权交易量增加形成对金价“双向波动的价格放大机制”。“因此，我们仍认为2026年底金价达到每盎司4,900美元的预测面临显著上行风险，但金价涨势也存在更大的双向波动”。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:波动风险与上行预期并存；结合板块行情(ETF 1.7%)调至中性",
+      "title": "【高盛：黄金看涨期权需求激增 或放大金价波动】高盛分析师在报告中表示，黄金看涨期权需求激增，加大了金价剧烈波动的风险。Lina Thomas等分析师在报告中写道，黄金看涨期权交易量增加形成对金价“双向波动的价格放大机制”。“因此，我们仍认为2026年底金价达到每盎司4,900美元的预测面临显著上行风险，但金价涨势也存在更大的双向波动”。",
+      "description": "",
+      "pubDate": "2026-08-21T16:24:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipazsc6435615.d.html"
+    }
+  ],
   "sectorMatrix": [
+    {
+      "name": "黄金",
+      "shock": "强",
+      "direction": "中性",
+      "news_count": 4,
+      "summary": "黄金板块4条新闻，方向以中性为主。关注：现货黄金突破4620美元/盎司，日内涨2.23%。；现货黄金突破4620美元/盎",
+      "tickers": "紫金矿业、山东黄金、中金黄金",
+      "notes": "；ETF校准(当日+1.7%)"
+    },
     {
       "name": "半导体",
       "shock": "弱",
@@ -28,27 +102,50 @@
       "summary": "",
       "tickers": "",
       "notes": "；ETF校准(当日-4.4%)"
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
     }
   ],
   "keyPoints": [
-    "【半导体】ETF平均+0.4%，海外设备订单超预期增长15%",
-    "【光模块】ETF平均+2.3%，800G新品出货量环比提升30%",
-    "【创新药】ETF平均-4.4%，FDA否决PD-1单抗新适应症申请",
-    "【黄金】ETF平均+1.7%，COMEX期货持仓量创3个月新高",
-    "【光模块】中际旭创Q3指引超市场预期10%",
-    "【创新药】百济神州PD-1被FDA拒绝上市"
+    "【黄金】现货黄金突破4620美元/盎司，日内涨超2%",
+    "【黄金】黄金ETF平均涨幅1.7%，板块整体走强",
+    "【黄金】高盛预测2026年底金价达4900美元/盎司",
+    "【黄金】看涨期权需求激增可能放大金价波动"
   ],
-  "marketSummary": "半导体板块温和反弹，光模块受AI需求驱动强势上涨，创新药板块因FDA审批失利大幅调整，黄金受避险情绪提振走强。",
+  "marketSummary": "黄金板块当日表现强劲，现货金价突破重要关口并上涨超2%，ETF平均涨幅1.7%。高盛报告指出看涨期权需求激增，既推升了金价上行预期，也加大了波动风险，市场对黄金后市保持谨慎乐观态度。",
   "isAi": true,
-  "fullNews": [],
+  "fullNews": [
+    {
+      "title": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
+      "description": "Spot gold breached $4,620/oz, up 2.23% intraday.",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-21T16:39:22.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "description": "现货黄金突破4620美元/盎司，日内涨2.23%。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-21T16:39:13.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "现货黄金突破4620美元/盎司，日内涨2.25%。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-21T16:39:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipazsi8033799.d.html"
+    },
+    {
+      "title": "【高盛：黄金看涨期权需求激增 或放大金价波动】高盛分析师在报告中表示，黄金看涨期权需求激增，加大了金价剧烈波动的风险。Lina Thomas等分析师在报告中写道，黄金看涨期权交易量增加形成对金价“双向波动的价格放大机制”。“因此，我们仍认为2026年底金价达到每盎司4,900美元的预测面临显著上行风险，但金价涨势也存在更大的双向波动”。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-21T16:24:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipazsc6435615.d.html"
+    }
+  ],
   "etfData": [
     {
       "code": "159995",
@@ -353,7 +450,10 @@
     "sentiment": {
       "datasets": [
         {
-          "data": [],
+          "data": [
+            3,
+            1
+          ],
           "backgroundColor": [
             "#16a34a",
             "#dc2626",
@@ -363,8 +463,11 @@
           "borderWidth": 0
         }
       ],
-      "labels": [],
-      "hasData": false
+      "labels": [
+        "利好",
+        "中性"
+      ],
+      "hasData": true
     },
     "heatmap": {
       "sectors": [
@@ -400,12 +503,12 @@
         },
         "黄金": {
           "极高": 0,
-          "高": 0,
-          "中": 0,
+          "高": 2,
+          "中": 2,
           "低": 0
         }
       },
-      "hasData": false
+      "hasData": true
     },
     "direction": {
       "sectors": [
@@ -414,19 +517,49 @@
         "创新药",
         "黄金"
       ],
-      "datasets": [],
-      "hasData": false
-    },
-    "timeWindow": {
-      "labels": [],
       "datasets": [
         {
-          "data": [],
-          "backgroundColor": [],
+          "label": "利好",
+          "data": [
+            0,
+            0,
+            0,
+            3
+          ],
+          "backgroundColor": "#16a34a"
+        },
+        {
+          "label": "中性",
+          "data": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "backgroundColor": "#9ca0af"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期",
+        "中期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            3,
+            1
+          ],
+          "backgroundColor": [
+            "#2563eb",
+            "#ea580c"
+          ],
           "borderWidth": 0
         }
       ],
-      "hasData": false
+      "hasData": true
     }
   }
 }
