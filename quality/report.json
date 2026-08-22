@@ -682,15 +682,15 @@
       "date": "20260822",
       "displayDate": "2026-08-22",
       "isAi": true,
-      "newsCount": 23,
+      "newsCount": 27,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 5,
-        "high": 2
+        "high": 1
       },
-      "signalHitRate": 22,
+      "signalHitRate": 37,
       "directions": {
         "利好": 1,
         "利空": 1,
@@ -706,12 +706,12 @@
         {
           "name": "半导体",
           "direction": "利好",
-          "shock": "中"
+          "shock": "强"
         },
         {
           "name": "光模块",
           "direction": "中性",
-          "shock": "中"
+          "shock": "弱"
         },
         {
           "name": "创新药",
