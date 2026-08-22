@@ -1,18 +1,130 @@
 {
   "date": "20260822",
   "displayDate": "2026-08-22",
-  "generatedAt": "2026-08-22T09:03:59.977Z",
+  "generatedAt": "2026-08-22T13:45:28.917Z",
   "analyzed": [
     {
-      "title_cn": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
-      "summary_cn": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.c",
+      "title_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "summary_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息无明确方向，中性；结合板块行情(ETF 1.7%)调至中性",
+      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "pubDate": "2026-08-22T13:05:03.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "description": "",
+      "pubDate": "2026-08-22T13:29:41.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html"
+    },
+    {
+      "title_cn": "A report says 中国's compute capacity is expandin",
+      "summary_cn": "A report says 中国's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 中国's 英特尔ligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed 光通信 interconnects and new storage architectures h",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:光模块板块上涨，但消息无直接利好，中性；结合板块行情(ETF 2.3%)调至中性",
+      "title": "A report says 中国's compute capacity is expandin",
+      "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
+      "pubDate": "2026-08-22T12:14:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "【报告显示：我国算力全链条绿色化成效初显】",
+      "summary_cn": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念",
+      "category": "创新药",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:创新药板块大跌，但消息无直接关联，中性；结合板块行情(ETF -4.4%)调至利空",
+      "title": "【报告显示：我国算力全链条绿色化成效初显】",
+      "description": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。报告指出，在算力设备绿色化方面，我国算力设备加速向高能效方向迭代升级。截至2026年6月底，我国智能算力规模达2185EFLOPS。液冷散热、高速光互联、新型存储架构等新技术已成为高密度智算中心建设的必备条件，支撑算力产业规模、性能与能效协同发展。",
+      "pubDate": "2026-08-22T12:13:56.000Z",
+      "source": "金十数据",
+      "link": "https://h.xinhuaxmt.com/vh512/share/13252298"
+    },
+    {
+      "title_cn": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "summary_cn": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
+      "category": "创新药",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:创新药板块大跌，但公司基本面未变，中性；结合板块行情(ETF -4.4%)调至利空",
+      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "description": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
+      "pubDate": "2026-08-22T12:49:53.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/articles/3780064"
+    },
+    {
+      "title_cn": "2026绿色算力大会签约13个项目，总投资1361亿元",
+      "summary_cn": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
+      "description": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一批成果集中发布。《“东数西算”枢纽节点绿色算力指数研究报告(2026年)》指出，内蒙古、京津冀、贵州等全国一体化算力网络国家枢纽节点绿色算力发展处于领先水平。签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元。签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域。（内蒙古日报）",
+      "pubDate": "2026-08-22T11:28:40.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153381"
+    },
+    {
+      "title_cn": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "summary_cn": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+      "category": "创新药",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:创新药板块大跌，但仅为行情描述，中性；结合板块行情(ETF -4.4%)调至利空",
+      "title": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "description": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+      "pubDate": "2026-08-22T10:20:15.000Z",
+      "source": "雪球",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5"
+    },
+    {
+      "title_cn": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
+      "summary_cn": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.c",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:黄金板块上涨，港股黄金股飙升，利好",
       "title": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
       "description": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.com",
       "pubDate": "2026-08-22T08:17:00.000Z",
@@ -25,7 +137,7 @@
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
@@ -42,7 +154,7 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:传闻·中性(10)",
       "title": "“集成电路产业共性技术对接平台”建设计划在上海临港启动",
@@ -58,7 +170,7 @@
       "direction": "利好",
       "impact": "极高",
       "certainty": "高",
-      "time_window": "中期",
+      "time_window": "长期",
       "tickers": "—",
       "notes": "评分引擎:扩产·利好(40)+技术·利好(40)",
       "title": "【中信证券：预计全球TIM市场规模将由2025年的96.7亿元增至2030年的221.2亿元】据中信证券，AI算力需求增长与先进封装演进持续推升芯片功耗和热流密度，推动TIM向高导热、低热阻和高可靠性升级。AI服务器与新能源汽车将成为主要增量来源，预计全球TIM市场规模将由2025年的96.7亿元增至2030年的221.2亿元。海外厂商凭借配方积累、量产经验和客户认证占据中高端市场，国内企业正依托本土芯片、封测及终端产业链加快产品导入。建议把握两条投资主线：1）芯片级TIM国产突破；2）电子级有机硅材料升级及热管理应用拓展。",
@@ -74,7 +186,7 @@
       "direction": "利好",
       "impact": "高",
       "certainty": "高",
-      "time_window": "中期",
+      "time_window": "长期",
       "tickers": "—",
       "notes": "评分引擎:扩产·利好(20)+技术·利好(20)",
       "title": "【中信证券：预计全球TIM市场规模将由2025年的96.7亿元增至2030年的221.2亿元】",
@@ -82,38 +194,6 @@
       "pubDate": "2026-08-22T02:57:02.000Z",
       "source": "金十数据",
       "link": ""
-    },
-    {
-      "title_cn": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战",
-      "summary_cn": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战。韩国内存双雄推巨额回馈股东。本周你错过哪些刺激行情？",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战",
-      "description": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战。韩国内存双雄推巨额回馈股东。本周你错过哪些刺激行情？",
-      "pubDate": "2026-08-22T01:58:07.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
-      "summary_cn": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
-      "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
-      "pubDate": "2026-08-22T02:09:25.000Z",
-      "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
     },
     {
       "title_cn": "【“小而美”ETF规模增长翻倍】在1200余只股票ETF中，有近四成股票ETF规模在8月份实现正增长。相较于“大块头”ETF基金，“小而美”赛道ETF基金获得资金持续流入。截至8月20日，科创芯片设计ETF易方达的基金份额、基金规模双双大增，分别达到8.41亿份、9.47亿元，较7月末的基金份额与基金规模，均实现翻倍增长。（中国基金报）",
@@ -130,6 +210,54 @@
       "pubDate": "2026-08-22T01:04:35.000Z",
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipcwvw0904410.d.html"
+    },
+    {
+      "title_cn": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战",
+      "summary_cn": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战。韩国内存双雄推巨额回馈股东。本周你错过哪些刺激行情？",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:黄金板块上涨，避险需求激增，利好",
+      "title": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战",
+      "description": "贝森特救市效果仅扛了一天！黄金再破4600。达利欧警告债务危机逼近，建议配置黄金。美伊博弈转向经济战。韩国内存双雄推巨额回馈股东。本周你错过哪些刺激行情？",
+      "pubDate": "2026-08-22T01:58:07.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title_cn": "黄金价格的底部可能已经出现 - 手机新浪网",
+      "summary_cn": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:黄金板块上涨，底部确认信号，利好",
+      "title": "黄金价格的底部可能已经出现 - 手机新浪网",
+      "description": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
+      "pubDate": "2026-08-22T01:37:01.000Z",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5"
+    },
+    {
+      "title_cn": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
+      "summary_cn": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:黄金板块上涨，技术面突破并获增持，利好",
+      "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
+      "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
+      "pubDate": "2026-08-22T02:09:25.000Z",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
     },
     {
       "title_cn": "国内多家品牌金饰价格大涨",
@@ -180,28 +308,12 @@
       "link": ""
     },
     {
-      "title_cn": "黄金价格的底部可能已经出现 - 手机新浪网",
-      "summary_cn": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
-      "title": "黄金价格的底部可能已经出现 - 手机新浪网",
-      "description": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
-      "pubDate": "2026-08-22T01:37:01.000Z",
-      "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5"
-    },
-    {
       "title_cn": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅 - 매일경제 마켓",
       "summary_cn": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅&nbsp;&nbsp; 매일경제 마켓",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
@@ -218,9 +330,9 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息无直接利好，中性；结合板块行情(ETF 1.7%)调至中性",
       "title": "东北地区跨度最大悬索桥主塔封顶 “黄金大外环”加速建设",
       "description": "【东北地区跨度最大悬索桥主塔封顶 “黄金大外环”加速建设】财联社8月22日电，东北地区跨度最大的悬索桥——G331国道大久才江口特大桥主塔全部封顶，后续将转入上部结构施工阶段。G331国道全长约9333公里，横跨东北、华北、西北6省区，是国家“十五五”规划沿边沿海“黄金大外环”的骨干通道。",
       "pubDate": "2026-08-22T01:53:56.000Z",
@@ -228,20 +340,52 @@
       "link": "https://www.cls.cn/detail/2461329"
     },
     {
+      "title_cn": "市场博弈加剧，金价长短周期走势或分化",
+      "summary_cn": "8月以来，国际金价摆脱前期区间震荡格局，开启一轮强势反弹行情。伦敦现货黄金价格自4100美元/盎司下方稳步攀升，接连突破多个关键整数关口，并一度站上4600美元",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(20)+价格·利好(30)+宏观·利空(20)+行情·利好(8·板块行情上涨)",
+      "title": "市场博弈加剧，金价长短周期走势或分化",
+      "description": "8月以来，国际金价摆脱前期区间震荡格局，开启一轮强势反弹行情。伦敦现货黄金价格自4100美元/盎司下方稳步攀升，接连突破多个关键整数关口，并一度站上4600美元/盎司，创下今年5月15日以来新高，截至发稿时，8月以来累计涨幅超13%。 业内人士表示，本轮金价大涨是美联储加息预期降温、中东地缘局势变化、美债政策调整等多重利好因素共振的结果，短期上涨动能充足。中期来看，金价或受地缘冲突演变、美联储货币政策预期变化影响而反复波动。长期来看，全球地缘风险频发、美元信用持续受质疑、美国债务结构性难题难以化解，黄金对美元的替代效应持续增强，将为金价上行提供充足动能。（中国证券报）",
+      "pubDate": "2026-08-22T00:43:53.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153272"
+    },
+    {
+      "title_cn": "章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东",
+      "summary_cn": "随着上市公司2026年半年报的不断披露，“牛散”章建平的持股动向也逐渐清晰。据统计，截至目前，章建平（不排除重名可能性）二季度新进中际旭创第九大股东，同时退出多",
+      "category": "光模块",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:光板块上涨，牛散增持利好板块",
+      "title": "章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东",
+      "description": "随着上市公司2026年半年报的不断披露，“牛散”章建平的持股动向也逐渐清晰。据统计，截至目前，章建平（不排除重名可能性）二季度新进中际旭创第九大股东，同时退出多只个股前十大股东。 中际旭创半年报显示，章建平新进为第九大股东，持有593.48万股。按中际旭创6月30日的收盘价1270元/股计算，章建平的持股市值超过75亿元。 此外，章建平二季度还退出多只个股前十大股东，包括四川黄金、北方稀土、东材科技等。一季度末，章建平曾现身多只资源股前十大股东，除了上述四川黄金、北方稀土，还有西部材料，西部材料目前未披露半年报。（证券时报）",
+      "pubDate": "2026-08-22T00:45:05.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153274"
+    },
+    {
       "title_cn": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
       "summary_cn": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
       "category": "黄金",
-      "direction": "中性",
+      "direction": "利好",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，技术面突破，利好",
       "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
       "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
       "pubDate": "2026-08-22T00:40:24.000Z",
       "source": "金融界",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvV0JkNk9WeUJKelJBWlRibFZUdVhvVFhzeG90RU9KZTVlTnlqNThJMG5yc2M5TEZVQ1F1MFVnTFZteUNFOVU1V1lvWS0zdVh4aWFmTy01YThzVVBGX1BJX3VWeTlkZw?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
     },
     {
       "title_cn": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
@@ -249,10 +393,10 @@
       "category": "黄金",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息无明确方向，中性；结合板块行情(ETF 1.7%)调至中性",
       "title": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
       "description": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
       "pubDate": "2026-08-22T01:06:17.000Z",
@@ -266,7 +410,7 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "title": "已发布半年报的1266家上市公司中：QFII现身330家A股公司前十大流通股股东",
@@ -282,9 +426,9 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息无直接利好，中性；结合板块行情(ETF 1.7%)调至中性",
       "title": "【东北地区跨度最大悬索桥主塔封顶 “黄金大外环”加速建设】8月21日，东北地区跨度最大的悬索桥——G331国道大久才江口特大桥主塔全部封顶，后续将转入上部结构施工阶段。（央视新闻）",
       "description": "",
       "pubDate": "2026-08-22T01:53:44.000Z",
@@ -292,28 +436,12 @@
       "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipeccr6103195.d.html"
     },
     {
-      "title_cn": "市场博弈加剧，金价长短周期走势或分化",
-      "summary_cn": "8月以来，国际金价摆脱前期区间震荡格局，开启一轮强势反弹行情。伦敦现货黄金价格自4100美元/盎司下方稳步攀升，接连突破多个关键整数关口，并一度站上4600美元",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(20)+价格·利好(30)+宏观·利空(20)+行情·利好(8·板块行情上涨)",
-      "title": "市场博弈加剧，金价长短周期走势或分化",
-      "description": "8月以来，国际金价摆脱前期区间震荡格局，开启一轮强势反弹行情。伦敦现货黄金价格自4100美元/盎司下方稳步攀升，接连突破多个关键整数关口，并一度站上4600美元/盎司，创下今年5月15日以来新高，截至发稿时，8月以来累计涨幅超13%。 业内人士表示，本轮金价大涨是美联储加息预期降温、中东地缘局势变化、美债政策调整等多重利好因素共振的结果，短期上涨动能充足。中期来看，金价或受地缘冲突演变、美联储货币政策预期变化影响而反复波动。长期来看，全球地缘风险频发、美元信用持续受质疑、美国债务结构性难题难以化解，黄金对美元的替代效应持续增强，将为金价上行提供充足动能。（中国证券报）",
-      "pubDate": "2026-08-22T00:43:53.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153272"
-    },
-    {
       "title_cn": "摩尔线程2027届全球校招启动",
       "summary_cn": "8月21日，摩尔线程宣布2027届全球校园招聘正式启动。本次校招面向海内外高校本硕博毕业生，开放AI类（大模型推理/训练/算法、Agent系统、智算平台）、软件",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
@@ -324,44 +452,12 @@
       "link": "https://wallstreetcn.com/articles/3153277"
     },
     {
-      "title_cn": "【北方首个跨境词元工厂落户青岛】据青岛发布消息，8月21日，中国（山东）自由贸易试验区青岛片区与国内信息技术企业浪潮集团浪潮云信息技术股份公司签署战略合作协议。根据战略合作协议，双方将搭建北方首个跨境Token工厂，提供全栈算力底座、大模型能力与安全合规能力，构建基于可信数据空间的词元服务平台，实现异构算力统一纳管、多类大模型集中接入、词元标准化计量计价等，保障词元全链路闭环、安全稳定出海，大幅降低海外客户、本土出海企业、OPC单人创作者接入门槛，打通“算力调用—词元计费—跨境结算—多方生态分润”完整商业闭环，为各类跨境AI服务商提供标准化、低成本、高合规的算力词元服务。同时，依托浪潮香港智算云国际化Token总平台，全面支撑青岛自贸片区Token出海业务发展。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.4%)调至利空",
-      "title": "【北方首个跨境词元工厂落户青岛】据青岛发布消息，8月21日，中国（山东）自由贸易试验区青岛片区与国内信息技术企业浪潮集团浪潮云信息技术股份公司签署战略合作协议。根据战略合作协议，双方将搭建北方首个跨境Token工厂，提供全栈算力底座、大模型能力与安全合规能力，构建基于可信数据空间的词元服务平台，实现异构算力统一纳管、多类大模型集中接入、词元标准化计量计价等，保障词元全链路闭环、安全稳定出海，大幅降低海外客户、本土出海企业、OPC单人创作者接入门槛，打通“算力调用—词元计费—跨境结算—多方生态分润”完整商业闭环，为各类跨境AI服务商提供标准化、低成本、高合规的算力词元服务。同时，依托浪潮香港智算云国际化Token总平台，全面支撑青岛自贸片区Token出海业务发展。",
-      "description": "",
-      "pubDate": "2026-08-22T00:43:47.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipcwvx7666896.d.html"
-    },
-    {
-      "title_cn": "章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东",
-      "summary_cn": "随着上市公司2026年半年报的不断披露，“牛散”章建平的持股动向也逐渐清晰。据统计，截至目前，章建平（不排除重名可能性）二季度新进中际旭创第九大股东，同时退出多",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 2.3%)调至中性",
-      "title": "章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东",
-      "description": "随着上市公司2026年半年报的不断披露，“牛散”章建平的持股动向也逐渐清晰。据统计，截至目前，章建平（不排除重名可能性）二季度新进中际旭创第九大股东，同时退出多只个股前十大股东。 中际旭创半年报显示，章建平新进为第九大股东，持有593.48万股。按中际旭创6月30日的收盘价1270元/股计算，章建平的持股市值超过75亿元。 此外，章建平二季度还退出多只个股前十大股东，包括四川黄金、北方稀土、东材科技等。一季度末，章建平曾现身多只资源股前十大股东，除了上述四川黄金、北方稀土，还有西部材料，西部材料目前未披露半年报。（证券时报）",
-      "pubDate": "2026-08-22T00:45:05.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153274"
-    },
-    {
       "title_cn": "The Best 半导体 股票 to Buy Isn't AMD or 高通: It's 英伟达, and Our Data Proves It - AOL.com",
-      "summary_cn": "The Best 半导体 股票 to Buy Isn't AMD or 高通: It's 英伟达, and Our Data Proves It&nbsp;&nbsp; AOL.com",
+      "summary_cn": "The Best Semiconductor Stock to Buy Isn't AMD or Qualcomm: It's Nvidia, and Our ",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
@@ -378,9 +474,9 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息无直接关联，中性；结合板块行情(ETF 1.7%)调至中性",
       "title": "两部门发文：禁止非法买卖人民币！这些情况除外",
       "description": "为打击非法买卖人民币的活动，维护人民币信誉，保护消费者合法权益，中国人民银行（下称“央行”）、市场监管总局8月21日发布公告（下称《公告》）称，禁止任何单位和个人买卖人民币；但经央行公告停止流通的人民币，以及普通纪念币和贵金属纪念币可以买卖。《公告》自2026年9月1日起施行。人民币是我国的法定货币，由央行依法发行，是国家主权与信用的象征。",
       "pubDate": "2026-08-21T23:33:07.000Z",
@@ -391,12 +487,12 @@
       "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加8.273吨，当前持仓量为1047",
       "summary_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加8.273吨，当前持仓量为1047.207吨。",
       "category": "黄金",
-      "direction": "中性",
+      "direction": "利好",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，ETF持仓增加，利好",
       "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加8.273吨，当前持仓量为1047",
       "description": "全球最大黄金ETF--SPDR Gold Trust持仓较上日增加8.273吨，当前持仓量为1047.207吨。",
       "pubDate": "2026-08-22T00:13:20.000Z",
@@ -412,7 +508,7 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
+      "notes": "AI研判:板块小幅上涨，AI承压但资金转向芯片，中性",
       "title": "【基金经理注重投资性价比】在受访人士看来，海外AI叙事承压，投资者正在为AI巨额资本开支背后的债务融资风险重新定价，导致市场维持震荡行情。当前正值上市公司半年报密集披露期，高估值板块面临业绩检验，导致资金转向性价比更高的方向，布局新的投资机会。记者注意到，8月以来，易方达基金、中银基金、鹏华基金等70余家公募机构持续申报新产品，科创板芯片设计、中证人工智能主题、创业板算力基础设施等细分赛道成为重要的布局方向。（中国基金报）",
       "description": "",
       "pubDate": "2026-08-22T01:05:09.000Z",
@@ -420,15 +516,31 @@
       "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipcwvz1357608.d.html"
     },
     {
+      "title_cn": "【北方首个跨境词元工厂落户青岛】据青岛发布消息，8月21日，中国（山东）自由贸易试验区青岛片区与国内信息技术企业浪潮集团浪潮云信息技术股份公司签署战略合作协议。根据战略合作协议，双方将搭建北方首个跨境Token工厂，提供全栈算力底座、大模型能力与安全合规能力，构建基于可信数据空间的词元服务平台，实现异构算力统一纳管、多类大模型集中接入、词元标准化计量计价等，保障词元全链路闭环、安全稳定出海，大幅降低海外客户、本土出海企业、OPC单人创作者接入门槛，打通“算力调用—词元计费—跨境结算—多方生态分润”完整商业闭环，为各类跨境AI服务商提供标准化、低成本、高合规的算力词元服务。同时，依托浪潮香港智算云国际化Token总平台，全面支撑青岛自贸片区Token出海业务发展。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:创新药板块大跌，但消息无直接关联，中性；结合板块行情(ETF -4.4%)调至利空",
+      "title": "【北方首个跨境词元工厂落户青岛】据青岛发布消息，8月21日，中国（山东）自由贸易试验区青岛片区与国内信息技术企业浪潮集团浪潮云信息技术股份公司签署战略合作协议。根据战略合作协议，双方将搭建北方首个跨境Token工厂，提供全栈算力底座、大模型能力与安全合规能力，构建基于可信数据空间的词元服务平台，实现异构算力统一纳管、多类大模型集中接入、词元标准化计量计价等，保障词元全链路闭环、安全稳定出海，大幅降低海外客户、本土出海企业、OPC单人创作者接入门槛，打通“算力调用—词元计费—跨境结算—多方生态分润”完整商业闭环，为各类跨境AI服务商提供标准化、低成本、高合规的算力词元服务。同时，依托浪潮香港智算云国际化Token总平台，全面支撑青岛自贸片区Token出海业务发展。",
+      "description": "",
+      "pubDate": "2026-08-22T00:43:47.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipcwvx7666896.d.html"
+    },
+    {
       "title_cn": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
       "summary_cn": "Morgan Stanley Doubles Down on 黄金 After Breakout&nbsp;&nbsp; 交易View",
       "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
+      "direction": "利好",
+      "impact": "中",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，机构增持，利好",
       "title": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
       "description": "Morgan Stanley Doubles Down on Gold After Breakout&nbsp;&nbsp; TradingView",
       "pubDate": "2026-08-21T20:12:59.000Z",
@@ -473,7 +585,7 @@
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "短期",
       "tickers": "—",
       "notes": "评分引擎:传闻·中性(10)",
@@ -487,12 +599,12 @@
       "title_cn": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
       "summary_cn": "Spot gold breached $4,620/oz, up 2.23% intraday.",
       "category": "黄金",
-      "direction": "中性",
+      "direction": "利好",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，价格突破，利好",
       "title": "Spot 黄金 breached $4,620/oz, up 2.23% intraday.",
       "description": "Spot gold breached $4,620/oz, up 2.23% intraday.",
       "pubDate": "2026-08-21T16:39:22.000Z",
@@ -508,7 +620,7 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "notes": "AI研判:黄金板块上涨，但消息提示波动风险，中性；结合板块行情(ETF 1.7%)调至中性",
       "title": "【高盛：黄金看涨期权需求激增 或放大金价波动】高盛分析师在报告中表示，黄金看涨期权需求激增，加大了金价剧烈波动的风险。Lina Thomas等分析师在报告中写道，黄金看涨期权交易量增加形成对金价“双向波动的价格放大机制”。“因此，我们仍认为2026年底金价达到每盎司4,900美元的预测面临显著上行风险，但金价涨势也存在更大的双向波动”。",
       "description": "",
       "pubDate": "2026-08-21T16:24:31.000Z",
@@ -521,8 +633,8 @@
       "name": "黄金",
       "shock": "强",
       "direction": "中性",
-      "news_count": 19,
-      "summary": "黄金板块19条新闻，方向以中性为主。关注：市场博弈加剧，金价长短周期走势或分化；8月以来，国际金价摆脱前期区间震荡格局，",
+      "news_count": 20,
+      "summary": "黄金板块20条新闻，方向以中性为主。关注：市场博弈加剧，金价长短周期走势或分化；8月以来，国际金价摆脱前期区间震荡格局，",
       "tickers": "紫金矿业、山东黄金、中金黄金",
       "notes": "；ETF校准(当日+1.7%)"
     },
@@ -530,38 +642,47 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 11,
-      "summary": "半导体板块11条新闻，方向以利好为主",
+      "news_count": 13,
+      "summary": "半导体板块13条新闻，方向以利好为主",
       "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "创新药",
+      "shock": "中",
+      "direction": "利空",
+      "news_count": 4,
+      "summary": "创新药板块4条新闻，方向以利空为主",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
       "shock": "弱",
       "direction": "中性",
-      "news_count": 1,
-      "summary": "光模块板块1条新闻，方向以中性为主。关注：章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东；随着上市",
-      "tickers": "中际旭创、新易盛、天孚通信"
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利空",
-      "news_count": 1,
-      "summary": "创新药板块1条新闻，方向以利空为主",
-      "tickers": "百济神州、药明康德、恒瑞医药"
+      "news_count": 2,
+      "summary": "光模块板块2条新闻，方向以中性为主。关注：章建平二季度大调仓：退出两只资源股前十大股东，新进中际旭创第九大股东；随着上市",
+      "tickers": "中际旭创、新易盛、天孚通信",
+      "notes": "；ETF校准(当日+2.3%)"
     }
   ],
   "keyPoints": [
-    "【半导体】科创芯片设计ETF份额与规模较7月末翻倍，达8.41亿份、9.47亿元",
-    "【半导体】QFII二季度加仓半导体板块，长鑫科技获韩国投资者净买入4532万美元",
-    "【半导体】TIM市场规模预计由2025年96.7亿元增至2030年221.2亿元，AI与新能源汽车成主要增量",
-    "【黄金】国内金饰价格单日大涨，老凤祥报1388元/克，老庙黄金报1391元/克",
-    "【黄金】现货黄金突破4620美元/盎司，8月以来累计涨幅超13%",
-    "【黄金】全球最大黄金ETF持仓增加8.273吨，当前持仓量1047.207吨"
+    "【黄金】现货黄金突破4620美元/盎司，日涨超2%，ETF持仓增加，周线三连涨",
+    "【半导体】科创芯片设计ETF规模翻倍，外资加仓长鑫科技，QFII布局半导体龙头",
+    "【光模块】中际旭创获牛散章建平75亿元增持，板块ETF平均涨2.3%",
+    "【黄金】老凤祥、老庙金饰单日涨超30元/克，金价逼近1400元关口",
+    "【半导体】中信证券预测全球TIM市场规模2030年达221.2亿元，国产化加速",
+    "【创新药】板块ETF平均跌4.4%，Moderna癌症疫苗市值暴涨440亿，但板块整体承压"
   ],
-  "marketSummary": "当日半导体板块小幅上涨0.4%，AI相关概念如TIM、芯片设计ETF获资金关注，国产突破与高导热材料成主线；光模块板块表现强劲，涨2.3%，中际旭创获牛散章建平大举买入；创新药板块受挫，跌4.4%，半年报业绩承压；黄金板块延续强势，涨1.7%，金价突破4600美元关口，地缘风险与美联储政策转向推动避险需求，国内金饰价格同步飙升。",
+  "marketSummary": "半导体板块小幅上涨，AI算力需求推动TIM市场增长，外资加仓本土芯片企业；光模块板块表现强势，中际旭创获大资金增持；黄金板块持续走强，现货金价突破4600美元创三个月新高，ETF持仓增加，避险情绪升温；创新药板块大幅回调，尽管个别公司如Moderna表现亮眼，但板块整体承压。",
   "isAi": true,
   "fullNews": [
+    {
+      "title": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "description": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-22T10:20:15.000Z",
+      "source": "雪球",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5"
+    },
     {
       "title": "黄金价格的底部可能已经出现 - 手机新浪网",
       "description": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
@@ -569,6 +690,22 @@
       "pubDate": "2026-08-22T01:37:01.000Z",
       "source": "手机新浪网",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5"
+    },
+    {
+      "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+      "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-22T00:40:24.000Z",
+      "source": "金融界",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
+    },
+    {
+      "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
+      "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-22T02:09:25.000Z",
+      "source": "华尔街见闻",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
     },
     {
       "title": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
@@ -587,12 +724,60 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QZ01hbGhCdXAydkFPTS1GZ0R5bjNfR2h5QU1zY2NlNXIwMXp6VDM5RjdwVGRWS0JlRGxwVmJpcDhaVlBJdlRKUEdHVTByYlFsSGc?oc=5"
     },
     {
-      "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
-      "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
+      "title": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
+      "description": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.com",
       "guessedSector": "黄金",
-      "pubDate": "2026-08-22T02:09:25.000Z",
+      "pubDate": "2026-08-22T08:17:00.000Z",
+      "source": "hstong.com",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5"
+    },
+    {
+      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-22T13:05:03.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "A report says 中国's compute capacity is expandin",
+      "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-22T12:14:10.000Z",
+      "source": "金十数据",
+      "link": ""
+    },
+    {
+      "title": "【报告显示：我国算力全链条绿色化成效初显】",
+      "description": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。报告指出，在算力设备绿色化方面，我国算力设备加速向高能效方向迭代升级。截至2026年6月底，我国智能算力规模达2185EFLOPS。液冷散热、高速光互联、新型存储架构等新技术已成为高密度智算中心建设的必备条件，支撑算力产业规模、性能与能效协同发展。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-22T12:13:56.000Z",
+      "source": "金十数据",
+      "link": "https://h.xinhuaxmt.com/vh512/share/13252298"
+    },
+    {
+      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-22T13:29:41.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html"
+    },
+    {
+      "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
+      "description": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一批成果集中发布。《“东数西算”枢纽节点绿色算力指数研究报告(2026年)》指出，内蒙古、京津冀、贵州等全国一体化算力网络国家枢纽节点绿色算力发展处于领先水平。签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元。签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域。（内蒙古日报）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-22T11:28:40.000Z",
       "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
+      "link": "https://wallstreetcn.com/articles/3153381"
+    },
+    {
+      "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "description": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-22T12:49:53.000Z",
+      "source": "华尔街见闻医药",
+      "link": "https://wallstreetcn.com/articles/3780064"
     },
     {
       "title": "The Best 半导体 股票 to Buy Isn't AMD or 高通: It's 英伟达, and Our Data Proves It - AOL.com",
@@ -601,14 +786,6 @@
       "pubDate": "2026-08-21T23:13:00.000Z",
       "source": "AOL.com",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMlRJYkpiWUZQS2REdjRqVDBmVXp2VzdQdTRnV2pSbE9IUHMteXg1NEZqMkR5SEgxSGhHME5HVnI2S01QR3RMUmZPSkdETHd3YjF4ZDVCOVBkbU9tNFo4ZkJXR2wtci1zZFc4MTMwVmwwMS1oX1hiYUUxWHlLRjNfbGZKRQ?oc=5"
-    },
-    {
-      "title": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
-      "description": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米飙升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.com",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-22T08:17:00.000Z",
-      "source": "hstong.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5"
     },
     {
       "title": "美伊对峙升级、沃什亮相杰克逊霍尔、美国PCE、英伟达业绩大考——四重变量下周叠加，债市恐慌能否平息？",
@@ -625,14 +802,6 @@
       "pubDate": "2026-08-22T06:57:33.000Z",
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3153343"
-    },
-    {
-      "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
-      "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-22T00:40:24.000Z",
-      "source": "金融界",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBvV0JkNk9WeUJKelJBWlRibFZUdVhvVFhzeG90RU9KZTVlTnlqNThJMG5yc2M5TEZVQ1F1MFVnTFZteUNFOVU1V1lvWS0zdVh4aWFmTy01YThzVVBGX1BJX3VWeTlkZw?oc=5"
     },
     {
       "title": "英伟达 in talks with 芯片 startup Rebellions for potential deal - The Mercury News",
@@ -1124,9 +1293,9 @@
       "datasets": [
         {
           "data": [
-            11,
-            1,
-            20
+            18,
+            4,
+            17
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1162,25 +1331,25 @@
           "极高": 2,
           "高": 1,
           "中": 0,
-          "低": 8
+          "低": 10
         },
         "光模块": {
           "极高": 0,
           "高": 0,
-          "中": 0,
+          "中": 1,
           "低": 1
         },
         "创新药": {
           "极高": 0,
           "高": 0,
           "中": 0,
-          "低": 1
+          "低": 4
         },
         "黄金": {
           "极高": 3,
           "高": 1,
-          "中": 4,
-          "低": 11
+          "中": 7,
+          "低": 9
         }
       },
       "hasData": true
@@ -1197,9 +1366,9 @@
           "label": "利好",
           "data": [
             3,
+            1,
             0,
-            0,
-            8
+            14
           ],
           "backgroundColor": "#16a34a"
         },
@@ -1208,7 +1377,7 @@
           "data": [
             0,
             0,
-            1,
+            4,
             0
           ],
           "backgroundColor": "#dc2626"
@@ -1216,10 +1385,10 @@
         {
           "label": "中性",
           "data": [
-            8,
+            10,
             1,
             0,
-            11
+            6
           ],
           "backgroundColor": "#9ca0af"
         }
@@ -1229,17 +1398,20 @@
     "timeWindow": {
       "labels": [
         "短期",
-        "中期"
+        "中期",
+        "长期"
       ],
       "datasets": [
         {
           "data": [
-            29,
-            3
+            24,
+            5,
+            10
           ],
           "backgroundColor": [
             "#2563eb",
-            "#ea580c"
+            "#ea580c",
+            "#16a34a"
           ],
           "borderWidth": 0
         }
