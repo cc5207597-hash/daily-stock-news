@@ -682,24 +682,20 @@
       "date": "20260822",
       "displayDate": "2026-08-22",
       "isAi": true,
-      "newsCount": 4,
+      "newsCount": 23,
       "sectorCount": 4,
-      "missingSectors": [
-        "半导体",
-        "光模块",
-        "创新药"
-      ],
-      "covered": false,
+      "missingSectors": [],
+      "covered": true,
       "impact": {
-        "vhigh": 0,
+        "vhigh": 5,
         "high": 2
       },
-      "signalHitRate": 50,
+      "signalHitRate": 22,
       "directions": {
-        "利好": 0,
+        "利好": 1,
         "利空": 1,
         "分化": 0,
-        "中性": 3
+        "中性": 2
       },
       "matrix": [
         {
@@ -709,13 +705,13 @@
         },
         {
           "name": "半导体",
-          "direction": "中性",
-          "shock": "弱"
+          "direction": "利好",
+          "shock": "中"
         },
         {
           "name": "光模块",
           "direction": "中性",
-          "shock": "弱"
+          "shock": "中"
         },
         {
           "name": "创新药",
@@ -726,9 +722,9 @@
     }
   ],
   "total": 17,
-  "coveredAll": 13,
-  "coverageRate": 76,
-  "avgImpactHigh": 9,
+  "coveredAll": 14,
+  "coverageRate": 82,
+  "avgImpactHigh": 10,
   "consistency": {
     "黄金": 33,
     "半导体": 67,
