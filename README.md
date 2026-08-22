@@ -193,6 +193,8 @@ daily-stock-news/
 
 ## AI 分析输出模型
 
+每条新闻在传统评级（`direction`/`impact`/`certainty`/`time_window`）之外，附带**可解释性字段**，说明结论的依据：
+
 | 字段 | 类型 | 说明 |
 |------|------|------|
 | `title_cn` | string | 中文行业简讯标题 |
@@ -204,6 +206,19 @@ daily-stock-news/
 | `time_window` | enum | `短期` / `中期` / `长期` |
 | `tickers` | string | 关联 A 股标的 |
 | `notes` | string | 补充说明 |
+| `sentiment` | enum | 结论方向（AI 视角）：`利好` / `利空` / `中性` / `分化` |
+| `market_impact` | enum | 影响强度（AI 视角）：`极高` / `高` / `中` / `低` |
+| `affected_companies` | string[] | AI 抽取的受影响公司/标的名 |
+| `reasoning` | string[] | 研判依据，逐条给出理由 |
+| `evidence` | string[] | 证据：**逐字引用原文（标题/描述）中的事实句** |
+| `confidence_score` | number | 置信度 `0.0~1.0`（≥0.75 高 / ≥0.5 中 / <0.5 低） |
+| `uncertainty` | string | 不确定因素说明（留空表示无明显不确定项） |
+
+**可解释性约定**：
+- **新字段为真源**：`direction`/`impact`/`certainty` 由 `sentiment`/`market_impact`/`confidence_score` 推导，新旧字段始终一致、绝不矛盾。
+- **evidence 防幻觉**：AI 被强制要求只引用原文存在的事实句，禁止编造原文不存在的数据、数字、公司、事件；无法引用原文时 `evidence` 留空。渲染时标注「AI 提取，请以原文为准」。
+- **关键词引擎兜底**：API 不可用时降级的关键词引擎同样派生这 7 个字段（`evidence`=命中的具体关键词），两路径字段契约完全一致。
+- **容错**：AI 返回异常时逐字段防御回退（非法枚举回落关键词基线、非数组置空、置信度越界收敛），不会因单个字段异常丢弃整条新闻。
 
 ---
 

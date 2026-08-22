@@ -8,6 +8,7 @@ import {
   scoreNewsItem, sectorShock, sanitizeRating, SIGNALS,
   sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
   aggregateDirection, applyEtfCalibration,
+  sanitizeExplanation, explanationToRating,
 } from '../pipeline/sentiment.mjs';
 
 const item = (title, description = '', guessedSector = '') => ({ title, description, guessedSector });
@@ -229,3 +230,63 @@ test('applyEtfCalibration:±1% 内不干预,板块新闻缺失也按行情校准
   assert.equal(secMap['半导体'].direction, '利好'); // ±1% 内保留新闻研判
   assert.equal(secMap['黄金'].direction, '利空');   // 新闻缺失仍按行情校准
 });
+
+// ── 可解释性字段:防御 + 映射 ────────────────────────────
+
+test('sanitizeExplanation:合法字段原样保留,confidence 越界收敛', () => {
+  const ai = { sentiment: '利好', market_impact: '极高', affected_companies: ['中芯国际'], reasoning: ['业绩超预期'], evidence: ['营收增长50%'], confidence_score: 1.5, uncertainty: '季度数据待确认', time_window: '短期' };
+  const expl = sanitizeExplanation(ai, { direction: '中性', impact: '中' });
+  assert.equal(expl.sentiment, '利好');
+  assert.equal(expl.market_impact, '极高');
+  assert.deepEqual(expl.affected_companies, ['中芯国际']);
+  assert.deepEqual(expl.reasoning, ['业绩超预期']);
+  assert.deepEqual(expl.evidence, ['营收增长50%']);
+  assert.equal(expl.confidence_score, 1); // 越界收敛到 1
+  assert.equal(expl.uncertainty, '季度数据待确认');
+  assert.equal(expl.time_window, '短期');
+});
+
+test('sanitizeExplanation:非法 sentiment/market_impact 回退关键词基线,保持 1:1', () => {
+  const expl = sanitizeExplanation({ sentiment: '涨停', market_impact: '爆炸', confidence_score: '高' }, { direction: '利空', impact: '高' });
+  assert.equal(expl.sentiment, '利空');       // 非法 → 回退基线 direction
+  assert.equal(expl.market_impact, '高');     // 非法 → 回退基线 impact
+  assert.equal(expl.confidence_score, undefined); // 非数值 → undefined,由 explanationToRating 兜底
+});
+
+test('sanitizeExplanation:非数组字段 → 空数组,截断超长', () => {
+  const expl = sanitizeExplanation({ affected_companies: '中芯国际', reasoning: 'x', evidence: ['a'.repeat(300)] }, {});
+  assert.deepEqual(expl.affected_companies, []);
+  assert.deepEqual(expl.reasoning, []);
+  assert.equal(expl.evidence[0].length, 200);
+});
+
+test('explanationToRating:sentiment/market_impact 1:1 映射 direction/impact', () => {
+  const r = explanationToRating({ sentiment: '利空', market_impact: '高', confidence_score: 0.5, time_window: '中期' });
+  assert.equal(r.direction, '利空');
+  assert.equal(r.impact, '高');
+  assert.equal(r.certainty, '中');
+  assert.equal(r.time_window, '中期');
+});
+
+test('explanationToRating:confidence 分档 高/中/低', () => {
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: 0.9 }).certainty, '高');
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: 0.5 }).certainty, '中');
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: 0.2 }).certainty, '低');
+});
+
+test('explanationToRating:confidence 非法/缺失 → 中(保守)', () => {
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: undefined }).certainty, '中');
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: NaN }).certainty, '中');
+  assert.equal(explanationToRating({ sentiment: '利好', confidence_score: '高' }).certainty, '中');
+});
+
+test('reRateNeutralsToMarket:调向时同步 sentiment/uncertainty,保持 1:1', () => {
+  const data = [etf('半导体', -8)];
+  const out = reRateNeutralsToMarket([
+    { category: '半导体', direction: '中性', sentiment: '中性', notes: '', uncertainty: '无' },
+  ], data);
+  assert.equal(out[0].direction, '利空');
+  assert.equal(out[0].sentiment, '利空'); // 新字段同步调向
+  assert.match(out[0].uncertainty, /板块行情/);
+});
+

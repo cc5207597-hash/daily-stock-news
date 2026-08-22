@@ -118,7 +118,9 @@ export function scoreNewsItem(n) {
     scoreImpact += pts;
     if (sig.dir === '利好') scorePos += sig.base;
     else if (sig.dir === '利空') scoreNeg += sig.base;
-    hit.push({ cat: sig.cat, dir: sig.dir, pts, note: sig.note });
+    // kw:实际命中的那个关键词(evidence 数据源),供关键词路径派生 evidence
+    const hitKw = (titleHit ? sig.kw : sig.kw).find(k => matchKw(titleHit ? title : desc, k)) || '';
+    hit.push({ cat: sig.cat, dir: sig.dir, pts, note: sig.note, kw: hitKw });
   }
 
   // 显式分化信号(制裁/政策)优先:利好与利空并存,或命中标注 direction=分化 的信号
@@ -182,6 +184,58 @@ export function sanitizeRating(r) {
   };
 }
 
+// ── 可解释性字段:防御 + 映射 ───────────────────────────
+// AI 逐条研判输出新 7 字段(sentiment/market_impact/affected_companies/
+// reasoning/evidence/confidence_score/uncertainty),代码从这里把它们
+// 映射回下游硬依赖的 direction/impact/certainty(1:1,绝不断裂)。
+
+const EXPL_DIRECTIONS = ['利好', '利空', '中性', '分化'];
+const EXPL_IMPACTS = ['极高', '高', '中', '低'];
+const EXPL_WINDOWS = ['短期', '中期', '长期'];
+
+function strArr(v, maxLen) {
+  if (!Array.isArray(v)) return [];
+  return v.map(s => {
+    const t = typeof s === 'string' ? s : String(s ?? '');
+    return maxLen ? t.substring(0, maxLen) : t;
+  }).filter(Boolean);
+}
+
+// 对 AI 返回的单条研判做逐字段防御。ai 为解析后的对象;direction/impact
+// 是关键词引擎基线(评分),当 AI 对应枚举非法时回退到它们,保持新旧字段 1:1。
+// 返回字段齐全的 expl,confidence_score 非法/缺失时留 undefined 由
+// explanationToRating 兜底。
+export function sanitizeExplanation(ai, fallback = {}) {
+  const base = sanitizeRating({ ...fallback, direction: fallback.direction, impact: fallback.impact });
+  return {
+    sentiment: EXPL_DIRECTIONS.includes(ai.sentiment) ? ai.sentiment : base.direction,
+    market_impact: EXPL_IMPACTS.includes(ai.market_impact) ? ai.market_impact : base.impact,
+    affected_companies: strArr(ai.affected_companies),
+    reasoning: strArr(ai.reasoning, 200),
+    evidence: strArr(ai.evidence, 200),
+    confidence_score: (typeof ai.confidence_score === 'number' && Number.isFinite(ai.confidence_score))
+      ? Math.min(1, Math.max(0, ai.confidence_score))
+      : undefined,
+    uncertainty: typeof ai.uncertainty === 'string' ? ai.uncertainty : '',
+    time_window: EXPL_WINDOWS.includes(ai.time_window) ? ai.time_window : '中期',
+  };
+}
+
+// 把可解释字段映射回现有评级。confidence_score ≥0.75→高, ≥0.5→中, <0.5→低;
+// 非法/缺失→中(保守)。direction/impact 由 sentiment/market_impact 1:1 给出。
+export function explanationToRating(expl) {
+  const cs = expl.confidence_score;
+  const certainty = typeof cs === 'number' && Number.isFinite(cs)
+    ? (cs >= 0.75 ? '高' : cs >= 0.5 ? '中' : '低')
+    : '中';
+  return sanitizeRating({
+    direction: expl.sentiment,
+    impact: expl.market_impact,
+    certainty,
+    time_window: expl.time_window,
+  });
+}
+
 // ── 板块方向:ETF 硬校准 + 加权聚合 ────────────────────
 // ETF 实时涨跌是板块方向的最直接证据,新闻研判只负责解释"为什么"。
 // 硬校准阈值(用户选定 ±3%):|avg|≤1% 不干预,1%~3% 强制中性,>3% 强制利好/利空。
@@ -219,7 +273,11 @@ export function reRateNeutralsToMarket(analyzed, etfData) {
     const avg = bySector[n.category];
     const forced = etfDirectionFor(avg);
     if (!forced || n.direction !== '中性') return n;
-    return { ...n, direction: forced, notes: `${n.notes || ''}；结合板块行情(ETF ${avg.toFixed(1)}%)调至${forced}`.trim() };
+    const out = { ...n, direction: forced, notes: `${n.notes || ''}；结合板块行情(ETF ${avg.toFixed(1)}%)调至${forced}`.trim() };
+    // 新字段为真源:direction 调向时 sentiment 同步,保持 1:1 一致
+    if (out.sentiment !== undefined) out.sentiment = forced;
+    if (out.uncertainty !== undefined) out.uncertainty = `${out.uncertainty || ''}；含板块行情调向`.trim();
+    return out;
   });
 }
 

@@ -7,7 +7,8 @@
 import { test, before } from 'node:test';
 import assert from 'node:assert/strict';
 import { CONFIG } from '../pipeline/config.mjs';
-import { analyzeWithKeywords, analyzeWithClaude, translateWithLocalDict, proxyReachable } from '../pipeline/analyze.mjs';
+import { analyzeWithKeywords, analyzeWithClaude, translateWithLocalDict, proxyReachable, deriveExplanation } from '../pipeline/analyze.mjs';
+import { sanitizeExplanation, explanationToRating } from '../pipeline/sentiment.mjs';
 import { SECTORS } from '../pipeline/sectors.mjs';
 
 // 清空 CONFIG.apiKey,确保走关键词引擎兜底(与本地无 key 的真实状态一致)
@@ -125,3 +126,53 @@ test('关键词引擎:±1% 内涨跌不干预新闻研判', async () => {
   const gold = r.sectorMatrix.find(s => s.name === '黄金');
   assert.equal(gold.direction, '利好'); // 央行购金基本面利好,不被 ±1% 行情覆盖
 });
+
+// ── 可解释性字段:关键词路径派生 ────────────────────────
+
+test('关键词引擎:每条派生可解释字段,与 AI 路径契约一致', async () => {
+  const r = await analyzeWithKeywords([item('中芯国际营收创新高,业绩超预期', '产线投产', '半导体')]);
+  const a = r.analyzed[0];
+  assert.ok(['利好', '利空', '中性', '分化'].includes(a.sentiment));
+  assert.ok(['极高', '高', '中', '低'].includes(a.market_impact));
+  assert.ok(Array.isArray(a.affected_companies));
+  assert.ok(Array.isArray(a.reasoning) && a.reasoning.length > 0, 'reasoning 应有评分明细');
+  assert.ok(Array.isArray(a.evidence) && a.evidence.length > 0, 'evidence 应有命中关键词');
+  assert.ok(typeof a.confidence_score === 'number' && a.confidence_score >= 0 && a.confidence_score <= 1);
+  assert.equal(a.uncertainty, '关键词引擎自动研判，未经验证');
+  // 新旧字段 1:1 一致:AI 缺失时 sentiment 与 direction 相等
+  assert.equal(a.sentiment, a.direction);
+  assert.equal(a.market_impact, a.impact);
+});
+
+test('deriveExplanation:命中信号含具体关键词(evidence 数据源)', () => {
+  const kw = {
+    direction: '利好', impact: '高', certainty: '高',
+    hitSignals: [{ cat: '业绩', dir: '利好', pts: 40, kw: '营收创新高' }],
+  };
+  const expl = deriveExplanation(kw);
+  assert.deepEqual(expl.evidence, ['营收创新高']);
+  assert.equal(expl.confidence_score, 0.8); // 高→0.8
+  assert.match(expl.reasoning[0], /业绩/);
+});
+
+test('deriveExplanation:certainty 映射置信度(高0.8/中0.6/低0.4)', () => {
+  assert.equal(deriveExplanation({ direction: '中性', impact: '低', certainty: '中', hitSignals: [] }).confidence_score, 0.6);
+  assert.equal(deriveExplanation({ direction: '中性', impact: '低', certainty: '低', hitSignals: [] }).confidence_score, 0.4);
+});
+
+// ── 可解释性字段:AI 逐条研判(真源)推导 ────────────────
+
+test('AI 条目:sanitizeExplanation + explanationToRating 推导 direction/impact', () => {
+  const expl = sanitizeExplanation(
+    { sentiment: '利空', market_impact: '高', affected_companies: ['中芯国际'], reasoning: ['板块大跌'], evidence: ['半导体ETF跌8%'], confidence_score: 0.8, uncertainty: '短期', time_window: '短期' },
+    { direction: '中性', impact: '中' },
+  );
+  const rating = explanationToRating(expl);
+  assert.equal(rating.direction, '利空');
+  assert.equal(rating.impact, '高');
+  assert.equal(rating.certainty, '高'); // 0.8 ≥ 0.75
+  assert.deepEqual(expl.affected_companies, ['中芯国际']);
+  assert.deepEqual(expl.reasoning, ['板块大跌']);
+  assert.deepEqual(expl.evidence, ['半导体ETF跌8%']);
+});
+

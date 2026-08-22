@@ -8,6 +8,7 @@ import {
   scoreNewsItem, sectorShock, sanitizeRating,
   sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
   aggregateDirection, applyEtfCalibration,
+  sanitizeExplanation, explanationToRating,
 } from './sentiment.mjs';
 
 // ── Claude API analysis ──────────────────────────────────
@@ -162,6 +163,26 @@ function marketContext(etfData) {
   return `当日各板块 ETF 实际涨跌:\n${parts.join('\n')}`;
 }
 
+// 从关键词评级派生可解释字段(关键词路径与 AI 缺 id 兜底共用,字段语义与
+// AI 路径对齐,渲染层无需区分来源)。confidence_score 按 certainty 映射。
+const KW_CONFIDENCE = { '高': 0.8, '中': 0.6, '低': 0.4 };
+export function deriveExplanation(kw) {
+  const reasoning = (kw.hitSignals || []).map(h => {
+    const sign = h.dir === '利好' ? '+' : h.dir === '利空' ? '-' : '±';
+    return `${h.cat}信号·${h.dir}(${sign}${h.pts}分${h.note ? '·' + h.note : ''})`;
+  });
+  const evidence = (kw.hitSignals || []).map(h => h.kw).filter(Boolean);
+  return {
+    sentiment: kw.direction,
+    market_impact: kw.impact,
+    affected_companies: [],
+    reasoning,
+    evidence,
+    confidence_score: KW_CONFIDENCE[kw.certainty] ?? 0.5,
+    uncertainty: '关键词引擎自动研判，未经验证',
+  };
+}
+
 // One attempt at full per-item AI judgment; returns null on any failure so the caller can retry
 async function tryAnalyzeOnce(newsItems, etfData) {
   console.log('\n🤖 调用 Claude API 进行逐条 AI 研判 + 中文翻译...');
@@ -203,22 +224,25 @@ ${marketContext(etfData)}
 1. 方向判断必须结合当日板块行情：板块 ETF 大跌(平均跌幅超3%)时，该板块的行情类/利空类新闻应判"利空"；大涨(超3%)时行情类应判"利好"。不得因"仅是行情描述"就判中性 —— 涨跌行情本身就是方向。
 2. 只调"中性"：有明确基本面(业绩/FDA/订单/制裁等)的新闻按其自身逻辑判断，不要被板块行情强行翻转。
 3. 若某条确属噪声/重复，仍要给方向(可标中性/低)，不要删条。
-4. 对关键词预判复核：同意则 notes 留"同意关键词预判"，修正则写明修正理由（如"板块大跌，行情类应判利空"）。
+4. 对关键词预判复核：同意则 reasoning 留"同意关键词预判"，修正则写明修正理由（如"板块大跌，行情类应判利空"）。
 
 每个对象包含以下字段（请严格遵守）：
 - id：对应输入编号，必须与输入的 [N] 一致
-- direction：利好 / 利空 / 中性 / 分化
-- impact：极高 / 高 / 中 / 低
-- certainty：高 / 中 / 低
+- sentiment：利好 / 利空 / 中性 / 分化
+- market_impact：极高 / 高 / 中 / 低
+- affected_companies：受影响的 A 股相关公司数组（来自原文，无明确公司可留空数组）
+- reasoning：研判依据数组，2-3 条，每条一句话
+- evidence：证据数组 —— 必须逐字引用原文(标题/描述)中的事实句，写明原文摘句；【禁止编造原文不存在的数据、数字、公司、事件】；无法从原文引用时该条留空数组
+- confidence_score：0.0-1.0 的置信度（对研判的确信程度）
+- uncertainty：仍存在的不确定性说明（一句话，无则空字符串）
 - time_window：短期 / 中期 / 长期
-- notes：研判依据，30 字内
 
 另外生成：
 - key_points：4-6条，以【板块】开头，包含具体数据或标的
 - market_summary：一段话总结当日产业动态
 
 输出 JSON，不要 markdown 包裹，不要任何其他文字：
-{"analyzed": [{"id": 0, "direction": "利空", "impact": "高", "certainty": "中", "time_window": "短期", "notes": ""}], "key_points": ["【半导体】..."], "market_summary": "..."}
+{"analyzed": [{"id": 0, "sentiment": "利空", "market_impact": "高", "affected_companies": [], "reasoning": [""], "evidence": ["原文摘句"], "confidence_score": 0.8, "uncertainty": "", "time_window": "短期"}], "key_points": ["【半导体】..."], "market_summary": "..."}
 
 新闻原文：
 
@@ -269,9 +293,20 @@ ${newsText}`;
   let result;
   try {
     result = JSON.parse(responseText);
-  } catch (err) {
-    console.error('  AI 返回 JSON 解析失败');
-    return null;
+  } catch {
+    // 稳定解析:整体解析失败时提取首个 JSON 对象块再试(仿 translateItems)
+    const start = responseText.indexOf('{');
+    const end = responseText.lastIndexOf('}');
+    if (start < 0 || end <= start) {
+      console.error('  AI 返回 JSON 解析失败');
+      return null;
+    }
+    try {
+      result = JSON.parse(responseText.slice(start, end + 1));
+    } catch {
+      console.error('  AI 返回 JSON 解析失败');
+      return null;
+    }
   }
   if (!Array.isArray(result.analyzed) || result.analyzed.length === 0) {
     console.error('  AI 返回的 analyzed 为空');
@@ -289,23 +324,35 @@ ${newsText}`;
   const analyzed = rated.map(n => {
     const ai = byId.get(String(n.__id));
     const kw = n.keyword;
-    const direction = ai?.direction ? sanitizeRating({ direction: ai.direction }).direction : kw.direction;
-    const impact = ai?.impact ? sanitizeRating({ impact: ai.impact }).impact : kw.impact;
-    const certainty = ai?.certainty ? sanitizeRating({ certainty: ai.certainty }).certainty : kw.certainty;
-    const time_window = ai?.time_window ? sanitizeRating({ time_window: ai.time_window }).time_window : kw.time_window;
-    const notes = ai?.notes && !String(ai.notes).includes('同意关键词预判')
-      ? `AI研判:${ai.notes}`
+    // 新字段为真源:AI 逐条研判存在 → sanitizeExplanation 防御 + explanationToRating
+    // 推导 direction/impact/certainty(1:1 映射,新旧字段绝不矛盾),新字段透传。
+    // AI 条目缺失(id 不在)→ 关键词评级兜底 + deriveExplanation 派生同名字段。
+    const expl = ai
+      ? sanitizeExplanation(ai, { direction: kw.direction, impact: kw.impact })
+      : deriveExplanation(kw);
+    const rating = ai ? explanationToRating(expl) : kw;
+    const reasoning = expl.reasoning;
+    const aiOnlyAgrees = reasoning.length === 1 && String(reasoning[0]).includes('同意关键词预判');
+    const notes = ai
+      ? (reasoning.length > 0 && !aiOnlyAgrees ? `AI研判:${reasoning.join('；')}` : kw.notes)
       : kw.notes;
     return {
       title_cn: n.title_cn || n.title,
       summary_cn: n.summary_cn || n.description.substring(0, 80),
       category: n.guessedSector,
-      direction,
-      impact,
-      certainty,
-      time_window,
+      direction: rating.direction,
+      impact: rating.impact,
+      certainty: rating.certainty,
+      time_window: rating.time_window,
       tickers: '—',
       notes,
+      sentiment: expl.sentiment,
+      market_impact: expl.market_impact,
+      affected_companies: expl.affected_companies,
+      reasoning: expl.reasoning,
+      evidence: expl.evidence,
+      confidence_score: expl.confidence_score,
+      uncertainty: expl.uncertainty,
       title: n.title_cn || n.title,
       description: n.description,
       pubDate: n.pubDate || baseDate,
@@ -464,6 +511,7 @@ export async function analyzeWithKeywords(newsItems, etfData) {
     // 写死的评级",不可解释)。
     const sector = n.guessedSector || '';
     const rating = scoreNewsItem(n);
+    const expl = deriveExplanation(rating);
     return {
       ...n,
       title_cn: n.title_cn || n.title,
@@ -475,6 +523,13 @@ export async function analyzeWithKeywords(newsItems, etfData) {
       time_window: rating.time_window,
       tickers: '—',
       notes: rating.notes,
+      sentiment: expl.sentiment,
+      market_impact: expl.market_impact,
+      affected_companies: expl.affected_companies,
+      reasoning: expl.reasoning,
+      evidence: expl.evidence,
+      confidence_score: expl.confidence_score,
+      uncertainty: expl.uncertainty,
     };
   }).filter(n => SECTORS.includes(n.category));
 

@@ -17,7 +17,7 @@ import { CONFIG } from '../pipeline/config.mjs';
 import { formatTime, getTodayStr, getTodayDisplay, beijingDateKey, beijingNowString } from '../pipeline/utils.mjs';
 import { fetchAllNews, fetchETFData } from '../pipeline/fetch.mjs';
 import { dedupAndClean, dedupKey } from '../pipeline/clean.mjs';
-import { analyzeWithClaude, buildSectorMatrix } from '../pipeline/analyze.mjs';
+import { analyzeWithClaude, buildSectorMatrix, deriveExplanation } from '../pipeline/analyze.mjs';
 import { scoreNewsItem } from '../pipeline/sentiment.mjs';
 import { SECTORS, CATEGORY_CLS, IMPACT_RANK, impactCompare } from '../pipeline/sectors.mjs';
 import { loadETFHistory, saveETFHistory, accumulateETF, buildETFChartData, buildSentimentData, buildImpactHeatmap, buildDirectionChart, buildTimeWindowData, fetchETFHistoryKLine } from '../pipeline/charts.mjs';
@@ -66,6 +66,14 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
       `<div><span class="dl">确定性</span>${n.certainty}</div>`,
       `<div><span class="dl">窗口</span>${n.time_window}</div>`,
       `</div>`,
+      (Array.isArray(n.affected_companies) && n.affected_companies.length > 0)
+        ? `<div class="detail-extra"><span class="dl">受影响公司</span><span class="expl-text">${escHtml(n.affected_companies.join('、'))}</span></div>` : '',
+      (typeof n.confidence_score === 'number' && n.confidence_score >= 0)
+        ? `<div class="detail-extra"><span class="dl">置信度</span><span class="expl-text">${(n.confidence_score * 100).toFixed(0)}%${n.uncertainty ? `（${escHtml(n.uncertainty)}）` : ''}</span></div>` : '',
+      (Array.isArray(n.reasoning) && n.reasoning.length > 0)
+        ? `<div class="detail-extra"><span class="dl">研判依据</span><ul class="expl-list">${n.reasoning.map(r => `<li>${escHtml(r)}</li>`).join('')}</ul></div>` : '',
+      (Array.isArray(n.evidence) && n.evidence.length > 0)
+        ? `<div class="detail-extra"><span class="dl">证据（AI 提取，请以原文为准）</span><ul class="expl-list">${n.evidence.map(e => `<li>“${escHtml(e)}”</li>`).join('')}</ul></div>` : '',
       n.notes ? `<div class="verify-note">📝 ${escHtml(n.notes)}</div>` : '',
       `</div>`,
       `</div></div>`,
@@ -315,6 +323,10 @@ new Chart(document.getElementById('heatmapChart'), {
   .detail-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-bottom:6px;}
   @media(max-width:480px){.detail-grid{grid-template-columns:repeat(2,1fr);}}
   .dl{display:block;font-size:.6rem;color:var(--text-muted);text-transform:uppercase;letter-spacing:.03em;}
+  .detail-extra{margin:2px 0 6px;}
+  .expl-text{font-size:.72rem;color:var(--text);}
+  .expl-list{margin:2px 0 0;padding-left:18px;font-size:.7rem;color:var(--text);}
+  .expl-list li{margin-bottom:2px;}
   .verify-note{font-size:.66rem;color:#b45309;font-style:italic;padding:5px 8px;background:#fffbeb;border-radius:6px;}
 
   /* Matrix table */
@@ -841,6 +853,13 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
       time_window: n.time_window,
       tickers: n.tickers,
       notes: n.notes,
+      sentiment: n.sentiment,
+      market_impact: n.market_impact,
+      affected_companies: n.affected_companies,
+      reasoning: n.reasoning,
+      evidence: n.evidence,
+      confidence_score: n.confidence_score,
+      uncertainty: n.uncertainty,
       title: n.title,
       description: n.description,
       pubDate: n.pubDate instanceof Date ? n.pubDate.toISOString() : n.pubDate,
@@ -992,6 +1011,7 @@ async function main() {
     const rating = scoreNewsItem(src);
     const mtxDir = (result.sectorMatrix || []).find(s => s.name === sector)?.direction;
     const direction = rating.direction === '中性' && mtxDir ? mtxDir : rating.direction;
+    const expl = deriveExplanation({ ...rating, direction });
     result.analyzed.push({
       title_cn: src.title_cn || src.title,
       summary_cn: src.summary_cn || src.description?.substring(0, 80) || '',
@@ -1002,6 +1022,13 @@ async function main() {
       time_window: '短期',
       tickers: '—',
       notes: `板块兜底：当日该板块新闻较少${direction === '中性' ? '' : `（按板块方向${direction}）`}`,
+      sentiment: expl.sentiment,
+      market_impact: expl.market_impact,
+      affected_companies: expl.affected_companies,
+      reasoning: expl.reasoning,
+      evidence: expl.evidence,
+      confidence_score: expl.confidence_score,
+      uncertainty: expl.uncertainty,
       title: src.title_cn || src.title,
       description: src.description || '',
       pubDate: src.pubDate,
