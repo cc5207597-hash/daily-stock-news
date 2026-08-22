@@ -71,7 +71,41 @@ test('聚合快讯噪声被丢弃', () => {
   assert.equal(out.length, 0, '枚举式聚合快讯应被去噪');
 });
 
-// ── dedupAndClean:板块分类联动 ─────────────────────────
+// ── dedupAndClean:事件级去重(stageClusterEvents)──────────
+
+test('跨媒体同事件不同标题 → 收敛为代表条目,挂事件元数据', () => {
+  const items = [
+    { title: '英伟达营收创新高 业绩超预期', description: 'd1', sourceType: 'direct_api', link: 'https://a.com/1' },
+    { title: '英伟达Q2财报超预期 营收大增', description: 'd2', sourceType: 'direct_api', link: 'https://a.com/2' },
+    { title: '英伟达净利翻倍 业绩超预期', description: 'd3', sourceType: 'direct_api', link: 'https://a.com/3' },
+  ];
+  const out = dedupAndClean(items);
+  // 三个同事件标题 → 收敛为一条代表条目
+  assert.equal(out.length, 1);
+  assert.ok(out[0].eventId && out[0].eventId.startsWith('evt_'), '代表条目应挂 eventId');
+  assert.ok(Array.isArray(out[0].eventSources) && out[0].eventSources.length > 0);
+  assert.ok(Array.isArray(out[0].relatedLinks) && out[0].relatedLinks.length === 2, '其余成员作为相关报道引用');
+});
+
+test('不同公司各自营收创新高 → 各自保留(不误并)', () => {
+  const items = [
+    { title: '中芯国际营收创新高', description: '', sourceType: 'direct_api', link: 'https://a.com/1' },
+    { title: '台积电营收创新高', description: '', sourceType: 'direct_api', link: 'https://a.com/2' },
+  ];
+  const out = dedupAndClean(items);
+  assert.equal(out.length, 2, '两家公司不是同一事件,不应合并');
+});
+
+test('事件代表条目带 sourceCount,单条事件 sourceCount=1', () => {
+  const items = [
+    { title: '中芯国际先进制程突破', description: '', sourceType: 'direct_api', link: 'https://a.com/1' },
+  ];
+  const out = dedupAndClean(items);
+  assert.equal(out.length, 1);
+  assert.equal(out[0].sourceCount, 1);
+});
+
+
 
 test('分类后仅保留四板块相关新闻', () => {
   const items = [

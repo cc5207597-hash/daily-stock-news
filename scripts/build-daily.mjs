@@ -75,6 +75,17 @@ export function renderHTML(result, todayDisplay, etfData, chartData) {
       (Array.isArray(n.evidence) && n.evidence.length > 0)
         ? `<div class="detail-extra"><span class="dl">证据（AI 提取，请以原文为准）</span><ul class="expl-list">${n.evidence.map(e => `<li>“${escHtml(e)}”</li>`).join('')}</ul></div>` : '',
       n.notes ? `<div class="verify-note">📝 ${escHtml(n.notes)}</div>` : '',
+      // 事件级去重:多来源徽标 + 相关报道折叠列表(一事件一卡,来源在事件内聚合)
+      (n.sourceCount && n.sourceCount > 1) ? `
+      <div class="detail-extra event-sources">
+        <span class="dl">来源聚合（${n.sourceCount} 家）</span>
+        <span class="ev-src-badges">${(n.eventSources || []).map(s => `<span class="ev-src-badge">${escHtml(s)}</span>`).join('')}</span>
+      </div>` : '',
+      (Array.isArray(n.relatedLinks) && n.relatedLinks.length > 0) ? `
+      <div class="detail-extra event-related">
+        <span class="dl">相关报道（${n.relatedLinks.length} 篇）</span>
+        <ul class="expl-list related-list">${n.relatedLinks.slice(0, 8).map(l => `<li><a href="${escHtml(l)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">${escHtml(l).replace(/^https?:\/\/(www\.)?/, '').substring(0, 50)}</a></li>`).join('')}</ul>
+      </div>` : '',
       `</div>`,
       `</div></div>`,
     ].join('\n');
@@ -328,6 +339,14 @@ new Chart(document.getElementById('heatmapChart'), {
   .expl-list{margin:2px 0 0;padding-left:18px;font-size:.7rem;color:var(--text);}
   .expl-list li{margin-bottom:2px;}
   .verify-note{font-size:.66rem;color:#b45309;font-style:italic;padding:5px 8px;background:#fffbeb;border-radius:6px;}
+
+  /* 事件级去重:来源徽标 + 相关报道 */
+  .ev-src-badges{display:inline-flex;flex-wrap:wrap;gap:4px;}
+  .ev-src-badge{font-size:.62rem;padding:1px 6px;border-radius:10px;background:#eef2ff;color:#4338ca;border:1px solid #c7d2fe;white-space:nowrap;}
+  .event-sources,.event-related{margin-top:4px;}
+  .related-list li{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .related-list a{color:#2563eb;text-decoration:none;font-size:.68rem;}
+  .related-list a:hover{text-decoration:underline;}
 
   /* Matrix table */
   .table-wrap{overflow-x:auto;margin-bottom:16px;border-radius:var(--radius);border:1px solid var(--border);}
@@ -803,6 +822,8 @@ export function mergeWithHistory(freshItems, historyPayload) {
       pubDate: new Date(n.pubDate),
       source: n.source || '',
       link: n.link || '',
+      eventId: n.eventId,
+      sourceCount: n.sourceCount,
       archived: true,
     }));
   if (archived.length === 0) return freshItems;
@@ -865,6 +886,12 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
       pubDate: n.pubDate instanceof Date ? n.pubDate.toISOString() : n.pubDate,
       source: n.source,
       link: n.link,
+      eventId: n.eventId,
+      eventTitle: n.eventTitle,
+      eventSources: n.eventSources,
+      sourceCount: n.sourceCount,
+      relatedLinks: n.relatedLinks,
+      eventMembers: n.eventMembers,
     })),
     sectorMatrix: result.sectorMatrix || [],
     keyPoints: result.keyPoints || [],
@@ -877,6 +904,8 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
       pubDate: n.pubDate ? (n.pubDate instanceof Date ? n.pubDate.toISOString() : n.pubDate) : null,
       source: n.source || '',
       link: n.link || '',
+      eventId: n.eventId,
+      sourceCount: n.sourceCount,
     })),
     etfData: etfData,
     chartData: chartData,
@@ -886,6 +915,20 @@ function saveHistoryArchive(dateStr, todayDisplay, result, etfData, chartData) {
   const jsonPath = historyJsonPath(dateStr);
   writeFileSync(jsonPath, JSON.stringify(buildPayload, null, 2), 'utf-8');
   console.log(`📚 历史存档: ${jsonPath}`);
+
+  // 事件级去重存档:每天单独存 events_YYYYMMDD.json,列出当日聚类出的事件
+  // (含所有来源与相关报道),供事件回顾/后续分析使用。
+  const eventsArchive = (result.events || []).map(e => ({
+    eventId: e.eventId,
+    canonicalTitle: e.canonicalTitle,
+    canonicalLink: e.canonicalLink || '',
+    memberCount: e.memberCount,
+    sources: e.sources || [],
+    relatedArticles: e.relatedArticles || [],
+  }));
+  writeFileSync(join(HISTORY_DIR, `events_${dateStr}.json`),
+    JSON.stringify({ date: dateStr, count: eventsArchive.length, events: eventsArchive }, null, 2), 'utf-8');
+  console.log(`🗂️  事件存档: ${HISTORY_DIR}/events_${dateStr}.json (${eventsArchive.length} 个事件)`);
 
   // Static HTML page for this date (so gh-pages serves /history/日报_YYYYMMDD.html)
   const staticHtml = renderHTML(buildPayload, todayDisplay, etfData, chartData);
@@ -987,6 +1030,40 @@ async function main() {
 
   // 3. Analyze
   const result = await analyzeWithClaude(kept, etfData);
+
+  // 3a. 事件级去重:按 eventId 聚合 kept(代表条目已挂事件元数据),
+  // 重建当日 events 列表供存档(events_YYYYMMDD.json)。
+  const eventMap = new Map();
+  for (const item of kept) {
+    if (!item.eventId) continue;
+    if (!eventMap.has(item.eventId)) {
+      eventMap.set(item.eventId, {
+        eventId: item.eventId,
+        canonicalTitle: item.eventTitle || item.title,
+        canonicalLink: item.link || '',
+        memberCount: 1,
+        sources: new Set(item.eventSources || [item.source]),
+        relatedArticles: new Set([item.link, ...(item.relatedLinks || [])].filter(Boolean)),
+      });
+    } else {
+      const e = eventMap.get(item.eventId);
+      e.memberCount += 1;
+      (item.eventSources || [item.source]).forEach(s => e.sources.add(s));
+      (item.relatedLinks || []).forEach(l => l && e.relatedArticles.add(l));
+      e.relatedArticles.add(item.link);
+    }
+  }
+  result.events = [...eventMap.values()].map(e => ({
+    eventId: e.eventId,
+    canonicalTitle: e.canonicalTitle,
+    canonicalLink: e.canonicalLink,
+    memberCount: e.memberCount,
+    sources: [...e.sources],
+    relatedArticles: [...e.relatedArticles],
+  }));
+  if (result.events.length > 0) {
+    console.log(`  🧩 事件级去重: ${result.events.length} 个事件（${result.events.filter(e => e.memberCount > 1).length} 个跨媒体聚合）`);
+  }
 
   // 3b. Sector backfill — guarantee every sector has at least one card. A build
   // can legitimately come back with a sector empty (that time window had no news

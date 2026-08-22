@@ -122,7 +122,8 @@ daily-stock-news/
 │   ├── config.mjs                 # 配置中心（API 源、RSS Feed、ETF 列表、关键词规则）
 │   ├── utils.mjs                  # 工具函数（HTML 清洗、日期格式化）
 │   ├── fetch.mjs                  # 数据抓取层（5 API + 43 RSS + 12 ETF 行情）
-│   ├── clean.mjs                  # 清洗层（去重、板块分类、时效性过滤）
+│   ├── clean.mjs                  # 清洗层（去重、事件聚类、板块分类、时效性过滤）
+│   ├── events.mjs                 # 事件级去重（三层漏斗 + 可插拔 Embedding 钩子）
 │   ├── analyze.mjs                # AI 分析层（Claude 兼容 API 逐条研判 + 关键词引擎兜底）
 │   └── charts.mjs                 # 图表数据层（ETF 历史累积、情绪/冲击/方向数据集）
 ├── output/                        # 构建产物
@@ -130,6 +131,11 @@ daily-stock-news/
 │   ├── 股市热点日报_20260804.json
 │   ├── etf_history.json           # ETF 价格历史（趋势图数据源）
 │   └── ...
+├── history/                       # 历史存档（按天 JSON + 静态 HTML + 事件存档）
+│   ├── 日报_YYYYMMDD.json         # 当日全量数据
+│   ├── 日报_YYYYMMDD.html         # 静态历史页
+│   ├── events_YYYYMMDD.json       # 当日事件级去重结果（含多来源聚合）
+│   └── dates.json                 # 日期索引
 ├── index.html                     # 当日日报（部署入口）
 ├── package.json
 └── .gitignore
@@ -141,6 +147,7 @@ daily-stock-news/
 
 - **模块化 ETL 流水线** — `pipeline/` 目录 6 个模块，职责分离：`fetch`（数据抓取）→ `clean`（去重分类）→ `analyze`（AI 分析）→ `charts`（图表数据），`scripts/build-daily.mjs` 负责编排 + HTML 渲染 + 推送
 - **多源聚合** — 5 个中文财经 API 直连 + 43 条 Google News RSS Feed，8 路并行分批抓取。直接 API 源优先于 RSS 源去重
+- **事件级去重** — 同一财经事件被不同媒体以不同标题报道（如财联社「现货黄金站上4600美元」与华尔街见闻「现货黄金突破4600美元」）→ 自动聚合为单个 Event：加权字符 Jaccard（实体词满权重、泛财经词降权）+ bigram overlap + 信号类别加成三层相似度判定，共享具体价格点位等数字时强合并；聚合结果收敛为代表条目继续走 AI 研判，卡片展示来源聚合徽标（N 家）与相关报道列表；事件存档至 `history/events_YYYYMMDD.json`
 - **AI 智能分析** — Claude 兼容 API（默认智谱 GLM 免费模型）对新闻逐条研判，输出中文标题、板块归类、方向判断（利好/利空/中性/分化）、影响评级（极高/高/中/低），附带确定性评分和时间窗口，每条简讯关联 A 股标的；AI 不可用时自动降级为本地关键词引擎
 - **板块方向硬校准** — 板块最终方向以当日 ETF 实际涨跌为准（±3% 硬阈值）：跌超 3% 强制利空、涨超 3% 强制利好、±1%~3% 强制中性、±1% 内由新闻研判决定；大跌板块内的中性新闻顺势调向，但明确利好/利空（如 FDA 获批）不受行情覆盖
 - **关键词引擎兜底** — API 不可用时自动降级为本地关键词匹配引擎（含涨跌行情信号，覆盖四大赛道），保证日报照常出

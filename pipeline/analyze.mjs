@@ -337,6 +337,7 @@ ${newsText}`;
       ? (reasoning.length > 0 && !aiOnlyAgrees ? `AI研判:${reasoning.join('；')}` : kw.notes)
       : kw.notes;
     return {
+      ...n,
       title_cn: n.title_cn || n.title,
       summary_cn: n.summary_cn || n.description.substring(0, 80),
       category: n.guessedSector,

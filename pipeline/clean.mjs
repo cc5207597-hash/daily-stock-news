@@ -4,6 +4,7 @@
 
 import { SECTORS } from './sectors.mjs';
 import { classifyItem } from './classifier.mjs';
+import { clusterEvents, collapseToRepresentatives } from './events.mjs';
 
 // Regexes that identify "noise" headlines that should never enter the report:
 // aggregate digests ("1. X. 2. Y."), calendar/forecast listings, pure quotes
@@ -77,22 +78,30 @@ function stageNoise(deduped) {
   return kept;
 }
 
-function stageCollapse(kept) {
-  // Collapse near-duplicates: the same story republished by many feeds with
-  // slightly different phrasing (e.g. 6+ SK海力士/三星 variants). If a shorter
-  // normalized title is fully contained in an already-accepted longer one, it's
-  // the same story — keep the longer, more informative version only.
+function stageClusterEvents(kept) {
+  // 事件级去重:同一财经事件被不同媒体以不同标题报道 → 聚成单个 Event。
+  // clusterEvents 返回 { events, annotatedItems }:annotatedItems 每条挂
+  // eventId/eventSources/sourceCount/eventMembers;collapseToRepresentatives
+  // 把多来源事件收敛为一条代表条目(最长标题),其余成员作为相关报道引用,
+  // 不进入下游分析/渲染。单事件条目原样通过、携带自身事件元数据。
+  // 收敛后再跑一层旧 stageCollapse 的包含去重兜底(跨事件的高重合标题)。
+  const { annotatedItems } = clusterEvents(kept);
+  const collapsed = collapseToRepresentatives(annotatedItems);
   const accepted = [];
-  return kept.filter(item => {
+  const out = [];
+  for (const item of collapsed) {
     const norm = dedupKey(item.title);
-    if (norm.length < 6) return true; // too short to be a reliable fragment
+    if (norm.length < 6) { out.push(item); continue; }
+    let dup = false;
     for (const acc of accepted) {
       const accNorm = dedupKey(acc.title);
-      if (accNorm.length >= norm.length + 4 && accNorm.includes(norm)) return false;
+      if (accNorm.length >= norm.length + 4 && accNorm.includes(norm)) { dup = true; break; }
     }
+    if (dup) continue;
     accepted.push(item);
-    return true;
-  });
+    out.push(item);
+  }
+  return out;
 }
 
 function stageClassify(kept) {
@@ -130,4 +139,4 @@ export function dedupAndClean(allItems) {
   return items;
 }
 
-const STAGES = [stageDedup, stageNoise, stageCollapse, stageClassify, stageFilter];
+const STAGES = [stageDedup, stageNoise, stageClusterEvents, stageClassify, stageFilter];
