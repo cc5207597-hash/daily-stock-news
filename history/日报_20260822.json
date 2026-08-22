@@ -1,119 +1,91 @@
 {
   "date": "20260822",
   "displayDate": "2026-08-22",
-  "generatedAt": "2026-08-22T14:37:12.961Z",
+  "generatedAt": "2026-08-22T15:36:35.765Z",
   "analyzed": [
     {
-      "title_cn": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
+      "title_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "summary_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "category": "黄金",
+      "direction": "中性",
       "impact": "中",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:安世中国发布新产品，利好半导体产业升级；板块ETF微涨，符合利好信号",
-      "sentiment": "利好",
+      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.7%)调至中性",
+      "sentiment": "中性",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "安世中国发布新产品，利好半导体产业升级",
-        "板块ETF微涨，符合利好信号"
+        "同意关键词预判"
       ],
-      "evidence": [
-        "安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "",
-      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
-      "description": "",
-      "pubDate": "2026-08-22T13:29:41.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html"
-    },
-    {
-      "title_cn": "湖北省委书记关志鸥会见光谷“梧桐树计划”企业家",
-      "summary_cn": "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】财联社8月22日电，据湖北发布，湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:同意关键词预判；政策支持但无具体订单或业绩，属于中性信号",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "政策支持但无具体订单或业绩，属于中性信号"
-      ],
-      "evidence": [
-        "湖北省委书记关志鸥8月22日在武汉会见参与光谷‘梧桐树计划’的企业家一行"
-      ],
+      "evidence": [],
       "confidence_score": 0.6,
-      "uncertainty": "",
-      "title": "湖北省委书记关志鸥会见光谷“梧桐树计划”企业家",
-      "description": "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】财联社8月22日电，据湖北发布，湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划",
-      "pubDate": "2026-08-22T13:51:48.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2461484"
+      "uncertainty": "；含板块行情调向",
+      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "pubDate": "2026-08-22T13:05:03.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_14fsnu4",
+      "eventTitle": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+          "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+          "link": "",
+          "pubDate": "2026-08-22T13:05:03.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
     },
     {
       "title_cn": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
       "summary_cn": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
       "category": "创新药",
-      "direction": "利好",
+      "direction": "利空",
       "impact": "中",
       "certainty": "中",
       "time_window": "长期",
       "tickers": "—",
-      "notes": "AI研判:Moderna癌症疫苗成功，利好创新药板块；但板块ETF大跌4.4%，情绪压制利好",
-      "sentiment": "利好",
+      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.4%)调至利空",
+      "sentiment": "利空",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "Moderna癌症疫苗成功，利好创新药板块",
-        "但板块ETF大跌4.4%，情绪压制利好"
+        "同意关键词预判"
       ],
-      "evidence": [
-        "如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "",
+      "evidence": [],
+      "confidence_score": 0.6,
+      "uncertainty": "；含板块行情调向",
       "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
       "description": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
       "pubDate": "2026-08-22T12:49:53.000Z",
       "source": "华尔街见闻医药",
-      "link": "https://wallstreetcn.com/articles/3780064"
-    },
-    {
-      "title_cn": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:同意关键词预判；与7号新闻重复，无新增信息",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "与7号新闻重复，无新增信息"
+      "link": "https://wallstreetcn.com/articles/3780064",
+      "eventId": "evt_19yak3u",
+      "eventTitle": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+      "eventSources": [
+        "华尔街见闻"
       ],
-      "evidence": [
-        "湖北省委书记关志鸥在武汉会见参与光谷‘梧桐树计划’的企业家一行"
-      ],
-      "confidence_score": 0.5,
-      "uncertainty": "",
-      "title": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
-      "description": "",
-      "pubDate": "2026-08-22T13:49:05.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferm1043055.d.html"
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
+          "description": "某种意义上，如果没有新冠疫苗带来的巨额现金流，Moderna或许很难将这场高风险的癌症押注坚持到今天。",
+          "link": "https://wallstreetcn.com/articles/3780064",
+          "pubDate": "2026-08-22T12:49:53.000Z",
+          "source": "华尔街见闻医药",
+          "sourceType": "direct_api"
+        }
+      ]
     },
     {
       "title_cn": "据美国官员透露：周五晚间，约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡。当晚约有1600万桶原油通过该航道运出海峡。",
@@ -124,24 +96,157 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:同意关键词预判；原油运输数据与创新药无直接关联；结合板块行情(ETF -4.4%)调至利空",
+      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.4%)调至利空",
       "sentiment": "利空",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判",
-        "原油运输数据与创新药无直接关联"
+        "同意关键词预判"
       ],
-      "evidence": [
-        "约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡"
-      ],
+      "evidence": [],
       "confidence_score": 0.5,
       "uncertainty": "；含板块行情调向",
       "title": "据美国官员透露：周五晚间，约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡。当晚约有1600万桶原油通过该航道运出海峡。",
       "description": "",
       "pubDate": "2026-08-22T13:46:22.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferh0448844.d.html"
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferh0448844.d.html",
+      "eventId": "evt_3obl40",
+      "eventTitle": "据美国官员透露：周五晚间，约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡。当晚约有1600万桶原油通过该航道运出海峡。",
+      "eventSources": [
+        "金十数据",
+        "新浪财经"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "Axios援引美国官员消息称，周五晚上约有1600万桶石油通过霍尔木兹海峡南部航线离开。"
+      ],
+      "eventMembers": [
+        {
+          "title": "Axios援引美国官员消息称，周五晚上约有1600万桶石油通过霍尔木兹海峡南部航线离开。",
+          "description": "Axios援引美国官员消息称，周五晚上约有1600万桶石油通过霍尔木兹海峡南部航线离开。",
+          "link": "",
+          "pubDate": "2026-08-22T14:04:09.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "据美国官员透露：周五晚间，约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡。当晚约有1600万桶原油通过该航道运出海峡。",
+          "description": "",
+          "guessedSector": "创新药",
+          "pubDate": "2026-08-22T13:46:22.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferh0448844.d.html",
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
+      "description": "",
+      "pubDate": "2026-08-22T13:49:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferm1043055.d.html",
+      "eventId": "evt_1qxxvqy",
+      "eventTitle": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
+      "eventSources": [
+        "金十数据",
+        "东方财富",
+        "新浪财经"
+      ],
+      "sourceCount": 3,
+      "relatedLinks": [
+        "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】",
+        "http://finance.eastmoney.com/news/1350,202608223850199877.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】",
+          "description": "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】金十数据8月22日讯，据湖北发布，湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
+          "link": "",
+          "pubDate": "2026-08-22T13:53:57.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "关志鸥会见光谷“梧桐树计划”企业家",
+          "description": "人民财讯8月22日电，据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。",
+          "link": "http://finance.eastmoney.com/news/1350,202608223850199877.html",
+          "pubDate": "2026-08-22T13:48:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-22T13:49:05.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferm1043055.d.html",
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判"
+      ],
+      "evidence": [],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "description": "",
+      "pubDate": "2026-08-22T13:29:41.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html",
+      "eventId": "evt_honvn1",
+      "eventTitle": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-22T13:29:41.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html",
+          "archived": true
+        }
+      ]
     },
     {
       "title_cn": "2026绿色算力大会签约13个项目，总投资1361亿元",
@@ -152,140 +257,134 @@
       "certainty": "高",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:1361亿元大单落地，利好算力产业链；芯片检测、装备制造等直接受益半导体板块",
+      "notes": "AI研判:1361亿元总投资规模巨大，显著利好半导体产业链；涵盖芯片检测、装备制造等核心领域",
       "sentiment": "利好",
       "market_impact": "高",
-      "affected_companies": [],
+      "affected_companies": [
+        "火山引擎",
+        "寒武纪"
+      ],
       "reasoning": [
-        "1361亿元大单落地，利好算力产业链",
-        "芯片检测、装备制造等直接受益半导体板块"
+        "1361亿元总投资规模巨大，显著利好半导体产业链",
+        "涵盖芯片检测、装备制造等核心领域"
       ],
       "evidence": [
-        "签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元",
-        "签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域"
+        "签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元。签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域。"
       ],
-      "confidence_score": 0.8,
+      "confidence_score": 0.9,
       "uncertainty": "",
       "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
       "description": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一批成果集中发布。《“东数西算”枢纽节点绿色算力指数研究报告(2026年)》指出，内蒙古、京津冀、贵州等全国一体化算力网络国家枢纽节点绿色算力发展处于领先水平。签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元。签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域。（内蒙古日报）",
       "pubDate": "2026-08-22T11:28:40.000Z",
       "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153381"
-    },
-    {
-      "title_cn": "A report says 中国's compute capacity is expandin",
-      "summary_cn": "A report says 中国's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 中国's 英特尔ligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed 光通信 interconnects and new storage architectures h",
-      "category": "光模块",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:中国智能算力达2185 EFLOPS，利好光模块需求；高速光互联技术需求增长，板块ETF上涨2.3%",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "中国智能算力达2185 EFLOPS，利好光模块需求",
-        "高速光互联技术需求增长，板块ETF上涨2.3%"
+      "link": "https://wallstreetcn.com/articles/3153381",
+      "eventId": "evt_e8qrgi",
+      "eventTitle": "2026绿色算力大会签约13个项目，总投资1361亿元",
+      "eventSources": [
+        "华尔街见闻"
       ],
-      "evidence": [
-        "中国智能算力规模达2185 EFLOPS",
-        "液冷散热、高速光互联、新存储架构等新技术已成为高密度智算中心建设的必备条件"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "A report says 中国's compute capacity is expandin",
-      "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
-      "pubDate": "2026-08-22T12:14:10.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title_cn": "【报告显示：我国算力全链条绿色化成效初显】",
-      "summary_cn": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:算力绿色化升级利好光模块和半导体；但板块分化，创新药大跌不影响此条逻辑",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "算力绿色化升级利好光模块和半导体",
-        "但板块分化，创新药大跌不影响此条逻辑"
-      ],
-      "evidence": [
-        "我国智能算力规模达2185 EFLOPS",
-        "液冷散热、高速光互联、新型存储架构等新技术已成为高密度智算中心建设的必备条件"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "【报告显示：我国算力全链条绿色化成效初显】",
-      "description": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。报告指出，在算力设备绿色化方面，我国算力设备加速向高能效方向迭代升级。截至2026年6月底，我国智能算力规模达2185EFLOPS。液冷散热、高速光互联、新型存储架构等新技术已成为高密度智算中心建设的必备条件，支撑算力产业规模、性能与能效协同发展。",
-      "pubDate": "2026-08-22T12:13:56.000Z",
-      "source": "金十数据",
-      "link": "https://h.xinhuaxmt.com/vh512/share/13252298"
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
+          "description": "2026绿色算力（人工智能）大会在呼和浩特召开。发布仪式上，《绿色算力发展研究报告（2026年）》《“东数西算”枢纽节点绿色算力指数研究报告（2026年）》等一批成果集中发布。《“东数西算”枢纽节点绿色算力指数研究报告(2026年)》指出，内蒙古、京津冀、贵州等全国一体化算力网络国家枢纽节点绿色算力发展处于领先水平。签约环节中，呼和浩特、乌兰察布两地与火山引擎、寒武纪等头部企业集中签约13个项目，总投资额1361亿元。签约项目涵盖芯片检测、装备制造、算力中心、词元工厂等多个领域。（内蒙古日报）",
+          "link": "https://wallstreetcn.com/articles/3153381",
+          "pubDate": "2026-08-22T11:28:40.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
     },
     {
       "title_cn": "报告称中国的计算能力正在扩展",
       "summary_cn": "A report says China's compute capacity is expanding rapidly: hardware is shiftin",
       "category": "光模块",
       "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:与9号新闻重复，确认利好方向；光模块需求持续增长",
+      "notes": "AI研判:中国算力快速扩张利好光模块需求；高速光互联是算力升级的关键支撑",
       "sentiment": "利好",
-      "market_impact": "中",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "与9号新闻重复，确认利好方向",
-        "光模块需求持续增长"
+        "中国算力快速扩张利好光模块需求",
+        "高速光互联是算力升级的关键支撑"
       ],
       "evidence": [
-        "中国智能算力规模达2185 EFLOPS",
-        "高速光互联技术需求增长"
+        "as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures"
       ],
-      "confidence_score": 0.7,
+      "confidence_score": 0.8,
       "uncertainty": "",
       "title": "报告称中国的计算能力正在扩展",
       "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
       "pubDate": "2026-08-22T12:14:10.000Z",
       "source": "金十数据",
-      "link": ""
+      "link": "",
+      "eventId": "evt_1lg0f5a",
+      "eventTitle": "报告称中国的计算能力正在扩展",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "报告称中国的计算能力正在扩展",
+          "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-22T12:14:10.000Z",
+          "source": "金十数据",
+          "link": "",
+          "archived": true
+        }
+      ]
     },
     {
-      "title_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
-      "summary_cn": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "title_cn": "重磅公告！央行、市场监管总局联手打击非法买卖人民币",
+      "summary_cn": "为打击非法买卖人民币的活动，维护人民币信誉，保护消费者合法权益，中国人民银行（下称“央行”）、市场监管总局8月21日发布公告（下称《公告》）称，禁止任何单位和个",
       "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
+      "direction": "利空",
+      "impact": "中",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:同意关键词预判；仅为观点分析，无实际数据；结合板块行情(ETF 1.7%)调至中性",
-      "sentiment": "中性",
-      "market_impact": "低",
+      "notes": "AI研判:禁止买卖流通人民币可能影响黄金投资渠道",
+      "sentiment": "利空",
+      "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判",
-        "仅为观点分析，无实际数据"
+        "禁止买卖流通人民币可能影响黄金投资渠道"
       ],
       "evidence": [
-        "美债长端收益率创19年新高"
+        "《公告》规定，现行流通人民币不得买卖。"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
-      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
-      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
-      "pubDate": "2026-08-22T13:05:03.000Z",
-      "source": "金十数据",
-      "link": ""
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "重磅公告！央行、市场监管总局联手打击非法买卖人民币",
+      "description": "为打击非法买卖人民币的活动，维护人民币信誉，保护消费者合法权益，中国人民银行（下称“央行”）、市场监管总局8月21日发布公告（下称《公告》）称，禁止任何单位和个人买卖人民币；但经央行公告停止流通的人民币，以及普通纪念币和贵金属纪念币可以买卖。《公告》自2026年9月1日起施行。《公告》规定，现行流通人民币不得买卖。",
+      "pubDate": "2026-08-22T11:39:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608223850208957.html",
+      "eventId": "evt_1o982ul",
+      "eventTitle": "重磅公告！央行、市场监管总局联手打击非法买卖人民币",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "重磅公告！央行、市场监管总局联手打击非法买卖人民币",
+          "description": "为打击非法买卖人民币的活动，维护人民币信誉，保护消费者合法权益，中国人民银行（下称“央行”）、市场监管总局8月21日发布公告（下称《公告》）称，禁止任何单位和个人买卖人民币；但经央行公告停止流通的人民币，以及普通纪念币和贵金属纪念币可以买卖。《公告》自2026年9月1日起施行。《公告》规定，现行流通人民币不得买卖。",
+          "link": "http://finance.eastmoney.com/news/1350,202608223850208957.html",
+          "pubDate": "2026-08-22T11:39:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
     },
     {
       "title_cn": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
@@ -296,13 +395,12 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:同意关键词预判；仅为股价信息，无基本面变化；结合板块行情(ETF -4.4%)调至利空",
+      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.4%)调至利空",
       "sentiment": "利空",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判",
-        "仅为股价信息，无基本面变化"
+        "同意关键词预判"
       ],
       "evidence": [],
       "confidence_score": 0.5,
@@ -311,7 +409,82 @@
       "description": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
       "pubDate": "2026-08-22T10:20:15.000Z",
       "source": "雪球",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5",
+      "eventId": "evt_1dxfm6q",
+      "eventTitle": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+      "eventSources": [
+        "雪球"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRSHVLOW5Benl2dmJLeUlqRGZkbHdObzI4QW90bHRWNlNOalN0dldBODRVdXJ2bEktR2w4bm5Mc2FPNWZYcEdBSkd3UTdKdVE?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+          "description": "百济神州(SH688235)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+          "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5",
+          "pubDate": "2026-08-22T10:20:15.000Z",
+          "source": "雪球"
+        },
+        {
+          "title": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告 - 雪球",
+          "description": "百济神州(06160)股票股价_股价行情_讨论_资讯_财报_数据报告&nbsp;&nbsp; 雪球",
+          "link": "https://news.google.com/rss/articles/CBMiP0FVX3lxTE43NGZkSFJDZEZQbnZwZ0VvNzZnRV9MeFpLWHk0WXgweDhGYkZRMTFGT1ViZFRVQVBTb2EzVVBSUQ?oc=5",
+          "pubDate": "2026-08-21T11:38:16.000Z",
+          "source": "雪球"
+        },
+        {
+          "title": "百济神州(06160)_百济神州怎么样 - 热门讨论 - 雪球",
+          "description": "百济神州(06160)_百济神州怎么样 - 热门讨论&nbsp;&nbsp; 雪球",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBRSHVLOW5Benl2dmJLeUlqRGZkbHdObzI4QW90bHRWNlNOalN0dldBODRVdXJ2bEktR2w4bm5Mc2FPNWZYcEdBSkd3UTdKdVE?oc=5",
+          "pubDate": "2018-09-02T19:40:12.000Z",
+          "source": "雪球"
+        }
+      ]
+    },
+    {
+      "title_cn": "报告显示：我国算力全链条绿色化成效初显",
+      "summary_cn": "【报告显示：我国算力全链条绿色化成效初显】当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元",
+      "category": "创新药",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.4%)调至利空",
+      "sentiment": "利空",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "；含板块行情调向",
+      "title": "报告显示：我国算力全链条绿色化成效初显",
+      "description": "【报告显示：我国算力全链条绿色化成效初显】当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。",
+      "pubDate": "2026-08-22T10:46:48.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608223850182717.html",
+      "eventId": "evt_1lnjz4y",
+      "eventTitle": "报告显示：我国算力全链条绿色化成效初显",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "报告显示：我国算力全链条绿色化成效初显",
+          "description": "【报告显示：我国算力全链条绿色化成效初显】当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。",
+          "link": "http://finance.eastmoney.com/news/1350,202608223850182717.html",
+          "pubDate": "2026-08-22T10:46:48.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
     },
     {
       "title_cn": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
@@ -322,16 +495,15 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:黄金股周内飙升，板块ETF上涨1.7%；恒指五连阳反映整体市场情绪",
+      "notes": "AI研判:黄金股周内飙升反映市场情绪积极",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "黄金股周内飙升，板块ETF上涨1.7%",
-        "恒指五连阳反映整体市场情绪"
+        "黄金股周内飙升反映市场情绪积极"
       ],
       "evidence": [
-        "黄金股本周齐飙升"
+        "恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升"
       ],
       "confidence_score": 0.8,
       "uncertainty": "",
@@ -339,7 +511,23 @@
       "description": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.com",
       "pubDate": "2026-08-22T08:17:00.000Z",
       "source": "hstong.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5",
+      "eventId": "evt_1df5rgi",
+      "eventTitle": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
+      "eventSources": [
+        "hstong.com"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
+          "description": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升&nbsp;&nbsp; hstong.com",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5",
+          "pubDate": "2026-08-22T08:17:00.000Z",
+          "source": "hstong.com"
+        }
+      ]
     },
     {
       "title_cn": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
@@ -350,16 +538,15 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:黄金冲破200日均线，机构多头增持；板块ETF上涨1.7%，符合利好信号",
+      "notes": "AI研判:黄金冲破200日均线且机构增持",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "黄金冲破200日均线，机构多头增持",
-        "板块ETF上涨1.7%，符合利好信号"
+        "黄金冲破200日均线且机构增持"
       ],
       "evidence": [
-        "黄金冲破200日均线，高盛交易台多头增持至六成"
+        "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元"
       ],
       "confidence_score": 0.9,
       "uncertainty": "",
@@ -367,7 +554,66 @@
       "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
       "pubDate": "2026-08-22T02:09:25.000Z",
       "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5",
+      "eventId": "evt_1l2xy0x",
+      "eventTitle": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
+          "description": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5",
+          "pubDate": "2026-08-22T02:09:25.000Z",
+          "source": "华尔街见闻"
+        }
+      ]
+    },
+    {
+      "title_cn": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+      "summary_cn": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:金价站稳4600美元/盎司且周线三连涨",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "金价站稳4600美元/盎司且周线三连涨"
+      ],
+      "evidence": [
+        "金价站稳4600美元/盎司关口，实现周线三连涨"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+      "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
+      "pubDate": "2026-08-22T00:40:24.000Z",
+      "source": "金融界",
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5",
+      "eventId": "evt_x43z09",
+      "eventTitle": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+      "eventSources": [
+        "金融界"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+          "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5",
+          "pubDate": "2026-08-22T00:40:24.000Z",
+          "source": "金融界"
+        }
+      ]
     },
     {
       "title_cn": "黄金价格的底部可能已经出现 - 手机新浪网",
@@ -378,13 +624,12 @@
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:金价底部信号明确；板块ETF上涨1.7%验证判断",
+      "notes": "AI研判:金价底部信号明确",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "金价底部信号明确",
-        "板块ETF上涨1.7%验证判断"
+        "金价底部信号明确"
       ],
       "evidence": [
         "黄金价格的底部可能已经出现"
@@ -395,89 +640,23 @@
       "description": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
       "pubDate": "2026-08-22T01:37:01.000Z",
       "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5"
-    },
-    {
-      "title_cn": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅 - 매일경제 마켓",
-      "summary_cn": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅&nbsp;&nbsp; 매일경제 마켓",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:同意关键词预判；海外新闻且无具体公司关联，影响有限",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "海外新闻且无具体公司关联，影响有限"
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5",
+      "eventId": "evt_1rfsnnq",
+      "eventTitle": "黄金价格的底部可能已经出现 - 手机新浪网",
+      "eventSources": [
+        "新浪财经"
       ],
-      "evidence": [],
-      "confidence_score": 0.5,
-      "uncertainty": "",
-      "title": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅 - 매일경제 마켓",
-      "description": "“AI 빚 내가 보증설께”…엔비디아 통큰 약속에 서학개미 DRAM에 1천억 베팅&nbsp;&nbsp; 매일경제 마켓",
-      "pubDate": "2026-08-22T02:03:59.000Z",
-      "source": "매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QZ01hbGhCdXAydkFPTS1GZ0R5bjNfR2h5QU1zY2NlNXIwMXp6VDM5RjdwVGRWS0JlRGxwVmJpcDhaVlBJdlRKUEdHVTByYlFsSGc?oc=5"
-    },
-    {
-      "title_cn": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
-      "summary_cn": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:金价实现周线三连涨；4600美元/盎司关口站稳",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "金价实现周线三连涨",
-        "4600美元/盎司关口站稳"
-      ],
-      "evidence": [
-        "金价站稳4600美元/盎司关口，实现周线三连涨"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
-      "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
-      "pubDate": "2026-08-22T00:40:24.000Z",
-      "source": "金融界",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
-    },
-    {
-      "title_cn": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
-      "summary_cn": "Morgan Stanley Doubles Down on 黄金 After Breakout&nbsp;&nbsp; 交易View",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:摩根士丹利增持黄金，头部机构看多；板块ETF上涨1.7%，强化利好",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "摩根士丹利增持黄金，头部机构看多",
-        "板块ETF上涨1.7%，强化利好"
-      ],
-      "evidence": [
-        "Morgan Stanley Doubles Down on Gold After Breakout"
-      ],
-      "confidence_score": 0.9,
-      "uncertainty": "",
-      "title": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
-      "description": "Morgan Stanley Doubles Down on Gold After Breakout&nbsp;&nbsp; TradingView",
-      "pubDate": "2026-08-21T20:12:59.000Z",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY255SjZoRHFvdXpzclFqbFI5cEljdDJWRzNibDZEcDV5R08wUFdYYktHVHlWQjQtdXFfWnlrMDZnc091NTZKRFVDdm9tVFVQMXdBN1B1QmtGVk91QnZOMGJETVh6dl9qRV9GTlVxQkR3QTdGejNFa3NfZFJvUVhhTWNTT1pQdDZnb1RNWWRuTS1hV2ZELXlNSi16ZjRrYm4zMTBjODNhOExCTURZZ05F?oc=5"
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金价格的底部可能已经出现 - 手机新浪网",
+          "description": "黄金价格的底部可能已经出现&nbsp;&nbsp; 手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5",
+          "pubDate": "2026-08-22T01:37:01.000Z",
+          "source": "手机新浪网"
+        }
+      ]
     }
   ],
   "sectorMatrix": [
@@ -486,45 +665,45 @@
       "shock": "强",
       "direction": "中性",
       "news_count": 6,
-      "summary": "黄金板块6条新闻，方向以中性为主。关注：黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美",
+      "summary": "黄金板块6条新闻，方向以中性为主。关注：金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
       "tickers": "紫金矿业、山东黄金、中金黄金",
       "notes": "；ETF校准(当日+1.7%)"
     },
     {
       "name": "创新药",
-      "shock": "强",
+      "shock": "中",
       "direction": "利空",
       "news_count": 4,
-      "summary": "创新药板块4条新闻，方向以利空为主。关注：【报告显示：我国算力全链条绿色化成效初显】；【报告显示：我国算力全链条绿色化成",
-      "tickers": "百济神州、药明康德、恒瑞医药",
-      "notes": "；ETF校准(当日-4.4%)"
+      "summary": "创新药板块4条新闻，方向以利空为主",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "半导体",
       "shock": "中",
       "direction": "利好",
-      "news_count": 5,
-      "summary": "半导体板块5条新闻，方向以利好为主。关注：2026绿色算力大会签约13个项目，总投资1361亿元；2026绿色算力（人工",
+      "news_count": 3,
+      "summary": "半导体板块3条新闻，方向以利好为主。关注：2026绿色算力大会签约13个项目，总投资1361亿元；2026绿色算力（人工",
       "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "光模块",
       "shock": "中",
       "direction": "中性",
-      "news_count": 2,
-      "summary": "光模块板块2条新闻，方向以中性为主",
+      "news_count": 1,
+      "summary": "光模块板块1条新闻，方向以中性为主。关注：报告称中国的计算能力正在扩展",
       "tickers": "中际旭创、新易盛、天孚通信",
       "notes": "；ETF校准(当日+2.3%)"
     }
   ],
   "keyPoints": [
-    "【半导体】1361亿元绿色算力大单落地，火山引擎、寒武纪等企业参与，利好芯片检测和装备制造",
-    "【光模块】中国智能算力达2185 EFLOPS，高速光互联需求增长，板块ETF上涨2.3%",
-    "【创新药】Moderna癌症疫苗十年豪赌成功，但板块ETF跌4.4%，情绪压制利好",
-    "【黄金】金价冲破200日均线，高盛多头增持至六成，摩根士丹利加码，板块ETF上涨1.7%",
-    "【黄金】黄金股周内飙升，恒指五连阳重返26000点，4600美元/盎司关口站稳"
+    "【半导体】绿色算力大会签约1361亿元，火山引擎、寒武纪等企业布局芯片检测与装备制造",
+    "【光模块】中国智能算力达2185 EFLOPS，高速光互联需求扩张",
+    "【黄金】金价站稳4600美元/盎司，周线三连涨且高盛多头增持至六成",
+    "【创新药】板块ETF平均-4.4%，但Moderna癌症疫苗案例显示长期投资价值",
+    "【黄金】央行禁止买卖流通人民币，可能短期影响黄金投资渠道",
+    "【半导体】板块ETF平均+0.4%，安世中国发布12英寸新品但影响有限"
   ],
-  "marketSummary": "半导体板块受绿色算力大单和政策支持提振，但整体涨幅有限；光模块受益于智能算力扩张需求，表现突出；创新药板块受Moderna疫苗利好影响，但整体情绪低迷导致下跌；黄金板块在机构增持和价格突破支撑下延续上涨趋势。",
+  "marketSummary": "半导体板块在绿色算力大单带动下表现积极，光模块受益于算力升级需求；黄金板块延续强势，金价突破关键位且机构看多；创新药板块整体回调，但个股如Moderna展现长期潜力。",
   "isAi": true,
   "fullNews": [
     {
@@ -533,7 +712,9 @@
       "guessedSector": "创新药",
       "pubDate": "2026-08-22T10:20:15.000Z",
       "source": "雪球",
-      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE1XV1dNSUFPSEs5empvc0VuNjVTc0k5b3BWQUo2ejRMV3R1b1pzbnNfOHFHV18wZDdGN081RjJZNVJIMWM?oc=5",
+      "eventId": "evt_1dxfm6q",
+      "sourceCount": 1
     },
     {
       "title": "黄金价格的底部可能已经出现 - 手机新浪网",
@@ -541,7 +722,9 @@
       "guessedSector": "黄金",
       "pubDate": "2026-08-22T01:37:01.000Z",
       "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YUE1YT042ODF0Y2xqdWtvQVZ0TWE0NFBiZ25UcEd1WkJxbEdRaXhMa1VkdEpZcDl4cXZvWGZ0eGpfY2NXb2tUOHpEOFptZ3piYm1CM1lxVjBjMHVIWXhHZHRoQ0xTVGgwYVp5ZUNkVzhQdw?oc=5",
+      "eventId": "evt_1rfsnnq",
+      "sourceCount": 1
     },
     {
       "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
@@ -549,7 +732,9 @@
       "guessedSector": "黄金",
       "pubDate": "2026-08-22T00:40:24.000Z",
       "source": "金融界",
-      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5",
+      "eventId": "evt_x43z09",
+      "sourceCount": 1
     },
     {
       "title": "黄金冲破200日均线，高盛交易台多头增持至六成，大客户押注白银三个月内涨至90美元 - 华尔街见闻",
@@ -557,23 +742,9 @@
       "guessedSector": "黄金",
       "pubDate": "2026-08-22T02:09:25.000Z",
       "source": "华尔街见闻",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5"
-    },
-    {
-      "title": "Morgan Stanley Doubles Down on 黄金 After Breakout - 交易View",
-      "description": "Morgan Stanley Doubles Down on Gold After Breakout&nbsp;&nbsp; TradingView",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-21T20:12:59.000Z",
-      "source": "TradingView",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQY255SjZoRHFvdXpzclFqbFI5cEljdDJWRzNibDZEcDV5R08wUFdYYktHVHlWQjQtdXFfWnlrMDZnc091NTZKRFVDdm9tVFVQMXdBN1B1QmtGVk91QnZOMGJETVh6dl9qRV9GTlVxQkR3QTdGejNFa3NfZFJvUVhhTWNTT1pQdDZnb1RNWWRuTS1hV2ZELXlNSi16ZjRrYm4zMTBjODNhOExCTURZZ05F?oc=5"
-    },
-    {
-      "title": "“AI 빚 내가 보증설께”…英伟达 통큰 약속에 서학개미 DRAM에 1천억 베팅 - 매일경제 마켓",
-      "description": "“AI 빚 내가 보증설께”…엔비디아 통큰 약속에 서학개미 DRAM에 1천억 베팅&nbsp;&nbsp; 매일경제 마켓",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-22T02:03:59.000Z",
-      "source": "매일경제 마켓",
-      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1QZ01hbGhCdXAydkFPTS1GZ0R5bjNfR2h5QU1zY2NlNXIwMXp6VDM5RjdwVGRWS0JlRGxwVmJpcDhaVlBJdlRKUEdHVTByYlFsSGc?oc=5"
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5Cc0RMdXBGbVZPUVhQbDRUaDlyMkQ5TmV4NTU4YktRQ2RNeU02bllWbFpadVJRNENhSEFhbEphT2V6TmY2cWFubGNzanNxZmw4OTdj?oc=5",
+      "eventId": "evt_1l2xy0x",
+      "sourceCount": 1
     },
     {
       "title": "港股周报 | 恒指五连阳！周涨3.5%重返26000点；小米周内劲升13%！单季净利环比改善；医药、加密、黄金股本周齐飙升 - hstong.com",
@@ -581,47 +752,9 @@
       "guessedSector": "黄金",
       "pubDate": "2026-08-22T08:17:00.000Z",
       "source": "hstong.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5"
-    },
-    {
-      "title": "湖北省委书记关志鸥会见光谷“梧桐树计划”企业家",
-      "description": "【湖北省委书记关志鸥会见光谷“梧桐树计划”企业家】财联社8月22日电，据湖北发布，湖北省委书记关志鸥8月22日在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-22T13:51:48.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2461484"
-    },
-    {
-      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
-      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-22T13:05:03.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "A report says 中国's compute capacity is expandin",
-      "description": "A report says China's compute capacity is expanding rapidly: hardware is shifting to higher energy efficiency, compute carriers are undergoing a green transition, compute–power coordination is moving from concept to practice, and new models—compute networks, tokenized compute economies and overseas compute deployment—are emerging as growth poles. The report notes compute hardware is accelerating upgrades toward higher energy efficiency; as of end-June 2026 China's intelligent compute capacity reached 2,185 EFLOPS. Liquid cooling, high‑speed optical interconnects and new storage architectures h",
-      "guessedSector": "光模块",
-      "pubDate": "2026-08-22T12:14:10.000Z",
-      "source": "金十数据",
-      "link": ""
-    },
-    {
-      "title": "【报告显示：我国算力全链条绿色化成效初显】",
-      "description": "【报告显示：我国算力全链条绿色化成效初显】金十数据8月22日讯，当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。报告指出，在算力设备绿色化方面，我国算力设备加速向高能效方向迭代升级。截至2026年6月底，我国智能算力规模达2185EFLOPS。液冷散热、高速光互联、新型存储架构等新技术已成为高密度智算中心建设的必备条件，支撑算力产业规模、性能与能效协同发展。",
-      "guessedSector": "创新药",
-      "pubDate": "2026-08-22T12:13:56.000Z",
-      "source": "金十数据",
-      "link": "https://h.xinhuaxmt.com/vh512/share/13252298"
-    },
-    {
-      "title": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
-      "description": "",
-      "guessedSector": "半导体",
-      "pubDate": "2026-08-22T13:49:05.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferm1043055.d.html"
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9PbmhYY1N4TG9HaEZjS1NYLXFDN2FjN1pVRVE5R2ZyMnk1Z2lmbkR4Q2YzbFluaWhFUWQ1RWdzZEtIalFfcGhSZjhoLUprZXUtUHNfMXFLX2diMGdoaS05RjRn?oc=5",
+      "eventId": "evt_1df5rgi",
+      "sourceCount": 1
     },
     {
       "title": "据美国官员透露：周五晚间，约有40艘油轮通过霍尔木兹海峡南部深水航道进出海峡。当晚约有1600万桶原油通过该航道运出海峡。",
@@ -629,15 +762,49 @@
       "guessedSector": "创新药",
       "pubDate": "2026-08-22T13:46:22.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferh0448844.d.html"
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferh0448844.d.html",
+      "eventId": "evt_3obl40",
+      "sourceCount": 2
     },
     {
-      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "title": "【关志鸥会见光谷“梧桐树计划”企业家】据湖北发布，8月22日，湖北省委书记关志鸥在武汉会见参与光谷“梧桐树计划”的企业家一行。关志鸥说希望各位企业家扎根湖北、深耕湖北，持续扩大在鄂投资布局，带动更多上下游企业来鄂投资兴业，共同构建全链条协同共生的良好产业生态，推动集成电路产业集群做大做强。长存控股董事长兼总裁陈南翔、中微公司资深副总裁丛海、华海清科董事长王同庆、中科飞测董事长陈鲁、珂玛科技董事长刘先兵、臻宝科技董事长王兵、神州半导体董事长朱培文、微纳核芯董事长叶乐、九天睿芯董事长刘洪杰等企业家表示坚定看好湖北发展前景，将充分发挥各自优势，全力支持和参与“梧桐树计划”，推动更多资源要素在鄂聚集，助推集成电路产业高质量发展，为湖北加快建成中部地区崛起的重要战略支点作出新的更大贡献。",
       "description": "",
       "guessedSector": "半导体",
-      "pubDate": "2026-08-22T13:29:41.000Z",
+      "pubDate": "2026-08-22T13:49:05.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html"
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipferm1043055.d.html",
+      "eventId": "evt_1qxxvqy",
+      "sourceCount": 3
+    },
+    {
+      "title": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "description": "美债长端收益率创19年新高，黄金就该涨了？到底利好还是利空黄金，这种情况怎么判断？点击查看>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-22T13:05:03.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_14fsnu4",
+      "sourceCount": 1
+    },
+    {
+      "title": "重磅公告！央行、市场监管总局联手打击非法买卖人民币",
+      "description": "为打击非法买卖人民币的活动，维护人民币信誉，保护消费者合法权益，中国人民银行（下称“央行”）、市场监管总局8月21日发布公告（下称《公告》）称，禁止任何单位和个人买卖人民币；但经央行公告停止流通的人民币，以及普通纪念币和贵金属纪念币可以买卖。《公告》自2026年9月1日起施行。《公告》规定，现行流通人民币不得买卖。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-22T11:39:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608223850208957.html",
+      "eventId": "evt_1o982ul",
+      "sourceCount": 1
+    },
+    {
+      "title": "报告显示：我国算力全链条绿色化成效初显",
+      "description": "【报告显示：我国算力全链条绿色化成效初显】当前，我国算力规模快速增长，算力设备向高能效方向升级，算力载体绿色化转型进展积极，算电协同从理念走向实践，算力网、词元经济、算力出海等新模式新业态成为新增长极。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-22T10:46:48.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608223850182717.html",
+      "eventId": "evt_1lnjz4y",
+      "sourceCount": 1
     },
     {
       "title": "2026绿色算力大会签约13个项目，总投资1361亿元",
@@ -645,7 +812,9 @@
       "guessedSector": "半导体",
       "pubDate": "2026-08-22T11:28:40.000Z",
       "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153381"
+      "link": "https://wallstreetcn.com/articles/3153381",
+      "eventId": "evt_e8qrgi",
+      "sourceCount": 1
     },
     {
       "title": "从濒临出局到市值暴涨440亿美元：Moderna的癌症疫苗十年豪赌",
@@ -653,7 +822,19 @@
       "guessedSector": "创新药",
       "pubDate": "2026-08-22T12:49:53.000Z",
       "source": "华尔街见闻医药",
-      "link": "https://wallstreetcn.com/articles/3780064"
+      "link": "https://wallstreetcn.com/articles/3780064",
+      "eventId": "evt_19yak3u",
+      "sourceCount": 1
+    },
+    {
+      "title": "【安世中国新品全球发布会开放预约】2026年8月23日晚20:23，安世中国携12英寸半导体产品重磅亮相，以高质量硬核产品，赋能高端制造，引领产业升级。（安世半导体）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-22T13:29:41.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-22/detail-inipfern2981737.d.html",
+      "eventId": "evt_honvn1",
+      "sourceCount": 1
     },
     {
       "title": "报告称中国的计算能力正在扩展",
@@ -661,7 +842,9 @@
       "guessedSector": "光模块",
       "pubDate": "2026-08-22T12:14:10.000Z",
       "source": "金十数据",
-      "link": ""
+      "link": "",
+      "eventId": "evt_1lg0f5a",
+      "sourceCount": 1
     }
   ],
   "etfData": [
@@ -969,9 +1152,9 @@
       "datasets": [
         {
           "data": [
-            11,
-            2,
-            4
+            6,
+            5,
+            3
           ],
           "backgroundColor": [
             "#16a34a",
@@ -1006,26 +1189,26 @@
         "半导体": {
           "极高": 0,
           "高": 1,
-          "中": 1,
-          "低": 3
+          "中": 0,
+          "低": 2
         },
         "光模块": {
           "极高": 0,
-          "高": 0,
-          "中": 2,
+          "高": 1,
+          "中": 0,
           "低": 0
         },
         "创新药": {
           "极高": 0,
           "高": 0,
-          "中": 2,
-          "低": 2
+          "中": 1,
+          "低": 3
         },
         "黄金": {
           "极高": 0,
           "高": 2,
-          "中": 3,
-          "低": 1
+          "中": 4,
+          "低": 0
         }
       },
       "hasData": true
@@ -1041,10 +1224,10 @@
         {
           "label": "利好",
           "data": [
-            2,
-            2,
-            2,
-            5
+            1,
+            1,
+            0,
+            4
           ],
           "backgroundColor": "#16a34a"
         },
@@ -1053,15 +1236,15 @@
           "data": [
             0,
             0,
-            2,
-            0
+            4,
+            1
           ],
           "backgroundColor": "#dc2626"
         },
         {
           "label": "中性",
           "data": [
-            3,
+            2,
             0,
             0,
             1
@@ -1081,7 +1264,7 @@
         {
           "data": [
             9,
-            7,
+            4,
             1
           ],
           "backgroundColor": [
