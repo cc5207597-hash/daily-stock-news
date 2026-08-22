@@ -682,15 +682,15 @@
       "date": "20260822",
       "displayDate": "2026-08-22",
       "isAi": true,
-      "newsCount": 27,
+      "newsCount": 32,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 5,
-        "high": 1
+        "high": 2
       },
-      "signalHitRate": 37,
+      "signalHitRate": 34,
       "directions": {
         "利好": 1,
         "利空": 1,
