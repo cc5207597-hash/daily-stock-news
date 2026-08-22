@@ -682,13 +682,13 @@
       "date": "20260822",
       "displayDate": "2026-08-22",
       "isAi": true,
-      "newsCount": 16,
+      "newsCount": 17,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 0,
-        "high": 4
+        "high": 3
       },
       "signalHitRate": 0,
       "directions": {
@@ -704,13 +704,13 @@
           "shock": "强"
         },
         {
-          "name": "半导体",
-          "direction": "利好",
+          "name": "创新药",
+          "direction": "利空",
           "shock": "强"
         },
         {
-          "name": "创新药",
-          "direction": "利空",
+          "name": "半导体",
+          "direction": "利好",
           "shock": "中"
         },
         {
