@@ -734,21 +734,21 @@
       },
       "signalHitRate": 0,
       "directions": {
-        "利好": 1,
+        "利好": 0,
         "利空": 1,
         "分化": 0,
-        "中性": 2
+        "中性": 3
       },
       "matrix": [
         {
-          "name": "半导体",
-          "direction": "利好",
-          "shock": "中"
-        },
-        {
           "name": "黄金",
           "direction": "中性",
-          "shock": "中"
+          "shock": "强"
+        },
+        {
+          "name": "半导体",
+          "direction": "中性",
+          "shock": "弱"
         },
         {
           "name": "光模块",
