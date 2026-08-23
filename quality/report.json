@@ -730,9 +730,9 @@
       "covered": true,
       "impact": {
         "vhigh": 0,
-        "high": 1
+        "high": 3
       },
-      "signalHitRate": 67,
+      "signalHitRate": 0,
       "directions": {
         "利好": 0,
         "利空": 1,
@@ -741,14 +741,14 @@
       },
       "matrix": [
         {
+          "name": "半导体",
+          "direction": "中性",
+          "shock": "强"
+        },
+        {
           "name": "黄金",
           "direction": "中性",
           "shock": "中"
-        },
-        {
-          "name": "半导体",
-          "direction": "中性",
-          "shock": "弱"
         },
         {
           "name": "光模块",
