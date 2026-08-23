@@ -1,0 +1,74 @@
+{
+  "date": "20260823",
+  "count": 6,
+  "events": [
+    {
+      "eventId": "evt_11qrdw0",
+      "canonicalTitle": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_xcvtyp",
+      "canonicalTitle": "过去两周，途经霍尔木兹海峡的船只数量激增近400%，伊朗似乎正在失去对这条关键水道的控制——越来越多",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_rcz3y9",
+      "canonicalTitle": "强化政策支持 提升平台能级 山东聊城助企“扬帆出海”",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608233850233624.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608233850233624.html"
+      ]
+    },
+    {
+      "eventId": "evt_19zjalz",
+      "canonicalTitle": "【光谷“梧桐树计划”17个项目集中签约 总投资60多亿元】据湖北日报，8月22日，光谷“梧桐树计划”17个项目集中签约，总投资60多亿元。翻开名单，中国集成电路产业链的头部企业几乎全部在列：中微公司、中科飞测、微导纳米、臻宝科技……从光刻到刻蚀，从沉积到抛光，从设备到零部件，从量检测到设计，全链条集齐。这不是一次普通的招商签约，这是中国集成电路产业一场生态级的集结。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-23/detail-iniphhay2620341.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-23/detail-iniphhay2620341.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_632yaw",
+      "canonicalTitle": "报道：英伟达客户被告知AI相关涨价幅度超过15%",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153422",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153422"
+      ]
+    },
+    {
+      "eventId": "evt_1l7rn2d",
+      "canonicalTitle": "下周重磅日程：全市场最关注的经济数据、央行大会和财报一起来了",
+      "canonicalLink": "https://wallstreetcn.com/articles/3779970",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3779970"
+      ]
+    }
+  ]
+}
