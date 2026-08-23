@@ -1,6 +1,9 @@
 name: Daily Stock News Report
 
 on:
+  # 代码推送即触发构建：本人 push main 立即重建（GITHUB_TOKEN 的自动提交不触发，不会死循环）。
+  push:
+    branches: [main]
   schedule:
     # 三时段兜底：GitHub Actions 的 schedule 会漂移/跳过，多时段互为备份。
     # 01:00 UTC = 北京 09:00；04:30 UTC = 北京 12:30；12:00 UTC = 北京 20:00。
