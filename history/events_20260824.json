@@ -1,7 +1,19 @@
 {
   "date": "20260824",
-  "count": 54,
+  "count": 70,
   "events": [
+    {
+      "eventId": "evt_1rx6fw3",
+      "canonicalTitle": "黄金直线拉升，机构改口称金价将冲击5000美元 - 同花顺",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQkgtYWY3UHRxb01QeVpiM1Jzd3NhRDh6NDI2VVhCcllIdHlkQ1hIMEVLWFVGbzF0R205bGxVbUVRWUFQbkN4R1h1WE5zdE9JSUZfanRoS25Tc2FvYjlmOTNR?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "同花顺"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQkgtYWY3UHRxb01QeVpiM1Jzd3NhRDh6NDI2VVhCcllIdHlkQ1hIMEVLWFVGbzF0R205bGxVbUVRWUFQbkN4R1h1WE5zdE9JSUZfanRoS25Tc2FvYjlmOTNR?oc=5"
+      ]
+    },
     {
       "eventId": "evt_7cdfv7",
       "canonicalTitle": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
@@ -9,14 +21,15 @@
       "memberCount": 1,
       "sources": [
         "华尔街见闻",
-        "chnfund.com",
+        "第一财经",
         "新浪财经",
-        "搜狐网",
-        "新浪网",
+        "chnfund.com",
         "财联社",
         "hstong.com",
+        "搜狐网",
         "手机网易网",
-        "同花顺"
+        "同花顺财经",
+        "格隆汇"
       ],
       "relatedArticles": [
         "https://wallstreetcn.com/articles/3153661",
@@ -24,21 +37,21 @@
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1RLXI2NDZkdVo5eEpPQnpCd3AtLTRmajhPNXJSMHU1bmJ5QjhDcVIySWVXdGQzQjRoNTZ0WmVzbzAxZndoWU0wS0RzaFphOUNYYVZj?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLYWZuczlnZWV6MVE2Z25hdXRTZENWVkcwWGhhUk1XdkR3TWNfVmpOZ3J5UmN5NU9aM2tDVWRNeTVZSGpoZDJINGhGU0lSVG5paHBr?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11NlBQcWdyZFVxdUduOGJkcFhzTVJRMEF2MzdEdjZFQnRNYUdpRUtVczJwUkp6Y2lHNnkzTjRDaWViZDVLY3lvcEZTVV9EUGhrd01n?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
-        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BN3BOOElxZllQUW56MDBoWDIzNGRlYm5QTzIwdWJTdTExMjI0NDdscUR2YUNCdW9tTWg4ZGt5YUR5aGJTOVJwSzNyMTBoWFl2Wk5LWDlQOGxGUFFRNzktcU9zeTVMRGROMnJQeENma2Rnb2k3Y0NadG5NMUV1dk0?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03SDFQajRlbjRmaHdWZTJRamR3ZENUYVViX2FSMWNJcXladXktelZ4dXhjRGVJTV9rQkJicnJtQ2lKRXBxdG5kclJCdXRZX0hMZUNr?oc=5",
         "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PRDBoN0prbzRyNzZZNkJVZVJqZXFqUFBObXBvcGlxNmZHSi1aZTd4Ukk2b19uamM4VnhOaTRfd0dUTUxKTTBMZ1U0aXZwaGVybTNv?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
@@ -48,14 +61,14 @@
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uS0FKeWRHZ3pNSVhjSndFQUx6TkRRRlJtV1FrZTJ3WDBiMGtraUQ5VDhHRl9rTW54X2p5NWZra05fOXhvd1NPYWwwNTR1V2Q0djA0?oc=5",
         "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
         "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5jVmhBZ3R1dmx1YlF5NWRZSW9pV2lreF9pTS15b2VNeHhLTmVTNHdKd0dkRzJLeVlGM1NPb3lrQmJIS2RQZFA2TTNHLVp3SGlNelpvLW11c2MtUGcw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
-        "https://wallstreetcn.com/articles/3153670",
-        "https://wallstreetcn.com/articles/3776698"
+        "https://wallstreetcn.com/articles/3776698",
+        "https://wallstreetcn.com/articles/3775254"
       ]
     },
     {
@@ -71,15 +84,15 @@
       ]
     },
     {
-      "eventId": "evt_12664ch",
-      "canonicalTitle": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口 - caiwennews.com",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5",
+      "eventId": "evt_1bp074n",
+      "canonicalTitle": "ETF风向标|市场全面避险，煤炭ETF、红利价值ETF涨2%，科创半导体ETF上周“吸金”45亿 - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SUTlFZVdXcklPeFVROHFPaWItMXFTcnBjUExjVTdaRXY3MVVWaWFUbC1fU2xtcWdIellYQV9XazJ2dTFtTFdlN2Q3SkRsRVlobG9z?oc=5",
       "memberCount": 1,
       "sources": [
-        "caiwennews.com"
+        "FX168财经"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5SUTlFZVdXcklPeFVROHFPaWItMXFTcnBjUExjVTdaRXY3MVVWaWFUbC1fU2xtcWdIellYQV9XazJ2dTFtTFdlN2Q3SkRsRVlobG9z?oc=5"
       ]
     },
     {
@@ -93,7 +106,180 @@
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5"
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSlF3ZWYwM1BGNXRsbE1JbFhLbzdZR1RhRF9pNlZZZ3ljR2JOaER5d1dnV1ZtbTdFNW9qLXhHUENTMmppdFdJWS1RWWltc2ZYeGMwNGozLVQ0VmNobzBpVVpEZ29vbUh5SERnX1lONlN2ek1BTmR2QnVhRlNhQ25ZSDQ5clVvNUxTRjNlXw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_7j2j6v",
+      "canonicalTitle": "国际现货黄金本周初延续上行趋势，价格一步一个脚印运行至最上方筹码峰上沿，若突破站稳将强化多头格局。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1di74hg",
+      "canonicalTitle": "Spot gold slid as much as $16 intraday and has par",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_i374ya",
+      "canonicalTitle": "现货黄金短线一度下挫16美元，现部分反弹至4657美元/盎司。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_nqvi3p",
+      "canonicalTitle": "【拓斯达：拟1.47亿元取得来勒光电49%股权 切入高景气光通信赛道】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1ed88qy",
+      "canonicalTitle": "【炬芯科技：上半年净利润1.09亿元 同比增长19.07%】炬芯科技公告，2026年上半年，公司实现营业总收入5.76亿元，同比增长28.33%；归属于上市公司股东的净利润1.09亿元，同比增长19.07%；基本每股收益0.62元。2026年上半年，搭载存内计算NPU的SoC芯片及端侧AI处理器芯片营业收入占比超过25%，给公司带来营收和利润双双高质量增长。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpn1997552.d.html",
+      "memberCount": 1,
+      "sources": [
+        "金十数据",
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpn1997552.d.html",
+        "【炬芯科技：上半年净利润1.09亿元 同比增长19.07%】"
+      ]
+    },
+    {
+      "eventId": "evt_15ge77a",
+      "canonicalTitle": "德银指出，英伟达财报近几年已经成为接近非农和CPI级别的宏观事件，但市场对“需求继续超预期”的敏感度",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1psf09z",
+      "canonicalTitle": "【OPPO原海外营销服总裁张洲川已入职大疆】",
+      "canonicalLink": "https://www.jiemian.com/article/14978200.html",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://www.jiemian.com/article/14978200.html"
+      ]
+    },
+    {
+      "eventId": "evt_1trg17s",
+      "canonicalTitle": "新华财经晚报：国管公积金新政 首套房最高可贷款340万元",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608243851247828.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608243851247828.html",
+        "http://finance.eastmoney.com/news/1345,202608243851170922.html"
+      ]
+    },
+    {
+      "eventId": "evt_rifawq",
+      "canonicalTitle": "对话吴砚靖、张家俊、丘晖：Agent开始算经济账",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851400461.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243851400461.html"
+      ]
+    },
+    {
+      "eventId": "evt_b498rt",
+      "canonicalTitle": "三部门发文 推进家庭医生签约服务",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851361081.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243851361081.html"
+      ]
+    },
+    {
+      "eventId": "evt_1y0nbta",
+      "canonicalTitle": "上海：推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平",
+      "canonicalLink": "http://finance.eastmoney.com/news/1345,202608243851242554.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1345,202608243851242554.html"
+      ]
+    },
+    {
+      "eventId": "evt_1qcfiwz",
+      "canonicalTitle": "上海：支持微型发光二极管、硅基有机发光二极管、柔性显示等技术发展 突破光波导、驱动芯片、核心装备、关键材料等环节",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851248947.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243851248947.html"
+      ]
+    },
+    {
+      "eventId": "evt_ryrap6",
+      "canonicalTitle": "市场消息：英飞凌收购C2I半导体公司。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpm0049827.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpm0049827.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1e07p2i",
+      "canonicalTitle": "何小鹏：亲自担任机器人业务CEO，将调动全集团优势资源共同协作，加速机器人量产和商业化",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153974",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153974"
+      ]
+    },
+    {
+      "eventId": "evt_12664ch",
+      "canonicalTitle": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口 - caiwennews.com",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "caiwennews.com"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5"
       ]
     },
     {
@@ -134,14 +320,10 @@
       "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
       "memberCount": 1,
       "sources": [
-        "金十数据",
-        "新浪财经",
-        "华尔街见闻"
+        "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
-        "A股CPO概念午后持续下挫，中际旭创跌近10%，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华",
-        "https://wallstreetcn.com/articles/3153674"
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html"
       ]
     },
     {
@@ -174,12 +356,10 @@
       "canonicalLink": "https://wallstreetcn.com/articles/3153607",
       "memberCount": 1,
       "sources": [
-        "东方财富",
         "华尔街见闻"
       ],
       "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153607",
-        "http://finance.eastmoney.com/news/1350,202608243850924323.html"
+        "https://wallstreetcn.com/articles/3153607"
       ]
     },
     {

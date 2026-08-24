@@ -765,16 +765,16 @@
     {
       "date": "20260824",
       "displayDate": "2026-08-24",
-      "isAi": true,
-      "newsCount": 54,
+      "isAi": false,
+      "newsCount": 70,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 7,
-        "high": 7
+        "vhigh": 8,
+        "high": 11
       },
-      "signalHitRate": 4,
+      "signalHitRate": 49,
       "directions": {
         "利好": 0,
         "利空": 3,
@@ -800,7 +800,7 @@
         {
           "name": "创新药",
           "direction": "利空",
-          "shock": "弱"
+          "shock": "中"
         }
       ]
     }
