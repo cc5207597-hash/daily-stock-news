@@ -1,19 +1,7 @@
 {
   "date": "20260824",
-  "count": 70,
+  "count": 79,
   "events": [
-    {
-      "eventId": "evt_1rx6fw3",
-      "canonicalTitle": "黄金直线拉升，机构改口称金价将冲击5000美元 - 同花顺",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQkgtYWY3UHRxb01QeVpiM1Jzd3NhRDh6NDI2VVhCcllIdHlkQ1hIMEVLWFVGbzF0R205bGxVbUVRWUFQbkN4R1h1WE5zdE9JSUZfanRoS25Tc2FvYjlmOTNR?oc=5",
-      "memberCount": 1,
-      "sources": [
-        "同花顺"
-      ],
-      "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQkgtYWY3UHRxb01QeVpiM1Jzd3NhRDh6NDI2VVhCcllIdHlkQ1hIMEVLWFVGbzF0R205bGxVbUVRWUFQbkN4R1h1WE5zdE9JSUZfanRoS25Tc2FvYjlmOTNR?oc=5"
-      ]
-    },
     {
       "eventId": "evt_7cdfv7",
       "canonicalTitle": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
@@ -21,11 +9,11 @@
       "memberCount": 1,
       "sources": [
         "华尔街见闻",
-        "第一财经",
         "新浪财经",
+        "hstong.com",
+        "第一财经",
         "chnfund.com",
         "财联社",
-        "hstong.com",
         "搜狐网",
         "手机网易网",
         "同花顺财经",
@@ -39,22 +27,23 @@
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLYWZuczlnZWV6MVE2Z25hdXRTZENWVkcwWGhhUk1XdkR3TWNfVmpOZ3J5UmN5NU9aM2tDVWRNeTVZSGpoZDJINGhGU0lSVG5paHBr?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11NlBQcWdyZFVxdUduOGJkcFhzTVJRMEF2MzdEdjZFQnRNYUdpRUtVczJwUkp6Y2lHNnkzTjRDaWViZDVLY3lvcEZTVV9EUGhrd01n?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BN3BOOElxZllQUW56MDBoWDIzNGRlYm5QTzIwdWJTdTExMjI0NDdscUR2YUNCdW9tTWg4ZGt5YUR5aGJTOVJwSzNyMTBoWFl2Wk5LWDlQOGxGUFFRNzktcU9zeTVMRGROMnJQeENma2Rnb2k3Y0NadG5NMUV1dk0?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03SDFQajRlbjRmaHdWZTJRamR3ZENUYVViX2FSMWNJcXladXktelZ4dXhjRGVJTV9rQkJicnJtQ2lKRXBxdG5kclJCdXRZX0hMZUNr?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11NlBQcWdyZFVxdUduOGJkcFhzTVJRMEF2MzdEdjZFQnRNYUdpRUtVczJwUkp6Y2lHNnkzTjRDaWViZDVLY3lvcEZTVV9EUGhrd01n?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
         "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhRjJLWFZtdmZIUXF6SFM3bWszSVhrb1M5R01CQVljZG5KQ0ZONi1HalFpTGFKeC03dmlLTmhyTjRaNjR4LTlXdE5UYXFXZW05Mzln?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
@@ -69,6 +58,20 @@
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
         "https://wallstreetcn.com/articles/3776698",
         "https://wallstreetcn.com/articles/3775254"
+      ]
+    },
+    {
+      "eventId": "evt_1rx6fw3",
+      "canonicalTitle": "黄金直线拉升，机构改口称金价将冲击5000美元 - 同花顺财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qZHhPRTR3b2VtMjFVOW1sYXFnbFlNZkVYZWxZVi1IRWZWcldvUDNBbmhycngwdHJkNU1XWDByZ0RHSEFzQlB6U1RiXzNXMlc3VDlldFljSUFRek5MdHc?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "同花顺财经",
+        "同花顺"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9qZHhPRTR3b2VtMjFVOW1sYXFnbFlNZkVYZWxZVi1IRWZWcldvUDNBbmhycngwdHJkNU1XWDByZ0RHSEFzQlB6U1RiXzNXMlc3VDlldFljSUFRek5MdHc?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBKQkgtYWY3UHRxb01QeVpiM1Jzd3NhRDh6NDI2VVhCcllIdHlkQ1hIMEVLWFVGbzF0R205bGxVbUVRWUFQbkN4R1h1WE5zdE9JSUZfanRoS25Tc2FvYjlmOTNR?oc=5"
       ]
     },
     {
@@ -110,6 +113,142 @@
       ]
     },
     {
+      "eventId": "evt_3n3v85",
+      "canonicalTitle": "【药明康德：公司生物学业务板块DEL平台近期遭遇网络安全事件】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "财联社",
+        "金十数据",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462837",
+        "https://wallstreetcn.com/articles/3154040"
+      ]
+    },
+    {
+      "eventId": "evt_1676r5g",
+      "canonicalTitle": "费城半导体指数一度跌4%，闪迪跌超10%，希捷科技跌超7%，西部数据跌近7%，美光科技跌近7%，SK海力士跌超6%。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154033",
+      "memberCount": 1,
+      "sources": [
+        "财联社",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154033",
+        "https://www.cls.cn/detail/2462825"
+      ]
+    },
+    {
+      "eventId": "evt_ar6rfw",
+      "canonicalTitle": "【安世中国发布多款12英寸新品】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1trg17s",
+      "canonicalTitle": "新华财经晚报：国管公积金新政 首套房最高可贷款340万元",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608243851247828.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608243851247828.html",
+        "http://finance.eastmoney.com/news/1345,202608243851170922.html"
+      ]
+    },
+    {
+      "eventId": "evt_1x4d32j",
+      "canonicalTitle": "城记 | 上海徐汇滨江“十五五”规划出炉 联动打造黄浦江“新黄金三角”",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851558381.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243851558381.html"
+      ]
+    },
+    {
+      "eventId": "evt_rifawq",
+      "canonicalTitle": "对话吴砚靖、张家俊、丘晖：Agent开始算经济账",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851400461.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243851400461.html"
+      ]
+    },
+    {
+      "eventId": "evt_mqm5t1",
+      "canonicalTitle": "人民银行：7月上海黄金交易所黄金成交6942.7吨，同比增加30.8%",
+      "canonicalLink": "http://pmetal.eastmoney.com/news/11793,202608243851560472.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://pmetal.eastmoney.com/news/11793,202608243851560472.html"
+      ]
+    },
+    {
+      "eventId": "evt_or6ybp",
+      "canonicalTitle": "【安世中国发布多款12英寸新品】据“闻泰科技”公众号，8月23日，以“立足中国·服务全球”为主题的安世中国新品全球发布会于上海举办。本次发布会集中呈现了安世半导体（中国）本土化产业链建设的核心成果，基于12英寸晶圆工艺平台的全系列产品正式亮相。安世中国12英寸晶圆全新产能爆发，24小时全网出货17919236pcs。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvq2790714.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvq2790714.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1y7ga3t",
+      "canonicalTitle": "费城半导体指数下跌3.8%，触及三周低点。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvn6013653.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvn6013653.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_t6ibkw",
+      "canonicalTitle": "【药明康德：DEL平台遭遇网络安全事件 目前运营正常】药明康德公告称，公司生物学业务板块的DNA Encoded Library平台近期遭遇一起网络安全事件。事件发生后公司立即启动应急回应机制，聘请外部网络安全专家及法律顾问共同处理并开展全面调查。截至目前，公司信息技术系统均运作正常，DEL平台安全性受控，尚未发现资料被公开、滥用或不当利用的证据，公司已主动联系受影响客户开展沟通，运营一切正常，服务能力未受影响。公司正进一步加强网络系统安全防护措施，将持续关注后续进展。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvk1939585.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmsvk1939585.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_n62yib",
+      "canonicalTitle": "美股三大股指开盘涨跌不一，道指涨0.13%，标普500指数跌0.19%，纳指跌0.4%。存储芯片股集体走低，闪迪跌约6%，美光科技跌约3%；光通信概念下挫，Lumentum跌超5%；拼多多涨超2%，Q2营收1123.6亿，交易服务收入增长13%；小鹏集团跌超3%，阿里巴巴跌2%。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154014",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154014"
+      ]
+    },
+    {
       "eventId": "evt_7j2j6v",
       "canonicalTitle": "国际现货黄金本周初延续上行趋势，价格一步一个脚印运行至最上方筹码峰上沿，若突破站稳将强化多头格局。",
       "canonicalLink": "",
@@ -120,8 +259,8 @@
       "relatedArticles": []
     },
     {
-      "eventId": "evt_1di74hg",
-      "canonicalTitle": "Spot gold slid as much as $16 intraday and has par",
+      "eventId": "evt_vkkppj",
+      "canonicalTitle": "Spot 黄金 slid as much as $16 intraday and has par",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -155,12 +294,10 @@
       "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpn1997552.d.html",
       "memberCount": 1,
       "sources": [
-        "金十数据",
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpn1997552.d.html",
-        "【炬芯科技：上半年净利润1.09亿元 同比增长19.07%】"
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipmnpn1997552.d.html"
       ]
     },
     {
@@ -183,31 +320,6 @@
       ],
       "relatedArticles": [
         "https://www.jiemian.com/article/14978200.html"
-      ]
-    },
-    {
-      "eventId": "evt_1trg17s",
-      "canonicalTitle": "新华财经晚报：国管公积金新政 首套房最高可贷款340万元",
-      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608243851247828.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1354,202608243851247828.html",
-        "http://finance.eastmoney.com/news/1345,202608243851170922.html"
-      ]
-    },
-    {
-      "eventId": "evt_rifawq",
-      "canonicalTitle": "对话吴砚靖、张家俊、丘晖：Agent开始算经济账",
-      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243851400461.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1350,202608243851400461.html"
       ]
     },
     {

@@ -766,7 +766,7 @@
       "date": "20260824",
       "displayDate": "2026-08-24",
       "isAi": false,
-      "newsCount": 70,
+      "newsCount": 79,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
@@ -774,7 +774,7 @@
         "vhigh": 8,
         "high": 11
       },
-      "signalHitRate": 49,
+      "signalHitRate": 47,
       "directions": {
         "利好": 0,
         "利空": 3,
@@ -788,13 +788,13 @@
           "shock": "强"
         },
         {
-          "name": "光模块",
-          "direction": "利空",
+          "name": "黄金",
+          "direction": "中性",
           "shock": "强"
         },
         {
-          "name": "黄金",
-          "direction": "中性",
+          "name": "光模块",
+          "direction": "利空",
           "shock": "强"
         },
         {
