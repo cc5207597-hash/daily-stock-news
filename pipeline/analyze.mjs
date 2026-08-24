@@ -368,7 +368,7 @@ ${newsText}`;
 
   return {
     analyzed,
-    sectorMatrix: buildSectorMatrix(reRated, etfData),
+    sectorMatrix: buildSectorMatrix(analyzed, etfData),
     keyPoints: result.key_points || [],
     marketSummary: result.market_summary || '',
     isAi: true,
