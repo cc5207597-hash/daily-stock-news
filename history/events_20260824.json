@@ -1,17 +1,249 @@
 {
   "date": "20260824",
-  "count": 18,
+  "count": 34,
   "events": [
+    {
+      "eventId": "evt_va8sbo",
+      "canonicalTitle": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超4100只。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153612",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻",
+        "搜狐网",
+        "chnfund.com"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153612",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_jmi16x",
+      "canonicalTitle": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "风闻"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_12664ch",
+      "canonicalTitle": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口 - caiwennews.com",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "caiwennews.com"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1JRFd1OWdYSTh1MFFNUEI1OHcySnRGYmVWU0k4TkxqcW9iNGs5VVZKV0Zwa3YyYWtWY0doMlNLQko5aTJEOEN3R282d2RzbXpySzhlUWxYb1dlM2VO?oc=5"
+      ]
+    },
     {
       "eventId": "evt_1vbu7ri",
       "canonicalTitle": "半导体相关ETF成“吸金”主力 - 新浪财经",
       "canonicalLink": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
       "memberCount": 1,
       "sources": [
+        "搜狐网",
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5"
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
+        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_mzo0n6",
+      "canonicalTitle": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
+      "canonicalLink": "https://www.cls.cn/detail/2462061",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462061"
+      ]
+    },
+    {
+      "eventId": "evt_wwyt51",
+      "canonicalTitle": "英伟达正商讨以超300亿美元估值投资AI初创公司Perplexity",
+      "canonicalLink": "https://www.cls.cn/detail/2462051",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462051"
+      ]
+    },
+    {
+      "eventId": "evt_1yg42mv",
+      "canonicalTitle": "主力资金监控：兆易创新净卖出超24亿",
+      "canonicalLink": "https://www.cls.cn/detail/2462040",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462040"
+      ]
+    },
+    {
+      "eventId": "evt_xjoa9k",
+      "canonicalTitle": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "金十图示：2026年08月24日（周一）白银ETF持仓报告",
+        "金十图示：2026年08月24日（周一）黄金ETF持仓报告",
+        "金十图示：2026年08月24日（周一）全球富豪榜",
+        "金十图示：2026年08月24日（周一）全球主要科技与互联网公司市值变化"
+      ]
+    },
+    {
+      "eventId": "evt_1t2xdr3",
+      "canonicalTitle": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_yctsc8",
+      "canonicalTitle": "【A股午评：早盘三大股指震荡下挫 元件、CRO概念跌幅居前】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_qjojpu",
+      "canonicalTitle": "英伟达周三美股盘后将公布最新财报，分析师称它已从“超级碗”升级为“世界杯决赛”。因为结果影响的不只是",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1pex10l",
+      "canonicalTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "canonicalLink": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/11848,202608243850473524.html"
+      ]
+    },
+    {
+      "eventId": "evt_125zw94",
+      "canonicalTitle": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243850483461.html"
+      ]
+    },
+    {
+      "eventId": "evt_1w58bug",
+      "canonicalTitle": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_gslgzu",
+      "canonicalTitle": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_40utch",
+      "canonicalTitle": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_197ser5",
+      "canonicalTitle": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153634",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153634"
+      ]
+    },
+    {
+      "eventId": "evt_8ykp85",
+      "canonicalTitle": "国内金价重回千元 多家银行积存金克价涨破1000元",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153607",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153607"
+      ]
+    },
+    {
+      "eventId": "evt_1x4pd9g",
+      "canonicalTitle": "高盛给予长鑫科技“买入”评级，目标价129元",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153590",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153590"
       ]
     },
     {
@@ -69,30 +301,6 @@
         "金十数据"
       ],
       "relatedArticles": []
-    },
-    {
-      "eventId": "evt_1pex10l",
-      "canonicalTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
-      "canonicalLink": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/11848,202608243850473524.html"
-      ]
-    },
-    {
-      "eventId": "evt_125zw94",
-      "canonicalTitle": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
-      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1350,202608243850483461.html"
-      ]
     },
     {
       "eventId": "evt_1kav3ox",
