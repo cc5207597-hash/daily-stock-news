@@ -1,21 +1,29 @@
 {
   "date": "20260824",
-  "count": 34,
+  "count": 42,
   "events": [
     {
-      "eventId": "evt_va8sbo",
-      "canonicalTitle": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超4100只。",
-      "canonicalLink": "https://wallstreetcn.com/articles/3153612",
+      "eventId": "evt_7cdfv7",
+      "canonicalTitle": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153661",
       "memberCount": 1,
       "sources": [
         "华尔街见闻",
+        "chnfund.com",
+        "21财经",
+        "新浪网",
         "搜狐网",
-        "chnfund.com"
+        "hstong.com"
       ],
       "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153612",
+        "https://wallstreetcn.com/articles/3153661",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGpBZk9OVFZndnZxaFlPUS1FZXVTVi1FelBZSmNOMElMS2NoMWkwRk5oZk10STFDRWpKOVNlX2g1LUhEdUhaU0xWVXo1SDRPWGh0MHFnME9YazFNQ3NVS1dIY2t1UnpCeldsU29lMy1UWEU1RnU1WDROcThfVlJhWE92RU9GWVdDTVJiaFUzMA?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
@@ -26,9 +34,9 @@
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
+        "https://wallstreetcn.com/articles/3153612"
       ]
     },
     {
@@ -67,6 +75,138 @@
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
         "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_5v0vps",
+      "canonicalTitle": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_13801be",
+      "canonicalTitle": "突然变盘！“易中天”三大巨头集体下跌！重磅“新技术”曝光 影响多大？",
+      "canonicalLink": "http://stock.eastmoney.com/news/11791,202608243850908921.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://stock.eastmoney.com/news/11791,202608243850908921.html"
+      ]
+    },
+    {
+      "eventId": "evt_11mj191",
+      "canonicalTitle": "罕见病IIT风险高发 国家卫健委强调“全过程”伦理审查",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850933621.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243850933621.html"
+      ]
+    },
+    {
+      "eventId": "evt_8ykp85",
+      "canonicalTitle": "国内金价重回千元 多家银行积存金克价涨破1000元",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153607",
+      "memberCount": 1,
+      "sources": [
+        "东方财富",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153607",
+        "http://finance.eastmoney.com/news/1350,202608243850924323.html"
+      ]
+    },
+    {
+      "eventId": "evt_1421dth",
+      "canonicalTitle": "对话彭雅哲：中国产业换挡时刻，新“新三样”如何改写增长逻辑？",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850920061.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243850920061.html"
+      ]
+    },
+    {
+      "eventId": "evt_1pex10l",
+      "canonicalTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "canonicalLink": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/11848,202608243850473524.html"
+      ]
+    },
+    {
+      "eventId": "evt_2rou0y",
+      "canonicalTitle": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1smx4j3",
+      "canonicalTitle": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1fgpwmf",
+      "canonicalTitle": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153648",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153648"
+      ]
+    },
+    {
+      "eventId": "evt_1h1gcgg",
+      "canonicalTitle": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153644",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153644"
+      ]
+    },
+    {
+      "eventId": "evt_197ser5",
+      "canonicalTitle": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153634",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153634"
       ]
     },
     {
@@ -113,12 +253,7 @@
       "sources": [
         "金十数据"
       ],
-      "relatedArticles": [
-        "金十图示：2026年08月24日（周一）白银ETF持仓报告",
-        "金十图示：2026年08月24日（周一）黄金ETF持仓报告",
-        "金十图示：2026年08月24日（周一）全球富豪榜",
-        "金十图示：2026年08月24日（周一）全球主要科技与互联网公司市值变化"
-      ]
+      "relatedArticles": []
     },
     {
       "eventId": "evt_1t2xdr3",
@@ -149,18 +284,6 @@
         "金十数据"
       ],
       "relatedArticles": []
-    },
-    {
-      "eventId": "evt_1pex10l",
-      "canonicalTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
-      "canonicalLink": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/11848,202608243850473524.html"
-      ]
     },
     {
       "eventId": "evt_125zw94",
@@ -208,30 +331,6 @@
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html"
-      ]
-    },
-    {
-      "eventId": "evt_197ser5",
-      "canonicalTitle": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
-      "canonicalLink": "https://wallstreetcn.com/articles/3153634",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153634"
-      ]
-    },
-    {
-      "eventId": "evt_8ykp85",
-      "canonicalTitle": "国内金价重回千元 多家银行积存金克价涨破1000元",
-      "canonicalLink": "https://wallstreetcn.com/articles/3153607",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153607"
       ]
     },
     {
