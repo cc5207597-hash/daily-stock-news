@@ -1,219 +1,49 @@
 {
   "date": "20260824",
   "displayDate": "2026-08-24",
-  "generatedAt": "2026-08-24T05:36:44.155Z",
+  "generatedAt": "2026-08-24T06:02:20.133Z",
   "analyzed": [
     {
-      "title_cn": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
-      "summary_cn": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "title_cn": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
+      "summary_cn": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】金十数据8月24日讯，周一，韩元升至近一年高点。美元维持在数月低点附近，美债回购以及对伊朗制裁带来的不确定性给市",
       "category": "半导体",
-      "direction": "利空",
-      "impact": "高",
+      "direction": "分化",
+      "impact": "极高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
-      "market_impact": "高",
+      "notes": "AI研判:美元走软与半导体出口强劲对韩元影响方向不同",
+      "sentiment": "分化",
+      "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "板块大跌，行情类应判利空"
+        "美元走软与半导体出口强劲对韩元影响方向不同"
       ],
       "evidence": [
-        "算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前"
+        "美元走软叠加芯片出口强劲，韩元升至近一年高点"
       ],
-      "confidence_score": 0.95,
-      "uncertainty": "",
-      "title": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
-      "description": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
-      "pubDate": "2026-08-24T05:04:13.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153661",
-      "eventId": "evt_7cdfv7",
-      "eventTitle": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "confidence_score": 0.8,
+      "uncertainty": "半导体出口可持续性存在不确定性",
+      "title": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
+      "description": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】金十数据8月24日讯，周一，韩元升至近一年高点。美元维持在数月低点附近，美债回购以及对伊朗制裁带来的不确定性给市场带来了压力。美元走软为亚洲货币提供了一定喘息空间，周一韩元领涨，韩元兑美元一度升至1,376.5，创下自2025年9月中旬以来的最强水平。除了外部因素外，韩国半导体出口激增也助推了韩元走强，并使其得以抵御油价上涨带来的压力。华侨银行外汇策略师Christopher Wong表示：“出口商和企业的美元抛售，加上美元整体走软，似乎为韩元提供了更持续的支撑。”",
+      "pubDate": "2026-08-24T05:49:41.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_100cwab",
+      "eventTitle": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
       "eventSources": [
-        "华尔街见闻",
-        "chnfund.com",
-        "21财经",
-        "新浪网",
-        "搜狐网",
-        "hstong.com"
+        "金十数据"
       ],
-      "sourceCount": 6,
-      "relatedLinks": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGpBZk9OVFZndnZxaFlPUS1FZXVTVi1FelBZSmNOMElMS2NoMWkwRk5oZk10STFDRWpKOVNlX2g1LUhEdUhaU0xWVXo1SDRPWGh0MHFnME9YazFNQ3NVS1dIY2t1UnpCeldsU29lMy1UWEU1RnU1WDROcThfVlJhWE92RU9GWVdDTVJiaFUzMA?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
-        "https://wallstreetcn.com/articles/3153612"
-      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "创业板、科创50齐创新高，算力硬件、半导体再爆发，恒指跌超1%，智谱狂飙26%、六天翻倍 - 华尔街见闻",
-          "description": "创业板、科创50齐创新高，算力硬件、半导体再爆发，恒指跌超1%，智谱狂飙26%、六天翻倍&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
-          "pubDate": "2026-06-18T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "沪指缩量调整跌0.8%，医药、机器人逆势大涨，半导体新股IPO首日暴涨740%，恒科指跌近2% - 华尔街见闻",
-          "description": "沪指缩量调整跌0.8%，医药、机器人逆势大涨，半导体新股IPO首日暴涨740%，恒科指跌近2%&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
-          "pubDate": "2026-08-11T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "沪指站上4200点创近11年新高，科创50创历史新高，芯片、半导体集体爆发、千亿巨头狂拉 - 华尔街见闻",
-          "description": "沪指站上4200点创近11年新高，科创50创历史新高，芯片、半导体集体爆发、千亿巨头狂拉&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
-          "pubDate": "2026-05-11T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板指半日跌超3%，算力硬件、半导体芯片板块下挫；贵金属、稀土板块逆市走强 - chnfund.com",
-          "description": "创业板指半日跌超3%，算力硬件、半导体芯片板块下挫；贵金属、稀土板块逆市走强&nbsp;&nbsp; chnfund.com",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
-          "pubDate": "2026-07-02T07:00:00.000Z",
-          "source": "chnfund.com"
-        },
-        {
-          "title": "美股芯片股盘前走强，港股半导体集体上涨，兆易创新涨超17%创新高 - 21财经",
-          "description": "美股芯片股盘前走强，港股半导体集体上涨，兆易创新涨超17%创新高&nbsp;&nbsp; 21财经",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGpBZk9OVFZndnZxaFlPUS1FZXVTVi1FelBZSmNOMElMS2NoMWkwRk5oZk10STFDRWpKOVNlX2g1LUhEdUhaU0xWVXo1SDRPWGh0MHFnME9YazFNQ3NVS1dIY2t1UnpCeldsU29lMy1UWEU1RnU1WDROcThfVlJhWE92RU9GWVdDTVJiaFUzMA?oc=5",
-          "pubDate": "2026-05-20T07:00:00.000Z",
-          "source": "21财经"
-        },
-        {
-          "title": "A股全天震荡反弹，创业板涨超1%，芯片股集体爆发，恒科指收涨近2%，国债期货全线下跌 - 华尔街见闻",
-          "description": "A股全天震荡反弹，创业板涨超1%，芯片股集体爆发，恒科指收涨近2%，国债期货全线下跌&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
-          "pubDate": "2025-04-11T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "港股收评：恒指涨0.6% 科指跌0.21% 医药股活跃商业航天板块午后冲高半导体板块跳水兆易创新跌超21% - 新浪网",
-          "description": "港股收评：恒指涨0.6% 科指跌0.21% 医药股活跃商业航天板块午后冲高半导体板块跳水兆易创新跌超21%&nbsp;&nbsp; 新浪网",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
-          "pubDate": "2026-07-10T07:00:00.000Z",
-          "source": "新浪网"
-        },
-        {
-          "title": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻",
-          "description": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12%&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
-          "pubDate": "2026-08-12T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板暴涨超5.6%，算力硬件全线反攻、光通信\"满屏涨停\"，医药股爆发、药明康德涨停，半导体强劲反弹 - 搜狐网",
-          "description": "创业板暴涨超5.6%，算力硬件全线反攻、光通信\"满屏涨停\"，医药股爆发、药明康德涨停，半导体强劲反弹&nbsp;&nbsp; 搜狐网",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
-          "pubDate": "2026-08-04T02:05:20.000Z",
-          "source": "搜狐网"
-        },
-        {
-          "title": "A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨 - 华尔街见闻",
-          "description": "A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
-          "pubDate": "2026-06-30T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "大爆发！创业板狂飙超5%，算力硬件掀起涨停潮，恒科指涨超1%，智谱狂飙超30% - 华尔街见闻",
-          "description": "大爆发！创业板狂飙超5%，算力硬件掀起涨停潮，恒科指涨超1%，智谱狂飙超30%&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
-          "pubDate": "2026-06-15T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高 - 华尔街见闻",
-          "description": "A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
-          "pubDate": "2026-05-26T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板重挫超3%，芯片半导体集体下跌，机器人逆势拉升，恒科指跌超2%，沪银狂泻10% - 华尔街见闻",
-          "description": "创业板重挫超3%，芯片半导体集体下跌，机器人逆势拉升，恒科指跌超2%，沪银狂泻10%&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
-          "pubDate": "2026-06-08T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "A股总市值突破120万亿大关，创业板刷新逾10年新高，算力硬件再爆发，恒科指大涨3%，离岸人民币升破6.8 - 华尔街见闻",
-          "description": "A股总市值突破120万亿大关，创业板刷新逾10年新高，算力硬件再爆发，恒科指大涨3%，离岸人民币升破6.8&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
-          "pubDate": "2026-05-07T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板缩量涨超1%，算力硬件集体拉升，恒科指跌近2%，京东大跌10%、华虹宏力跌12% - 华尔街见闻",
-          "description": "创业板缩量涨超1%，算力硬件集体拉升，恒科指跌近2%，京东大跌10%、华虹宏力跌12%&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
-          "pubDate": "2026-08-14T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板大跌超3%，机器人午后爆发，芯片半导体集体下挫，恒科指跌近2%，AI大模型股急跌 - 华尔街见闻",
-          "description": "创业板大跌超3%，机器人午后爆发，芯片半导体集体下挫，恒科指跌近2%，AI大模型股急跌&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
-          "pubDate": "2026-06-05T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "创业板、科创50均创历史新高，超4200股下跌，存储芯片、GPU大爆发，恒指跌超1%，科网股普跌 - 华尔街见闻",
-          "description": "创业板、科创50均创历史新高，超4200股下跌，存储芯片、GPU大爆发，恒指跌超1%，科网股普跌&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
-          "pubDate": "2026-06-25T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "A股集体收涨，创新药板块活跃，恒指、恒科指双手涨超1%，老铺黄金涨超6%创新高，商品、国债多下跌 - 华尔街见闻",
-          "description": "A股集体收涨，创新药板块活跃，恒指、恒科指双手涨超1%，老铺黄金涨超6%创新高，商品、国债多下跌&nbsp;&nbsp; 华尔街见闻",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
-          "pubDate": "2025-06-03T07:00:00.000Z",
-          "source": "华尔街见闻"
-        },
-        {
-          "title": "港股午评：恒指跌0.55%，科指涨0.17%，半导体上扬，兆易创新涨超14% 港美股资讯 - hstong.com",
-          "description": "港股午评：恒指跌0.55%，科指涨0.17%，半导体上扬，兆易创新涨超14% 港美股资讯&nbsp;&nbsp; hstong.com",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
-          "pubDate": "2026-05-20T07:00:00.000Z",
-          "source": "hstong.com"
-        },
-        {
-          "title": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
-          "description": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
-          "link": "https://wallstreetcn.com/articles/3153661",
-          "pubDate": "2026-08-24T05:04:13.000Z",
-          "source": "华尔街见闻",
+          "title": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
+          "description": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】金十数据8月24日讯，周一，韩元升至近一年高点。美元维持在数月低点附近，美债回购以及对伊朗制裁带来的不确定性给市场带来了压力。美元走软为亚洲货币提供了一定喘息空间，周一韩元领涨，韩元兑美元一度升至1,376.5，创下自2025年9月中旬以来的最强水平。除了外部因素外，韩国半导体出口激增也助推了韩元走强，并使其得以抵御油价上涨带来的压力。华侨银行外汇策略师Christopher Wong表示：“出口商和企业的美元抛售，加上美元整体走软，似乎为韩元提供了更持续的支撑。”",
+          "link": "",
+          "pubDate": "2026-08-24T05:49:41.000Z",
+          "source": "金十数据",
           "sourceType": "direct_api"
-        },
-        {
-          "title": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超4100只。",
-          "description": "创业板指跌超3%，沪指跌0.45%，深成指跌1.92%，生物医药、算力硬件、半导体芯片、消费电子等方向跌幅居前，沪深京三市下跌个股超4100只。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T02:39:48.000Z",
-          "source": "华尔街见闻",
-          "link": "https://wallstreetcn.com/articles/3153612",
-          "eventId": "evt_va8sbo",
-          "sourceCount": 3,
-          "archived": true
         }
       ]
     },
@@ -222,22 +52,27 @@
       "summary_cn": "【突然变盘！“易中天”三大巨头集体下跌！重磅“新技术”曝光 影响多大？】分析人士认为，引发CPO大跌的导火索可能与“SK海力士宣布押注下一代CPO”有关。另外，",
       "category": "光模块",
       "direction": "分化",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(20)+行情·利空(18·板块行情走弱)",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "中际旭创(300308)、新易盛(300502)",
+      "notes": "AI研判:SK海力士押注下一代CPO技术短期利空光模块，但长期利好产业链核心环节",
       "sentiment": "分化",
-      "market_impact": "中",
-      "affected_companies": [],
+      "market_impact": "高",
+      "affected_companies": [
+        "中际旭创",
+        "新易盛",
+        "源杰科技"
+      ],
       "reasoning": [
-        "同意关键词预判"
+        "SK海力士押注下一代CPO技术短期利空光模块，但长期利好产业链核心环节"
       ],
       "evidence": [
+        "引发CPO大跌的导火索可能与“SK海力士宣布押注下一代CPO”有关",
         "产业链核心受益环节为光模块、光芯片及衬底材料，中际旭创、新易盛、源杰科技等企业将优先承接技术红利"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
+      "confidence_score": 0.7,
+      "uncertainty": "技术迭代对现有产品的实际冲击程度存在不确定性",
       "title": "突然变盘！“易中天”三大巨头集体下跌！重磅“新技术”曝光 影响多大？",
       "description": "【突然变盘！“易中天”三大巨头集体下跌！重磅“新技术”曝光 影响多大？】分析人士认为，引发CPO大跌的导火索可能与“SK海力士宣布押注下一代CPO”有关。另外，英伟达开始量产，其合作伙伴名单也引发市场关注。不过，有券商认为，产业链核心受益环节为光模块、光芯片及衬底材料，中际旭创、新易盛、源杰科技等企业将优先承接技术红利。",
       "pubDate": "2026-08-24T04:52:09.000Z",
@@ -262,33 +97,33 @@
       ]
     },
     {
-      "title_cn": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "title_cn": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
       "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
-      "impact": "中",
+      "direction": "利好",
+      "impact": "高",
       "certainty": "高",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
-      "market_impact": "中",
+      "notes": "AI研判:雷军指出车载芯片等高端零部件正进入国产替代阶段",
+      "sentiment": "利好",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "板块大跌，行情类应判利空"
+        "雷军指出车载芯片等高端零部件正进入国产替代阶段"
       ],
       "evidence": [
-        "多只芯片、人工智能ETF跌超5%"
+        "雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段"
       ],
-      "confidence_score": 0.9,
+      "confidence_score": 0.8,
       "uncertainty": "",
-      "title": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "title": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
       "description": "",
-      "pubDate": "2026-08-24T05:16:03.000Z",
+      "pubDate": "2026-08-24T05:52:05.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
-      "eventId": "evt_1smx4j3",
-      "eventTitle": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrw6210825.d.html",
+      "eventId": "evt_rnqwtm",
+      "eventTitle": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
       "eventSources": [
         "新浪财经"
       ],
@@ -296,53 +131,567 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+          "title": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
-          "pubDate": "2026-08-24T05:16:03.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrw6210825.d.html",
+          "pubDate": "2026-08-24T05:52:05.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
         }
       ]
     },
     {
-      "title_cn": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
-      "summary_cn": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "长期",
+      "title_cn": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "summary_cn": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.6%)调至中性",
-      "sentiment": "中性",
-      "market_impact": "低",
+      "notes": "AI研判:板块ETF平均跌超3%，行情类新闻应判利空；半导体芯片、算力硬件等方向跌幅居前",
+      "sentiment": "利空",
+      "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "板块ETF平均跌超3%，行情类新闻应判利空",
+        "半导体芯片、算力硬件等方向跌幅居前"
       ],
-      "evidence": [],
-      "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
-      "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
-      "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
-      "pubDate": "2026-08-24T04:30:13.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_5v0vps",
-      "eventTitle": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "evidence": [
+        "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "description": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+      "pubDate": "2026-08-24T05:04:13.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153661",
+      "eventId": "evt_7cdfv7",
+      "eventTitle": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
       "eventSources": [
-        "金十数据"
+        "华尔街见闻",
+        "chnfund.com",
+        "新浪财经",
+        "搜狐网",
+        "财联社",
+        "hstong.com",
+        "手机网易网",
+        "同花顺"
+      ],
+      "sourceCount": 8,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYlFtY0ppTS1iMzlLeU9wcy00LWVJT1VjTl9BYjZxdXdjeFRwYW1zbEo1T1lScnZEQVpyOC1ZbGxnd2R3YnZlT2o5dThyN0R2TWVR?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PRDBoN0prbzRyNzZZNkJVZVJqZXFqUFBObXBvcGlxNmZHSi1aZTd4Ukk2b19uamM4VnhOaTRfd0dUTUxKTTBMZ1U0aXZwaGVybTNv?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2051533.d.html",
+        "https://wallstreetcn.com/articles/3153670",
+        "https://wallstreetcn.com/articles/3776698"
+      ],
+      "eventMembers": [
+        {
+          "title": "创业板涨超1%，锂矿爆发，光模块活跃，恒指、恒科指双双涨超1%，泡泡玛特跌3% - 华尔街见闻",
+          "description": "创业板涨超1%，锂矿爆发，光模块活跃，恒指、恒科指双双涨超1%，泡泡玛特跌3%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYlFtY0ppTS1iMzlLeU9wcy00LWVJT1VjTl9BYjZxdXdjeFRwYW1zbEo1T1lScnZEQVpyOC1ZbGxnd2R3YnZlT2o5dThyN0R2TWVR?oc=5",
+          "pubDate": "2026-08-21T08:18:12.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板触底回升跌0.7%，医药、消费大涨，芯片算力集体下挫、寒武纪跌超6%，港股老铺黄金大涨12% - 华尔街见闻",
+          "description": "创业板触底回升跌0.7%，医药、消费大涨，芯片算力集体下挫、寒武纪跌超6%，港股老铺黄金大涨12%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
+          "pubDate": "2026-08-10T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板跌超7%，光刻机、大消费逆势活跃，芯片、算力硬件齐跌，港股AI大模型双雄下挫、智谱跌近20% - 华尔街见闻",
+          "description": "创业板跌超7%，光刻机、大消费逆势活跃，芯片、算力硬件齐跌，港股AI大模型双雄下挫、智谱跌近20%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
+          "pubDate": "2026-07-28T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板、科创50齐创新高，算力硬件、半导体再爆发，恒指跌超1%，智谱狂飙26%、六天翻倍 - 华尔街见闻",
+          "description": "创业板、科创50齐创新高，算力硬件、半导体再爆发，恒指跌超1%，智谱狂飙26%、六天翻倍&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
+          "pubDate": "2026-06-18T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "沪指缩量调整跌0.8%，医药、机器人逆势大涨，半导体新股IPO首日暴涨740%，恒科指跌近2% - 华尔街见闻",
+          "description": "沪指缩量调整跌0.8%，医药、机器人逆势大涨，半导体新股IPO首日暴涨740%，恒科指跌近2%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+          "pubDate": "2026-08-11T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "A股收盘：科创50高开低走跌超1%，全市场下跌个股超4300只 - 华尔街见闻",
+          "description": "A股收盘：科创50高开低走跌超1%，全市场下跌个股超4300只&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+          "pubDate": "2026-08-13T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "沪指站上4200点创近11年新高，科创50创历史新高，芯片、半导体集体爆发、千亿巨头狂拉 - 华尔街见闻",
+          "description": "沪指站上4200点创近11年新高，科创50创历史新高，芯片、半导体集体爆发、千亿巨头狂拉&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+          "pubDate": "2026-05-11T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板跌超2%，超4000股下跌，中芯国际复牌跌超10%，黄金地产逆势上涨，恒指创近四年新高，阿里涨超3% - 华尔街见闻",
+          "description": "创业板跌超2%，超4000股下跌，中芯国际复牌跌超10%，黄金地产逆势上涨，恒指创近四年新高，阿里涨超3%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
+          "pubDate": "2025-09-09T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板指半日跌超3%，算力硬件、半导体芯片板块下挫；贵金属、稀土板块逆市走强 - chnfund.com",
+          "description": "创业板指半日跌超3%，算力硬件、半导体芯片板块下挫；贵金属、稀土板块逆市走强&nbsp;&nbsp; chnfund.com",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+          "pubDate": "2026-07-02T07:00:00.000Z",
+          "source": "chnfund.com"
+        },
+        {
+          "title": "A股高开，存储芯片、半导体板块走强 - 新浪财经",
+          "description": "A股高开，存储芯片、半导体板块走强&nbsp;&nbsp; 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
+          "pubDate": "2026-08-14T01:43:00.000Z",
+          "source": "新浪财经"
+        },
+        {
+          "title": "A股四大指数集体高开，存储芯片、半导体等板块走强 - 搜狐网",
+          "description": "A股四大指数集体高开，存储芯片、半导体等板块走强&nbsp;&nbsp; 搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
+          "pubDate": "2026-08-14T01:33:00.000Z",
+          "source": "搜狐网"
+        },
+        {
+          "title": "11:32:00【午评：创业板指冲高回落涨0.55% 黄金概念股集体爆发】 - 财联社",
+          "description": "11:32:00【午评：创业板指冲高回落涨0.55% 黄金概念股集体爆发】&nbsp;&nbsp; 财联社",
+          "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
+          "pubDate": "2025-09-01T07:00:00.000Z",
+          "source": "财联社"
+        },
+        {
+          "title": "A股全天震荡反弹，创业板涨超1%，芯片股集体爆发，恒科指收涨近2%，国债期货全线下跌 - 华尔街见闻",
+          "description": "A股全天震荡反弹，创业板涨超1%，芯片股集体爆发，恒科指收涨近2%，国债期货全线下跌&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
+          "pubDate": "2025-04-11T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "港股收评：恒指涨0.6% 科指跌0.21% 医药股活跃商业航天板块午后冲高半导体板块跳水兆易创新跌超21% - 新浪财经",
+          "description": "港股收评：恒指涨0.6% 科指跌0.21% 医药股活跃商业航天板块午后冲高半导体板块跳水兆易创新跌超21%&nbsp;&nbsp; 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+          "pubDate": "2026-07-10T07:00:00.000Z",
+          "source": "新浪财经"
+        },
+        {
+          "title": "港股午评：恒指跌0.55%，科指涨0.17%，半导体上扬，兆易创新涨超14% 港美股资讯 - hstong.com",
+          "description": "港股午评：恒指跌0.55%，科指涨0.17%，半导体上扬，兆易创新涨超14% 港美股资讯&nbsp;&nbsp; hstong.com",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
+          "pubDate": "2026-05-20T07:00:00.000Z",
+          "source": "hstong.com"
+        },
+        {
+          "title": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12% - 华尔街见闻",
+          "description": "创业板、科创50均涨超1%，算力硬件大涨，光通信掀涨停潮，港股科网股普遍下挫、腾讯音乐大跌超12%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
+          "pubDate": "2026-08-12T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板暴涨超5.6%，算力硬件全线反攻、光通信\"满屏涨停\"，医药股爆发、药明康德涨停，半导体强劲反弹 - 搜狐网",
+          "description": "创业板暴涨超5.6%，算力硬件全线反攻、光通信\"满屏涨停\"，医药股爆发、药明康德涨停，半导体强劲反弹&nbsp;&nbsp; 搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
+          "pubDate": "2026-08-04T02:05:20.000Z",
+          "source": "搜狐网"
+        },
+        {
+          "title": "A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨 - 华尔街见闻",
+          "description": "A股上半年收官！创业板涨超35%，科创50暴涨64%，算力硬件、芯片半导体全线飙涨&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
+          "pubDate": "2026-06-30T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板冲高回落涨逾1.5%，算力硬件再爆发、“易中天”齐创新高，恒科指跌近3%，科网股集体下跌 - 华尔街见闻",
+          "description": "创业板冲高回落涨逾1.5%，算力硬件再爆发、“易中天”齐创新高，恒科指跌近3%，科网股集体下跌&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PRDBoN0prbzRyNzZZNkJVZVJqZXFqUFBObXBvcGlxNmZHSi1aZTd4Ukk2b19uamM4VnhOaTRfd0dUTUxKTTBMZ1U0aXZwaGVybTNv?oc=5",
+          "pubDate": "2026-06-03T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "大爆发！创业板狂飙超5%，算力硬件掀起涨停潮，恒科指涨超1%，智谱狂飙超30% - 华尔街见闻",
+          "description": "大爆发！创业板狂飙超5%，算力硬件掀起涨停潮，恒科指涨超1%，智谱狂飙超30%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
+          "pubDate": "2026-06-15T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高 - 华尔街见闻",
+          "description": "A股尾盘拉升，沪指险翻红，有色金属拉升，芯片半导体集体下挫，恒科指涨超1%，智谱再创新高&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
+          "pubDate": "2026-05-26T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "沪指失守3800点，电力银行逆势拉升，创业板、科创50跌逾7%，医药芯片深度回调，港股AI大模型股智谱跌近30% - 华尔街见闻",
+          "description": "沪指失守3800点，电力银行逆势拉升，创业板、科创50跌逾7%，医药芯片深度回调，港股AI大模型股智谱跌近30%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
+          "pubDate": "2026-07-17T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板重挫超3%，芯片半导体集体下跌，机器人逆势拉升，恒科指跌超2%，沪银狂泻10% - 华尔街见闻",
+          "description": "创业板重挫超3%，芯片半导体集体下跌，机器人逆势拉升，恒科指跌超2%，沪银狂泻10%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
+          "pubDate": "2026-06-08T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "A股总市值突破120万亿大关，创业板刷新逾10年新高，算力硬件再爆发，恒科指大涨3%，离岸人民币升破6.8 - 华尔街见闻",
+          "description": "A股总市值突破120万亿大关，创业板刷新逾10年新高，算力硬件再爆发，恒科指大涨3%，离岸人民币升破6.8&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
+          "pubDate": "2026-05-07T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "A股三大股指均涨超1%，科创50暴涨近5%，半导体大爆发，“易中天”集体回应美国光模块禁令，恒科指涨1% - 华尔街见闻",
+          "description": "A股三大股指均涨超1%，科创50暴涨近5%，半导体大爆发，“易中天”集体回应美国光模块禁令，恒科指涨1%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
+          "pubDate": "2026-08-05T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板缩量涨超1%，算力硬件集体拉升，恒科指跌近2%，京东大跌10%、华虹宏力跌12% - 华尔街见闻",
+          "description": "创业板缩量涨超1%，算力硬件集体拉升，恒科指跌近2%，京东大跌10%、华虹宏力跌12%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
+          "pubDate": "2026-08-14T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板大跌超3%，机器人午后爆发，芯片半导体集体下挫，恒科指跌近2%，AI大模型股急跌 - 华尔街见闻",
+          "description": "创业板大跌超3%，机器人午后爆发，芯片半导体集体下挫，恒科指跌近2%，AI大模型股急跌&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
+          "pubDate": "2026-06-05T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板、科创50均创历史新高，超4200股下跌，存储芯片、GPU大爆发，恒指跌超1%，科网股普跌 - 华尔街见闻",
+          "description": "创业板、科创50均创历史新高，超4200股下跌，存储芯片、GPU大爆发，恒指跌超1%，科网股普跌&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
+          "pubDate": "2026-06-25T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "港股收评：恒指涨1.4%创反弹新高，生物医药板块大涨 - 手机网易网",
+          "description": "港股收评：恒指涨1.4%创反弹新高，生物医药板块大涨&nbsp;&nbsp; 手机网易网",
+          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
+          "pubDate": "2026-07-15T07:00:00.000Z",
+          "source": "手机网易网"
+        },
+        {
+          "title": "A股午评：创业板指冲高回落涨1.03% 创新药、贵金属板块大涨 - 同花顺",
+          "description": "A股午评：创业板指冲高回落涨1.03% 创新药、贵金属板块大涨&nbsp;&nbsp; 同花顺",
+          "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
+          "pubDate": "2026-08-20T03:37:22.000Z",
+          "source": "同花顺"
+        },
+        {
+          "title": "A股集体收涨，创新药板块活跃，恒指、恒科指双手涨超1%，老铺黄金涨超6%创新高，商品、国债多下跌 - 华尔街见闻",
+          "description": "A股集体收涨，创新药板块活跃，恒指、恒科指双手涨超1%，老铺黄金涨超6%创新高，商品、国债多下跌&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
+          "pubDate": "2025-06-03T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "创业板收涨超1%，算力产业链爆发，恒科指涨近2%，新消费三宝跳水、老铺黄金跌超9% - 华尔街见闻",
+          "description": "创业板收涨超1%，算力产业链爆发，恒科指涨近2%，新消费三宝跳水、老铺黄金跌超9%&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
+          "pubDate": "2025-06-05T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "【中毅达盘中涨停】中毅达盘中涨停，涨幅10.04%，成交额超5亿元。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2051533.d.html",
+          "pubDate": "2026-08-24T05:44:30.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "沪指午后跌幅扩大至1%，科创50指数跌幅扩大至4%，深证成指跌2.95%，创业板指跌4.22%。全市场超4400家个股下跌。",
+          "description": "沪指午后跌幅扩大至1%，科创50指数跌幅扩大至4%，深证成指跌2.95%，创业板指跌4.22%。全市场超4400家个股下跌。",
+          "link": "https://wallstreetcn.com/articles/3153670",
+          "pubDate": "2026-08-24T05:34:09.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+          "description": "创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医药、半导体芯片、机器人等方向跌幅居前，沪深京三市下跌个股超4300只。",
+          "link": "https://wallstreetcn.com/articles/3153661",
+          "pubDate": "2026-08-24T05:04:13.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "1个月上涨25%后，美国生物医药板块周五重挫",
+          "description": "美股生物医药板块因集中获利了结引发急跌，高贝塔代表性ETF（XBI）单日大跌4%。Moderna、ImmunityBio等年内暴涨股在无基本面利空的情况下回撤8%~11%，资金呈现从高风险小盘股向强防御大市值药企跨板块结构性轮动。",
+          "link": "https://wallstreetcn.com/articles/3776698",
+          "pubDate": "2026-07-11T05:26:59.000Z",
+          "source": "华尔街见闻医药",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "中际旭创(300308)、新易盛(300502)、天孚通信(300394)、太辰光(300570)",
+      "notes": "AI研判:CPO概念持续下挫，相关个股跌幅居前",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "中际旭创",
+        "天孚通信",
+        "新易盛",
+        "太辰光",
+        "中瓷电子",
+        "长光华芯",
+        "东山精密"
+      ],
+      "reasoning": [
+        "CPO概念持续下挫，相关个股跌幅居前"
+      ],
+      "evidence": [
+        "午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+      "description": "",
+      "pubDate": "2026-08-24T05:49:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
+      "eventId": "evt_1lcgj1n",
+      "eventTitle": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+      "eventSources": [
+        "财联社",
+        "金十数据",
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 4,
+      "relatedLinks": [
+        "https://www.cls.cn/detail/2462163",
+        "A股CPO概念午后持续下挫，中际旭创跌近10%，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华",
+        "https://wallstreetcn.com/articles/3153674"
+      ],
+      "eventMembers": [
+        {
+          "title": "CPO概念持续下挫 中际旭创跌近10%",
+          "description": "【CPO概念持续下挫 中际旭创跌近10%】财联社8月24日电，午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+          "link": "https://www.cls.cn/detail/2462163",
+          "pubDate": "2026-08-24T05:48:44.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "A股CPO概念午后持续下挫，中际旭创跌近10%，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华",
+          "description": "A股CPO概念午后持续下挫，中际旭创跌近10%，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+          "link": "",
+          "pubDate": "2026-08-24T05:49:30.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
+          "pubDate": "2026-08-24T05:49:11.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "A股CPO概念午后持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+          "description": "A股CPO概念午后持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+          "link": "https://wallstreetcn.com/articles/3153674",
+          "pubDate": "2026-08-24T05:51:58.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "创业板指跌逾4%",
+      "summary_cn": "【创业板指跌逾4%】财联社8月24日电，指数走弱，创业板指下挫跌逾4.00%，沪指跌0.95%，深成指跌2.82%，玻纤、铜箔/覆铜板、AMD概念等板块指数跌幅",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:创业板指跌逾4%，行情类新闻应判利空",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "创业板指跌逾4%，行情类新闻应判利空"
+      ],
+      "evidence": [
+        "创业板指下挫跌逾4.00%，沪指跌0.95%，深成指跌2.82%，玻纤、铜箔/覆铜板、AMD概念等板块指数跌幅居前，锰硅、贵金属、煤炭等板块指数涨幅居前"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "创业板指跌逾4%",
+      "description": "【创业板指跌逾4%】财联社8月24日电，指数走弱，创业板指下挫跌逾4.00%，沪指跌0.95%，深成指跌2.82%，玻纤、铜箔/覆铜板、AMD概念等板块指数跌幅居前，锰硅、贵金属、煤炭等板块指数涨幅居前。",
+      "pubDate": "2026-08-24T05:05:05.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2462125",
+      "eventId": "evt_y70t23",
+      "eventTitle": "创业板指跌逾4%",
+      "eventSources": [
+        "财联社"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
-          "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
-          "link": "",
-          "pubDate": "2026-08-24T04:30:13.000Z",
-          "source": "金十数据",
+          "title": "创业板指跌逾4%",
+          "description": "【创业板指跌逾4%】财联社8月24日电，指数走弱，创业板指下挫跌逾4.00%，沪指跌0.95%，深成指跌2.82%，玻纤、铜箔/覆铜板、AMD概念等板块指数跌幅居前，锰硅、贵金属、煤炭等板块指数涨幅居前。",
+          "link": "https://www.cls.cn/detail/2462125",
+          "pubDate": "2026-08-24T05:05:05.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "天孚通信(300394)",
+      "notes": "AI研判:算力硬件股持续下挫，多只个股跌幅超10%",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "可川科技",
+        "方正科技",
+        "天孚通信",
+        "锐捷网络",
+        "中英科技",
+        "德福科技"
+      ],
+      "reasoning": [
+        "算力硬件股持续下挫，多只个股跌幅超10%"
+      ],
+      "evidence": [
+        "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+      "description": "",
+      "pubDate": "2026-08-24T05:48:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054081.d.html",
+      "eventId": "evt_lp5icj",
+      "eventTitle": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054081.d.html",
+          "pubDate": "2026-08-24T05:48:05.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:新闻为技术产业化路径描述，无明确业绩影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "新闻为技术产业化路径描述，无明确业绩影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+      "description": "",
+      "pubDate": "2026-08-24T05:10:13.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2462057",
+      "eventId": "evt_nb9jlp",
+      "eventTitle": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+          "description": "",
+          "link": "https://www.cls.cn/detail/2462057",
+          "pubDate": "2026-08-24T05:10:13.000Z",
+          "source": "财联社",
           "sourceType": "direct_api"
         }
       ]
@@ -351,21 +700,21 @@
       "title_cn": "罕见病IIT风险高发 国家卫健委强调“全过程”伦理审查",
       "summary_cn": "【罕见病IIT风险高发 国家卫健委强调“全过程”伦理审查】近一个多月来，国内接连曝光三起患者接受IIT（研究者发起的临床研究）研究后死亡的案例，且三起均发生在罕",
       "category": "创新药",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.9%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为政策规范描述，未涉及具体公司影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为政策规范描述，未涉及具体公司影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "罕见病IIT风险高发 国家卫健委强调“全过程”伦理审查",
       "description": "【罕见病IIT风险高发 国家卫健委强调“全过程”伦理审查】近一个多月来，国内接连曝光三起患者接受IIT（研究者发起的临床研究）研究后死亡的案例，且三起均发生在罕见病治疗领域。近日，国家卫健委再次喊话强化罕见病药物研发中受试者权益保障，伦理审查不能“一审了之”，而需覆盖全程。",
       "pubDate": "2026-08-24T05:18:43.000Z",
@@ -390,31 +739,31 @@
       ]
     },
     {
-      "title_cn": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "title_cn": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
       "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "中期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为合作布局描述，无明确业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为合作布局描述，无明确业绩影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
-      "title": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "uncertainty": "",
+      "title": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
       "description": "",
-      "pubDate": "2026-08-24T05:18:40.000Z",
+      "pubDate": "2026-08-24T05:49:04.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html",
-      "eventId": "evt_2rou0y",
-      "eventTitle": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0104000.d.html",
+      "eventId": "evt_aihl0s",
+      "eventTitle": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
       "eventSources": [
         "新浪财经"
       ],
@@ -422,10 +771,10 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+          "title": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html",
-          "pubDate": "2026-08-24T05:18:40.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0104000.d.html",
+          "pubDate": "2026-08-24T05:49:04.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
         }
@@ -440,12 +789,19 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:行情·利好(8·板块行情上涨)+行情·利空(36·板块行情走弱)",
+      "notes": "AI研判:CRO概念大幅调整，但贵金属板块逆势走强",
       "sentiment": "分化",
       "market_impact": "高",
-      "affected_companies": [],
+      "affected_companies": [
+        "海特生物",
+        "美诺华",
+        "义翘神州",
+        "诺唯赞",
+        "泰格医药",
+        "药石科技"
+      ],
       "reasoning": [
-        "同意关键词预判"
+        "CRO概念大幅调整，但贵金属板块逆势走强"
       ],
       "evidence": [
         "CRO概念大幅调整，海特生物跌超10%，美诺华、义翘神州、诺唯赞、泰格医药、药石科技跟跌"
@@ -479,94 +835,94 @@
       ]
     },
     {
-      "title_cn": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
-      "summary_cn": "",
+      "title_cn": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
+      "summary_cn": "2026中国首席经济学家复旦管院科创论坛日前在复旦大学管理学院政立院区举行。本次论坛以“乾坤挪转科创引领——重构中国经济新未来”为主题，集结国内顶尖首席经济学家",
       "category": "半导体",
-      "direction": "分化",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "长期",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:政策·分化(50·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)",
-      "sentiment": "分化",
-      "market_impact": "高",
+      "notes": "AI研判:新闻为论坛活动描述，无明确市场影响",
+      "sentiment": "中性",
+      "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为论坛活动描述，无明确市场影响"
       ],
-      "evidence": [
-        "韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间"
-      ],
-      "confidence_score": 0.8,
+      "evidence": [],
+      "confidence_score": 0.6,
       "uncertainty": "",
-      "title": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
-      "description": "",
-      "pubDate": "2026-08-24T03:51:27.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html",
-      "eventId": "evt_gslgzu",
-      "eventTitle": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+      "title": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
+      "description": "2026中国首席经济学家复旦管院科创论坛日前在复旦大学管理学院政立院区举行。本次论坛以“乾坤挪转科创引领——重构中国经济新未来”为主题，集结国内顶尖首席经济学家、复旦管院资深学者，以及来自商业航天、生物医药、半导体、高端制造等硬核科创龙头的企业家和优秀校友代表，打通宏观大势、产业实战、资本定价三大维度，深度解码中国经济转型逻辑，探寻科创产业高质量发展全新路径。",
+      "pubDate": "2026-08-24T04:33:42.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608243850967927.html",
+      "eventId": "evt_11h0w82",
+      "eventTitle": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
       "eventSources": [
-        "新浪财经"
+        "东方财富"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
-          "description": "",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T03:51:27.000Z",
-          "source": "新浪财经",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html",
-          "eventId": "evt_gslgzu",
-          "sourceCount": 1,
-          "archived": true
+          "title": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
+          "description": "2026中国首席经济学家复旦管院科创论坛日前在复旦大学管理学院政立院区举行。本次论坛以“乾坤挪转科创引领——重构中国经济新未来”为主题，集结国内顶尖首席经济学家、复旦管院资深学者，以及来自商业航天、生物医药、半导体、高端制造等硬核科创龙头的企业家和优秀校友代表，打通宏观大势、产业实战、资本定价三大维度，深度解码中国经济转型逻辑，探寻科创产业高质量发展全新路径。",
+          "link": "http://finance.eastmoney.com/news/1350,202608243850967927.html",
+          "pubDate": "2026-08-24T04:33:42.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
         }
       ]
     },
     {
-      "title_cn": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利空",
+      "title_cn": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
+      "summary_cn": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较",
+      "category": "光模块",
+      "direction": "分化",
       "impact": "中",
       "certainty": "高",
       "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
+      "tickers": "中际旭创(300308)、新易盛(300502)、天孚通信(300394)",
+      "notes": "AI研判:算力硬件股大面积调整，但农林牧渔等板块逆势走强",
+      "sentiment": "分化",
       "market_impact": "中",
-      "affected_companies": [],
+      "affected_companies": [
+        "共进股份",
+        "天孚通信",
+        "新易盛",
+        "中际旭创"
+      ],
       "reasoning": [
-        "板块大跌，行情类应判利空"
+        "算力硬件股大面积调整，但农林牧渔等板块逆势走强"
       ],
       "evidence": [
-        "该杠杆基金的跌幅却高达70%"
+        "算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%"
       ],
-      "confidence_score": 0.9,
+      "confidence_score": 0.8,
       "uncertainty": "",
-      "title": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
-      "description": "",
-      "pubDate": "2026-08-24T03:48:32.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html",
-      "eventId": "evt_40utch",
-      "eventTitle": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+      "title": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
+      "description": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较上个交易日放量1177亿。盘面上热点弱势轮动，全市场近4300股下跌。从板块来看，农林牧渔板块逆势走强，天山生物、登海种业涨停；煤炭板块持续活跃，上海能源、美锦能源涨停；固态电池板块逆势走强，天力锂能、上海洗霸、金龙羽涨停；数字货币板块延续上周强势，楚天龙、东信和平涨停。下跌方面，算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%。截至收盘，沪指跌0.71%，深成指跌2.44%，创业板指跌3.50%。",
+      "pubDate": "2026-08-24T03:31:36.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2462061",
+      "eventId": "evt_mzo0n6",
+      "eventTitle": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
       "eventSources": [
-        "新浪财经"
+        "财联社"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
-          "description": "",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T03:48:32.000Z",
-          "source": "新浪财经",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html",
-          "eventId": "evt_40utch",
+          "title": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
+          "description": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较上个交易日放量1177亿。盘面上热点弱势轮动，全市场近4300股下跌。从板块来看，农林牧渔板块逆势走强，天山生物、登海种业涨停；煤炭板块持续活跃，上海能源、美锦能源涨停；固态电池板块逆势走强，天力锂能、上海洗霸、金龙羽涨停；数字货币板块延续上周强势，楚天龙、东信和平涨停。下跌方面，算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%。截至收盘，沪指跌0.71%，深成指跌2.44%，创业板指跌3.50%。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-24T03:31:36.000Z",
+          "source": "财联社",
+          "link": "https://www.cls.cn/detail/2462061",
+          "eventId": "evt_mzo0n6",
           "sourceCount": 1,
           "archived": true
         }
@@ -579,18 +935,18 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.6%)调至中性",
+      "notes": "AI研判:新闻为政策意图描述，未提及实际影响",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为政策意图描述，未提及实际影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
       "description": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
       "pubDate": "2026-08-24T04:20:53.000Z",
@@ -623,16 +979,16 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.6%)调至中性",
+      "notes": "AI研判:新闻为政策讨论描述，未提及实际影响",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为政策讨论描述，未提及实际影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
       "description": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
       "pubDate": "2026-08-24T04:14:18.000Z",
@@ -657,24 +1013,259 @@
       ]
     },
     {
-      "title_cn": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
-      "summary_cn": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年",
+      "title_cn": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "summary_cn": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:新闻为政策意图描述，未提及实际影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "新闻为政策意图描述，未提及实际影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
+      "pubDate": "2026-08-24T04:30:13.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_5v0vps",
+      "eventTitle": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+          "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
+          "guessedSector": "黄金",
+          "pubDate": "2026-08-24T04:30:13.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_5v0vps",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
+      "notes": "AI研判:新闻为宠物行业分析，与半导体板块无关",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [
+        "乖宝宠物"
+      ],
+      "reasoning": [
+        "新闻为宠物行业分析，与半导体板块无关"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "description": "",
+      "pubDate": "2026-08-24T05:18:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html",
+      "eventId": "evt_2rou0y",
+      "eventTitle": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【万联证券：首予乖宝宠物“买入”评级，龙头地位持续巩固】万联证券研报指出，乖宝宠物品牌基因驱动成长，龙头地位持续巩固。2025年公司实现营收/归母净利润67.7亿元/6.7亿元，2020-2025年CAGR分别达27.4%/43.3%，且毛利率增长稳健，净利率维持行业高位，具备较强的盈利能力。乖宝正沿着同样的路径率先跑通多品牌矩阵，2025年公司自有品牌营收达49.7亿元，麦富迪/弗列加特/霸弗同比分别+40%/+80%/+60%，主粮毛利率达45.5%；2026年拟受让K9Natura大陆品牌资产，进一步补齐超高端拼图，验证了“内孵+外购”持续扩容品牌矩阵的能力。当前，市场仍用“代工转型”的框架理解公司，认为低估了公司作为多品牌集团化龙头的实质。公司为我国宠物食品行业龙头，自有品牌业务占比较高，品牌基因构筑竞争壁垒，应享有一定估值溢价，给予2026年30倍PE，对应目标价55.8元，首次覆盖，给予“买入”评级。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T05:18:40.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0084345.d.html",
+          "eventId": "evt_2rou0y",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:板块ETF平均跌超3%，行情类新闻应判利空",
       "sentiment": "利空",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "板块ETF平均跌超3%，行情类新闻应判利空"
+      ],
+      "evidence": [
+        "午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "description": "",
+      "pubDate": "2026-08-24T05:16:03.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
+      "eventId": "evt_1smx4j3",
+      "eventTitle": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【多只芯片、人工智能ETF跌超5%】午后科创芯片设计ETF汇添富（589290）、 科创创业人工智能ETF景顺（159142）、通信ETF国泰（515880）等多只ETF跌超5%。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T05:16:03.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
+          "eventId": "evt_1smx4j3",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:杠杆ETF暴跌七成但吸金数十亿，市场情绪分化",
+      "sentiment": "分化",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "杠杆ETF暴跌七成但吸金数十亿，市场情绪分化"
+      ],
+      "evidence": [
+        "尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元",
+        "该杠杆基金的跌幅却高达70%"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+      "description": "",
+      "pubDate": "2026-08-24T03:48:32.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html",
+      "eventId": "evt_40utch",
+      "eventTitle": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【芯片杠杆ETF暴跌七成依旧吸金】业内数据显示，尽管7月和8月期间追踪半导体公司的高风险杠杆基金遭受了重创，但投资者仍向这些基金注入了数十亿美元，试图提前布局以博取该行业的潜在反弹机会。据晨星的数据显示，追踪芯片股的最大杠杆ETF——Direxion Daily Semiconductor Bull 3X Shares，在7月和8月前两周吸引了近70亿美元的资金净流入。该杠杆ETF提供对纽约证券交易所半导体指数的三倍杠杆投资，该指数涵盖30家美国芯片公司。在此期间，尽管标的指数从高点仅回撤了20%出头，但该杠杆基金的跌幅却高达70%。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T03:48:32.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriv0145404.d.html",
+          "eventId": "evt_40utch",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:韩国贸易政策对半导体等产业支持与风险管控并存",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "韩国贸易政策对半导体等产业支持与风险管控并存"
+      ],
+      "evidence": [
+        "韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位",
+        "韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+      "description": "",
+      "pubDate": "2026-08-24T03:51:27.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html",
+      "eventId": "evt_gslgzu",
+      "eventTitle": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【韩国新任贸易负责人承诺全力管控韩美贸易风险】韩国产业通商资源部周一表示，在全球格局发生重大转变的背景下，韩国新任首席贸易谈判代表承诺，将全力以赴管控韩美贸易关系中的各类风险。据产业通商资源部介绍，通商部长朴正成在就职演说中表示，关税、补贴、产业政策、供应链联盟以及出口管制正逐步成为塑造全球贸易秩序的核心手段。在他履新之际，韩美两国正就韩国去年对美作出的 3500 亿美元投资承诺框架下的首个投资项目开展磋商，该投资是韩美贸易协议的组成部分。 该部长还表示，韩国贸易政策应当为半导体、核电、造船等不可替代产业创造发展空间，巩固其在全球供应链中的地位，同时掌握难以被替代的核心技术。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T03:51:27.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkriw2097811.d.html",
+          "eventId": "evt_gslgzu",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
+      "summary_cn": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:新闻为英伟达投资描述，未提及半导体板块直接影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "新闻为英伟达投资描述，未提及半导体板块直接影响"
       ],
       "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
       "description": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
       "pubDate": "2026-08-24T03:34:17.000Z",
@@ -691,102 +1282,11 @@
         {
           "title": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
           "description": "英伟达正讨论参与Perplexity的一轮股权融资，对这家AI初创公司的估值超过300亿美元。这笔融资总额将达数十亿美元，并将使Perplexity的估值比一年前上一轮融资后高出超过50%。（The Information）",
-          "link": "https://wallstreetcn.com/articles/3153634",
+          "guessedSector": "半导体",
           "pubDate": "2026-08-24T03:34:17.000Z",
           "source": "华尔街见闻",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
-      "summary_cn": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
-      "category": "半导体",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "板块大跌，行情类应判利空"
-      ],
-      "evidence": [
-        "半导体、通信设备和消费电子板块表现不佳"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
-      "description": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
-      "pubDate": "2026-08-24T03:32:27.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_xjoa9k",
-      "eventTitle": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
-          "description": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T03:32:27.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_xjoa9k",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
-      "summary_cn": "",
-      "category": "光模块",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "板块大跌，行情类应判利空"
-      ],
-      "evidence": [
-        "中际旭创跌11.32%"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
-      "description": "",
-      "pubDate": "2026-08-24T04:01:22.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html",
-      "eventId": "evt_1w58bug",
-      "eventTitle": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
-          "description": "",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-24T04:01:22.000Z",
-          "source": "新浪财经",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html",
-          "eventId": "evt_1w58bug",
+          "link": "https://wallstreetcn.com/articles/3153634",
+          "eventId": "evt_197ser5",
           "sourceCount": 1,
           "archived": true
         }
@@ -797,20 +1297,22 @@
       "summary_cn": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口&nbsp;&nbsp; caiwennews.com",
       "category": "黄金",
       "direction": "利空",
-      "impact": "高",
+      "impact": "极高",
       "certainty": "高",
-      "time_window": "长期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:价格·利空(60)",
+      "notes": "AI研判:美财政部扩大回购托底长端利率，美元信用弱化主线强化",
       "sentiment": "利空",
-      "market_impact": "高",
+      "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "美财政部扩大回购托底长端利率，美元信用弱化主线强化"
       ],
-      "evidence": [],
+      "evidence": [
+        "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口"
+      ],
       "confidence_score": 0.8,
-      "uncertainty": "",
+      "uncertainty": "实际政策实施效果存在不确定性",
       "title": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口 - caiwennews.com",
       "description": "美财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口&nbsp;&nbsp; caiwennews.com",
       "pubDate": "2026-08-24T01:58:35.000Z",
@@ -842,16 +1344,18 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.6%)调至中性",
+      "notes": "AI研判:国内金价重回千元，但未提及具体公司影响",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "国内金价重回千元，但未提及具体公司影响"
       ],
-      "evidence": [],
+      "evidence": [
+        "多家银行积存金克价涨破1000元，工商银行积存金报1005.69元/克，如意积存金报1017.48元/克"
+      ],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "国内金价重回千元 多家银行积存金克价涨破1000元",
       "description": "8月24日，多家银行积存金克价涨破1000元。截至24日上午10时15分，工商银行积存金报1005.69元/克，如意积存金报1017.48元/克；建设银行黄金积存价格报1008.89元/克；农业银行存金通报1018元/克；中国银行积存金报1022.29元/克。上海黄金交易所官网显示，截至24日上午10时20分，Au99.99报1006元/克。（中新经纬）",
       "pubDate": "2026-08-24T02:33:28.000Z",
@@ -884,7 +1388,7 @@
           "source": "华尔街见闻",
           "link": "https://wallstreetcn.com/articles/3153607",
           "eventId": "evt_8ykp85",
-          "sourceCount": 1,
+          "sourceCount": 2,
           "archived": true
         }
       ]
@@ -893,21 +1397,21 @@
       "title_cn": "对话彭雅哲：中国产业换挡时刻，新“新三样”如何改写增长逻辑？",
       "summary_cn": "【编者按】2026年上半年，我国高技术产业交出了一份亮眼的外贸与产业成绩单：海关总署数据显示，算力硬件进出口总额达5.13万亿元，同比增长56.6%；手术机器人",
       "category": "创新药",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.9%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为行业成绩描述，未涉及具体公司",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为行业成绩描述，未涉及具体公司"
       ],
       "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "对话彭雅哲：中国产业换挡时刻，新“新三样”如何改写增长逻辑？",
       "description": "【编者按】2026年上半年，我国高技术产业交出了一份亮眼的外贸与产业成绩单：海关总署数据显示，算力硬件进出口总额达5.13万亿元，同比增长56.6%；手术机器人出口同比激增3.3倍，工业机器人出口同比增长18.6%；国家药监局数据显示，创新药对外授权总金额已达去年全年的八成规模。",
       "pubDate": "2026-08-24T02:40:00.000Z",
@@ -932,71 +1436,24 @@
       ]
     },
     {
-      "title_cn": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
-      "summary_cn": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较",
-      "category": "光模块",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "板块大跌，行情类应判利空"
-      ],
-      "evidence": [
-        "算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%"
-      ],
-      "confidence_score": 0.9,
-      "uncertainty": "",
-      "title": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
-      "description": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较上个交易日放量1177亿。盘面上热点弱势轮动，全市场近4300股下跌。从板块来看，农林牧渔板块逆势走强，天山生物、登海种业涨停；煤炭板块持续活跃，上海能源、美锦能源涨停；固态电池板块逆势走强，天力锂能、上海洗霸、金龙羽涨停；数字货币板块延续上周强势，楚天龙、东信和平涨停。下跌方面，算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%。截至收盘，沪指跌0.71%，深成指跌2.44%，创业板指跌3.50%。",
-      "pubDate": "2026-08-24T03:31:36.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2462061",
-      "eventId": "evt_mzo0n6",
-      "eventTitle": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
-      "eventSources": [
-        "财联社"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "午评：创业板指半日跌3.5% 算力硬件股大面积调整",
-          "description": "【午评：创业板指半日跌3.5% 算力硬件股大面积调整】财联社8月24日电，市场早盘集体走弱，创业板指、科创50指数均跌超3%。沪深两市半日成交额1.37万亿，较上个交易日放量1177亿。盘面上热点弱势轮动，全市场近4300股下跌。从板块来看，农林牧渔板块逆势走强，天山生物、登海种业涨停；煤炭板块持续活跃，上海能源、美锦能源涨停；固态电池板块逆势走强，天力锂能、上海洗霸、金龙羽涨停；数字货币板块延续上周强势，楚天龙、东信和平涨停。下跌方面，算力硬件股大面积调整，共进股份跌停，天孚通信、新易盛、中际旭创均跌超7%。截至收盘，沪指跌0.71%，深成指跌2.44%，创业板指跌3.50%。",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-24T03:31:36.000Z",
-          "source": "财联社",
-          "link": "https://www.cls.cn/detail/2462061",
-          "eventId": "evt_mzo0n6",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "英伟达正商讨以超300亿美元估值投资AI初创公司Perplexity",
       "summary_cn": "【英伟达正商讨以超300亿美元估值投资Perplexity】财联社8月24日电，据报道，英伟达正商讨以超过300亿美元的估值投资AI初创公司Perplexity",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "中期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:传闻·中性(5)；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为英伟达投资描述，未提及半导体板块直接影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为英伟达投资描述，未提及半导体板块直接影响"
       ],
       "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "英伟达正商讨以超300亿美元估值投资AI初创公司Perplexity",
       "description": "【英伟达正商讨以超300亿美元估值投资Perplexity】财联社8月24日电，据报道，英伟达正商讨以超过300亿美元的估值投资AI初创公司Perplexity，并考虑达成技术许可协议。",
       "pubDate": "2026-08-24T03:14:49.000Z",
@@ -1027,20 +1484,26 @@
       "title_cn": "主力资金监控：兆易创新净卖出超24亿",
       "summary_cn": "【主力资金监控：兆易创新净卖出超24亿】财联社8月24日电，财联社星矿数据显示，今日早盘主力资金净流入有色金属、工业金属、非银金融等板块，净流出电子、半导体、通",
       "category": "光模块",
-      "direction": "利空",
+      "direction": "利好",
       "impact": "低",
       "certainty": "高",
       "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:板块大跌，行情类应判利空",
-      "sentiment": "利空",
+      "tickers": "中际旭创(300308)、新易盛(300502)、天孚通信(300394)",
+      "notes": "AI研判:有色金属、工业金属、非银金融等板块获主力资金净流入",
+      "sentiment": "利好",
       "market_impact": "低",
-      "affected_companies": [],
+      "affected_companies": [
+        "圣阳股份",
+        "盈新发展",
+        "中国石化",
+        "风范股份"
+      ],
       "reasoning": [
-        "板块大跌，行情类应判利空"
+        "有色金属、工业金属、非银金融等板块获主力资金净流入"
       ],
       "evidence": [
-        "中际旭创、天孚通信、新易盛资金净流出额居前"
+        "今日早盘主力资金净流入有色金属、工业金属、非银金融等板块，净流出电子、半导体、通信等板块",
+        "圣阳股份涨停，主力资金净买入超5亿元位居首位，盈新发展、中国石化、风范股份获主力资金净流入居前"
       ],
       "confidence_score": 0.8,
       "uncertainty": "",
@@ -1071,26 +1534,78 @@
       ]
     },
     {
-      "title_cn": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于",
-      "summary_cn": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于9月11日生效。本次重置预计引发逾72亿美元的双向被动资金流",
+      "title_cn": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
+      "summary_cn": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "利好",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:券商、白酒及银行股普遍走强，板块获资金流入",
+      "sentiment": "利好",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "券商、白酒及银行股普遍走强，板块获资金流入"
       ],
       "evidence": [
-        "科技硬件与半导体板块预计获得约8.7亿美元的净被动买盘"
+        "券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳"
       ],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
+      "title": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
+      "description": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
+      "pubDate": "2026-08-24T03:32:27.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_xjoa9k",
+      "eventTitle": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股",
+          "description": "金十图示：2026年08月24日（周一）富时中国A50指数成分股午盘收盘行情一览：券商、白酒及银行股普遍走强，半导体、通信设备和消费电子板块表现不佳。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T03:32:27.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_xjoa9k",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于",
+      "summary_cn": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于9月11日生效。本次重置预计引发逾72亿美元的双向被动资金流",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "中芯国际(688981)",
+      "notes": "AI研判:科技硬件与半导体板块预计获得约8.7亿美元的净被动买盘",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [
+        "华虹半导体",
+        "中芯国际"
+      ],
+      "reasoning": [
+        "科技硬件与半导体板块预计获得约8.7亿美元的净被动买盘"
+      ],
+      "evidence": [
+        "科技硬件与半导体板块预计获得约8.7亿美元的净被动买盘",
+        "恒指纳入华虹半导体与潍柴动力，成分股增至95只",
+        "华虹半导体、中芯国际净买入领先（1.6亿~4.7亿美元）"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于",
       "description": "恒生系列指数季度调整结果于8月21日公布，不涉及港股通资格的调整于9月4日收市后生效，涉及港股通的于9月11日生效。本次重置预计引发逾72亿美元的双向被动资金流动，科技硬件与半导体板块预计获得约8.7亿美元的净被动买盘；银行板块预计面临约8.0亿美元的净流出。历史数据显示，恒指与科技指数成分股新纳入标的在生效日前通常具有相对超额收益：1、恒指纳入华虹半导体与潍柴动力，成分股增至95只；恒生科技由天数智芯替代同程旅行；国企指数（HSCEI）无变动；恒生综合指数（HSCI）纳61股剔15股。  估值与资金流规模：调整后恒指市值预计增长1.6%，科技指数下降2.6%。恒指前瞻12个月市盈率由11.1倍略升至11.2倍。2、板块资金流向：科技硬件与半导体预计迎最大被动买盘（净流入约8.7亿美元），软件服务与互联网/媒体板块亦获1.9亿~2.3亿美元净流入。银行板块面临最大资金流出（净流出约8.0亿美元），公用事业与零售板块流出1亿~1.4亿美元。  3、个股流向与表现：携程、联想、华虹半导体、潍柴动力、腾讯、中芯国际净买入领先（1.6亿~4.7亿美元）；汇丰控股、美团、同程旅行、建行等面临最大净卖出（1亿~5.2亿美元）。（上述观点来自高盛8月22日报告）",
       "pubDate": "2026-08-24T03:38:53.000Z",
@@ -1121,21 +1636,21 @@
       "title_cn": "英伟达周三美股盘后将公布最新财报，分析师称它已从“超级碗”升级为“世界杯决赛”。因为结果影响的不只是",
       "summary_cn": "英伟达周三美股盘后将公布最新财报，分析师称它已从“超级碗”升级为“世界杯决赛”。因为结果影响的不只是英伟达股价，更可能决定全球市场对AI投资周期的信心。",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为财报预告描述，无明确业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为财报预告描述，无明确业绩影响"
       ],
       "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "英伟达周三美股盘后将公布最新财报，分析师称它已从“超级碗”升级为“世界杯决赛”。因为结果影响的不只是",
       "description": "英伟达周三美股盘后将公布最新财报，分析师称它已从“超级碗”升级为“世界杯决赛”。因为结果影响的不只是英伟达股价，更可能决定全球市场对AI投资周期的信心。",
       "pubDate": "2026-08-24T03:23:24.000Z",
@@ -1163,6 +1678,101 @@
       ]
     },
     {
+      "title_cn": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "中际旭创(300308)",
+      "notes": "AI研判:新闻为港股表现描述，无明确基本面影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [
+        "中际旭创"
+      ],
+      "reasoning": [
+        "新闻为港股表现描述，无明确基本面影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
+      "description": "",
+      "pubDate": "2026-08-24T04:01:22.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html",
+      "eventId": "evt_1w58bug",
+      "eventTitle": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【港股午评：恒生指数跌2.09%，恒生科技指数跌3.84%】港股午间收盘，恒生指数跌2.09%，恒生科技指数跌3.84%。恒指港股通ETF银华（159318）跌2.09%，港股通科技ETF鹏华（159751）跌3.4%。板块方面，医疗设备、医疗器械板块涨幅靠前；电能综合服务、通信设备Ⅲ板块跌幅靠前。个股方面，德适-B涨33.94%，亮晴控股涨23.55%，海清智元涨14.77%，真健康医疗-B涨14.52%，今海医疗科技涨12.2%；丽珠医药跌14.45%，智云科技建设跌11.53%，中际旭创跌11.32%，大金重工跌11.23%，哈尔滨电气跌10.91%。",
+          "description": "",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-24T04:01:22.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0025112.d.html",
+          "eventId": "evt_1w58bug",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:SK海力士引入先进封装技术加速HBM产品路线图",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "SK海力士引入先进封装技术加速HBM产品路线图"
+      ],
+      "evidence": [
+        "SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术",
+        "SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+      "description": "",
+      "pubDate": "2026-08-24T01:09:50.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkkzx0142070.d.html",
+      "eventId": "evt_12g080p",
+      "eventTitle": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T01:09:50.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkkzx0142070.d.html",
+          "eventId": "evt_12g080p",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "【光大期货：黄金创三个月新高，本周关注杰克逊霍尔央行年会】上周金价重心上移，周五伦敦现货黄金站上4600美元/盎司，创三个月新高，周涨幅4.23%，SHFE黄金主力合约周涨幅4.40%。上周海外美债回购消息打压美债收益率，美元指数下行，黄金上涨。本周重点关注沃什首秀杰克逊霍尔央行年会。美联储方面，周四凌晨公布的7月FOMC会议纪要以9:3维持利率不变，多名官员认为若通胀不降则需加息。CME数据显示9月加息概率已从7月底的70%以上降至40%以内。另外，30年期美债收益率一度升至2007年以来最高，美国财长贝森特宣布将长期美债回购规模翻倍，一度缓解了市场对债务信用危机的担忧。地缘层面，美伊60天谈判窗口于8月18日到期，特朗普宣布不延长谅解备忘录。（光大期货）",
       "summary_cn": "",
       "category": "黄金",
@@ -1171,15 +1781,16 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:业绩·利好(120)+宏观·利空(40)",
+      "notes": "AI研判:黄金创三个月新高，美债回购和美元下行推动上涨",
       "sentiment": "利好",
       "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "黄金创三个月新高，美债回购和美元下行推动上涨"
       ],
       "evidence": [
-        "上周伦敦现货黄金站上4600美元/盎司，创三个月新高，周涨幅4.23%"
+        "上周金价重心上移，周五伦敦现货黄金站上4600美元/盎司，创三个月新高，周涨幅4.23%",
+        "上周海外美债回购消息打压美债收益率，美元指数下行，黄金上涨"
       ],
       "confidence_score": 0.9,
       "uncertainty": "",
@@ -1210,345 +1821,20 @@
       ]
     },
     {
-      "title_cn": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
-      "summary_cn": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料",
-      "category": "光模块",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:业绩·利好(60)+传闻·中性(5)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
-      "description": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长，海内外头部厂商光模块相关业务指引积极，如全球模拟龙头ADI预计OCS 2026-27年保持翻倍增长。2026年以来国内龙头模拟公司光模块相关业务同样迎来快速放量，进而带动业绩快速增长。在AI算力旺盛需求推动下，互联推动全球高速光模块保持高速增长。参考Trendforce数据，预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支，3.2T光模块有望于2028年起量。Yole Group",
-      "pubDate": "2026-08-24T00:30:44.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2461873",
-      "eventId": "evt_1ntoeoa",
-      "eventTitle": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
-      "eventSources": [
-        "财联社"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
-          "description": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长，海内外头部厂商光模块相关业务指引积极，如全球模拟龙头ADI预计OCS 2026-27年保持翻倍增长。2026年以来国内龙头模拟公司光模块相关业务同样迎来快速放量，进而带动业绩快速增长。在AI算力旺盛需求推动下，互联推动全球高速光模块保持高速增长。参考Trendforce数据，预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支，3.2T光模块有望于2028年起量。Yole Group",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-24T00:30:44.000Z",
-          "source": "财联社",
-          "link": "https://www.cls.cn/detail/2461873",
-          "eventId": "evt_1ntoeoa",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
-      "summary_cn": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(40)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
-      "description": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
-      "pubDate": "2026-08-24T01:10:09.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_11qrdw0",
-      "eventTitle": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
-          "description": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
-          "guessedSector": "黄金",
-          "pubDate": "2026-08-24T01:10:09.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_11qrdw0",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(40)+传闻·中性(10)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-      "description": "",
-      "pubDate": "2026-08-24T01:09:50.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkkzx0142070.d.html",
-      "eventId": "evt_12g080p",
-      "eventTitle": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【SK海力士正在为其下一代HBM方案引入先进封装技术】SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-          "description": "",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T01:09:50.000Z",
-          "source": "新浪财经",
-          "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkkzx0142070.d.html",
-          "eventId": "evt_12g080p",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "中际旭创：今年整体来说扩产力度都比较大",
-      "summary_cn": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，",
-      "category": "光模块",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(40)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "订单能见度很高，需求非常旺盛"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "中际旭创：今年整体来说扩产力度都比较大",
-      "description": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，也是预见到了未来下游客户的需求还是非常强劲的，所以需要进行资本开支的强力投入，7月港股发行融了70亿美元，会对扩产、备料形成有效的支撑，且后续融资更加便捷，对业务的增长也是较好的依托。预计下半年资本开支还会有增幅，基建方面会有增长，设备一般是前三季度完成。预计今年下半年到明年资本开支都会比较大。",
-      "pubDate": "2026-08-24T00:16:28.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153549",
-      "eventId": "evt_8feude",
-      "eventTitle": "中际旭创：今年整体来说扩产力度都比较大",
-      "eventSources": [
-        "华尔街见闻"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "中际旭创：今年整体来说扩产力度都比较大",
-          "description": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，也是预见到了未来下游客户的需求还是非常强劲的，所以需要进行资本开支的强力投入，7月港股发行融了70亿美元，会对扩产、备料形成有效的支撑，且后续融资更加便捷，对业务的增长也是较好的依托。预计下半年资本开支还会有增幅，基建方面会有增长，设备一般是前三季度完成。预计今年下半年到明年资本开支都会比较大。",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-24T00:16:28.000Z",
-          "source": "华尔街见闻",
-          "link": "https://wallstreetcn.com/articles/3153549",
-          "eventId": "evt_8feude",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "SK海力士正在为其下一代HBM方案引入先进封装技术",
-      "summary_cn": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(20)+传闻·中性(5)",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "SK海力士正在为其下一代HBM方案引入先进封装技术",
-      "description": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-      "pubDate": "2026-08-24T01:09:29.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2461903",
-      "eventId": "evt_16p4nne",
-      "eventTitle": "SK海力士正在为其下一代HBM方案引入先进封装技术",
-      "eventSources": [
-        "财联社"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "SK海力士正在为其下一代HBM方案引入先进封装技术",
-          "description": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T01:09:29.000Z",
-          "source": "财联社",
-          "link": "https://www.cls.cn/detail/2461903",
-          "eventId": "evt_16p4nne",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "高盛给予长鑫科技“买入”评级，目标价129元",
-      "summary_cn": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有1",
-      "category": "半导体",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [],
-      "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
-      "title": "高盛给予长鑫科技“买入”评级，目标价129元",
-      "description": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有122%的上涨空间。该目标价基于2027年24倍的预期市盈率以及到2028年每股收益77%的平均增速，受人工智能支出和客户多元化推动。高盛预计，到2028年，长鑫的产能仍只能满足中国约50%的DRAM需求和40%的高带宽内存(HBM)需求。与三星电子和SK海力士相比，长鑫在技术上仍落后约两到三代。",
-      "pubDate": "2026-08-24T01:54:52.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153590",
-      "eventId": "evt_1x4pd9g",
-      "eventTitle": "高盛给予长鑫科技“买入”评级，目标价129元",
-      "eventSources": [
-        "华尔街见闻"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "高盛给予长鑫科技“买入”评级，目标价129元",
-          "description": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有122%的上涨空间。该目标价基于2027年24倍的预期市盈率以及到2028年每股收益77%的平均增速，受人工智能支出和客户多元化推动。高盛预计，到2028年，长鑫的产能仍只能满足中国约50%的DRAM需求和40%的高带宽内存(HBM)需求。与三星电子和SK海力士相比，长鑫在技术上仍落后约两到三代。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T01:54:52.000Z",
-          "source": "华尔街见闻",
-          "link": "https://wallstreetcn.com/articles/3153590",
-          "eventId": "evt_1x4pd9g",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "民德电子：目前晶睿电子的SOI业务收入占比较小",
-      "summary_cn": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.7",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(20)",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "晶睿电子具备独立自主知识产权，产品在具身智能传感器等领域陆续验证通过并稳步放量"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "",
-      "title": "民德电子：目前晶睿电子的SOI业务收入占比较小",
-      "description": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.76%）是国内为数不多具备SOI量产能力的厂商，且具备独立自主知识产权，产品在具身智能传感器（惯性传感器、压力传感器等）和光电路交换机OCS（MEMS微镜阵列）领域陆续验证通过并稳步放量。目前晶睿电子的SOI业务收入占比较小，对整体经营业绩尚不构成重大影响，请投资者谨慎决策，注意投资风险。",
-      "pubDate": "2026-08-24T00:52:48.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2461889",
-      "eventId": "evt_u63uo3",
-      "eventTitle": "民德电子：目前晶睿电子的SOI业务收入占比较小",
-      "eventSources": [
-        "财联社"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "民德电子：目前晶睿电子的SOI业务收入占比较小",
-          "description": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.76%）是国内为数不多具备SOI量产能力的厂商，且具备独立自主知识产权，产品在具身智能传感器（惯性传感器、压力传感器等）和光电路交换机OCS（MEMS微镜阵列）领域陆续验证通过并稳步放量。目前晶睿电子的SOI业务收入占比较小，对整体经营业绩尚不构成重大影响，请投资者谨慎决策，注意投资风险。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T00:52:48.000Z",
-          "source": "财联社",
-          "link": "https://www.cls.cn/detail/2461889",
-          "eventId": "evt_u63uo3",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "券商晨会精华：布局盈利与筹码的“配置差”",
       "summary_cn": "财联社8月24日讯，上周五，市场震荡拉升，创业板指涨超1%，黄白线分化明显。沪深两市成交额1.88万亿。从板块来看，贵金属、算力硬件、锂矿、液冷服务器等概念表现",
       "category": "黄金",
       "direction": "利好",
-      "impact": "中",
+      "impact": "高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:价格·利好(30)",
+      "notes": "AI研判:贵金属板块表现活跃，获资金流入",
       "sentiment": "利好",
-      "market_impact": "中",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "贵金属板块表现活跃，获资金流入"
       ],
       "evidence": [
         "贵金属、算力硬件、锂矿、液冷服务器等概念表现活跃"
@@ -1585,21 +1871,23 @@
       "title_cn": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
       "summary_cn": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易所白银T+D 8月24日（周一）早盘盘初上涨1.3%报168",
       "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF 1.6%)调至中性",
-      "sentiment": "中性",
-      "market_impact": "低",
+      "notes": "AI研判:黄金T+D早盘上涨2.04%，金价创近期新高",
+      "sentiment": "利好",
+      "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "黄金T+D早盘上涨2.04%，金价创近期新高"
       ],
-      "evidence": [],
-      "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "evidence": [
+        "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
       "description": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易所白银T+D 8月24日（周一）早盘盘初上涨1.3%报16854.0元/千克。",
       "pubDate": "2026-08-24T01:01:47.000Z",
@@ -1608,11 +1896,31 @@
       "eventId": "evt_1uz7n1q",
       "eventTitle": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
       "eventSources": [
-        "金十数据"
+        "金十数据",
+        "华尔街见闻"
       ],
-      "sourceCount": 1,
-      "relatedLinks": [],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "台湾加权指数8月24日（周一）收盘下跌461.97点，跌幅1.02%，报44762.32点。",
+        "https://wallstreetcn.com/articles/3153668"
+      ],
       "eventMembers": [
+        {
+          "title": "台湾加权指数8月24日（周一）收盘下跌461.97点，跌幅1.02%，报44762.32点。",
+          "description": "台湾加权指数8月24日（周一）收盘下跌461.97点，跌幅1.02%，报44762.32点。",
+          "link": "",
+          "pubDate": "2026-08-24T05:36:17.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "中国台湾证交所加权股价指数下跌1%至44,763.48点。",
+          "description": "中国台湾证交所加权股价指数下跌1%至44,763.48点。",
+          "link": "https://wallstreetcn.com/articles/3153668",
+          "pubDate": "2026-08-24T05:28:04.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
         {
           "title": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
           "description": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易所白银T+D 8月24日（周一）早盘盘初上涨1.3%报16854.0元/千克。",
@@ -1627,128 +1935,294 @@
       ]
     },
     {
-      "title_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
-      "summary_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
-      "category": "光模块",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "中",
+      "title_cn": "高盛给予长鑫科技“买入”评级，目标价129元",
+      "summary_cn": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有1",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
       "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
+      "notes": "AI研判:高盛给予长鑫科技“买入”评级，预计产能将提高至目前的两倍以上",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [
+        "长鑫科技"
       ],
-      "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
-      "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
-      "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
-      "pubDate": "2026-08-23T23:16:42.000Z",
-      "source": "风闻",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5",
-      "eventId": "evt_jmi16x",
-      "eventTitle": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "reasoning": [
+        "高盛给予长鑫科技“买入”评级，预计产能将提高至目前的两倍以上"
+      ],
+      "evidence": [
+        "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上",
+        "高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有122%的上涨空间"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "高盛给予长鑫科技“买入”评级，目标价129元",
+      "description": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有122%的上涨空间。该目标价基于2027年24倍的预期市盈率以及到2028年每股收益77%的平均增速，受人工智能支出和客户多元化推动。高盛预计，到2028年，长鑫的产能仍只能满足中国约50%的DRAM需求和40%的高带宽内存(HBM)需求。与三星电子和SK海力士相比，长鑫在技术上仍落后约两到三代。",
+      "pubDate": "2026-08-24T01:54:52.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153590",
+      "eventId": "evt_1x4pd9g",
+      "eventTitle": "高盛给予长鑫科技“买入”评级，目标价129元",
       "eventSources": [
-        "风闻"
+        "华尔街见闻"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
-          "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
-          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5",
-          "pubDate": "2026-08-23T23:16:42.000Z",
-          "source": "风闻"
+          "title": "高盛给予长鑫科技“买入”评级，目标价129元",
+          "description": "高盛首次覆盖长鑫科技并给予买入评级，预计其到2030年将把产能提高至目前的两倍以上，以满足强劲的需求。高盛给予长鑫科技129元人民币的目标价，较上周五收盘价有122%的上涨空间。该目标价基于2027年24倍的预期市盈率以及到2028年每股收益77%的平均增速，受人工智能支出和客户多元化推动。高盛预计，到2028年，长鑫的产能仍只能满足中国约50%的DRAM需求和40%的高带宽内存(HBM)需求。与三星电子和SK海力士相比，长鑫在技术上仍落后约两到三代。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T01:54:52.000Z",
+          "source": "华尔街见闻",
+          "link": "https://wallstreetcn.com/articles/3153590",
+          "eventId": "evt_1x4pd9g",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
-      "summary_cn": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航",
+      "title_cn": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
+      "summary_cn": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料",
       "category": "光模块",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "中",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:AI算力需求推动光模块终端持续放量，模拟芯片需求快速增长",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "AI算力需求推动光模块终端持续放量，模拟芯片需求快速增长"
+      ],
+      "evidence": [
+        "在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长",
+        "预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
+      "description": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长，海内外头部厂商光模块相关业务指引积极，如全球模拟龙头ADI预计OCS 2026-27年保持翻倍增长。2026年以来国内龙头模拟公司光模块相关业务同样迎来快速放量，进而带动业绩快速增长。在AI算力旺盛需求推动下，互联推动全球高速光模块保持高速增长。参考Trendforce数据，预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支，3.2T光模块有望于2028年起量。Yole Group",
+      "pubDate": "2026-08-24T00:30:44.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2461873",
+      "eventId": "evt_1ntoeoa",
+      "eventTitle": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "中信证券：光模块加速放量 模拟芯片龙头业绩高增",
+          "description": "【中信证券：光模块加速放量 模拟芯片龙头业绩高增】财联社8月24日电，中信证券研报指出，在AI算力旺盛需求推动下，光模块终端持续放量、速率升级推动相关模拟芯片料号需求快速增长，海内外头部厂商光模块相关业务指引积极，如全球模拟龙头ADI预计OCS 2026-27年保持翻倍增长。2026年以来国内龙头模拟公司光模块相关业务同样迎来快速放量，进而带动业绩快速增长。在AI算力旺盛需求推动下，互联推动全球高速光模块保持高速增长。参考Trendforce数据，预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支，3.2T光模块有望于2028年起量。Yole Group",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-24T00:30:44.000Z",
+          "source": "财联社",
+          "link": "https://www.cls.cn/detail/2461873",
+          "eventId": "evt_1ntoeoa",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
+      "summary_cn": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
-      "market_impact": "低",
+      "notes": "AI研判:黄金本周强势突破，创三个月新高",
+      "sentiment": "利好",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "黄金本周强势突破，创三个月新高"
       ],
-      "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
-      "title": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
-      "description": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航空航天论坛将于8月24日至26日在海南文昌举办。",
-      "pubDate": "2026-08-24T00:05:10.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
-      "eventId": "evt_1pex10l",
-      "eventTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "evidence": [
+        "黄金本周强势突破，然而期权到期日的临近，让金价短期走势充满变数"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "期权到期可能影响短期波动",
+      "title": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
+      "description": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
+      "pubDate": "2026-08-24T01:10:09.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_11qrdw0",
+      "eventTitle": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
       "eventSources": [
-        "东方财富"
+        "金十数据"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
-          "description": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航空航天论坛将于8月24日至26日在海南文昌举办。",
-          "link": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
-          "pubDate": "2026-08-24T00:05:10.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
+          "title": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
+          "description": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查看...",
+          "guessedSector": "黄金",
+          "pubDate": "2026-08-24T01:10:09.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_11qrdw0",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
-      "summary_cn": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医",
-      "category": "创新药",
-      "direction": "利空",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.9%)调至利空",
-      "sentiment": "利空",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
+      "title_cn": "中际旭创：今年整体来说扩产力度都比较大",
+      "summary_cn": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，",
+      "category": "光模块",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "中际旭创(300308)",
+      "notes": "AI研判:中际旭创订单能见度高，需求旺盛，扩产力度大",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "中际旭创"
       ],
-      "evidence": [],
-      "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
-      "title": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
-      "description": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医疗与天津大学共同发布全球首套磁共振脑机接口全栈式解决方案“uMR神观”。“uMR神观”贯穿脑机接口从基础研究到临床落地的全链条，推动“读懂大脑、精准调控，让神经可塑性可测可控”成为现实。",
-      "pubDate": "2026-08-24T00:46:02.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
-      "eventId": "evt_125zw94",
-      "eventTitle": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+      "reasoning": [
+        "中际旭创订单能见度高，需求旺盛，扩产力度大"
+      ],
+      "evidence": [
+        "今年整体来说扩产力度都比较大，下半年的资本支出也会比较高",
+        "订单能见度很高，需求非常旺盛",
+        "预计今年下半年到明年资本开支都会比较大"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "中际旭创：今年整体来说扩产力度都比较大",
+      "description": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，也是预见到了未来下游客户的需求还是非常强劲的，所以需要进行资本开支的强力投入，7月港股发行融了70亿美元，会对扩产、备料形成有效的支撑，且后续融资更加便捷，对业务的增长也是较好的依托。预计下半年资本开支还会有增幅，基建方面会有增长，设备一般是前三季度完成。预计今年下半年到明年资本开支都会比较大。",
+      "pubDate": "2026-08-24T00:16:28.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153549",
+      "eventId": "evt_8feude",
+      "eventTitle": "中际旭创：今年整体来说扩产力度都比较大",
       "eventSources": [
-        "东方财富"
+        "华尔街见闻"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
-          "description": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医疗与天津大学共同发布全球首套磁共振脑机接口全栈式解决方案“uMR神观”。“uMR神观”贯穿脑机接口从基础研究到临床落地的全链条，推动“读懂大脑、精准调控，让神经可塑性可测可控”成为现实。",
-          "guessedSector": "创新药",
-          "pubDate": "2026-08-24T00:46:02.000Z",
-          "source": "东方财富",
-          "link": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
-          "eventId": "evt_125zw94",
+          "title": "中际旭创：今年整体来说扩产力度都比较大",
+          "description": "中际旭创8月23日在机构电话会议上表示，今年整体来说扩产力度都比较大，下半年的资本支出也会比较高，这也是由于订单能见度很高，需求非常旺盛。公司今年做的港股发行，也是预见到了未来下游客户的需求还是非常强劲的，所以需要进行资本开支的强力投入，7月港股发行融了70亿美元，会对扩产、备料形成有效的支撑，且后续融资更加便捷，对业务的增长也是较好的依托。预计下半年资本开支还会有增幅，基建方面会有增长，设备一般是前三季度完成。预计今年下半年到明年资本开支都会比较大。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-24T00:16:28.000Z",
+          "source": "华尔街见闻",
+          "link": "https://wallstreetcn.com/articles/3153549",
+          "eventId": "evt_8feude",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "SK海力士正在为其下一代HBM方案引入先进封装技术",
+      "summary_cn": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:SK海力士引入先进封装技术加速HBM产品路线图",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "SK海力士引入先进封装技术加速HBM产品路线图"
+      ],
+      "evidence": [
+        "SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术",
+        "SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "SK海力士正在为其下一代HBM方案引入先进封装技术",
+      "description": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+      "pubDate": "2026-08-24T01:09:29.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2461903",
+      "eventId": "evt_16p4nne",
+      "eventTitle": "SK海力士正在为其下一代HBM方案引入先进封装技术",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "SK海力士正在为其下一代HBM方案引入先进封装技术",
+          "description": "【SK海力士正在为其下一代HBM方案引入先进封装技术】《科创板日报》24日讯，SK海力士正在为其下一代HBM解决方案引入包括英特尔EMIB在内的先进封装技术，并计划最终迈入3D封装时代。在2026年的Hot Chips大会上，SK海力士封装工程副总裁Jaesik Lee发表了题为“高带宽内存的先进封装”的报告，详细阐述了公司将如何利用先进封装技术加速其HBM产品路线图，目前SK海力士正在探索混合键合（Hybrid Bonding）等方法，以突破16层堆叠的限制，未来，SK海力士还计划通过增加TSV数量、提高逻辑工艺集成的IO速度，以及优化电源分配网络（PDN）来解决功耗挑战。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T01:09:29.000Z",
+          "source": "财联社",
+          "link": "https://www.cls.cn/detail/2461903",
+          "eventId": "evt_16p4nne",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "民德电子：目前晶睿电子的SOI业务收入占比较小",
+      "summary_cn": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.7",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:晶睿电子具备SOI量产能力，产品在具身智能传感器等领域验证通过",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [
+        "民德电子"
+      ],
+      "reasoning": [
+        "晶睿电子具备SOI量产能力，产品在具身智能传感器等领域验证通过"
+      ],
+      "evidence": [
+        "民德电子参股的晶睿电子是国内为数不多具备SOI量产能力的厂商，且具备独立自主知识产权",
+        "产品在具身智能传感器（惯性传感器、压力传感器等）和光电路交换机OCS（MEMS微镜阵列）领域陆续验证通过并稳步放量"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "民德电子：目前晶睿电子的SOI业务收入占比较小",
+      "description": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.76%）是国内为数不多具备SOI量产能力的厂商，且具备独立自主知识产权，产品在具身智能传感器（惯性传感器、压力传感器等）和光电路交换机OCS（MEMS微镜阵列）领域陆续验证通过并稳步放量。目前晶睿电子的SOI业务收入占比较小，对整体经营业绩尚不构成重大影响，请投资者谨慎决策，注意投资风险。",
+      "pubDate": "2026-08-24T00:52:48.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2461889",
+      "eventId": "evt_u63uo3",
+      "eventTitle": "民德电子：目前晶睿电子的SOI业务收入占比较小",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "民德电子：目前晶睿电子的SOI业务收入占比较小",
+          "description": "【民德电子：目前晶睿电子的SOI业务收入占比较小】财联社8月24日电，民德电子(300656)在互动平台表示，公司参股的晶圆原材料企业晶睿电子（持股比例20.76%）是国内为数不多具备SOI量产能力的厂商，且具备独立自主知识产权，产品在具身智能传感器（惯性传感器、压力传感器等）和光电路交换机OCS（MEMS微镜阵列）领域陆续验证通过并稳步放量。目前晶睿电子的SOI业务收入占比较小，对整体经营业绩尚不构成重大影响，请投资者谨慎决策，注意投资风险。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T00:52:48.000Z",
+          "source": "财联社",
+          "link": "https://www.cls.cn/detail/2461889",
+          "eventId": "evt_u63uo3",
           "sourceCount": 1,
           "archived": true
         }
@@ -1758,21 +2232,25 @@
       "title_cn": "【首家且目前唯一恒科GPU成分股 天数智芯获纳入恒生科技指数】近日，恒生指数公司公布最新季度检讨结果，天数智芯（09903.HK）被正式纳入恒生科技指数，成为该指数自推出以来首家且目前唯一入选的GPU成分股。恒生科技指数涵盖香港市场最具代表性的30家科技企业，是衡量中国科技股表现的核心基准。此次纳入标志着天数智芯在AI算力基础设施领域的核心地位获得资本市场权威认可，也意味着恒生科技指数在半导体关键环节的覆盖进一步完善，填补了国产通用GPU在指数中的空白。（上证报）",
       "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
+      "certainty": "高",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:天数智芯被纳入恒生科技指数，但未提及业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
+      "affected_companies": [
+        "天数智芯"
       ],
-      "evidence": [],
-      "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "reasoning": [
+        "天数智芯被纳入恒生科技指数，但未提及业绩影响"
+      ],
+      "evidence": [
+        "天数智芯被正式纳入恒生科技指数，成为该指数自推出以来首家且目前唯一入选的GPU成分股"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "【首家且目前唯一恒科GPU成分股 天数智芯获纳入恒生科技指数】近日，恒生指数公司公布最新季度检讨结果，天数智芯（09903.HK）被正式纳入恒生科技指数，成为该指数自推出以来首家且目前唯一入选的GPU成分股。恒生科技指数涵盖香港市场最具代表性的30家科技企业，是衡量中国科技股表现的核心基准。此次纳入标志着天数智芯在AI算力基础设施领域的核心地位获得资本市场权威认可，也意味着恒生科技指数在半导体关键环节的覆盖进一步完善，填补了国产通用GPU在指数中的空白。（上证报）",
       "description": "",
       "pubDate": "2026-08-24T01:03:25.000Z",
@@ -1803,21 +2281,27 @@
       "title_cn": "【319股获融资买入超亿元，中际旭创获买入39.93亿元居首】Wind数据显示，A股8月21日共有3846只个股获融资资金买入，有319股买入金额超亿元。其中，中际旭创、新易盛、兆易创新融资买入金额排名前三，分别获买入39.93亿元、23.23亿元、22.6亿元。从融资买入额占当日总成交金额比重来看，有3只个股融资买入额占比超30%。其中天地科技、至信股份、阳光照明融资买入额占成交额比重排名前三，分别为34.56%、31.69%、30.16%。从融资净买入金额来看，有26只个股获融资净买入超亿元。其中，中际旭创、山东黄金、沃森生物融资净买入金额排名前三，分别获净买入5.26亿元、4.28亿元、3.56亿元。",
       "summary_cn": "",
       "category": "光模块",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
+      "tickers": "中际旭创(300308)、新易盛(300502)",
+      "notes": "AI研判:中际旭创等个股获融资买入超亿元，但未提及基本面影响",
+      "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
+      "affected_companies": [
+        "中际旭创",
+        "新易盛",
+        "兆易创新"
       ],
-      "evidence": [],
+      "reasoning": [
+        "中际旭创等个股获融资买入超亿元，但未提及基本面影响"
+      ],
+      "evidence": [
+        "中际旭创、新易盛、兆易创新融资买入金额排名前三，分别获买入39.93亿元、23.23亿元、22.6亿元"
+      ],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "【319股获融资买入超亿元，中际旭创获买入39.93亿元居首】Wind数据显示，A股8月21日共有3846只个股获融资资金买入，有319股买入金额超亿元。其中，中际旭创、新易盛、兆易创新融资买入金额排名前三，分别获买入39.93亿元、23.23亿元、22.6亿元。从融资买入额占当日总成交金额比重来看，有3只个股融资买入额占比超30%。其中天地科技、至信股份、阳光照明融资买入额占成交额比重排名前三，分别为34.56%、31.69%、30.16%。从融资净买入金额来看，有26只个股获融资净买入超亿元。其中，中际旭创、山东黄金、沃森生物融资净买入金额排名前三，分别获净买入5.26亿元、4.28亿元、3.56亿元。",
       "description": "",
       "pubDate": "2026-08-24T00:59:20.000Z",
@@ -1848,21 +2332,23 @@
       "title_cn": "中际旭创回应二季度经营性现金流下降原因",
       "summary_cn": "关于二季度经营性现金流下降的原因，中际旭创8月23日在机构电话会议上表示，目前下游需求非常旺盛，在满足客户交付的同时，公司也在积极备产备料。2026年上半年经营",
       "category": "光模块",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
+      "tickers": "中际旭创(300308)",
+      "notes": "AI研判:新闻为现金流解释描述，无明确业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [],
+      "affected_companies": [
+        "中际旭创"
+      ],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为现金流解释描述，无明确业绩影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "中际旭创回应二季度经营性现金流下降原因",
       "description": "关于二季度经营性现金流下降的原因，中际旭创8月23日在机构电话会议上表示，目前下游需求非常旺盛，在满足客户交付的同时，公司也在积极备产备料。2026年上半年经营性现金流支出绝大部分为购买原材料，其中部分是满足现实交货节奏的正常采购，此外还有大量提前备货。与备料相关的科目有预付账款和其他长期资产。其他长期资产主要体现了锁定一年以上的预付款，二季度环比增长10亿元以上。",
       "pubDate": "2026-08-24T00:17:16.000Z",
@@ -1890,24 +2376,157 @@
       ]
     },
     {
-      "title_cn": "中际旭创回应二季度资本开支增长原因：多处厂房在扩建",
-      "summary_cn": "关于二季度资本开支增长的原因，中际旭创8月23日在机构电话会议上表示，资本开支包括设备和厂房的投入，公司多处厂房都在扩建中，小部分预计在2026年下半年交付，大",
+      "title_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "summary_cn": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
       "category": "光模块",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:传闻·中性(5)；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为政策层面描述，未提及具体公司或业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为政策层面描述，未提及具体公司或业绩影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
+      "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
+      "pubDate": "2026-08-23T23:16:42.000Z",
+      "source": "风闻",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5",
+      "eventId": "evt_jmi16x",
+      "eventTitle": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+      "eventSources": [
+        "风闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
+          "description": "美国禁止进口中国光模块，卡了本国AI基建的脖子&nbsp;&nbsp; 风闻",
+          "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1DME1TSUZScE9wVTJaMU5FTjdQRzdnUUVoejhha2Y3WDBtUDdXZGJLWWtnRHExVTZ0WHA1TEF2YkdqN1FNU0pqWWtoS1RIZkE0eXEyMjh3Ul9qcWc?oc=5",
+          "pubDate": "2026-08-23T23:16:42.000Z",
+          "source": "风闻"
+        }
+      ]
+    },
+    {
+      "title_cn": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "summary_cn": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "新易盛(300502)",
+      "notes": "AI研判:新闻为活动日程描述，无市场影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "新闻为活动日程描述，无市场影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "description": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航空航天论坛将于8月24日至26日在海南文昌举办。",
+      "pubDate": "2026-08-24T00:05:10.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
+      "eventId": "evt_1pex10l",
+      "eventTitle": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "8月24日投资日历 | 2026文昌国际航空航天论坛将于今日举办",
+          "description": "【8月24日投资日历】（1）8月24日美股盘前拼多多、小鹏汽车将公布财报数据。（2）新易盛、立讯精密、万华化学等股将披露2026年中报。（3）2026文昌国际航空航天论坛将于8月24日至26日在海南文昌举办。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-24T00:05:10.000Z",
+          "source": "东方财富",
+          "link": "http://finance.eastmoney.com/news/11848,202608243850473524.html",
+          "eventId": "evt_1pex10l",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+      "summary_cn": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:新闻为技术发布描述，无明确市场影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "新闻为技术发布描述，无明确市场影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+      "description": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医疗与天津大学共同发布全球首套磁共振脑机接口全栈式解决方案“uMR神观”。“uMR神观”贯穿脑机接口从基础研究到临床落地的全链条，推动“读懂大脑、精准调控，让神经可塑性可测可控”成为现实。",
+      "pubDate": "2026-08-24T00:46:02.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
+      "eventId": "evt_125zw94",
+      "eventTitle": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "磁共振脑机接口全栈式解决方案“uMR神观”发布",
+          "description": "【磁共振脑机接口全栈式解决方案“uMR神观”发布】23日，以“融合·解码·调控——开启脑机交互新纪元”为主题的全国首届磁共振脑机接口大会在天津举行。会上，联影医疗与天津大学共同发布全球首套磁共振脑机接口全栈式解决方案“uMR神观”。“uMR神观”贯穿脑机接口从基础研究到临床落地的全链条，推动“读懂大脑、精准调控，让神经可塑性可测可控”成为现实。",
+          "guessedSector": "创新药",
+          "pubDate": "2026-08-24T00:46:02.000Z",
+          "source": "东方财富",
+          "link": "http://finance.eastmoney.com/news/1350,202608243850483461.html",
+          "eventId": "evt_125zw94",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "中际旭创回应二季度资本开支增长原因：多处厂房在扩建",
+      "summary_cn": "关于二季度资本开支增长的原因，中际旭创8月23日在机构电话会议上表示，资本开支包括设备和厂房的投入，公司多处厂房都在扩建中，小部分预计在2026年下半年交付，大",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "中际旭创(300308)",
+      "notes": "AI研判:新闻为资本开支解释描述，无明确业绩影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [
+        "中际旭创"
+      ],
+      "reasoning": [
+        "新闻为资本开支解释描述，无明确业绩影响"
+      ],
+      "evidence": [],
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "中际旭创回应二季度资本开支增长原因：多处厂房在扩建",
       "description": "关于二季度资本开支增长的原因，中际旭创8月23日在机构电话会议上表示，资本开支包括设备和厂房的投入，公司多处厂房都在扩建中，小部分预计在2026年下半年交付，大部分预计在2027年交付。另外，基建支出投入周期较长，大部分会在2027年开始转化为收入。整体来看，未来收入有望实现逐季度增长。",
       "pubDate": "2026-08-24T00:16:59.000Z",
@@ -1938,21 +2557,23 @@
       "title_cn": "客户是否有签订光模块的长协？中际旭创回应",
       "summary_cn": "关于客户是否有签订光模块的长协，中际旭创8月23日在机构电话会议上表示，过去光模块行业通常签订3个月订单，目前很多客户已给到2027年订单，相较过去已有较大提升",
       "category": "光模块",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -5.9%)调至利空",
-      "sentiment": "利空",
+      "time_window": "长期",
+      "tickers": "中际旭创(300308)",
+      "notes": "AI研判:新闻为订单模式描述，无明确业绩影响",
+      "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [],
+      "affected_companies": [
+        "中际旭创"
+      ],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为订单模式描述，无明确业绩影响"
       ],
       "evidence": [],
       "confidence_score": 0.7,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "客户是否有签订光模块的长协？中际旭创回应",
       "description": "关于客户是否有签订光模块的长协，中际旭创8月23日在机构电话会议上表示，过去光模块行业通常签订3个月订单，目前很多客户已给到2027年订单，相较过去已有较大提升。也有部分客户正在与公司洽谈长协，具体细节不便披露。",
       "pubDate": "2026-08-24T00:16:42.000Z",
@@ -1983,21 +2604,21 @@
       "title_cn": "【早报】事关AI 阿里巴巴、英伟达大动作来了；长存控股IPO获受理",
       "summary_cn": "宏观新闻1、李强上周五主持召开国务院常务会议，会议指出，要积极顺应新一轮科技革命和产业变革趋势，牢牢把握新一代通信网建设的机遇，坚持应用牵引、适度超前，统筹推进",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为宏观政策描述，无明确行业影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为宏观政策描述，无明确行业影响"
       ],
       "evidence": [],
-      "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "【早报】事关AI 阿里巴巴、英伟达大动作来了；长存控股IPO获受理",
       "description": "宏观新闻1、李强上周五主持召开国务院常务会议，会议指出，要积极顺应新一轮科技革命和产业变革趋势，牢牢把握新一代通信网建设的机遇，坚持应用牵引、适度超前，统筹推进基础网络、空间网络、国际网络、融合网络建设，巩固提升我国信息通信业竞争优势。2、财政部数据显示，1—7月，全国一般公共预算收入143696亿元，同比增长5.8%。",
       "pubDate": "2026-08-23T23:00:00.000Z",
@@ -2028,21 +2649,21 @@
       "title_cn": "半导体相关ETF成“吸金”主力 - 新浪财经",
       "summary_cn": "半导体相关ETF成“吸金”主力&nbsp;&nbsp; 新浪财经",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性；结合板块行情(ETF -4.5%)调至利空",
-      "sentiment": "利空",
+      "notes": "AI研判:新闻为ETF资金流向描述，无明确基本面影响",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判"
+        "新闻为ETF资金流向描述，无明确基本面影响"
       ],
       "evidence": [],
       "confidence_score": 0.6,
-      "uncertainty": "；含板块行情调向",
+      "uncertainty": "",
       "title": "半导体相关ETF成“吸金”主力 - 新浪财经",
       "description": "半导体相关ETF成“吸金”主力&nbsp;&nbsp; 新浪财经",
       "pubDate": "2026-08-23T16:00:00.000Z",
@@ -2051,31 +2672,17 @@
       "eventId": "evt_1vbu7ri",
       "eventTitle": "半导体相关ETF成“吸金”主力 - 新浪财经",
       "eventSources": [
-        "搜狐网",
         "新浪财经"
       ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5"
-      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
       "eventMembers": [
-        {
-          "title": "半导体相关ETF成“吸金”主力 - 搜狐网",
-          "description": "半导体相关ETF成“吸金”主力&nbsp;&nbsp; 搜狐网",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5",
-          "pubDate": "2026-08-24T00:48:29.000Z",
-          "source": "搜狐网"
-        },
         {
           "title": "半导体相关ETF成“吸金”主力 - 新浪财经",
           "description": "半导体相关ETF成“吸金”主力&nbsp;&nbsp; 新浪财经",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-23T16:00:00.000Z",
-          "source": "新浪财经",
           "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
-          "eventId": "evt_1vbu7ri",
-          "sourceCount": 2,
-          "archived": true
+          "pubDate": "2026-08-23T16:00:00.000Z",
+          "source": "新浪财经"
         }
       ]
     }
@@ -2085,45 +2692,48 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利空",
-      "news_count": 17,
-      "summary": "半导体板块17条新闻，方向以利空为主。关注：创业板指日内跌超4%，沪指跌0.95%，深成指跌2.85%，算力硬件、生物医",
-      "tickers": "中芯国际、北方华创、中微公司"
+      "news_count": 22,
+      "summary": "半导体板块22条新闻，方向以利空为主。关注：【美元走软叠加芯片出口强劲，韩元升至近一年高点】；【美元走软叠加芯片出口强劲",
+      "tickers": "中芯国际(688981)",
+      "notes": "；ETF校准(当日-5.1%)"
     },
     {
       "name": "光模块",
       "shock": "强",
       "direction": "利空",
-      "news_count": 12,
-      "summary": "光模块板块12条新闻，方向以利空为主。关注：中信证券：光模块加速放量 模拟芯片龙头业绩高增；【中信证券：光模块加速放量 ",
-      "tickers": "中际旭创、新易盛、天孚通信"
+      "news_count": 14,
+      "summary": "光模块板块14条新闻，方向以利空为主。关注：中信证券：光模块加速放量 模拟芯片龙头业绩高增；【中信证券：光模块加速放量 ",
+      "tickers": "中际旭创(300308)、新易盛(300502)、天孚通信(300394)、太辰光(300570)",
+      "notes": "；ETF校准(当日-6.4%)"
     },
     {
       "name": "黄金",
       "shock": "强",
       "direction": "中性",
-      "news_count": 9,
-      "summary": "黄金板块9条新闻，方向以中性为主",
+      "news_count": 10,
+      "summary": "黄金板块10条新闻，方向以中性为主",
       "tickers": "紫金矿业、山东黄金、中金黄金",
-      "notes": "；ETF校准(当日+1.6%)"
+      "notes": "；ETF校准(当日+1.7%)"
     },
     {
       "name": "创新药",
-      "shock": "中",
+      "shock": "弱",
       "direction": "利空",
       "news_count": 4,
       "summary": "创新药板块4条新闻，方向以利空为主",
-      "tickers": "百济神州、药明康德、恒瑞医药"
+      "tickers": "百济神州、药明康德、恒瑞医药",
+      "notes": "；ETF校准(当日-5.2%)"
     }
   ],
   "keyPoints": [
-    "【半导体】半导体板块ETF平均跌幅-4.5%，多只芯片ETF跌超5%，算力硬件股大面积调整，中际旭创等个股跌幅居前",
-    "【光模块】光模块板块ETF平均跌幅-5.9%，中际旭创、新易盛等个股融资买入额排名前三，但资金净流出居前",
-    "【黄金】黄金板块ETF平均涨幅+1.6%，伦敦现货黄金创三个月新高，上海黄金交易所黄金T+D早盘上涨2.04%",
-    "【创新药】创新药板块ETF平均跌幅-4.9%，CRO概念大幅调整，海特生物等个股跌幅居前",
-    "【半导体】SK海力士正为其下一代HBM方案引入先进封装技术，利好长期发展",
-    "【黄金】美国财政部扩大回购托底长端利率，美元信用弱化主线强化，金价短期走势充满变数"
+    "【半导体】创业板指日内跌超4%，半导体芯片ETF平均跌幅达-5.1%，行业短期面临调整压力",
+    "【光模块】CPO概念持续下挫，中际旭创跌近10%，天孚通信跌超11%，光模块ETF平均跌幅-6.4%",
+    "【黄金】黄金创三个月新高，伦敦现货黄金站上4600美元/盎司，黄金ETF平均涨幅+1.7%",
+    "【半导体】SK海力士引入先进封装技术加速HBM产品路线图，突破16层堆叠限制",
+    "【光模块】中信证券报告指出AI算力需求推动光模块终端持续放量，预计2026年全球800G/1.6T光模块出货约5000-6000/2000-3000万支",
+    "【黄金】美国财政部扩大回购托底长端利率，美元信用弱化主线强化，把握金价回调布局窗口"
   ],
-  "marketSummary": "半导体板块今日大幅下跌，ETF平均跌幅-4.5%，多只芯片ETF跌超5%，算力硬件股大面积调整，中际旭创等个股跌幅居前。光模块板块同样表现疲软，ETF平均跌幅-5.9%，尽管中际旭创等个股融资买入额排名前三，但资金净流出居前。创新药板块ETF平均跌幅-4.9%，CRO概念大幅调整。黄金板块逆势上涨，ETF平均涨幅+1.6%，伦敦现货黄金创三个月新高，上海黄金交易所黄金T+D早盘上涨2.04%。整体来看，科技板块今日普遍调整，而黄金板块表现相对强势。",
+  "marketSummary": "当日市场整体呈现分化走势，半导体和光模块板块因行业调整压力表现疲软，半导体ETF平均跌幅-5.1%，光模块ETF平均跌幅-6.4%。黄金板块逆势走强，ETF平均涨幅+1.7%，金价创三个月新高。半导体领域，SK海力士引入先进封装技术加速HBM产品路线图，国产替代进程持续推进；光模块板块中，中信证券报告指出AI算力需求将持续推动光模块放量。黄金板块受美债回购和美元下行推动，短期表现强势。市场情绪较为谨慎，投资者关注技术迭代和政策变化对行业的影响。",
   "isAi": true,
   "fullNews": [
     {
@@ -2134,7 +2744,7 @@
       "source": "华尔街见闻",
       "link": "https://wallstreetcn.com/articles/3153661",
       "eventId": "evt_7cdfv7",
-      "sourceCount": 6
+      "sourceCount": 8
     },
     {
       "title": "美国禁止进口中国光模块，卡了本国AI基建的脖子 - 风闻",
@@ -2164,17 +2774,57 @@
       "source": "新浪财经",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
       "eventId": "evt_1vbu7ri",
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
-      "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
-      "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
+      "title": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-24T05:49:11.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
+      "eventId": "evt_1lcgj1n",
+      "sourceCount": 4
+    },
+    {
+      "title": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-24T05:10:13.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2462057",
+      "eventId": "evt_nb9jlp",
+      "sourceCount": 1
+    },
+    {
+      "title": "创业板指跌逾4%",
+      "description": "【创业板指跌逾4%】财联社8月24日电，指数走弱，创业板指下挫跌逾4.00%，沪指跌0.95%，深成指跌2.82%，玻纤、铜箔/覆铜板、AMD概念等板块指数跌幅居前，锰硅、贵金属、煤炭等板块指数涨幅居前。",
       "guessedSector": "黄金",
-      "pubDate": "2026-08-24T04:30:13.000Z",
+      "pubDate": "2026-08-24T05:05:05.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2462125",
+      "eventId": "evt_y70t23",
+      "sourceCount": 1
+    },
+    {
+      "title": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
+      "description": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】金十数据8月24日讯，周一，韩元升至近一年高点。美元维持在数月低点附近，美债回购以及对伊朗制裁带来的不确定性给市场带来了压力。美元走软为亚洲货币提供了一定喘息空间，周一韩元领涨，韩元兑美元一度升至1,376.5，创下自2025年9月中旬以来的最强水平。除了外部因素外，韩国半导体出口激增也助推了韩元走强，并使其得以抵御油价上涨带来的压力。华侨银行外汇策略师Christopher Wong表示：“出口商和企业的美元抛售，加上美元整体走软，似乎为韩元提供了更持续的支撑。”",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-24T05:49:41.000Z",
       "source": "金十数据",
       "link": "",
-      "eventId": "evt_5v0vps",
+      "eventId": "evt_100cwab",
       "sourceCount": 1
+    },
+    {
+      "title": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
+      "description": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易所白银T+D 8月24日（周一）早盘盘初上涨1.3%报16854.0元/千克。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-24T01:01:47.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1uz7n1q",
+      "sourceCount": 2
     },
     {
       "title": "突然变盘！“易中天”三大巨头集体下跌！重磅“新技术”曝光 影响多大？",
@@ -2207,6 +2857,16 @@
       "sourceCount": 2
     },
     {
+      "title": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
+      "description": "2026中国首席经济学家复旦管院科创论坛日前在复旦大学管理学院政立院区举行。本次论坛以“乾坤挪转科创引领——重构中国经济新未来”为主题，集结国内顶尖首席经济学家、复旦管院资深学者，以及来自商业航天、生物医药、半导体、高端制造等硬核科创龙头的企业家和优秀校友代表，打通宏观大势、产业实战、资本定价三大维度，深度解码中国经济转型逻辑，探寻科创产业高质量发展全新路径。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-24T04:33:42.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608243850967927.html",
+      "eventId": "evt_11h0w82",
+      "sourceCount": 1
+    },
+    {
       "title": "对话彭雅哲：中国产业换挡时刻，新“新三样”如何改写增长逻辑？",
       "description": "【编者按】2026年上半年，我国高技术产业交出了一份亮眼的外贸与产业成绩单：海关总署数据显示，算力硬件进出口总额达5.13万亿元，同比增长56.6%；手术机器人出口同比激增3.3倍，工业机器人出口同比增长18.6%；国家药监局数据显示，创新药对外授权总金额已达去年全年的八成规模。",
       "guessedSector": "创新药",
@@ -2214,6 +2874,66 @@
       "source": "东方财富",
       "link": "http://finance.eastmoney.com/news/1350,202608243850920061.html",
       "eventId": "evt_1421dth",
+      "sourceCount": 1
+    },
+    {
+      "title": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-24T05:52:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrw6210825.d.html",
+      "eventId": "evt_rnqwtm",
+      "sourceCount": 1
+    },
+    {
+      "title": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-24T05:49:04.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0104000.d.html",
+      "eventId": "evt_aihl0s",
+      "sourceCount": 1
+    },
+    {
+      "title": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-24T05:48:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054081.d.html",
+      "eventId": "evt_lp5icj",
+      "sourceCount": 1
+    },
+    {
+      "title": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
+      "description": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-24T04:20:53.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153648",
+      "eventId": "evt_1fgpwmf",
+      "sourceCount": 1
+    },
+    {
+      "title": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
+      "description": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-24T04:14:18.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3153644",
+      "eventId": "evt_1h1gcgg",
+      "sourceCount": 1
+    },
+    {
+      "title": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "description": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】金十数据8月24日讯，泰国财政部长周一表示，政府本周将与黄金协会讨论拟议中的税收措施。财政部长埃克尼蒂·尼蒂坦普拉帕斯表示，泰国将考虑对黄金交易和进口征税，并补充称，此举旨在遏制非法资金流动，无意高额征收黄金税。他表示，拟议的税率不会设定在损害黄金交易行业水平的程度，而是旨在使当局能够追踪和监控“灰色”资金。黄金交易商一直反对征收黄金税，警告称这将重创企业，并削弱泰国作为黄金主要交易枢纽的地位。今年早些时候，泰国央行出台了限制在线黄金交易的规则，包括每人每平台每日交易限额为5000万泰铢（150万美元）。泰国央行还提议对金店里的实物金条交易设定现金支付限额。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-24T04:30:13.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_5v0vps",
       "sourceCount": 1
     },
     {
@@ -2244,26 +2964,6 @@
       "source": "新浪财经",
       "link": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html",
       "eventId": "evt_1smx4j3",
-      "sourceCount": 1
-    },
-    {
-      "title": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
-      "description": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-24T04:20:53.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153648",
-      "eventId": "evt_1fgpwmf",
-      "sourceCount": 1
-    },
-    {
-      "title": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
-      "description": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-24T04:14:18.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3153644",
-      "eventId": "evt_1h1gcgg",
       "sourceCount": 1
     },
     {
@@ -2434,16 +3134,6 @@
       "source": "金十数据",
       "link": "",
       "eventId": "evt_11qrdw0",
-      "sourceCount": 1
-    },
-    {
-      "title": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
-      "description": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易所白银T+D 8月24日（周一）早盘盘初上涨1.3%报16854.0元/千克。",
-      "guessedSector": "黄金",
-      "pubDate": "2026-08-24T01:01:47.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1uz7n1q",
       "sourceCount": 1
     },
     {
@@ -2552,85 +3242,85 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.105,
-      "change": -4.659188955996553
+      "price": 1.099,
+      "change": -5.176876617773948
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.054,
-      "change": -4.5289855072463805
+      "price": 1.049,
+      "change": -4.981884057971028
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.121,
-      "change": -4.433077578857634
+      "price": 1.113,
+      "change": -5.1150895140665
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 0.987,
-      "change": -6.000000000000005
+      "price": 0.981,
+      "change": -6.5714285714285765
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.637,
-      "change": -5.908419497784347
+      "price": 0.635,
+      "change": -6.203840472673565
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 2.833,
-      "change": -5.880398671096333
+      "price": 2.821,
+      "change": -6.2790697674418485
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.637,
-      "change": -4.7832585949177915
+      "price": 0.635,
+      "change": -5.082212257100154
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.687,
-      "change": -4.979253112033184
+      "price": 0.683,
+      "change": -5.532503457814651
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.85,
-      "change": -4.815229563269881
+      "price": 0.848,
+      "change": -5.039193729003364
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.533,
-      "change": 1.5445249254367233
+      "price": 9.547,
+      "change": 1.6936514699616607
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.958,
-      "change": 1.550071384866419
+      "price": 9.972,
+      "change": 1.6928411176830551
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.992,
-      "change": 1.5653588127668399
+      "price": 10.007,
+      "change": 1.7178288269973623
     }
   ],
   "chartData": {
@@ -2702,7 +3392,7 @@
             79.77,
             78.94,
             79.49,
-            74.99
+            74.55
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -2746,7 +3436,7 @@
             87.32,
             88.27,
             90.6,
-            128.19
+            127.61
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -2790,7 +3480,7 @@
             105.67,
             110.39,
             105.35,
-            114.13
+            113.7
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -2834,7 +3524,7 @@
             106.59,
             109.68,
             111.51,
-            116.73
+            116.9
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -2852,10 +3542,10 @@
       "datasets": [
         {
           "data": [
-            8,
-            26,
-            5,
-            3
+            13,
+            6,
+            25,
+            6
           ],
           "backgroundColor": [
             "#16a34a",
@@ -2889,16 +3579,16 @@
       ],
       "matrix": {
         "半导体": {
-          "极高": 0,
-          "高": 3,
+          "极高": 3,
+          "高": 2,
           "中": 4,
-          "低": 10
+          "低": 13
         },
         "光模块": {
-          "极高": 0,
+          "极高": 1,
           "高": 2,
-          "中": 1,
-          "低": 9
+          "中": 3,
+          "低": 8
         },
         "创新药": {
           "极高": 0,
@@ -2907,10 +3597,10 @@
           "低": 3
         },
         "黄金": {
-          "极高": 1,
+          "极高": 2,
           "高": 2,
-          "中": 1,
-          "低": 5
+          "中": 2,
+          "低": 4
         }
       },
       "hasData": true
@@ -2926,38 +3616,38 @@
         {
           "label": "利好",
           "data": [
+            6,
             3,
-            2,
             0,
-            3
+            4
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "利空",
           "data": [
-            13,
-            9,
-            3,
-            1
+            2,
+            2,
+            0,
+            2
           ],
           "backgroundColor": "#dc2626"
         },
         {
           "label": "中性",
           "data": [
-            0,
-            0,
-            0,
-            5
+            11,
+            7,
+            3,
+            4
           ],
           "backgroundColor": "#9ca0af"
         },
         {
           "label": "分化",
           "data": [
-            1,
-            1,
+            3,
+            2,
             1,
             0
           ],
@@ -2975,9 +3665,9 @@
       "datasets": [
         {
           "data": [
-            26,
+            25,
             6,
-            10
+            19
           ],
           "backgroundColor": [
             "#2563eb",

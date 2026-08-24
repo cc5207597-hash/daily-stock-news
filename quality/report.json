@@ -766,15 +766,15 @@
       "date": "20260824",
       "displayDate": "2026-08-24",
       "isAi": true,
-      "newsCount": 42,
+      "newsCount": 50,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 1,
-        "high": 8
+        "vhigh": 6,
+        "high": 7
       },
-      "signalHitRate": 33,
+      "signalHitRate": 0,
       "directions": {
         "利好": 0,
         "利空": 3,
@@ -800,7 +800,7 @@
         {
           "name": "创新药",
           "direction": "利空",
-          "shock": "中"
+          "shock": "弱"
         }
       ]
     }
@@ -808,7 +808,7 @@
   "total": 19,
   "coveredAll": 16,
   "coverageRate": 84,
-  "avgImpactHigh": 9,
+  "avgImpactHigh": 10,
   "consistency": {
     "黄金": 33,
     "半导体": 67,

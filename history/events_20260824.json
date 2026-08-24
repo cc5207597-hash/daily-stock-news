@@ -1,6 +1,6 @@
 {
   "date": "20260824",
-  "count": 42,
+  "count": 50,
   "events": [
     {
       "eventId": "evt_7cdfv7",
@@ -10,33 +10,50 @@
       "sources": [
         "华尔街见闻",
         "chnfund.com",
-        "21财经",
-        "新浪网",
+        "新浪财经",
         "搜狐网",
-        "hstong.com"
+        "财联社",
+        "hstong.com",
+        "手机网易网",
+        "同花顺"
       ],
       "relatedArticles": [
         "https://wallstreetcn.com/articles/3153661",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYlFtY0ppTS1iMzlLeU9wcy00LWVJT1VjTl9BYjZxdXdjeFRwYW1zbEo1T1lScnZEQVpyOC1ZbGxnd2R3YnZlT2o5dThyN0R2TWVR?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
         "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
-        "https://news.google.com/rss/articles/CBMijwFBVV95cUxNRGpBZk9OVFZndnZxaFlPUS1FZXVTVi1FelBZSmNOMElMS2NoMWkwRk5oZk10STFDRWpKOVNlX2g1LUhEdUhaU0xWVXo1SDRPWGh0MHFnME9YazFNQ3NVS1dIY2t1UnpCeldsU29lMy1UWEU1RnU1WDROcThfVlJhWE92RU9GWVdDTVJiaFUzMA?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
         "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
         "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PRDBoN0prbzRyNzZZNkJVZVJqZXFqUFBObXBvcGlxNmZHSi1aZTd4Ukk2b19uamM4VnhOaTRfd0dUTUxKTTBMZ1U0aXZwaGVybTNv?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
-        "https://wallstreetcn.com/articles/3153612"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2051533.d.html",
+        "https://wallstreetcn.com/articles/3153670",
+        "https://wallstreetcn.com/articles/3776698"
       ]
     },
     {
@@ -69,23 +86,77 @@
       "canonicalLink": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
       "memberCount": 1,
       "sources": [
-        "搜狐网",
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5",
-        "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRm5SNVFaZFFQaEE2UzNSYnppS3prVjN4TGtILVV2aWUxdUk0bTROUjFBQWE4X3ZSYXNSaVZKTHQ4YTZjemMzTEd1RmplLVNUXzQyanl4WFpiRVZnZmRzV0JLUXR5VVNmWjE3b2tEVmlOeVBiOGFXYjY3bFpyZmRUcDVnT0NRcUxUamF3Uw?oc=5"
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GRFlYVlFaOEdxZk1fQ2NFdzNMU0NJVXZvaGdUeXI5WEc1RkZWYm5DRDJqVHhaQzgzR3JhNXdZSF9sU3VWcmdhVVM4ZlJmVVdQcFBGVUNwSmF2RmlXbklLb01LbnFGTDhlbGtEeUlsVVB5Rnp4TVFrdQ?oc=5"
       ]
     },
     {
-      "eventId": "evt_5v0vps",
-      "canonicalTitle": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "eventId": "evt_1lcgj1n",
+      "canonicalTitle": "【CPO概念持续下挫 中际旭创跌近10%】午后CPO概念持续下挫，中际旭创跌近10%，A+H股总市值跌破1万亿，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华芯、东山精密均跌超6%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
+      "memberCount": 1,
+      "sources": [
+        "财联社",
+        "金十数据",
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054820.d.html",
+        "https://www.cls.cn/detail/2462163",
+        "A股CPO概念午后持续下挫，中际旭创跌近10%，天孚通信跌超11%，新易盛、太辰光、中瓷电子、长光华",
+        "https://wallstreetcn.com/articles/3153674"
+      ]
+    },
+    {
+      "eventId": "evt_nb9jlp",
+      "canonicalTitle": "【风口研报·公司】AI光互连升级催生TFLN产业化验证，这家公司卡位8英寸晶圆稀缺产能补充供需缺口，沿“样品验证+小批量导入+规模化交付”路径逐步渗透",
+      "canonicalLink": "https://www.cls.cn/detail/2462057",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462057"
+      ]
+    },
+    {
+      "eventId": "evt_y70t23",
+      "canonicalTitle": "创业板指跌逾4%",
+      "canonicalLink": "https://www.cls.cn/detail/2462125",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2462125"
+      ]
+    },
+    {
+      "eventId": "evt_100cwab",
+      "canonicalTitle": "【美元走软叠加芯片出口强劲，韩元升至近一年高点】",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
         "金十数据"
       ],
       "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1uz7n1q",
+      "canonicalTitle": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "台湾加权指数8月24日（周一）收盘下跌461.97点，跌幅1.02%，报44762.32点。",
+        "https://wallstreetcn.com/articles/3153668"
+      ]
     },
     {
       "eventId": "evt_13801be",
@@ -126,6 +197,18 @@
       ]
     },
     {
+      "eventId": "evt_11h0w82",
+      "canonicalTitle": "深度解码中国经济转型逻辑，2026中国首席经济学家复旦管院科创论坛举行",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850967927.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608243850967927.html"
+      ]
+    },
+    {
       "eventId": "evt_1421dth",
       "canonicalTitle": "对话彭雅哲：中国产业换挡时刻，新“新三样”如何改写增长逻辑？",
       "canonicalLink": "http://finance.eastmoney.com/news/1350,202608243850920061.html",
@@ -136,6 +219,76 @@
       "relatedArticles": [
         "http://finance.eastmoney.com/news/1350,202608243850920061.html"
       ]
+    },
+    {
+      "eventId": "evt_rnqwtm",
+      "canonicalTitle": "【雷军称国内高端汽车市场青黄不接】8月24日，小米集团创始人、董事长兼CEO雷军近日在接受《人民日报》与中国汽车报记者联合采访时表示，中国汽车产业高端化是较为确定的方向，当前国内高端汽车市场处于产品青黄不接的状态，豪华车市场正面临重构。 雷军指出，中国在10年前甚至20年前就已实现大部分零部件产品的国产替代，整车设计和制造只是水平高低的问题。当前在中高端领域，车载芯片、车载操作系统及碳陶瓷刹车盘等高端零部件正进入国产替代阶段。他预计这一过程还需5到10年，需要像小米这样的公司做好“链主”，带动中国高端零部件产业形成体系。 雷军认为，行业“内卷”的本质是竞争，中国汽车工业整体已具备极强竞争力，中低端产品成熟度极高。但中低端市场很卷，中高端市场则缺少好的供给。中国汽车产业进一步升级，需要走出舒适圈，回答好如何做出有特色的好产品、如何做好中高端甚至超高端产品等关键问题。（人民日报、中国汽车报）",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrw6210825.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrw6210825.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_aihl0s",
+      "canonicalTitle": "市场消息：大立光与台积电携手合作，布局共封装光学（CPO）领域人工智能市场机遇。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0104000.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0104000.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_lp5icj",
+      "canonicalTitle": "A股算力硬件股持续下挫，可川科技、方正科技触及跌停，天孚通信、锐捷网络、中英科技、德福科技等均跌超10%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054081.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvru2054081.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1fgpwmf",
+      "canonicalTitle": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153648",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153648"
+      ]
+    },
+    {
+      "eventId": "evt_1h1gcgg",
+      "canonicalTitle": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3153644",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3153644"
+      ]
+    },
+    {
+      "eventId": "evt_5v0vps",
+      "canonicalTitle": "【泰国考虑对黄金交易和进口征税 以遏制非法资金流动】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
     },
     {
       "eventId": "evt_1pex10l",
@@ -171,30 +324,6 @@
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-08-24/detail-inipkvrt0082691.d.html"
-      ]
-    },
-    {
-      "eventId": "evt_1fgpwmf",
-      "canonicalTitle": "泰国财长：加征黄金税旨在遏制非法资金流向，无意征收高额黄金税。",
-      "canonicalLink": "https://wallstreetcn.com/articles/3153648",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153648"
-      ]
-    },
-    {
-      "eventId": "evt_1h1gcgg",
-      "canonicalTitle": "泰国财政部：将考虑对黄金交易和黄金进口征税，本周将讨论相关税收。",
-      "canonicalLink": "https://wallstreetcn.com/articles/3153644",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3153644"
       ]
     },
     {
@@ -384,16 +513,6 @@
     {
       "eventId": "evt_11qrdw0",
       "canonicalTitle": "美国财政部再度出手托底债市，黄金本周强势突破。然而期权到期日的临近，让金价短期走势充满变数……点击查",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": []
-    },
-    {
-      "eventId": "evt_1uz7n1q",
-      "canonicalTitle": "上海黄金交易所黄金T+D 8月24日（周一）早盘盘初上涨2.04%报997.75元/克；上海黄金交易",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
