@@ -101,7 +101,7 @@ test('降级产物:板块矩阵每块有中文 summary,不至于空', async () =
 
 // ── ETF 硬校准:板块方向以当日 ETF 涨跌为准 ─────────────
 
-test('关键词引擎:大跌板块矩阵被 ETF 校准为利空', async () => {
+test('关键词引擎:大跌板块矩阵被 ETF 校准为利空,单条新闻保持内容判断', async () => {
   const etfData = [
     { category: '半导体', change: -8.2 },
     { category: '光模块', change: -7.9 },
@@ -109,15 +109,14 @@ test('关键词引擎:大跌板块矩阵被 ETF 校准为利空', async () => {
     { category: '黄金', change: -1.1 },
   ];
   const r = await analyzeWithKeywords(
-    [item('半导体板块继续调整', '光刻胶概念走弱', '半导体')],
+    [item('半导体板块维持整理', '多空双方胶着', '半导体')],
     etfData,
   );
   const sem = r.sectorMatrix.find(s => s.name === '半导体');
-  assert.equal(sem.direction, '利空');
-  // 逐条方向:中性条目随行情调向(卡片/情绪图一致)
+  assert.equal(sem.direction, '利空'); // 板块方向:ETF 硬校准(板块看行情)
   const a = r.analyzed.find(n => n.category === '半导体');
-  assert.equal(a.direction, '利空');
-  assert.match(a.notes, /ETF/);
+  assert.equal(a.direction, '中性');   // 单条新闻:按内容判断,不被行情翻转
+  assert.ok(!/ETF/.test(a.notes), 'notes 不应再有 ETF 调向说明');
 });
 
 test('关键词引擎:±1% 内涨跌不干预新闻研判', async () => {

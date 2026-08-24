@@ -6,10 +6,12 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import {
   scoreNewsItem, sectorShock, sanitizeRating, SIGNALS,
-  sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
+  sectorAvgChange, etfDirectionFor,
   aggregateDirection, applyEtfCalibration,
   sanitizeExplanation, explanationToRating,
 } from '../pipeline/sentiment.mjs';
+import { extractCompanies } from '../pipeline/companies.mjs';
+import { IMPACT_RANK } from '../pipeline/sectors.mjs';
 
 const item = (title, description = '', guessedSector = '') => ({ title, description, guessedSector });
 
@@ -186,26 +188,6 @@ test('aggregateDirection:有分化票且利好利空并存 → 分化', () => {
   assert.equal(aggregateDirection(items), '分化');
 });
 
-test('reRateNeutralsToMarket:大跌板块内中性→利空,明确利好保持不变', () => {
-  const data = [etf('半导体', -8)];
-  const analyzed = [
-    { category: '半导体', direction: '中性', notes: '仅行情描述' },
-    { category: '半导体', direction: '利好', notes: 'FDA获批' },
-    { category: '黄金', direction: '中性', notes: '无行情' },
-  ];
-  const out = reRateNeutralsToMarket(analyzed, data);
-  assert.equal(out[0].direction, '利空');
-  assert.match(out[0].notes, /ETF/);
-  assert.equal(out[1].direction, '利好'); // 明确利好不被行情翻转
-  assert.equal(out[2].direction, '中性'); // 无行情板块不动
-});
-
-test('reRateNeutralsToMarket:±1% 内不调向', () => {
-  const data = [etf('半导体', 0.5)];
-  const out = reRateNeutralsToMarket([{ category: '半导体', direction: '中性', notes: '' }], data);
-  assert.equal(out[0].direction, '中性');
-});
-
 test('applyEtfCalibration:板块方向被硬校准(-8→利空, -2.3→中性, +3.5→利好)', () => {
   const secMap = {
     '半导体': { name: '半导体', direction: '利好', news_count: 5 },
@@ -280,13 +262,68 @@ test('explanationToRating:confidence 非法/缺失 → 中(保守)', () => {
   assert.equal(explanationToRating({ sentiment: '利好', confidence_score: '高' }).certainty, '中');
 });
 
-test('reRateNeutralsToMarket:调向时同步 sentiment/uncertainty,保持 1:1', () => {
-  const data = [etf('半导体', -8)];
-  const out = reRateNeutralsToMarket([
-    { category: '半导体', direction: '中性', sentiment: '中性', notes: '', uncertainty: '无' },
-  ], data);
-  assert.equal(out[0].direction, '利空');
-  assert.equal(out[0].sentiment, '利空'); // 新字段同步调向
-  assert.match(out[0].uncertainty, /板块行情/);
+// ── 否定词处理(修复"暂停降息命中降息利好"类误判)────────
+
+test('否定词:「暂停降息」不命中降息利好 → 中性', () => {
+  const r = scoreNewsItem(item('美联储暂停降息', '', '黄金'));
+  assert.equal(r.direction, '中性');
+});
+
+test('否定词:「降息预期降温」不命中降息利好 → 中性(kw 后置否定)', () => {
+  const r = scoreNewsItem(item('美联储降息预期降温', '', '黄金'));
+  assert.equal(r.direction, '中性');
+});
+
+test('否定词:kw 自含否定(业绩不及预期)不受影响,仍判利空', () => {
+  const r = scoreNewsItem(item('XX公司业绩不及预期', '', '半导体'));
+  assert.equal(r.direction, '利空');
+});
+
+// ── 程度词分级(强/弱程度缩放 impact)────────────────────
+
+test('程度词:「小幅回落」impact 低于「暴跌」', () => {
+  const small = scoreNewsItem(item('金价小幅回落', '', '黄金'));
+  const crash = scoreNewsItem(item('金价暴跌', '', '黄金'));
+  assert.equal(small.direction, '利空');
+  assert.equal(crash.direction, '利空');
+  assert.ok(IMPACT_RANK[small.impact] > IMPACT_RANK[crash.impact], `小幅(${small.impact})应低于暴跌(${crash.impact})`);
+});
+
+// ── 公司→ticker 映射 ──────────────────────────────────
+
+test('公司映射:extractCompanies 命中公司与 ticker', () => {
+  const cs = extractCompanies('中芯国际先进制程突破,北方华创受益', '半导体');
+  const names = cs.map(c => c.name);
+  assert.ok(names.includes('中芯国际'));
+  assert.ok(names.includes('北方华创'));
+  assert.equal(cs.find(c => c.name === '中芯国际').ticker, '688981');
+});
+
+test('关键词评级:命中公司 → companies/tickers 字段有值', () => {
+  const r = scoreNewsItem(item('中芯国际营收创新高', '', '半导体'));
+  assert.ok(r.companies.includes('中芯国际'));
+  assert.match(r.tickers, /中芯国际\(688981\)/);
+});
+
+// ── 新信号类别 ────────────────────────────────────────
+
+test('新信号:「存储芯片涨价」→ 利好', () => {
+  const r = scoreNewsItem(item('存储芯片涨价,供不应求', '', '半导体'));
+  assert.equal(r.direction, '利好');
+});
+
+test('新信号:「光模块价格战」→ 利空', () => {
+  const r = scoreNewsItem(item('光模块价格战,以价换量', '', '光模块'));
+  assert.equal(r.direction, '利空');
+});
+
+test('新信号:「大股东减持」→ 利空', () => {
+  const r = scoreNewsItem(item('大股东减持,套现离场', '', '半导体'));
+  assert.equal(r.direction, '利空');
+});
+
+test('行情信号补充:多字词(下跌/走弱)命中即定向', () => {
+  assert.equal(scoreNewsItem(item('半导体板块下跌3.2%', '', '半导体')).direction, '利空');
+  assert.equal(scoreNewsItem(item('光模块走弱', '', '光模块')).direction, '利空');
 });
 

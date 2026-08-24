@@ -6,7 +6,7 @@ import { dedupKey } from './clean.mjs';
 import { SECTORS, IMPACT_RANK, impactCompare } from './sectors.mjs';
 import {
   scoreNewsItem, sectorShock, sanitizeRating,
-  sectorAvgChange, etfDirectionFor, reRateNeutralsToMarket,
+  sectorAvgChange, etfDirectionFor,
   aggregateDirection, applyEtfCalibration,
   sanitizeExplanation, explanationToRating,
 } from './sentiment.mjs';
@@ -175,7 +175,7 @@ export function deriveExplanation(kw) {
   return {
     sentiment: kw.direction,
     market_impact: kw.impact,
-    affected_companies: [],
+    affected_companies: Array.isArray(kw.companies) ? kw.companies : [],
     reasoning,
     evidence,
     confidence_score: KW_CONFIDENCE[kw.certainty] ?? 0.5,
@@ -221,7 +221,7 @@ async function tryAnalyzeOnce(newsItems, etfData) {
 ${marketContext(etfData)}
 
 核心任务：对每条新闻逐一给出研判，条目数必须与输入完全一致（逐条全量研判，不要合并、不要删减）。规则：
-1. 方向判断必须结合当日板块行情：板块 ETF 大跌(平均跌幅超3%)时，该板块的行情类/利空类新闻应判"利空"；大涨(超3%)时行情类应判"利好"。不得因"仅是行情描述"就判中性 —— 涨跌行情本身就是方向。
+1. 行情描述类新闻(内容即板块/个股涨跌,如"板块大跌""个股涨停")应反映当日行情方向：板块 ETF 平均跌超3%时此类判"利空"、涨超3%时判"利好"。公司基本面/事件类新闻(业绩/FDA/订单/制裁/临床等)以其自身内容为准，不被板块行情覆盖 —— 不得因板块大跌就把基本面利好判成利空，避免整板块批量同向。
 2. 只调"中性"：有明确基本面(业绩/FDA/订单/制裁等)的新闻按其自身逻辑判断，不要被板块行情强行翻转。
 3. 若某条确属噪声/重复，仍要给方向(可标中性/低)，不要删条。
 4. 对关键词预判复核：同意则 reasoning 留"同意关键词预判"，修正则写明修正理由（如"板块大跌，行情类应判利空"）。
@@ -345,7 +345,7 @@ ${newsText}`;
       impact: rating.impact,
       certainty: rating.certainty,
       time_window: rating.time_window,
-      tickers: '—',
+      tickers: kw.tickers || '—',
       notes,
       sentiment: expl.sentiment,
       market_impact: expl.market_impact,
@@ -364,11 +364,10 @@ ${newsText}`;
 
   console.log(`  AI 逐条研判: ${analyzed.length} 条（原始 ${newsItems.length} 条，筛选 ${targets.length} 条）`);
 
-  // 让返回的逐条方向与板块矩阵一致:中性条目随大盘行情调向
-  const reRated = reRateNeutralsToMarket(analyzed, etfData);
+  // 逐条方向按内容判断(板块看行情、新闻看内容):不强制让新闻跟随板块行情
 
   return {
-    analyzed: reRated,
+    analyzed,
     sectorMatrix: buildSectorMatrix(reRated, etfData),
     keyPoints: result.key_points || [],
     marketSummary: result.market_summary || '',
@@ -442,13 +441,12 @@ const SECTOR_DEFAULT_TICKERS = {
 };
 
 // 共享板块矩阵构建(AI 与关键词两路径统一走它):
-// 1. 中性跟随行情(reRateNeutralsToMarket,须在聚合前)
-// 2. 分板块聚合:news_count + 加权投票(aggregateDirection,修复"最后写入胜出")
-// 3. ETF 硬校准(applyEtfCalibration,板块方向最终以当日 ETF 涨跌为准)
-// 4. 冲击 sectorShock + summary/tickers
+// 1. 分板块聚合:news_count + 加权投票(aggregateDirection,修复"最后写入胜出")
+// 2. ETF 硬校准(applyEtfCalibration,板块方向最终以当日 ETF 涨跌为准)
+// 3. 冲击 sectorShock + summary/tickers
 // 返回排序后的矩阵数组。
 export function buildSectorMatrix(analyzed, etfData) {
-  const reRated = reRateNeutralsToMarket(analyzed, etfData);
+  const reRated = analyzed;
   const secMap = {
     '半导体': { name: '半导体', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
     '光模块': { name: '光模块', shock: '中', direction: '中性', news_count: 0, summary: '', tickers: '' },
@@ -522,7 +520,7 @@ export async function analyzeWithKeywords(newsItems, etfData) {
       impact: rating.impact,
       certainty: rating.certainty,
       time_window: rating.time_window,
-      tickers: '—',
+      tickers: rating.tickers || '—',
       notes: rating.notes,
       sentiment: expl.sentiment,
       market_impact: expl.market_impact,
@@ -534,11 +532,11 @@ export async function analyzeWithKeywords(newsItems, etfData) {
     };
   }).filter(n => SECTORS.includes(n.category));
 
-  // 板块方向:先中性跟随行情,再加权投票聚合,最后 ETF 硬校准
+  // 板块方向:加权投票聚合 + ETF 硬校准(板块看行情)
   const matrix = buildSectorMatrix(analyzed, etfData);
 
-  // 让返回的逐条方向与矩阵一致:中性条目随大盘行情调向(卡片/情绪图随之改善)
-  const reRated = reRateNeutralsToMarket(analyzed, etfData);
+  // 逐条方向按内容判断(新闻看内容),不强制跟随板块行情
+  const reRated = analyzed;
 
   const points = [
     `今日共抓取 ${reRated.length} 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。`,

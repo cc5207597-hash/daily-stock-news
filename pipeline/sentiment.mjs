@@ -9,6 +9,7 @@
 // 产出枚举与渲染层约定一致:{利好/利空/中性/分化} 与 {极高/高/中/低}。
 
 import { matchKw } from './sectors.mjs';
+import { extractCompanies } from './companies.mjs';
 
 // ── 信号表 ───────────────────────────────────────────────
 // 每项:
@@ -46,9 +47,68 @@ export const SIGNALS = [
   // 行情类信号计入方向:涨/跌行情本身就是板块方向的最直接体现。
   // base=15 恰好越过 WEAK_MAX=15 压制(15 < 15 为假),下跌词同样命中即利空,
   // 避免"板块暴跌新闻被压成中性"。
-  { cat: '行情', kw: ['股价上涨', '大涨', '涨停', '领涨', 'surge', 'rally', 'soars', 'climbs'], dir: '利好', base: 15, weight: 1, note: '板块行情上涨' },
-  { cat: '行情', kw: ['暴跌', '重挫', '大跌', '跳水', '下挫', '领跌', '闪崩', '持续走低', '跌幅居前', 'crashed', 'plunge', 'plummet', 'slump', 'tumble', 'selloff', 'nosedive'], dir: '利空', base: 18, weight: 2, note: '板块行情走弱' },
+  // 补充多字词(下跌/收跌/走弱…):让"板块下跌3.2%"这类行情描述新闻也能
+  // 按内容定向,不再依赖"大跌/跳水"等强词(刻意不加单字"跌/涨"防误伤)。
+  { cat: '行情', kw: ['股价上涨', '大涨', '涨停', '领涨', '上涨', '收涨', '走强', '上行', '反弹', '翻红', 'surge', 'rally', 'soars', 'climbs'], dir: '利好', base: 15, weight: 1, note: '板块行情上涨' },
+  { cat: '行情', kw: ['暴跌', '重挫', '大跌', '跳水', '下挫', '领跌', '闪崩', '持续走低', '跌幅居前', '下跌', '收跌', '走弱', '走低', '回调', '回落', '下行', '下滑', '飘绿', 'crashed', 'plunge', 'plummet', 'slump', 'tumble', 'selloff', 'nosedive'], dir: '利空', base: 18, weight: 2, note: '板块行情走弱' },
+  // ── 供需/价格传导(半导体/光模块)──
+  { cat: '涨价', kw: ['涨价', '提价', '涨价函', '上调价格', '供需紧张', '供不应求', '缺货', '价格上调', 'price hike', 'price increase', 'shortage'], dir: '利好', base: 25, weight: 2, sectors: ['半导体', '光模块'], note: '供不应求/涨价,量价齐升利好' },
+  { cat: '降价', kw: ['降价', '跌价', '价格战', '以价换量', '去库存', '清库存', '库存高企', '供过于求', 'price war', 'oversupply', 'inventory glut'], dir: '利空', base: 25, weight: 2, sectors: ['半导体', '光模块'], note: '去库存/价格战,盈利承压' },
+  { cat: '资本开支', kw: ['资本开支上调', '上调资本开支', '资本支出', 'capex', '追加投资'], dir: '利好', base: 20, weight: 2, sectors: ['半导体', '光模块'], note: '上游资本开支上行,需求景气' },
+  // ── 股东行为 ──
+  { cat: '回购', kw: ['回购', '增持', '大股东增持', '管理层增持', 'buyback'], dir: '利好', base: 20, weight: 2, note: '回购/增持,大股东看好' },
+  { cat: '减持', kw: ['减持', '套现', '解禁', '股东减持', 'share sale'], dir: '利空', base: 20, weight: 2, note: '减持/解禁,筹码承压' },
+  // ── 财报口径补充 ──
+  { cat: '业绩', kw: ['营收增长', '净利增长', '利润增长', '业绩大增', '净利润同比增'], dir: '利好', base: 25, weight: 2 },
+  { cat: '业绩', kw: ['营收下滑', '净利下滑', '转亏', '首亏', '业绩预减', '利润下滑'], dir: '利空', base: 25, weight: 2 },
+  // ── 机构/研报(弱信号)──
+  { cat: '机构', kw: ['目标价上调', '买入评级', '增持评级', '推荐评级', '首予买入'], dir: '利好', base: 15, weight: 1, note: '机构看多(弱信号)' },
+  { cat: '机构', kw: ['目标价下调', '卖出评级', '下调评级', '减持评级'], dir: '利空', base: 15, weight: 1, note: '机构看空(弱信号)' },
+  // ── 创新药:医保/临床申报 ──
+  { cat: '医保', kw: ['医保谈判', '纳入医保', '医保目录', '进医保', '集采', '带量采购'], dir: '中性', base: 15, weight: 1, sectors: ['创新药'], note: '医保/集采放量利好但降价承压,标中性' },
+  { cat: '临床', kw: ['临床II期', '申报上市', 'IND获批', '获得临床许可', '启动III期'], dir: '利好', base: 20, weight: 2, sectors: ['创新药'] },
+  // ── 黄金:避险/美元 ──
+  { cat: '避险', kw: ['地缘冲突', '避险情绪', '避险需求', '美元走弱', '美元指数下跌', '实际利率下行'], dir: '利好', base: 18, weight: 2, sectors: ['黄金'], note: '避险/美元走弱利好金价' },
+  { cat: '避险', kw: ['美元走强', '美元指数上涨', '美债收益率上行', '实际利率上行', '风险偏好回升'], dir: '利空', base: 18, weight: 2, sectors: ['黄金'], note: '美元/利率走强压制金价' },
 ];
+
+// ── 否定词/程度词处理(关键词引擎精化)──────────────────
+// 否定词中和误判:如"暂停降息"命中"降息"利好、"降息预期降温"也应丢弃该
+// 信号。kw 自身含否定词(如"业绩不及预期")不受影响(kw.includes 判断保证)。
+const NEG_PREFIX_RE = /(不|未|无|没|不再|尚未|并未|并没有|未能|无法)$/; // 紧邻 kw 前
+const NEG_PHRASE_TERMS = ['暂停', '取消', '推迟', '延迟', '终止', '停止', '搁置', '降温', '回落', '放缓', '止跌', '止涨', '不及', '低于', '不达', '下修', '转跌', '转涨'];
+// 否定在 kw 之后:"降息预期回落/降温"。
+const NEG_POST_RE = /预期(回落|降温|消退|推迟|转弱|下降|减弱|搁置)/;
+
+function kwStart(text, kw) {
+  if (/^[a-z0-9+./#& -]+$/i.test(kw) && kw.length <= 8) {
+    const escaped = kw.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    const m = new RegExp(`(^|[^a-z0-9])${escaped}([^a-z0-9]|$)`, 'i').exec(text);
+    return m ? m.index + m[1].length : -1;
+  }
+  return text.indexOf(kw);
+}
+
+function isNegated(kw, text) {
+  if (NEG_PHRASE_TERMS.some(nt => kw.includes(nt))) return false;
+  const start = kwStart(text, kw);
+  if (start < 0) return false;
+  const pre = text.slice(Math.max(0, start - 4), start);
+  if (NEG_PREFIX_RE.test(pre)) return true;
+  if (NEG_PHRASE_TERMS.some(nt => pre.includes(nt))) return true;
+  const post = text.slice(start + kw.length, start + kw.length + 16);
+  return NEG_POST_RE.test(post);
+}
+
+// 程度词分级:强程度放大冲击分(抬 impact),弱程度缩小;方向分不调整。
+const STRONG_DEGREE = ['大幅', '显著', '创纪录', '历史新高', '新高', '首次', '突破', '暴涨', '暴跌', '骤降', '飙升', '翻番', '翻倍', '腰斩', '断崖', '激增', '锐减'];
+const WEAK_DEGREE = ['小幅', '微跌', '微涨', '略有', '略微', '温和', '窄幅', '轻微', '低幅', '微幅', '小涨', '小跌'];
+
+function degreeMultiplier(text) {
+  if (STRONG_DEGREE.some(d => text.includes(d))) return 1.5;
+  if (WEAK_DEGREE.some(d => text.includes(d))) return 0.5;
+  return 1;
+}
 
 // 冲击分 → impact 档位阈值(可配置)
 const IMPACT_BANDS = [
@@ -101,25 +161,27 @@ export function scoreNewsItem(n) {
 
   for (const sig of SIGNALS) {
     if (sig.sectors && !sig.sectors.includes(sector)) continue;
-    let titleHit = false, descHit = false;
+    let titleHit = false, descHit = false, hitKw = '';
     for (const k of sig.kw) {
-      if (matchKw(title, k)) { titleHit = true; break; }
+      if (matchKw(title, k)) { titleHit = true; hitKw = k; break; }
     }
     if (!titleHit) {
       for (const k of sig.kw) {
-        if (matchKw(desc, k)) { descHit = true; break; }
+        if (matchKw(desc, k)) { descHit = true; hitKw = k; break; }
       }
     }
     if (!titleHit && !descHit) continue;
 
-    // 标题满命中 weight,描述半命中 weight×0.5
+    const matched = titleHit ? title : desc;
+    // 否定词中和:如"暂停降息""降息预期回落"不应命中"降息"利好,整条信号丢弃
+    if (isNegated(hitKw, matched)) continue;
+
+    // 标题满命中 weight,描述半命中 weight×0.5;程度词分级缩放冲击分(方向分不动)
     const w = titleHit ? sig.weight : sig.weight * 0.5;
-    const pts = Math.round(sig.base * w);
+    const pts = Math.round(sig.base * w * degreeMultiplier(matched));
     scoreImpact += pts;
     if (sig.dir === '利好') scorePos += sig.base;
     else if (sig.dir === '利空') scoreNeg += sig.base;
-    // kw:实际命中的那个关键词(evidence 数据源),供关键词路径派生 evidence
-    const hitKw = (titleHit ? sig.kw : sig.kw).find(k => matchKw(titleHit ? title : desc, k)) || '';
     hit.push({ cat: sig.cat, dir: sig.dir, pts, note: sig.note, kw: hitKw });
   }
 
@@ -164,7 +226,14 @@ export function scoreNewsItem(n) {
     notes = '评分引擎:未命中明显信号,中性';
   }
 
-  return { direction, impact, certainty, time_window: timeWindow, notes, score: scoreImpact, hitSignals: hit };
+  // 公司→ticker 映射(关键词路径 affected_companies/tickers 数据源)
+  const companies = extractCompanies(`${title}\n${desc}`, sector);
+
+  return {
+    direction, impact, certainty, time_window: timeWindow, notes, score: scoreImpact, hitSignals: hit,
+    companies: companies.map(c => c.name),
+    tickers: companies.map(c => c.ticker ? `${c.name}(${c.ticker})` : c.name).join('、'),
+  };
 }
 
 // 评级落点校验(防御):保证枚举合法,非法值回退默认
@@ -260,26 +329,9 @@ export function etfDirectionFor(avgChange) {
   return '利好';
 }
 
-// 板块内"中性"条目顺势跟随行情:仅当 |板块ETF涨跌|>3% 时,把该板块的
-// 中性条目调成市场方向。只调中性,尊重既有利好/利空/分化(不覆盖 FDA 获批
-// 这类明确利好)。返回新的 analyzed 数组。
-export function reRateNeutralsToMarket(analyzed, etfData) {
-  if (!Array.isArray(etfData) || etfData.length === 0) return analyzed;
-  const bySector = {};
-  for (const n of analyzed) {
-    if (!bySector[n.category]) bySector[n.category] = sectorAvgChange(etfData, n.category);
-  }
-  return analyzed.map(n => {
-    const avg = bySector[n.category];
-    const forced = etfDirectionFor(avg);
-    if (!forced || n.direction !== '中性') return n;
-    const out = { ...n, direction: forced, notes: `${n.notes || ''}；结合板块行情(ETF ${avg.toFixed(1)}%)调至${forced}`.trim() };
-    // 新字段为真源:direction 调向时 sentiment 同步,保持 1:1 一致
-    if (out.sentiment !== undefined) out.sentiment = forced;
-    if (out.uncertainty !== undefined) out.uncertainty = `${out.uncertainty || ''}；含板块行情调向`.trim();
-    return out;
-  });
-}
+// 板块方向:ETF 硬校准(applyEtfCalibration)+ 加权聚合(aggregateDirection)。
+// 设计哲学:板块看行情、新闻看内容 —— 单条新闻方向由内容判断,不被板块行情
+// 强制翻转;板块矩阵方向才由当日 ETF 涨跌硬校准。
 
 // 加权投票聚合板块方向,修复"最后写入胜出":利空比重大时不再被末条利好覆盖。
 // 按 impact 加权(极高4/高3/中2/低1),利好+1 / 利空-1 / 分化+0.2 / 中性0。
