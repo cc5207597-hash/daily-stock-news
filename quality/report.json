@@ -807,8 +807,8 @@
     {
       "date": "20260825",
       "displayDate": "2026-08-25",
-      "isAi": true,
-      "newsCount": 54,
+      "isAi": false,
+      "newsCount": 66,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
@@ -816,7 +816,7 @@
         "vhigh": 1,
         "high": 11
       },
-      "signalHitRate": 0,
+      "signalHitRate": 42,
       "directions": {
         "利好": 3,
         "利空": 0,

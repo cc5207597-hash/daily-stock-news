@@ -1,7 +1,36 @@
 {
   "date": "20260825",
-  "count": 54,
+  "count": 66,
   "events": [
+    {
+      "eventId": "evt_16qajov",
+      "canonicalTitle": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154365",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154365",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1qfdx26",
+      "canonicalTitle": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经",
+        "财富号",
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTJkVEVzRWtucElUcnZEWkVsWW5nTllnLTRlN1d0bVJ4QThuWXFRVklKMUFxVjlPNERtLTJJNzJKa0hoWHFrNFB6ZnFfSUExZjZMSHJnWHVHN2QxR0tHZTAwTWdFTExZX25faWxXTjlEcC1GZEhlYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1X1ktbXR3TWd6SkN3NDRweGtHUnVOSERrMGRLTy1ySElib0s4VXMzVTVkWjVPYmNFTzdDaXVreVlfRFoybzk4WWZuUndwcUVUdUYyVE5Kc0Yzdk9udU4yeGVpZEhfendTSGc?oc=5"
+      ]
+    },
     {
       "eventId": "evt_zarjwb",
       "canonicalTitle": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
@@ -17,19 +46,6 @@
       ]
     },
     {
-      "eventId": "evt_16qajov",
-      "canonicalTitle": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
-      "canonicalLink": "https://wallstreetcn.com/articles/3154365",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3154365",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5"
-      ]
-    },
-    {
       "eventId": "evt_md50de",
       "canonicalTitle": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
       "canonicalLink": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Tb2IwQUUwNW9KWGR6MC11ZmR2ZFRpLWRndHNJSURaUktJb1VHYW51TkkxejJZZ1JnNkxsS1JWRUlLV1RfMWdRWjkwaExaSEJ3VzFuNFU3aFlwUmxMT2NZSUJLOVVWWGZyd1dYcVRFOUdjZw?oc=5",
@@ -42,12 +58,24 @@
       ]
     },
     {
+      "eventId": "evt_1fo72si",
+      "canonicalTitle": "8月以来上涨近14% 金价为何重现升势？ - 新浪财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMmNhYWlXb09ucmZDVnBsM1ZaaEhaT0tBTl85Z0FRNmdHenBwVTNqeFRmQXVyN3F1ZGRfUEZqTkplLTJEdHhGb3c0M0E2SnBrNzVCTlhiU3FULVVwUDliOTB0bmFSZ1pvbFBra1QxV2tHb0k1SEpwQ0Fyb2hDdWpQbml2Q3lJeVkySXFGc2FYSm5ucF9ocUZNa0VqU1hxMmZCdHhTSjA5Y1JERnhRYXhMMWpLMXpHdThXZXA3d1AtSUdRNDRQdzBSY21YTHh5VUVxWmo2NmpKVWhlcGR4bklZU1B3M3cxQllrd2NCM3dB?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQMmNhYWlXb09ucmZDVnBsM1ZaaEhaT0tBTl85Z0FRNmdHenBwVTNqeFRmQXVyN3F1ZGRfUEZqTkplLTJEdHhGb3c0M0E2SnBrNzVCTlhiU3FULVVwUDliOTB0bmFSZ1pvbFBra1QxV2tHb0k1SEpwQ0Fyb2hDdWpQbml2Q3lJeVkySXFGc2FYSm5ucF9ocUZNa0VqU1hxMmZCdHhTSjA5Y1JERnhRYXhMMWpLMXpHdThXZXA3d1AtSUdRNDRQdzBSY21YTHh5VUVxWmo2NmpKVWhlcGR4bklZU1B3M3cxQllrd2NCM3dB?oc=5"
+      ]
+    },
+    {
       "eventId": "evt_11r8mhz",
-      "canonicalTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "canonicalTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
       "canonicalLink": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5",
       "memberCount": 1,
       "sources": [
-        "新浪网"
+        "新浪财经"
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5"
@@ -66,12 +94,40 @@
       ]
     },
     {
+      "eventId": "evt_166wzaw",
+      "canonicalTitle": "港股午评：恒指、恒科齐跌；创新药逆市走强，药明合联涨超12%；半导体、银行上涨；黄金股大跌；小鹏跌超9%，零跑、蔚来、理想集体飘绿 - 东方财富",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Pa3pFMDItekZ6bnJyaWFMWGV0aGdOSmRZcHRNWTliazdQQXVacko2Qmh2cTdwbnQwZDZXYmVZcWdDZzc5d0txUGlzVXE5SkpwWEhWLWg2Vi1lNkZERkY0NlBBMzRFdw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "chnfund.com",
+        "TradingView",
+        "凤凰网财经",
+        "京报网",
+        "新浪财经",
+        "财联社",
+        "9fzt.com",
+        "东方财富",
+        "中金在线"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9Pa3pFMDItekZ6bnJyaWFMWGV0aGdOSmRZcHRNWTliazdQQXVacko2Qmh2cTdwbnQwZDZXYmVZcWdDZzc5d0txUGlzVXE5SkpwWEhWLWg2Vi1lNkZERkY0NlBBMzRFdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE55UkFkR0R5WTNoRERQZVpLeXM0Qnd6R3R5R1IzVFlmaG02SjZWVWQyQ3o0czlJUklTQi1pTXM3blNVVXk2aVljU2RYS3ozallaN3ZEelpoUF9wQ3JoMGV0cldxQ3FmN0puVkpKUXBlTTItYmUtS3A3MTJn?oc=5",
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE80ajIzT2RDLWNoUkdQSmV5b1ZEdi1hSnUyNU84OHpTQ2NpdEhnTFRqOFJ0ZVVfbFhvUEJiN0xXZGRpZ0dYRkFDS0N3TzdteUtncm5La0cweFNKU3lvemN1cGhCTm91U0M3cXNj?oc=5",
+        "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5ZYldIc2JaS3h0emdaVFZEenpWSVNfa3lobVNmWnl3Y3Q3d1NYMV9BSXVrRUVlSkEydGhNc2pqQmJubnpaM0xhWDlLcXpCM2VE?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE1XaGhZa1pGTW1iRmNUM3d3Y0NPMERQRlZkX2l1TjRsY1g1dWFTSEpUZmFRRVVaVVh3ZnBLWXZDZjVOZG5LMzZwNFliV3AxckZsVXAzSnQ2VUk0NW4waWV2NjAxODdHTnRjYTZ5elE3WnRuUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxOa25xNTZ5SnFmY0tKUmQ3dUdobVBXekU5WlBwRmNjbG5BR3pNc2tyUzRkWWFfdGl4aE4zMHhnS1RIYkxJamhBMGxvQ3ZEdTdUQ2FZU0wwVklaM0JSaXhIS2g4d09vNE1iUHVRSGRvRC1fb3pLOTZ3ZF9YWkRCX0NIMw?oc=5",
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTE14NFN3aWR0TXBubWx2UldvRlNLQXU5YjJ3MTNaVXFBUFBuYzNBVmFzSDBMbFpfLWhVQ1htYlpoelNxSHI1NjdCZA?oc=5",
+        "https://news.google.com/rss/articles/CBMie0FVX3lxTE5mbG4xaktPUFdONmNGb2NaTXhpTmNyRmlsejd6ZG5ycW5YQXNTT0QwNm1sYldzQ0FuZmFDa2YyXzFWTTFPNFE4bWRNeFFRYW5OYVdtRWlOaFZhWFFpOFZ4T0Z4a1pvSkN4TlJ3MkdtUFRYSEVvSGQ2ckdxYw?oc=5",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE1rVEdzZ2NaR3dqT2Yxc3FmY3Q5cUcwMjFYbjlBeFRPNXZWZDg2Mk8tMDh3UmE5TzZPTVRvWE5LMHdBNnI5QnZmM1FTcW8yaF95Y1FGaVZOWVRsUVBSY1lQOVdiRWRJVkJDVFJNRm1PZw?oc=5"
+      ]
+    },
+    {
       "eventId": "evt_84i2rv",
-      "canonicalTitle": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "canonicalTitle": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪财经",
       "canonicalLink": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5",
       "memberCount": 1,
       "sources": [
-        "新浪网"
+        "新浪财经"
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5"
@@ -102,29 +158,12 @@
       ]
     },
     {
-      "eventId": "evt_1qfdx26",
-      "canonicalTitle": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
-      "memberCount": 1,
-      "sources": [
-        "新浪网",
-        "财富号",
-        "FX168财经"
-      ],
-      "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTJkVEVzRWtucElUcnZEWkVsWW5nTllnLTRlN1d0bVJ4QThuWXFRVklKMUFxVjlPNERtLTJJNzJKa0hoWHFrNFB6ZnFfSUExZjZMSHJnWHVHN2QxR0tHZTAwTWdFTExZX25faWxXTjlEcC1GZEhlYQ?oc=5",
-        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zQWctcWNYM0xTMElWd1VRRGNhVEc1TVRsamdjZVpHakNrWDFNRmZXMXlIY2dVRGkzeklsckxoZ1R3V3lUVlZKMmpKMjFvYnlUZnd0UWNYcmJiNW5ZaFZWZmIxQmZlZ2paM3lHajQ0N2VITms3NkVCOA?oc=5",
-        "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1X1ktbXR3TWd6SkN3NDRweGtHUnVOSERrMGRLTy1ySElib0s4VXMzVTVkWjVPYmNFTzdDaXVreVlfRFoybzk4WWZuUndwcUVUdUYyVE5Kc0Yzdk9udU4yeGVpZEhfendTSGc?oc=5"
-      ]
-    },
-    {
       "eventId": "evt_mik3qw",
-      "canonicalTitle": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "canonicalTitle": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪财经",
       "canonicalLink": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5",
       "memberCount": 1,
       "sources": [
-        "新浪网"
+        "新浪财经"
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5"
@@ -140,6 +179,139 @@
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_5h8la1",
+      "canonicalTitle": "【公告全知道】CPO+光纤+PCB+MLCC！公司上半年MPO/MMC产品交付价值量同比增长超20倍",
+      "canonicalLink": "https://www.cls.cn/detail/2463996",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2463996"
+      ]
+    },
+    {
+      "eventId": "evt_v0weum",
+      "canonicalTitle": "美股芯片股多数上扬",
+      "canonicalLink": "https://www.cls.cn/detail/2464040",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2464040"
+      ]
+    },
+    {
+      "eventId": "evt_1bazgqw",
+      "canonicalTitle": "现货黄金跌近1%",
+      "canonicalLink": "https://www.cls.cn/detail/2464037",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2464037"
+      ]
+    },
+    {
+      "eventId": "evt_s87ryd",
+      "canonicalTitle": "OpenAI：自研芯片Jalapeno在测试中击败英伟达GB300，并未与Vera Rubin进行对比测试",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154723",
+      "memberCount": 1,
+      "sources": [
+        "金十数据",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154723",
+        "【OpenAI：自研Jalapeno芯片测试中击败英伟达GB300】"
+      ]
+    },
+    {
+      "eventId": "evt_13upkvl",
+      "canonicalTitle": "市场消息：OpenAI称其JALAPENO芯片在速度和功耗方面都超越了英伟达的GB300。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_ysi5tm",
+      "canonicalTitle": "上海：以“一江一河”交汇处“黄金三角”为核心，打造引领全球消费高地",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608253853364737.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608253853364737.html"
+      ]
+    },
+    {
+      "eventId": "evt_14gmkeq",
+      "canonicalTitle": "“十五五”时期四川南充谋划储备重大项目1560个 总投资超1万亿元",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608253853368366.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608253853368366.html"
+      ]
+    },
+    {
+      "eventId": "evt_1q5k9v8",
+      "canonicalTitle": "OpenAI芯片负责人：新款自研芯片测试的对标对象是英伟达的GB300，700瓦即可实现强劲性能",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154730",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154730"
+      ]
+    },
+    {
+      "eventId": "evt_idzlam",
+      "canonicalTitle": "国家药监局核查中心：正在进行更名工作",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154714",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154714"
+      ]
+    },
+    {
+      "eventId": "evt_1jpd0br",
+      "canonicalTitle": "美股三大股指高开，道指涨0.36%，标普500指数涨0.35%，纳指涨0.65%。存储概念股反弹，闪迪、SK海力士涨约3%；英特尔涨3%，下一代服务器芯片Diamond Rapids亮相；英伟达涨1%。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154706",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154706"
+      ]
+    },
+    {
+      "eventId": "evt_xu0deg",
+      "canonicalTitle": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻",
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154701"
       ]
     },
     {
@@ -385,16 +557,6 @@
     {
       "eventId": "evt_1v2uqyq",
       "canonicalTitle": "Spot 黄金 continued to slide, down about $18/oz an",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": []
-    },
-    {
-      "eventId": "evt_xu0deg",
-      "canonicalTitle": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
