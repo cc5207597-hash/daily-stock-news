@@ -1,35 +1,88 @@
 {
   "date": "20260825",
-  "count": 18,
+  "count": 30,
   "events": [
     {
-      "eventId": "evt_is4v9f",
-      "canonicalTitle": "上海黄金交易所黄金T+D 8月25日（周二）早盘盘初上涨1.16%报1011.41元/克；上海黄金交",
-      "canonicalLink": "",
+      "eventId": "evt_1b1blf7",
+      "canonicalTitle": "创业板指跌超2%，沪指跌0.77%，深成指跌1.6%，半导体芯片、算力硬件、贵金属等方向跌幅居前，沪深京三市下跌个股超3000只。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154272",
       "memberCount": 1,
       "sources": [
         "华尔街见闻",
-        "金十数据",
-        "新浪财经"
+        "中金在线",
+        "新浪财经",
+        "chnfund.com",
+        "搜狐网",
+        "财联社",
+        "hstong.com",
+        "FX168财经",
+        "手机网易网",
+        "同花顺"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
-        "富时中国A50指数期货开盘下跌0.32%。",
-        "台湾加权指数8月25日（周二）开盘下跌295.47点，跌幅0.66%，报44466.85点。",
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhu9667872.d.html",
-        "https://wallstreetcn.com/articles/3154238"
+        "https://wallstreetcn.com/articles/3154272",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYlFtY0ppTS1iMzlLeU9wcy00LWVJT1VjTl9BYjZxdXdjeFRwYW1zbEo1T1lScnZEQVpyOC1ZbGxnd2R3YnZlT2o5dThyN0R2TWVR?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLYWZuczlnZWV6MVE2Z25hdXRTZENWVkcwWGhhUk1XdkR3TWNfVmpOZ3J5UmN5NU9aM2tDVWRNeTVZSGpoZDJINGhGU0lSVG5paHBr?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HWE5vTjQ1MUJMSVR3QW5YcXhvS01HczY1aGJ2N1kydzNhcjNLVjN2N0RzSkRZODdMaWl2eVl5NHVaWlJIWGpDLTRJRU1henF3NENQNXUwVGxDakpPbFI1T3pMXzBZdjNpcVFrdw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03SDFQajRlbjRmaHdWZTJRamR3ZENUYVViX2FSMWNJcXladXktelZ4dXhjRGVJTV9rQkJicnJtQ2lKRXBxdG5kclJCdXRZX0hMZUNr?oc=5",
+        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
+        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhRjJLWFZtdmZIUXF6SFM3bWszSVhrb1M5R01CQVljZG5KQ0ZONi1HalFpTGFKeC03dmlLTmhyTjRaNjR4LTlXdE5UYXFXZW05Mzln?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uS0FKeWRHZ3pNSVhjSndFQUx6TkRRRlJtV1FrZTJ3WDBiMGtraUQ5VDhHRl9rTW54X2p5NWZra05fOXhvd1NPYWwwNTR1V2Q0djA0?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjdGhKZ0RQZWFQZXM4WXd5VHBUd2NKcW5GSUdlVWdmbXRkU1ctRGduOHV2N2xheVlRTnh3cHNHQTluN19IYllFQWFEVHhwYmF6NllB?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
+        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
+        "https://wallstreetcn.com/articles/3776698",
+        "https://wallstreetcn.com/articles/3775254"
       ]
     },
     {
       "eventId": "evt_md50de",
       "canonicalTitle": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkclpQYlU0X25Bbk1rS2N3d0U5MjFtX1BfaWxxc0RPdjVNbkQ4VWFMOGR1RGtnQUJYRHkwc1VKZm82by1uWkJnLXM1MmdDYldIYkQ4cEVHRDk0S2dLS05BamRBZw?oc=5",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Tb2IwQUUwNW9KWGR6MC11ZmR2ZFRpLWRndHNJSURaUktJb1VHYW51TkkxejJZZ1JnNkxsS1JWRUlLV1RfMWdRWjkwaExaSEJ3VzFuNFU3aFlwUmxMT2NZSUJLOVVWWGZyd1dYcVRFOUdjZw?oc=5",
       "memberCount": 1,
       "sources": [
         "金融界"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkclpQYlU0X25Bbk1rS2N3d0U5MjFtX1BfaWxxc0RPdjVNbkQ4VWFMOGR1RGtnQUJYRHkwc1VKZm82by1uWkJnLXM1MmdDYldIYkQ4cEVHRDk0S2dLS05BamRBZw?oc=5"
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE9Tb2IwQUUwNW9KWGR6MC11ZmR2ZFRpLWRndHNJSURaUktJb1VHYW51TkkxejJZZ1JnNkxsS1JWRUlLV1RfMWdRWjkwaExaSEJ3VzFuNFU3aFlwUmxMT2NZSUJLOVVWWGZyd1dYcVRFOUdjZw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_qrswcr",
+      "canonicalTitle": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - 新浪财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5"
       ]
     },
     {
@@ -45,58 +98,8 @@
       ]
     },
     {
-      "eventId": "evt_1nu98e6",
-      "canonicalTitle": "硅宝科技：多款产品已在服务器芯片、光模块等领域测试",
-      "canonicalLink": "https://www.cls.cn/detail/2463068",
-      "memberCount": 1,
-      "sources": [
-        "财联社"
-      ],
-      "relatedArticles": [
-        "https://www.cls.cn/detail/2463068"
-      ]
-    },
-    {
-      "eventId": "evt_1ms712o",
-      "canonicalTitle": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "财联社",
-        "金十数据"
-      ],
-      "relatedArticles": [
-        "https://www.cls.cn/detail/2463064"
-      ]
-    },
-    {
-      "eventId": "evt_15vv2ff",
-      "canonicalTitle": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "金十数据",
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3154223"
-      ]
-    },
-    {
-      "eventId": "evt_r6qxzj",
-      "canonicalTitle": "【小米玄戒O3官宣支持LPDDR6 长鑫存储为国产内存合作伙伴】",
-      "canonicalLink": "https://www.cnstock.com/commonDetail/770092",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": [
-        "https://www.cnstock.com/commonDetail/770092"
-      ]
-    },
-    {
-      "eventId": "evt_5fqfwz",
-      "canonicalTitle": "Shanghai Gold Exchange's Gold T+D rose 1.16% in ea",
+      "eventId": "evt_dzd3rj",
+      "canonicalTitle": "Spot gold continued to slide, down about $18/oz an",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -105,8 +108,48 @@
       "relatedArticles": []
     },
     {
-      "eventId": "evt_1xf0loh",
-      "canonicalTitle": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
+      "eventId": "evt_xu0deg",
+      "canonicalTitle": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_ij2lx5",
+      "canonicalTitle": "据《日经亚洲》获悉，台积电供应商Nichias和GoldStoneDevelopment正在台湾兴建",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_vyf6p9",
+      "canonicalTitle": "【主力资金流向前十大个股】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_won6os",
+      "canonicalTitle": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_gyrzf6",
+      "canonicalTitle": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -161,6 +204,132 @@
       "relatedArticles": [
         "http://finance.eastmoney.com/news/1354,202608253851708641.html"
       ]
+    },
+    {
+      "eventId": "evt_144qwn4",
+      "canonicalTitle": "【台积电供应商日亚化学将在中国台湾地区建厂】据知情人士称，台积电供应商日亚化学（NICHIAS)计划在中国台湾地区建设一家芯片零部件工厂。消息称，计划建在新竹的这家工厂将生产氟聚合物管材，预计将于2027年初开始生产。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9648947.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9648947.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1dzsi0h",
+      "canonicalTitle": "【蓝思科技：下半年将迎来新一代AI服务器结构等领域订单爬坡】蓝思科技(300433)8月23日在电话会议上表示，服务器结构件和散热模组方面，公司松山湖园区已经完成扩产并迎来客户验厂，各类备案均已完成，下半年将迎来新一代AI服务器结构件、高效液冷散热系统等关键领域的订单爬坡。光纤方面，目前正在推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9642589.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9642589.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_j3rs8q",
+      "canonicalTitle": "现货黄金失守4630美元/盎司，日内跌0.52%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641751.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641751.d.html",
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641730.d.html",
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqu1586339.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1ifwdj4",
+      "canonicalTitle": "【主力资金：中际旭创净卖出超4亿】截至目前，今日主力资金净流出24.00亿；净流入小盘、IDC概念（数据中心）、机械设备等板块，其中小盘板块净流入50.80亿；净流出中盘股、有色金属概念、转融券标的等板块，其中中盘股板块净流出44.55亿。\n  \n个股方面，N高凯净买入15.09亿元位居首位，英维克、寒武纪、亨通光电主力资金净流入居前；中际旭创净卖出4.65亿元位居首位，洛阳钼业、北方华创、紫金矿业净流出额居前。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqw5521201.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqw5521201.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_18jis8a",
+      "canonicalTitle": "中际旭创A股成交额超100亿元，现跌2.29%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1nu98e6",
+      "canonicalTitle": "硅宝科技：多款产品已在服务器芯片、光模块等领域测试",
+      "canonicalLink": "https://www.cls.cn/detail/2463068",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2463068"
+      ]
+    },
+    {
+      "eventId": "evt_1ms712o",
+      "canonicalTitle": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_15vv2ff",
+      "canonicalTitle": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_r6qxzj",
+      "canonicalTitle": "【小米玄戒O3官宣支持LPDDR6 长鑫存储为国产内存合作伙伴】",
+      "canonicalLink": "https://www.cnstock.com/commonDetail/770092",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://www.cnstock.com/commonDetail/770092"
+      ]
+    },
+    {
+      "eventId": "evt_8r2svn",
+      "canonicalTitle": "Shanghai 黄金 Exchange's 黄金 T+D rose 1.16% in ea",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1xf0loh",
+      "canonicalTitle": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
     },
     {
       "eventId": "evt_19xx5yu",
