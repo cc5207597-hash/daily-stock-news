@@ -514,6 +514,9 @@ const REFRESH_SECRET = ${JSON.stringify(process.env.REFRESH_SECRET || '87vBu0o-P
 // below join against it so they resolve correctly on both the index page and
 // history pages under /history/.
 const BASE = window.BASE || '';
+// 页面自身构建时间(UTC ISO)。auto-check 用它和 history/build-state.json 的
+// generatedAt 比较:定时/推送构建完成后,停留在首页的用户会自动刷新到最新版。
+const PAGE_GENERATED_AT = ${JSON.stringify(result.generatedAt || null)};
 const PHASE_CN = { fetch: '抓取新闻', analyze: 'AI 分析', 'analyze-kw': '关键词引擎', chart: '图表数据', write: '写入文件', commit: '提交 git', push: '推送 git', cloud: '云端构建', done: '完成', error: '失败' };
 let refreshStartedAt = 0;
 let refreshTimer = null;
@@ -670,6 +673,37 @@ async function pollStatus(myRunId) {
   showToast('构建超时,请查看服务端日志', 'err');
   resetBtn();
 }
+// ── 自动检测新构建 ─────────────────────────────────────────
+// 定时/推送构建完成后页面不会自己知道,这里低频轮询 history/build-state.json
+// 的 generatedAt(每次构建重写),发现比本页构建时间新就 toast 提示并自动刷新。
+// localStorage 记录已刷过的版本,防止 CDN 边缘时序造成刷新循环。
+const AUTO_CHECK_MS = 120000; // 2 分钟
+const AUTO_RELOAD_KEY = 'dailyStockAutoReloadAt';
+const isHistoryPage = window.location.pathname.indexOf('/history/') >= 0;
+async function checkForNewBuild() {
+  // 仅公网首页生效。历史页是当日固定存档、不会被新构建重写,自动刷新只会空转;
+  // 本机预览(localhost)不部署 build-state.json,也跳过。
+  if (isLocalHost() || isHistoryPage) return;
+  try {
+    const r = await fetch(BASE + '/history/build-state.json?_t=' + Date.now(), { cache: 'no-store' });
+    if (!r.ok) return;
+    const d = await r.json();
+    if (!d.generatedAt || !PAGE_GENERATED_AT) return;
+    if (d.generatedAt <= PAGE_GENERATED_AT) return; // 页面已是最新
+    if (d.generatedAt === localStorage.getItem(AUTO_RELOAD_KEY)) return; // 已为这一版刷过
+    localStorage.setItem(AUTO_RELOAD_KEY, d.generatedAt);
+    showToast('检测到新日报,即将自动刷新', 'ok');
+    setTimeout(() => location.reload(), 3000);
+  } catch (e) { /* 网络抖动/部署时序,静默跳过,下轮再试 */ }
+}
+function startAutoCheck() {
+  setTimeout(checkForNewBuild, 1500); // 页面渲染稳定后先查一次
+  setInterval(() => {
+    if (document.visibilityState === 'hidden') return; // 后台标签页不查
+    checkForNewBuild();
+  }, AUTO_CHECK_MS);
+}
+startAutoCheck();
 // History browsing — the archive lives as static files under history/ so the
 // picker works on the static gh-pages site (no local server needed).
 async function loadHistoryDates(){
