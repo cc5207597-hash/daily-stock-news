@@ -1,5 +1,224 @@
 {
   "date": "20260825",
-  "count": 0,
-  "events": []
+  "count": 18,
+  "events": [
+    {
+      "eventId": "evt_is4v9f",
+      "canonicalTitle": "上海黄金交易所黄金T+D 8月25日（周二）早盘盘初上涨1.16%报1011.41元/克；上海黄金交",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻",
+        "金十数据",
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+        "富时中国A50指数期货开盘下跌0.32%。",
+        "台湾加权指数8月25日（周二）开盘下跌295.47点，跌幅0.66%，报44466.85点。",
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhu9667872.d.html",
+        "https://wallstreetcn.com/articles/3154238"
+      ]
+    },
+    {
+      "eventId": "evt_md50de",
+      "canonicalTitle": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkclpQYlU0X25Bbk1rS2N3d0U5MjFtX1BfaWxxc0RPdjVNbkQ4VWFMOGR1RGtnQUJYRHkwc1VKZm82by1uWkJnLXM1MmdDYldIYkQ4cEVHRDk0S2dLS05BamRBZw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "金融界"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBkclpQYlU0X25Bbk1rS2N3d0U5MjFtX1BfaWxxc0RPdjVNbkQ4VWFMOGR1RGtnQUJYRHkwc1VKZm82by1uWkJnLXM1MmdDYldIYkQ4cEVHRDk0S2dLS05BamRBZw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1i7c4in",
+      "canonicalTitle": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1nu98e6",
+      "canonicalTitle": "硅宝科技：多款产品已在服务器芯片、光模块等领域测试",
+      "canonicalLink": "https://www.cls.cn/detail/2463068",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2463068"
+      ]
+    },
+    {
+      "eventId": "evt_1ms712o",
+      "canonicalTitle": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "财联社",
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2463064"
+      ]
+    },
+    {
+      "eventId": "evt_15vv2ff",
+      "canonicalTitle": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154223"
+      ]
+    },
+    {
+      "eventId": "evt_r6qxzj",
+      "canonicalTitle": "【小米玄戒O3官宣支持LPDDR6 长鑫存储为国产内存合作伙伴】",
+      "canonicalLink": "https://www.cnstock.com/commonDetail/770092",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://www.cnstock.com/commonDetail/770092"
+      ]
+    },
+    {
+      "eventId": "evt_5fqfwz",
+      "canonicalTitle": "Shanghai Gold Exchange's Gold T+D rose 1.16% in ea",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1xf0loh",
+      "canonicalTitle": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_104ny1n",
+      "canonicalTitle": "【五大信披媒体精华摘要】8月25日",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851925694.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851925694.html"
+      ]
+    },
+    {
+      "eventId": "evt_1ug1a6y",
+      "canonicalTitle": "投资日历：周二资本市场大事提醒",
+      "canonicalLink": "http://stock.eastmoney.com/news/11791,202608253851885451.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://stock.eastmoney.com/news/11791,202608253851885451.html"
+      ]
+    },
+    {
+      "eventId": "evt_1j6h2yc",
+      "canonicalTitle": "A股盘前速览：美股收盘存储芯片板块重挫；“易中天”半年报出炉；油价跳水金价大涨；爆款基金扎堆提示风险；国家支持仿制药高质量发展",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851747068.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851747068.html"
+      ]
+    },
+    {
+      "eventId": "evt_1uet35x",
+      "canonicalTitle": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851708641.html"
+      ]
+    },
+    {
+      "eventId": "evt_19xx5yu",
+      "canonicalTitle": "工信部将印发行动计划 北斗规模应用提速迈向万亿级市场",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851702650.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851702650.html"
+      ]
+    },
+    {
+      "eventId": "evt_1uub28i",
+      "canonicalTitle": "半年报密集披露 长线资金调仓轨迹浮现",
+      "canonicalLink": "http://stock.eastmoney.com/news/11791,202608253851703350.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://stock.eastmoney.com/news/11791,202608253851703350.html"
+      ]
+    },
+    {
+      "eventId": "evt_1k2sucz",
+      "canonicalTitle": "【A股停牌提示：6股今日停牌】Wind数据显示，8月25日，瓦轴B、湖南黄金、ST长园等6只个股停牌。",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_14ycah",
+      "canonicalTitle": "现货黄金上涨近1%至每盎司4,695.31美元。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154234",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154234"
+      ]
+    },
+    {
+      "eventId": "evt_esb2eh",
+      "canonicalTitle": "花旗称金价料仍有进一步上涨空间 上调三个月目标价至4800美元",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154231",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154231"
+      ]
+    }
+  ]
 }
