@@ -1,6 +1,6 @@
 {
   "date": "20260825",
-  "count": 31,
+  "count": 33,
   "events": [
     {
       "eventId": "evt_md50de",
@@ -39,6 +39,16 @@
       ]
     },
     {
+      "eventId": "evt_asq36e",
+      "canonicalTitle": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
       "eventId": "evt_1jdb3yn",
       "canonicalTitle": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
       "canonicalLink": "",
@@ -58,6 +68,30 @@
       ],
       "relatedArticles": [
         "http://finance.eastmoney.com/news/1354,202608253851925694.html"
+      ]
+    },
+    {
+      "eventId": "evt_1f1j35b",
+      "canonicalTitle": "纳维达斯半导体公司（Navitas Semiconductor Corporation）将收购克拉罗斯公司（Claros），交易总价值最高达2.328亿美元。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqu1644002.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqu1644002.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_7yjfvs",
+      "canonicalTitle": "【午评：创业板指跌1.43% 种业、粮食概念逆势走强】今日三大指数集体低开后维持震荡调整走势，创业板指盘中一度跌超2%。截至午间收盘，沪指跌0.15%，深证成指跌0.78%，创业板指跌1.43%。盘面上，种业概念、粮食概念逆势走强，万向德农、登海种业、金健米业涨停。跨境支付概念走高，新晨科技、楚天龙、青岛金王涨停。旅游板块走强，凯撒旅业涨停。医药板块活跃，冀衡医药、华森制药、海南海药等涨停。酒店餐饮、旅游、日用化工、农林牧渔、商业连锁等板块涨幅居前；有色、半导体、电气设备、矿物制品等板块跌幅居前。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9683708.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9683708.d.html"
       ]
     },
     {
@@ -82,18 +116,6 @@
       ],
       "relatedArticles": [
         "http://finance.eastmoney.com/news/1354,202608253851747068.html"
-      ]
-    },
-    {
-      "eventId": "evt_15r0nj7",
-      "canonicalTitle": "8月25日午间收评：创业板指半日跌1.43%，农业、消费股逆势走强",
-      "canonicalLink": "https://wallstreetcn.com/articles/3154326",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3154326"
       ]
     },
     {

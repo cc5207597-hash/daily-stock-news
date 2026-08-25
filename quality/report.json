@@ -808,15 +808,15 @@
       "date": "20260825",
       "displayDate": "2026-08-25",
       "isAi": true,
-      "newsCount": 31,
+      "newsCount": 33,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 0,
-        "high": 5
+        "high": 6
       },
-      "signalHitRate": 0,
+      "signalHitRate": 45,
       "directions": {
         "利好": 2,
         "利空": 0,
