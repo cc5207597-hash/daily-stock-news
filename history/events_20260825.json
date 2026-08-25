@@ -1,7 +1,20 @@
 {
   "date": "20260825",
-  "count": 33,
+  "count": 41,
   "events": [
+    {
+      "eventId": "evt_16qajov",
+      "canonicalTitle": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154365",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154365",
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5"
+      ]
+    },
     {
       "eventId": "evt_md50de",
       "canonicalTitle": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
@@ -16,11 +29,11 @@
     },
     {
       "eventId": "evt_qrswcr",
-      "canonicalTitle": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - 新浪财经",
+      "canonicalTitle": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
       "canonicalLink": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
       "memberCount": 1,
       "sources": [
-        "新浪财经"
+        "finance.sina.com.cn"
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5"
@@ -39,8 +52,8 @@
       ]
     },
     {
-      "eventId": "evt_asq36e",
-      "canonicalTitle": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+      "eventId": "evt_qmg2tz",
+      "canonicalTitle": "Hedgeye特约作者、西班牙经济学家Daniel Lacalle表示，美国40万亿美元的债务占据了",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -51,6 +64,106 @@
     {
       "eventId": "evt_1jdb3yn",
       "canonicalTitle": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "东方财富",
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608253852593772.html",
+        "http://finance.eastmoney.com/news/1350,202608253852587742.html",
+        "http://finance.eastmoney.com/news/1350,202608253852631437.html"
+      ]
+    },
+    {
+      "eventId": "evt_1wbazuz",
+      "canonicalTitle": "【米奥会展：子公司将与TikTok Shop举办AI出海大会 跨境电商AI操作系统将亮相】8月26日，TikTok Shop与米奥会展(300795)控股子公司奥创天下联合主办的以“AI扬帆 亿启欧洲”为主题的AI出海大会将在杭州举行，奥创天下旗下“星擎”AI视频营销解决方案与“星帆”跨境电商AI操作系统将亮相，以“B2B获客+B2C出单”双引擎组合，卡位AI出海营销的结构性机遇。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5526977.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5526977.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_10xvjml",
+      "canonicalTitle": "中际旭创A股成交额达200亿元，现跌3.12%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html",
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_4vca3l",
+      "canonicalTitle": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_15eb0pt",
+      "canonicalTitle": "【阿尔特：发布六足特种机器人概念影片 标志着在特种机器人领域迈出实质性一步】阿尔特官微消息，在近日举行的NVIDIA Physical AI & Robotics Partner Day上，阿尔特作为英伟达Solution Advisor: Consultant，正式发布了六足特种机器人的概念影片。该产品专为高空、地底、隧道等难以涉足的复杂危险环境设计，可执行巡检、维护等精密作业，标志着阿尔特在特种机器人领域迈出实质性一步。目前，阿尔特已将机器人业务列为“新成长曲线”，今年7月，阿尔特携手富士康发布面向机器人整机企业的“交钥匙”Turn-Key全栈平台，双方将共同打造机器人公司，新公司作为Turn-Key全栈平台的载体，致力于解决机器人量产落地的问题。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewq9666439.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippewq9666439.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_q9fvf1",
+      "canonicalTitle": "【中闽能源、紫金矿业等新设能源公司 含电池制造业务】企查查APP显示，近日，福建海氨能源有限公司成立，经营范围包含：新兴能源技术研发；电池制造；工程和技术研究和试验发展；站用加氢及储氢设施销售等。企查查股权穿透显示，该公司由紫金矿业(601899)旗下福大紫金氢能科技股份有限公司、中闽能源(600163)等共同持股。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1615884.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1615884.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_mkk4ft",
+      "canonicalTitle": "长飞光纤光缆港股午后持续拉升，现涨超16%。",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154362",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154362"
+      ]
+    },
+    {
+      "eventId": "evt_1cod9s9",
+      "canonicalTitle": "水贝金条销量大涨",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154359",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154359"
+      ]
+    },
+    {
+      "eventId": "evt_asq36e",
+      "canonicalTitle": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -236,18 +349,6 @@
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqw5521201.d.html"
-      ]
-    },
-    {
-      "eventId": "evt_18jis8a",
-      "canonicalTitle": "中际旭创A股成交额超100亿元，现跌2.29%。",
-      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html",
-      "memberCount": 1,
-      "sources": [
-        "新浪财经"
-      ],
-      "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html"
       ]
     },
     {

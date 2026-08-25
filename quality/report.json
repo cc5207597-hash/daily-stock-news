@@ -808,25 +808,25 @@
       "date": "20260825",
       "displayDate": "2026-08-25",
       "isAi": true,
-      "newsCount": 33,
+      "newsCount": 41,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 0,
-        "high": 6
+        "high": 9
       },
-      "signalHitRate": 45,
+      "signalHitRate": 0,
       "directions": {
-        "利好": 2,
+        "利好": 3,
         "利空": 0,
         "分化": 0,
-        "中性": 2
+        "中性": 1
       },
       "matrix": [
         {
           "name": "半导体",
-          "direction": "中性",
+          "direction": "利好",
           "shock": "强"
         },
         {
@@ -842,7 +842,7 @@
         {
           "name": "创新药",
           "direction": "中性",
-          "shock": "弱"
+          "shock": "中"
         }
       ]
     }
