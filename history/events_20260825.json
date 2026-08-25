@@ -1,66 +1,7 @@
 {
   "date": "20260825",
-  "count": 30,
+  "count": 31,
   "events": [
-    {
-      "eventId": "evt_1b1blf7",
-      "canonicalTitle": "创业板指跌超2%，沪指跌0.77%，深成指跌1.6%，半导体芯片、算力硬件、贵金属等方向跌幅居前，沪深京三市下跌个股超3000只。",
-      "canonicalLink": "https://wallstreetcn.com/articles/3154272",
-      "memberCount": 1,
-      "sources": [
-        "华尔街见闻",
-        "中金在线",
-        "新浪财经",
-        "chnfund.com",
-        "搜狐网",
-        "财联社",
-        "hstong.com",
-        "FX168财经",
-        "手机网易网",
-        "同花顺"
-      ],
-      "relatedArticles": [
-        "https://wallstreetcn.com/articles/3154272",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhYlFtY0ppTS1iMzlLeU9wcy00LWVJT1VjTl9BYjZxdXdjeFRwYW1zbEo1T1lScnZEQVpyOC1ZbGxnd2R3YnZlT2o5dThyN0R2TWVR?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBuelFKXzdtekpFbzlQVkJQV191bmthVzVWcXo1ak1YN0NzS1VneEN6ZWNVZWNWc1hRdkdOX09YRTJfYm9ia2VSU01UdDB4d3lEY0Jz?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iS3BTZmhENEZpQTVNQWtyd01ua3NWSENwY194T0sxdkNwUkgwYkZLbDZJQ2d6U0Q4eTJJLS10VHFabmpnaGh2S3NSM2pWUWR4dlI4?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5KcEFEOFB1T1puVDc3cklMQ3dhOC14RFFzNUVrUGZ1dUt1Sm9ZVlVhaDJBUDV6ekNLSURZSXl4ZERxQzZKY0xPZzQ5VS1RWm1sX1dJ?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLYWZuczlnZWV6MVE2Z25hdXRTZENWVkcwWGhhUk1XdkR3TWNfVmpOZ3J5UmN5NU9aM2tDVWRNeTVZSGpoZDJINGhGU0lSVG5paHBr?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSm9Id1dhV1Fva1cyYzdaUDYwaFZNWFFTME5SY1N6WWVxbjhOdUh6My1HWXpOck15aHlkUkEtcFpWbERYcm90eFhfbDJSMm9SUDV3?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE40LW5HZHdvbExTTzF2b01fdy02TTFYOEJ5aW4xYXVVVG5YMFRPNmpMRE5qSkViZVVLNjZTS3ZJbXRkdlNmd2F4N1BZRHBiTTY4bFI4?oc=5",
-        "https://news.google.com/rss/articles/CBMibEFVX3lxTE9HWE5vTjQ1MUJMSVR3QW5YcXhvS01HczY1aGJ2N1kydzNhcjNLVjN2N0RzSkRZODdMaWl2eVl5NHVaWlJIWGpDLTRJRU1henF3NENQNXUwVGxDakpPbFI1T3pMXzBZdjNpcVFrdw?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11VE5HZ2ktZGNQSnZwR3NrcGpZeVBTSU4xRnNSLUVzWWFJanJuUVh0aVpqNXpMb3JvVzBfTUdvQ3NLSVU0dW96a0VRVU9XcUVTdFJj?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxNM2pxRGh6MmhWSDRvNnhiQ0g4YXBBNnljeHRQYXVRZlNkaUVQMldiQld3ZTFaVlFUVktkaWFFYkpRZjFIQldkUlBLdi1XODdXNWM2SHBHdzRuMW5GeWhzNl9vYVF4Z3hNZUstZ2F6YTRZbGtqbEp3Z0x1VFE1UEV4b1Zwd1lvSEx2QWVCTlFwMTJaT3p5NkE?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE03SDFQajRlbjRmaHdWZTJRamR3ZENUYVViX2FSMWNJcXladXktelZ4dXhjRGVJTV9rQkJicnJtQ2lKRXBxdG5kclJCdXRZX0hMZUNr?oc=5",
-        "https://news.google.com/rss/articles/CBMiekFVX3lxTE1RdVBvRHUyWVZSRzJweXlWd3pHR09wOTM0THgwcUlTLW40MlBEQXNNY1JDT3ppUWlBdHVXVlV3Skd6UmR1MTVTTlByVC1Zb3FncFE0dlc0dEpVRC10b0RHV1k2azA1N0hNZHVPa2ZCNzlybE1fV2s5Z3VR?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1aeTVCb3dYb2llYXVZNXFqanU1VDVuM2l4NkdwSVRSUHRPN3NxQXVVdDZpV2dMSlVvMGZwMmkzd0oxUjJFNDIway1PWjFUT19Yal9EODRJQ2FwRkpQNWhyTFhwNklHdHNsREZ0RFd0dHl1cThrQ2c?oc=5",
-        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jaFRrQkkyb3pObzl1b3lhc0k3dXl5blVwRnZJRVpKeUJHWUlFeml6RXpkNlBBbC13SlNrYkZ6MkVRSjNRc21pMlV3QUNRYjY3Z0E?oc=5",
-        "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBGVWdNaERueGtIME8tMUNMZ2hPblZiMWZRSzJsNkR1MVdadDZrUVFlNEc2UG5jUk5wSEFhTnAwQnJlSHphQ3BMcw?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBkQnBFdzRlbXlRcUdhbFJ0RE82d2VKdmZBZEdLaVhlWWFtbzExbHlucFk1VEhiQW1Rd19iUHNpY3BvbE5KNktac1VNNkpXQ0dPVE5R?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11M0xCbktXcE9ycnBvN2oxVU4yNGpMd0w4NVcxU3RjbHp3ZGM3bHNiU2ZyWWRmQWFjRk1leXFyS0pWbG1BNmx6VUItZVRqc0VSNE1V?oc=5",
-        "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVTRoR0ZOdnlyb3J3NEM1UThMNHJkT0ZQTGRFM0M0SXZOZk9KVTdKVHpweXphdi1oblM4NGYtUEJ3R2pBYkxnMjRkeGY4eThSVTI4TFVYdnpDMDZWem9XUHdMZkYydFJKS3hZVnBfWEVTcHdpRnJ3cVZ5bE5NZmZfT05ySlRvX3Yz?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9qLVpxTUNpcGdKcUVfSU1QS19nMlVGV2RPNkplNjdrclNiemZteTJPLTdsUDBQM2ZaTGs0Ym1nNE8xa3NIU2VSNGRFa2FDWmZQZTBV?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1CazNmdkZnTElkZHlQNHhXX25OZmlhN0lQTjNxeW4yaFZ1c2VKaEQ5bmdpQnBGejc2MC1yeEpGS0VuRnZwWWE5bGV1RkgyYUFQM0sw?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wZ0E4MzAweFhvSVZfVkFRZEExR2Zsbld1M05tUWk0ak5XZ0JSV09Ta1RHTzEybkZFWFg2aVBWcTg2NW5ZY3RoNURfNG4tVVRpSnNF?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5HR1BTWFg0ekZwNHNHMnFKUE5XNDM3WldqOXk5TGh5NnBaWFFhR2xrWTF2elVGZVVrS08wQi1ZcjhoUk9BdUd1cnMxN3JBSkQtc0NB?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBhRjJLWFZtdmZIUXF6SFM3bWszSVhrb1M5R01CQVljZG5KQ0ZONi1HalFpTGFKeC03dmlLTmhyTjRaNjR4LTlXdE5UYXFXZW05Mzln?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15VV9rbWFmSFZqR2pBTjkxTnpiWUdpS2NqQnVvUUpQR3lSMkJkRGxYbi1oaUNiOHJPZ2FvaVNZN0hKdm9nMjZPeW5nTG1hUGZ0MWpz?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15NHFoaWtYVkFhYW9hRFJYYkJZSldodU5YaF90aktjX19iZEZVREhhOFh2V2VYckNjR0dyQ0lNbkoxcmwyVkVQSkUycEZfdmNJVVJV?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE52SjQ0dTI3THJPeUlYejJEa1BVVXc2NWdhY2hCS3FxNDNXWUljQWVDM0t2NGp6SGpwdFhSSnhDQVNpWWNBQklnSnZueE1yVEE3d3NB?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5qVV9DS3RHS3FFY2tvbER0anlJWDJZbkZPbE92LUlOSTJqMFVLdzBtbVlkeDh0dl9sV1NwcnJxR3JQQmRNYjJWWlNZNHpGQWdCaVZN?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1N3FId2gwZ0h5dVBuZGN4VHZJNFRnaXdqRXBfQkhCOXlnSGU4NVhjODBrVzRzRmcybTZRNmNsb2dvTDd2WWtLb2tMNWlKMk41Yk1B?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wQ2dEYWRWcnRlQkZXeVNNX2hteDV1bUhBc3dxWFo3WGlfMFhhd3BnOFZpRFdJM05fYTQwQk5LYy00T2JZVU5vazhWZW9NZmJKdm1R?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5uS0FKeWRHZ3pNSVhjSndFQUx6TkRRRlJtV1FrZTJ3WDBiMGtraUQ5VDhHRl9rTW54X2p5NWZra05fOXhvd1NPYWwwNTR1V2Q0djA0?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBhZFBFYXFMd21pd0pNeUNOWmpoVGs1NU9GeWR4YmZwU0lwUFotdURNRGM0dUF0Sko1dUtKbWhsSmdSYWYtU2l2WDlVNFNMVTY0T0hpN00yNDJMM2FyMDFZTjdn?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjdGhKZ0RQZWFQZXM4WXd5VHBUd2NKcW5GSUdlVWdmbXRkU1ctRGduOHV2N2xheVlRTnh3cHNHQTluN19IYllFQWFEVHhwYmF6NllB?oc=5",
-        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1HVlJtTFkyRWhIQ0hHazVfSHVhdDlWUVpOWm1UcHZma052eW1zckNMbVhxejBhZ3c0QVMwNFpMWWF2SlBwbWZuYWhsYWFVY1JuNG53bTZzSjJPeDNaZmtDOHRR?oc=5",
-        "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5YN0Z1Sk5QaHZiXzJCYWJuQnQwNTZpbzdsQ0VrTm1aa3RaQk1EVVpkLVp6Qjh4QS13Ykhra0JjNU1MQnFoUEI5RHBfb1RyaWdhZEtzQnk4Vmk4MUpYZWc?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE12N2JzOTdNRUg4RFVnOVY1TnltSVd0ZEZEbGpaMDhUallDdFU4eEZXbmRwQWJ4NHVsdTNVRUhxaGdKMFBxZG96QzZqTzBld3V1VU8w?oc=5",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9KeVFYZUlJNGVFNkhKc1l5d0pwWjh1dXBtNUhsdjNiWEo3eUhJb3dGU1lmNGI1UDM2S3YtVG1OY181eFVtOVEzOWtDSVg4c2VPM0RV?oc=5",
-        "https://wallstreetcn.com/articles/3776698",
-        "https://wallstreetcn.com/articles/3775254"
-      ]
-    },
     {
       "eventId": "evt_md50de",
       "canonicalTitle": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
@@ -98,8 +39,66 @@
       ]
     },
     {
-      "eventId": "evt_dzd3rj",
-      "canonicalTitle": "Spot gold continued to slide, down about $18/oz an",
+      "eventId": "evt_1jdb3yn",
+      "canonicalTitle": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_104ny1n",
+      "canonicalTitle": "【五大信披媒体精华摘要】8月25日",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851925694.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851925694.html"
+      ]
+    },
+    {
+      "eventId": "evt_1ug1a6y",
+      "canonicalTitle": "投资日历：周二资本市场大事提醒",
+      "canonicalLink": "http://stock.eastmoney.com/news/11791,202608253851885451.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://stock.eastmoney.com/news/11791,202608253851885451.html"
+      ]
+    },
+    {
+      "eventId": "evt_1j6h2yc",
+      "canonicalTitle": "A股盘前速览：美股收盘存储芯片板块重挫；“易中天”半年报出炉；油价跳水金价大涨；爆款基金扎堆提示风险；国家支持仿制药高质量发展",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851747068.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202608253851747068.html"
+      ]
+    },
+    {
+      "eventId": "evt_15r0nj7",
+      "canonicalTitle": "8月25日午间收评：创业板指半日跌1.43%，农业、消费股逆势走强",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154326",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154326"
+      ]
+    },
+    {
+      "eventId": "evt_1v2uqyq",
+      "canonicalTitle": "Spot 黄金 continued to slide, down about $18/oz an",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -158,42 +157,6 @@
       "relatedArticles": []
     },
     {
-      "eventId": "evt_104ny1n",
-      "canonicalTitle": "【五大信披媒体精华摘要】8月25日",
-      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851925694.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1354,202608253851925694.html"
-      ]
-    },
-    {
-      "eventId": "evt_1ug1a6y",
-      "canonicalTitle": "投资日历：周二资本市场大事提醒",
-      "canonicalLink": "http://stock.eastmoney.com/news/11791,202608253851885451.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://stock.eastmoney.com/news/11791,202608253851885451.html"
-      ]
-    },
-    {
-      "eventId": "evt_1j6h2yc",
-      "canonicalTitle": "A股盘前速览：美股收盘存储芯片板块重挫；“易中天”半年报出炉；油价跳水金价大涨；爆款基金扎堆提示风险；国家支持仿制药高质量发展",
-      "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851747068.html",
-      "memberCount": 1,
-      "sources": [
-        "东方财富"
-      ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1354,202608253851747068.html"
-      ]
-    },
-    {
       "eventId": "evt_1uet35x",
       "canonicalTitle": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
       "canonicalLink": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
@@ -238,9 +201,7 @@
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641751.d.html",
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641730.d.html",
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqu1586339.d.html"
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnyqs9641751.d.html"
       ]
     },
     {

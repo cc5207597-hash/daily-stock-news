@@ -808,12 +808,10 @@
       "date": "20260825",
       "displayDate": "2026-08-25",
       "isAi": true,
-      "newsCount": 30,
+      "newsCount": 31,
       "sectorCount": 4,
-      "missingSectors": [
-        "创新药"
-      ],
-      "covered": false,
+      "missingSectors": [],
+      "covered": true,
       "impact": {
         "vhigh": 0,
         "high": 5
@@ -850,8 +848,8 @@
     }
   ],
   "total": 20,
-  "coveredAll": 16,
-  "coverageRate": 80,
+  "coveredAll": 17,
+  "coverageRate": 85,
   "avgImpactHigh": 10,
   "consistency": {
     "黄金": 31,
