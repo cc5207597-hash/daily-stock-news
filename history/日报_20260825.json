@@ -1,41 +1,83 @@
 {
   "date": "20260825",
   "displayDate": "2026-08-25",
-  "generatedAt": "2026-08-25T06:06:53.505Z",
+  "generatedAt": "2026-08-25T12:01:00.746Z",
   "analyzed": [
     {
-      "title_cn": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "title_cn": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+      "summary_cn": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出现反常举动，这究竟意味着什么？一文帮你拆解清楚>>",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；金价大涨带动市场活跃度提升",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "金价大涨带动市场活跃度提升"
+      ],
+      "evidence": [
+        "金价一周涨超5%，水贝重新热闹起来"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+      "description": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出现反常举动，这究竟意味着什么？一文帮你拆解清楚>>",
+      "pubDate": "2026-08-25T11:46:57.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1y3hmse",
+      "eventTitle": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+          "description": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出现反常举动，这究竟意味着什么？一文帮你拆解清楚>>",
+          "link": "",
+          "pubDate": "2026-08-25T11:46:57.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
       "summary_cn": "",
       "category": "半导体",
       "direction": "利好",
       "impact": "高",
       "certainty": "高",
       "time_window": "中期",
-      "tickers": "中芯国际(688981)",
-      "notes": "AI研判:半导体业务取得海内外市场订单，核心客户实现突破；2026年上半年半导体营收达1407.66万元，为后续规模化供货奠定基础",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；全球CSP资本支出大幅增长，存储器占比提升至68%，行业景气度高企",
       "sentiment": "利好",
       "market_impact": "高",
-      "affected_companies": [
-        "万讯自控"
-      ],
+      "affected_companies": [],
       "reasoning": [
-        "半导体业务取得海内外市场订单，核心客户实现突破",
-        "2026年上半年半导体营收达1407.66万元，为后续规模化供货奠定基础"
+        "同意关键词预判",
+        "全球CSP资本支出大幅增长，存储器占比提升至68%，行业景气度高企"
       ],
       "evidence": [
-        "半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程",
-        "气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破",
-        "2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段"
+        "全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%",
+        "DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%"
       ],
       "confidence_score": 0.9,
-      "uncertainty": "半导体业务占公司整体营收比例较低，对收入不构成重大影响",
-      "title": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "uncertainty": "",
+      "title": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
       "description": "",
-      "pubDate": "2026-08-25T05:41:45.000Z",
+      "pubDate": "2026-08-25T11:51:07.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html",
-      "eventId": "evt_4vca3l",
-      "eventTitle": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippvun5452036.d.html",
+      "eventId": "evt_1k1o1uz",
+      "eventTitle": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
       "eventSources": [
         "新浪财经"
       ],
@@ -43,12 +85,448 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+          "title": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html",
-          "pubDate": "2026-08-25T05:41:45.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippvun5452036.d.html",
+          "pubDate": "2026-08-25T11:51:07.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+      "summary_cn": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播间>",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；期货买入为市场行为，不直接影响基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "期货买入为市场行为，不直接影响基本面"
+      ],
+      "evidence": [
+        "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "",
+      "title": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+      "description": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播间>",
+      "pubDate": "2026-08-25T11:32:12.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_rfe5dh",
+      "eventTitle": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+          "description": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播间>",
+          "link": "",
+          "pubDate": "2026-08-25T11:32:12.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+      "summary_cn": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在……",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；对冲基金重仓为市场行为，不直接影响基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "对冲基金重仓为市场行为，不直接影响基本面"
+      ],
+      "evidence": [
+        "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+      "description": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在……",
+      "pubDate": "2026-08-25T11:24:32.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_jonu1f",
+      "eventTitle": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+          "description": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在……",
+          "link": "",
+          "pubDate": "2026-08-25T11:24:32.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+      "summary_cn": "国务院新闻办25日召开新闻发布会，福建省相关负责人介绍，第二十六届中国国际投资贸易洽谈会将规划设置14个专业展区，全面展示新质生产力、“丝路海运”、国际供应链等",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；展会信息本身不直接影响企业基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "展会信息本身不直接影响企业基本面"
+      ],
+      "evidence": [
+        "第二十六届中国国际投资贸易洽谈会将规划设置14个专业展区，全面展示新质生产力、“丝路海运”、国际供应链等热点投资领域"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "",
+      "title": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+      "description": "国务院新闻办25日召开新闻发布会，福建省相关负责人介绍，第二十六届中国国际投资贸易洽谈会将规划设置14个专业展区，全面展示新质生产力、“丝路海运”、国际供应链等热点投资领域。福建省相关负责人介绍，本届投洽会将集中展示半导体、金融服务、生物医药等领域的合作新成果。",
+      "pubDate": "2026-08-25T11:17:45.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3154618",
+      "eventId": "evt_1t50uki",
+      "eventTitle": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+          "description": "国务院新闻办25日召开新闻发布会，福建省相关负责人介绍，第二十六届中国国际投资贸易洽谈会将规划设置14个专业展区，全面展示新质生产力、“丝路海运”、国际供应链等热点投资领域。福建省相关负责人介绍，本届投洽会将集中展示半导体、金融服务、生物医药等领域的合作新成果。",
+          "link": "https://wallstreetcn.com/articles/3154618",
+          "pubDate": "2026-08-25T11:17:45.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "summary_cn": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷&nbsp;&nbsp; 新浪网",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；板块内部分化明显，PCB、芯片股活跃但整体指数下跌",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "板块内部分化明显，PCB、芯片股活跃但整体指数下跌"
+      ],
+      "evidence": [
+        "三大指数齐跌！PCB、芯片股活跃，黄金股低迷"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "description": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-25T08:47:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5",
+      "eventId": "evt_mik3qw",
+      "eventTitle": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "eventSources": [
+        "新浪网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+          "description": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷&nbsp;&nbsp; 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5",
+          "pubDate": "2026-08-25T08:47:00.000Z",
+          "source": "新浪网"
+        }
+      ]
+    },
+    {
+      "title_cn": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+      "summary_cn": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿&nbsp;&nbsp; FX16",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；CRO和生物医药ETF大涨反映板块情绪回暖",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "CRO和生物医药ETF大涨反映板块情绪回暖"
+      ],
+      "evidence": [
+        "CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+      "description": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-08-25T09:31:04.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iWFc2RGxhYldLcEJzb2t6SjFSWlRuR0NnQ1pfMDlURzg5VHoxX1Y4WGx5QVdlTlVfVTFzWFZkWjdLUEFjZTZ2cFBxQ2x4cXhmV2sw?oc=5",
+      "eventId": "evt_myb9fj",
+      "eventTitle": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+      "eventSources": [
+        "FX168财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+          "description": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iWFc2RGxhYldLcEJzb2t6SjFSWlRuR0NnQ1pfMDlURzg5VHoxX1Y4WGx5QVdlTlVfVTFzWFZkWjdLUEFjZTZ2cFBxQ2x4cXhmV2sw?oc=5",
+          "pubDate": "2026-08-25T09:31:04.000Z",
+          "source": "FX168财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+      "summary_cn": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！&nbsp;&nbsp; FX168财经",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；创新药ETF领涨反映板块资金关注度提升",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "创新药ETF领涨反映板块资金关注度提升"
+      ],
+      "evidence": [
+        "创新药与机器人领涨、小盘风格再归来"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+      "description": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-08-25T10:20:49.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5",
+      "eventId": "evt_1vo7h3z",
+      "eventTitle": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+      "eventSources": [
+        "FX168财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+          "description": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5",
+          "pubDate": "2026-08-25T10:20:49.000Z",
+          "source": "FX168财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+      "summary_cn": "国际金价站上4600美元/盎司，分析师纷纷“空翻多”&nbsp;&nbsp; ZAKER新闻",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；分析师观点转变为市场情绪指标",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "分析师观点转变为市场情绪指标"
+      ],
+      "evidence": [
+        "国际金价站上4600美元/盎司，分析师纷纷“空翻多”"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "",
+      "title": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+      "description": "国际金价站上4600美元/盎司，分析师纷纷“空翻多”&nbsp;&nbsp; ZAKER新闻",
+      "pubDate": "2026-08-25T09:03:14.000Z",
+      "source": "ZAKER新闻",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OSGE3emZGLXFVZHF6TjJ0SE9kUW1fX1NFeHhHaUJTaUxodmd6TnpINk5rV3hzd2ZmWnQ0QUtYTHVuaFAyTVVfc0ZqUVdkTEtGa0JjeUFORjBZX2toREoyRkMwX3pWdEhZZmVKbXl1MXZ1VFZRdlpZ?oc=5",
+      "eventId": "evt_zarjwb",
+      "eventTitle": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+      "eventSources": [
+        "ZAKER新闻",
+        "金融界"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+          "description": "国际金价站上4600美元/盎司，分析师纷纷“空翻多”&nbsp;&nbsp; ZAKER新闻",
+          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OSGE3emZGLXFVZHF6TjJ0SE9kUW1fX1NFeHhHaUJTaUxodmd6TnpINk5rV3hzd2ZmWnQ0QUtYTHVuaFAyTVVfc0ZqUVdkTEtGa0JjeUFORjBZX2toREoyRkMwX3pWdEhZZmVKbXl1MXZ1VFZRdlpZ?oc=5",
+          "pubDate": "2026-08-25T09:03:14.000Z",
+          "source": "ZAKER新闻"
+        },
+        {
+          "title": "金价站稳4600美元/盎司关口，实现周线三连涨 - 金融界",
+          "description": "金价站稳4600美元/盎司关口，实现周线三连涨&nbsp;&nbsp; 金融界",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5",
+          "pubDate": "2026-08-22T00:40:24.000Z",
+          "source": "金融界"
+        }
+      ]
+    },
+    {
+      "title_cn": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "summary_cn": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前&nbsp;&nbsp; 新浪网",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；ETF资金流向为市场情绪指标，不直接影响企业基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "ETF资金流向为市场情绪指标，不直接影响企业基本面"
+      ],
+      "evidence": [
+        "银华日利ETF、科创半导体ETF和黄金ETF净流入居前"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "description": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-25T09:06:16.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5",
+      "eventId": "evt_84i2rv",
+      "eventTitle": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "eventSources": [
+        "新浪网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+          "description": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前&nbsp;&nbsp; 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5",
+          "pubDate": "2026-08-25T09:06:16.000Z",
+          "source": "新浪网"
+        }
+      ]
+    },
+    {
+      "title_cn": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "summary_cn": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3%&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；港股通医疗ETF批量涨超3%反映板块情绪高涨",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "港股通医疗ETF批量涨超3%反映板块情绪高涨"
+      ],
+      "evidence": [
+        "港股通医疗ETF批量涨超3%领涨全场"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "description": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3%&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-08-25T07:21:09.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+      "eventId": "evt_1qfdx26",
+      "eventTitle": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "eventSources": [
+        "新浪网",
+        "财富号",
+        "FX168财经"
+      ],
+      "sourceCount": 3,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTJkVEVzRWtucElUcnZEWkVsWW5nTllnLTRlN1d0bVJ4QThuWXFRVklKMUFxVjlPNERtLTJJNzJKa0hoWHFrNFB6ZnFfSUExZjZMSHJnWHVHN2QxR0tHZTAwTWdFTExZX25faWxXTjlEcC1GZEhlYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zQWctcWNYM0xTMElWd1VRRGNhVEc1TVRsamdjZVpHakNrWDFNRmZXMXlIY2dVRGkzeklsckxoZ1R3V3lUVlZKMmpKMjFvYnlUZnd0UWNYcmJiNW5ZaFZWZmIxQmZlZ2paM3lHajQ0N2VITms3NkVCOA?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1X1ktbXR3TWd6SkN3NDRweGtHUnVOSERrMGRLTy1ySElib0s4VXMzVTVkWjVPYmNFTzdDaXVreVlfRFoybzk4WWZuUndwcUVUdUYyVE5Kc0Yzdk9udU4yeGVpZEhfendTSGc?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "港股通医疗ETF涨超4%，有色、黄金股相关ETF跌超3% - 新浪网",
+          "description": "港股通医疗ETF涨超4%，有色、黄金股相关ETF跌超3%&nbsp;&nbsp; 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTJkVEVzRWtucElUcnZEWkVsWW5nTllnLTRlN1d0bVJ4QThuWXFRVklKMUFxVjlPNERtLTJJNzJKa0hoWHFrNFB6ZnFfSUExZjZMSHJnWHVHN2QxR0tHZTAwTWdFTExZX25faWxXTjlEcC1GZEhlYQ?oc=5",
+          "pubDate": "2026-08-25T07:29:00.000Z",
+          "source": "新浪网"
+        },
+        {
+          "title": "ETF今日收评 | 港股通医疗ETF涨超4%，有色、黄金股相关ETF跌超3% - 新浪网",
+          "description": "ETF今日收评 | 港股通医疗ETF涨超4%，有色、黄金股相关ETF跌超3%&nbsp;&nbsp; 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zQWctcWNYM0xTMElWd1VRRGNhVEc1TVRsamdjZVpHakNrWDFNRmZXMXlIY2dVRGkzeklsckxoZ1R3V3lUVlZKMmpKMjFvYnlUZnd0UWNYcmJiNW5ZaFZWZmIxQmZlZ2paM3lHajQ0N2VITms3NkVCOA?oc=5",
+          "pubDate": "2026-08-25T07:12:00.000Z",
+          "source": "新浪网"
+        },
+        {
+          "title": "ETF市场日报 | 黄金股ETF批量涨超3%领涨全场，疫苗ETF集体重挫逾5% - 财富号",
+          "description": "ETF市场日报 | 黄金股ETF批量涨超3%领涨全场，疫苗ETF集体重挫逾5%&nbsp;&nbsp; 财富号",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1X1ktbXR3TWd6SkN3NDRweGtHUnVOSERrMGRLTy1ySElib0s4VXMzVTVkWjVPYmNFTzdDaXVreVlfRFoybzk4WWZuUndwcUVUdUYyVE5Kc0Yzdk9udU4yeGVpZEhfendTSGc?oc=5",
+          "pubDate": "2026-08-21T07:24:00.000Z",
+          "source": "财富号"
+        },
+        {
+          "title": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+          "description": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3%&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+          "pubDate": "2026-08-25T07:21:09.000Z",
+          "source": "FX168财经"
         }
       ]
     },
@@ -59,25 +537,24 @@
       "direction": "利好",
       "impact": "高",
       "certainty": "高",
-      "time_window": "长期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:六足特种机器人概念影片发布，标志在特种机器人领域迈出实质性一步；与富士康合作打造机器人公司，解决量产落地问题",
+      "notes": "AI研判:同意关键词预判；特种机器人业务取得实质性进展，与富士康合作加速落地",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [
         "阿尔特"
       ],
       "reasoning": [
-        "六足特种机器人概念影片发布，标志在特种机器人领域迈出实质性一步",
-        "与富士康合作打造机器人公司，解决量产落地问题"
+        "同意关键词预判",
+        "特种机器人业务取得实质性进展，与富士康合作加速落地"
       ],
       "evidence": [
-        "阿尔特作为英伟达Solution Advisor: Consultant，正式发布了六足特种机器人的概念影片",
-        "该产品专为高空、地底、隧道等难以涉足的复杂危险环境设计，可执行巡检、维护等精密作业",
-        "阿尔特已将机器人业务列为“新成长曲线”，携手富士康发布面向机器人整机企业的“交钥匙”Turn-Key全栈平台"
+        "正式发布了六足特种机器人的概念影片",
+        "携手富士康发布面向机器人整机企业的“交钥匙”Turn-Key全栈平台"
       ],
-      "confidence_score": 0.9,
-      "uncertainty": "机器人业务仍处于早期阶段，商业化落地存在不确定性",
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "【阿尔特：发布六足特种机器人概念影片 标志着在特种机器人领域迈出实质性一步】阿尔特官微消息，在近日举行的NVIDIA Physical AI & Robotics Partner Day上，阿尔特作为英伟达Solution Advisor: Consultant，正式发布了六足特种机器人的概念影片。该产品专为高空、地底、隧道等难以涉足的复杂危险环境设计，可执行巡检、维护等精密作业，标志着阿尔特在特种机器人领域迈出实质性一步。目前，阿尔特已将机器人业务列为“新成长曲线”，今年7月，阿尔特携手富士康发布面向机器人整机企业的“交钥匙”Turn-Key全栈平台，双方将共同打造机器人公司，新公司作为Turn-Key全栈平台的载体，致力于解决机器人量产落地的问题。",
       "description": "",
       "pubDate": "2026-08-25T05:37:54.000Z",
@@ -94,10 +571,152 @@
         {
           "title": "【阿尔特：发布六足特种机器人概念影片 标志着在特种机器人领域迈出实质性一步】阿尔特官微消息，在近日举行的NVIDIA Physical AI & Robotics Partner Day上，阿尔特作为英伟达Solution Advisor: Consultant，正式发布了六足特种机器人的概念影片。该产品专为高空、地底、隧道等难以涉足的复杂危险环境设计，可执行巡检、维护等精密作业，标志着阿尔特在特种机器人领域迈出实质性一步。目前，阿尔特已将机器人业务列为“新成长曲线”，今年7月，阿尔特携手富士康发布面向机器人整机企业的“交钥匙”Turn-Key全栈平台，双方将共同打造机器人公司，新公司作为Turn-Key全栈平台的载体，致力于解决机器人量产落地的问题。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewq9666439.d.html",
+          "guessedSector": "半导体",
           "pubDate": "2026-08-25T05:37:54.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewq9666439.d.html",
+          "eventId": "evt_15eb0pt",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "summary_cn": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪网",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；高盛上调目标价反映机构看好金价上涨",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "高盛上调目标价反映机构看好金价上涨"
+      ],
+      "evidence": [
+        "高盛：年末黄金价格将达到每盎司4900美元"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪网",
+      "pubDate": "2026-08-25T06:37:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5",
+      "eventId": "evt_11r8mhz",
+      "eventTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "eventSources": [
+        "新浪网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+          "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪网",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5",
+          "pubDate": "2026-08-25T06:37:00.000Z",
+          "source": "新浪网"
+        }
+      ]
+    },
+    {
+      "title_cn": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+      "summary_cn": "积存金价格集体站上千元关口 黄金投资热度升温&nbsp;&nbsp; 温州新闻网",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；积存金价格上涨反映投资需求升温",
+      "sentiment": "利好",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "积存金价格上涨反映投资需求升温"
+      ],
+      "evidence": [
+        "积存金价格集体站上千元关口 黄金投资热度升温"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+      "description": "积存金价格集体站上千元关口 黄金投资热度升温&nbsp;&nbsp; 温州新闻网",
+      "pubDate": "2026-08-25T06:58:31.000Z",
+      "source": "温州新闻网",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pU1BrZElhRkljcVItanJzZE5FVl9aYVl6TVRJUjV1N19pUmdYc3IwOWpqbWJXdVVhSGJVMEsyNDlXTTVCN0toOEExb2pmdjVJN3I1TWlReHV1QmE1UnBWT0FDY2N3RjRRMkE?oc=5",
+      "eventId": "evt_1d3lm8i",
+      "eventTitle": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+      "eventSources": [
+        "温州新闻网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+          "description": "积存金价格集体站上千元关口 黄金投资热度升温&nbsp;&nbsp; 温州新闻网",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pU1BrZElhRkljcVItanJzZE5FVl9aYVl6TVRJUjV1N19pUmdYc3IwOWpqbWJXdVVhSGJVMEsyNDlXTTVCN0toOEExb2pmdjVJN3I1TWlReHV1QmE1UnBWT0FDY2N3RjRRMkE?oc=5",
+          "pubDate": "2026-08-25T06:58:31.000Z",
+          "source": "温州新闻网"
+        }
+      ]
+    },
+    {
+      "title_cn": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "中芯国际(688981)",
+      "notes": "AI研判:同意关键词预判；半导体业务取得突破，订单验证进展顺利",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "万讯自控"
+      ],
+      "reasoning": [
+        "同意关键词预判",
+        "半导体业务取得突破，订单验证进展顺利"
+      ],
+      "evidence": [
+        "半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程",
+        "气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "description": "",
+      "pubDate": "2026-08-25T05:41:45.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html",
+      "eventId": "evt_4vca3l",
+      "eventTitle": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【万讯自控：半导体等新兴领域整体营收比例较低 尚处于起步阶段】万讯自控(300112)8月25日接受机构调研时表示，半导体业务海内外布局同步取得一定进展，产品体系全面覆盖晶圆制造、CP测试、封装测试全工艺流程。目前压力传感器/变送器、真空计已取得部分海内外市场订单，应用于刻蚀、沉积等半导体制程工艺设备、测试工装及特气、厂务配套等场景；气体探测器/报警器成功导入中芯国际等国内头部晶圆制造企业，以及法液空等全球工业气体龙头企业，核心客户拓展实现关键突破。与此同时，正有序推进压力传感器/变送器、质量流量控制器/流量计、气体探测器/报警器、气体分析仪等产品在多个海内外客户的产品验证工作，为后续规模化供货奠定坚实基础。2026年上半年半导体等新兴领域实现营业收入1407.66万元，尚处于起步阶段，占公司整体营收比例较低，对收入不构成重大影响。",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-25T05:41:45.000Z",
+          "source": "新浪财经",
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1620180.d.html",
+          "eventId": "evt_4vca3l",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -107,22 +726,22 @@
       "category": "创新药",
       "direction": "利好",
       "impact": "中",
-      "certainty": "高",
+      "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:A股三大指数集体翻红，科创50指数涨幅扩大至1%；CRO概念涨幅居前，反映市场对创新药板块的乐观情绪",
+      "notes": "AI研判:同意关键词预判；CRO概念涨幅居前反映板块情绪回暖",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "A股三大指数集体翻红，科创50指数涨幅扩大至1%",
-        "CRO概念涨幅居前，反映市场对创新药板块的乐观情绪"
+        "同意关键词预判",
+        "CRO概念涨幅居前反映板块情绪回暖"
       ],
       "evidence": [
-        "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前"
+        "CRO概念涨幅居前，全市场超4300家个股上涨"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "板块上涨可能受短期市场情绪影响",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
       "description": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
       "pubDate": "2026-08-25T05:15:26.000Z",
@@ -148,10 +767,13 @@
         {
           "title": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
           "description": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
-          "link": "https://wallstreetcn.com/articles/3154365",
+          "guessedSector": "创新药",
           "pubDate": "2026-08-25T05:15:26.000Z",
           "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "link": "https://wallstreetcn.com/articles/3154365",
+          "eventId": "evt_16qajov",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -164,21 +786,21 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:长飞光纤光缆港股午后持续拉升，涨超16%；反映市场对光模块板块的乐观情绪",
+      "notes": "AI研判:同意关键词预判；个股大涨反映市场对其业务前景看好",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [
         "长飞光纤光缆"
       ],
       "reasoning": [
-        "长飞光纤光缆港股午后持续拉升，涨超16%",
-        "反映市场对光模块板块的乐观情绪"
+        "同意关键词预判",
+        "个股大涨反映市场对其业务前景看好"
       ],
       "evidence": [
         "长飞光纤光缆港股午后持续拉升，现涨超16%"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "个股大涨可能受短期市场情绪影响",
+      "uncertainty": "",
       "title": "长飞光纤光缆港股午后持续拉升，现涨超16%。",
       "description": "长飞光纤光缆港股午后持续拉升，现涨超16%。",
       "pubDate": "2026-08-25T05:14:18.000Z",
@@ -195,10 +817,13 @@
         {
           "title": "长飞光纤光缆港股午后持续拉升，现涨超16%。",
           "description": "长飞光纤光缆港股午后持续拉升，现涨超16%。",
-          "link": "https://wallstreetcn.com/articles/3154362",
+          "guessedSector": "光模块",
           "pubDate": "2026-08-25T05:14:18.000Z",
           "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "link": "https://wallstreetcn.com/articles/3154362",
+          "eventId": "evt_mkk4ft",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -211,20 +836,19 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:水贝金条销量大涨，反映国内黄金零售市场的强劲需求；投资金条类产品迎来明显销售增长",
+      "notes": "AI研判:同意关键词预判；金条销量大涨反映投资需求旺盛",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "水贝金条销量大涨，反映国内黄金零售市场的强劲需求",
-        "投资金条类产品迎来明显销售增长"
+        "同意关键词预判",
+        "金条销量大涨反映投资需求旺盛"
       ],
       "evidence": [
-        "随着金价在高位波动，消费者不再盲目“求大”，转而青睐“轻量化”与“高颜值”兼具的产品",
         "投资金条类产品也迎来了一波明显的销售增长"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "销量增长可能受短期金价波动影响",
+      "uncertainty": "",
       "title": "水贝金条销量大涨",
       "description": "近期，国际金价快速反弹。国内黄金零售市场也随之波动。作为全国黄金珠宝市场的“风向标”，深圳水贝市场上周末迎来了一波客流小高峰。记者在调研中发现，随着金价在高位波动，消费者不再盲目“求大”，转而青睐“轻量化”与“高颜值”兼具的产品。多家商户表示，工艺精湛的小克重产品已经成为当前绝对的销售主力。与此同时，投资金条类产品也迎来了一波明显的销售增长。在一些专营投资金条的店铺门口，前来咨询和购买的顾客明显增多。（央视财经）",
       "pubDate": "2026-08-25T05:11:39.000Z",
@@ -241,10 +865,13 @@
         {
           "title": "水贝金条销量大涨",
           "description": "近期，国际金价快速反弹。国内黄金零售市场也随之波动。作为全国黄金珠宝市场的“风向标”，深圳水贝市场上周末迎来了一波客流小高峰。记者在调研中发现，随着金价在高位波动，消费者不再盲目“求大”，转而青睐“轻量化”与“高颜值”兼具的产品。多家商户表示，工艺精湛的小克重产品已经成为当前绝对的销售主力。与此同时，投资金条类产品也迎来了一波明显的销售增长。在一些专营投资金条的店铺门口，前来咨询和购买的顾客明显增多。（央视财经）",
-          "link": "https://wallstreetcn.com/articles/3154359",
+          "guessedSector": "黄金",
           "pubDate": "2026-08-25T05:11:39.000Z",
           "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "link": "https://wallstreetcn.com/articles/3154359",
+          "eventId": "evt_1cod9s9",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -257,20 +884,20 @@
       "certainty": "中",
       "time_window": "长期",
       "tickers": "—",
-      "notes": "AI研判:分析美国和欧元区债务问题，与黄金板块关联度较低；更多是宏观层面的分析",
+      "notes": "AI研判:同意关键词预判；债务分析为宏观背景，不直接影响行业基本面",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "分析美国和欧元区债务问题，与黄金板块关联度较低",
-        "更多是宏观层面的分析"
+        "同意关键词预判",
+        "债务分析为宏观背景，不直接影响行业基本面"
       ],
       "evidence": [
         "美国40万亿美元的债务占据了头条",
-        "欧元区的隐性财政负担至少与其账面债务一样庞大"
+        "欧元区隐性财政负担至少与其账面债务一样庞大"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "对黄金板块直接影响有限",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "Hedgeye特约作者、西班牙经济学家Daniel Lacalle表示，美国40万亿美元的债务占据了",
       "description": "Hedgeye特约作者、西班牙经济学家Daniel Lacalle表示，美国40万亿美元的债务占据了头条。然而，财政政策的关键不在于谁“赢”，而在于谁先“输”。根据2026年的官方估算，美国社保和医疗保险的资金缺口在75年内的现值约为95万亿美元，约占同期预计GDP累计现值的5%，这还不包括公众持有的联邦债务，而该债务在2026年预计已达到年度GDP的101%。然而，欧元区的隐性财政负担至少与其账面债务一样庞大。欧盟委员会的官方估算显示，在考虑未来缴款后，净应计公共养老金负债约为GDP的150%，而养老金总承诺则约占GDP的371%。重要的是，这还不包括大部分未来医疗和长期护理支出带来的压力。这意味着下一场债务危机可能并非源自美国，而是来自欧元区。首先，美元仍是世界储备货币，美国国债仍是全球央行最重要的资产，尽管近期有黄金购买和资产再平衡的动向。其次，大多数欧盟大型经济体的政治现状是财政回避。法国的主权债券收益率现已高于意大利。没有一个欧元区政府愿意削减支出或限制未来负债。欧元区主要国家的无资金承诺负债（已承诺但尚未发行的债务）超过GDP的300%。第三，欧元区主权资产自2021年以来已产生负实际经济回报，导致全球投资者兴趣下降。美国债务确实是个挑战，但欧元区债务的问题更大，因为报告的债务只是“超额赤字协议”口径下的数字，而非公共行政部门的总负债。投资者更应该对一个深陷经济停滞、政",
       "pubDate": "2026-08-25T05:42:21.000Z",
@@ -287,10 +914,13 @@
         {
           "title": "Hedgeye特约作者、西班牙经济学家Daniel Lacalle表示，美国40万亿美元的债务占据了",
           "description": "Hedgeye特约作者、西班牙经济学家Daniel Lacalle表示，美国40万亿美元的债务占据了头条。然而，财政政策的关键不在于谁“赢”，而在于谁先“输”。根据2026年的官方估算，美国社保和医疗保险的资金缺口在75年内的现值约为95万亿美元，约占同期预计GDP累计现值的5%，这还不包括公众持有的联邦债务，而该债务在2026年预计已达到年度GDP的101%。然而，欧元区的隐性财政负担至少与其账面债务一样庞大。欧盟委员会的官方估算显示，在考虑未来缴款后，净应计公共养老金负债约为GDP的150%，而养老金总承诺则约占GDP的371%。重要的是，这还不包括大部分未来医疗和长期护理支出带来的压力。这意味着下一场债务危机可能并非源自美国，而是来自欧元区。首先，美元仍是世界储备货币，美国国债仍是全球央行最重要的资产，尽管近期有黄金购买和资产再平衡的动向。其次，大多数欧盟大型经济体的政治现状是财政回避。法国的主权债券收益率现已高于意大利。没有一个欧元区政府愿意削减支出或限制未来负债。欧元区主要国家的无资金承诺负债（已承诺但尚未发行的债务）超过GDP的300%。第三，欧元区主权资产自2021年以来已产生负实际经济回报，导致全球投资者兴趣下降。美国债务确实是个挑战，但欧元区债务的问题更大，因为报告的债务只是“超额赤字协议”口径下的数字，而非公共行政部门的总负债。投资者更应该对一个深陷经济停滞、政",
-          "link": "",
+          "guessedSector": "黄金",
           "pubDate": "2026-08-25T05:42:21.000Z",
           "source": "金十数据",
-          "sourceType": "direct_api"
+          "link": "",
+          "eventId": "evt_qmg2tz",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -303,21 +933,21 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:子公司与TikTok Shop举办AI出海大会，与半导体板块关联度较低；更多是对跨境电商行业的利好",
+      "notes": "AI研判:同意关键词预判；AI出海大会为业务拓展活动，短期影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [
         "米奥会展"
       ],
       "reasoning": [
-        "子公司与TikTok Shop举办AI出海大会，与半导体板块关联度较低",
-        "更多是对跨境电商行业的利好"
+        "同意关键词预判",
+        "AI出海大会为业务拓展活动，短期影响有限"
       ],
       "evidence": [
         "TikTok Shop与米奥会展控股子公司奥创天下联合主办的以“AI扬帆 亿启欧洲”为主题的AI出海大会将在杭州举行"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "对创新药板块无直接影响",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "【米奥会展：子公司将与TikTok Shop举办AI出海大会 跨境电商AI操作系统将亮相】8月26日，TikTok Shop与米奥会展(300795)控股子公司奥创天下联合主办的以“AI扬帆 亿启欧洲”为主题的AI出海大会将在杭州举行，奥创天下旗下“星擎”AI视频营销解决方案与“星帆”跨境电商AI操作系统将亮相，以“B2B获客+B2C出单”双引擎组合，卡位AI出海营销的结构性机遇。",
       "description": "",
       "pubDate": "2026-08-25T05:57:00.000Z",
@@ -334,10 +964,13 @@
         {
           "title": "【米奥会展：子公司将与TikTok Shop举办AI出海大会 跨境电商AI操作系统将亮相】8月26日，TikTok Shop与米奥会展(300795)控股子公司奥创天下联合主办的以“AI扬帆 亿启欧洲”为主题的AI出海大会将在杭州举行，奥创天下旗下“星擎”AI视频营销解决方案与“星帆”跨境电商AI操作系统将亮相，以“B2B获客+B2C出单”双引擎组合，卡位AI出海营销的结构性机遇。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5526977.d.html",
+          "guessedSector": "创新药",
           "pubDate": "2026-08-25T05:57:00.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5526977.d.html",
+          "eventId": "evt_1wbazuz",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -345,26 +978,26 @@
       "title_cn": "中际旭创A股成交额达200亿元，现跌3.12%。",
       "summary_cn": "",
       "category": "光模块",
-      "direction": "中性",
+      "direction": "利空",
       "impact": "低",
       "certainty": "中",
       "time_window": "短期",
       "tickers": "中际旭创(300308)",
-      "notes": "AI研判:个股成交额变化属于正常市场波动；单日成交额达200亿元但股价下跌，反映市场分歧",
-      "sentiment": "中性",
+      "notes": "AI研判:同意关键词预判；个股大跌反映短期资金情绪降温",
+      "sentiment": "利空",
       "market_impact": "低",
       "affected_companies": [
         "中际旭创"
       ],
       "reasoning": [
-        "个股成交额变化属于正常市场波动",
-        "单日成交额达200亿元但股价下跌，反映市场分歧"
+        "同意关键词预判",
+        "个股大跌反映短期资金情绪降温"
       ],
       "evidence": [
         "中际旭创A股成交额达200亿元，现跌3.12%"
       ],
       "confidence_score": 0.7,
-      "uncertainty": "成交额变化与股价走势不一致，需关注后续资金动向",
+      "uncertainty": "",
       "title": "中际旭创A股成交额达200亿元，现跌3.12%。",
       "description": "",
       "pubDate": "2026-08-25T05:50:23.000Z",
@@ -376,26 +1009,16 @@
         "新浪财经"
       ],
       "sourceCount": 1,
-      "relatedLinks": [
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html"
-      ],
+      "relatedLinks": [],
       "eventMembers": [
         {
           "title": "中际旭创A股成交额达200亿元，现跌3.12%。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html",
+          "guessedSector": "光模块",
           "pubDate": "2026-08-25T05:50:23.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "中际旭创A股成交额超100亿元，现跌2.29%。",
-          "description": "",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-25T02:37:12.000Z",
-          "source": "新浪财经",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html",
-          "eventId": "evt_18jis8a",
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html",
+          "eventId": "evt_10xvjml",
           "sourceCount": 1,
           "archived": true
         }
@@ -408,9 +1031,9 @@
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "长期",
+      "time_window": "中期",
       "tickers": "紫金矿业(601899)",
-      "notes": "AI研判:新设能源公司含电池制造业务，与黄金板块关联度较低；更多是对新能源行业的利好",
+      "notes": "AI研判:同意关键词预判；新设能源公司为业务拓展活动，短期影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [
@@ -418,14 +1041,14 @@
         "紫金矿业"
       ],
       "reasoning": [
-        "新设能源公司含电池制造业务，与黄金板块关联度较低",
-        "更多是对新能源行业的利好"
+        "同意关键词预判",
+        "新设能源公司为业务拓展活动，短期影响有限"
       ],
       "evidence": [
-        "福建海氨能源有限公司成立，经营范围包含：新兴能源技术研发；电池制造；工程和技术研究和试验发展；站用加氢及储氢设施销售等"
+        "福建海氨能源有限公司成立，经营范围包含：新兴能源技术研发；电池制造；工程和技术研究和试验发展"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "对黄金板块无直接影响",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "【中闽能源、紫金矿业等新设能源公司 含电池制造业务】企查查APP显示，近日，福建海氨能源有限公司成立，经营范围包含：新兴能源技术研发；电池制造；工程和技术研究和试验发展；站用加氢及储氢设施销售等。企查查股权穿透显示，该公司由紫金矿业(601899)旗下福大紫金氢能科技股份有限公司、中闽能源(600163)等共同持股。",
       "description": "",
       "pubDate": "2026-08-25T05:36:25.000Z",
@@ -442,10 +1065,13 @@
         {
           "title": "【中闽能源、紫金矿业等新设能源公司 含电池制造业务】企查查APP显示，近日，福建海氨能源有限公司成立，经营范围包含：新兴能源技术研发；电池制造；工程和技术研究和试验发展；站用加氢及储氢设施销售等。企查查股权穿透显示，该公司由紫金矿业(601899)旗下福大紫金氢能科技股份有限公司、中闽能源(600163)等共同持股。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1615884.d.html",
+          "guessedSector": "黄金",
           "pubDate": "2026-08-25T05:36:25.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippews1615884.d.html",
+          "eventId": "evt_q9fvf1",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -453,24 +1079,24 @@
       "title_cn": "【午评：创业板指跌1.43% 种业、粮食概念逆势走强】今日三大指数集体低开后维持震荡调整走势，创业板指盘中一度跌超2%。截至午间收盘，沪指跌0.15%，深证成指跌0.78%，创业板指跌1.43%。盘面上，种业概念、粮食概念逆势走强，万向德农、登海种业、金健米业涨停。跨境支付概念走高，新晨科技、楚天龙、青岛金王涨停。旅游板块走强，凯撒旅业涨停。医药板块活跃，冀衡医药、华森制药、海南海药等涨停。酒店餐饮、旅游、日用化工、农林牧渔、商业连锁等板块涨幅居前；有色、半导体、电气设备、矿物制品等板块跌幅居前。",
       "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "分化",
       "impact": "高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:半导体板块跌幅居前，反映市场对该板块的悲观情绪；创业板指跌1.43%，半导体板块与有色、电气设备等共同领跌",
-      "sentiment": "利空",
+      "notes": "AI研判:同意关键词预判；板块内部分化明显，半导体板块跌幅居前",
+      "sentiment": "分化",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "半导体板块跌幅居前，反映市场对该板块的悲观情绪",
-        "创业板指跌1.43%，半导体板块与有色、电气设备等共同领跌"
+        "同意关键词预判",
+        "板块内部分化明显，半导体板块跌幅居前"
       ],
       "evidence": [
         "有色、半导体、电气设备、矿物制品等板块跌幅居前"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "板块下跌可能受短期市场情绪影响，基本面未发生变化",
+      "uncertainty": "",
       "title": "【午评：创业板指跌1.43% 种业、粮食概念逆势走强】今日三大指数集体低开后维持震荡调整走势，创业板指盘中一度跌超2%。截至午间收盘，沪指跌0.15%，深证成指跌0.78%，创业板指跌1.43%。盘面上，种业概念、粮食概念逆势走强，万向德农、登海种业、金健米业涨停。跨境支付概念走高，新晨科技、楚天龙、青岛金王涨停。旅游板块走强，凯撒旅业涨停。医药板块活跃，冀衡医药、华森制药、海南海药等涨停。酒店餐饮、旅游、日用化工、农林牧渔、商业连锁等板块涨幅居前；有色、半导体、电气设备、矿物制品等板块跌幅居前。",
       "description": "",
       "pubDate": "2026-08-25T03:33:54.000Z",
@@ -498,160 +1124,6 @@
       ]
     },
     {
-      "title_cn": "【主力资金流向前十大个股】",
-      "summary_cn": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（1",
-      "category": "光模块",
-      "direction": "分化",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "中际旭创(300308)、新易盛(300502)",
-      "notes": "AI研判:光模块个股资金流向分化，中际旭创净卖出超5亿元，新易盛净流出2.35亿元；亨通光电、长飞光纤净流入居前，反映板块内部存在分化",
-      "sentiment": "分化",
-      "market_impact": "高",
-      "affected_companies": [
-        "中际旭创",
-        "新易盛",
-        "亨通光电",
-        "长飞光纤"
-      ],
-      "reasoning": [
-        "光模块个股资金流向分化，中际旭创净卖出超5亿元，新易盛净流出2.35亿元",
-        "亨通光电、长飞光纤净流入居前，反映板块内部存在分化"
-      ],
-      "evidence": [
-        "中际旭创净卖出5.56亿元位居首位，其次是洛阳钼业、紫金矿业",
-        "亨通光电主力资金净流入7.05亿元，长飞光纤主力资金净流入5.13亿元"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "资金流向变化可能受短期市场情绪影响",
-      "title": "【主力资金流向前十大个股】",
-      "description": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（10.96亿元）、亨通光电（7.05亿元）、寒武纪（5.47亿元）、长飞光纤（5.13亿元）、誉衡药业（4.05亿元）、中天科技（3.98亿元）、天通股份（3.84亿元）、兆易创新（3.63亿元）、金健米业（3.60亿元）；主力资金流出规模居首的个股是中际旭创（-5.56亿元），其次是洛阳钼业（-2.97亿元）、紫金矿业（-2.50亿元）、普冉股份（-2.36亿元）、新易盛（-2.35亿元）、协鑫能科（-2.21亿元）、北方华创（-2.20亿元）、德福科技（-2.13亿元）、三环集团（-2.01亿元）、长川科技（-1.97亿元）。",
-      "pubDate": "2026-08-25T02:40:37.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_vyf6p9",
-      "eventTitle": "【主力资金流向前十大个股】",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【主力资金流向前十大个股】",
-          "description": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（10.96亿元）、亨通光电（7.05亿元）、寒武纪（5.47亿元）、长飞光纤（5.13亿元）、誉衡药业（4.05亿元）、中天科技（3.98亿元）、天通股份（3.84亿元）、兆易创新（3.63亿元）、金健米业（3.60亿元）；主力资金流出规模居首的个股是中际旭创（-5.56亿元），其次是洛阳钼业（-2.97亿元）、紫金矿业（-2.50亿元）、普冉股份（-2.36亿元）、新易盛（-2.35亿元）、协鑫能科（-2.21亿元）、北方华创（-2.20亿元）、德福科技（-2.13亿元）、三环集团（-2.01亿元）、长川科技（-1.97亿元）。",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-25T02:40:37.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_vyf6p9",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
-      "summary_cn": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，",
-      "category": "光模块",
-      "direction": "利空",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "短期",
-      "tickers": "中际旭创(300308)、新易盛(300502)",
-      "notes": "AI研判:中际旭创、新易盛等半导体及通信设备股跌幅居前；反映市场对光模块板块的担忧",
-      "sentiment": "利空",
-      "market_impact": "中",
-      "affected_companies": [
-        "中际旭创",
-        "新易盛"
-      ],
-      "reasoning": [
-        "中际旭创、新易盛等半导体及通信设备股跌幅居前",
-        "反映市场对光模块板块的担忧"
-      ],
-      "evidence": [
-        "中际旭创、新易盛等半导体及通信设备股跌幅居前"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "板块下跌可能受短期市场情绪影响",
-      "title": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
-      "description": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，券商、白酒板块表现分化。",
-      "pubDate": "2026-08-25T03:33:49.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_asq36e",
-      "eventTitle": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
-          "description": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，券商、白酒板块表现分化。",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-25T03:33:49.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_asq36e",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
-      "summary_cn": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果存疑；地缘政治风险可能提升黄金的避险需求",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果存疑",
-        "地缘政治风险可能提升黄金的避险需求"
-      ],
-      "evidence": [
-        "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑",
-        "当前黄金略微呈现卖出信号，美油多头情绪回升"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "地缘政治风险的发展存在不确定性",
-      "title": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
-      "description": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）",
-      "pubDate": "2026-08-25T02:32:45.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_won6os",
-      "eventTitle": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
-          "description": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）",
-          "guessedSector": "黄金",
-          "pubDate": "2026-08-25T02:32:45.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_won6os",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "【蓝思科技：下半年将迎来新一代AI服务器结构等领域订单爬坡】蓝思科技(300433)8月23日在电话会议上表示，服务器结构件和散热模组方面，公司松山湖园区已经完成扩产并迎来客户验厂，各类备案均已完成，下半年将迎来新一代AI服务器结构件、高效液冷散热系统等关键领域的订单爬坡。光纤方面，目前正在推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请。",
       "summary_cn": "",
       "category": "光模块",
@@ -660,22 +1132,21 @@
       "certainty": "高",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:下半年将迎来新一代AI服务器结构件、高效液冷散热系统等订单爬坡；光纤业务推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请",
+      "notes": "AI研判:同意关键词预判；AI服务器订单爬坡将带动业绩增长",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [
         "蓝思科技"
       ],
       "reasoning": [
-        "下半年将迎来新一代AI服务器结构件、高效液冷散热系统等订单爬坡",
-        "光纤业务推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请"
+        "同意关键词预判",
+        "AI服务器订单爬坡将带动业绩增长"
       ],
       "evidence": [
-        "服务器结构件和散热模组方面，公司松山湖园区已经完成扩产并迎来客户验厂，各类备案均已完成，下半年将迎来新一代AI服务器结构件、高效液冷散热系统等关键领域的订单爬坡",
-        "光纤方面，目前正在推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请"
+        "下半年将迎来新一代AI服务器结构件、高效液冷散热系统等关键领域的订单爬坡"
       ],
-      "confidence_score": 0.9,
-      "uncertainty": "订单爬坡进度和客户认证结果存在不确定性",
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "【蓝思科技：下半年将迎来新一代AI服务器结构等领域订单爬坡】蓝思科技(300433)8月23日在电话会议上表示，服务器结构件和散热模组方面，公司松山湖园区已经完成扩产并迎来客户验厂，各类备案均已完成，下半年将迎来新一代AI服务器结构件、高效液冷散热系统等关键领域的订单爬坡。光纤方面，目前正在推进空芯光纤配套精密组件的客户认证和MPO跳线专利申请。",
       "description": "",
       "pubDate": "2026-08-25T02:52:25.000Z",
@@ -703,27 +1174,78 @@
       ]
     },
     {
+      "title_cn": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+      "summary_cn": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "中际旭创(300308)、新易盛(300502)",
+      "notes": "AI研判:同意关键词预判；个股跌幅居前反映市场情绪降温",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "中际旭创",
+        "新易盛"
+      ],
+      "reasoning": [
+        "同意关键词预判",
+        "个股跌幅居前反映市场情绪降温"
+      ],
+      "evidence": [
+        "中际旭创、新易盛等半导体及通信设备股跌幅居前"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+      "description": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，券商、白酒板块表现分化。",
+      "pubDate": "2026-08-25T03:33:49.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_asq36e",
+      "eventTitle": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等",
+          "description": "金十图示：2026年08月25日（周二）富时中国A50指数成分股午盘收盘行情一览：中际旭创、新易盛等半导体及通信设备股跌幅居前；银行、保险及部分周期股相对抗跌，券商、白酒板块表现分化。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-25T03:33:49.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_asq36e",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
       "summary_cn": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
       "category": "黄金",
       "direction": "利空",
       "impact": "中",
-      "certainty": "高",
+      "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%；反映市场对黄金板块的悲观情绪",
+      "notes": "AI研判:同意关键词预判；现货黄金下跌反映短期市场情绪降温",
       "sentiment": "利空",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%",
-        "反映市场对黄金板块的悲观情绪"
+        "同意关键词预判",
+        "现货黄金下跌反映短期市场情绪降温"
       ],
       "evidence": [
         "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "价格下跌可能受短期市场情绪影响",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
       "description": "现货黄金持续走低，短线下挫约18美元/盎司，日内跌近0.7%。",
       "pubDate": "2026-08-25T02:52:52.000Z",
@@ -756,24 +1278,22 @@
       "category": "半导体",
       "direction": "利好",
       "impact": "中",
-      "certainty": "高",
+      "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:台积电供应商在台湾建厂，有助于解决供应链中断问题；PFA部件对半导体制造至关重要，新厂投产将增强供应链稳定性",
+      "notes": "AI研判:同意关键词预判；供应链关键环节产能扩张，缓解卡脖子问题",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "台积电供应商在台湾建厂，有助于解决供应链中断问题",
-        "PFA部件对半导体制造至关重要，新厂投产将增强供应链稳定性"
+        "同意关键词预判",
+        "供应链关键环节产能扩张，缓解卡脖子问题"
       ],
       "evidence": [
-        "台积电供应商Nichias和GoldStone Development正在台湾兴建一座工厂，生产半导体行业至关重要的特种塑料部件",
-        "这座位于半导体制造枢纽新竹的工厂将生产含氟聚合物管材（俗称PFA管），该类管材在整个芯片生产过程中的化学品输送环节不可或缺",
-        "预计将于2027年初投产"
+        "Nichias和GoldStone Development正在台湾兴建一座工厂，生产半导体行业至关重要的特种塑料部件"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "工厂建设和投产进度可能受政策和许可审批影响",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "据《日经亚洲》获悉，台积电供应商Nichias和GoldStoneDevelopment正在台湾兴建",
       "description": "据《日经亚洲》获悉，台积电供应商Nichias和GoldStoneDevelopment正在台湾兴建一座工厂，生产半导体行业至关重要的特种塑料部件，以避免过去几年曾阻碍产能扩张的供应链中断问题重演。据直接知情人士透露，这座位于半导体制造枢纽新竹的工厂将生产含氟聚合物管材（俗称PFA管），该类管材在整个芯片生产过程中的化学品输送环节不可或缺。知情人士表示，如果该工厂能按期获得必要的政府许可，预计将于2027年初投产。PFA部件不仅对半导体工厂运营至关重要，在芯片制造设备（包括湿法化学处理系统）的建造中同样不可或缺。它们被泛林集团（Lam Research）和斯库林集团（Screen Semiconductor Solutions）等领先半导体设备制造商广泛使用，这两家公司均为台积电、英特尔和三星的重要供应商。全球仅有少数供应商具备生产制造此类关键部件所需的坚固耐用PFA材料的能力，如美国科慕（Chemours）和日本大金（Daikin）。同样，也只有屈指可数的合格供应商，如日本匹拉（Nippon Pillar）、Nichias、世伟洛克（Swagelok）和派克（Parker），能够提供满足半导体行业严苛要求的高品质流体管件部件和解决方案。",
       "pubDate": "2026-08-25T02:45:25.000Z",
@@ -801,60 +1321,6 @@
       ]
     },
     {
-      "title_cn": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
-      "summary_cn": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
-      "category": "光模块",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%；长飞光纤、亨通光电等涨幅居前，反映板块情绪回暖",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [
-        "特发信息",
-        "长盈通",
-        "迅捷兴",
-        "长飞光纤",
-        "亨通光电"
-      ],
-      "reasoning": [
-        "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%",
-        "长飞光纤、亨通光电等涨幅居前，反映板块情绪回暖"
-      ],
-      "evidence": [
-        "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "板块反弹持续性有待观察",
-      "title": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
-      "description": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
-      "pubDate": "2026-08-25T02:29:20.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_gyrzf6",
-      "eventTitle": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
-          "description": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
-          "guessedSector": "光模块",
-          "pubDate": "2026-08-25T02:29:20.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_gyrzf6",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
       "summary_cn": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】金十数据8月25日讯，2026年1—7月苏州经济运行稳中有进，高质量发展向新向优。1—7月，全市规模以上",
       "category": "创新药",
@@ -863,19 +1329,19 @@
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:苏州创新药需求释放，带动医药制造业产值增长10.4%；反映创新药行业的良好发展态势",
+      "notes": "AI研判:同意关键词预判；创新药需求释放带动医药制造业增长",
       "sentiment": "利好",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "苏州创新药需求释放，带动医药制造业产值增长10.4%",
-        "反映创新药行业的良好发展态势"
+        "同意关键词预判",
+        "创新药需求释放带动医药制造业增长"
       ],
       "evidence": [
         "创新药需求释放，带动医药制造业产值增长10.4%"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "地区数据可能无法代表全国情况",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
       "description": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】金十数据8月25日讯，2026年1—7月苏州经济运行稳中有进，高质量发展向新向优。1—7月，全市规模以上工业总产值29214.5亿元，同比增长7.1%。规模以上工业增加值增长9.4%，增速比上半年提高0.1个百分点。重点行业、重点企业支撑有力。全市前五大行业产值17618.4亿元，同比增长8.8%，占规模以上工业总产值比重达60.3%，同比提高0.6个百分点。其中电子信息业、电气机械和器材制造业、专用设备制造业产值分别增长10.0%、10.5%和10.1%。创新药需求释放，带动医药制造业产值增长10.4%。百强工业企业产值同比增长9.3%，拉动规模以上工业总产值增长3.0个百分点。产业升级加快推进。全市规模以上高技术制造业产值同比增长11.3%，对规模以上工业总产值增长贡献达58.7%。“人工智能+”高速发展带动集成电路、光纤、电子元件等产品产量分别增长15.0%、14.0%、12.0%；服务机器人、工业机器人等产品产量分别增长192.4%和30.5%。",
       "pubDate": "2026-08-25T03:26:23.000Z",
@@ -884,40 +1350,11 @@
       "eventId": "evt_1jdb3yn",
       "eventTitle": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
       "eventSources": [
-        "东方财富",
         "金十数据"
       ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "http://finance.eastmoney.com/news/1350,202608253852593772.html",
-        "http://finance.eastmoney.com/news/1350,202608253852587742.html",
-        "http://finance.eastmoney.com/news/1350,202608253852631437.html"
-      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
       "eventMembers": [
-        {
-          "title": "山东：1-7月规模以上工业增加值同比增长7.2%",
-          "description": "【山东：1-7月规模以上工业增加值同比增长7.2%】8月24日，山东省统计局、国家统计局山东调查总队公布1-7月全省经济运行情况。1-7月，规模以上工业增加值同比增长7.2%。从行业增长面看，全省41个行业中有32个实现增长，增长面为78.0%。服务业运行稳健。1-6月，规模以上服务业企业营业收入同比增长5.6%。10大行业门类全部实现增长，其中，居民服务、修理和其他服务业，租赁和商务服务业营业收入分别增长12.3%、9.0%。",
-          "link": "http://finance.eastmoney.com/news/1350,202608253852593772.html",
-          "pubDate": "2026-08-25T04:56:48.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "深圳：1-7月全市规模以上工业增加值同比增长9.2%",
-          "description": "【深圳：1-7月全市规模以上工业增加值同比增长9.2%】深圳市统计局8月24日公布1—7月深圳经济运行情况。1—7月，全市规模以上工业增加值同比增长9.2%，比上半年加快0.5个百分点。分门类看，采矿业增加值同比增长3.3%，制造业增长9.9%，电力、热力、燃气及水生产和供应业增长3.3%。",
-          "link": "http://finance.eastmoney.com/news/1350,202608253852587742.html",
-          "pubDate": "2026-08-25T04:32:56.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "深圳：1—7月规模以上工业增加值同比增长9.2%",
-          "description": "深圳市统计局数据显示，1—7月，深圳市规模以上工业增加值同比增长9.2%，比上半年加快0.5个百分点。分门类看，采矿业增加值同比增长3.3%，制造业增长9.9%，电力、热力、燃气及水生产和供应业增长3.3%。主要行业大类中，专用设备制造业增长14.4%，通用设备制造业增长14.3%，计算机、通信和其他电子设备制造业增长12.7%，电力、热力生产和供应业增长9.1%。",
-          "link": "http://finance.eastmoney.com/news/1350,202608253852631437.html",
-          "pubDate": "2026-08-25T03:49:06.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        },
         {
           "title": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】",
           "description": "【苏州：1—7月全市规模以上工业总产值同比增长7.1%】金十数据8月25日讯，2026年1—7月苏州经济运行稳中有进，高质量发展向新向优。1—7月，全市规模以上工业总产值29214.5亿元，同比增长7.1%。规模以上工业增加值增长9.4%，增速比上半年提高0.1个百分点。重点行业、重点企业支撑有力。全市前五大行业产值17618.4亿元，同比增长8.8%，占规模以上工业总产值比重达60.3%，同比提高0.6个百分点。其中电子信息业、电气机械和器材制造业、专用设备制造业产值分别增长10.0%、10.5%和10.1%。创新药需求释放，带动医药制造业产值增长10.4%。百强工业企业产值同比增长9.3%，拉动规模以上工业总产值增长3.0个百分点。产业升级加快推进。全市规模以上高技术制造业产值同比增长11.3%，对规模以上工业总产值增长贡献达58.7%。“人工智能+”高速发展带动集成电路、光纤、电子元件等产品产量分别增长15.0%、14.0%、12.0%；服务机器人、工业机器人等产品产量分别增长192.4%和30.5%。",
@@ -926,7 +1363,7 @@
           "source": "金十数据",
           "link": "",
           "eventId": "evt_1jdb3yn",
-          "sourceCount": 1,
+          "sourceCount": 2,
           "archived": true
         }
       ]
@@ -940,19 +1377,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:半导体公司间收购属于行业正常整合行为；交易总价值最高达2.328亿美元，但对市场影响有限",
+      "notes": "AI研判:同意关键词预判；海外企业并购事件对A股直接影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "半导体公司间收购属于行业正常整合行为",
-        "交易总价值最高达2.328亿美元，但对市场影响有限"
+        "同意关键词预判",
+        "海外企业并购事件对A股直接影响有限"
       ],
       "evidence": [
         "纳维达斯半导体公司（Navitas Semiconductor Corporation）将收购克拉罗斯公司（Claros），交易总价值最高达2.328亿美元"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "收购细节和对双方的具体业务影响尚未披露",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "纳维达斯半导体公司（Navitas Semiconductor Corporation）将收购克拉罗斯公司（Claros），交易总价值最高达2.328亿美元。",
       "description": "",
       "pubDate": "2026-08-25T03:43:09.000Z",
@@ -980,6 +1417,106 @@
       ]
     },
     {
+      "title_cn": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
+      "summary_cn": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；地缘风险提升黄金避险需求",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "地缘风险提升黄金避险需求"
+      ],
+      "evidence": [
+        "美国威胁以次级制裁扩大对伊朗的全球经济围堵"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
+      "description": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）",
+      "pubDate": "2026-08-25T02:32:45.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_won6os",
+      "eventTitle": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释",
+          "description": "美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购更多细节，贝森特却未释放更多信号……当前黄金略微呈现卖出信号，美油多头情绪回升，后市情绪如何？欢迎前往“数据库-嘉盛市场晴雨表”查看并订阅（数据每10分钟更新1次）",
+          "guessedSector": "黄金",
+          "pubDate": "2026-08-25T02:32:45.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_won6os",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
+      "summary_cn": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
+      "category": "光模块",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；CPO概念反弹反映市场对光通信板块情绪回暖",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [
+        "特发信息",
+        "长盈通",
+        "迅捷兴"
+      ],
+      "reasoning": [
+        "同意关键词预判",
+        "CPO概念反弹反映市场对光通信板块情绪回暖"
+      ],
+      "evidence": [
+        "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
+      "description": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
+      "pubDate": "2026-08-25T02:29:20.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_gyrzf6",
+      "eventTitle": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技",
+          "description": "A股CPO概念震荡反弹，特发信息涨停，长盈通、迅捷兴涨超10%，长飞光纤、亨通光电、怡合达、中石科技等涨幅居前。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-25T02:29:20.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_gyrzf6",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "Spot 黄金 continued to slide, down about $18/oz an",
       "summary_cn": "Spot gold continued to slide, down about $18/oz and nearly 0.7% intraday.",
       "category": "黄金",
@@ -988,19 +1525,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:现货黄金价格小幅下跌，属于正常市场波动；跌幅较小，对板块影响有限",
+      "notes": "AI研判:同意关键词预判；现货黄金下跌为短期波动",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "现货黄金价格小幅下跌，属于正常市场波动",
-        "跌幅较小，对板块影响有限"
+        "同意关键词预判",
+        "现货黄金下跌为短期波动"
       ],
       "evidence": [
         "Spot gold continued to slide, down about $18/oz and nearly 0.7% intraday"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "价格波动可能受短期市场情绪影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "Spot 黄金 continued to slide, down about $18/oz an",
       "description": "Spot gold continued to slide, down about $18/oz and nearly 0.7% intraday.",
       "pubDate": "2026-08-25T02:52:59.000Z",
@@ -1028,6 +1565,54 @@
       ]
     },
     {
+      "title_cn": "【主力资金流向前十大个股】",
+      "summary_cn": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（1",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "中际旭创(300308)、新易盛(300502)",
+      "notes": "AI研判:同意关键词预判；资金流向为市场情绪指标，不直接影响企业基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "资金流向为市场情绪指标，不直接影响企业基本面"
+      ],
+      "evidence": [
+        "中际旭创净卖出5.56亿元位居首位"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "",
+      "title": "【主力资金流向前十大个股】",
+      "description": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（10.96亿元）、亨通光电（7.05亿元）、寒武纪（5.47亿元）、长飞光纤（5.13亿元）、誉衡药业（4.05亿元）、中天科技（3.98亿元）、天通股份（3.84亿元）、兆易创新（3.63亿元）、金健米业（3.60亿元）；主力资金流出规模居首的个股是中际旭创（-5.56亿元），其次是洛阳钼业（-2.97亿元）、紫金矿业（-2.50亿元）、普冉股份（-2.36亿元）、新易盛（-2.35亿元）、协鑫能科（-2.21亿元）、北方华创（-2.20亿元）、德福科技（-2.13亿元）、三环集团（-2.01亿元）、长川科技（-1.97亿元）。",
+      "pubDate": "2026-08-25T02:40:37.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_vyf6p9",
+      "eventTitle": "【主力资金流向前十大个股】",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【主力资金流向前十大个股】",
+          "description": "【主力资金流向前十大个股】金十数据8月25日讯，截至2026年08月25日（周二）10:40，高凯技术获主力资金净流入15.06亿元居首位，其次分别是英维克（10.96亿元）、亨通光电（7.05亿元）、寒武纪（5.47亿元）、长飞光纤（5.13亿元）、誉衡药业（4.05亿元）、中天科技（3.98亿元）、天通股份（3.84亿元）、兆易创新（3.63亿元）、金健米业（3.60亿元）；主力资金流出规模居首的个股是中际旭创（-5.56亿元），其次是洛阳钼业（-2.97亿元）、紫金矿业（-2.50亿元）、普冉股份（-2.36亿元）、新易盛（-2.35亿元）、协鑫能科（-2.21亿元）、北方华创（-2.20亿元）、德福科技（-2.13亿元）、三环集团（-2.01亿元）、长川科技（-1.97亿元）。",
+          "guessedSector": "光模块",
+          "pubDate": "2026-08-25T02:40:37.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_vyf6p9",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "【台积电供应商日亚化学将在中国台湾地区建厂】据知情人士称，台积电供应商日亚化学（NICHIAS)计划在中国台湾地区建设一家芯片零部件工厂。消息称，计划建在新竹的这家工厂将生产氟聚合物管材，预计将于2027年初开始生产。",
       "summary_cn": "",
       "category": "半导体",
@@ -1036,20 +1621,19 @@
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:台积电供应商建厂属于正常产能扩张；工厂生产氟聚合物管材，预计2027年初投产，对行业影响有限",
+      "notes": "AI研判:同意关键词预判；供应链优化为长期利好，短期影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "台积电供应商建厂属于正常产能扩张",
-        "工厂生产氟聚合物管材，预计2027年初投产，对行业影响有限"
+        "同意关键词预判",
+        "供应链优化为长期利好，短期影响有限"
       ],
       "evidence": [
-        "台积电供应商日亚化学（NICHIAS)计划在中国台湾地区建设一家芯片零部件工厂",
-        "计划建在新竹的这家工厂将生产氟聚合物管材，预计将于2027年初开始生产"
+        "台积电供应商日亚化学（NICHIAS)计划在中国台湾地区建设一家芯片零部件工厂"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "建厂进展和产能释放情况存在不确定性",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "【台积电供应商日亚化学将在中国台湾地区建厂】据知情人士称，台积电供应商日亚化学（NICHIAS)计划在中国台湾地区建设一家芯片零部件工厂。消息称，计划建在新竹的这家工厂将生产氟聚合物管材，预计将于2027年初开始生产。",
       "description": "",
       "pubDate": "2026-08-25T02:59:14.000Z",
@@ -1085,19 +1669,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:现货黄金失守4630美元/盎司，日内跌0.52%；跌幅较小，对板块影响有限",
+      "notes": "AI研判:同意关键词预判；现货黄金下跌为短期波动",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "现货黄金失守4630美元/盎司，日内跌0.52%",
-        "跌幅较小，对板块影响有限"
+        "同意关键词预判",
+        "现货黄金下跌为短期波动"
       ],
       "evidence": [
         "现货黄金失守4630美元/盎司，日内跌0.52%"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "价格波动可能受短期市场情绪影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "现货黄金失守4630美元/盎司，日内跌0.52%。",
       "description": "",
       "pubDate": "2026-08-25T02:51:37.000Z",
@@ -1133,21 +1717,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "中际旭创(300308)",
-      "notes": "AI研判:中际旭创净卖出超4亿元，反映市场对个股的分歧；但板块整体资金流向未明确",
+      "notes": "AI研判:同意关键词预判；资金流向为市场情绪指标，不直接影响企业基本面",
       "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "中际旭创"
-      ],
+      "affected_companies": [],
       "reasoning": [
-        "中际旭创净卖出超4亿元，反映市场对个股的分歧",
-        "但板块整体资金流向未明确"
+        "同意关键词预判",
+        "资金流向为市场情绪指标，不直接影响企业基本面"
       ],
       "evidence": [
         "中际旭创净卖出4.65亿元位居首位"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "个股资金变动可能受短期市场情绪影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "【主力资金：中际旭创净卖出超4亿】截至目前，今日主力资金净流出24.00亿；净流入小盘、IDC概念（数据中心）、机械设备等板块，其中小盘板块净流入50.80亿；净流出中盘股、有色金属概念、转融券标的等板块，其中中盘股板块净流出44.55亿。\n  \n个股方面，N高凯净买入15.09亿元位居首位，英维克、寒武纪、亨通光电主力资金净流入居前；中际旭创净卖出4.65亿元位居首位，洛阳钼业、北方华创、紫金矿业净流出额居前。",
       "description": "",
       "pubDate": "2026-08-25T02:40:02.000Z",
@@ -1183,21 +1765,19 @@
       "certainty": "高",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:花旗上调黄金三个月目标价至4800美元；认为金价仍有进一步上涨空间，受实际利率下降和美联储鹰派立场减轻等因素支撑",
+      "notes": "AI研判:同意关键词预判；花旗上调目标价反映机构看好金价上涨",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "花旗上调黄金三个月目标价至4800美元",
-        "认为金价仍有进一步上涨空间，受实际利率下降和美联储鹰派立场减轻等因素支撑"
+        "同意关键词预判",
+        "花旗上调目标价反映机构看好金价上涨"
       ],
       "evidence": [
-        "花旗将3个月黄金目标价上调至每盎司4800美元",
-        "这一势头“还有进一步发展的空间”，近期金价上涨迄今主要由投机需求推动，尤其是期货资金流入",
-        "花旗维持未来6至12个月黄金价格目标为每盎司5000美元不变，理由包括预期霍尔木兹海峡局势最终有望缓解、实际利率下降以及美联储鹰派立场减轻"
+        "花旗称金价料仍有进一步上涨空间 上调三个月目标价至4800美元"
       ],
-      "confidence_score": 0.9,
-      "uncertainty": "金价上涨可能受多重因素影响，存在不确定性",
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "花旗称金价料仍有进一步上涨空间 上调三个月目标价至4800美元",
       "description": "美国财政部宣布加大长期债券回购力度引发金价上涨后，花旗将3个月黄金目标价上调至每盎司4800美元。这一势头“还有进一步发展的空间，”花旗在报告中写道，近期金价上涨迄今主要由投机需求推动，尤其是期货资金流入，“若要维持当前涨势，实物需求需要跟上步伐”。花旗维持未来6至12个月黄金价格目标为每盎司5000美元不变，理由包括预期霍尔木兹海峡局势最终有望缓解、实际利率下降以及美联储鹰派立场减轻。",
       "pubDate": "2026-08-25T00:35:15.000Z",
@@ -1233,24 +1813,22 @@
       "certainty": "高",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:小米玄戒O3支持LPDDR6，长鑫存储为国产内存合作伙伴；国产低功耗内存正式跻身全球第一梯队，提升国内存储产业竞争力",
+      "notes": "AI研判:同意关键词预判；长鑫存储LPDDR6技术突破，跻身全球第一梯队",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [
-        "长鑫存储",
-        "小米"
+        "长鑫存储"
       ],
       "reasoning": [
-        "小米玄戒O3支持LPDDR6，长鑫存储为国产内存合作伙伴",
-        "国产低功耗内存正式跻身全球第一梯队，提升国内存储产业竞争力"
+        "同意关键词预判",
+        "长鑫存储LPDDR6技术突破，跻身全球第一梯队"
       ],
       "evidence": [
-        "小米正式发布玄戒O3芯片。新一代玄戒O3芯片是全球首个支持LPDDR6内存芯片的旗舰移动处理器（SoC）",
         "国内存储龙头长鑫科技是小米玄戒O3的LPDDR6内存核心合作伙伴",
-        "本次玄戒O3芯片落地，意味着国产低功耗内存正式跻身全球第一梯队"
+        "国产低功耗内存正式跻身全球第一梯队"
       ],
-      "confidence_score": 0.9,
-      "uncertainty": "LPDDR6的量产和市场接受度仍需进一步验证",
+      "confidence_score": 0.8,
+      "uncertainty": "",
       "title": "【小米玄戒O3官宣支持LPDDR6 长鑫存储为国产内存合作伙伴】",
       "description": "【小米玄戒O3官宣支持LPDDR6 长鑫存储为国产内存合作伙伴】金十数据8月25日讯，8月24日，小米正式发布玄戒O3芯片。新一代玄戒O3芯片是全球首个支持LPDDR6内存芯片的旗舰移动处理器（SoC）。有行业信源证实，国内存储龙头长鑫科技是小米玄戒O3的LPDDR6内存核心合作伙伴。早在今年3月，就有消息传出长鑫LPDDR6已经给关键客户送样，8月初，市场消息显示，长鑫LPDDR6已接近验证尾声。本次玄戒O3芯片落地，意味着国产低功耗内存正式跻身全球第一梯队。",
       "pubDate": "2026-08-25T01:14:19.000Z",
@@ -1286,19 +1864,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:特朗普发言可能影响黄金避险情绪；地缘政治风险和美元偏好变化可能提振黄金需求",
+      "notes": "AI研判:同意关键词预判；特朗普发言影响黄金避险情绪",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "特朗普发言可能影响黄金避险情绪",
-        "地缘政治风险和美元偏好变化可能提振黄金需求"
+        "同意关键词预判",
+        "特朗普发言影响黄金避险情绪"
       ],
       "evidence": [
-        "原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析"
+        "原油地缘风险、黄金避险情绪、美元偏好变化"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "言论的实际影响存在不确定性",
+      "confidence_score": 0.7,
+      "uncertainty": "",
       "title": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
       "description": "特朗普发言影响品种一目了然！原油地缘风险、黄金避险情绪、美元偏好变化，关键变量秒速解析，9折立抢>>",
       "pubDate": "2026-08-25T01:00:10.000Z",
@@ -1334,19 +1912,19 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:现货黄金上涨近1%至每盎司4,695.31美元；反映市场对黄金板块的乐观情绪",
+      "notes": "AI研判:同意关键词预判；现货黄金上涨反映市场情绪回暖",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "现货黄金上涨近1%至每盎司4,695.31美元",
-        "反映市场对黄金板块的乐观情绪"
+        "同意关键词预判",
+        "现货黄金上涨反映市场情绪回暖"
       ],
       "evidence": [
         "现货黄金上涨近1%至每盎司4,695.31美元"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "价格上涨可能受短期市场情绪影响",
+      "uncertainty": "",
       "title": "现货黄金上涨近1%至每盎司4,695.31美元。",
       "description": "现货黄金上涨近1%至每盎司4,695.31美元。",
       "pubDate": "2026-08-25T00:42:29.000Z",
@@ -1382,21 +1960,21 @@
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:产品在服务器芯片、光模块等领域测试，属于正常业务拓展；对光模块板块直接影响有限",
+      "notes": "AI研判:同意关键词预判；产品测试为研发进展，短期影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [
         "硅宝科技"
       ],
       "reasoning": [
-        "产品在服务器芯片、光模块等领域测试，属于正常业务拓展",
-        "对光模块板块直接影响有限"
+        "同意关键词预判",
+        "产品测试为研发进展，短期影响有限"
       ],
       "evidence": [
-        "研发出的TIM1导热界面材料、导热系数最高达18W/m·K的导热凝胶等多款产品，已在服务器芯片、光模块等领域测试"
+        "多款产品已在服务器芯片、光模块等领域测试"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "产品测试结果和商业化进展存在不确定性",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "硅宝科技：多款产品已在服务器芯片、光模块等领域测试",
       "description": "【硅宝科技：多款产品已在服务器芯片、光模块等领域测试】财联社8月25日电，硅宝科技8月24日在业绩说明会上表示，2026年上半年，公司积极开展产品研发与市场拓展，研发出的TIM1导热界面材料、导热系数最高达18W/m·K的导热凝胶、耐极端低温导热粘接胶和贴合胶等多款产品，已在服务器芯片、光模块等领域测试，推进电子胶粘剂在新兴领域的应用拓展。此外，公司应用于Micro-LED的巨量转移胶产品已进行小批量试产验证，为未来业务增长注入新动能。",
       "pubDate": "2026-08-25T01:02:05.000Z",
@@ -1424,31 +2002,75 @@
       ]
     },
     {
+      "title_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+      "summary_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；基金停牌为流动性管理措施，不影响行业基本面",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "基金停牌为流动性管理措施，不影响行业基本面"
+      ],
+      "evidence": [
+        "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "",
+      "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+      "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券交易所申请2026年8月25日下午盘中临时停牌至收盘的措施以向市场警示风险，具体以届时公告为准。",
+      "pubDate": "2026-08-25T00:57:00.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1ms712o",
+      "eventTitle": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
+          "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券交易所申请2026年8月25日下午盘中临时停牌至收盘的措施以向市场警示风险，具体以届时公告为准。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-25T00:57:00.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_1ms712o",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】",
       "summary_cn": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】金十数据8月25日讯，据一位知情人士透露，韩国芯片制造商SK海力士的工会成员周二否决了一项临时薪资协议，超",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "高",
+      "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:薪资协议被否决反映劳资双方分歧；SK海力士正受益于AI应用带动的HBM芯片需求激增，获利表现强劲",
+      "notes": "AI研判:同意关键词预判；薪资协议否决为短期劳资问题，不影响行业基本面",
       "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "SK海力士"
-      ],
+      "affected_companies": [],
       "reasoning": [
-        "薪资协议被否决反映劳资双方分歧",
-        "SK海力士正受益于AI应用带动的HBM芯片需求激增，获利表现强劲"
+        "同意关键词预判",
+        "薪资协议否决为短期劳资问题，不影响行业基本面"
       ],
       "evidence": [
-        "韩国SK海力士工会成员周二否决了一项临时薪资协议，超过50%的投票员工反对该协议",
-        "该协议于上周达成，内容包括6.3%的加薪，以及对SK海力士利润分享奖金方案的修订",
-        "作为全球第二大内存芯片制造商，SK海力士正受益于人工智能应用带动的高带宽内存（HBM）芯片需求激增，获利表现强劲"
+        "韩国SK海力士工会成员周二否决了一项临时薪资协议，超过50%的投票员工反对该协议"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "薪资谈判可能影响短期生产效率，但长期影响有限",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】",
       "description": "【韩国SK海力士工会否决薪资协议，过半数员工投反对票】金十数据8月25日讯，据一位知情人士透露，韩国芯片制造商SK海力士的工会成员周二否决了一项临时薪资协议，超过50%的投票员工反对该协议。在15,045名参与投票的员工中，有50.08%投了反对票。该协议于上周达成，内容包括6.3%的加薪，以及对SK海力士利润分享奖金方案的修订，其中40%的奖金以现金形式发放，60%以公司股票形式发放。作为全球第二大内存芯片制造商，SK海力士正受益于人工智能应用带动的高带宽内存（HBM）芯片需求激增，获利表现强劲。",
       "pubDate": "2026-08-25T01:17:16.000Z",
@@ -1484,19 +2106,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:上海黄金交易所黄金T+D上涨1.16%，白银T+D上涨0.72%；反映国内黄金市场的积极情绪",
+      "notes": "AI研判:同意关键词预判；黄金T+D上涨反映市场情绪回暖",
       "sentiment": "利好",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "上海黄金交易所黄金T+D上涨1.16%，白银T+D上涨0.72%",
-        "反映国内黄金市场的积极情绪"
+        "同意关键词预判",
+        "黄金T+D上涨反映市场情绪回暖"
       ],
       "evidence": [
-        "Shanghai Gold Exchange's Gold T+D rose 1.16% in early trade on Aug 25 to 1,011.41 yuan/gram; Silver T+D gained 0.72% to 16,900 yuan/kg"
+        "Shanghai Gold Exchange's Gold T+D rose 1.16% in early trade on Aug 25 to 1,011.41 yuan/gram"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "价格上涨可能受短期市场情绪影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "Shanghai 黄金 Exchange's 黄金 T+D rose 1.16% in ea",
       "description": "Shanghai Gold Exchange's Gold T+D rose 1.16% in early trade on Aug 25 to 1,011.41 yuan/gram; Silver T+D gained 0.72% to 16,900 yuan/kg.",
       "pubDate": "2026-08-25T01:01:47.000Z",
@@ -1532,19 +2154,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "湖南黄金(002155)",
-      "notes": "AI研判:个股停牌属于常规市场行为；对黄金板块整体影响有限",
+      "notes": "AI研判:同意关键词预判；个股停牌为常规操作，不影响行业基本面",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "个股停牌属于常规市场行为",
-        "对黄金板块整体影响有限"
+        "同意关键词预判",
+        "个股停牌为常规操作，不影响行业基本面"
       ],
       "evidence": [
-        "Wind数据显示，8月25日，瓦轴B、湖南黄金、ST长园等6只个股停牌"
+        "瓦轴B、湖南黄金、ST长园等6只个股停牌"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "停牌原因和时间存在不确定性",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "【A股停牌提示：6股今日停牌】Wind数据显示，8月25日，瓦轴B、湖南黄金、ST长园等6只个股停牌。",
       "description": "",
       "pubDate": "2026-08-25T01:05:56.000Z",
@@ -1575,25 +2197,24 @@
       "title_cn": "A股盘前速览：美股收盘存储芯片板块重挫；“易中天”半年报出炉；油价跳水金价大涨；爆款基金扎堆提示风险；国家支持仿制药高质量发展",
       "summary_cn": "美股三大指数涨跌不一美股三大股指周一收盘涨跌不一，纳指日线7连阴。隔夜美股市场上，道指收涨0.26%，纳指收跌0.76%，标普500指数收跌0.28%。芯片股集",
       "category": "半导体",
-      "direction": "利空",
+      "direction": "分化",
       "impact": "高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:美股存储芯片板块重挫，费城半导体指数跌2.7%；美光科技、格芯等个股跌幅超3%，反映市场对半导体板块的担忧",
-      "sentiment": "利空",
+      "notes": "AI研判:同意关键词预判；美股存储芯片重挫影响A股情绪，但板块内部分化",
+      "sentiment": "分化",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "美股存储芯片板块重挫，费城半导体指数跌2.7%",
-        "美光科技、格芯等个股跌幅超3%，反映市场对半导体板块的担忧"
+        "同意关键词预判",
+        "美股存储芯片重挫影响A股情绪，但板块内部分化"
       ],
       "evidence": [
-        "美股三大股指周一收盘涨跌不一，纳指日线7连阴",
-        "芯片股集体下跌，费城半导体指数跌2.7%，美光科技跌逾5%，格芯跌逾4%，超威半导体跌超3%，迈威尔科技跌逾3%，英特尔跌超3%，博通跌逾2%，台积电跌超2%"
+        "芯片股集体下跌，费城半导体指数跌2.7%，美光科技跌逾5%"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "美股下跌可能对A股半导体板块产生短期负面影响",
+      "uncertainty": "",
       "title": "A股盘前速览：美股收盘存储芯片板块重挫；“易中天”半年报出炉；油价跳水金价大涨；爆款基金扎堆提示风险；国家支持仿制药高质量发展",
       "description": "美股三大指数涨跌不一美股三大股指周一收盘涨跌不一，纳指日线7连阴。隔夜美股市场上，道指收涨0.26%，纳指收跌0.76%，标普500指数收跌0.28%。芯片股集体下跌，费城半导体指数跌2.7%，美光科技跌逾5%，格芯跌逾4%，超威半导体跌超3%，迈威尔科技跌逾3%，英特尔跌超3%，博通跌逾2%，台积电跌超2%。",
       "pubDate": "2026-08-24T23:34:17.000Z",
@@ -1621,6 +2242,54 @@
       ]
     },
     {
+      "title_cn": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
+      "summary_cn": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；上海规划利好半导体，但港股通医疗ETF表现突出反映资金分化",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "上海规划利好半导体，但港股通医疗ETF表现突出反映资金分化"
+      ],
+      "evidence": [
+        "推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
+      "description": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展5000亿元MLF操作，期限为1年期。2、上海市人民政府印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。其中提到，推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平。",
+      "pubDate": "2026-08-24T23:02:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
+      "eventId": "evt_1uet35x",
+      "eventTitle": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
+          "description": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展5000亿元MLF操作，期限为1年期。2、上海市人民政府印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。其中提到，推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平。",
+          "guessedSector": "半导体",
+          "pubDate": "2026-08-24T23:02:00.000Z",
+          "source": "东方财富",
+          "link": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
+          "eventId": "evt_1uet35x",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
       "title_cn": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
       "summary_cn": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌”&nbsp;&nbsp; 金融界",
       "category": "半导体",
@@ -1629,19 +2298,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:英伟达“七连跌”反映市场对半导体板块的担忧；油价跳水等宏观因素加剧市场不确定性",
+      "notes": "AI研判:同意关键词预判；英伟达七连跌反映市场对科技股情绪降温",
       "sentiment": "利空",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "英伟达“七连跌”反映市场对半导体板块的担忧",
-        "油价跳水等宏观因素加剧市场不确定性"
+        "同意关键词预判",
+        "英伟达七连跌反映市场对科技股情绪降温"
       ],
       "evidence": [
-        "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌”"
+        "英伟达“七连跌”"
       ],
       "confidence_score": 0.7,
-      "uncertainty": "市场情绪可能短期内影响板块表现",
+      "uncertainty": "",
       "title": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌” - 金融界",
       "description": "重磅！传美财政部“万亿美元”救市；美国突发！油价跳水；英伟达“七连跌”&nbsp;&nbsp; 金融界",
       "pubDate": "2026-08-24T23:53:00.000Z",
@@ -1673,19 +2342,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:积存金价格集体站上千元关口，与黄金板块相关度较低；更多是对零售市场的利好",
+      "notes": "AI研判:同意关键词预判；积存金价格上涨为市场行为",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "积存金价格集体站上千元关口，与黄金板块相关度较低",
-        "更多是对零售市场的利好"
+        "同意关键词预判",
+        "积存金价格上涨为市场行为"
       ],
       "evidence": [
         "积存金价格集体站上千元关口"
       ],
       "confidence_score": 0.6,
-      "uncertainty": "对黄金板块直接影响有限",
+      "uncertainty": "",
       "title": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
       "description": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日&nbsp;&nbsp; finance.sina.com.cn",
       "pubDate": "2026-08-24T23:51:00.000Z",
@@ -1702,9 +2371,13 @@
         {
           "title": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
           "description": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日&nbsp;&nbsp; finance.sina.com.cn",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+          "guessedSector": "黄金",
           "pubDate": "2026-08-24T23:51:00.000Z",
-          "source": "finance.sina.com.cn"
+          "source": "finance.sina.com.cn",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+          "eventId": "evt_qrswcr",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -1712,24 +2385,24 @@
       "title_cn": "【五大信披媒体精华摘要】8月25日",
       "summary_cn": "新华财经北京8月25日电五大信披媒体摘要如下：中国证券报·半年报密集披露长线资金调仓轨迹浮现随着A股上市公司2026年半年报披露进入高峰期，社保、保险、合格境外",
       "category": "半导体",
-      "direction": "利好",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "中期",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:长线资金持续加码半导体、电子设备等赛道；社保、保险、QFII等长线资金的持仓动向显示对经济转型升级的信心",
-      "sentiment": "利好",
+      "notes": "AI研判:同意关键词预判；长线资金调仓为市场行为，不直接影响企业基本面",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "长线资金持续加码半导体、电子设备等赛道",
-        "社保、保险、QFII等长线资金的持仓动向显示对经济转型升级的信心"
+        "同意关键词预判",
+        "长线资金调仓为市场行为，不直接影响企业基本面"
       ],
       "evidence": [
         "半导体、电子设备等赛道获持续加码，长线资金用真金白银为中国经济转型升级投出“信任票”"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "长线资金调仓可能受市场整体环境影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "【五大信披媒体精华摘要】8月25日",
       "description": "新华财经北京8月25日电五大信披媒体摘要如下：中国证券报·半年报密集披露长线资金调仓轨迹浮现随着A股上市公司2026年半年报披露进入高峰期，社保、保险、合格境外机构投资者（QFII）等长线资金的持仓动向逐渐浮出水面。已披露的上市公司半年报数据显示，半导体、电子设备等赛道获持续加码，长线资金用真金白银为中国经济转型升级投出“信任票”。",
       "pubDate": "2026-08-25T00:20:03.000Z",
@@ -1757,103 +2430,6 @@
       ]
     },
     {
-      "title_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
-      "summary_cn": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:ETF停牌属于常规风险控制措施；停牌与基金二级市场交易价格溢价幅度较高有关",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "ETF停牌属于常规风险控制措施",
-        "停牌与基金二级市场交易价格溢价幅度较高有关"
-      ],
-      "evidence": [
-        "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌",
-        "若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券交易所申请2026年8月25日下午盘中临时停牌至收盘的措施以向市场警示风险"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "停牌持续时间取决于市场溢价情况",
-      "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
-      "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券交易所申请2026年8月25日下午盘中临时停牌至收盘的措施以向市场警示风险，具体以届时公告为准。",
-      "pubDate": "2026-08-25T00:57:00.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1ms712o",
-      "eventTitle": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘",
-          "description": "中韩半导体ETF华泰柏瑞：本基金将于2026年8月25日开市起至当日10:30停牌。若本基金午间收盘二级市场交易价格溢价幅度仍处于较高水平，本基金有权向上海证券交易所申请2026年8月25日下午盘中临时停牌至收盘的措施以向市场警示风险，具体以届时公告为准。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-25T00:57:00.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_1ms712o",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
-      "summary_cn": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展",
-      "category": "半导体",
-      "direction": "分化",
-      "impact": "高",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:政策推进高性能算力芯片、存储芯片等发展，利好半导体板块；但板块整体表现可能受市场情绪影响而分化",
-      "sentiment": "分化",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "政策推进高性能算力芯片、存储芯片等发展，利好半导体板块",
-        "但板块整体表现可能受市场情绪影响而分化"
-      ],
-      "evidence": [
-        "上海市人民政府印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。其中提到，推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "政策落地效果和市场需求存在不确定性",
-      "title": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
-      "description": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展5000亿元MLF操作，期限为1年期。2、上海市人民政府印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。其中提到，推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平。",
-      "pubDate": "2026-08-24T23:02:00.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
-      "eventId": "evt_1uet35x",
-      "eventTitle": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "港股早报｜央行“组合拳”呵护月末资金面 热门中概股多数走低",
-          "description": "热点聚焦1、人民银行24日公告称，将在8月27日至9月1日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过6000亿元。同时，8月25日，央行将开展5000亿元MLF操作，期限为1年期。2、上海市人民政府印发《上海市加快推进新型工业化构建现代化产业体系“十五五”规划》。其中提到，推进高性能算力芯片、通用处理器芯片、存储芯片、互联芯片和智能传感器达到国际先进水平。",
-          "guessedSector": "半导体",
-          "pubDate": "2026-08-24T23:02:00.000Z",
-          "source": "东方财富",
-          "link": "http://finance.eastmoney.com/news/1354,202608253851708641.html",
-          "eventId": "evt_1uet35x",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "投资日历：周二资本市场大事提醒",
       "summary_cn": "①今日共有1只新股上市，为科创板的高凯技术（688835）。②十四届全国人大常委会第二十四次会议8月25日至28日在京举行。③国新办就第二十六届中国国际投资贸易",
       "category": "半导体",
@@ -1862,19 +2438,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:半导体大会举办属于行业常规活动；对市场影响有限，更多是行业信息交流",
+      "notes": "AI研判:同意关键词预判；会议信息本身不直接影响企业基本面",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "半导体大会举办属于行业常规活动",
-        "对市场影响有限，更多是行业信息交流"
+        "同意关键词预判",
+        "会议信息本身不直接影响企业基本面"
       ],
       "evidence": [
         "2026杰富瑞半导体大会将于8月25日至26日在美国芝加哥举办"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "大会内容和政策动向可能影响短期市场情绪",
+      "confidence_score": 0.5,
+      "uncertainty": "",
       "title": "投资日历：周二资本市场大事提醒",
       "description": "①今日共有1只新股上市，为科创板的高凯技术（688835）。②十四届全国人大常委会第二十四次会议8月25日至28日在京举行。③国新办就第二十六届中国国际投资贸易洽谈会有关情况举行新闻发布会。④2026世界数字城市大会香港分会场和2026世界无人机大会·无人机出海高峰论坛将于8月25日举办。⑤2026杰富瑞半导体大会将于8月25日至26日在美国芝加哥举办。",
       "pubDate": "2026-08-24T23:50:40.000Z",
@@ -1910,19 +2486,19 @@
       "certainty": "中",
       "time_window": "长期",
       "tickers": "—",
-      "notes": "AI研判:北斗规模应用提速与半导体芯片相关，但直接关联度较低；更多是对整个卫星导航产业的利好",
+      "notes": "AI研判:同意关键词预判；北斗产业增长为长期趋势，短期影响有限",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "北斗规模应用提速与半导体芯片相关，但直接关联度较低",
-        "更多是对整个卫星导航产业的利好"
+        "同意关键词预判",
+        "北斗产业增长为长期趋势，短期影响有限"
       ],
       "evidence": [
-        "国产北斗兼容型芯片及模块累计出货量近26亿片"
+        "2025年我国卫星导航产业总体产值达6290亿元，同比增长9.24%"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "对半导体板块的直接提振作用有限",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "工信部将印发行动计划 北斗规模应用提速迈向万亿级市场",
       "description": "【工信部将印发行动计划 北斗规模应用提速迈向万亿级市场】8月24日记者获悉，2025年我国卫星导航产业总体产值达6290亿元，同比增长9.24%；国产北斗兼容型芯片及模块累计出货量近26亿片，各类北斗功能终端产品社会总保有量超过22亿台/套，北斗深度融入千行百业，重点行业综合应用渗透率约90%。",
       "pubDate": "2026-08-24T23:40:51.000Z",
@@ -1953,24 +2529,24 @@
       "title_cn": "半年报密集披露 长线资金调仓轨迹浮现",
       "summary_cn": "【半年报密集披露 长线资金调仓轨迹浮现】随着A股上市公司2026年半年报披露进入高峰期，社保、保险、合格境外机构投资者（QFII）等长线资金的持仓动向逐渐浮出水",
       "category": "半导体",
-      "direction": "利好",
+      "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "中期",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:长线资金持续加码半导体、电子设备等赛道；反映机构对半导体板块长期价值的看好",
-      "sentiment": "利好",
+      "notes": "AI研判:同意关键词预判；长线资金调仓为市场行为，不直接影响企业基本面",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "长线资金持续加码半导体、电子设备等赛道",
-        "反映机构对半导体板块长期价值的看好"
+        "同意关键词预判",
+        "长线资金调仓为市场行为，不直接影响企业基本面"
       ],
       "evidence": [
         "半导体、电子设备等赛道获持续加码，长线资金用真金白银为中国经济转型升级投出“信任票”"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "长线资金调仓可能受市场整体环境影响",
+      "confidence_score": 0.6,
+      "uncertainty": "",
       "title": "半年报密集披露 长线资金调仓轨迹浮现",
       "description": "【半年报密集披露 长线资金调仓轨迹浮现】随着A股上市公司2026年半年报披露进入高峰期，社保、保险、合格境外机构投资者（QFII）等长线资金的持仓动向逐渐浮出水面。已披露的上市公司半年报数据显示，半导体、电子设备等赛道获持续加码，长线资金用真金白银为中国经济转型升级投出“信任票”。",
       "pubDate": "2026-08-24T22:32:47.000Z",
@@ -2006,19 +2582,19 @@
       "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:半导体设备龙头复牌，可能带动板块情绪；美国对伊朗发动打击等地缘政治因素可能利好半导体板块",
+      "notes": "AI研判:同意关键词预判；半导体设备龙头复牌可能带来板块活跃度提升",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "半导体设备龙头复牌，可能带动板块情绪",
-        "美国对伊朗发动打击等地缘政治因素可能利好半导体板块"
+        "同意关键词预判",
+        "半导体设备龙头复牌可能带来板块活跃度提升"
       ],
       "evidence": [
         "半导体设备龙头，今日复牌"
       ],
       "confidence_score": 0.6,
-      "uncertainty": "复牌后股价表现存在不确定性",
+      "uncertainty": "",
       "title": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌 - 财联社",
       "description": "【早报】美国对伊朗发动打击；油价大涨，黄金跌破4100美元；半导体设备龙头，今日复牌&nbsp;&nbsp; 财联社",
       "pubDate": "2026-08-24T16:36:05.000Z",
@@ -2047,16 +2623,16 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 17,
-      "summary": "半导体板块17条新闻，方向以利好为主",
+      "news_count": 21,
+      "summary": "半导体板块21条新闻，方向以利好为主",
       "tickers": "中芯国际(688981)"
     },
     {
       "name": "黄金",
       "shock": "强",
       "direction": "利好",
-      "news_count": 13,
-      "summary": "黄金板块13条新闻，方向以利好为主。关注：美国威胁以次级制裁扩大对伊朗的全球经济围堵，但制裁效果仍存疑；市场等待美债回购",
+      "news_count": 20,
+      "summary": "黄金板块20条新闻，方向以利好为主",
       "tickers": "紫金矿业(601899)、湖南黄金(002155)"
     },
     {
@@ -2064,30 +2640,40 @@
       "shock": "强",
       "direction": "利好",
       "news_count": 8,
-      "summary": "光模块板块8条新闻，方向以利好为主。关注：【主力资金流向前十大个股】；【主力资金流向前十大个股】金十数据8月25日讯，截",
+      "summary": "光模块板块8条新闻，方向以利好为主",
       "tickers": "中际旭创(300308)、新易盛(300502)"
     },
     {
       "name": "创新药",
-      "shock": "中",
+      "shock": "强",
       "direction": "中性",
-      "news_count": 3,
-      "summary": "创新药板块3条新闻，方向以中性为主",
+      "news_count": 5,
+      "summary": "创新药板块5条新闻，方向以中性为主",
       "tickers": "百济神州、药明康德、恒瑞医药",
-      "notes": "；ETF校准(当日+1.8%)"
+      "notes": "；ETF校准(当日+2.1%)"
     }
   ],
   "keyPoints": [
-    "【半导体】万讯自控半导体业务取得海内外市场订单，2026年上半年营收达1407.66万元，反映公司新兴业务布局进展",
-    "【光模块】长飞光纤光缆港股午后涨超16%，特发信息涨停，CPO概念震荡反弹，板块情绪回暖",
-    "【创新药】苏州创新药需求释放，带动医药制造业产值增长10.4%，CRO概念涨幅居前，板块表现活跃",
-    "【黄金】花旗上调黄金三个月目标价至4800美元，现货黄金上涨近1%，水贝金条销量大涨，避险需求上升",
-    "【半导体】美股存储芯片板块重挫，费城半导体指数跌2.7%，英伟达“七连跌”，反映市场对半导体板块的担忧",
-    "【黄金】美国威胁扩大对伊朗制裁，地缘政治风险提升黄金避险情绪，花旗看好金价进一步上涨空间"
+    "【半导体】全球CSP资本支出2026年预计增长98%，2027年再增长50%，存储器占比提升至68%",
+    "【半导体】万讯自控半导体业务取得突破，导入中芯国际等头部客户",
+    "【半导体】长鑫存储LPDDR6技术突破，成为小米玄戒O3核心合作伙伴",
+    "【光模块】蓝思科技AI服务器订单爬坡，下半年将迎来高效液冷散热系统订单",
+    "【创新药】CRO和生物医药ETF领涨，港股通医疗ETF单日涨超4%",
+    "【黄金】花旗上调黄金目标价至4800美元，高盛预计年末金价达4900美元"
   ],
-  "marketSummary": "当日市场呈现分化走势：创新药板块表现亮眼，ETF平均上涨1.8%，受CRO概念涨幅居前及苏州医药制造业产值增长10.4%的推动；光模块板块小幅上涨0.2%，个股分化明显，长飞光纤大涨16%而中际旭创净卖出超5亿元；半导体板块下跌0.2%，受美股存储芯片重挫和费城半导体指数下跌2.7%的拖累，但万讯自控等个股半导体业务进展对板块形成局部支撑；黄金板块微跌0.3%，但花旗上调目标价至4800美元，叠加地缘政治风险，避险需求对金价形成支撑。整体来看，科技板块内部出现明显分化，创新药和光模块相对强势，半导体承压，黄金避险属性凸显。",
+  "marketSummary": "半导体板块整体表现分化，存储器因AI需求增长受益，个股如万讯自控、长鑫存储取得技术突破；光模块板块受AI服务器订单拉动，蓝思科技订单爬坡带动情绪回暖；创新药板块受资金追捧，CRO和生物医药ETF领涨；黄金板块受地缘风险和机构看好推动，金价站上4600美元，花旗上调目标价至4800美元。",
   "isAi": true,
   "fullNews": [
+    {
+      "title": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+      "description": "国际金价站上4600美元/盎司，分析师纷纷“空翻多”&nbsp;&nbsp; ZAKER新闻",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T09:03:14.000Z",
+      "source": "ZAKER新闻",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OSGE3emZGLXFVZHF6TjJ0SE9kUW1fX1NFeHhHaUJTaUxodmd6TnpINk5rV3hzd2ZmWnQ0QUtYTHVuaFAyTVVfc0ZqUVdkTEtGa0JjeUFORjBZX2toREoyRkMwX3pWdEhZZmVKbXl1MXZ1VFZRdlpZ?oc=5",
+      "eventId": "evt_zarjwb",
+      "sourceCount": 2
+    },
     {
       "title": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
       "description": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
@@ -2109,13 +2695,43 @@
       "sourceCount": 1
     },
     {
-      "title": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
-      "description": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日&nbsp;&nbsp; finance.sina.com.cn",
+      "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪网",
       "guessedSector": "黄金",
-      "pubDate": "2026-08-24T23:51:00.000Z",
-      "source": "finance.sina.com.cn",
-      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
-      "eventId": "evt_qrswcr",
+      "pubDate": "2026-08-25T06:37:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5",
+      "eventId": "evt_11r8mhz",
+      "sourceCount": 1
+    },
+    {
+      "title": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+      "description": "积存金价格集体站上千元关口 黄金投资热度升温&nbsp;&nbsp; 温州新闻网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T06:58:31.000Z",
+      "source": "温州新闻网",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pU1BrZElhRkljcVItanJzZE5FVl9aYVl6TVRJUjV1N19pUmdYc3IwOWpqbWJXdVVhSGJVMEsyNDlXTTVCN0toOEExb2pmdjVJN3I1TWlReHV1QmE1UnBWT0FDY2N3RjRRMkE?oc=5",
+      "eventId": "evt_1d3lm8i",
+      "sourceCount": 1
+    },
+    {
+      "title": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "description": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前&nbsp;&nbsp; 新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-25T09:06:16.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5",
+      "eventId": "evt_84i2rv",
+      "sourceCount": 1
+    },
+    {
+      "title": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+      "description": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿&nbsp;&nbsp; FX168财经",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-25T09:31:04.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iWFc2RGxhYldLcEJzb2t6SjFSWlRuR0NnQ1pfMDlURzg5VHoxX1Y4WGx5QVdlTlVfVTFzWFZkWjdLUEFjZTZ2cFBxQ2x4cXhmV2sw?oc=5",
+      "eventId": "evt_myb9fj",
       "sourceCount": 1
     },
     {
@@ -2126,6 +2742,96 @@
       "source": "财联社",
       "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5",
       "eventId": "evt_1i7c4in",
+      "sourceCount": 1
+    },
+    {
+      "title": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "description": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3%&nbsp;&nbsp; FX168财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T07:21:09.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+      "eventId": "evt_1qfdx26",
+      "sourceCount": 3
+    },
+    {
+      "title": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "description": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷&nbsp;&nbsp; 新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-25T08:47:00.000Z",
+      "source": "新浪网",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5",
+      "eventId": "evt_mik3qw",
+      "sourceCount": 1
+    },
+    {
+      "title": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+      "description": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！&nbsp;&nbsp; FX168财经",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-25T10:20:49.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5",
+      "eventId": "evt_1vo7h3z",
+      "sourceCount": 1
+    },
+    {
+      "title": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+      "description": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出现反常举动，这究竟意味着什么？一文帮你拆解清楚>>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T11:46:57.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1y3hmse",
+      "sourceCount": 1
+    },
+    {
+      "title": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+      "description": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播间>",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T11:32:12.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_rfe5dh",
+      "sourceCount": 1
+    },
+    {
+      "title": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+      "description": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在……",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T11:24:32.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_jonu1f",
+      "sourceCount": 1
+    },
+    {
+      "title": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-25T11:51:07.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-25/detail-inippvun5452036.d.html",
+      "eventId": "evt_1k1o1uz",
+      "sourceCount": 1
+    },
+    {
+      "title": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+      "description": "国务院新闻办25日召开新闻发布会，福建省相关负责人介绍，第二十六届中国国际投资贸易洽谈会将规划设置14个专业展区，全面展示新质生产力、“丝路海运”、国际供应链等热点投资领域。福建省相关负责人介绍，本届投洽会将集中展示半导体、金融服务、生物医药等领域的合作新成果。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-25T11:17:45.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3154618",
+      "eventId": "evt_1t50uki",
+      "sourceCount": 1
+    },
+    {
+      "title": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
+      "description": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日&nbsp;&nbsp; finance.sina.com.cn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-24T23:51:00.000Z",
+      "source": "finance.sina.com.cn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+      "eventId": "evt_qrswcr",
       "sourceCount": 1
     },
     {
@@ -2146,7 +2852,7 @@
       "source": "金十数据",
       "link": "",
       "eventId": "evt_1jdb3yn",
-      "sourceCount": 2
+      "sourceCount": 1
     },
     {
       "title": "【米奥会展：子公司将与TikTok Shop举办AI出海大会 跨境电商AI操作系统将亮相】8月26日，TikTok Shop与米奥会展(300795)控股子公司奥创天下联合主办的以“AI扬帆 亿启欧洲”为主题的AI出海大会将在杭州举行，奥创天下旗下“星擎”AI视频营销解决方案与“星帆”跨境电商AI操作系统将亮相，以“B2B获客+B2C出单”双引擎组合，卡位AI出海营销的结构性机遇。",
@@ -2504,29 +3210,29 @@
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.116,
-      "change": -0.08952551477170008
+      "price": 1.118,
+      "change": 0.08952551477171995
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.064,
-      "change": -0.18761726078799265
+      "price": 1.066,
+      "change": 0
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.129,
-      "change": -0.44091710758376484
+      "price": 1.13,
+      "change": -0.3527336860670197
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.003,
-      "change": 0
+      "price": 1.006,
+      "change": 0.2991026919242387
     },
     {
       "code": "515880",
@@ -2539,56 +3245,55 @@
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 2.896,
-      "change": 0.5904828065300418
+      "price": 2.902,
+      "change": 0.7988885029524186
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.648,
-      "change": 1.8867924528301903
+      "price": 0.649,
+      "change": 2.044025157232706
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.698,
-      "change": 1.7492711370262242
+      "price": 0.7,
+      "change": 2.0408163265305976
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.866,
-      "change": 1.8823529411764721
+      "price": 0.868,
+      "change": 2.117647058823531
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.536,
-      "change": -0.29276453366792626
+      "price": 9.533,
+      "change": -0.32413216227520475
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.964,
-      "change": -0.2702432188969998
+      "price": 9.965,
+      "change": -0.26023421078970876
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.999,
-      "change": -0.27924603570358725
+      "price": 9.996,
+      "change": -0.3091652538146884
     }
   ],
   "chartData": {
     "etfTrend": {
       "dates": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -2625,36 +3330,35 @@
           "label": "半导体",
           "data": [
             100,
-            94.33,
-            88.93,
-            82.38,
-            80.82,
-            88.93,
-            88.59,
-            85.21,
-            85.75,
-            86.29,
-            79.41,
-            77.79,
-            72.92,
-            75.49,
-            70.16,
-            73.94,
-            78.66,
-            79.47,
-            81.84,
-            81.36,
-            80.15,
-            81.63,
-            80.49,
-            81.23,
-            85.28,
-            85.35,
-            78.53,
-            77.72,
-            78.26,
-            75.42,
-            74.48
+            94.27,
+            87.33,
+            85.68,
+            94.27,
+            93.92,
+            90.34,
+            90.91,
+            91.48,
+            84.18,
+            82.46,
+            77.31,
+            80.03,
+            74.37,
+            78.38,
+            83.39,
+            84.25,
+            86.76,
+            86.26,
+            84.97,
+            86.54,
+            85.33,
+            86.11,
+            90.41,
+            90.48,
+            83.25,
+            82.39,
+            82.96,
+            79.96,
+            79.08
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -2669,36 +3373,35 @@
           "label": "光模块",
           "data": [
             100,
-            97.09,
-            94.82,
-            85.34,
-            82.43,
-            89.72,
-            85.91,
-            85.59,
-            83.16,
-            85.67,
-            77.33,
-            77.41,
-            71.34,
-            74.49,
-            73.28,
-            79.84,
-            81.13,
-            82.11,
-            84.45,
-            82.51,
-            82.35,
-            84.86,
-            84.62,
-            86.96,
-            90.45,
-            89.15,
-            81.94,
-            82.83,
-            85.02,
-            81.21,
-            122.73
+            97.66,
+            87.91,
+            84.9,
+            92.41,
+            88.49,
+            88.16,
+            85.65,
+            88.24,
+            79.65,
+            79.73,
+            73.48,
+            76.73,
+            75.48,
+            82.24,
+            83.57,
+            84.57,
+            86.99,
+            84.99,
+            84.82,
+            87.41,
+            87.16,
+            89.57,
+            93.16,
+            91.83,
+            84.4,
+            85.32,
+            87.57,
+            83.65,
+            126.66
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -2713,36 +3416,35 @@
           "label": "创新药",
           "data": [
             100,
-            104.11,
-            103.5,
-            95.74,
-            99.39,
-            100.15,
-            100.3,
-            99.7,
-            95.43,
-            97.87,
-            95.74,
-            96.8,
-            94.98,
-            96.04,
-            94.52,
-            97.56,
-            98.63,
-            97.26,
-            103.5,
-            104.57,
-            105.18,
-            104.72,
-            105.78,
-            104.72,
-            105.63,
-            104.57,
-            102.13,
-            106.7,
-            101.83,
-            96.8,
-            112.22
+            99.42,
+            91.96,
+            95.47,
+            96.2,
+            96.35,
+            95.76,
+            91.67,
+            94.01,
+            91.96,
+            92.98,
+            91.23,
+            92.25,
+            90.79,
+            93.71,
+            94.74,
+            93.42,
+            99.42,
+            100.44,
+            101.02,
+            100.58,
+            101.61,
+            100.58,
+            101.46,
+            100.44,
+            98.1,
+            102.49,
+            97.81,
+            92.98,
+            108.04
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -2757,36 +3459,35 @@
           "label": "黄金",
           "data": [
             100,
-            99.95,
-            99.88,
-            99.26,
-            99.34,
-            101.13,
-            102.23,
-            102.23,
-            100.14,
-            101.54,
-            100.32,
-            100.23,
-            99.84,
-            100.72,
-            100.53,
-            100.42,
-            103.19,
-            105.04,
-            106.2,
-            107.55,
+            99.93,
+            99.31,
+            99.39,
+            101.18,
+            102.28,
+            102.28,
+            100.19,
+            101.59,
+            100.37,
+            100.27,
+            99.89,
+            100.76,
+            100.57,
+            100.47,
+            103.24,
+            105.09,
+            106.25,
             107.6,
-            108.72,
-            107.99,
-            106.84,
-            108.3,
-            108.42,
-            107.18,
-            110.28,
-            112.12,
-            114.22,
-            117.44
+            107.65,
+            108.77,
+            108.04,
+            106.89,
+            108.35,
+            108.47,
+            107.23,
+            110.34,
+            112.18,
+            114.28,
+            117.47
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -2804,10 +3505,10 @@
       "datasets": [
         {
           "data": [
-            18,
-            5,
-            16,
-            2
+            23,
+            4,
+            23,
+            4
           ],
           "backgroundColor": [
             "#16a34a",
@@ -2842,27 +3543,27 @@
       "matrix": {
         "半导体": {
           "极高": 0,
-          "高": 5,
+          "高": 7,
           "中": 4,
-          "低": 8
+          "低": 10
         },
         "光模块": {
           "极高": 0,
-          "高": 2,
+          "高": 1,
           "中": 3,
-          "低": 3
+          "低": 4
         },
         "创新药": {
           "极高": 0,
           "高": 0,
-          "中": 1,
+          "中": 3,
           "低": 2
         },
         "黄金": {
-          "极高": 0,
-          "高": 2,
-          "中": 4,
-          "低": 7
+          "极高": 1,
+          "高": 3,
+          "中": 5,
+          "低": 11
         }
       },
       "hasData": true
@@ -2878,18 +3579,18 @@
         {
           "label": "利好",
           "data": [
-            7,
+            6,
             3,
-            2,
-            6
+            4,
+            10
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "利空",
           "data": [
-            3,
             1,
+            2,
             0,
             1
           ],
@@ -2898,18 +3599,18 @@
         {
           "label": "中性",
           "data": [
-            6,
+            10,
             3,
             1,
-            6
+            9
           ],
           "backgroundColor": "#9ca0af"
         },
         {
           "label": "分化",
           "data": [
-            1,
-            1,
+            4,
+            0,
             0,
             0
           ],
@@ -2927,9 +3628,9 @@
       "datasets": [
         {
           "data": [
-            26,
-            11,
-            4
+            39,
+            12,
+            3
           ],
           "backgroundColor": [
             "#2563eb",

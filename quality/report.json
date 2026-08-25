@@ -808,13 +808,13 @@
       "date": "20260825",
       "displayDate": "2026-08-25",
       "isAi": true,
-      "newsCount": 41,
+      "newsCount": 54,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 0,
-        "high": 9
+        "vhigh": 1,
+        "high": 11
       },
       "signalHitRate": 0,
       "directions": {
@@ -842,7 +842,7 @@
         {
           "name": "创新药",
           "direction": "中性",
-          "shock": "中"
+          "shock": "强"
         }
       ]
     }

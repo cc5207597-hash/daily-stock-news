@@ -1,7 +1,21 @@
 {
   "date": "20260825",
-  "count": 41,
+  "count": 54,
   "events": [
+    {
+      "eventId": "evt_zarjwb",
+      "canonicalTitle": "国际金价站上4600美元/盎司，分析师纷纷“空翻多” - ZAKER新闻",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OSGE3emZGLXFVZHF6TjJ0SE9kUW1fX1NFeHhHaUJTaUxodmd6TnpINk5rV3hzd2ZmWnQ0QUtYTHVuaFAyTVVfc0ZqUVdkTEtGa0JjeUFORjBZX2toREoyRkMwX3pWdEhZZmVKbXl1MXZ1VFZRdlpZ?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "ZAKER新闻",
+        "金融界"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OSGE3emZGLXFVZHF6TjJ0SE9kUW1fX1NFeHhHaUJTaUxodmd6TnpINk5rV3hzd2ZmWnQ0QUtYTHVuaFAyTVVfc0ZqUVdkTEtGa0JjeUFORjBZX2toREoyRkMwX3pWdEhZZmVKbXl1MXZ1VFZRdlpZ?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE94bFkxTEhUTWpUMTlfRmNnUklYTUlVLWlZNHBUbjR5cWt1M0t1YnZtWXo3RmtVdlNENHU0S0ZYLUlUVUxtazhYNnAtRlhLekZxS09Sa3dTRlFGd2JOR3MzbGozcFlQQUNHaWdGUlpocVg2QXlQ?oc=5"
+      ]
+    },
     {
       "eventId": "evt_16qajov",
       "canonicalTitle": "A股三大指数集体翻红，科创50指数涨幅扩大至1%，军工装备、小家电、CRO概念涨幅居前，全市场超4300家个股上涨。",
@@ -28,15 +42,51 @@
       ]
     },
     {
-      "eventId": "evt_qrswcr",
-      "canonicalTitle": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+      "eventId": "evt_11r8mhz",
+      "canonicalTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5",
       "memberCount": 1,
       "sources": [
-        "finance.sina.com.cn"
+        "新浪网"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5"
+        "https://news.google.com/rss/articles/CBMihwFBVV95cUxQVzNLV3gwYmFGN0RKb3dUR0ZqZnYzcmNuYXhKR2FCMUJNMlRhNk02Zm5ndkFicDNSanNkNW93UG5CZ2w2SGdSZ3BSWklPemdtc1BwV2o1UWxXRlpST1IyWEQ1WGpzNko4R015a0I0UFIzSGllWEpsRVY4MmUtclRINHFLME9Ma00?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1d3lm8i",
+      "canonicalTitle": "积存金价格集体站上千元关口 黄金投资热度升温 - 温州新闻网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pU1BrZElhRkljcVItanJzZE5FVl9aYVl6TVRJUjV1N19pUmdYc3IwOWpqbWJXdVVhSGJVMEsyNDlXTTVCN0toOEExb2pmdjVJN3I1TWlReHV1QmE1UnBWT0FDY2N3RjRRMkE?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "温州新闻网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1pU1BrZElhRkljcVItanJzZE5FVl9aYVl6TVRJUjV1N19pUmdYc3IwOWpqbWJXdVVhSGJVMEsyNDlXTTVCN0toOEExb2pmdjVJN3I1TWlReHV1QmE1UnBWT0FDY2N3RjRRMkE?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_84i2rv",
+      "canonicalTitle": "ETF资金榜|银华日利ETF、科创半导体ETF和黄金ETF净流入居前 - 新浪网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KdjdWNXVBUzg4eW05TTFvT1FWV2loX2UwdC1ZSTlFc0M4RDNtSzFoVTI4OEFHdnhTTWtmMUFwVlVOZXFvV1NiUmIwcUFja2c3cEtLTHV5anpNTDlLVFl2Xy03bEh5Z2g2bFZ0bXNRcw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_myb9fj",
+      "canonicalTitle": "ETF风向标|CRO午后大涨，港股通医疗ETF涨4%，生物医药ETF、港股创新药ETF涨3%，科创50ETF单日“吸金”21亿 - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iWFc2RGxhYldLcEJzb2t6SjFSWlRuR0NnQ1pfMDlURzg5VHoxX1Y4WGx5QVdlTlVfVTFzWFZkWjdLUEFjZTZ2cFBxQ2x4cXhmV2sw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1iWFc2RGxhYldLcEJzb2t6SjFSWlRuR0NnQ1pfMDlURzg5VHoxX1Y4WGx5QVdlTlVfVTFzWFZkWjdLUEFjZTZ2cFBxQ2x4cXhmV2sw?oc=5"
       ]
     },
     {
@@ -49,6 +99,113 @@
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1HRlpXdlpIX2g1eDVuNURmQVJfeV9jS0taWE1mLWw4Z0RaQnRoMWZSa29xNnlPYV83Z2x0VmtZZmtIdjFncUJxVA?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1qfdx26",
+      "canonicalTitle": "ETF市场日报 | 港股通医疗ETF批量涨超3%领涨全场，有色黄金股ETF集体重挫逾3% - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪网",
+        "财富号",
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xYXZIVS1laVc1OUhKb2JaUENRTHZlbERXcERuN2tIcHk4dU90Tzg5YVdtYzZhbEp1Qmo4V29hMXNKQXN2b2plaHlDRXV2R0d0VDQ4?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTFBPOTJkVEVzRWtucElUcnZEWkVsWW5nTllnLTRlN1d0bVJ4QThuWXFRVklKMUFxVjlPNERtLTJJNzJKa0hoWHFrNFB6ZnFfSUExZjZMSHJnWHVHN2QxR0tHZTAwTWdFTExZX25faWxXTjlEcC1GZEhlYQ?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE1zQWctcWNYM0xTMElWd1VRRGNhVEc1TVRsamdjZVpHakNrWDFNRmZXMXlIY2dVRGkzeklsckxoZ1R3V3lUVlZKMmpKMjFvYnlUZnd0UWNYcmJiNW5ZaFZWZmIxQmZlZ2paM3lHajQ0N2VITms3NkVCOA?oc=5",
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTFA1X1ktbXR3TWd6SkN3NDRweGtHUnVOSERrMGRLTy1ySElib0s4VXMzVTVkWjVPYmNFTzdDaXVreVlfRFoybzk4WWZuUndwcUVUdUYyVE5Kc0Yzdk9udU4yeGVpZEhfendTSGc?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_mik3qw",
+      "canonicalTitle": "港股收评：三大指数齐跌！PCB、芯片股活跃，黄金股低迷 - 新浪网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "新浪网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMigAFBVV95cUxOUEtMb2J6WHp0ZVFDb080QzVpajRSLXpXUnIwMGNKdmVfZm5jdFNjUlhhZXVjZWMyTjJycEFka0xWRWQ4TjRfTnE3TTJGN0U3c1E3ekpTOWVhVHZ1bUNxcTJUc3VSTDBidmpRY2plZXJneGgybkUxQmNBeWZkcmowbg?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1vo7h3z",
+      "canonicalTitle": "【8.25 ETF综述】4200股普涨重现！创新药与机器人领涨、小盘风格再归来！ - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKYmtDd3hwWU9NRzZmeG85aEsxc2tvbHpObDFpaWlvM1M3WXhzTEVUa2tLSXN0OXd4MWREY00xdUxzb2E5RkdaV3lMcjAtdHQ0RzZr?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1y3hmse",
+      "canonicalTitle": "金价一周涨超5%，水贝重新热闹起来，但让人意想不到的是，商户做的是另一套动作！当离黄金最近的那批人出",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_rfe5dh",
+      "canonicalTitle": "黄金期货本月录得创纪录买入，5000美元重新进入投资者视野？金十研究员高阳正在直播分析，点击进入直播",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_jonu1f",
+      "canonicalTitle": "对冲基金重仓杀回黄金，逼近极值的多头规模暗藏何种隐患？美国8月非农数据可能好于预期，市场反应阈值在…",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1k1o1uz",
+      "canonicalTitle": "【集邦咨询：存储器合约价持续飙升，预估2027年占主要CSP资本支出比重将达68%】根据TrendForce集邦咨询最新存储器产业研究，全球主要云端服务供应商（CSP）为加速建设AI基础设施，资本支出预估于2026年将年增98%，2027年再成长50%，大幅成长的原因，部分可归因于存储器合约价剧增、采购需求的强劲成长。TrendForce集邦咨询预估，DRAM、NAND Flash合计在CSP资本支出的占比，将从2026年的47%，进一步扩张至2027年的68%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-25/detail-inippvun5452036.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippvun5452036.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1t50uki",
+      "canonicalTitle": "第二十六届投洽会设置14个专业展区 全面展示热点投资领域",
+      "canonicalLink": "https://wallstreetcn.com/articles/3154618",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3154618"
+      ]
+    },
+    {
+      "eventId": "evt_qrswcr",
+      "canonicalTitle": "财经早报：外资机构密集调研A股公司 积存金价格集体站上千元关口丨2026年8月25日 - finance.sina.com.cn",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "finance.sina.com.cn"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1T2sxTVd0WFVUWjI0TXQzSGJEejk3X0psTXdTNHNkOWJzcXlmUjVzajlzZW83TDQ5bWF1WEtDRl9XaGUzVVpqZjVlanM2ZllRQTR2NmpjT1pIaUZUTnFVU2hHckZQUF9yNDllOG9HcTdxVlRFdXotM2lHVGE?oc=5"
       ]
     },
     {
@@ -67,14 +224,9 @@
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
-        "东方财富",
         "金十数据"
       ],
-      "relatedArticles": [
-        "http://finance.eastmoney.com/news/1350,202608253852593772.html",
-        "http://finance.eastmoney.com/news/1350,202608253852587742.html",
-        "http://finance.eastmoney.com/news/1350,202608253852631437.html"
-      ]
+      "relatedArticles": []
     },
     {
       "eventId": "evt_1wbazuz",
@@ -97,8 +249,7 @@
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html",
-        "https://finance.sina.cn/7x24/2026-08-25/detail-inipnuhw1710589.d.html"
+        "https://finance.sina.cn/7x24/2026-08-25/detail-inippewu5522807.d.html"
       ]
     },
     {
