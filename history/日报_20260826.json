@@ -1,136 +1,934 @@
 {
   "date": "20260826",
   "displayDate": "2026-08-26",
-  "generatedAt": "2026-08-25T16:11:02.891Z",
-  "analyzed": [],
+  "generatedAt": "2026-08-26T02:19:00.219Z",
+  "analyzed": [
+    {
+      "title_cn": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "紫金矿业(601899)",
+      "notes": "AI研判:深中华A走出5连板，金一文化反包涨停，多只个股跟涨，显示板块情绪高涨",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [
+        "深中华A",
+        "金一文化",
+        "迪阿股份",
+        "晓程科技",
+        "华钰矿业",
+        "招金黄金",
+        "紫金矿业",
+        "兴业银锡"
+      ],
+      "reasoning": [
+        "深中华A走出5连板，金一文化反包涨停，多只个股跟涨，显示板块情绪高涨"
+      ],
+      "evidence": [
+        "黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨"
+      ],
+      "confidence_score": 0.95,
+      "uncertainty": "",
+      "title": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
+      "description": "",
+      "pubDate": "2026-08-26T02:14:48.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html",
+      "eventId": "evt_hekwos",
+      "eventTitle": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
+      "eventSources": [
+        "财联社",
+        "新浪财经"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://www.cls.cn/detail/2464361"
+      ],
+      "eventMembers": [
+        {
+          "title": "黄金概念震荡拉升 深中华A5连板",
+          "description": "【黄金概念震荡拉升 深中华A5连板】财联社8月26日电，黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。消息面上，Comex黄金期货日内重返4700美元上方，现涨超0.4%。",
+          "link": "https://www.cls.cn/detail/2464361",
+          "pubDate": "2026-08-26T02:14:35.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html",
+          "pubDate": "2026-08-26T02:14:48.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【创业板、科创50指数双双翻绿】创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:创业板、科创50指数双双翻绿，全市场超3000家个股下跌，表明市场整体悲观",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "创业板、科创50指数双双翻绿，全市场超3000家个股下跌，表明市场整体悲观"
+      ],
+      "evidence": [
+        "创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前"
+      ],
+      "confidence_score": 0.95,
+      "uncertainty": "",
+      "title": "【创业板、科创50指数双双翻绿】创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前。",
+      "description": "",
+      "pubDate": "2026-08-26T02:05:08.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5429768.d.html",
+      "eventId": "evt_vgwoqo",
+      "eventTitle": "【创业板、科创50指数双双翻绿】创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前。",
+      "eventSources": [
+        "华尔街见闻",
+        "新浪财经"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+        "https://wallstreetcn.com/articles/3154936"
+      ],
+      "eventMembers": [
+        {
+          "title": "A股收盘：科创50高开低走跌超1%，全市场下跌个股超4300只 - 华尔街见闻",
+          "description": "A股收盘：科创50高开低走跌超1%，全市场下跌个股超4300只&nbsp;&nbsp; 华尔街见闻",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+          "pubDate": "2026-08-13T07:00:00.000Z",
+          "source": "华尔街见闻"
+        },
+        {
+          "title": "【创业板、科创50指数双双翻绿】创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5429768.d.html",
+          "pubDate": "2026-08-26T02:05:08.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "富时中国A50指数期货盘初涨0.13%，上一个交易日夜盘收涨0.21%。",
+          "description": "富时中国A50指数期货盘初涨0.13%，上一个交易日夜盘收涨0.21%。",
+          "link": "https://wallstreetcn.com/articles/3154936",
+          "pubDate": "2026-08-26T01:00:01.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "summary_cn": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:半导体板块ETF平均跌幅未超3%，但个股跌幅巨大，反映市场情绪悲观；杰普特跌超10%，多家公司跌超5%，表明板块内部承压明显",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [
+        "淳中科技",
+        "杰普特",
+        "恒烁股份",
+        "大为股份",
+        "和林微纳",
+        "江化微"
+      ],
+      "reasoning": [
+        "半导体板块ETF平均跌幅未超3%，但个股跌幅巨大，反映市场情绪悲观",
+        "杰普特跌超10%，多家公司跌超5%，表明板块内部承压明显"
+      ],
+      "evidence": [
+        "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "description": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "pubDate": "2026-08-26T02:03:41.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3154969",
+      "eventId": "evt_kcle79",
+      "eventTitle": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "eventSources": [
+        "金十数据",
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 3,
+      "relatedLinks": [
+        "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌",
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2200184.d.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌",
+          "description": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+          "link": "",
+          "pubDate": "2026-08-26T02:04:03.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2200184.d.html",
+          "pubDate": "2026-08-26T02:03:47.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+          "description": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+          "link": "https://wallstreetcn.com/articles/3154969",
+          "pubDate": "2026-08-26T02:03:41.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【CPO概念震荡下挫 杰普特跌超10%】CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "天孚通信(300394)、太辰光(300570)",
+      "notes": "AI研判:CPO概念盘中震荡下挫，多只个股跌幅超5%，反映板块情绪低迷",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "杰普特",
+        "阿莱德",
+        "蘅东光",
+        "联特科技",
+        "太辰光",
+        "天孚通信",
+        "长光华芯"
+      ],
+      "reasoning": [
+        "CPO概念盘中震荡下挫，多只个股跌幅超5%，反映板块情绪低迷"
+      ],
+      "evidence": [
+        "CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【CPO概念震荡下挫 杰普特跌超10%】CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+      "description": "",
+      "pubDate": "2026-08-26T02:12:50.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html",
+      "eventId": "evt_17uag84",
+      "eventTitle": "【CPO概念震荡下挫 杰普特跌超10%】CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+      "eventSources": [
+        "财联社",
+        "新浪财经"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://www.cls.cn/detail/2464351"
+      ],
+      "eventMembers": [
+        {
+          "title": "CPO概念震荡下挫 杰普特跌超10%",
+          "description": "【CPO概念震荡下挫 杰普特跌超10%】财联社8月26日电，CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+          "link": "https://www.cls.cn/detail/2464351",
+          "pubDate": "2026-08-26T02:12:43.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【CPO概念震荡下挫 杰普特跌超10%】CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html",
+          "pubDate": "2026-08-26T02:12:50.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "中国黄金周韩林：金价驱动逻辑出现分化 - 新浪财经",
+      "summary_cn": "中国黄金周韩林：金价驱动逻辑出现分化&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:金价驱动逻辑出现分化，无明确方向",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "金价驱动逻辑出现分化，无明确方向"
+      ],
+      "evidence": [
+        "中国黄金周韩林：金价驱动逻辑出现分化"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "分化逻辑未详细说明",
+      "title": "中国黄金周韩林：金价驱动逻辑出现分化 - 新浪财经",
+      "description": "中国黄金周韩林：金价驱动逻辑出现分化&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-26T01:18:45.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV2ZiYlpjN0RGMDFiLTJMbzVMZ1ZkS19vS1JreThuM0hZUW9ETUJBNGNkb1VKY25ablNIdldQbFJ3RkpHbnZ5M0FPVFgzOGFqano4bzBJSTZ6V0hsOGtaVWtTd09QUHJLTllkQnNEOElydDdlbnBCT0pQLWxHNDlkYzdOWlV4OTdOV2g0eUYyMnlScHBMM0wzNA?oc=5",
+      "eventId": "evt_zmp7hu",
+      "eventTitle": "中国黄金周韩林：金价驱动逻辑出现分化 - 新浪财经",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "中国黄金周韩林：金价驱动逻辑出现分化 - 新浪财经",
+          "description": "中国黄金周韩林：金价驱动逻辑出现分化&nbsp;&nbsp; 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV2ZiYlpjN0RGMDFiLTJMbzVMZ1ZkS19vS1JreThuM0hZUW9ETUJBNGNkb1VKY25ablNIdldQbFJ3RkpHbnZ5M0FPVFgzOGFqano4bzBJSTZ6V0hsOGtaVWtTd09QUHJLTllkQnNEOElydDdlbnBCT0pQLWxHNDlkYzdOWlV4OTdOV2g0eUYyMnlScHBMM0wzNA?oc=5",
+          "pubDate": "2026-08-26T01:18:45.000Z",
+          "source": "新浪财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "summary_cn": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:黄金维持高位整理，宏观与资金面信号交织，短期波动或放大",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "黄金维持高位整理，宏观与资金面信号交织，短期波动或放大"
+      ],
+      "evidence": [
+        "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "方向催化尚未明确",
+      "title": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "description": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "pubDate": "2026-08-26T02:00:37.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1hq32bz",
+      "eventTitle": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+          "description": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+          "link": "",
+          "pubDate": "2026-08-26T02:00:37.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
+      "summary_cn": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.35美元/盎司。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:现货白银涨幅扩大至1%，现货黄金短线走高近10美元，但未形成趋势",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "现货白银涨幅扩大至1%，现货黄金短线走高近10美元，但未形成趋势"
+      ],
+      "evidence": [
+        "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.35美元/盎司"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
+      "description": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.35美元/盎司。",
+      "pubDate": "2026-08-26T01:58:27.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_vqo4jq",
+      "eventTitle": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
+          "description": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.35美元/盎司。",
+          "link": "",
+          "pubDate": "2026-08-26T01:58:27.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "summary_cn": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:仅为账户贵金属行情数据，无明确方向指引",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "仅为账户贵金属行情数据，无明确方向指引"
+      ],
+      "evidence": [],
+      "confidence_score": 0.5,
+      "uncertainty": "",
+      "title": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "description": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "pubDate": "2026-08-26T01:50:20.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_tti0ez",
+      "eventTitle": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+          "description": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+          "link": "",
+          "pubDate": "2026-08-26T01:50:20.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿 - 东方财富",
+      "summary_cn": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿&nbsp;&nbsp; ",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:美股存储芯片、光通信集体上涨，但A股半导体板块震荡走低，显示分化",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "美股存储芯片、光通信集体上涨，但A股半导体板块震荡走低，显示分化"
+      ],
+      "evidence": [
+        "美股存储芯片、光通信集体上涨，中国资产多数上涨；创新药龙头业绩爆棚"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "A股半导体与美股走势背离的原因不明",
+      "title": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿 - 东方财富",
+      "description": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿&nbsp;&nbsp; 东方财富",
+      "pubDate": "2026-08-25T23:49:32.000Z",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RMl90UEtjeDg4OTVMeHhZcGRISTRrRDJyU1NRXzVvUTQzdGlwOWwtZndDcDZ6ZVVkWFRMX2IwMTZGMWhfMURUU0VQM1hiU052dFZnU0dEQ2JFYnpmRW0xemlmQTBGQQ?oc=5",
+      "eventId": "evt_1ig87mo",
+      "eventTitle": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿 - 东方财富",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿 - 东方财富",
+          "description": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿&nbsp;&nbsp; 东方财富",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RMl90UEtjeDg4OTVMeHhZcGRISTRrRDJyU1NRXzVvUTQzdGlwOWwtZndDcDZ6ZVVkWFRMX2IwMTZGMWhfMURUU0VQM1hiU052dFZnU0dEQ2JFYnpmRW0xemlmQTBGQQ?oc=5",
+          "pubDate": "2026-08-25T23:49:32.000Z",
+          "source": "东方财富"
+        }
+      ]
+    },
+    {
+      "title_cn": "长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报",
+      "summary_cn": "A股复盘市场午后震荡回升，沪指小幅飘红，指数分时黄线远强于白线，小微盘股方向领涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿元。盘面上，市场热点",
+      "category": "创新药",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:创新药、CRO概念回暖，但创新药ETF平均涨幅仅0.4%，显示板块内部分化",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "创新药、CRO概念回暖，但创新药ETF平均涨幅仅0.4%，显示板块内部分化"
+      ],
+      "evidence": [
+        "创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报",
+      "description": "A股复盘市场午后震荡回升，沪指小幅飘红，指数分时黄线远强于白线，小微盘股方向领涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿元。盘面上，市场热点快速轮动，全市场超4200股上涨。从板块来看，创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹，零售、旅游等消费股强势。下跌方面，贵金属、锂矿等资源股大幅回调，盛达资源、国城矿业、招金黄金、西部黄金领跌。",
+      "pubDate": "2026-08-26T00:35:00.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/11791,202608263853775455.html",
+      "eventId": "evt_kld1j3",
+      "eventTitle": "长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报",
+          "description": "A股复盘市场午后震荡回升，沪指小幅飘红，指数分时黄线远强于白线，小微盘股方向领涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿元。盘面上，市场热点快速轮动，全市场超4200股上涨。从板块来看，创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹，零售、旅游等消费股强势。下跌方面，贵金属、锂矿等资源股大幅回调，盛达资源、国城矿业、招金黄金、西部黄金领跌。",
+          "link": "http://stock.eastmoney.com/news/11791,202608263853775455.html",
+          "pubDate": "2026-08-26T00:35:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【早报】美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道；油价大跌，金价小幅上涨；加拿大反制美国",
+      "summary_cn": "宏观新闻1、外交部发言人林剑8月25日主持例行记者会。记者提问称，当地时间24日，美国财政部长贝森特公布多项针对伊朗的经济制裁措施，并称对于那些不参与这一行动的",
+      "category": "光模块",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:美股存储、光通信板块集体走强，但A股CPO概念下挫，显示内外市场分化",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "美股存储、光通信板块集体走强，但A股CPO概念下挫，显示内外市场分化"
+      ],
+      "evidence": [
+        "美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "地缘政治对市场的影响存在不确定性",
+      "title": "【早报】美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道；油价大跌，金价小幅上涨；加拿大反制美国",
+      "description": "宏观新闻1、外交部发言人林剑8月25日主持例行记者会。记者提问称，当地时间24日，美国财政部长贝森特公布多项针对伊朗的经济制裁措施，并称对于那些不参与这一行动的国家可能采取反制措施。林剑指出，当务之急是推动局势降温，尽快回归对话谈判轨道。中方将采取一切必要措施，坚定维护自身权益。",
+      "pubDate": "2026-08-25T23:00:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202608263853551438.html",
+      "eventId": "evt_4eu4pw",
+      "eventTitle": "【早报】美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道；油价大跌，金价小幅上涨；加拿大反制美国",
+      "eventSources": [
+        "东方财富",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://wallstreetcn.com/articles/3154933"
+      ],
+      "eventMembers": [
+        {
+          "title": "【早报】美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道；油价大跌，金价小幅上涨；加拿大反制美国",
+          "description": "宏观新闻1、外交部发言人林剑8月25日主持例行记者会。记者提问称，当地时间24日，美国财政部长贝森特公布多项针对伊朗的经济制裁措施，并称对于那些不参与这一行动的国家可能采取反制措施。林剑指出，当务之急是推动局势降温，尽快回归对话谈判轨道。中方将采取一切必要措施，坚定维护自身权益。",
+          "link": "http://finance.eastmoney.com/news/1354,202608263853551438.html",
+          "pubDate": "2026-08-25T23:00:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "布油期货下跌2美元至每桶86.58美元，此前伊朗与阿曼磋商霍尔木兹海峡临时航道。",
+          "description": "布油期货下跌2美元至每桶86.58美元，此前伊朗与阿曼磋商霍尔木兹海峡临时航道。",
+          "link": "https://wallstreetcn.com/articles/3154933",
+          "pubDate": "2026-08-26T00:55:39.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
+      "summary_cn": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:高盛预测年末金价达到4900美元，但未提供时间节点和催化剂",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "高盛预测年末金价达到4900美元，但未提供时间节点和催化剂"
+      ],
+      "evidence": [
+        "高盛：年末黄金价格将达到每盎司4900美元"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "预测时间跨度长，存在不确定性",
+      "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
+      "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪财经",
+      "pubDate": "2026-08-26T00:00:00.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2EwT0x4ak1QLV9QZHFhNVNDX1hvcmtES1l2YllXY25uUzRISjZCWUg5VXg4Y0dqd1YyY191VkhMY3d6UkpTcTE4c05SYVpZT19Eamh6amVRcDFfLW1Zc1phcDVtYlNUb3hOU0NrUlF5bHZXZE82TEJiV1cxN3lEaHBDakRjZWY4aFE?oc=5",
+      "eventId": "evt_11r8mhz",
+      "eventTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
+          "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪财经",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2EwT0x4ak1QLV9QZHFhNVNDX1hvcmtES1l2YllXY25uUzRISjZCWUg5VXg4Y0dqd1YyY191VkhMY3d6UkpTcTE4c05SYVpZT19Eamh6amVRcDFfLW1Zc1phcDVtYlNUb3hOU0NrUlF5bHZXZE82TEJiV1cxN3lEaHBDakRjZWY4aFE?oc=5",
+          "pubDate": "2026-08-26T00:00:00.000Z",
+          "source": "新浪财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "现货黄金逼近4700美元 北京金饰零售价站上1369元/克",
+      "summary_cn": "“我们店里的金饰零售价最近这段时间涨了不少，今天足金耳环、手镯等首饰的报价是1369元/克，和7月底1200元/克左右的价格相比，涨幅明显。从到店客流来看，现在",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:北京金饰零售价站上1369元/克，较7月底涨幅明显，反映需求旺盛",
+      "sentiment": "利好",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "北京金饰零售价站上1369元/克，较7月底涨幅明显，反映需求旺盛"
+      ],
+      "evidence": [
+        "我们店里的金饰零售价最近这段时间涨了不少，今天足金耳环、手镯等首饰的报价是1369元/克，和7月底1200元/克左右的价格相比，涨幅明显"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "现货黄金逼近4700美元 北京金饰零售价站上1369元/克",
+      "description": "“我们店里的金饰零售价最近这段时间涨了不少，今天足金耳环、手镯等首饰的报价是1369元/克，和7月底1200元/克左右的价格相比，涨幅明显。从到店客流来看，现在来选购的顾客大多是买来自己日常佩戴。”8月25日，北京一家线下品牌金饰店的负责人向《中国经营报》记者透露了当前门店的最新销售情况。金饰价格的快速走高，也呼应了近日国际金价的强势反弹。",
+      "pubDate": "2026-08-25T23:41:12.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608263853776397.html",
+      "eventId": "evt_s8if08",
+      "eventTitle": "现货黄金逼近4700美元 北京金饰零售价站上1369元/克",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "现货黄金逼近4700美元 北京金饰零售价站上1369元/克",
+          "description": "“我们店里的金饰零售价最近这段时间涨了不少，今天足金耳环、手镯等首饰的报价是1369元/克，和7月底1200元/克左右的价格相比，涨幅明显。从到店客流来看，现在来选购的顾客大多是买来自己日常佩戴。”8月25日，北京一家线下品牌金饰店的负责人向《中国经营报》记者透露了当前门店的最新销售情况。金饰价格的快速走高，也呼应了近日国际金价的强势反弹。",
+          "link": "http://finance.eastmoney.com/news/1350,202608263853776397.html",
+          "pubDate": "2026-08-25T23:41:12.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    }
+  ],
   "sectorMatrix": [
     {
-      "name": "半导体",
-      "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "name": "黄金",
+      "shock": "强",
+      "direction": "利好",
+      "news_count": 7,
+      "summary": "黄金板块7条新闻，方向以利好为主。关注：【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金",
+      "tickers": "紫金矿业(601899)"
     },
     {
       "name": "光模块",
-      "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "shock": "强",
+      "direction": "利空",
+      "news_count": 3,
+      "summary": "光模块板块3条新闻，方向以利空为主",
+      "tickers": "天孚通信(300394)、太辰光(300570)"
+    },
+    {
+      "name": "半导体",
+      "shock": "中",
+      "direction": "利空",
+      "news_count": 2,
+      "summary": "半导体板块2条新闻，方向以利空为主。关注：A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金",
+      "tickers": "中芯国际、北方华创、中微公司"
     },
     {
       "name": "创新药",
       "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
-    },
-    {
-      "name": "黄金",
-      "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "direction": "利好",
+      "news_count": 1,
+      "summary": "创新药板块1条新闻，方向以利好为主。关注：长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报；A股复盘市场午后震",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     }
   ],
   "keyPoints": [
-    "【半导体】ETF平均下跌0.1%，板块表现相对稳定",
-    "【光模块】ETF平均上涨0.4%，板块小幅走高",
-    "【创新药】ETF平均上涨2.1%，板块表现最强",
-    "【黄金】ETF平均下跌0.3%，贵金属板块小幅回调",
-    "当日创新药板块领涨，黄金板块承压"
+    "【半导体】A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，板块ETF平均跌幅0%",
+    "【光模块】CPO概念震荡下挫，杰普特跌超10%，板块ETF平均跌幅0.7%",
+    "【创新药】创新药、CRO概念回暖，板块ETF平均涨幅0.4%",
+    "【黄金】黄金概念震荡拉升，深中华A走出5连板，板块ETF平均涨幅0.4%",
+    "【黄金】现货黄金逼近4700美元，北京金饰零售价站上1369元/克",
+    "【黄金】高盛预测年末黄金价格将达到每盎司4900美元"
   ],
-  "marketSummary": "当日市场表现分化明显，创新药板块领涨，ETF平均上涨2.1%；光模块板块小幅走高，ETF平均上涨0.4%；半导体和黄金板块表现较弱，分别下跌0.1%和0.3%。整体来看，创新药板块成为当日亮点，而黄金板块受压。",
+  "marketSummary": "当日市场呈现分化格局，半导体和光模块板块受个股大跌拖累表现疲软，ETF平均微跌；创新药板块小幅回暖，ETF平均上涨0.4%；黄金板块表现强势，ETF平均上涨0.4%，深中华A走出5连板，金饰零售价创新高。地缘政治和宏观因素交织，黄金短期波动加大，市场等待新的方向催化。",
   "isAi": true,
-  "fullNews": [],
+  "fullNews": [
+    {
+      "title": "【创业板、科创50指数双双翻绿】创业板、科创50指数双双翻绿，全市场超3000家个股下跌。油气、CPO、PCB概念板块跌幅居前。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-26T02:05:08.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5429768.d.html",
+      "eventId": "evt_vgwoqo",
+      "sourceCount": 2
+    },
+    {
+      "title": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
+      "description": "高盛：年末黄金价格将达到每盎司4900美元&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T00:00:00.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2EwT0x4ak1QLV9QZHFhNVNDX1hvcmtES1l2YllXY25uUzRISjZCWUg5VXg4Y0dqd1YyY191VkhMY3d6UkpTcTE4c05SYVpZT19Eamh6amVRcDFfLW1Zc1phcDVtYlNUb3hOU0NrUlF5bHZXZE82TEJiV1cxN3lEaHBDakRjZWY4aFE?oc=5",
+      "eventId": "evt_11r8mhz",
+      "sourceCount": 1
+    },
+    {
+      "title": "中国黄金周韩林：金价驱动逻辑出现分化 - 新浪财经",
+      "description": "中国黄金周韩林：金价驱动逻辑出现分化&nbsp;&nbsp; 新浪财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T01:18:45.000Z",
+      "source": "新浪财经",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPV2ZiYlpjN0RGMDFiLTJMbzVMZ1ZkS19vS1JreThuM0hZUW9ETUJBNGNkb1VKY25ablNIdldQbFJ3RkpHbnZ5M0FPVFgzOGFqano4bzBJSTZ6V0hsOGtaVWtTd09QUHJLTllkQnNEOElydDdlbnBCT0pQLWxHNDlkYzdOWlV4OTdOV2g0eUYyMnlScHBMM0wzNA?oc=5",
+      "eventId": "evt_zmp7hu",
+      "sourceCount": 1
+    },
+    {
+      "title": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿 - 东方财富",
+      "description": "A股盘前速览：美股存储芯片、光通信集体上涨，中国资产多数上涨；油价大跳水，黄金上涨；创新药龙头业绩爆棚；A股上市公司中期分红2300亿&nbsp;&nbsp; 东方财富",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-25T23:49:32.000Z",
+      "source": "东方财富",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9RMl90UEtjeDg4OTVMeHhZcGRISTRrRDJyU1NRXzVvUTQzdGlwOWwtZndDcDZ6ZVVkWFRMX2IwMTZGMWhfMURUU0VQM1hiU052dFZnU0dEQ2JFYnpmRW0xemlmQTBGQQ?oc=5",
+      "eventId": "evt_1ig87mo",
+      "sourceCount": 1
+    },
+    {
+      "title": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T02:14:48.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html",
+      "eventId": "evt_hekwos",
+      "sourceCount": 2
+    },
+    {
+      "title": "【CPO概念震荡下挫 杰普特跌超10%】CPO概念盘中震荡下挫，杰普特跌超10%，阿莱德、蘅东光，联特科技、太辰光、天孚通信、长光华芯等跟跌。",
+      "description": "",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-26T02:12:50.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html",
+      "eventId": "evt_17uag84",
+      "sourceCount": 2
+    },
+    {
+      "title": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "description": "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌超5%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-08-26T02:03:41.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3154969",
+      "eventId": "evt_kcle79",
+      "sourceCount": 3
+    },
+    {
+      "title": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "description": "黄金维持高位整理，宏观与资金面信号继续交织。短期波动或进一步放大，市场等待新的方向催化。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T02:00:37.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1hq32bz",
+      "sourceCount": 1
+    },
+    {
+      "title": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
+      "description": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.35美元/盎司。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T01:58:27.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_vqo4jq",
+      "sourceCount": 1
+    },
+    {
+      "title": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "description": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-26T01:50:20.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_tti0ez",
+      "sourceCount": 1
+    },
+    {
+      "title": "长征六号丙遥一运载火箭发射成功；国际油价大幅下跌丨盘前情报",
+      "description": "A股复盘市场午后震荡回升，沪指小幅飘红，指数分时黄线远强于白线，小微盘股方向领涨。沪深两市成交额1.83万亿元，较上一个交易日缩量1756亿元。盘面上，市场热点快速轮动，全市场超4200股上涨。从板块来看，创新药、CRO概念回暖，农业板块全天强势，液冷服务器概念大幅反弹，零售、旅游等消费股强势。下跌方面，贵金属、锂矿等资源股大幅回调，盛达资源、国城矿业、招金黄金、西部黄金领跌。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-08-26T00:35:00.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/11791,202608263853775455.html",
+      "eventId": "evt_kld1j3",
+      "sourceCount": 1
+    },
+    {
+      "title": "现货黄金逼近4700美元 北京金饰零售价站上1369元/克",
+      "description": "“我们店里的金饰零售价最近这段时间涨了不少，今天足金耳环、手镯等首饰的报价是1369元/克，和7月底1200元/克左右的价格相比，涨幅明显。从到店客流来看，现在来选购的顾客大多是买来自己日常佩戴。”8月25日，北京一家线下品牌金饰店的负责人向《中国经营报》记者透露了当前门店的最新销售情况。金饰价格的快速走高，也呼应了近日国际金价的强势反弹。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-08-25T23:41:12.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202608263853776397.html",
+      "eventId": "evt_s8if08",
+      "sourceCount": 1
+    },
+    {
+      "title": "【早报】美股存储、光通信板块，集体走强；伊朗与阿曼拟建立霍尔木兹海峡安全海上通道；油价大跌，金价小幅上涨；加拿大反制美国",
+      "description": "宏观新闻1、外交部发言人林剑8月25日主持例行记者会。记者提问称，当地时间24日，美国财政部长贝森特公布多项针对伊朗的经济制裁措施，并称对于那些不参与这一行动的国家可能采取反制措施。林剑指出，当务之急是推动局势降温，尽快回归对话谈判轨道。中方将采取一切必要措施，坚定维护自身权益。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-08-25T23:00:00.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202608263853551438.html",
+      "eventId": "evt_4eu4pw",
+      "sourceCount": 2
+    }
+  ],
   "etfData": [
     {
       "code": "159995",
       "name": "芯片ETF华夏",
       "category": "半导体",
-      "price": 1.118,
-      "change": 0.08952551477171995
+      "price": 1.114,
+      "change": -0.35778175313059063
     },
     {
       "code": "512760",
       "name": "芯片ETF国泰",
       "category": "半导体",
-      "price": 1.066,
-      "change": 0
+      "price": 1.067,
+      "change": 0.09380863039398592
     },
     {
       "code": "588200",
       "name": "科创芯片ETF嘉实",
       "category": "半导体",
-      "price": 1.13,
-      "change": -0.3527336860670197
+      "price": 1.132,
+      "change": 0.17699115044247804
     },
     {
       "code": "515050",
       "name": "通信ETF华夏",
       "category": "光模块",
-      "price": 1.006,
-      "change": 0.2991026919242387
+      "price": 0.998,
+      "change": -0.7952286282306171
     },
     {
       "code": "515880",
       "name": "通信ETF国泰",
       "category": "光模块",
-      "price": 0.648,
-      "change": 0
+      "price": 0.644,
+      "change": -0.6172839506172845
     },
     {
       "code": "159811",
       "name": "5GETF博时",
       "category": "光模块",
-      "price": 2.902,
-      "change": 0.7988885029524186
+      "price": 2.885,
+      "change": -0.585802894555491
     },
     {
       "code": "515120",
       "name": "创新药ETF广发",
       "category": "创新药",
-      "price": 0.649,
-      "change": 2.044025157232706
+      "price": 0.653,
+      "change": 0.6163328197226507
     },
     {
       "code": "159858",
       "name": "创新药ETF南方",
       "category": "创新药",
-      "price": 0.7,
-      "change": 2.0408163265305976
+      "price": 0.702,
+      "change": 0.285714285714286
     },
     {
       "code": "159992",
       "name": "创新药ETF银华",
       "category": "创新药",
-      "price": 0.868,
-      "change": 2.117647058823531
+      "price": 0.871,
+      "change": 0.34562211981566854
     },
     {
       "code": "518880",
       "name": "黄金ETF华安",
       "category": "黄金",
-      "price": 9.533,
-      "change": -0.32413216227520475
+      "price": 9.57,
+      "change": 0.388125458932139
     },
     {
       "code": "159934",
       "name": "黄金ETF易方达",
       "category": "黄金",
-      "price": 9.965,
-      "change": -0.26023421078970876
+      "price": 9.997,
+      "change": 0.321123933768189
     },
     {
       "code": "518800",
       "name": "黄金ETF国泰",
       "category": "黄金",
-      "price": 9.996,
-      "change": -0.3091652538146884
+      "price": 10.034,
+      "change": 0.3801520608243322
     }
   ],
   "chartData": {
@@ -202,7 +1000,7 @@
             82.96,
             79.96,
             80.03,
-            79.08
+            79.05
           ],
           "borderColor": "#7c3aed",
           "backgroundColor": "#7c3aed22",
@@ -246,7 +1044,7 @@
             87.57,
             83.65,
             83.9,
-            126.66
+            125.85
           ],
           "borderColor": "#0891b2",
           "backgroundColor": "#0891b222",
@@ -290,7 +1088,7 @@
             97.81,
             92.98,
             94.88,
-            108.04
+            108.48
           ],
           "borderColor": "#0d9488",
           "backgroundColor": "#0d948822",
@@ -334,7 +1132,7 @@
             112.18,
             114.28,
             113.91,
-            117.47
+            117.9
           ],
           "borderColor": "#d97706",
           "backgroundColor": "#d9770622",
@@ -351,7 +1149,12 @@
     "sentiment": {
       "datasets": [
         {
-          "data": [],
+          "data": [
+            2,
+            3,
+            5,
+            3
+          ],
           "backgroundColor": [
             "#16a34a",
             "#dc2626",
@@ -361,8 +1164,13 @@
           "borderWidth": 0
         }
       ],
-      "labels": [],
-      "hasData": false
+      "labels": [
+        "利好",
+        "利空",
+        "中性",
+        "分化"
+      ],
+      "hasData": true
     },
     "heatmap": {
       "sectors": [
@@ -380,30 +1188,30 @@
       "matrix": {
         "半导体": {
           "极高": 0,
-          "高": 0,
+          "高": 2,
           "中": 0,
           "低": 0
         },
         "光模块": {
           "极高": 0,
-          "高": 0,
-          "中": 0,
+          "高": 2,
+          "中": 1,
           "低": 0
         },
         "创新药": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 0,
           "低": 0
         },
         "黄金": {
-          "极高": 0,
+          "极高": 1,
           "高": 0,
           "中": 0,
-          "低": 0
+          "低": 6
         }
       },
-      "hasData": false
+      "hasData": true
     },
     "direction": {
       "sectors": [
@@ -412,19 +1220,72 @@
         "创新药",
         "黄金"
       ],
-      "datasets": [],
-      "hasData": false
-    },
-    "timeWindow": {
-      "labels": [],
       "datasets": [
         {
-          "data": [],
-          "backgroundColor": [],
+          "label": "利好",
+          "data": [
+            0,
+            0,
+            0,
+            2
+          ],
+          "backgroundColor": "#16a34a"
+        },
+        {
+          "label": "利空",
+          "data": [
+            1,
+            2,
+            0,
+            0
+          ],
+          "backgroundColor": "#dc2626"
+        },
+        {
+          "label": "中性",
+          "data": [
+            0,
+            0,
+            0,
+            5
+          ],
+          "backgroundColor": "#9ca0af"
+        },
+        {
+          "label": "分化",
+          "data": [
+            1,
+            1,
+            1,
+            0
+          ],
+          "backgroundColor": "#ea580c"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期",
+        "中期",
+        "长期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            10,
+            2,
+            1
+          ],
+          "backgroundColor": [
+            "#2563eb",
+            "#ea580c",
+            "#16a34a"
+          ],
           "borderWidth": 0
         }
       ],
-      "hasData": false
+      "hasData": true
     }
   }
 }
