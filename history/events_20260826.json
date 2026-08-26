@@ -1,6 +1,6 @@
 {
   "date": "20260826",
-  "count": 21,
+  "count": 27,
   "events": [
     {
       "eventId": "evt_vgwoqo",
@@ -9,23 +9,28 @@
       "memberCount": 1,
       "sources": [
         "华尔街见闻",
-        "新浪财经"
+        "新浪财经",
+        "金十数据"
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5429768.d.html",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
+        "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZTE0VUpYUnhkLUE0M0EtZE8tWDdIc0t4V2czVU5FSnlZWjE0VEhnU3ZrQmZIbEZ5TFEtbXVOckVlR01KVGhoN0dBalY3MVM2WEFNb21tU1BQVFFCZUM4OGVpdnd1Nk5wcl9nNkVjQTZfcldVcWhEOTJKc3ZONmdrcWNSUUhHZw?oc=5",
+        "日本40年期国债收益率下降2.0个基点，报4.130%。",
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivw2346328.d.html",
+        "https://wallstreetcn.com/articles/3155056"
       ]
     },
     {
       "eventId": "evt_11r8mhz",
       "canonicalTitle": "高盛：年末黄金价格将达到每盎司4900美元 - 新浪财经",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2EwT0x4ak1QLV9QZHFhNVNDX1hvcmtES1l2YllXY25uUzRISjZCWUg5VXg4Y0dqd1YyY191VkhMY3d6UkpTcTE4c05SYVpZT19Eamh6amVRcDFfLW1Zc1phcDVtYlNUb3hOU0NrUlF5bHZXZE82TEJiV1cxN3lEaHBDakRjZWY4aFE?oc=5",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQM1NST0tRRHZUdVRPMnljMlJiZU9YeDF5dUs4ZlVFOVNPYVFhaFNENnFHYUx5c1hEcnpDNUUwVzk0ZTFUOTE4dlBoRTlaZE5HWHdORy1XaWR0WHF3MGNMdVdSSllHWjZyZmlMYmFTdUJlMTN0dE5VTUZtOTNpMjBDRG9kMktPSWRRTDctZnQxSEdfTmJEdkZJVU4xWWhRWUpTRmlINFB2VlRJeFZCOXBsRUdTR2cxRE5NUmFLWUphMGxHMlVzQ3ZieV9HVl8wYVJQYzlucS1TX3JTMTZ0SHhtX2pYRTlxLWNnZUR5am9LTFFFSmpXaHFsdnFwZ0NLY3ZYZmljQ1BYZnFBWjRKSHc?oc=5",
       "memberCount": 1,
       "sources": [
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa2EwT0x4ak1QLV9QZHFhNVNDX1hvcmtES1l2YllXY25uUzRISjZCWUg5VXg4Y0dqd1YyY191VkhMY3d6UkpTcTE4c05SYVpZT19Eamh6amVRcDFfLW1Zc1phcDVtYlNUb3hOU0NrUlF5bHZXZE82TEJiV1cxN3lEaHBDakRjZWY4aFE?oc=5"
+        "https://news.google.com/rss/articles/CBMijgJBVV95cUxQM1NST0tRRHZUdVRPMnljMlJiZU9YeDF5dUs4ZlVFOVNPYVFhaFNENnFHYUx5c1hEcnpDNUUwVzk0ZTFUOTE4dlBoRTlaZE5HWHdORy1XaWR0WHF3MGNMdVdSSllHWjZyZmlMYmFTdUJlMTN0dE5VTUZtOTNpMjBDRG9kMktPSWRRTDctZnQxSEdfTmJEdkZJVU4xWWhRWUpTRmlINFB2VlRJeFZCOXBsRUdTR2cxRE5NUmFLWUphMGxHMlVzQ3ZieV9HVl8wYVJQYzlucS1TX3JTMTZ0SHhtX2pYRTlxLWNnZUR5am9LTFFFSmpXaHFsdnFwZ0NLY3ZYZmljQ1BYZnFBWjRKSHc?oc=5"
       ]
     },
     {
@@ -53,6 +58,92 @@
       ]
     },
     {
+      "eventId": "evt_vh0kg4",
+      "canonicalTitle": "【三星电子、SK海力士计划下半年增加对英伟达8层HBM4内存供应量】三星电子与SK海力士计划在今年下半年增加对英伟达的8层HBM4内存供应量，这一安排主要受英伟达供应策略影响，目的是保障各类型HBM内存的供应稳定，同时兼顾产品发热量。据了解，8层内存极有可能成为下一代HBM4E的旗舰产品。 (ZDNET Korea)",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivw2346622.d.html",
+      "memberCount": 1,
+      "sources": [
+        "金十数据",
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivw2346622.d.html",
+        "【三星电子、SK海力士计划下半年增加对英伟达8层HBM4内存供应量】"
+      ]
+    },
+    {
+      "eventId": "evt_sd76gv",
+      "canonicalTitle": "海南产经新观察：商业航天加速起势",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608263854445380.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608263854445380.html"
+      ]
+    },
+    {
+      "eventId": "evt_8d7otn",
+      "canonicalTitle": "上证观察家｜传统科技金融工具的局限与优化路径",
+      "canonicalLink": "http://finance.eastmoney.com/news/1350,202608263854435343.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1350,202608263854435343.html"
+      ]
+    },
+    {
+      "eventId": "evt_7efe0e",
+      "canonicalTitle": "【南京大学—华灿光电Micro-LED CPO实验室揭牌 相关成果满足光通信短距传输商用要求】华灿光电今日官网消息，8月25日，“南京大学—京东方华灿光电Micro-LED光电共封装（CPO）前沿技术校企联合实验室”签约暨揭牌仪式在南京大学举行。在国家第三代半导体技术创新中心（苏州）的牵头下，南京大学和京东方华灿光电联合承担了江苏省产业前瞻重点项目。联合实验室的首期专项，“Micro-LED光互联封装技术研发”项目同步启动。从链路设计、模组匹配到系统集成，项目致力于打通Micro-LED光互连系统的完整技术链条，为Micro-LED在高速通信场景中的规模化应用奠定工程基础。目前京东方华灿光电与南京大学的联合研发团队已成功实现0.4kA/cm2电流密度下，将蓝光Micro-LED单通道调制宽带（-3dB Bandwidth）提升至3.0GHz，传输功耗可低至0.25pJ/bit。该成果已处于行业领先水平，已满足光通信短距传输的商用化要求。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivw2308258.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivw2308258.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_fu1y5e",
+      "canonicalTitle": "提醒：日内请重点关注（以下均为北京时间）",
+      "canonicalLink": "https://wallstreetcn.com/articles/3155036",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3155036"
+      ]
+    },
+    {
+      "eventId": "evt_1ce2vhp",
+      "canonicalTitle": "美国今年首现麻疹死亡病例，宾夕法尼亚州2人死亡",
+      "canonicalLink": "https://wallstreetcn.com/articles/3155027",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3155027"
+      ]
+    },
+    {
+      "eventId": "evt_n30jpr",
+      "canonicalTitle": "从平台部署到资产出海，剂泰科技的AI4S走通三种变现方式",
+      "canonicalLink": "https://wallstreetcn.com/articles/3780318",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3780318"
+      ]
+    },
+    {
       "eventId": "evt_tti0ez",
       "canonicalTitle": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
       "canonicalLink": "",
@@ -60,22 +151,7 @@
       "sources": [
         "金十数据"
       ],
-      "relatedArticles": [
-        "金十图示：2026年08月26日（周三）白银ETF持仓报告",
-        "金十图示：2026年08月26日（周三）黄金ETF持仓报告"
-      ]
-    },
-    {
-      "eventId": "evt_1ce2vhp",
-      "canonicalTitle": "【美国今年首现麻疹死亡病例 宾夕法尼亚州2人死亡】",
-      "canonicalLink": "https://baijiahao.baidu.com/s?id=1874555846976166408",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": [
-        "https://baijiahao.baidu.com/s?id=1874555846976166408"
-      ]
+      "relatedArticles": []
     },
     {
       "eventId": "evt_1okcmd7",
@@ -145,12 +221,10 @@
       "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpu1134227.d.html",
       "memberCount": 1,
       "sources": [
-        "新浪财经",
-        "华尔街见闻"
+        "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpu1134227.d.html",
-        "https://wallstreetcn.com/articles/3154989"
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpu1134227.d.html"
       ]
     },
     {
