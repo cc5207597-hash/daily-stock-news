@@ -1,6 +1,6 @@
 {
   "date": "20260826",
-  "count": 13,
+  "count": 21,
   "events": [
     {
       "eventId": "evt_vgwoqo",
@@ -13,8 +13,7 @@
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpw5429768.d.html",
-        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5",
-        "https://wallstreetcn.com/articles/3154936"
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBNcnp0WlVsY29OSGpHMnRRYVl0WUlieDlnS0FoXy1zZUFCekdoakRiR0dieG1hS1JFckN3bFRnUnFUS3VFQ1V6Wnhtdy1SRExfUjkw?oc=5"
       ]
     },
     {
@@ -54,17 +53,116 @@
       ]
     },
     {
+      "eventId": "evt_tti0ez",
+      "canonicalTitle": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "金十图示：2026年08月26日（周三）白银ETF持仓报告",
+        "金十图示：2026年08月26日（周三）黄金ETF持仓报告"
+      ]
+    },
+    {
+      "eventId": "evt_1ce2vhp",
+      "canonicalTitle": "【美国今年首现麻疹死亡病例 宾夕法尼亚州2人死亡】",
+      "canonicalLink": "https://baijiahao.baidu.com/s?id=1874555846976166408",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": [
+        "https://baijiahao.baidu.com/s?id=1874555846976166408"
+      ]
+    },
+    {
+      "eventId": "evt_1okcmd7",
+      "canonicalTitle": "【三菱日联将韩国央行加息预期提前至8月】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_ios5q1",
+      "canonicalTitle": "国际现货黄金触及4700美元后进入横盘验证期，获利了结和财政焦虑并存，顺风因素正在变复杂，今晚PCE",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_ta65bi",
+      "canonicalTitle": "据美国《政治报》（Politico）报道，美国共和党籍参议员詹姆斯•兰克福德在基辅后承认，无法向乌克",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_rczwkx",
+      "canonicalTitle": "英伟达(NVDA.O)计划于周三美股收盘后公布第二季度财报。根据FactSet对分析师的调查，第二季",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_6ww2jz",
+      "canonicalTitle": "金十图示：2026年08月26日（周三）上海金早盘价为1005.43元/克，较国际金价（约为1004",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1w5tjy9",
+      "canonicalTitle": "【美国今年首现麻疹死亡病例，宾夕法尼亚州2人死亡】美国宾夕法尼亚州卫生局25日称，该州出现两例与麻疹有关的死亡病例，这是美国2026年首次、也是该州35年来首次出现麻疹死亡病例。两名死者均未接种过相关疫苗。宾夕法尼亚州卫生局局长德布拉·博根在新闻发布会上说，确诊病例中，没有一个人完整接种过两剂麻腮风三联疫苗。“作为医生，我希望大家务必明白，麻腮风疫苗是安全的，并且能为我们提供抵御麻疹的最佳保护。”她说。当前，美国政府正在修改疫苗接种计划。现任卫生与公共服务部部长小罗伯特·肯尼迪就职以来，美国全国范围的疫苗接种率持续下降。（央视新闻）",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivu5442775.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprivu5442775.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1eqfqe6",
+      "canonicalTitle": "【午评：深成指、创业板指均涨超1%，大金融、有色板块集体走强】沪指早间震荡拉升，深成指、创业板指均涨超1%。大金融板块集体走强，锦龙股份、湘财股份、南华期货等多股涨停。有色、贵金属板块拉升，深中华A5连板，精艺股份、江西铜业等涨停。可控核聚变概念活跃，融发核电、百利电气、顺纳股份等涨停。下跌方面，油气股下挫，科力股份跌超7%。个股涨多跌少，沪深京三市超3500股飘红，上午半天成交1.24万亿。午间收盘沪指涨0.7%，深成指涨1.2%，创业板涨1.37%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpu1134227.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpu1134227.d.html",
+        "https://wallstreetcn.com/articles/3154989"
+      ]
+    },
+    {
       "eventId": "evt_hekwos",
       "canonicalTitle": "【黄金概念震荡拉升 深中华A5连板】黄金概念盘中震荡拉升，深中华A走出5连板，金一文化反包涨停，迪阿股份涨超15%，晓程科技、华钰矿业、招金黄金、紫金矿业、兴业银锡等跟涨。",
       "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html",
       "memberCount": 1,
       "sources": [
-        "财联社",
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html",
-        "https://www.cls.cn/detail/2464361"
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2215538.d.html"
       ]
     },
     {
@@ -73,12 +171,10 @@
       "canonicalLink": "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html",
       "memberCount": 1,
       "sources": [
-        "财联社",
         "新浪财经"
       ],
       "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html",
-        "https://www.cls.cn/detail/2464351"
+        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2213124.d.html"
       ]
     },
     {
@@ -87,14 +183,10 @@
       "canonicalLink": "https://wallstreetcn.com/articles/3154969",
       "memberCount": 1,
       "sources": [
-        "金十数据",
-        "新浪财经",
         "华尔街见闻"
       ],
       "relatedArticles": [
-        "https://wallstreetcn.com/articles/3154969",
-        "A股半导体芯片股震荡走低，淳中科技触及跌停，杰普特跌超10%，恒烁股份、大为股份、和林微纳、江化微跌",
-        "https://finance.sina.cn/7x24/2026-08-26/detail-iniprcpy2200184.d.html"
+        "https://wallstreetcn.com/articles/3154969"
       ]
     },
     {
@@ -110,16 +202,6 @@
     {
       "eventId": "evt_vqo4jq",
       "canonicalTitle": "现货白银日内涨幅扩大至1.00%，现报69.35美元/盎司。现货黄金短线走高近10美元，报4659.",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": []
-    },
-    {
-      "eventId": "evt_tti0ez",
-      "canonicalTitle": "金十图示：2026年08月26日（周三）中国工商银行账户贵金属行情",
       "canonicalLink": "",
       "memberCount": 1,
       "sources": [
@@ -157,12 +239,10 @@
       "canonicalLink": "http://finance.eastmoney.com/news/1354,202608263853551438.html",
       "memberCount": 1,
       "sources": [
-        "东方财富",
-        "华尔街见闻"
+        "东方财富"
       ],
       "relatedArticles": [
-        "http://finance.eastmoney.com/news/1354,202608263853551438.html",
-        "https://wallstreetcn.com/articles/3154933"
+        "http://finance.eastmoney.com/news/1354,202608263853551438.html"
       ]
     }
   ]
