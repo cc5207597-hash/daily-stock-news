@@ -1,0 +1,27 @@
+{
+  "runId": "",
+  "generatedAt": "2026-09-13T06:02:00.003Z",
+  "date": "20260913",
+  "state": "done",
+  "health": {
+    "level": "ok",
+    "issues": []
+  },
+  "funnel": {
+    "raw": 809,
+    "rawApi": 566,
+    "rawRss": 243,
+    "rawRssByDay": {
+      "20260912": 117,
+      "20260913": 126
+    },
+    "dedup": 729,
+    "noise": 719,
+    "clusterEvents": 521,
+    "classify": 521,
+    "filter": 43,
+    "dayFilter": 21,
+    "keptApi": 9,
+    "keptRss": 12
+  }
+}
