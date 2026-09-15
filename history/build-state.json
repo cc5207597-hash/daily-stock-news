@@ -1,0 +1,29 @@
+{
+  "runId": "",
+  "generatedAt": "2026-09-15T16:22:10.906Z",
+  "date": "20260916",
+  "state": "done",
+  "health": {
+    "level": "failed",
+    "issues": [
+      "当日仅 0 条新闻(下限 10)"
+    ]
+  },
+  "funnel": {
+    "raw": 970,
+    "rawApi": 557,
+    "rawRss": 413,
+    "rawRssByDay": {
+      "20260915": 409,
+      "20260916": 4
+    },
+    "dedup": 875,
+    "noise": 873,
+    "clusterEvents": 562,
+    "classify": 562,
+    "filter": 65,
+    "dayFilter": 0,
+    "keptApi": 0,
+    "keptRss": 0
+  }
+}
