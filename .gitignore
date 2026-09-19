@@ -1,0 +1,8 @@
+node_modules/
+output/
+.env
+.env.local
+.claude/
+refresh-state.json
+.edgeone/
+.scf-deploy/
