@@ -1,27 +1,29 @@
 {
   "runId": "",
-  "generatedAt": "2026-09-28T06:04:22.600Z",
+  "generatedAt": "2026-09-28T11:13:00.667Z",
   "date": "20260928",
   "state": "done",
   "health": {
-    "level": "ok",
-    "issues": []
+    "level": "degraded",
+    "issues": [
+      "API 源无数据: 财联社"
+    ]
   },
   "funnel": {
-    "raw": 893,
-    "rawApi": 555,
-    "rawRss": 338,
+    "raw": 950,
+    "rawApi": 544,
+    "rawRss": 406,
     "rawRssByDay": {
-      "20260927": 98,
-      "20260928": 240
+      "20260927": 36,
+      "20260928": 370
     },
-    "dedup": 825,
-    "noise": 816,
-    "clusterEvents": 500,
-    "classify": 500,
-    "filter": 87,
-    "dayFilter": 73,
-    "keptApi": 30,
-    "keptRss": 43
+    "dedup": 879,
+    "noise": 877,
+    "clusterEvents": 574,
+    "classify": 574,
+    "filter": 125,
+    "dayFilter": 119,
+    "keptApi": 31,
+    "keptRss": 88
   }
 }
