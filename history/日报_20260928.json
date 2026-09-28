@@ -1,41 +1,401 @@
 {
   "date": "20260928",
   "displayDate": "2026-09-28",
-  "generatedAt": "2026-09-28T01:22:31.614Z",
+  "generatedAt": "2026-09-28T01:23:41.008Z",
   "analyzed": [
     {
-      "title_cn": "业内消息人士向当地媒体透露，台积电正在加速",
-      "summary_cn": "业内消息人士向当地媒体透露，在主要客户——苹果、英伟达、AMD、高通和联发科——将订单量增加约10%-20%后，台积电正在加速2nm产能扩张。2nm月产量...",
+      "title_cn": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
+      "summary_cn": "",
       "category": "半导体",
       "direction": "利好",
-      "impact": "中",
+      "impact": "极高",
       "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(60)+传闻·中性(15)",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "扩产信号·利好(+60分)",
+        "传闻信号·中性(±15分)"
+      ],
+      "evidence": [
+        "量产",
+        "计划"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
+      "description": "",
+      "pubDate": "2026-09-28T00:40:40.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9741315.d.html",
+      "eventId": "evt_9f7rag",
+      "eventTitle": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9741315.d.html",
+          "pubDate": "2026-09-28T00:40:40.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(40)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "扩产信号·利好(+40分)"
+      ],
+      "evidence": [
+        "扩建"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+      "description": "",
+      "pubDate": "2026-09-28T01:19:00.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initiwim9644587.d.html",
+      "eventId": "evt_1ap025m",
+      "eventTitle": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initiwim9644587.d.html",
+          "pubDate": "2026-09-28T01:19:00.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:政策·利好(50)+传闻·中性(10)+涨价·利好(50·供不应求/涨价,量价齐升利好)",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "政策信号·利好(+50分)",
+        "传闻信号·中性(±10分)",
+        "涨价信号·利好(+50分·供不应求/涨价,量价齐升利好)"
+      ],
+      "evidence": [
+        "国产替代",
+        "有望",
+        "涨价"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
+      "description": "",
+      "pubDate": "2026-09-28T00:14:34.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2947097.d.html",
+      "eventId": "evt_1q75jvv",
+      "eventTitle": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2937970.d.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2947097.d.html",
+          "pubDate": "2026-09-28T00:14:34.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【中信证券：预计26Q3电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券研报称，预计26Q3电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长，静待利润端改签；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计Q3业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026Q4及2027年，我们认为电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。我们继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2937970.d.html",
+          "pubDate": "2026-09-27T23:57:52.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "澜起科技(688008)",
+      "notes": "评分引擎:扩产·利好(40)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "澜起科技"
+      ],
+      "reasoning": [
+        "扩产信号·利好(+40分)"
+      ],
+      "evidence": [
+        "量产"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+      "description": "",
+      "pubDate": "2026-09-28T00:19:59.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9722847.d.html",
+      "eventId": "evt_112i5k0",
+      "eventTitle": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+      "eventSources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://wallstreetcn.com/articles/3171131"
+      ],
+      "eventMembers": [
+        {
+          "title": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9722847.d.html",
+          "pubDate": "2026-09-28T00:19:59.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "澜起科技成功量产DDR5第五子代RCD芯片",
+          "description": "澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+          "link": "https://wallstreetcn.com/articles/3171131",
+          "pubDate": "2026-09-28T00:35:01.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
+      "summary_cn": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:修正：客户加单，扩产超预期",
+      "notes": "评分引擎:行情·利好(15·板块行情上涨)",
       "sentiment": "利好",
       "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "修正：客户加单，扩产超预期"
+        "行情信号·利好(+15分·板块行情上涨)"
       ],
       "evidence": [
-        "Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000."
+        "上行"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "非A股公司，对A股传导待观察",
-      "title": "业内消息人士向当地媒体透露，台积电正在加速",
-      "description": "Industry sources told local media TSMC is accelerating expansion of 2nm capacity after major clients — Apple, NVIDIA, AMD, Qualcomm and MediaTek — boosted orders by about 10–20%. Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000. TSMC’s original 2027 2nm capacity target is now expected to be met ahead of schedule.",
-      "pubDate": "2026-09-28T01:20:20.000Z",
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
+      "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
+      "pubDate": "2026-09-28T01:00:41.000Z",
       "source": "金十数据",
       "link": "",
-      "eventId": "evt_3s0kup",
-      "eventTitle": "Industry sources told local media TSMC is accelera",
+      "eventId": "evt_nqizt7",
+      "eventTitle": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
       "eventSources": [
         "金十数据"
       ],
       "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
+          "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
+          "link": "",
+          "pubDate": "2026-09-28T01:00:41.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US 股票 rose [Holiday 市场 Review] - Shanghai Metals 市场",
+      "summary_cn": "黄金, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US 股票 rose [Holiday 市场 Review]&nbsp;&nbsp; Shanghai Metals 市场",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
+      "description": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review]&nbsp;&nbsp; Shanghai Metals Market",
+      "pubDate": "2026-09-28T00:33:00.000Z",
+      "source": "Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaGltdURqaHUwY1FmLVRfU2FzMEoweTh1ZElJTktCd1d6aXhHZzJVNGlHZ2YyVWZQQTVUMno3amdBOEYxbldMQmJOYWZabTh4SzEwYk5kcXRuRFdLSXFSYWdYWlMxVTU2RDRHem44bkVqVkNHdmlhWkRacTk5dDBtVXpNMml4Tmx3dU83U1BwOUl2QUNmanl6Zk1lQm9uSF9ZZXVOaThmSlE5VkFtTkNROGdiMXpyOFFDeVViQ0FNLUVvUFNDQ05xVmV0bVhsYllIM2hQNE1ORTFDazBBaFBPeTFHdXZRNnpucHBGWFo5NUUzSzkwV2tlRTk4b1Fsb2dZWU5IWExGZEJsYml1RnFCTDZzNjl2eWFCMGNIay1JZm9iQUZLcWZ0ck9uLXdlWkpQbTJWdmtBSVpqSXR3VEExcDVockhvQQ?oc=5",
+      "eventId": "evt_13oce1d",
+      "eventTitle": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
+      "eventSources": [
+        "Investing.com",
+        "GoldSeek",
+        "Eastern Progress",
+        "Retail News Asia",
+        "MedCity News",
+        "Daily Bonik Barta",
+        "Shanghai Metals Market",
+        "The Times of India",
+        "simplywall.st",
+        "finance.biggo.com",
+        "The Business Times",
+        "moomoo.com",
+        "Business Standard",
+        "Moneycontrol.com",
+        "Stocktwits",
+        "AD HOC NEWS",
+        "The Motley Fool",
+        "TradingView",
+        "Seoul Economic Daily",
+        "newsonjapan.com",
+        "NDTV Profit",
+        "TradingKey",
+        "Startup Fortune",
+        "Sahm",
+        "The Korea Times",
+        "mb.ntd.com",
+        "scanx.trade",
+        "FOREX.com",
+        "FXEmpire",
+        "The Economic Times",
+        "stonex.com",
+        "equiti.com",
+        "see.news",
+        "Livemint",
+        "Gold Eagle",
+        "Korea JoongAng Daily",
+        "ET Retail",
+        "Firstpost",
+        "Prop News Time",
+        "organiser.org",
+        "Vietnam.vn",
+        "Technology Org",
+        "South China Morning Post",
+        "Taipei Times",
+        "tovima.com",
+        "The News International",
+        "ET Datacenters",
+        "Investment Guru India",
+        "金十数据"
+      ],
+      "sourceCount": 49,
       "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aeTFoLWFsUHNUX24yTVZlQm03eU5lbWJIM3VwX3hnY0JkZW9mWXB2Z2ROaEkyazZrSEI5UGlDM2p3MEE2R2pDeEYtM0liVkNRN1ZJdHZ5SWs0R3BhNnpsX1A2TlpybEdRbUE?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmS1N4MjUzZXQ2WHpGNl9ld09BU0ZJcndYa0xza2liVWQ2SG1pR2tBcl9zaVBGMGJpSnlqNC1vR1V1QWZDMkI0Mzh4Z0NFMmMxcUtJR0IyTEdnOUthUlRiMzhyOHF0N0l2R1F3WXNpaXQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQTFVa1g0aGVVbEpFS3prLUNPNk5PTnU3RGJOT01GWWdHdTNGQXZEWFZoVHI1dFBRUmxnWllEQ2dtcTVjV0NON0M5R2xOejJjUTNINm8wTE5pdEFodjBiRW52OEJ1U3NYTy1fUnhuN1l2cExOUC1lU0pHbUR3WlVCeGotS1VkR0MwTUl4bGdjdUI5R1NPOWkwb0VleHB0LTlaamd0R1VPX2N5aXR2WGt4VmFUdFAyelk1WGNNa0ZnMXh5OXNH?oc=5",
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HbndnSlZGd1ZLcGRlNk1qWndabWx6ZTRBNzVwNzZPd3BEczhHMWtYSUpHLUNQMk9pWE13amVSNnByTVFPMFRmLTgtZ0otM0VuUVhTZU9SNUV6TXRtM3A3OXdtNA?oc=5",
+        "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYkFEeERScDlzdGl1akRnekRLT2xIM19PVFdrNXQwM1dCZFJUR0hiZFlHeFRkNnowYVVKcjJheW9ReFE0ajYwS2pmNGpWcDZCWG5ocGNwaWxKa0FTbDVfT1M1Z1NlNVY4ck92dHM4T0h6ckFOYWlMLXp0aDNfQWxjT3VnNVZQRkhsYVlBR1pMT0JjQ1RrYXYybGVUa3NiTlN3Sm1venYtUnNfRGJnRGduRUFPMnpqY3FSTzVvMDR3eFpyUy1ITXFCa2h3QkZ1N0hFZTZpR01WeTBJdEtuRnpOeFpvb3JMUmVmcmF6QVctZWtvc1l3RkVnay1wbnl2MG1idmhVWlNfMkU4RFnSAZACQVVfeXFMTmxyZC1ZRE9SMFo3cDFObjNvMkw1VV9CeEx4UWJpSHNnczFaMXRCNV8zLVpTUndlZEZyRnZVVlgteENBQXk1Wm5IRVVnc0JHbUR5SEZYdzVrLUdjRDlpbVRuN1pVeVhlTDlfR3dFVnh3WWRVQVBxTTB2dEM3dElfaE51LTliMTlFSWl2NlNZR09IRnFpdlBNQ05TWEZpUlRUVGM0YngwTzJvcVZ4dUxsZGVYMVdYZWNIWW5VSGR6SV9WTnBLVUJzTHZoQnRLak84NVVaMUkwb2gzcnlWRVFmODU3ZTg0aVpZNVR0YmpUdkdXaUdLa29WaXJMSkViQWRjTTFENlhvU0EzR1VSWEJpdzY?oc=5",
+        "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMWJ2dHE5aFBRdFhhSXBRbWxrcGpCQkJGTFBZYVNydkNvVmItWTY0bV80ZVoxOHhncWFibUtqeDdhUlI3WGFNOElXdGFWc1J5MW1yWmtmOWswYzlSNGRjOHpwQ3JvQkZfUFVZWVQ1eC1BUmhLM3lac0JPYlJmZGd5LW4zMmlkOGhaYWp0NEVYNFM1NTRjdXVxUHBlTVQxNzJrUFpDa2x1VW81TUgxTDk5aGZLNnRNcUg5WFRtZV9xazNBNl9IcXN0NlRQbHV0d2IwN0NVUUkySFRjOVI2NXpZOWJvU1ZxaUQyQUROTy1nSk0tM1N4SU5R0gH3AUFVX3lxTE8xYnZ0cTloUFF0WGFJcFFtbGtwakJCQkZMUFlhU3J2Q29WYi1ZNjRtXzRlWjE4eGdxYWJtS2p4N2FSUjdYYU04SVd0YVZzUnkxbXJaa2Y5azBjOVI0ZGM4enBDcm9CRl9QVVlZVDV4LUFSaEszeVpzQk9iUmZkZ3ktbjMyaWQ4aFphanQ0RVg0UzU1NGN1dXFQcGVNVDE3MmtQWkNrbHVVbzVNSDFMOTloZks2dE1xSDlYVG1lX3FrM0E2X0hxc3Q2VFBsdXR3YjA3Q1VRSTJIVGM5UjY1elk5Ym9TVnFpRDJBRE5PLWdKTS0zU3hJTlE?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rU0tnaThFeEIybkU0MkxKZlJWR0o4YWgtNE04cXJJMUozVEJ3Y2RTdVRkV0luZHlFVVkzQk1RU3M3QUwyZjFRUk5STXJ3eHZUVHByVFN1TEZydGhYZHBPTFNzcE4xd0ZjUXNPeXVSTFFRU3BYdmc?oc=5",
+        "https://news.google.com/rss/articles/CBMipwFBVV95cUxONm5faktwTjUtTkRWemRvLWtzaVdETkJubi1LZXVkNFJtckp2RS1qYXVTeHVHN1hNTWtMYzVuSDZUZlN0UDBwUFF4eEI1SWxlMUJJQWktd2R0VktnbHktZVlQOFF0ZWpYU0ZFdWhvdjBCeXNGQTFKbTl6T1N5azlHY3JuTmFDYTUyVXpSck5NM3RRZ00xR1pxbFZWbGpwMUNRaXE0RERIOA?oc=5",
+        "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWhBbW43RnJXaWExckl0ODV5bUlFVDJzUkpLaXZuNWRZUW9KWWdVRHE3VmUydnZBc1h0dlFOMUkxSkpxLVI1d3U5cVQzUFVDQkpvYm16MHQ3VTZRcndxR3gwbzhZU3d0NF9GU3BsbTVidG1Xd1NtYldnMFJoMm05VkpUS0wyallGMVdwTU1vTHhYc29QbW5zRllRVEhCSVdGOTZoRFB5dWd1U0g2YUZZMQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFFxeUlzd1o5SkV1d2lpZUVRbjlCVmNuX1J3Rjc5R1FTN1RBcGhsWHVxZ0U3LWlTaXFzNHNXZEZoUnNhRHE1VGoxU2lJNWRJaDAxeElwcFhncUJhOTBXQXlTMFhVVHdHcDQyeVNtVm9KWkEtYk81NEpMXzZsUVUzYzd2TVlQQndTX0lXa3h6RU5zY25WbXlRcGJqUmJDa1V4ckRRNXRaSzFEalRVMU1pTTE3Rk5ISjlvUnBfR0doNC1pYmhxNl9wZkZlWndNX3lQMElKY3hxbi1FSTDSAdsBQVVfeXFMT1hRcXlJc3daOUpFdXdpaWVFUW45QlZjbl9Sd0Y3OUdRUzdUQXBobFh1cWdFNy1pU2lxczRzV2RGaFJzYURxNVRqMVNpSTVkSWgwMXhJcHBYZ3FCYTkwV0F5UzBYVVR3R3A0MnlTbVZvSlpBLWJPNTRKTF82bFFVM2M3dk1ZUEJ3U19JV2t4ekVOc2NuVm15UXBialJiQ2tVeHJEUTV0WksxRGpUVTFNaU0xN0ZOSEo5b1JwX0dHaDQtaWJocTZfcGZGZVp3TV95UDBJSmN4cW4tRUkw?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lS0VvRGc3UGVJSHBxeXhZMWFPZkRTWlVXVTliUmd4WkttNEJjN2hmZ3I3TS1pWWxBTWNRWllIMmd1MVc1dHVPLTZiOW1sYjJKSXRfZ2hzUzcwNGMzazEwdHd2eV9YSkNkZk9HR0gyWkx3U3NqaFE?oc=5",
+        "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYV9pb1diakpVYWZ6MUJ4Zk5Sd2pkcU9YN1lvN0JsTFZ0V2tHY2tMVGtPc3NjWEI2Sm9TSEUxRkJ0Yk9WcEdsWXFTRFYxY1JJOGdTTVhGbDVnM0NscjAzNENxNjF4VjE3ODRJbXpDWW1yR2hOaWVPZkRKRm1TNXM1Z2dBQ0tSX25QX2M0N0NaRndBT3M4bDJBcGlpSmZrNkR2VG91VnRheHlnY0d3NGdIZHItYTQ3bU5LQWg1dURUdG5RczhUZGh5UUN0bmhhbGxZRTVZUlJMRzFUUdIB3wFBVV95cUxQbnU2UkVUSVRqV2VRTVdnLXpjX0kwM2JkTTNjRnVmT3lvR2JiV1lfVkwtVnY3RmVyencyMFZvQWdEM2ttS00zVzF5X3liSmVpdk5jdmtjMGZvTk1wT0ZKd0dwN1hGV2tWVDRmcXB6OFFuNjU0LXZnbEVyZVZNaGNRcGowWDF0VE1zTWJkTUhGZHE4UGxIVTZ3V0FoTk1SMUh6TmJ4b3Y5dWwwNDIyMTZuWmhvQTBQZEt5OXEweDZaSTJNTERteXNUeElZdEF1NVpYY2Q5bWF6NDFlOEdZTWRB?oc=5",
+        "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczJIc0xtNVdKenJ6cEdfNkVxWVAxeG5QUVRqUFpsamFGZXRRODBmN0UzMVVnSU5CNU44ZUFwNGVFUlpWakF2U0ltQzZRaGtvVTJRUnhPUDY0UzZIQ2ZsQzFJaGZRSUJsbFZIVmhDNVMzUDdKX3RPZlhoaXdkYlFMTnhiZmw5cnBTY0VqVHV0a0FZVU16U3ZRSnRkMVVScDdaT2o4T0NrVkh2MFZoQUJ2WG1zb3B4RXJMX0EzTnJ0Wjc0SXFzc1RFMTVHaDVrZVNkbVc0UThZSEhHVG5VSnQ0?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ01QSlZMU2VqT3d5WG1hampNY0lLVk5xSWR0M3ZBcGJqR2F0azBocE50TW5TSFg4eUlkekFIdk43QkJ3dUo0RExhbElZeEZRVGcwSml1RERrdXNlMTc5MV9UbFBDTFRheWNmYVhkVTdLYVVOa1hjLUxiaHRFMnNfaFd6NGNFVmFuREM4WFllU0xJTjNfMnRPWmtnYVVJZmFWajVScS10cjhfNEllQjBSUTZsc0dDWEhObWtpZ19ETzBWUGl1N0hrSVJNcVg?oc=5",
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT2NZcklOTWFGRXBKaHNGZE4xN1ByaVp4V2M0TGtPakFhZzF6U21jYnlpR1l2cXlwb1pGaG5EWDlNSDE2RWdIc1VWaW1LQkEzell3d2xBMC15VFF3REZKLTBpQ1I1MXp2UGxUZmh5cENUa0hyaTZGTkVOWmxaTnlwM1BXckgtUFJmWHYzV3pTQTQ5aHlnVXRBZk5OM0N3V1dnbjdHTTVfRmFTYktPLVdRb3dtbWluZ05VbjFtenFKZV9LLU9ZM1J6MUNKenpGaG5MZmFyczdOLWMzSENyOGExamN5TdIB4wFBVV95cUxQT2NZcklOTWFGRXBKaHNGZE4xN1ByaVp4V2M0TGtPakFhZzF6U21jYnlpR1l2cXlwb1pGaG5EWDlNSDE2RWdIc1VWaW1LQkEzell3d2xBMC15VFF3REZKLTBpQ1I1MXp2UGxUZmh5cENUa0hyaTZGTkVOWmxaTnlwM1BXckgtUFJmWHYzV3pTQTQ5aHlnVXRBZk5OM0N3V1dnbjdHTTVfRmFTYktPLVdRb3dtbWluZ05VbjFtenFKZV9LLU9ZM1J6MUNKenpGaG5MZmFyczdOLWMzSENyOGExamN5TQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3RVeHFMRXZpM1A2dVZLUldCYzk4ek00SzR1cFktSXJWYW5JOU5CaTM4WWVDZUdVSzZMbzIxMUtpd2ZxcEUyVV9uZ0JTLWkzc1IwcXVObUZac01BYWJjVWtGZXpJWV9hQjNVci1DZl9XbHNCVENjNzRTQmdORHFLWmY5R2p5V25VdnlwcHp3VURZZktiUUw5czRaOHNFc1JZX212NVpZTGtrTWlqY1hHcm44NnEwMkdfVkMtc2NHVERTaFJ6Zk1uaTZBaFZxVHd2a2JjTDFLd2tWNHM?oc=5",
+        "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSC1WTTFSX2pUUXVsekwybW5nN0p0THJ2NTZRY3BHT2d1QU9hUlRQWGlYRi1BdXhQUWR3WC1hQllPbDJmVExJVzlReXg5a1c3dWpocDBFOGVVN2tBdWYtRVg2ZDNfamdCVDZNaHNVUmlBdnl2SU5jTWtBRHNrWFVUSE84YjBEUEpQSE1laElIbThJR2R6WXVBRjNPR1BDeFRwbGRsTHU3UFBzODA?oc=5",
+        "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU5KOHVZT19qRTNCVzJLRDF4UjNCZ3JaeFBUZVM0TDBzY2tHYU9fTDVnajFaOWhOb2xrZUVBZnRDbXJoVnhBNWNOUmN2WFZ3X3d6VVdjcXU4am9yTFBwNEVfdWI0cm5Bd2F3VmN5QXB5X1NWX2JCV3NsZ1JzNHVITHF6X0lJVFdPLVFXQjRwdTBUb2dZVFg2V19xNDFid2V4OURuM2RkdUFTT0RVR0lCYUk4enJxQ3Zm?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOG9VYjhYQUdLT1pyUzJ5RmdvckhlOG1IRWRYU0tDOVVzb21LWjktZTd4UlBaY0RhMWRIN3FHRmFiRnk3VDNESTZoaW0wZDdjcy1ZU05leXhXVkNHRkFSYndIdW1DeXREX24ySkhjMERScEtGdEVldzczQ0xfMDliOGppN2dFSm0tbFo1NV9ackx6NlY5X213Y3c4dlZvQjFmNEhVNE5PVFBVWGduYjhfS3B4LW9rdkRPLXF0NkJ5bkhSNlRkUUhvUVJOX1I2YlFp?oc=5",
+        "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzZ5WHJLT3lrb3lpNHk0dkdQaE1aUVN3ZEZ1M1ZRTi1WeTM0MEc2UUw5cmcxdFQyX0hDSHRNOUgxcFIxNG9SMzU4MzdreUNwMHpEU0J1VVhkYUlaTjd3T3RNaG1jaFJVWWlrZ18zODIzaUNCZzZHTlBIb3ljVHZTZHFzOW5YaTlEMEJjanRkTWJnREluR3dQN0VXZGZVWE0?oc=5",
+        "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SSGhkRm5idDQ0OEVDdzJ2SEx3dXAzNmEzeXpNWHlieHIzMmRFSVZ6cXhBZW1sVmdwQmYzaEJ2ZVZFR3FpZmRrLWVCUkFybUJCNExmTw?oc=5",
+        "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmhuUVRSOHRjYXBfLXF0YnBDcUpyTllwcTBxX0pDRk9FTGhDWmtvRDVuUnlfQmFwTnh6b3R4SHJ6M1p0UmhUb0w5YmlLd2pkVHdPQWpfNHhkY0IwSWNlUDJVSEZITXVkYzJXUmI5N010ZHZqRnhYZjRCMVpSeGVrZWxpQlpDdkVJdTQ5UVhBb2plZ2tEcF8yUdIBoAFBVV95cUxNbmdvdVdkU3pMSFZjUGQzaDAzT2VFaW9JNTFtWXg4VFd4ZVBQc3ZNemVzeXR6VFZyNlFBSEQ0dFNHYzhzY1B0d2o2RDZhbndaZlJvZ0g5Q0xtWEIzMU1aSVR2dzdaZXJMZll4T0ptT0hrbEhqc1FSRm1ZMTg0RDlaYkI1VXRIakxGYkgxbmM2RGt2NFNNNDdRaXM1N1JkT3d0?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORFFZN1RyYlg2blN5OTlmY3lNcC1jNk5mRXV3UHYxOTNwZmpUcmM5QlJkUTJIYnAtMUJnUG9VbWljYXoxejdsZXdGaC1jZHAwcHpkemhtdDZFUFNVa2p1bmhfOFdzeW5CWDN5ckc2RFdBLVYyMktiNUI5emdHREY1QWwxdWdpVVR4c3o1LVVRNjBmWkUyVGNHLW93MU43ZGR3UW9iVllBQ0xpTzFiSEF0Y2JneEJVdkNqNlJJS3phSXFwSDlPbVo2eA?oc=5",
+        "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9maVJ0MjVyMkM5MDRTUDY0NU9DaVpoUVJPTWt6MVpKd29lN0dIY1V4TFNDOVFhdDlSOUZRakZKQThqMzhYNlJ3WmxncUtzMzdwYjZmX1lTbjVWWGJMM2dUUk5aMkRBUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa1l6Rm5yYVg0TXR2VXAxOXJ1LUFhMFdhU2hZT2JrdjQ3R09oLXZDRUoydHpodXNTWXNQWF8waXV3S3BOLVpvSzRhTkpWWXg1OWV2aExYTVZQdGZZUVBXSElrTkpsZXI4RktGelN3OEhBSmJ2djJxaWZReklDTGFkcDczcE92MVU1WTlxZTBTM3l1V1JKU19venNvOEZTQ0FLUklV?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQWtFOXZ3dFh1RW1yTnRrUlVVQlU1a3FGYkFtOXpWcTM0Ni13VDJwOFBRV3d3MHBCRWxtQ1JGdmZSMHFaRXlaVTRTb2pQMGlid2JMMmJHOWs1Yk02eDhTTHBULTJkX0pIT0RxajRsWTg2a3I3LTlvY0Qzbm1zbXVGeWhRX0FKN2RTcXpGX0hiZWtIQTRpVFhrTTVna0FuTG91UU1YVy1JRTExcDlaTGNycW5rdnA5clRBdDgxQ0hzVDhuY1lHNkc0?oc=5",
+        "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclBBaVoyZVMxLThyS29wRWFRbGI0UjI1SFJvUXdlb0UyTF9NRzA0Rk1PRzdYa19IZFRXbHpDVFdRam5zSER0eUY4dEJvWWk5TGxpNVlSVU5Nd3JOdkVuRmZwMEFMTFBRc2JvUE5TcHJyaFF4NWRvRkVIZjc3YzIzRGZxVUgtQ2c4TGpXbU1XNjNReC1RVGd4YUZ2TlR0V3N5dnfSAacBQVVfeXFMTk0zbkZhaWVKenFvVERFSEtzbnZIV1B5eFcxWnhLYjRaeUZaMUtPMC1Ra0xDUVlDQ2hFVk1qcEFPdDhCdkJlNzJ4SnNkNmFjTWl5bnpIZ0ZYOVE0eGZ6QUlrVGdNZkNlYmVIVHV3X1FfZzVnTVRUempTR1RucURHZWRCSUVHY0F0dlZINks0U0tzVVNPM1hYMFJGaU9HVTMyRWdJeFRSQ00?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzBrVWlpVDZMNy1MelkzNnN1MUpZa2dUbklNM3pPaC1NbVNQS1dXYXFYX0g3ZFBrSGhqN0RfQ21yaVIyMmlJT1poNDk0eDVtRXR4ZzhFeV9zbFJEMDlPU1dfSUF3NThrcW85VXVESk1CcXNBSGRoUnlZOHFOdWwxbURNVzRzZTd1OGlBTWwtTktfOFRyQk81YzN5bTZnNTVZNHUyOWtEdnFCYlNPZUtLeDdSVzlKUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeEtDaFctTTgzQ01xUlU0SUR1aFdhemRSZW52OEphdUV6N002ZWxMaW9yNzY5UVRGZVN3OFpkSlQxZHpiTE5YazZITjJnR3VWREhDVTdNd3ctUVRnNHlsVG85WmJjd3Rfbk5VQjYwNmdIOWdsaTVucEdQUTFmSmJMRlhkZmo4blF4SnVBWTJxUHhyNGdwU1pSeTlXVVlOY2hhR0Q1S0VaQnptcUdOelZEYzBteXljYWE1eXk3SEZySEI3Q04wdkpj?oc=5",
+        "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbk52QnppZktxeHRsRU56VnVTR2hzelpHR3hrTXc0cGp1R0RkWEtSeWV2MUhRUE51TTRKenRoVElZekZ3aXBzVXJrUkFEYmM2TFFZRGwwaGNuUDg1U0RPTHZSbEM0a2d6SEFjdGJjc2FkNkVDM0ZGSWlyb2tscDlHY0hTTDFhN0g5QTNOeEdxdVQtQUdqSjBoM2ZPb09sQjJSd1ZnNFZoZWNrZFBwbVZidDZFaVczRWJXbFdtZQ?oc=5",
+        "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdzRfWW1sWUZLR0NUazlnNmw0cFRabmI5SjBGVGhVYmc2Ni1iclY2UWNGdVpzR285UEdxUWIxRnptSThJbUlGbTBRSFY0TTZkN2x3ckgwbmdheTJGdUNqNEU3Y2pIbjZ5eHhHM25fREIyWl9mc1M4cTJGX3FJdjBCRjBWZkc3d1poLXd1MnNNcXExZw?oc=5",
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLXhwSDZldHJtenVvZnZiYjN4emZSNlBmNXNiRTJjV2FKUC0xcHh5cEFKTXl6MWlyVkJPUnphNS1kUFFYbGlMX2FBbThUU1F0TVJPbm1acXNyZF9vZjFObTI5S2NBb2s0QkdRc19TOFI0RGx0TGZKWG1PUGlnVGhhbU1VcVNFVFRzX0xwbW8wS29xcUxFcEtpXzByTjNpcEtyQ0tvc1BZYm9JSkk1OW5FZWZlalZyZVpfT0VSX1dwalRqZDlnNWZBRWlFZTdwd2ZRSld2RktaNVpSME8wRmNKWmpIONIB6AFBVV95cUxQeHJzQm91b1VDQ0FxSHU3T2xEb1BsdEl2SkU2d2oxUENrLXBpRWw4YmNyNEQ0aGV6RTFkTXowTUdFdHlka1dNYUFWMFlEUmtTMkNzRmVtTWphQXlaMExSZm5RNWVYVDJiVGxEeGlia0ZPV1k2bjJmc1JEMFdIeTJ1X1NpOVZ4QWljYlZsbnVGaVZMbEFIbFBBNVYwcFVQbkJVMmNBMm1NN2FDR2YxOWxmZVBTTVpXd3pDVjhTMEhIM0NyWDZRQXV6OE40SFZUcVlzTWJDQ3NVaHlfVVZwTEtMNlZIOEV1a1pV?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcjdRd2pkVXRraS1TNzQ0WXFTYmt4LTBCT1ZMa2NiMHhNdzFXRUdOVkV5VUllZnczRzVkQklzNUZPdGtLa3hCc3NkUnZNdEVyQy1XM09LTDhCWmVNVVl4Z3Vud0tGeVRfM2prWW1Dal9OZVZKU0l6NTFBWVF4M0hyeGtzcUxYSVVtcGhFcDFoYlFQWEFoTGg5bnFPTnZjaEVuTUp0YXNoaWl4ZUpHR0l0bnZSQjFxbDc1RDEzX01qNzQyUE0?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZG92eURjNUJQVFo2SHFCbHM5RExtZHpLYUFfd1NObHNCbDN0OGNSb0RwRHhFejhFUk5ha21JTHhPdTNHLU0tRXY2dVh0SW9qSDNPUnBUTkV2YkNSRmZJWTg0RjZwZVhXVzdseU94TGxOVGE4OUZRdFhzdUlmTUZoV2RHa29nMUJxVzdSaVIwakpOX3k0anBQenk2VVVSdm1DS1dfOGctVFVOdkxLZGdrWnRQVFlhM1JRR0premdwN0ZZMm05bXVj?oc=5",
+        "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObm9sVjlEODktUjMyTUxwelc0TU1EeGdnbWloVEt4MTMtSGU2VldXdGwxXzlEeDRaSFlHaWNaMEJBUEpNMU5VOTZfeVFNRkVDTGIzcFdMcEgwN0J3cGZuZlZzZy1PRmJwcWhUenRIbGhZLWYzdldjSWlOWkZILXNsNzBzOERGUFpSVXo1STVTZFJUeXNaMUNYYlFmcXlsNUNVc3hvcmMzeEZPbkYxY0VjcC13T0dBNE5kR3ZZOGxpOTNzbjFDRXctaHltVGtSREg5dW9CY9IB2gFBVV95cUxPbFAxNjhzMV9lRjZPRW5lV2VfRjJxOFJuQlVTeENhY1Fka2tlU0NPVG1jNE5fMmJic294ZzZNWXFCdHBWcVlaNGNNdGV4UUtia2dfa2ZOdTBCMFFOdllQVVZoMURvaEFxdUJ5WENPOEhCYW85LTd5aUR0TUF1WVIxNnVHNlhEOGRPN2M2dWlqalZYejJrVkc4Skx1aGFBSWQwY0lnZ3pBUlV6TnpOcFVQSVd5UzI3bjNfZnRfUUhmQjV5QUM1dkU5TXVWTUw1eW5BckllNGlfdG52UQ?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc0t5ZDhTaXNEaE9QWTNNeUp4UHFCNWRNSGxZbVVmZ0dCRXI5aXBkcUppbjlmVnN5cXRuNmc4d1ZtemFicndNakNMSnBpVTdlUnhNNEZDekdjSlNUR091OEVaTzRkbV93QnFxZHh0Q3NsOUE1eVRBWE0ydFJFOEZDZkltV21RWHZBVzZDeGQwemxtM2FnUXpneTdMV2J4cEYyR1lZa2VmenVPYUpGMHpj?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDNtVUdBbnZuQVl2aUhMQ21uekt2R09lMGJHUDJaRVRTdkpYNjJWbFkxWE5WSzNYNF82WlJvMzh5VkNkaGxPU1BuV0RfVkFISHF3NDdWMjlxQXp6cVU4SXAycFM3TU1lN01uT21PT3BLdEhSOW1SLXZaTXRqMDFCTm52aWQwUkJsTFk3akxBMUNZRVd6b2YweUh4V3RQc3B3?oc=5",
+        "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbjdybENJZmx0NDlwRDNMV05qYk5McXVia1RMdVFId2lnLTdEZi1fTlRmUG9MLWNwWFkwQlBYMjZYdDNEUWdLQTlHSkptVlFrQjdTXzVIM3pnZ1l4WU9idkVzcGN5WjhpQnl4SERFY2hmMVpTMEZZcGhWSUFPLXpBLTBqT0lqeVFCQ3N5bzVGYWd6SjFsenRER0pPaVYtQS1zM2VwUy0yMENZT1laVV9JTU10NENvWFc0RWNHamtVMXdYQ1NTQnRJcjF5WEZidU9OZUd6WXdpaDZ0Ni1tZjFweVczWF9tZ9IB5gFBVV95cUxPbjdybENJZmx0NDlwRDNMV05qYk5McXVia1RMdVFId2lnLTdEZi1fTlRmUG9MLWNwWFkwQlBYMjZYdDNEUWdLQTlHSkptVlFrQjdTXzVIM3pnZ1l4WU9idkVzcGN5WjhpQnl4SERFY2hmMVpTMEZZcGhWSUFPLXpBLTBqT0lqeVFCQ3N5bzVGYWd6SjFsenRER0pPaVYtQS1zM2VwUy0yMENZT1laVV9JTU10NENvWFc0RWNHamtVMXdYQ1NTQnRJcjF5WEZidU9OZUd6WXdpaDZ0Ni1tZjFweVczWF9tZw?oc=5",
+        "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLU52c19FOXpVd1ZEXzE1bzlzUF8xbllITER5U043aHoxMVpvVVg0Ump0cWJyak5YcHFScXoxX1A4MUpXM2dsQVRWcHdvaGgtRmN5QWF1X01tQ1Qxa3hweG1VYUhnbnJici12T0swQm1mOFFaVkNRb0t5VFNmM0pPaUJxYkNOVDhfNkIyQ1dJXzFuVndiZF91OVZOMFA1aElEUGtIUEFGd1hMVVpjUjNtS09MLXJiZm9UUHFTNEJkYkVQU2NBQ1BuVw?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxPczc4RWFlY3lWa1FkcnQ2ZWgzT20zaVNxSkF2ZVdMV3BtM3BYNnVId0M3RmZhSW9WTG8yTV93ZUMtclZkcC1vSV96YnNHWjF4MFRicS1DdGsyQ1RxeVA5Q21sMVVwVHdPQUo2OHJocVhkeDN3UDFvZjdvNnR2X3pXQ1pfU3pxUVNXR1lXc1RTMjQwS3hORWtsTElhRG5EZUpHOWoyY0padDNkZl9WNVVudTlmZUpWUHfSAbwBQVVfeXFMTmZLUno0ajd5ZDFXbXdhYzV2NGZGOThrS2oxS2FDeU04YUgwZjJsaDB1cS05aF9EYUZ5MnQ2bUNXUEk1eHpETDlPNFNGS2JnVzZjcHpQQzMxZnkzTlJaZHNuRHZROW1DU3prc0lVVU1uT1VrRTFVWGlUczViYnFRYzVVdHdsV1RtYUs1dVNsQno3SndfQzVMWm85d3hhMkdkZzVqRXd0bHlWUWhhQlBZd2xKVzliSWVpRk5sSTU?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJUHZKbkxQb3JPRjVWZEdoUkY5QWhEMWUyR0RJaXptaE56NU9FaXo3eXdfVGhmdnRjbjN1cWt2M3R6c2w4cW10VXVDZFFER1BubFUzalhYbEMwaGxFMWJGLUFBLXN3alluT1BSNW5zdlE?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EUG56dVNqMG5pRzlCLWpydHc0RlhvR3U2YkxyTkFJMXlVY2lZQ0NzU3pIT1NzdFEzY0dYZWhqQVNUWnBUbkpfVUJNUXE2UDlkUTlGdnhZWXdxNUo2d1o5aUI0ZGVWVl8t?oc=5",
+        "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRTdoOWQtTXYwRm9EUDVVNmhObWw3eWJ0UWpraUNtcDR4WDRIRjVib0ZOUUhrOFpIdElieG96RFNOY2VfaDdwTmlEQXoyTEFpZ3k2SEV0WkxUbDBfUGVIZC1WQWg0Umt5SmtuLUdDRXd4V2plMmFFNUNJUTJTc0Z0Ry1RVUVmQktwbEtpSEFTT3ZVdXcyLWZqc0ZyRXNnanNlcTdfeFk5UUNIOWlVM0I3RXhGWVc2bHo0dTZnemZmUHJaMGxJclFaS1hzQmotR2NzSWdhdXh3MFByOE0xZXNxbVJjLTBWU0FwTTFQcXRlZG5TUGNnX3pBWmhTSHBIU0Vab3NWbnFGMGI2ak9ET0JEeDdB0gGSAkFVX3lxTE1FN2g5ZC1NdjBGb0RQNVU2aE5tbDd5YnRRamtpQ21wNHhYNEhGNWJvRk5RSGs4Wkh0SWJ4b3pEU05jZV9oN3BOaURBejJMQWlneTZIRXRaTFRsMF9QZUhkLVZBaDRSa3lKa24tR0NFd3hXamUyYUU1Q0lRMlNzRnRHLVFVRWZCS3BsS2lIQVNPdlV1dzItZmpzRnJFc2dqc2VxN194WTlRQ0g5aVUzQjdFeEZZVzZsejR1Nmd6ZmZQclowbElyUVpLWHNCai1HY3NJZ2F1eHcwUHI4TTFlc3FtUmMtMFZTQXBNMVBxdGVkblNQY2dfekFaaFNIcEhTRVpvc1ZucUYwYjZqT0RPQkR4N0E?oc=5",
+        "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmhvX3JZbUJ6M3U5a292bXA0OWp2ZHRKVzYzbDJ3RGYtMmhZenRiOVJkaFFiYUd0ZF9sb1F0WkJWNFRZcUpvR1dwZU1lTzJWYkRIOVg3SkprWGxtdmRfU0swUE5rLW1zOUNqRDN1dWEzQVlhSzYteGliTFlOQWpHUUZwLTZEZllyTEUxaHl6cEYxOVo0c2xoamxqYW9KYXlrbl90NFIwLUxZdl92ME1V?oc=5",
+        "https://news.google.com/rss/articles/CBMizwJBVV95cUxNZnpIZEZsYTFiWHFid0xwRkJKS2gtMVJJWmwtYmxRQi03XzNMRkVNM24wYkd6TVNlek1sblBnNVZ0UzVHQjUxOXRlQXdzU2RHeF9jSWtncWNGbk50MFd5S2gzNnBNNENxeWxfdm8wVDlERENZUnd2T0ZtcDBUQjlQLTRWZ2JIMjRUVWNOMEJDUzVYYkZsQ2dnem81S2RYMEprakdKUGZXZDFrOXJQUWNGc2hZSFVrR1k3dzRTN29mUzRyYlQ0QXN1cWkzbVpBclAtMVJWLWNTOW1aM05HdFU4RWxrQlotdjBWQlNOelNHUlBORjFFZmFFSEhEMUtoOE5fcU9JU1VaaEZlbXRlTkdQTTBOcW0xS3hGX0RpRjdKOGoySkhQQ3djem9IMTNjM2xzSWdDU0Z4blBLb2w5QVJrOEtacEpxb0Judllpbl9YONIBzwJBVV95cUxNZnpIZEZsYTFiWHFid0xwRkJKS2gtMVJJWmwtYmxRQi03XzNMRkVNM24wYkd6TVNlek1sblBnNVZ0UzVHQjUxOXRlQXdzU2RHeF9jSWtncWNGbk50MFd5S2gzNnBNNENxeWxfdm8wVDlERENZUnd2T0ZtcDBUQjlQLTRWZ2JIMjRUVWNOMEJDUzVYYkZsQ2dnem81S2RYMEprakdKUGZXZDFrOXJQUWNGc2hZSFVrR1k3dzRTN29mUzRyYlQ0QXN1cWkzbVpBclAtMVJWLWNTOW1aM05HdFU4RWxrQlotdjBWQlNOelNHUlBORjFFZmFFSEhEMUtoOE5fcU9JU1VaaEZlbXRlTkdQTTBOcW0xS3hGX0RpRjdKOGoySkhQQ3djem9IMTNjM2xzSWdDU0Z4blBLb2w5QVJrOEtacEpxb0Judllpbl9YOA?oc=5",
+        "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDRGV2E3aV9NbXl0UU16UXh5d0dNSkp6a2FmOEV5UzRTUVdpX1lOalZNLVRvUC15YW9rMENGNC1BYUdYaGRTNldSN0t1SWxHdkxyenJFZnF2OEVRYVhGdnY5ZlBuTnJUWkI1TTh0SzZLbzdiclR6WFozV25oUndBQmJHaG5aZWRaMjJyRFMyVWcwUC1OdE9qbjByNmZRczJydDlFZ0Yta214U3FxV3JZZkFVYUrSAboBQVVfeXFMTV85dmlMSmRFTE5MLUpmS19EQjVGQWdKWHN4V3VHTHRnMXcxdnhkeGlXUmtQd3FGd3Q0eEFobDVORUljRDVreWYxUHFGaEVEbGtCRFZOREl5VVp3bjFtcUE1RFJKSTJfUUR2QllCMDlqTmJsay1oTFRaRXRZV01sOXFZbEtUeDZwZTYwM2xPbjF3Q1RYN3pwY1lDQmlJbWg2UjRHbW85dk1TUHpKWVY5N0VGVDNOZjRFeUZR?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZEVyWk5Kakl4M3Bqd255WTJDSURXZ2Rsd2tMZEZCSGpUbWd2QUt4bGJ0VEItS09mYWU0clRNNnRoRTNEcDc5bzlHdDNIRE1WYjNEMkRudUwyc0VFdXRPNVZqR0JoeExqcXlfWTUwTjM5Q3hWTkNqUUttT1ZLNmN3NUFOd1l6MWxIUmdDaEdYMk1Td1MxWjFDblZ5Vy1JTHQxUGZfY2NzT0I0UXkyUDFfT1pNZmNwX2tyRzJOLUY3NGMyUQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUGNITVBKNGZTa3NEV25BNUVzczF1bHVmaHVudkE2YnNrYngydjhpOXNXM2FvdWlKcG1TU2FBZWUyLThWN0ZScDZyMDdhcVYzZlJxSjUxdG8tYVpWejM2Y2NlSmVFUHdlOThKcWRBcW9sZ1lXMW5lejFSMGYzVzgzSW1Ec2M5ekYySUlMT1YwQTVPQnNCUVc0Y1pCeVJPaWV3NjZYRHdQWVU0T2lub3dGX1ZUbllwX25hQzNmVTZPUHlHWThNWnfSAcsBQVVfeXFMUGJyd2lEUGdtd1A3bWtycFdzQk1SY1BqTlFOLVZpYVFtMW1TZnQyOEx0V0ROTXhMR3p2TFdwTHdKUzREM1Q5blNLYXNZTXRkRlpUVmlSajBuanNYNUxGSVROUjJLenh2RjBvYUNJWjFKVFJWU18zb3dfYWE4VEp4YjE1Zko4aWRwdmtZM0xjWlZjVUxvcVdNWVpJM1N3Uk1qc01NOTBlSzZlbGxfSHM1LXQ0OFpmOE5EVEJQV0lKd2hVUlYwVVRwSzRCblk?oc=5",
+        "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYTBueUlvb2NhMG1wQ2lGRFROZXJKai1BaUNSallyVU5zbE9WVUpkQjQtMVpwZGpoeEFmZWJPVHZxRDM1aXZ5QVNOTTl4R2xmZEd0dGFhUnhfVFIzU29PN0tOdlR0Smszd3VKSzdSTXFuamI3R29lN2ZVN1kweG41WDlheGJVMnN3bkN4OWlmVHRMOV82djBUVlZoLUVIUnIyaGx2aw?oc=5",
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQal9sZjlFT0dCaWlrejRlMGxjMFh2Y21qRGdHYlpGMTZNUVUybEpiMzM4VzdMWmR3RGlsUXl6WDZRS1ZoVkhOSmVBbE44N00wN1JNbFZ3eUJ1VjFCemJsZl8tbjFEZFZESjFyMDRnbnJQQ1BubENZZGtHUlZZVER6bW9yZkFKT3pCWWNrSHFadHI3NVdKOXFlRmRIWHFNa2dsaE5MNjJJU1gwYUYzSTU5VTZ4SDlQeU5nNkRJa2hrU2o1TmtYRmJlTF9jREZoWTNXZmRBYnhaMkgwb3pDaXRUZFF3?oc=5",
+        "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wU3lpWmg1eG5zdlRhbjB2VVA2TElkR2hXSHVqWFhOV0ttbVFsU3lPb2FlNjdIbjJweURSTWdfanNEbEw3QUN1ZlBidWowWXdSdkg2TkFValhRT1RZRFdJX052bmd2WmNKSDRQYl9CbFJxZXBf?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWldidENWeVNDeXFGR2RWNjMzVjlDUGF3cmVYUGdnMmNMSGdpMVhodWdZUUV4TFZtVjZITE83SnJVaUVXLTZOMlVkVkFmLXRsTkMyQ3NZNTBUdk9ta1N2dDQzQlBXNXlxa2JBMjI1WkZOOUVqTGcwMjRraWd1WlFqNmtMUjBlamYzSE5mam1lN18zRkt5bVdwYmpYaFpDaTlMMXVCbmN3?oc=5",
+        "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdzBLcTgxMjZYbFJvbklCbm9sWFoxUnRfTWxFdFZ0a2RNbURqS1k5bXRpRTZvMUo4Q2EzdWRzQ0RBUDZpaUpaWUkyTm5zc0kyVkRMb0sySTBWLVVrcVRwUFNfR1ItMTNja0dxNGx4MUVoVXFESFBMUjlUMFU5dWlUaWd2TEJGRkNHMUlwdWdzOFRneE1pRThCSy04ajdzNUVXcnRxeV9BcWhpUmpYbHBxZ2o1MUVLYllPVzhfMDk4QUdQRVdycHpwR0VodmRKbnhi?oc=5",
+        "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU0MyV0tuM0ZDN29NUW9oRHR5b1dtX0lnWVRiM1RieXdoUzh0M0JOMkdPY1FUUGgwNVpUeHByTXltRzZ4SjNsM3hXeGlrcmEzOEl0SnI5U0Q5bUd0enBnYlUyblNKcDFGX0FIVk5WVXJ0WEdwVUNvLXljWnZveUJQUTRHTThtNS04Y0JSWlNTaGtFZzZtMVphd3k1cEdleVJuSUtrSk00eUZaY2R6UDFGYk5paDBHaUJBcy1TZU1ZMWtJdXJQM2lSYzJaeXpZMUHSAc8BQVVfeXFMTVNDMldLbjNGQzdvTVFvaER0eW9XbV9JZ1lUYjNUYnl3aFM4dDNCTjJHT2NRVFBoMDVaVHhwck15bUc2eEozbDN4V3hpa3JhMzhJdEpyOVNEOW1HdHpwZ2JVMm5TSnAxRl9BSFZOVlVydFhHcFVDby15Y1p2b3lCUFE0R004bTUtOGNCUlpTU2hrRWc2bTFaYXd5NXBHZXlSbklLa0pNNHlGWmNkelAxRmJOaWgwR2lCQXMtU2VNWTFrSXVyUDNpUmMyWnl6WTFB?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE81TDUydVE4d2VuN0VRLWoxUjZ6ZG9FN3RrTnJBdnhJR1BFaVgycDU0ekRiVkRHOG9YYmJua1Q3Qy1qMXlzLVVpclhIVnJpb0VKcTBjN2lodnFDWGEwR2tUQ2ZNUXdvdjdIWFNFN1piZjVVTzdmaDUybg?oc=5",
+        "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVk5OUmxpaXlqTlBuaENROWJWazRFUlFDdG9YdzRHTGxabzlMTFl2b0JOMjVsczdCUzI1bUk4T0JlUU5kWV96RVBWMFpHRXBaUm8tcWJxTm8xYjl0enk4M1o2UFZxMkJqNjFnTjdWTjdWVUtaT1UxZzJSckg4TWxEWGR6LWIxdVJDLVB2NVBqYnVYUG5lVHdOblhRUVM4ZVhWcXZiWVNVb1RaUEpJ0gGsAUFVX3lxTE5WTk5SbGlpeWpOUG5oQ1E5YlZrNEVSUUN0b1h3NEdMbFpvOUxMWXZvQk4yNWxzN0JTMjVtSThPQmVRTmRZX3pFUFYwWkdFcFpSby1xYnFObzFiOXR6eTgzWjZQVnEyQmo2MWdON1ZON1ZVS1pPVTFnMlJySDhNbERYZHotYjF1UkMtUHY1UGpidVhQbmVUd05uWFFRUzhlWFZxdmJZU1VvVFpQSkk?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE44b1E0ODF5WjNxOWpiaTVBbkJMUTJ2a0dMS2dZcE5zend2c2VKdk1adTRxV3MwUnZFNmdGUDFTVktmdXZnVlBPN2FHZTRyQk10R054NlBhTGdKbzljNGFYMlN5eVgwZ29QMTVNblpWS1dGRU9FcWc?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb1RlMXc1U1VBazVHV3hPU3JqZDdfcldiaFVwZEdrU083aXNmN3RmRl93MmQzTnBBTzhId3ZVN1JnaGNVTDVfTThTVGswd21hZnEwZ0FUbUNTSDJYNENnMWswNEUtcDBESjlkWDhhQkluQ2NXNS12eWhGQ1pfTkt1a0RNS3Ztb3hoVHN2NmFOV1dnZzZ5WGtBems5UklYak1HMmVycmpDQ0t4WEEyOE1kYlFZZ1pzSVJZS18tVE9JcjJfQ19XQy05UmRIb2ljcDhBX2RpWnkzd9IB1wFBVV95cUxNb1RlMXc1U1VBazVHV3hPU3JqZDdfcldiaFVwZEdrU083aXNmN3RmRl93MmQzTnBBTzhId3ZVN1JnaGNVTDVfTThTVGswd21hZnEwZ0FUbUNTSDJYNENnMWswNEUtcDBESjlkWDhhQkluQ2NXNS12eWhGQ1pfTkt1a0RNS3Ztb3hoVHN2NmFOV1dnZzZ5WGtBems5UklYak1HMmVycmpDQ0t4WEEyOE1kYlFZZ1pzSVJZS18tVE9JcjJfQ19XQy05UmRIb2ljcDhBX2RpWnkzdw?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlFKYk5aLVFQSlgxRFJnNFVCRDh3QXRkSGt6RUMwcml3Z0dEWUFIWlRBVWdMRi1YU21naDZBZGh3Yy1yeHd0MTE0U0NFU0VfZml6bUtKQmozb1lEUGFXUmpTZVFzb19kTDVEaVRYOFhka0Z4Qk1jOEtCNGpuWEkzcTJTT19XZkpyQ2h2ZGZuTUVVYUF0R2ZuR1dMemFRS2lKX2dHSnlB0gGiAUFVX3lxTE5Va1BFcDlDSTdfb2luWjhRU0x3YXM2aUl5TGlhNk54YUZLNkNXeHNtTDNsYjZPNTd0SDhaZlozU1dUVVdFY1k1dzdwcE9aVG9QUzJqRHBicW5ocFNzX1ZkRGl6QmVlWl9rSTA0OEdRSG9kRVZYaF84MExoTW5Kc0pJVTYzWWRTYk5aUVg4bVFpUVltZWJmMG41MWxlb3d3LVNPdw?oc=5",
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNelR0YVhQcjVqckQybkhtM3Q4TkR0VWU5dGU4TTl2OEhzeTdIRW9nMncyeG5KdXo0VGd3bmVUSjRrLWVSUnByTWY0WWZpaVAxbmp2cmd6ZVNieDRQdEY3bHVUNGxRbGNpT3VSRFpXOTh1MGtKMFRVVmpGczlxbWsxQVdIZHVEWXZ1b2lITl9SaTJFNVNsV2NpQzBUSVgtclV0T1Frd0pnQ0xUWmdnUHBGRDZvY05ZT1ZzN3pEV3pVREJyaVBsWGZOU21PckFmdGR2ZG9xTmgxU0RKcUx1OEcyOTgzb9IB6AFBVV95cUxQdlpXWEJtNkQ0ZWM3WXdLWXFySEpDeE9kZW9KaF9PbXNkbkwtc0tjbXV2MkE4WThNbEF2V2NsN2hYV1N3WGJacTZUdkVHbHJ0cmVxVWlxa2s0VUxyVDIzeXg3OFBaelUzcFFKVkE0Y2g0aTM4d0ZjYWZRT0V0d1BVeVdiQmZlMjNXX01EUDIwR2lxa01Yb1Zpa3ZfZ0lmVl9qWUdDRVdzeFBDNDVBeGpHYnhtOGlhdGNKMXJYb1VSbU0wYm0xanM0b2dVRkdIZC1WS3pReFZWZWllOTYydUhITDU0akZLRFBI?oc=5",
+        "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcGZuQUdKQnRjWnM1bW9vNmgtNkU5MWlrRVNvZ0ZsN1dfYjU0dkMtZHZMS1pzZUoycF9Dbmo0a2tXSHkyNzdhTXlZVHZoNzdNci1OOFBzcXo4ZkF3M2tTUVd4Y29kWkVnRE1yQU9GUE9xWFRVOG9SY3VTdmdBTk9VWkstSi1TQmlOUFhkV0ZRRjNvZldUVE95LXlWckNZNXloNWVzTUNPVHo3MHdMeWtIbi1tS0JuYjVkTHVXUkFKdm00ZzcxNU9J?oc=5",
+        "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRkJTT1k5RVJNUkFXd1RWUGloMEppOWFZUEtINml5ZHpCbDZ6aWh5bXBGcFVDY3dmS3g3UWhPa0NYUTB5SmQzcF9DVENWOHIwS2NSWlVCOWpIQ2N3dDBGTzltRU91TUQwS1ZMWnpyYkFKeW40N3lEcmh0OFVDeTdiOVY4elN4azFPemZjS3FqNmQ4ejV3R2V5R2xXTE5udWt6amlqbUwtbDBZaG9sSDlMbGtQUzRfUjNPUm53NnZONDVDUHlUWWkxMmN2T05MeXBDeXc0alZVYnQzbGZKYVVoLWdlc9IB4wFBVV95cUxNRkJTT1k5RVJNUkFXd1RWUGloMEppOWFZUEtINml5ZHpCbDZ6aWh5bXBGcFVDY3dmS3g3UWhPa0NYUTB5SmQzcF9DVENWOHIwS2NSWlVCOWpIQ2N3dDBGTzltRU91TUQwS1ZMWnpyYkFKeW40N3lEcmh0OFVDeTdiOVY4elN4azFPemZjS3FqNmQ4ejV3R2V5R2xXTE5udWt6amlqbUwtbDBZaG9sSDlMbGtQUzRfUjNPUm53NnZONDVDUHlUWWkxMmN2T05MeXBDeXc0alZVYnQzbGZKYVVoLWdlcw?oc=5",
+        "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFhTUTg4QUpna1hrd0RqYnU2UHhaSEpqYXAtWFp0Mmo5bDl2YnJlaGtLNFRJUDJNaUlZX0tzczVjNjN4VU5SbklZbGJVeEdudWhqU2VJMUFFV2lqeDY3N3o3VENUNWRDbnk2TXpsS2ozd3BvQ3RkUlF6dG5hMlJyLUxRd0FHTjllaXJqUDhUREx6VV80QUNRbnVkR3ZkUERId1FrT1NENGhQTFlSSUhoVHNTT3BZcE9qemc?oc=5",
         "MOFCOM’s U.S. and Americas Department head briefed",
         "MOFCOM’s US and Americas bureau said the eighth ro",
         "China's Ministry of Commerce said the eighth round",
@@ -44,16 +404,486 @@
         "A MOFCOM US and Americas Department official said ",
         "MOFCOM’s North America and Americas Department hea",
         "After the eighth round of China‑U.S. economic and ",
-        "Container shipping index (Europe route) most-activ"
+        "Container shipping index (Europe route) most-activ",
+        "At the open, China's main futures front-month cont",
+        "Industry sources told local media TSMC is accelera"
       ],
       "eventMembers": [
         {
-          "title": "Industry sources told local media TSMC is accelera",
-          "description": "Industry sources told local media TSMC is accelerating expansion of 2nm capacity after major clients — Apple, NVIDIA, AMD, Qualcomm and MediaTek — boosted orders by about 10–20%. Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000. TSMC’s original 2027 2nm capacity target is now expected to be met ahead of schedule.",
-          "link": "",
-          "pubDate": "2026-09-28T01:20:20.000Z",
-          "source": "金十数据",
-          "sourceType": "direct_api"
+          "title": "Gold Futures Streaming Chart - Investing.com",
+          "description": "Gold Futures Streaming Chart&nbsp;&nbsp; Investing.com",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aeTFoLWFsUHNUX24yTVZlQm03eU5lbWJIM3VwX3hnY0JkZW9mWXB2Z2ROaEkyazZrSEI5UGlDM2p3MEE2R2pDeEYtM0liVkNRN1ZJdHZ5SWs0R3BhNnpsX1A2TlpybEdRbUE?oc=5",
+          "pubDate": "2026-09-27T23:32:32.000Z",
+          "source": "Investing.com"
+        },
+        {
+          "title": "Dow-to-Gold Ratio and Gold’s Repricing - GoldSeek",
+          "description": "Dow-to-Gold Ratio and Gold’s Repricing&nbsp;&nbsp; GoldSeek",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmS1N4MjUzZXQ2WHpGNl9ld09BU0ZJcndYa0xza2liVWQ2SG1pR2tBcl9zaVBGMGJpSnlqNC1vR1V1QWZDMkI0Mzh4Z0NFMmMxcUtJR0IyTEdnOUthUlRiMzhyOHF0N0l2R1F3WXNpaXQ?oc=5",
+          "pubDate": "2026-09-27T09:16:40.000Z",
+          "source": "GoldSeek"
+        },
+        {
+          "title": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates - Eastern Progress",
+          "description": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates&nbsp;&nbsp; Eastern Progress",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
+          "pubDate": "2026-09-27T08:24:13.000Z",
+          "source": "Eastern Progress"
+        },
+        {
+          "title": "TSMC to Build Five More Packaging Plants at Chiayi Science Park - Retail News Asia",
+          "description": "TSMC to Build Five More Packaging Plants at Chiayi Science Park&nbsp;&nbsp; Retail News Asia",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
+          "pubDate": "2026-09-27T18:20:15.000Z",
+          "source": "Retail News Asia"
+        },
+        {
+          "title": "Mirum Pharma Pill Lands FDA Approval for Ultra-Rare Bone Growth Disorder - MedCity News",
+          "description": "Mirum Pharma Pill Lands FDA Approval for Ultra-Rare Bone Growth Disorder&nbsp;&nbsp; MedCity News",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQTFVa1g0aGVVbEpFS3prLUNPNk5PTnU3RGJOT01GWWdHdTNGQXZEWFZoVHI1dFBRUmxnWllEQ2dtcTVjV0NON0M5R2xOejJjUTNINm8wTE5pdEFodjBiRW52OEJ1U3NYTy1fUnhuN1l2cExOUC1lU0pHbUR3WlVCeGotS1VkR0MwTUl4bGdjdUI5R1NPOWkwb0VleHB0LTlaamd0R1VPX2N5aXR2WGt4VmFUdFAyelk1WGNNa0ZnMXh5OXNH?oc=5",
+          "pubDate": "2026-09-27T18:04:18.000Z",
+          "source": "MedCity News"
+        },
+        {
+          "title": "Bangladesh’s ICT sector caught in geopolitical rivalry - Daily Bonik Barta",
+          "description": "Bangladesh’s ICT sector caught in geopolitical rivalry&nbsp;&nbsp; Daily Bonik Barta",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HbndnSlZGd1ZLcGRlNk1qWndabWx6ZTRBNzVwNzZPd3BEczhHMWtYSUpHLUNQMk9pWE13amVSNnByTVFPMFRmLTgtZ0otM0VuUVhTZU9SNUV6TXRtM3A3OXdtNA?oc=5",
+          "pubDate": "2026-09-27T16:53:32.000Z",
+          "source": "Daily Bonik Barta"
+        },
+        {
+          "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
+          "description": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review]&nbsp;&nbsp; Shanghai Metals Market",
+          "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaGltdURqaHUwY1FmLVRfU2FzMEoweTh1ZElJTktCd1d6aXhHZzJVNGlHZ2YyVWZQQTVUMno3amdBOEYxbldMQmJOYWZabTh4SzEwYk5kcXRuRFdLSXFSYWdYWlMxVTU2RDRHem44bkVqVkNHdmlhWkRacTk5dDBtVXpNMml4Tmx3dU83U1BwOUl2QUNmanl6Zk1lQm9uSF9ZZXVOaThmSlE5VkFtTkNROGdiMXpyOFFDeVViQ0FNLUVvUFNDQ05xVmV0bVhsYllIM2hQNE1ORTFDazBBaFBPeTFHdXZRNnpucHBGWFo5NUUzSzkwV2tlRTk4b1Fsb2dZWU5IWExGZEJsYml1RnFCTDZzNjl2eWFCMGNIay1JZm9iQUZLcWZ0ck9uLXdlWkpQbTJWdmtBSVpqSXR3VEExcDVockhvQQ?oc=5",
+          "pubDate": "2026-09-28T00:33:00.000Z",
+          "source": "Shanghai Metals Market"
+        },
+        {
+          "title": "Gold and silver outlook: What's in store for traders this week? Job data, crude and more in focus - The Times of India",
+          "description": "Gold and silver outlook: What's in store for traders this week? Job data, crude and more in focus&nbsp;&nbsp; The Times of India",
+          "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYkFEeERScDlzdGl1akRnekRLT2xIM19PVFdrNXQwM1dCZFJUR0hiZFlHeFRkNnowYVVKcjJheW9ReFE0ajYwS2pmNGpWcDZCWG5ocGNwaWxKa0FTbDVfT1M1Z1NlNVY4ck92dHM4T0h6ckFOYWlMLXp0aDNfQWxjT3VnNVZQRkhsYVlBR1pMT0JjQ1RrYXYybGVUa3NiTlN3Sm1venYtUnNfRGJnRGduRUFPMnpqY3FSTzVvMDR3eFpyUy1ITXFCa2h3QkZ1N0hFZTZpR01WeTBJdEtuRnpOeFpvb3JMUmVmcmF6QVctZWtvc1l3RkVnay1wbnl2MG1idmhVWlNfMkU4RFnSAZACQVVfeXFMTmxyZC1ZRE9SMFo3cDFObjNvMkw1VV9CeEx4UWJpSHNnczFaMXRCNV8zLVpTUndlZEZyRnZVVlgteENBQXk1Wm5IRVVnc0JHbUR5SEZYdzVrLUdjRDlpbVRuN1pVeVhlTDlfR3dFVnh3WWRVQVBxTTB2dEM3dElfaE51LTliMTlFSWl2NlNZR09IRnFpdlBNQ05TWEZpUlRUVGM0YngwTzJvcVZ4dUxsZGVYMVdYZWNIWW5VSGR6SV9WTnBLVUJzTHZoQnRLak84NVVaMUkwb2gzcnlWRVFmODU3ZTg0aVpZNVR0YmpUdkdXaUdLa29WaXJMSkViQWRjTTFENlhvU0EzR1VSWEJpdzY?oc=5",
+          "pubDate": "2026-09-27T14:01:00.000Z",
+          "source": "The Times of India"
+        },
+        {
+          "title": "3 AI Infrastructure Stocks To Watch As Data Center Demand Builds - simplywall.st",
+          "description": "3 AI Infrastructure Stocks To Watch As Data Center Demand Builds&nbsp;&nbsp; simplywall.st",
+          "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMWJ2dHE5aFBRdFhhSXBRbWxrcGpCQkJGTFBZYVNydkNvVmItWTY0bV80ZVoxOHhncWFibUtqeDdhUlI3WGFNOElXdGFWc1J5MW1yWmtmOWswYzlSNGRjOHpwQ3JvQkZfUFVZWVQ1eC1BUmhLM3lac0JPYlJmZGd5LW4zMmlkOGhaYWp0NEVYNFM1NTRjdXVxUHBlTVQxNzJrUFpDa2x1VW81TUgxTDk5aGZLNnRNcUg5WFRtZV9xazNBNl9IcXN0NlRQbHV0d2IwN0NVUUkySFRjOVI2NXpZOWJvU1ZxaUQyQUROTy1nSk0tM1N4SU5R0gH3AUFVX3lxTE8xYnZ0cTloUFF0WGFJcFFtbGtwakJCQkZMUFlhU3J2Q29WYi1ZNjRtXzRlWjE4eGdxYWJtS2p4N2FSUjdYYU04SVd0YVZzUnkxbXJaa2Y5azBjOVI0ZGM4enBDcm9CRl9QVVlZVDV4LUFSaEszeVpzQk9iUmZkZ3ktbjMyaWQ4aFphanQ0RVg0UzU1NGN1dXFQcGVNVDE3MmtQWkNrbHVVbzVNSDFMOTloZks2dE1xSDlYVG1lX3FrM0E2X0hxc3Q2VFBsdXR3YjA3Q1VRSTJIVGM5UjY1elk5Ym9TVnFpRDJBRE5PLWdKTS0zU3hJTlE?oc=5",
+          "pubDate": "2026-09-27T22:27:53.000Z",
+          "source": "simplywall.st"
+        },
+        {
+          "title": "New York Stocks Split on U.S.-China 'Small Deal' — Agriculture Slumps, Semiconductors Rally - finance.biggo.com",
+          "description": "New York Stocks Split on U.S.-China 'Small Deal' — Agriculture Slumps, Semiconductors Rally&nbsp;&nbsp; finance.biggo.com",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rU0tnaThFeEIybkU0MkxKZlJWR0o4YWgtNE04cXJJMUozVEJ3Y2RTdVRkV0luZHlFVVkzQk1RU3M3QUwyZjFRUk5STXJ3eHZUVHByVFN1TEZydGhYZHBPTFNzcE4xd0ZjUXNPeXVSTFFRU3BYdmc?oc=5",
+          "pubDate": "2026-09-27T23:05:00.000Z",
+          "source": "finance.biggo.com"
+        },
+        {
+          "title": "AI whiplash jolts stocks as sentiment lurches from fear to greed - The Business Times",
+          "description": "AI whiplash jolts stocks as sentiment lurches from fear to greed&nbsp;&nbsp; The Business Times",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONm5faktwTjUtTkRWemRvLWtzaVdETkJubi1LZXVkNFJtckp2RS1qYXVTeHVHN1hNTWtMYzVuSDZUZlN0UDBwUFF4eEI1SWxlMUJJQWktd2R0VktnbHktZVlQOFF0ZWpYU0ZFdWhvdjBCeXNGQTFKbTl6T1N5azlHY3JuTmFDYTUyVXpSck5NM3RRZ00xR1pxbFZWbGpwMUNRaXE0RERIOA?oc=5",
+          "pubDate": "2026-09-27T14:36:00.000Z",
+          "source": "The Business Times"
+        },
+        {
+          "title": "Dongwu Securities: Short-term market sees a corrective rebound; focus on domestic computing power and the chip and semiconductor supply chain. - moomoo.com",
+          "description": "Dongwu Securities: Short-term market sees a corrective rebound; focus on domestic computing power and the chip and semiconductor supply chain.&nbsp;&nbsp; moomoo.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOLWhBbW43RnJXaWExckl0ODV5bUlFVDJzUkpLaXZuNWRZUW9KWWdVRHE3VmUydnZBc1h0dlFOMUkxSkpxLVI1d3U5cVQzUFVDQkpvYm16MHQ3VTZRcndxR3gwbzhZU3d0NF9GU3BsbTVidG1Xd1NtYldnMFJoMm05VkpUS0wyallGMVdwTU1vTHhYc29QbW5zRllRVEhCSVdGOTZoRFB5dWd1U0g2YUZZMQ?oc=5",
+          "pubDate": "2026-09-27T09:55:17.000Z",
+          "source": "moomoo.com"
+        },
+        {
+          "title": "Statsguru: India's chip aspirations face funding gap despite policy push - Business Standard",
+          "description": "Statsguru: India's chip aspirations face funding gap despite policy push&nbsp;&nbsp; Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWFFxeUlzd1o5SkV1d2lpZUVRbjlCVmNuX1J3Rjc5R1FTN1RBcGhsWHVxZ0U3LWlTaXFzNHNXZEZoUnNhRHE1VGoxU2lJNWRJaDAxeElwcFhncUJhOTBXQXlTMFhVVHdHcDQyeVNtVm9KWkEtYk81NEpMXzZsUVUzYzd2TVlQQndTX0lXa3h6RU5zY25WbXlRcGJqUmJDa1V4ckRRNXRaSzFEalRVMU1pTTE3Rk5ISjlvUnBfR0doNC1pYmhxNl9wZkZlWndNX3lQMElKY3hxbi1FSTDSAdsBQVVfeXFMT1hRcXlJc3daOUpFdXdpaWVFUW45QlZjbl9Sd0Y3OUdRUzdUQXBobFh1cWdFNy1pU2lxczRzV2RGaFJzYURxNVRqMVNpSTVkSWgwMXhJcHBYZ3FCYTkwV0F5UzBYVVR3R3A0MnlTbVZvSlpBLWJPNTRKTF82bFFVM2M3dk1ZUEJ3U19JV2t4ekVOc2NuVm15UXBialJiQ2tVeHJEUTV0WksxRGpUVTFNaU0xN0ZOSEo5b1JwX0dHaDQtaWJocTZfcGZGZVp3TV95UDBJSmN4cW4tRUkw?oc=5",
+          "pubDate": "2026-09-27T18:02:22.000Z",
+          "source": "Business Standard"
+        },
+        {
+          "title": "Samsung Electronics, SK Hynix Start Weak After Chuseok Holiday; Micron Earnings Seen as Key Catalyst - finance.biggo.com",
+          "description": "Samsung Electronics, SK Hynix Start Weak After Chuseok Holiday; Micron Earnings Seen as Key Catalyst&nbsp;&nbsp; finance.biggo.com",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lS0VvRGc3UGVJSHBxeXhZMWFPZkRTWlVXVTliUmd4WkttNEJjN2hmZ3I3TS1pWWxBTWNRWllIMmd1MVc1dHVPLTZiOW1sYjJKSXRfZ2hzUzcwNGMzazEwdHd2eV9YSkNkZk9HR0gyWkx3U3NqaFE?oc=5",
+          "pubDate": "2026-09-28T00:35:00.000Z",
+          "source": "finance.biggo.com"
+        },
+        {
+          "title": "AI stocks whipsaw as $3 trillion rebound follows AI disruption fears - Moneycontrol.com",
+          "description": "AI stocks whipsaw as $3 trillion rebound follows AI disruption fears&nbsp;&nbsp; Moneycontrol.com",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYV9pb1diakpVYWZ6MUJ4Zk5Sd2pkcU9YN1lvN0JsTFZ0V2tHY2tMVGtPc3NjWEI2Sm9TSEUxRkJ0Yk9WcEdsWXFTRFYxY1JJOGdTTVhGbDVnM0NscjAzNENxNjF4VjE3ODRJbXpDWW1yR2hOaWVPZkRKRm1TNXM1Z2dBQ0tSX25QX2M0N0NaRndBT3M4bDJBcGlpSmZrNkR2VG91VnRheHlnY0d3NGdIZHItYTQ3bU5LQWg1dURUdG5RczhUZGh5UUN0bmhhbGxZRTVZUlJMRzFUUdIB3wFBVV95cUxQbnU2UkVUSVRqV2VRTVdnLXpjX0kwM2JkTTNjRnVmT3lvR2JiV1lfVkwtVnY3RmVyencyMFZvQWdEM2ttS00zVzF5X3liSmVpdk5jdmtjMGZvTk1wT0ZKd0dwN1hGV2tWVDRmcXB6OFFuNjU0LXZnbEVyZVZNaGNRcGowWDF0VE1zTWJkTUhGZHE4UGxIVTZ3V0FoTk1SMUh6TmJ4b3Y5dWwwNDIyMTZuWmhvQTBQZEt5OXEweDZaSTJNTERteXNUeElZdEF1NVpYY2Q5bWF6NDFlOEdZTWRB?oc=5",
+          "pubDate": "2026-09-27T14:17:31.000Z",
+          "source": "Moneycontrol.com"
+        },
+        {
+          "title": "Michael Burry Picks Chip Suppliers Over Micron — But Warns Memory Producers Could Sell Off 'Intensely' - Stocktwits",
+          "description": "Michael Burry Picks Chip Suppliers Over Micron — But Warns Memory Producers Could Sell Off 'Intensely'&nbsp;&nbsp; Stocktwits",
+          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNczJIc0xtNVdKenJ6cEdfNkVxWVAxeG5QUVRqUFpsamFGZXRRODBmN0UzMVVnSU5CNU44ZUFwNGVFUlpWakF2U0ltQzZRaGtvVTJRUnhPUDY0UzZIQ2ZsQzFJaGZRSUJsbFZIVmhDNVMzUDdKX3RPZlhoaXdkYlFMTnhiZmw5cnBTY0VqVHV0a0FZVU16U3ZRSnRkMVVScDdaT2o4T0NrVkh2MFZoQUJ2WG1zb3B4RXJMX0EzTnJ0Wjc0SXFzc1RFMTVHaDVrZVNkbVc0UThZSEhHVG5VSnQ0?oc=5",
+          "pubDate": "2026-09-27T03:42:05.000Z",
+          "source": "Stocktwits"
+        },
+        {
+          "title": "MU, SNDK, NVDA, AMD: Chip Stocks Gain Premarket, Extending Relief Rallies - Stocktwits",
+          "description": "MU, SNDK, NVDA, AMD: Chip Stocks Gain Premarket, Extending Relief Rallies&nbsp;&nbsp; Stocktwits",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQQ01QSlZMU2VqT3d5WG1hampNY0lLVk5xSWR0M3ZBcGJqR2F0azBocE50TW5TSFg4eUlkekFIdk43QkJ3dUo0RExhbElZeEZRVGcwSml1RERrdXNlMTc5MV9UbFBDTFRheWNmYVhkVTdLYVVOa1hjLUxiaHRFMnNfaFd6NGNFVmFuREM4WFllU0xJTjNfMnRPWmtnYVVJZmFWajVScS10cjhfNEllQjBSUTZsc0dDWEhObWtpZ19ETzBWUGl1N0hrSVJNcVg?oc=5",
+          "pubDate": "2026-09-27T04:48:57.000Z",
+          "source": "Stocktwits"
+        },
+        {
+          "title": "AI boom, supply chain shifts create big opportunity for India's chip sector: BCG - Moneycontrol.com",
+          "description": "AI boom, supply chain shifts create big opportunity for India's chip sector: BCG&nbsp;&nbsp; Moneycontrol.com",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQT2NZcklOTWFGRXBKaHNGZE4xN1ByaVp4V2M0TGtPakFhZzF6U21jYnlpR1l2cXlwb1pGaG5EWDlNSDE2RWdIc1VWaW1LQkEzell3d2xBMC15VFF3REZKLTBpQ1I1MXp2UGxUZmh5cENUa0hyaTZGTkVOWmxaTnlwM1BXckgtUFJmWHYzV3pTQTQ5aHlnVXRBZk5OM0N3V1dnbjdHTTVfRmFTYktPLVdRb3dtbWluZ05VbjFtenFKZV9LLU9ZM1J6MUNKenpGaG5MZmFyczdOLWMzSENyOGExamN5TdIB4wFBVV95cUxQT2NZcklOTWFGRXBKaHNGZE4xN1ByaVp4V2M0TGtPakFhZzF6U21jYnlpR1l2cXlwb1pGaG5EWDlNSDE2RWdIc1VWaW1LQkEzell3d2xBMC15VFF3REZKLTBpQ1I1MXp2UGxUZmh5cENUa0hyaTZGTkVOWmxaTnlwM1BXckgtUFJmWHYzV3pTQTQ5aHlnVXRBZk5OM0N3V1dnbjdHTTVfRmFTYktPLVdRb3dtbWluZ05VbjFtenFKZV9LLU9ZM1J6MUNKenpGaG5MZmFyczdOLWMzSENyOGExamN5TQ?oc=5",
+          "pubDate": "2026-09-27T10:17:11.000Z",
+          "source": "Moneycontrol.com"
+        },
+        {
+          "title": "AMD's Agentic AI Bet: Desktop Alliances, Insider Sales, and a Stock Priced for Perfection - AD HOC NEWS",
+          "description": "AMD's Agentic AI Bet: Desktop Alliances, Insider Sales, and a Stock Priced for Perfection&nbsp;&nbsp; AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPX3RVeHFMRXZpM1A2dVZLUldCYzk4ek00SzR1cFktSXJWYW5JOU5CaTM4WWVDZUdVSzZMbzIxMUtpd2ZxcEUyVV9uZ0JTLWkzc1IwcXVObUZac01BYWJjVWtGZXpJWV9hQjNVci1DZl9XbHNCVENjNzRTQmdORHFLWmY5R2p5V25VdnlwcHp3VURZZktiUUw5czRaOHNFc1JZX212NVpZTGtrTWlqY1hHcm44NnEwMkdfVkMtc2NHVERTaFJ6Zk1uaTZBaFZxVHd2a2JjTDFLd2tWNHM?oc=5",
+          "pubDate": "2026-09-27T04:50:39.000Z",
+          "source": "AD HOC NEWS"
+        },
+        {
+          "title": "Intel CEO Lip-Bu Tan Has Incredible News for AMD Stock Investors - The Motley Fool",
+          "description": "Intel CEO Lip-Bu Tan Has Incredible News for AMD Stock Investors&nbsp;&nbsp; The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSC1WTTFSX2pUUXVsekwybW5nN0p0THJ2NTZRY3BHT2d1QU9hUlRQWGlYRi1BdXhQUWR3WC1hQllPbDJmVExJVzlReXg5a1c3dWpocDBFOGVVN2tBdWYtRVg2ZDNfamdCVDZNaHNVUmlBdnl2SU5jTWtBRHNrWFVUSE84YjBEUEpQSE1laElIbThJR2R6WXVBRjNPR1BDeFRwbGRsTHU3UFBzODA?oc=5",
+          "pubDate": "2026-09-27T16:03:00.000Z",
+          "source": "The Motley Fool"
+        },
+        {
+          "title": "TSM Stock Slips Premarket Today — CEO Reportedly Says AI Chip Shortage Isn’t Ending Anytime Soon - Stocktwits",
+          "description": "TSM Stock Slips Premarket Today — CEO Reportedly Says AI Chip Shortage Isn’t Ending Anytime Soon&nbsp;&nbsp; Stocktwits",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU5KOHVZT19qRTNCVzJLRDF4UjNCZ3JaeFBUZVM0TDBzY2tHYU9fTDVnajFaOWhOb2xrZUVBZnRDbXJoVnhBNWNOUmN2WFZ3X3d6VVdjcXU4am9yTFBwNEVfdWI0cm5Bd2F3VmN5QXB5X1NWX2JCV3NsZ1JzNHVITHF6X0lJVFdPLVFXQjRwdTBUb2dZVFg2V19xNDFid2V4OURuM2RkdUFTT0RVR0lCYUk4enJxQ3Zm?oc=5",
+          "pubDate": "2026-09-27T02:49:33.000Z",
+          "source": "Stocktwits"
+        },
+        {
+          "title": "China may allow Alibaba, ByteDance to buy Nvidia’s new RTX Pro 5500 chips - TradingView",
+          "description": "China may allow Alibaba, ByteDance to buy Nvidia’s new RTX Pro 5500 chips&nbsp;&nbsp; TradingView",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNOG9VYjhYQUdLT1pyUzJ5RmdvckhlOG1IRWRYU0tDOVVzb21LWjktZTd4UlBaY0RhMWRIN3FHRmFiRnk3VDNESTZoaW0wZDdjcy1ZU05leXhXVkNHRkFSYndIdW1DeXREX24ySkhjMERScEtGdEVldzczQ0xfMDliOGppN2dFSm0tbFo1NV9ackx6NlY5X213Y3c4dlZvQjFmNEhVNE5PVFBVWGduYjhfS3B4LW9rdkRPLXF0NkJ5bkhSNlRkUUhvUVJOX1I2YlFp?oc=5",
+          "pubDate": "2026-09-27T17:39:26.000Z",
+          "source": "TradingView"
+        },
+        {
+          "title": "Foreign Buying of U.S. Stocks Hits Record on AI Boom - Seoul Economic Daily",
+          "description": "Foreign Buying of U.S. Stocks Hits Record on AI Boom&nbsp;&nbsp; Seoul Economic Daily",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzZ5WHJLT3lrb3lpNHk0dkdQaE1aUVN3ZEZ1M1ZRTi1WeTM0MEc2UUw5cmcxdFQyX0hDSHRNOUgxcFIxNG9SMzU4MzdreUNwMHpEU0J1VVhkYUlaTjd3T3RNaG1jaFJVWWlrZ18zODIzaUNCZzZHTlBIb3ljVHZTZHFzOW5YaTlEMEJjanRkTWJnREluR3dQN0VXZGZVWE0?oc=5",
+          "pubDate": "2026-09-27T21:00:13.000Z",
+          "source": "Seoul Economic Daily"
+        },
+        {
+          "title": "Nikkei Faces Dividend Test After Five-Day Rally - newsonjapan.com",
+          "description": "Nikkei Faces Dividend Test After Five-Day Rally&nbsp;&nbsp; newsonjapan.com",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SSGhkRm5idDQ0OEVDdzJ2SEx3dXAzNmEzeXpNWHlieHIzMmRFSVZ6cXhBZW1sVmdwQmYzaEJ2ZVZFR3FpZmRrLWVCUkFybUJCNExmTw?oc=5",
+          "pubDate": "2026-09-27T13:51:57.000Z",
+          "source": "newsonjapan.com"
+        },
+        {
+          "title": "No Economy Is An Island | The Week In Whys - NDTV Profit",
+          "description": "No Economy Is An Island | The Week In Whys&nbsp;&nbsp; NDTV Profit",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmhuUVRSOHRjYXBfLXF0YnBDcUpyTllwcTBxX0pDRk9FTGhDWmtvRDVuUnlfQmFwTnh6b3R4SHJ6M1p0UmhUb0w5YmlLd2pkVHdPQWpfNHhkY0IwSWNlUDJVSEZITXVkYzJXUmI5N010ZHZqRnhYZjRCMVpSeGVrZWxpQlpDdkVJdTQ5UVhBb2plZ2tEcF8yUdIBoAFBVV95cUxNbmdvdVdkU3pMSFZjUGQzaDAzT2VFaW9JNTFtWXg4VFd4ZVBQc3ZNemVzeXR6VFZyNlFBSEQ0dFNHYzhzY1B0d2o2RDZhbndaZlJvZ0g5Q0xtWEIzMU1aSVR2dzdaZXJMZll4T0ptT0hrbEhqc1FSRm1ZMTg0RDlaYkI1VXRIakxGYkgxbmM2RGt2NFNNNDdRaXM1N1JkT3d0?oc=5",
+          "pubDate": "2026-09-27T07:30:03.000Z",
+          "source": "NDTV Profit"
+        },
+        {
+          "title": "AMD vs. Broadcom: Which AI Chip Stock Is Better for Long-Term Investment? Comprehensive Comparison of AMD and AVGO - TradingKey",
+          "description": "AMD vs. Broadcom: Which AI Chip Stock Is Better for Long-Term Investment? Comprehensive Comparison of AMD and AVGO&nbsp;&nbsp; TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORFFZN1RyYlg2blN5OTlmY3lNcC1jNk5mRXV3UHYxOTNwZmpUcmM5QlJkUTJIYnAtMUJnUG9VbWljYXoxejdsZXdGaC1jZHAwcHpkemhtdDZFUFNVa2p1bmhfOFdzeW5CWDN5ckc2RFdBLVYyMktiNUI5emdHREY1QWwxdWdpVVR4c3o1LVVRNjBmWkUyVGNHLW93MU43ZGR3UW9iVllBQ0xpTzFiSEF0Y2JneEJVdkNqNlJJS3phSXFwSDlPbVo2eA?oc=5",
+          "pubDate": "2026-09-27T02:07:55.000Z",
+          "source": "TradingKey"
+        },
+        {
+          "title": "Broadcom Inc (AVGO) Stock Analysis & Forecast - TradingKey",
+          "description": "Broadcom Inc (AVGO) Stock Analysis & Forecast&nbsp;&nbsp; TradingKey",
+          "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9maVJ0MjVyMkM5MDRTUDY0NU9DaVpoUVJPTWt6MVpKd29lN0dIY1V4TFNDOVFhdDlSOUZRakZKQThqMzhYNlJ3WmxncUtzMzdwYjZmX1lTbjVWWGJMM2dUUk5aMkRBUQ?oc=5",
+          "pubDate": "2026-09-27T02:25:04.000Z",
+          "source": "TradingKey"
+        },
+        {
+          "title": "AMD and Broadcom Split Wall Street on Who Wins the Next Phase of AI Chips - Startup Fortune",
+          "description": "AMD and Broadcom Split Wall Street on Who Wins the Next Phase of AI Chips&nbsp;&nbsp; Startup Fortune",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa1l6Rm5yYVg0TXR2VXAxOXJ1LUFhMFdhU2hZT2JrdjQ3R09oLXZDRUoydHpodXNTWXNQWF8waXV3S3BOLVpvSzRhTkpWWXg1OWV2aExYTVZQdGZZUVBXSElrTkpsZXI4RktGelN3OEhBSmJ2djJxaWZReklDTGFkcDczcE92MVU1WTlxZTBTM3l1V1JKU19venNvOEZTQ0FLUklV?oc=5",
+          "pubDate": "2026-09-27T04:10:00.000Z",
+          "source": "Startup Fortune"
+        },
+        {
+          "title": "Why Did AI Semiconductors Surge After the Fed’s Rate Hike? - Sahm",
+          "description": "Why Did AI Semiconductors Surge After the Fed’s Rate Hike?&nbsp;&nbsp; Sahm",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQWtFOXZ3dFh1RW1yTnRrUlVVQlU1a3FGYkFtOXpWcTM0Ni13VDJwOFBRV3d3MHBCRWxtQ1JGdmZSMHFaRXlaVTRTb2pQMGlid2JMMmJHOWs1Yk02eDhTTHBULTJkX0pIT0RxajRsWTg2a3I3LTlvY0Qzbm1zbXVGeWhRX0FKN2RTcXpGX0hiZWtIQTRpVFhrTTVna0FuTG91UU1YVy1JRTExcDlaTGNycW5rdnA5clRBdDgxQ0hzVDhuY1lHNkc0?oc=5",
+          "pubDate": "2026-09-27T03:39:29.000Z",
+          "source": "Sahm"
+        },
+        {
+          "title": "Why US chip controls took a back seat at Xi-Trump summit - The Korea Times",
+          "description": "Why US chip controls took a back seat at Xi-Trump summit&nbsp;&nbsp; The Korea Times",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclBBaVoyZVMxLThyS29wRWFRbGI0UjI1SFJvUXdlb0UyTF9NRzA0Rk1PRzdYa19IZFRXbHpDVFdRam5zSER0eUY4dEJvWWk5TGxpNVlSVU5Nd3JOdkVuRmZwMEFMTFBRc2JvUE5TcHJyaFF4NWRvRkVIZjc3YzIzRGZxVUgtQ2c4TGpXbU1XNjNReC1RVGd4YUZ2TlR0V3N5dnfSAacBQVVfeXFMTk0zbkZhaWVKenFvVERFSEtzbnZIV1B5eFcxWnhLYjRaeUZaMUtPMC1Ra0xDUVlDQ2hFVk1qcEFPdDhCdkJlNzJ4SnNkNmFjTWl5bnpIZ0ZYOVE0eGZ6QUlrVGdNZkNlYmVIVHV3X1FfZzVnTVRUempTR1RucURHZWRCSUVHY0F0dlZINks0U0tzVVNPM1hYMFJGaU9HVTMyRWdJeFRSQ00?oc=5",
+          "pubDate": "2026-09-27T06:03:02.000Z",
+          "source": "The Korea Times"
+        },
+        {
+          "title": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold - mb.ntd.com",
+          "description": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold&nbsp;&nbsp; mb.ntd.com",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
+          "pubDate": "2026-09-27T06:22:00.000Z",
+          "source": "mb.ntd.com"
+        },
+        {
+          "title": "Silver’s split personality is the trade investors keep mispricing - scanx.trade",
+          "description": "Silver’s split personality is the trade investors keep mispricing&nbsp;&nbsp; scanx.trade",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
+          "pubDate": "2026-09-27T05:56:34.000Z",
+          "source": "scanx.trade"
+        },
+        {
+          "title": "Gold Analysis: XAU/USD Remains Under Pressure After Fed Rate Decision - FOREX.com",
+          "description": "Gold Analysis: XAU/USD Remains Under Pressure After Fed Rate Decision&nbsp;&nbsp; FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzBrVWlpVDZMNy1MelkzNnN1MUpZa2dUbklNM3pPaC1NbVNQS1dXYXFYX0g3ZFBrSGhqN0RfQ21yaVIyMmlJT1poNDk0eDVtRXR4ZzhFeV9zbFJEMDlPU1dfSUF3NThrcW85VXVESk1CcXNBSGRoUnlZOHFOdWwxbURNVzRzZTd1OGlBTWwtTktfOFRyQk81YzN5bTZnNTVZNHUyOWtEdnFCYlNPZUtLeDdSVzlKUQ?oc=5",
+          "pubDate": "2026-09-27T14:30:09.000Z",
+          "source": "FOREX.com"
+        },
+        {
+          "title": "Gold declines as Hormuz impasse keeps rate hike bets elevated - The Business Times",
+          "description": "Gold declines as Hormuz impasse keeps rate hike bets elevated&nbsp;&nbsp; The Business Times",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeEtDaFctTTgzQ01xUlU0SUR1aFdhemRSZW52OEphdUV6N002ZWxMaW9yNzY5UVRGZVN3OFpkSlQxZHpiTE5YazZITjJnR3VWREhDVTdNd3ctUVRnNHlsVG85WmJjd3Rfbk5VQjYwNmdIOWdsaTVucEdQUTFmSmJMRlhkZmo4blF4SnVBWTJxUHhyNGdwU1pSeTlXVVlOY2hhR0Q1S0VaQnptcUdOelZEYzBteXljYWE1eXk3SEZySEI3Q04wdkpj?oc=5",
+          "pubDate": "2026-09-28T00:57:00.000Z",
+          "source": "The Business Times"
+        },
+        {
+          "title": "Gold News: High Treasury Yields Keep Spot Gold Buyers on the Defensive - FXEmpire",
+          "description": "Gold News: High Treasury Yields Keep Spot Gold Buyers on the Defensive&nbsp;&nbsp; FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbk52QnppZktxeHRsRU56VnVTR2hzelpHR3hrTXc0cGp1R0RkWEtSeWV2MUhRUE51TTRKenRoVElZekZ3aXBzVXJrUkFEYmM2TFFZRGwwaGNuUDg1U0RPTHZSbEM0a2d6SEFjdGJjc2FkNkVDM0ZGSWlyb2tscDlHY0hTTDFhN0g5QTNOeEdxdVQtQUdqSjBoM2ZPb09sQjJSd1ZnNFZoZWNrZFBwbVZidDZFaVczRWJXbFdtZQ?oc=5",
+          "pubDate": "2026-09-27T22:47:04.000Z",
+          "source": "FXEmpire"
+        },
+        {
+          "title": "Oil, yields and gold: The three-way tug of war - The Business Times",
+          "description": "Oil, yields and gold: The three-way tug of war&nbsp;&nbsp; The Business Times",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdzRfWW1sWUZLR0NUazlnNmw0cFRabmI5SjBGVGhVYmc2Ni1iclY2UWNGdVpzR285UEdxUWIxRnptSThJbUlGbTBRSFY0TTZkN2x3ckgwbmdheTJGdUNqNEU3Y2pIbjZ5eHhHM25fREIyWl9mc1M4cTJGX3FJdjBCRjBWZkc3d1poLXd1MnNNcXExZw?oc=5",
+          "pubDate": "2026-09-27T23:00:00.000Z",
+          "source": "The Business Times"
+        },
+        {
+          "title": "Natural gas defies energy shock as strong supply keeps prices in check - The Economic Times",
+          "description": "Natural gas defies energy shock as strong supply keeps prices in check&nbsp;&nbsp; The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNLXhwSDZldHJtenVvZnZiYjN4emZSNlBmNXNiRTJjV2FKUC0xcHh5cEFKTXl6MWlyVkJPUnphNS1kUFFYbGlMX2FBbThUU1F0TVJPbm1acXNyZF9vZjFObTI5S2NBb2s0QkdRc19TOFI0RGx0TGZKWG1PUGlnVGhhbU1VcVNFVFRzX0xwbW8wS29xcUxFcEtpXzByTjNpcEtyQ0tvc1BZYm9JSkk1OW5FZWZlalZyZVpfT0VSX1dwalRqZDlnNWZBRWlFZTdwd2ZRSld2RktaNVpSME8wRmNKWmpIONIB6AFBVV95cUxQeHJzQm91b1VDQ0FxSHU3T2xEb1BsdEl2SkU2d2oxUENrLXBpRWw4YmNyNEQ0aGV6RTFkTXowTUdFdHlka1dNYUFWMFlEUmtTMkNzRmVtTWphQXlaMExSZm5RNWVYVDJiVGxEeGlia0ZPV1k2bjJmc1JEMFdIeTJ1X1NpOVZ4QWljYlZsbnVGaVZMbEFIbFBBNVYwcFVQbkJVMmNBMm1NN2FDR2YxOWxmZVBTTVpXd3pDVjhTMEhIM0NyWDZRQXV6OE40SFZUcVlzTWJDQ3NVaHlfVVZwTEtMNlZIOEV1a1pV?oc=5",
+          "pubDate": "2026-09-27T05:21:23.000Z",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Gold Technical Outlook: XAU/USD Bulls Regroup at a Critical Pivot Ahead of Fed - stonex.com",
+          "description": "Gold Technical Outlook: XAU/USD Bulls Regroup at a Critical Pivot Ahead of Fed&nbsp;&nbsp; stonex.com",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQcjdRd2pkVXRraS1TNzQ0WXFTYmt4LTBCT1ZMa2NiMHhNdzFXRUdOVkV5VUllZnczRzVkQklzNUZPdGtLa3hCc3NkUnZNdEVyQy1XM09LTDhCWmVNVVl4Z3Vud0tGeVRfM2prWW1Dal9OZVZKU0l6NTFBWVF4M0hyeGtzcUxYSVVtcGhFcDFoYlFQWEFoTGg5bnFPTnZjaEVuTUp0YXNoaWl4ZUpHR0l0bnZSQjFxbDc1RDEzX01qNzQyUE0?oc=5",
+          "pubDate": "2026-09-27T05:04:54.000Z",
+          "source": "stonex.com"
+        },
+        {
+          "title": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue? - FOREX.com",
+          "description": "Gold Price Forecast: XAU/USD Avoids Breakdown as Yields Surged but Can it Continue?&nbsp;&nbsp; FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNZG92eURjNUJQVFo2SHFCbHM5RExtZHpLYUFfd1NObHNCbDN0OGNSb0RwRHhFejhFUk5ha21JTHhPdTNHLU0tRXY2dVh0SW9qSDNPUnBUTkV2YkNSRmZJWTg0RjZwZVhXVzdseU94TGxOVGE4OUZRdFhzdUlmTUZoV2RHa29nMUJxVzdSaVIwakpOX3k0anBQenk2VVVSdm1DS1dfOGctVFVOdkxLZGdrWnRQVFlhM1JRR0premdwN0ZZMm05bXVj?oc=5",
+          "pubDate": "2026-09-27T08:42:05.000Z",
+          "source": "FOREX.com"
+        },
+        {
+          "title": "Fed rate hikes: What happens to gold prices when US interest rates rise? - The Economic Times",
+          "description": "Fed rate hikes: What happens to gold prices when US interest rates rise?&nbsp;&nbsp; The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxObm9sVjlEODktUjMyTUxwelc0TU1EeGdnbWloVEt4MTMtSGU2VldXdGwxXzlEeDRaSFlHaWNaMEJBUEpNMU5VOTZfeVFNRkVDTGIzcFdMcEgwN0J3cGZuZlZzZy1PRmJwcWhUenRIbGhZLWYzdldjSWlOWkZILXNsNzBzOERGUFpSVXo1STVTZFJUeXNaMUNYYlFmcXlsNUNVc3hvcmMzeEZPbkYxY0VjcC13T0dBNE5kR3ZZOGxpOTNzbjFDRXctaHltVGtSREg5dW9CY9IB2gFBVV95cUxPbFAxNjhzMV9lRjZPRW5lV2VfRjJxOFJuQlVTeENhY1Fka2tlU0NPVG1jNE5fMmJic294ZzZNWXFCdHBWcVlaNGNNdGV4UUtia2dfa2ZOdTBCMFFOdllQVVZoMURvaEFxdUJ5WENPOEhCYW85LTd5aUR0TUF1WVIxNnVHNlhEOGRPN2M2dWlqalZYejJrVkc4Skx1aGFBSWQwY0lnZ3pBUlV6TnpOcFVQSVd5UzI3bjNfZnRfUUhmQjV5QUM1dkU5TXVWTUw1eW5BckllNGlfdG52UQ?oc=5",
+          "pubDate": "2026-09-28T01:00:00.000Z",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "USD/JPY Bulls Continue to Push as Markets ‘Bet Against the House’ - FOREX.com",
+          "description": "USD/JPY Bulls Continue to Push as Markets ‘Bet Against the House’&nbsp;&nbsp; FOREX.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOc0t5ZDhTaXNEaE9QWTNNeUp4UHFCNWRNSGxZbVVmZ0dCRXI5aXBkcUppbjlmVnN5cXRuNmc4d1ZtemFicndNakNMSnBpVTdlUnhNNEZDekdjSlNUR091OEVaTzRkbV93QnFxZHh0Q3NsOUE1eVRBWE0ydFJFOEZDZkltV21RWHZBVzZDeGQwemxtM2FnUXpneTdMV2J4cEYyR1lZa2VmenVPYUpGMHpj?oc=5",
+          "pubDate": "2026-09-27T12:51:01.000Z",
+          "source": "FOREX.com"
+        },
+        {
+          "title": "Week ahead: ECB, US Core PCE & Payrolls | Market Outlook - equiti.com",
+          "description": "Week ahead: ECB, US Core PCE & Payrolls | Market Outlook&nbsp;&nbsp; equiti.com",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMDNtVUdBbnZuQVl2aUhMQ21uekt2R09lMGJHUDJaRVRTdkpYNjJWbFkxWE5WSzNYNF82WlJvMzh5VkNkaGxPU1BuV0RfVkFISHF3NDdWMjlxQXp6cVU4SXAycFM3TU1lN01uT21PT3BLdEhSOW1SLXZaTXRqMDFCTm52aWQwUkJsTFk3akxBMUNZRVd6b2YweUh4V3RQc3B3?oc=5",
+          "pubDate": "2026-09-27T08:23:13.000Z",
+          "source": "equiti.com"
+        },
+        {
+          "title": "Bullion may stay volatile as US data, W Asia tensions take focus: Analysts - Business Standard",
+          "description": "Bullion may stay volatile as US data, W Asia tensions take focus: Analysts&nbsp;&nbsp; Business Standard",
+          "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPbjdybENJZmx0NDlwRDNMV05qYk5McXVia1RMdVFId2lnLTdEZi1fTlRmUG9MLWNwWFkwQlBYMjZYdDNEUWdLQTlHSkptVlFrQjdTXzVIM3pnZ1l4WU9idkVzcGN5WjhpQnl4SERFY2hmMVpTMEZZcGhWSUFPLXpBLTBqT0lqeVFCQ3N5bzVGYWd6SjFsenRER0pPaVYtQS1zM2VwUy0yMENZT1laVV9JTU10NENvWFc0RWNHamtVMXdYQ1NTQnRJcjF5WEZidU9OZUd6WXdpaDZ0Ni1tZjFweVczWF9tZ9IB5gFBVV95cUxPbjdybENJZmx0NDlwRDNMV05qYk5McXVia1RMdVFId2lnLTdEZi1fTlRmUG9MLWNwWFkwQlBYMjZYdDNEUWdLQTlHSkptVlFrQjdTXzVIM3pnZ1l4WU9idkVzcGN5WjhpQnl4SERFY2hmMVpTMEZZcGhWSUFPLXpBLTBqT0lqeVFCQ3N5bzVGYWd6SjFsenRER0pPaVYtQS1zM2VwUy0yMENZT1laVV9JTU10NENvWFc0RWNHamtVMXdYQ1NTQnRJcjF5WEZidU9OZUd6WXdpaDZ0Ni1tZjFweVczWF9tZw?oc=5",
+          "pubDate": "2026-09-27T11:42:43.000Z",
+          "source": "Business Standard"
+        },
+        {
+          "title": "Silver Falls Nearly 3% in a Week as Stronger Dollar and Higher US Treasury Yields Outweigh Supply Deficit Outlook - see.news",
+          "description": "Silver Falls Nearly 3% in a Week as Stronger Dollar and Higher US Treasury Yields Outweigh Supply Deficit Outlook&nbsp;&nbsp; see.news",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNLU52c19FOXpVd1ZEXzE1bzlzUF8xbllITER5U043aHoxMVpvVVg0Ump0cWJyak5YcHFScXoxX1A4MUpXM2dsQVRWcHdvaGgtRmN5QWF1X01tQ1Qxa3hweG1VYUhnbnJici12T0swQm1mOFFaVkNRb0t5VFNmM0pPaUJxYkNOVDhfNkIyQ1dJXzFuVndiZF91OVZOMFA1aElEUGtIUEFGd1hMVVpjUjNtS09MLXJiZm9UUHFTNEJkYkVQU2NBQ1BuVw?oc=5",
+          "pubDate": "2026-09-27T10:01:00.000Z",
+          "source": "see.news"
+        },
+        {
+          "title": "Gold Tilts Lower as Iran Impasse Continues to Fan Rate-Hike Bets - Livemint",
+          "description": "Gold Tilts Lower as Iran Impasse Continues to Fan Rate-Hike Bets&nbsp;&nbsp; Livemint",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPczc4RWFlY3lWa1FkcnQ2ZWgzT20zaVNxSkF2ZVdMV3BtM3BYNnVId0M3RmZhSW9WTG8yTV93ZUMtclZkcC1vSV96YnNHWjF4MFRicS1DdGsyQ1RxeVA5Q21sMVVwVHdPQUo2OHJocVhkeDN3UDFvZjdvNnR2X3pXQ1pfU3pxUVNXR1lXc1RTMjQwS3hORWtsTElhRG5EZUpHOWoyY0padDNkZl9WNVVudTlmZUpWUHfSAbwBQVVfeXFMTmZLUno0ajd5ZDFXbXdhYzV2NGZGOThrS2oxS2FDeU04YUgwZjJsaDB1cS05aF9EYUZ5MnQ2bUNXUEk1eHpETDlPNFNGS2JnVzZjcHpQQzMxZnkzTlJaZHNuRHZROW1DU3prc0lVVU1uT1VrRTFVWGlUczViYnFRYzVVdHdsV1RtYUs1dVNsQno3SndfQzVMWm85d3hhMkdkZzVqRXd0bHlWUWhhQlBZd2xKVzliSWVpRk5sSTU?oc=5",
+          "pubDate": "2026-09-28T00:05:03.000Z",
+          "source": "Livemint"
+        },
+        {
+          "title": "Growing Problems in the Bond Market - Gold Eagle",
+          "description": "Growing Problems in the Bond Market&nbsp;&nbsp; Gold Eagle",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBJUHZKbkxQb3JPRjVWZEdoUkY5QWhEMWUyR0RJaXptaE56NU9FaXo3eXdfVGhmdnRjbjN1cWt2M3R6c2w4cW10VXVDZFFER1BubFUzalhYbEMwaGxFMWJGLUFBLXN3alluT1BSNW5zdlE?oc=5",
+          "pubDate": "2026-09-27T05:22:01.000Z",
+          "source": "Gold Eagle"
+        },
+        {
+          "title": "Still Lower Gold Ahead - Gold Eagle",
+          "description": "Still Lower Gold Ahead&nbsp;&nbsp; Gold Eagle",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9EUG56dVNqMG5pRzlCLWpydHc0RlhvR3U2YkxyTkFJMXlVY2lZQ0NzU3pIT1NzdFEzY0dYZWhqQVNUWnBUbkpfVUJNUXE2UDlkUTlGdnhZWXdxNUo2d1o5aUI0ZGVWVl8t?oc=5",
+          "pubDate": "2026-09-27T05:28:39.000Z",
+          "source": "Gold Eagle"
+        },
+        {
+          "title": "Cochin Shipyard, Voltas, BEL, Tata Steel, Axis Bank, Vedanta Aluminium: Top stocks to buy | Target, SL by Ganesh Dongre - Livemint",
+          "description": "Cochin Shipyard, Voltas, BEL, Tata Steel, Axis Bank, Vedanta Aluminium: Top stocks to buy | Target, SL by Ganesh Dongre&nbsp;&nbsp; Livemint",
+          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNRTdoOWQtTXYwRm9EUDVVNmhObWw3eWJ0UWpraUNtcDR4WDRIRjVib0ZOUUhrOFpIdElieG96RFNOY2VfaDdwTmlEQXoyTEFpZ3k2SEV0WkxUbDBfUGVIZC1WQWg0Umt5SmtuLUdDRXd4V2plMmFFNUNJUTJTc0Z0Ry1RVUVmQktwbEtpSEFTT3ZVdXcyLWZqc0ZyRXNnanNlcTdfeFk5UUNIOWlVM0I3RXhGWVc2bHo0dTZnemZmUHJaMGxJclFaS1hzQmotR2NzSWdhdXh3MFByOE0xZXNxbVJjLTBWU0FwTTFQcXRlZG5TUGNnX3pBWmhTSHBIU0Vab3NWbnFGMGI2ak9ET0JEeDdB0gGSAkFVX3lxTE1FN2g5ZC1NdjBGb0RQNVU2aE5tbDd5YnRRamtpQ21wNHhYNEhGNWJvRk5RSGs4Wkh0SWJ4b3pEU05jZV9oN3BOaURBejJMQWlneTZIRXRaTFRsMF9QZUhkLVZBaDRSa3lKa24tR0NFd3hXamUyYUU1Q0lRMlNzRnRHLVFVRWZCS3BsS2lIQVNPdlV1dzItZmpzRnJFc2dqc2VxN194WTlRQ0g5aVUzQjdFeEZZVzZsejR1Nmd6ZmZQclowbElyUVpLWHNCai1HY3NJZ2F1eHcwUHI4TTFlc3FtUmMtMFZTQXBNMVBxdGVkblNQY2dfekFaaFNIcEhTRVpvc1ZucUYwYjZqT0RPQkR4N0E?oc=5",
+          "pubDate": "2026-09-27T07:41:48.000Z",
+          "source": "Livemint"
+        },
+        {
+          "title": "Chip leaks largest portion Korea's industrial espionage cases - Korea JoongAng Daily",
+          "description": "Chip leaks largest portion Korea's industrial espionage cases&nbsp;&nbsp; Korea JoongAng Daily",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQmhvX3JZbUJ6M3U5a292bXA0OWp2ZHRKVzYzbDJ3RGYtMmhZenRiOVJkaFFiYUd0ZF9sb1F0WkJWNFRZcUpvR1dwZU1lTzJWYkRIOVg3SkprWGxtdmRfU0swUE5rLW1zOUNqRDN1dWEzQVlhSzYteGliTFlOQWpHUUZwLTZEZllyTEUxaHl6cEYxOVo0c2xoamxqYW9KYXlrbl90NFIwLUxZdl92ME1V?oc=5",
+          "pubDate": "2026-09-27T06:41:35.000Z",
+          "source": "Korea JoongAng Daily"
+        },
+        {
+          "title": "Electronics demand, global supply shifts, policy support driving India's semiconductor play: BCG top exec - ET Retail",
+          "description": "Electronics demand, global supply shifts, policy support driving India's semiconductor play: BCG top exec&nbsp;&nbsp; ET Retail",
+          "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNZnpIZEZsYTFiWHFid0xwRkJKS2gtMVJJWmwtYmxRQi03XzNMRkVNM24wYkd6TVNlek1sblBnNVZ0UzVHQjUxOXRlQXdzU2RHeF9jSWtncWNGbk50MFd5S2gzNnBNNENxeWxfdm8wVDlERENZUnd2T0ZtcDBUQjlQLTRWZ2JIMjRUVWNOMEJDUzVYYkZsQ2dnem81S2RYMEprakdKUGZXZDFrOXJQUWNGc2hZSFVrR1k3dzRTN29mUzRyYlQ0QXN1cWkzbVpBclAtMVJWLWNTOW1aM05HdFU4RWxrQlotdjBWQlNOelNHUlBORjFFZmFFSEhEMUtoOE5fcU9JU1VaaEZlbXRlTkdQTTBOcW0xS3hGX0RpRjdKOGoySkhQQ3djem9IMTNjM2xzSWdDU0Z4blBLb2w5QVJrOEtacEpxb0Judllpbl9YONIBzwJBVV95cUxNZnpIZEZsYTFiWHFid0xwRkJKS2gtMVJJWmwtYmxRQi03XzNMRkVNM24wYkd6TVNlek1sblBnNVZ0UzVHQjUxOXRlQXdzU2RHeF9jSWtncWNGbk50MFd5S2gzNnBNNENxeWxfdm8wVDlERENZUnd2T0ZtcDBUQjlQLTRWZ2JIMjRUVWNOMEJDUzVYYkZsQ2dnem81S2RYMEprakdKUGZXZDFrOXJQUWNGc2hZSFVrR1k3dzRTN29mUzRyYlQ0QXN1cWkzbVpBclAtMVJWLWNTOW1aM05HdFU4RWxrQlotdjBWQlNOelNHUlBORjFFZmFFSEhEMUtoOE5fcU9JU1VaaEZlbXRlTkdQTTBOcW0xS3hGX0RpRjdKOGoySkhQQ3djem9IMTNjM2xzSWdDU0Z4blBLb2w5QVJrOEtacEpxb0Judllpbl9YOA?oc=5",
+          "pubDate": "2026-09-27T19:07:11.000Z",
+          "source": "ET Retail"
+        },
+        {
+          "title": "China mulls allowing ByteDance, Alibaba to buy new Nvidia chips: Report - Firstpost",
+          "description": "China mulls allowing ByteDance, Alibaba to buy new Nvidia chips: Report&nbsp;&nbsp; Firstpost",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTDRGV2E3aV9NbXl0UU16UXh5d0dNSkp6a2FmOEV5UzRTUVdpX1lOalZNLVRvUC15YW9rMENGNC1BYUdYaGRTNldSN0t1SWxHdkxyenJFZnF2OEVRYVhGdnY5ZlBuTnJUWkI1TTh0SzZLbzdiclR6WFozV25oUndBQmJHaG5aZWRaMjJyRFMyVWcwUC1OdE9qbjByNmZRczJydDlFZ0Yta214U3FxV3JZZkFVYUrSAboBQVVfeXFMTV85dmlMSmRFTE5MLUpmS19EQjVGQWdKWHN4V3VHTHRnMXcxdnhkeGlXUmtQd3FGd3Q0eEFobDVORUljRDVreWYxUHFGaEVEbGtCRFZOREl5VVp3bjFtcUE1RFJKSTJfUUR2QllCMDlqTmJsay1oTFRaRXRZV01sOXFZbEtUeDZwZTYwM2xPbjF3Q1RYN3pwY1lDQmlJbWg2UjRHbW85dk1TUHpKWVY5N0VGVDNOZjRFeUZR?oc=5",
+          "pubDate": "2026-09-27T18:45:41.000Z",
+          "source": "Firstpost"
+        },
+        {
+          "title": "SEMI and IDTA plan India Semiconductor Academy for workforce development - Prop News Time",
+          "description": "SEMI and IDTA plan India Semiconductor Academy for workforce development&nbsp;&nbsp; Prop News Time",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQZEVyWk5Kakl4M3Bqd255WTJDSURXZ2Rsd2tMZEZCSGpUbWd2QUt4bGJ0VEItS09mYWU0clRNNnRoRTNEcDc5bzlHdDNIRE1WYjNEMkRudUwyc0VFdXRPNVZqR0JoeExqcXlfWTUwTjM5Q3hWTkNqUUttT1ZLNmN3NUFOd1l6MWxIUmdDaEdYMk1Td1MxWjFDblZ5Vy1JTHQxUGZfY2NzT0I0UXkyUDFfT1pNZmNwX2tyRzJOLUY3NGMyUQ?oc=5",
+          "pubDate": "2026-09-27T07:04:23.000Z",
+          "source": "Prop News Time"
+        },
+        {
+          "title": "The Tech-led Renaissance: Space, semiconductors and AI in PM Narendra Modi’s India - organiser.org",
+          "description": "The Tech-led Renaissance: Space, semiconductors and AI in PM Narendra Modi’s India&nbsp;&nbsp; organiser.org",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQUGNITVBKNGZTa3NEV25BNUVzczF1bHVmaHVudkE2YnNrYngydjhpOXNXM2FvdWlKcG1TU2FBZWUyLThWN0ZScDZyMDdhcVYzZlJxSjUxdG8tYVpWejM2Y2NlSmVFUHdlOThKcWRBcW9sZ1lXMW5lejFSMGYzVzgzSW1Ec2M5ekYySUlMT1YwQTVPQnNCUVc0Y1pCeVJPaWV3NjZYRHdQWVU0T2lub3dGX1ZUbllwX25hQzNmVTZPUHlHWThNWnfSAcsBQVVfeXFMUGJyd2lEUGdtd1A3bWtycFdzQk1SY1BqTlFOLVZpYVFtMW1TZnQyOEx0V0ROTXhMR3p2TFdwTHdKUzREM1Q5blNLYXNZTXRkRlpUVmlSajBuanNYNUxGSVROUjJLenh2RjBvYUNJWjFKVFJWU18zb3dfYWE4VEp4YjE1Zko4aWRwdmtZM0xjWlZjVUxvcVdNWVpJM1N3Uk1qc01NOTBlSzZlbGxfSHM1LXQ0OFpmOE5EVEJQV0lKd2hVUlYwVVRwSzRCblk?oc=5",
+          "pubDate": "2026-09-27T05:35:35.000Z",
+          "source": "organiser.org"
+        },
+        {
+          "title": "Korea Steps Up Safety Checks as Chip Lab Accidents Nearly Double - Seoul Economic Daily",
+          "description": "Korea Steps Up Safety Checks as Chip Lab Accidents Nearly Double&nbsp;&nbsp; Seoul Economic Daily",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOYTBueUlvb2NhMG1wQ2lGRFROZXJKai1BaUNSallyVU5zbE9WVUpkQjQtMVpwZGpoeEFmZWJPVHZxRDM1aXZ5QVNOTTl4R2xmZEd0dGFhUnhfVFIzU29PN0tOdlR0Smszd3VKSzdSTXFuamI3R29lN2ZVN1kweG41WDlheGJVMnN3bkN4OWlmVHRMOV82djBUVlZoLUVIUnIyaGx2aw?oc=5",
+          "pubDate": "2026-09-27T08:34:24.000Z",
+          "source": "Seoul Economic Daily"
+        },
+        {
+          "title": "Beyond Banned Chips: How India builds silicon strategic autonomy in the age of geopolitical upheavals - organiser.org",
+          "description": "Beyond Banned Chips: How India builds silicon strategic autonomy in the age of geopolitical upheavals&nbsp;&nbsp; organiser.org",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQal9sZjlFT0dCaWlrejRlMGxjMFh2Y21qRGdHYlpGMTZNUVUybEpiMzM4VzdMWmR3RGlsUXl6WDZRS1ZoVkhOSmVBbE44N00wN1JNbFZ3eUJ1VjFCemJsZl8tbjFEZFZESjFyMDRnbnJQQ1BubENZZGtHUlZZVER6bW9yZkFKT3pCWWNrSHFadHI3NVdKOXFlRmRIWHFNa2dsaE5MNjJJU1gwYUYzSTU5VTZ4SDlQeU5nNkRJa2hrU2o1TmtYRmJlTF9jREZoWTNXZmRBYnhaMkgwb3pDaXRUZFF3?oc=5",
+          "pubDate": "2026-09-27T06:46:40.000Z",
+          "source": "organiser.org"
+        },
+        {
+          "title": "Unlocking resources and spreading digital conveniences. - Vietnam.vn",
+          "description": "Unlocking resources and spreading digital conveniences.&nbsp;&nbsp; Vietnam.vn",
+          "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4wU3lpWmg1eG5zdlRhbjB2VVA2TElkR2hXSHVqWFhOV0ttbVFsU3lPb2FlNjdIbjJweURSTWdfanNEbEw3QUN1ZlBidWowWXdSdkg2TkFValhRT1RZRFdJX052bmd2WmNKSDRQYl9CbFJxZXBf?oc=5",
+          "pubDate": "2026-09-27T04:58:58.000Z",
+          "source": "Vietnam.vn"
+        },
+        {
+          "title": "Engineers create an erasable semiconductor programmed with light - Technology Org",
+          "description": "Engineers create an erasable semiconductor programmed with light&nbsp;&nbsp; Technology Org",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWldidENWeVNDeXFGR2RWNjMzVjlDUGF3cmVYUGdnMmNMSGdpMVhodWdZUUV4TFZtVjZITE83SnJVaUVXLTZOMlVkVkFmLXRsTkMyQ3NZNTBUdk9ta1N2dDQzQlBXNXlxa2JBMjI1WkZOOUVqTGcwMjRraWd1WlFqNmtMUjBlamYzSE5mam1lN18zRkt5bVdwYmpYaFpDaTlMMXVCbmN3?oc=5",
+          "pubDate": "2026-09-27T05:30:00.000Z",
+          "source": "Technology Org"
+        },
+        {
+          "title": "Musk and Intel Are Building a Chip Factory Bigger Than the Pentagon, Apple Park and Mall of America Combined - Startup Fortune",
+          "description": "Musk and Intel Are Building a Chip Factory Bigger Than the Pentagon, Apple Park and Mall of America Combined&nbsp;&nbsp; Startup Fortune",
+          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOdzBLcTgxMjZYbFJvbklCbm9sWFoxUnRfTWxFdFZ0a2RNbURqS1k5bXRpRTZvMUo4Q2EzdWRzQ0RBUDZpaUpaWUkyTm5zc0kyVkRMb0sySTBWLVVrcVRwUFNfR1ItMTNja0dxNGx4MUVoVXFESFBMUjlUMFU5dWlUaWd2TEJGRkNHMUlwdWdzOFRneE1pRThCSy04ajdzNUVXcnRxeV9BcWhpUmpYbHBxZ2o1MUVLYllPVzhfMDk4QUdQRVdycHpwR0VodmRKbnhi?oc=5",
+          "pubDate": "2026-09-27T11:26:46.000Z",
+          "source": "Startup Fortune"
+        },
+        {
+          "title": "Demand for Chinese optical modules is ‘strong’ amid AI boom: GlobalFoundries - South China Morning Post",
+          "description": "Demand for Chinese optical modules is ‘strong’ amid AI boom: GlobalFoundries&nbsp;&nbsp; South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNU0MyV0tuM0ZDN29NUW9oRHR5b1dtX0lnWVRiM1RieXdoUzh0M0JOMkdPY1FUUGgwNVpUeHByTXltRzZ4SjNsM3hXeGlrcmEzOEl0SnI5U0Q5bUd0enBnYlUyblNKcDFGX0FIVk5WVXJ0WEdwVUNvLXljWnZveUJQUTRHTThtNS04Y0JSWlNTaGtFZzZtMVphd3k1cEdleVJuSUtrSk00eUZaY2R6UDFGYk5paDBHaUJBcy1TZU1ZMWtJdXJQM2lSYzJaeXpZMUHSAc8BQVVfeXFMTVNDMldLbjNGQzdvTVFvaER0eW9XbV9JZ1lUYjNUYnl3aFM4dDNCTjJHT2NRVFBoMDVaVHhwck15bUc2eEozbDN4V3hpa3JhMzhJdEpyOVNEOW1HdHpwZ2JVMm5TSnAxRl9BSFZOVlVydFhHcFVDby15Y1p2b3lCUFE0R004bTUtOGNCUlpTU2hrRWc2bTFaYXd5NXBHZXlSbklLa0pNNHlGWmNkelAxRmJOaWgwR2lCQXMtU2VNWTFrSXVyUDNpUmMyWnl6WTFB?oc=5",
+          "pubDate": "2026-09-27T12:00:05.000Z",
+          "source": "South China Morning Post"
+        },
+        {
+          "title": "Chiayi Science Park signaling Phase III development - Taipei Times",
+          "description": "Chiayi Science Park signaling Phase III development&nbsp;&nbsp; Taipei Times",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81TDUydVE4d2VuN0VRLWoxUjZ6ZG9FN3RrTnJBdnhJR1BFaVgycDU0ekRiVkRHOG9YYmJua1Q3Qy1qMXlzLVVpclhIVnJpb0VKcTBjN2lodnFDWGEwR2tUQ2ZNUXdvdjdIWFNFN1piZjVVTzdmaDUybg?oc=5",
+          "pubDate": "2026-09-27T16:00:00.000Z",
+          "source": "Taipei Times"
+        },
+        {
+          "title": "America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder - tovima.com",
+          "description": "America Is Behind on Memory Chips—and Tariffs Threaten to Make Things Harder&nbsp;&nbsp; tovima.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOVk5OUmxpaXlqTlBuaENROWJWazRFUlFDdG9YdzRHTGxabzlMTFl2b0JOMjVsczdCUzI1bUk4T0JlUU5kWV96RVBWMFpHRXBaUm8tcWJxTm8xYjl0enk4M1o2UFZxMkJqNjFnTjdWTjdWVUtaT1UxZzJSckg4TWxEWGR6LWIxdVJDLVB2NVBqYnVYUG5lVHdOblhRUVM4ZVhWcXZiWVNVb1RaUEpJ0gGsAUFVX3lxTE5WTk5SbGlpeWpOUG5oQ1E5YlZrNEVSUUN0b1h3NEdMbFpvOUxMWXZvQk4yNWxzN0JTMjVtSThPQmVRTmRZX3pFUFYwWkdFcFpSby1xYnFObzFiOXR6eTgzWjZQVnEyQmo2MWdON1ZON1ZVS1pPVTFnMlJySDhNbERYZHotYjF1UkMtUHY1UGpidVhQbmVUd05uWFFRUzhlWFZxdmJZU1VvVFpQSkk?oc=5",
+          "pubDate": "2026-09-27T12:13:59.000Z",
+          "source": "tovima.com"
+        },
+        {
+          "title": "Trump-Xi Second Summit Avoids Taiwan; Lien Hsien-ming: U.S. Can't Win AI Race Without Taiwanese Chips - finance.biggo.com",
+          "description": "Trump-Xi Second Summit Avoids Taiwan; Lien Hsien-ming: U.S. Can't Win AI Race Without Taiwanese Chips&nbsp;&nbsp; finance.biggo.com",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44b1E0ODF5WjNxOWpiaTVBbkJMUTJ2a0dMS2dZcE5zend2c2VKdk1adTRxV3MwUnZFNmdGUDFTVktmdXZnVlBPN2FHZTRyQk10R054NlBhTGdKbzljNGFYMlN5eVgwZ29QMTVNblpWS1dGRU9FcWc?oc=5",
+          "pubDate": "2026-09-27T21:55:00.000Z",
+          "source": "finance.biggo.com"
+        },
+        {
+          "title": "Hong Kong tech chief sets June deadline for Hetao cross-border talent flow - South China Morning Post",
+          "description": "Hong Kong tech chief sets June deadline for Hetao cross-border talent flow&nbsp;&nbsp; South China Morning Post",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNb1RlMXc1U1VBazVHV3hPU3JqZDdfcldiaFVwZEdrU083aXNmN3RmRl93MmQzTnBBTzhId3ZVN1JnaGNVTDVfTThTVGswd21hZnEwZ0FUbUNTSDJYNENnMWswNEUtcDBESjlkWDhhQkluQ2NXNS12eWhGQ1pfTkt1a0RNS3Ztb3hoVHN2NmFOV1dnZzZ5WGtBems5UklYak1HMmVycmpDQ0t4WEEyOE1kYlFZZ1pzSVJZS18tVE9JcjJfQ19XQy05UmRIb2ljcDhBX2RpWnkzd9IB1wFBVV95cUxNb1RlMXc1U1VBazVHV3hPU3JqZDdfcldiaFVwZEdrU083aXNmN3RmRl93MmQzTnBBTzhId3ZVN1JnaGNVTDVfTThTVGswd21hZnEwZ0FUbUNTSDJYNENnMWswNEUtcDBESjlkWDhhQkluQ2NXNS12eWhGQ1pfTkt1a0RNS3Ztb3hoVHN2NmFOV1dnZzZ5WGtBems5UklYak1HMmVycmpDQ0t4WEEyOE1kYlFZZ1pzSVJZS18tVE9JcjJfQ19XQy05UmRIb2ljcDhBX2RpWnkzdw?oc=5",
+          "pubDate": "2026-09-27T06:58:17.000Z",
+          "source": "South China Morning Post"
+        },
+        {
+          "title": "GlobalFoundries sees 'strong' demand for China's optical modules - The News International",
+          "description": "GlobalFoundries sees 'strong' demand for China's optical modules&nbsp;&nbsp; The News International",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlFKYk5aLVFQSlgxRFJnNFVCRDh3QXRkSGt6RUMwcml3Z0dEWUFIWlRBVWdMRi1YU21naDZBZGh3Yy1yeHd0MTE0U0NFU0VfZml6bUtKQmozb1lEUGFXUmpTZVFzb19kTDVEaVRYOFhka0Z4Qk1jOEtCNGpuWEkzcTJTT19XZkpyQ2h2ZGZuTUVVYUF0R2ZuR1dMemFRS2lKX2dHSnlB0gGiAUFVX3lxTE5Va1BFcDlDSTdfb2luWjhRU0x3YXM2aUl5TGlhNk54YUZLNkNXeHNtTDNsYjZPNTd0SDhaZlozU1dUVVdFY1k1dzdwcE9aVG9QUzJqRHBicW5ocFNzX1ZkRGl6QmVlWl9rSTA0OEdRSG9kRVZYaF84MExoTW5Kc0pJVTYzWWRTYk5aUVg4bVFpUVltZWJmMG41MWxlb3d3LVNPdw?oc=5",
+          "pubDate": "2026-09-27T13:22:11.000Z",
+          "source": "The News International"
+        },
+        {
+          "title": "VAST Data launches confidential AI system for sensitive data - ET Datacenters",
+          "description": "VAST Data launches confidential AI system for sensitive data&nbsp;&nbsp; ET Datacenters",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNelR0YVhQcjVqckQybkhtM3Q4TkR0VWU5dGU4TTl2OEhzeTdIRW9nMncyeG5KdXo0VGd3bmVUSjRrLWVSUnByTWY0WWZpaVAxbmp2cmd6ZVNieDRQdEY3bHVUNGxRbGNpT3VSRFpXOTh1MGtKMFRVVmpGczlxbWsxQVdIZHVEWXZ1b2lITl9SaTJFNVNsV2NpQzBUSVgtclV0T1Frd0pnQ0xUWmdnUHBGRDZvY05ZT1ZzN3pEV3pVREJyaVBsWGZOU21PckFmdGR2ZG9xTmgxU0RKcUx1OEcyOTgzb9IB6AFBVV95cUxQdlpXWEJtNkQ0ZWM3WXdLWXFySEpDeE9kZW9KaF9PbXNkbkwtc0tjbXV2MkE4WThNbEF2V2NsN2hYV1N3WGJacTZUdkVHbHJ0cmVxVWlxa2s0VUxyVDIzeXg3OFBaelUzcFFKVkE0Y2g0aTM4d0ZjYWZRT0V0d1BVeVdiQmZlMjNXX01EUDIwR2lxa01Yb1Zpa3ZfZ0lmVl9qWUdDRVdzeFBDNDVBeGpHYnhtOGlhdGNKMXJYb1VSbU0wYm0xanM0b2dVRkdIZC1WS3pReFZWZWllOTYydUhITDU0akZLRFBI?oc=5",
+          "pubDate": "2026-09-27T02:26:05.000Z",
+          "source": "ET Datacenters"
+        },
+        {
+          "title": "Biz sentiment improves on robust semiconductor, cosmetics exports in South Korea - Investment Guru India",
+          "description": "Biz sentiment improves on robust semiconductor, cosmetics exports in South Korea&nbsp;&nbsp; Investment Guru India",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcGZuQUdKQnRjWnM1bW9vNmgtNkU5MWlrRVNvZ0ZsN1dfYjU0dkMtZHZMS1pzZUoycF9Dbmo0a2tXSHkyNzdhTXlZVHZoNzdNci1OOFBzcXo4ZkF3M2tTUVd4Y29kWkVnRE1yQU9GUE9xWFRVOG9SY3VTdmdBTk9VWkstSi1TQmlOUFhkV0ZRRjNvZldUVE95LXlWckNZNXloNWVzTUNPVHo3MHdMeWtIbi1tS0JuYjVkTHVXUkFKdm00ZzcxNU9J?oc=5",
+          "pubDate": "2026-09-27T04:07:46.000Z",
+          "source": "Investment Guru India"
+        },
+        {
+          "title": "Linde deepens its India semiconductor footprint, locks in Sanand land parcel - The Economic Times",
+          "description": "Linde deepens its India semiconductor footprint, locks in Sanand land parcel&nbsp;&nbsp; The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNRkJTT1k5RVJNUkFXd1RWUGloMEppOWFZUEtINml5ZHpCbDZ6aWh5bXBGcFVDY3dmS3g3UWhPa0NYUTB5SmQzcF9DVENWOHIwS2NSWlVCOWpIQ2N3dDBGTzltRU91TUQwS1ZMWnpyYkFKeW40N3lEcmh0OFVDeTdiOVY4elN4azFPemZjS3FqNmQ4ejV3R2V5R2xXTE5udWt6amlqbUwtbDBZaG9sSDlMbGtQUzRfUjNPUm53NnZONDVDUHlUWWkxMmN2T05MeXBDeXc0alZVYnQzbGZKYVVoLWdlc9IB4wFBVV95cUxNRkJTT1k5RVJNUkFXd1RWUGloMEppOWFZUEtINml5ZHpCbDZ6aWh5bXBGcFVDY3dmS3g3UWhPa0NYUTB5SmQzcF9DVENWOHIwS2NSWlVCOWpIQ2N3dDBGTzltRU91TUQwS1ZMWnpyYkFKeW40N3lEcmh0OFVDeTdiOVY4elN4azFPemZjS3FqNmQ4ejV3R2V5R2xXTE5udWt6amlqbUwtbDBZaG9sSDlMbGtQUzRfUjNPUm53NnZONDVDUHlUWWkxMmN2T05MeXBDeXc0alZVYnQzbGZKYVVoLWdlcw?oc=5",
+          "pubDate": "2026-09-28T00:30:00.000Z",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Jefferies downgrades Apple to Underperform on supply chain risks - scanx.trade",
+          "description": "Jefferies downgrades Apple to Underperform on supply chain risks&nbsp;&nbsp; scanx.trade",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQeFhTUTg4QUpna1hrd0RqYnU2UHhaSEpqYXAtWFp0Mmo5bDl2YnJlaGtLNFRJUDJNaUlZX0tzczVjNjN4VU5SbklZbGJVeEdudWhqU2VJMUFFV2lqeDY3N3o3VENUNWRDbnk2TXpsS2ozd3BvQ3RkUlF6dG5hMlJyLUxRd0FHTjllaXJqUDhUREx6VV80QUNRbnVkR3ZkUERId1FrT1NENGhQTFlSSUhoVHNTT3BZcE9qemc?oc=5",
+          "pubDate": "2026-09-27T10:49:54.000Z",
+          "source": "scanx.trade"
         },
         {
           "title": "MOFCOM’s U.S. and Americas Department head briefed",
@@ -126,233 +956,95 @@
           "pubDate": "2026-09-28T01:02:28.000Z",
           "source": "金十数据",
           "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【报道：台积电2纳米芯片月产能到年底料达到12万片】",
-      "summary_cn": "【报道：台积电2纳米芯片月产能到年底料达到12万片】金十数据9月28日讯，媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(20)",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "台积电2纳米芯片月产能到年底料达到12万片"
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "A股直接标的有限",
-      "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】",
-      "description": "【报道：台积电2纳米芯片月产能到年底料达到12万片】金十数据9月28日讯，媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
-      "pubDate": "2026-09-28T01:20:13.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1g8ruxj",
-      "eventTitle": "【报道：台积电2纳米芯片月产能到年底料达到12万片】",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
+        },
         {
-          "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】",
-          "description": "【报道：台积电2纳米芯片月产能到年底料达到12万片】金十数据9月28日讯，媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+          "title": "At the open, China's main futures front-month cont",
+          "description": "At the open, China's main futures front-month contracts were mixed with more winners than losers. Asphalt led gains, up nearly 4%; methanol and benzene rose about 3%; fuel oil, SC crude and low-sulfur fuel oil (LU) advanced over 2%; LPG and propylene gained close to 2%. On the downside, Shanghai silver fell more than 3%; lithium carbonate slid about 2%; live hogs, red dates, platinum, coking coal, Shanghai gold and glass each declined over 1%.",
           "link": "",
-          "pubDate": "2026-09-28T01:20:13.000Z",
+          "pubDate": "2026-09-28T01:00:11.000Z",
           "source": "金十数据",
           "sourceType": "direct_api"
+        },
+        {
+          "title": "Industry sources told local media TSMC is accelera",
+          "description": "Industry sources told local media TSMC is accelerating expansion of 2nm capacity after major clients — Apple, NVIDIA, AMD, Qualcomm and MediaTek — boosted orders by about 10–20%. Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000. TSMC’s original 2027 2nm capacity target is now expected to be met ahead of schedule.",
+          "guessedSector": "半导体",
+          "pubDate": "2026-09-28T01:20:20.000Z",
+          "source": "金十数据",
+          "link": "",
+          "eventId": "evt_3s0kup",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "澜起科技(688008)",
-      "notes": "AI研判:同意关键词预判；DDR5 RCD05量产，利好AI服务器",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [
-        "澜起科技"
-      ],
-      "reasoning": [
-        "同意关键词预判",
-        "DDR5 RCD05量产，利好AI服务器"
-      ],
-      "evidence": [
-        "DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产"
-      ],
-      "confidence_score": 0.9,
-      "uncertainty": "量产对业绩贡献待披露",
-      "title": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
-      "description": "",
-      "pubDate": "2026-09-28T00:19:59.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9722847.d.html",
-      "eventId": "evt_112i5k0",
-      "eventTitle": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
+      "title_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "summary_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+      "pubDate": "2026-09-28T00:45:00.000Z",
+      "source": "finance.sina.cn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
+      "eventId": "evt_102yujn",
+      "eventTitle": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
       "eventSources": [
-        "新浪财经",
-        "华尔街见闻"
+        "黄金网",
+        "finance.sina.cn"
       ],
       "sourceCount": 2,
       "relatedLinks": [
-        "https://wallstreetcn.com/articles/3171131"
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5"
       ],
       "eventMembers": [
         {
-          "title": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9722847.d.html",
-          "pubDate": "2026-09-28T00:19:59.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
+          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播 - 黄金网",
+          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5",
+          "pubDate": "2026-09-28T00:51:03.000Z",
+          "source": "黄金网"
         },
         {
-          "title": "澜起科技成功量产DDR5第五子代RCD芯片",
-          "description": "澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
-          "link": "https://wallstreetcn.com/articles/3171131",
-          "pubDate": "2026-09-28T00:35:01.000Z",
-          "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
+          "pubDate": "2026-09-28T00:45:00.000Z",
+          "source": "finance.sina.cn"
         }
       ]
     },
     {
-      "title_cn": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:修正：与[2]重复，影响宜为中",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "修正：与[2]重复，影响宜为中"
-      ],
-      "evidence": [
-        "台积电2纳米芯片月产能到年底料达到12万片"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "重复新闻，勿重复计价",
-      "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
-      "description": "",
-      "pubDate": "2026-09-28T01:19:00.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initiwim9644587.d.html",
-      "eventId": "evt_1ap025m",
-      "eventTitle": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initiwim9644587.d.html",
-          "pubDate": "2026-09-28T01:19:00.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:同意关键词预判；AI与自主可控双主线高景气",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "AI与自主可控双主线高景气"
-      ],
-      "evidence": [
-        "预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气"
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "券商预测，非实际业绩",
-      "title": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
-      "description": "",
-      "pubDate": "2026-09-28T00:14:34.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2947097.d.html",
-      "eventId": "evt_1q75jvv",
-      "eventTitle": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [
-        "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2937970.d.html"
-      ],
-      "eventMembers": [
-        {
-          "title": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2947097.d.html",
-          "pubDate": "2026-09-28T00:14:34.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "【中信证券：预计26Q3电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券研报称，预计26Q3电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长，静待利润端改签；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计Q3业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026Q4及2027年，我们认为电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。我们继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2937970.d.html",
-          "pubDate": "2026-09-27T23:57:52.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "纽约黄金期货跌破4250美元/盎司，下跌",
-      "summary_cn": "纽约黄金期货跌破4250美元/盎司，日内下跌1.65%。纽约白银期货日内下跌逾3.00%，至62.86美元/盎司。",
+      "title_cn": "New York 黄金 futures slipped below $4,250/oz, dow",
+      "summary_cn": "New York 黄金 futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
       "category": "黄金",
-      "direction": "利空",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:金价单日跌1.65%，压制金矿股；银价跌3%，贵金属整体承压",
-      "sentiment": "利空",
-      "market_impact": "中",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "金价单日跌1.65%，压制金矿股",
-        "银价跌3%，贵金属整体承压"
-      ],
-      "evidence": [
-        "New York gold futures slipped below $4,250/oz, down 1.65% on the day."
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "单日波动是否延续待观察",
-      "title": "纽约黄金期货跌破4250美元/盎司，下跌",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "New York gold futures slipped below $4,250/oz, dow",
       "description": "New York gold futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
       "pubDate": "2026-09-28T01:13:02.000Z",
       "source": "金十数据",
@@ -376,75 +1068,26 @@
       ]
     },
     {
-      "title_cn": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
-      "summary_cn": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
-      "category": "黄金",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:收益率上行下金价仍稳健；长债企稳反转或利好金价",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "收益率上行下金价仍稳健",
-        "长债企稳反转或利好金价"
-      ],
-      "evidence": [
-        "金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "属观点评论，非实质数据",
-      "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
-      "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
-      "pubDate": "2026-09-28T01:00:41.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_nqizt7",
-      "eventTitle": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
-          "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
-          "guessedSector": "黄金",
-          "pubDate": "2026-09-28T01:00:41.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_nqizt7",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
       "title_cn": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
       "summary_cn": "",
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:同意关键词预判；无明确标的和具体数据",
+      "notes": "评分引擎:传闻·中性(10)",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "同意关键词预判",
-        "无明确标的和具体数据"
+        "传闻信号·中性(±10分)"
       ],
       "evidence": [
-        "AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线"
+        "有望"
       ],
-      "confidence_score": 0.7,
-      "uncertainty": "未披露具体企业/技术路线",
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
       "description": "",
       "pubDate": "2026-09-28T01:12:39.000Z",
@@ -461,86 +1104,46 @@
         {
           "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
           "description": "",
-          "link": "https://www.cls.cn/detail/2493668",
+          "guessedSector": "半导体",
           "pubDate": "2026-09-28T01:12:39.000Z",
           "source": "财联社",
-          "sourceType": "direct_api"
+          "link": "https://www.cls.cn/detail/2493668",
+          "eventId": "evt_1xtm9k8",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "summary_cn": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "AI研判:十部门规划，修正中性预判为政策利好",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "十部门规划，修正中性预判为政策利好"
-      ],
-      "evidence": [
-        "创新药产业规模年均增速将超20%！未来五年医药工业这样发展"
-      ],
-      "confidence_score": 0.75,
-      "uncertainty": "规划落地节奏与细则待明确",
-      "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
-      "pubDate": "2026-09-27T23:41:55.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
-      "eventId": "evt_cfi4w1",
-      "eventTitle": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-          "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
-          "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
-          "pubDate": "2026-09-27T23:41:55.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "title_cn": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
       "summary_cn": "",
       "category": "半导体",
       "direction": "利好",
-      "impact": "中",
+      "impact": "极高",
       "certainty": "高",
-      "time_window": "中期",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:修正：阿里全栈AI方案提振算力；关键词中性偏保守",
+      "notes": "评分引擎:业绩·利好(180)+技术·利好(60)",
       "sentiment": "利好",
-      "market_impact": "中",
+      "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "修正：阿里全栈AI方案提振算力",
-        "关键词中性偏保守"
+        "业绩信号·利好(+180分)",
+        "技术信号·利好(+60分)"
       ],
       "evidence": [
-        "发布真武V900及磐久AL64/AL144超节点"
+        "翻倍",
+        "突破"
       ],
-      "confidence_score": 0.75,
-      "uncertainty": "A股供应链受益程度待验证",
-      "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
       "description": "",
-      "pubDate": "2026-09-28T00:11:09.000Z",
+      "pubDate": "2026-09-27T23:13:33.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
-      "eventId": "evt_1uc95le",
-      "eventTitle": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
+      "eventId": "evt_oas76o",
+      "eventTitle": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
       "eventSources": [
         "新浪财经"
       ],
@@ -548,38 +1151,126 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+          "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
-          "pubDate": "2026-09-28T00:11:09.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
+          "pubDate": "2026-09-27T23:13:33.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
         }
       ]
     },
     {
-      "title_cn": "上海黄金交易所黄金T+D早盘下跌1.37%",
-      "summary_cn": "9月28日（周一）早盘，上海黄金交易所黄金T+D下跌1.37%，至914.41元/克。上海黄金交易所白银T+D下跌1.70%，至15,369.0元/千克。",
-      "category": "黄金",
-      "direction": "利空",
-      "impact": "中",
+      "title_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "summary_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:上金所金T+D跌1.37%；白银T+D跌1.70%，情绪偏弱",
-      "sentiment": "利空",
-      "market_impact": "中",
+      "notes": "评分引擎:扩产·利好(40)",
+      "sentiment": "利好",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "上金所金T+D跌1.37%",
-        "白银T+D跌1.70%，情绪偏弱"
+        "扩产信号·利好(+40分)"
       ],
       "evidence": [
-        "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram."
+        "量产"
       ],
-      "confidence_score": 0.85,
-      "uncertainty": "国内盘跌幅小于3%，属温和回调",
-      "title": "上海黄金交易所黄金T+D早盘下跌1.37%",
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
+      "pubDate": "2026-09-27T23:20:00.000Z",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
+      "eventId": "evt_1im0u7d",
+      "eventTitle": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+          "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
+          "pubDate": "2026-09-27T23:20:00.000Z",
+          "source": "手机新浪网"
+        }
+      ]
+    },
+    {
+      "title_cn": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "summary_cn": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+      "pubDate": "2026-09-28T00:07:00.000Z",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
+      "eventId": "evt_glzscu",
+      "eventTitle": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "eventSources": [
+        "电子工程专辑",
+        "东方财富"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "http://finance.eastmoney.com/news/1350,202609283884566348.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+          "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
+          "pubDate": "2026-09-28T00:07:00.000Z",
+          "source": "电子工程专辑"
+        },
+        {
+          "title": "国际金融要情 |（周一 2026.9.28）",
+          "description": "2026.9.27–10.3本周关键点国际：9月28日（周一）印度金融市场将迎来全国银行业罢工印度联合银行工会（UFBU）将发起为期三天的全国银行业总罢工，公共领域金融机构与支票清算系统面临服务中断。9月29日（周二）澳洲联储公布利率决议，美欧多位央行官员发表讲话澳洲联储公布最新利率决议及政策声明，市场聚焦其对通胀黏性与劳动力市场韧性的评估。",
+          "link": "http://finance.eastmoney.com/news/1350,202609283884566348.html",
+          "pubDate": "2026-09-27T23:00:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in earl",
+      "summary_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai 黄金 Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
       "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
       "pubDate": "2026-09-28T01:00:41.000Z",
       "source": "金十数据",
@@ -595,13 +1286,10 @@
         {
           "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
           "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
-          "guessedSector": "黄金",
+          "link": "",
           "pubDate": "2026-09-28T01:00:41.000Z",
           "source": "金十数据",
-          "link": "",
-          "eventId": "evt_1dzwbtf",
-          "sourceCount": 1,
-          "archived": true
+          "sourceType": "direct_api"
         }
       ]
     },
@@ -610,22 +1298,22 @@
       "summary_cn": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近",
       "category": "创新药",
       "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "长期",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:论坛观点，产业化窗口期；修正为题材级",
+      "notes": "评分引擎:技术·利好(60)",
       "sentiment": "利好",
-      "market_impact": "中",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "论坛观点，产业化窗口期；修正为题材级"
+        "技术信号·利好(+60分)"
       ],
       "evidence": [
-        "植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期"
+        "突破"
       ],
-      "confidence_score": 0.55,
-      "uncertainty": "仅为专家观点，无落地订单",
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "植入式脑机接口：从临床突破迈向产业化落地",
       "description": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近日举办的2026国际生物医药产业创新北京论坛上，与会专家认为，随着临床证据持续积累、国产系统加快迭代、产学研医平台落地，植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期。",
       "pubDate": "2026-09-27T23:48:16.000Z",
@@ -650,70 +1338,22 @@
       ]
     },
     {
-      "title_cn": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "长期",
-      "tickers": "—",
-      "notes": "AI研判:修正：谈判探索阶段，A股无直接标的",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "修正：谈判探索阶段，A股无直接标的"
-      ],
-      "evidence": [
-        "SK海力士正在与英特尔讨论首次在美国本土制造内存芯片"
-      ],
-      "confidence_score": 0.65,
-      "uncertainty": "是否合资及产品未定",
-      "title": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
-      "description": "",
-      "pubDate": "2026-09-28T00:40:40.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9741315.d.html",
-      "eventId": "evt_9f7rag",
-      "eventTitle": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9741315.d.html",
-          "pubDate": "2026-09-28T00:40:40.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
       "title_cn": "华泰证券：配置重点或应转向盈利确定性较高方向",
       "summary_cn": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于",
       "category": "光模块",
       "direction": "中性",
       "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。"
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "券商策略建议，非光模块订单或业绩硬催化",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "华泰证券：配置重点或应转向盈利确定性较高方向",
       "description": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向。关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。",
       "pubDate": "2026-09-28T00:31:51.000Z",
@@ -741,25 +1381,19 @@
       "title_cn": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
       "summary_cn": "",
       "category": "创新药",
-      "direction": "利好",
+      "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:II期首例入组给药，临床推进",
-      "sentiment": "利好",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "亿帆医药"
-      ],
-      "reasoning": [
-        "II期首例入组给药，临床推进"
-      ],
-      "evidence": [
-        "已成功完成首例参与者入组并给药"
-      ],
-      "confidence_score": 0.65,
-      "uncertainty": "仅首例入组，距疗效数据仍远",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
       "description": "",
       "pubDate": "2026-09-28T01:00:48.000Z",
@@ -784,117 +1418,28 @@
       ]
     },
     {
-      "title_cn": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "AI研判:重仓半导体基金净值突出；产业重估转入盈利兑现",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "重仓半导体基金净值突出",
-        "产业重估转入盈利兑现"
-      ],
-      "evidence": [
-        "重仓光通信、半导体等方向的基金净值表现尤为突出。"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "属资金面利好，非订单或业绩实证",
-      "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "description": "",
-      "pubDate": "2026-09-27T23:13:33.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
-      "eventId": "evt_oas76o",
-      "eventTitle": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
-          "pubDate": "2026-09-27T23:13:33.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "AI研判:同意关键词预判；科技低估值且外部扰动消退",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "科技低估值且外部扰动消退"
-      ],
-      "evidence": [
-        "科技成为真正的赔率方向"
-      ],
-      "confidence_score": 0.75,
-      "uncertainty": "市场风险偏好变化",
-      "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "description": "",
-      "pubDate": "2026-09-27T23:37:16.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
-      "eventId": "evt_1uwedrh",
-      "eventTitle": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
-          "pubDate": "2026-09-27T23:37:16.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
       "title_cn": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
       "summary_cn": "",
       "category": "黄金",
-      "direction": "利好",
-      "impact": "中",
+      "direction": "利空",
+      "impact": "极高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:金价回落刺激金饰消费；双节促销迎消费旺季",
-      "sentiment": "利好",
-      "market_impact": "中",
+      "notes": "评分引擎:价格·利空(60)+行情·利空(36·板块行情走弱)",
+      "sentiment": "利空",
+      "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "金价回落刺激金饰消费",
-        "双节促销迎消费旺季"
+        "价格信号·利空(-60分)",
+        "行情信号·利空(-36分·板块行情走弱)"
       ],
       "evidence": [
-        "主流品牌足金零售价回落至约1290元/克附近"
+        "跌超",
+        "下跌"
       ],
-      "confidence_score": 0.75,
-      "uncertainty": "销量兑现程度待验证",
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
       "description": "",
       "pubDate": "2026-09-27T23:09:49.000Z",
@@ -930,34 +1475,33 @@
       ]
     },
     {
-      "title_cn": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "title_cn": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
       "summary_cn": "",
       "category": "半导体",
-      "direction": "利空",
-      "impact": "低",
+      "direction": "利好",
+      "impact": "中",
       "certainty": "中",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:医药基金霸榜，科技资金分流；半导体主线短期退潮",
-      "sentiment": "利空",
-      "market_impact": "低",
+      "notes": "评分引擎:行情·利好(15·板块行情上涨)",
+      "sentiment": "利好",
+      "market_impact": "中",
       "affected_companies": [],
       "reasoning": [
-        "医药基金霸榜，科技资金分流",
-        "半导体主线短期退潮"
+        "行情信号·利好(+15分·板块行情上涨)"
       ],
       "evidence": [
-        "近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。"
+        "反弹"
       ],
       "confidence_score": 0.6,
-      "uncertainty": "仅基金排名信号，无半导体基本面变化",
-      "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
       "description": "",
-      "pubDate": "2026-09-27T23:26:19.000Z",
+      "pubDate": "2026-09-27T23:37:16.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
-      "eventId": "evt_1rv90cy",
-      "eventTitle": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
+      "eventId": "evt_1uwedrh",
+      "eventTitle": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
       "eventSources": [
         "新浪财经"
       ],
@@ -965,102 +1509,90 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+          "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
-          "pubDate": "2026-09-27T23:26:19.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
+          "pubDate": "2026-09-27T23:37:16.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
         }
       ]
     },
     {
-      "title_cn": "安徽加速推进科产融合 创新链对接产业链",
-      "summary_cn": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析",
-      "category": "半导体",
+      "title_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "summary_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+      "category": "创新药",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
-      "time_window": "长期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:同意关键词预判；区域科产融合，无直接业绩",
+      "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判",
-        "区域科产融合，无直接业绩"
-      ],
-      "evidence": [
-        "生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "相关公司是否上市未明",
-      "title": "安徽加速推进科产融合 创新链对接产业链",
-      "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
-      "pubDate": "2026-09-27T22:08:08.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1355,202609283884559192.html",
-      "eventId": "evt_4viff1",
-      "eventTitle": "安徽加速推进科产融合 创新链对接产业链",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+      "pubDate": "2026-09-27T23:03:00.000Z",
+      "source": "이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
+      "eventId": "evt_1exv7wl",
+      "eventTitle": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
       "eventSources": [
-        "东方财富"
+        "이투데이"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "安徽加速推进科产融合 创新链对接产业链",
-          "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
-          "link": "http://finance.eastmoney.com/news/1355,202609283884559192.html",
-          "pubDate": "2026-09-27T22:08:08.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
+          "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+          "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
+          "pubDate": "2026-09-27T23:03:00.000Z",
+          "source": "이투데이"
         }
       ]
     },
     {
-      "title_cn": "华尔街见闻早餐 | 2026年9月28日",
-      "summary_cn": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机",
-      "category": "半导体",
-      "direction": "分化",
+      "title_cn": "黄金 价格 预测: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
+      "summary_cn": "黄金 价格 预测: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE&nbsp;&nbsp; FXEmpire",
+      "category": "黄金",
+      "direction": "中性",
       "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:算力芯片扩容利好；夹杂地缘与宏观变量",
-      "sentiment": "分化",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "算力芯片扩容利好",
-        "夹杂地缘与宏观变量"
-      ],
-      "evidence": [
-        "马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。"
-      ],
-      "confidence_score": 0.5,
-      "uncertainty": "早餐汇总多条信息，半导体权重有限",
-      "title": "华尔街见闻早餐 | 2026年9月28日",
-      "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
-      "pubDate": "2026-09-27T23:05:46.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3171102",
-      "eventId": "evt_kxx2ds",
-      "eventTitle": "华尔街见闻早餐 | 2026年9月28日",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
+      "description": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE&nbsp;&nbsp; FXEmpire",
+      "pubDate": "2026-09-27T23:20:36.000Z",
+      "source": "FXEmpire",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWdvR1hhS3hySWsxdjVPVlExdVBsTHlDR3VvX1k3Z2JUdkJzMUFsN3JkQmhQMmdBQ0Q5TFVTdGpiUzRDOU1qS1FtUVlYdHp6eFB5ZFE2R1BJQ0xtaTh5WDZEcjhRR3NkaGExaDgtVEJ2c1F0d0gyTzZFdng1YmF3RHVQZEtJY0hTbmJPSGZpSHVVMEpWd2RuSVY0QTd1ZllnZXlad0RQd2Q4Rm1fSlhOMGVra1M2Y2t0U3R1MGtzODRoejhVckZILUxB?oc=5",
+      "eventId": "evt_1ojbgee",
+      "eventTitle": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
       "eventSources": [
-        "华尔街见闻"
+        "FXEmpire"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "华尔街见闻早餐 | 2026年9月28日",
-          "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
-          "link": "https://wallstreetcn.com/articles/3171102",
-          "pubDate": "2026-09-27T23:05:46.000Z",
-          "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "title": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
+          "description": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE&nbsp;&nbsp; FXEmpire",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWdvR1hhS3hySWsxdjVPVlExdVBsTHlDR3VvX1k3Z2JUdkJzMUFsN3JkQmhQMmdBQ0Q5TFVTdGpiUzRDOU1qS1FtUVlYdHp6eFB5ZFE2R1BJQ0xtaTh5WDZEcjhRR3NkaGExaDgtVEJ2c1F0d0gyTzZFdng1YmF3RHVQZEtJY0hTbmJPSGZpSHVVMEpWd2RuSVY0QTd1ZllnZXlad0RQd2Q4Rm1fSlhOMGVra1M2Y2t0U3R1MGtzODRoejhVckZILUxB?oc=5",
+          "pubDate": "2026-09-27T23:20:36.000Z",
+          "source": "FXEmpire"
         }
       ]
     },
@@ -1070,21 +1602,17 @@
       "category": "光模块",
       "direction": "中性",
       "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头"
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "与上条观点重复，无新增信息",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
       "description": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
       "pubDate": "2026-09-27T23:49:09.000Z",
@@ -1109,33 +1637,69 @@
       ]
     },
     {
-      "title_cn": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
-      "summary_cn": "",
-      "category": "光模块",
+      "title_cn": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "summary_cn": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业",
+      "category": "创新药",
       "direction": "中性",
       "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
+      "pubDate": "2026-09-27T23:41:55.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
+      "eventId": "evt_cfi4w1",
+      "eventTitle": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "eventSources": [
+        "东方财富"
       ],
-      "evidence": [
-        "科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头"
-      ],
-      "confidence_score": 0.85,
-      "uncertainty": "策略配置建议，未指定具体光模块标的",
-      "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+          "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
+          "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
+          "pubDate": "2026-09-27T23:41:55.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
       "description": "",
-      "pubDate": "2026-09-27T23:45:56.000Z",
+      "pubDate": "2026-09-28T00:11:09.000Z",
       "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
-      "eventId": "evt_1sgzusb",
-      "eventTitle": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
+      "eventId": "evt_1uc95le",
+      "eventTitle": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
       "eventSources": [
         "新浪财经"
       ],
@@ -1143,10 +1707,10 @@
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+          "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
-          "pubDate": "2026-09-27T23:45:56.000Z",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
+          "pubDate": "2026-09-28T00:11:09.000Z",
           "source": "新浪财经",
           "sourceType": "direct_api"
         }
@@ -1156,23 +1720,19 @@
       "title_cn": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
       "summary_cn": "",
       "category": "创新药",
-      "direction": "利好",
+      "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:Ia期首例给药，研发里程碑",
-      "sentiment": "利好",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "Ia期首例给药，研发里程碑"
-      ],
-      "evidence": [
-        "首名患者已于2026年9月24日在中国接受首次给药治疗"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "Ia期极早期，尚无安全性数据",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
       "description": "",
       "pubDate": "2026-09-28T00:02:17.000Z",
@@ -1197,28 +1757,229 @@
       ]
     },
     {
+      "title_cn": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "description": "",
+      "pubDate": "2026-09-27T23:45:56.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
+      "eventId": "evt_1sgzusb",
+      "eventTitle": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
+          "pubDate": "2026-09-27T23:45:56.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "description": "",
+      "pubDate": "2026-09-27T23:26:19.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
+      "eventId": "evt_1rv90cy",
+      "eventTitle": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
+          "pubDate": "2026-09-27T23:26:19.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(10)",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "传闻信号·中性(±10分)"
+      ],
+      "evidence": [
+        "有望"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
+      "description": "",
+      "pubDate": "2026-09-27T23:12:12.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2915572.d.html",
+      "eventId": "evt_18zjp7q",
+      "eventTitle": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2915572.d.html",
+          "pubDate": "2026-09-27T23:12:12.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
+      "summary_cn": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心&nbsp;&nbsp; 朝鮮日報中文版",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:政策·分化(50·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "政策信号·分化(±50分·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)"
+      ],
+      "evidence": [
+        "制裁"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
+      "description": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心&nbsp;&nbsp; 朝鮮日報中文版",
+      "pubDate": "2026-09-27T21:50:03.000Z",
+      "source": "朝鮮日報中文版",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNqOFh3cmNYQTlpRnIxdzJ4X1VHdTZXZGl6eFNFYXVVMWZObHpUYm5TXzBWLXRITzl4djBNaEpLb2lMbGJFaElNZlpPSF9Zc2p1Q1pkVzdHdjBqT2NPRHdSQTZUQUpndjFpREtWOHAwM1VWVnVaSC02N1FFZGZFQ08zRk16bS1KNzdEOW1WMC13VUxId1g4N2l0S1ZMWmRQ?oc=5",
+      "eventId": "evt_1aylp1w",
+      "eventTitle": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
+      "eventSources": [
+        "朝鮮日報中文版"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
+          "description": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心&nbsp;&nbsp; 朝鮮日報中文版",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNqOFh3cmNYQTlpRnIxdzJ4X1VHdTZXZGl6eFNFYXVVMWZObHpUYm5TXzBWLXRITzl4djBNaEpLb2lMbGJFaElNZlpPSF9Zc2p1Q1pkVzdHdjBqT2NPRHdSQTZUQUpndjFpREtWOHAwM1VWVnVaSC02N1FFZGZFQ08zRk16bS1KNzdEOW1WMC13VUxId1g4N2l0S1ZMWmRQ?oc=5",
+          "pubDate": "2026-09-27T21:50:03.000Z",
+          "source": "朝鮮日報中文版"
+        }
+      ]
+    },
+    {
+      "title_cn": "安徽加速推进科产融合 创新链对接产业链",
+      "summary_cn": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "安徽加速推进科产融合 创新链对接产业链",
+      "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
+      "pubDate": "2026-09-27T22:08:08.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1355,202609283884559192.html",
+      "eventId": "evt_4viff1",
+      "eventTitle": "安徽加速推进科产融合 创新链对接产业链",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "安徽加速推进科产融合 创新链对接产业链",
+          "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
+          "link": "http://finance.eastmoney.com/news/1355,202609283884559192.html",
+          "pubDate": "2026-09-27T22:08:08.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
       "title_cn": "【联亚药业(301569.SZ)开启申购 在CRO服务领域深耕多年】9月28日，联亚药业(301569.SZ)开启申购，发行价格为7元/股，申购上限为1.85万股，市盈率27.99倍，属于深交所，中金公司为其保荐机构。据招股书，公司是一家研发驱动型的高新技术企业，主要从事复杂药物制剂的研发、生产和销售。",
       "summary_cn": "",
       "category": "创新药",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "联亚药业"
-      ],
-      "reasoning": [
-        "同意关键词预判，新股申购事件"
-      ],
-      "evidence": [
-        "联亚药业(301569.SZ)开启申购，发行价格为7元/股"
-      ],
-      "confidence_score": 0.7,
-      "uncertainty": "未涉及板块基本面变化",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "【联亚药业(301569.SZ)开启申购 在CRO服务领域深耕多年】9月28日，联亚药业(301569.SZ)开启申购，发行价格为7元/股，申购上限为1.85万股，市盈率27.99倍，属于深交所，中金公司为其保荐机构。据招股书，公司是一家研发驱动型的高新技术企业，主要从事复杂药物制剂的研发、生产和销售。",
       "description": "",
       "pubDate": "2026-09-27T23:04:21.000Z",
@@ -1243,47 +2004,163 @@
       ]
     },
     {
-      "title_cn": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
-      "summary_cn": "",
-      "category": "黄金",
+      "title_cn": "华尔街见闻早餐 | 2026年9月28日",
+      "summary_cn": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机",
+      "category": "半导体",
       "direction": "利好",
       "impact": "低",
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:公募将黄金列为四季度方向；资金面预期偏正面",
+      "notes": "评分引擎:行情·利好(11·板块行情上涨)",
       "sentiment": "利好",
       "market_impact": "低",
       "affected_companies": [],
       "reasoning": [
-        "公募将黄金列为四季度方向",
-        "资金面预期偏正面"
+        "行情信号·利好(+11分·板块行情上涨)"
       ],
       "evidence": [
-        "科技、医药、消费、黄金等板块或成为四季度重点布局方向"
+        "反弹"
       ],
       "confidence_score": 0.6,
-      "uncertainty": "仅为策略观点，无实际资金数据",
-      "title": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
-      "description": "",
-      "pubDate": "2026-09-27T23:12:12.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2915572.d.html",
-      "eventId": "evt_18zjp7q",
-      "eventTitle": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "华尔街见闻早餐 | 2026年9月28日",
+      "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
+      "pubDate": "2026-09-27T23:05:46.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3171102",
+      "eventId": "evt_kxx2ds",
+      "eventTitle": "华尔街见闻早餐 | 2026年9月28日",
       "eventSources": [
-        "新浪财经"
+        "华尔街见闻"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "【公募前瞻四季度权益市场，A股结构性机会显现】三季度以来，A股市场整体处于震荡调整、波动加大的态势，风格再平衡特征有所显现。展望四季度，各类资产将如何演绎，市场结构性机会应如何把握？近期，汇添富基金、建信基金、华宝基金、汇丰晋信基金等多家公募机构陆续召开秋季投资策略会，围绕国内宏观经济走势、A股与港股市场前景、热门赛道布局等话题进行探讨。基金经理普遍认为，随着传统产业增速持续改善以及AI（人工智能）产业快速发展，A股整体盈利增速中枢有望持续上移，科技、医药、消费、黄金等板块或成为四季度重点布局方向。（证券日报）",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2915572.d.html",
-          "pubDate": "2026-09-27T23:12:12.000Z",
-          "source": "新浪财经",
+          "title": "华尔街见闻早餐 | 2026年9月28日",
+          "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
+          "link": "https://wallstreetcn.com/articles/3171102",
+          "pubDate": "2026-09-27T23:05:46.000Z",
+          "source": "华尔街见闻",
           "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - Bio制药 APAC",
+      "summary_cn": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231&nbsp;&nbsp; Bio制药 APAC",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - BioPharma APAC",
+      "description": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231&nbsp;&nbsp; BioPharma APAC",
+      "pubDate": "2026-09-27T20:59:09.000Z",
+      "source": "BioPharma APAC",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHRVdVAtdU95U1Q4dndCQVpPaTRuc2ZxZGZQdlpZZHlaeFItcGNCSHpTbVlJRXRtTGpZSUV2SnVmVS1NQTJTMFBoSkhmTUlHZGFqZURDSXVwTEs1ZjB6X3hZY3JHQnpYaS1vMUVXYlgxb2VvcWlETTAzTHg4MjZqUDQ5UVdKUFhUMHlHQ2pKaFc3bDRmWjBSNXdYTHdxaE53QjFISWdJTjVzUkVWN25wWGxLTE5XaHYwNE5jc3R5MkJQWkJJdVZES2RR?oc=5",
+      "eventId": "evt_vwqr3w",
+      "eventTitle": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - BioPharma APAC",
+      "eventSources": [
+        "BioPharma APAC"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - BioPharma APAC",
+          "description": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231&nbsp;&nbsp; BioPharma APAC",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHRVdVAtdU95U1Q4dndCQVpPaTRuc2ZxZGZQdlpZZHlaeFItcGNCSHpTbVlJRXRtTGpZSUV2SnVmVS1NQTJTMFBoSkhmTUlHZGFqZURDSXVwTEs1ZjB6X3hZY3JHQnpYaS1vMUVXYlgxb2VvcWlETTAzTHg4MjZqUDQ5UVdKUFhUMHlHQ2pKaFc3bDRmWjBSNXdYTHdxaE53QjFISWdJTjVzUkVWN25wWGxLTE5XaHYwNE5jc3R5MkJQWkJJdVZES2RR?oc=5",
+          "pubDate": "2026-09-27T20:59:09.000Z",
+          "source": "BioPharma APAC"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金 ends week lower at $4,285 - Kuwait Times",
+      "summary_cn": "黄金 ends week lower at $4,285&nbsp;&nbsp; Kuwait Times",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Gold ends week lower at $4,285 - Kuwait Times",
+      "description": "Gold ends week lower at $4,285&nbsp;&nbsp; Kuwait Times",
+      "pubDate": "2026-09-27T18:37:39.000Z",
+      "source": "Kuwait Times",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaFJmVlRNMEFud2hQSmZtU1Ywck9ZNlFtMmJaeW9wZU81MXNzdWNIYVR3amZlTWN4RVZFQ2JmRGdNdUxRcUE3MnZKTmEyV2VEVnJmaFFkZF93aDNCR1ZZWUpwZHdOU2kwY1BiOVU4LVgyRkJwQ0lTS3FoN1dpTkszVjVn0gGGAUFVX3lxTE5XMDFYMUVIY1R3R0tKNFg4cVBOdUtKM3lGUF90OGgtZzlEMlNtN1k1UjdFTzk5MnJkWGVhWGZaZnZNQWdZVkplYWo1R1piYk5LWkwwcExQRlBjV0J4NDREOTl4VGJRUVZPdklkVGFuYXEwb1pNWGRjUmtEdFRVdmNDWTJMQmRn?oc=5",
+      "eventId": "evt_yirtib",
+      "eventTitle": "Gold ends week lower at $4,285 - Kuwait Times",
+      "eventSources": [
+        "Kuwait Times"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "Gold ends week lower at $4,285 - Kuwait Times",
+          "description": "Gold ends week lower at $4,285&nbsp;&nbsp; Kuwait Times",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaFJmVlRNMEFud2hQSmZtU1Ywck9ZNlFtMmJaeW9wZU81MXNzdWNIYVR3amZlTWN4RVZFQ2JmRGdNdUxRcUE3MnZKTmEyV2VEVnJmaFFkZF93aDNCR1ZZWUpwZHdOU2kwY1BiOVU4LVgyRkJwQ0lTS3FoN1dpTkszVjVn0gGGAUFVX3lxTE5XMDFYMUVIY1R3R0tKNFg4cVBOdUtKM3lGUF90OGgtZzlEMlNtN1k1UjdFTzk5MnJkWGVhWGZaZnZNQWdZVkplYWo1R1piYk5LWkwwcExQRlBjV0J4NDREOTl4VGJRUVZPdklkVGFuYXEwb1pNWGRjUmtEdFRVdmNDWTJMQmRn?oc=5",
+          "pubDate": "2026-09-27T18:37:39.000Z",
+          "source": "Kuwait Times"
+        }
+      ]
+    },
+    {
+      "title_cn": "金价短期承压 - e南洋",
+      "summary_cn": "金价短期承压&nbsp;&nbsp; e南洋",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "金价短期承压 - e南洋",
+      "description": "金价短期承压&nbsp;&nbsp; e南洋",
+      "pubDate": "2026-09-27T16:00:00.000Z",
+      "source": "e南洋",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SdDNUbGRzZkVsa2hnNDRSY2FiR3BxM3dWeGozSGZKcGNBX2ZaT29NNlV1ZklzaWNwQ2FrcEtaQ1JiZlBYQ1R2TjByZ193TWY1QkRjOVhNNl9oM0JpcnN6OFFfQQ?oc=5",
+      "eventId": "evt_rsleo4",
+      "eventTitle": "金价短期承压 - e南洋",
+      "eventSources": [
+        "e南洋"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金价短期承压 - e南洋",
+          "description": "金价短期承压&nbsp;&nbsp; e南洋",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SdDNUbGRzZkVsa2hnNDRSY2FiR3BxM3dWeGozSGZKcGNBX2ZaT29NNlV1ZklzaWNwQ2FrcEtaQ1JiZlBYQ1R2TjByZ193TWY1QkRjOVhNNl9oM0JpcnN6OFFfQQ?oc=5",
+          "pubDate": "2026-09-27T16:00:00.000Z",
+          "source": "e南洋"
         }
       ]
     }
@@ -1293,25 +2170,25 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利好",
-      "news_count": 13,
-      "summary": "半导体板块13条新闻，方向以利好为主",
+      "news_count": 14,
+      "summary": "半导体板块14条新闻，方向以利好为主",
       "tickers": "澜起科技(688008)"
-    },
-    {
-      "name": "创新药",
-      "shock": "强",
-      "direction": "利好",
-      "news_count": 5,
-      "summary": "创新药板块5条新闻，方向以利好为主。关注：创新药产业规模年均增速将超20%！未来五年医药工业这样发展；近日，工业和信息化",
-      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "黄金",
       "shock": "强",
       "direction": "中性",
-      "news_count": 5,
-      "summary": "黄金板块5条新闻，方向以中性为主。关注：纽约黄金期货跌破4250美元/盎司，下跌；纽约黄金期货跌破4250美元/盎司，日",
+      "news_count": 10,
+      "summary": "黄金板块10条新闻，方向以中性为主。关注：【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国",
       "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
+      "name": "创新药",
+      "shock": "中",
+      "direction": "利好",
+      "news_count": 7,
+      "summary": "创新药板块7条新闻，方向以利好为主。关注：植入式脑机接口：从临床突破迈向产业化落地；【植入式脑机接口：从临床突破迈向产业",
+      "tickers": "百济神州、药明康德、恒瑞医药"
     },
     {
       "name": "光模块",
@@ -1323,25 +2200,29 @@
     }
   ],
   "keyPoints": [
-    "【半导体】台积电2nm月产能年底料达12万片，客户订单增10%-20%；澜起科技DDR5第五子代RCD05量产。",
-    "【半导体】重仓光通信、半导体基金净值领跑，近两年千余只基金收益翻倍、多只超500%",
-    "【半导体】马斯克称Colossus 2部署英伟达芯片年底或翻倍，算力链需求预期升温",
-    "【光模块】华泰证券建议科技股内部优先关注光通信、PCB及部分国产算力龙头，强调盈利能见度与估值消化",
-    "【光模块】该观点属策略配置建议，未披露光模块具体标的或订单数据",
-    "【创新药】十部门发布医药工业“十五五”规划，创新药产业规模年均增速将超20%"
+    "今日共抓取 34 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
+    "极高影响事件 4 条，高影响 5 条，利好方向 10 条。",
+    "板块概况：半导体(利好, 强冲击, 14条)、黄金(中性, 强冲击, 10条)、创新药(利好, 中冲击, 7条)、光模块(中性, 弱冲击, 3条)。",
+    "重点关注：【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）；美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版；植入式脑机接口：从临床突破迈向产业化落地。"
   ],
-  "marketSummary": "台积电2nm扩产提速、澜起DDR5新品量产，AI算力与自主可控景气预期升温。；当日半导体产业无新增基本面事件，动态集中于公募资金风格切换与AI算力扩张预期。；华泰证券策略建议关注光通信等盈利确定性方向，但无光模块个股订单或业绩硬催化。；政策端释放医药工业“十五五”高增速信号，企业端亿帆医药、和黄医药临床推进，脑机接口产业化预期升温，联亚药业启动申购。；金价与银价同步回调，但金饰零售因价格回落叠加双节促销进入消费旺季，公募亦将黄金列入四季度布局方向。",
-  "isAi": true,
+  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，34 条新闻经关键词引擎自动分析生成。",
+  "isAi": false,
   "sourceHealth": {
-    "level": "ok",
-    "issues": [],
-    "summary": "抓取正常(原始 556 条 / 当日 26 条 / 精选 26 条)",
+    "level": "degraded",
+    "issues": [
+      {
+        "code": "api-empty-source",
+        "level": "degraded",
+        "message": "API 源无数据: 财联社"
+      }
+    ],
+    "summary": "抓取降级:API 源无数据: 财联社",
     "counts": {
-      "fetched": 556,
-      "kept": 26,
-      "analyzed": 26,
-      "rssEnabled": false,
-      "rssOk": 0,
+      "fetched": 802,
+      "kept": 34,
+      "analyzed": 34,
+      "rssEnabled": true,
+      "rssOk": 43,
       "rssTotal": 43,
       "apiOk": 5,
       "apiTotal": 5
@@ -1349,33 +2230,103 @@
   },
   "fullNews": [
     {
-      "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
-      "description": "",
-      "guessedSector": "半导体",
-      "pubDate": "2026-09-28T01:12:39.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2493668",
-      "eventId": "evt_1xtm9k8",
+      "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
+      "description": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review]&nbsp;&nbsp; Shanghai Metals Market",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-28T00:33:00.000Z",
+      "source": "Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaGltdURqaHUwY1FmLVRfU2FzMEoweTh1ZElJTktCd1d6aXhHZzJVNGlHZ2YyVWZQQTVUMno3amdBOEYxbldMQmJOYWZabTh4SzEwYk5kcXRuRFdLSXFSYWdYWlMxVTU2RDRHem44bkVqVkNHdmlhWkRacTk5dDBtVXpNMml4Tmx3dU83U1BwOUl2QUNmanl6Zk1lQm9uSF9ZZXVOaThmSlE5VkFtTkNROGdiMXpyOFFDeVViQ0FNLUVvUFNDQ05xVmV0bVhsYllIM2hQNE1ORTFDazBBaFBPeTFHdXZRNnpucHBGWFo5NUUzSzkwV2tlRTk4b1Fsb2dZWU5IWExGZEJsYml1RnFCTDZzNjl2eWFCMGNIay1JZm9iQUZLcWZ0ck9uLXdlWkpQbTJWdmtBSVpqSXR3VEExcDVockhvQQ?oc=5",
+      "eventId": "evt_13oce1d",
+      "sourceCount": 49
+    },
+    {
+      "title": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - BioPharma APAC",
+      "description": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231&nbsp;&nbsp; BioPharma APAC",
+      "guessedSector": "创新药",
+      "pubDate": "2026-09-27T20:59:09.000Z",
+      "source": "BioPharma APAC",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHRVdVAtdU95U1Q4dndCQVpPaTRuc2ZxZGZQdlpZZHlaeFItcGNCSHpTbVlJRXRtTGpZSUV2SnVmVS1NQTJTMFBoSkhmTUlHZGFqZURDSXVwTEs1ZjB6X3hZY3JHQnpYaS1vMUVXYlgxb2VvcWlETTAzTHg4MjZqUDQ5UVdKUFhUMHlHQ2pKaFc3bDRmWjBSNXdYTHdxaE53QjFISWdJTjVzUkVWN25wWGxLTE5XaHYwNE5jc3R5MkJQWkJJdVZES2RR?oc=5",
+      "eventId": "evt_vwqr3w",
       "sourceCount": 1
     },
     {
-      "title": "Industry sources told local media TSMC is accelera",
-      "description": "Industry sources told local media TSMC is accelerating expansion of 2nm capacity after major clients — Apple, NVIDIA, AMD, Qualcomm and MediaTek — boosted orders by about 10–20%. Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000. TSMC’s original 2027 2nm capacity target is now expected to be met ahead of schedule.",
-      "guessedSector": "半导体",
-      "pubDate": "2026-09-28T01:20:20.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_3s0kup",
+      "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+      "guessedSector": "创新药",
+      "pubDate": "2026-09-27T23:03:00.000Z",
+      "source": "이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
+      "eventId": "evt_1exv7wl",
       "sourceCount": 1
     },
     {
-      "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】",
-      "description": "【报道：台积电2纳米芯片月产能到年底料达到12万片】金十数据9月28日讯，媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
+      "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-28T00:45:00.000Z",
+      "source": "finance.sina.cn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
+      "eventId": "evt_102yujn",
+      "sourceCount": 2
+    },
+    {
+      "title": "金价短期承压 - e南洋",
+      "description": "金价短期承压&nbsp;&nbsp; e南洋",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-27T16:00:00.000Z",
+      "source": "e南洋",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SdDNUbGRzZkVsa2hnNDRSY2FiR3BxM3dWeGozSGZKcGNBX2ZaT29NNlV1ZklzaWNwQ2FrcEtaQ1JiZlBYQ1R2TjByZ193TWY1QkRjOVhNNl9oM0JpcnN6OFFfQQ?oc=5",
+      "eventId": "evt_rsleo4",
+      "sourceCount": 1
+    },
+    {
+      "title": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
+      "description": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心&nbsp;&nbsp; 朝鮮日報中文版",
       "guessedSector": "半导体",
-      "pubDate": "2026-09-28T01:20:13.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1g8ruxj",
+      "pubDate": "2026-09-27T21:50:03.000Z",
+      "source": "朝鮮日報中文版",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQcGNqOFh3cmNYQTlpRnIxdzJ4X1VHdTZXZGl6eFNFYXVVMWZObHpUYm5TXzBWLXRITzl4djBNaEpLb2lMbGJFaElNZlpPSF9Zc2p1Q1pkVzdHdjBqT2NPRHdSQTZUQUpndjFpREtWOHAwM1VWVnVaSC02N1FFZGZFQ08zRk16bS1KNzdEOW1WMC13VUxId1g4N2l0S1ZMWmRQ?oc=5",
+      "eventId": "evt_1aylp1w",
+      "sourceCount": 1
+    },
+    {
+      "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-28T00:07:00.000Z",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
+      "eventId": "evt_glzscu",
+      "sourceCount": 2
+    },
+    {
+      "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-27T23:20:00.000Z",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
+      "eventId": "evt_1im0u7d",
+      "sourceCount": 1
+    },
+    {
+      "title": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE - FXEmpire",
+      "description": "Gold Price Forecast: 5% Yields and Strong Dollar Cap Rebound Ahead of PCE&nbsp;&nbsp; FXEmpire",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-27T23:20:36.000Z",
+      "source": "FXEmpire",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWdvR1hhS3hySWsxdjVPVlExdVBsTHlDR3VvX1k3Z2JUdkJzMUFsN3JkQmhQMmdBQ0Q5TFVTdGpiUzRDOU1qS1FtUVlYdHp6eFB5ZFE2R1BJQ0xtaTh5WDZEcjhRR3NkaGExaDgtVEJ2c1F0d0gyTzZFdng1YmF3RHVQZEtJY0hTbmJPSGZpSHVVMEpWd2RuSVY0QTd1ZllnZXlad0RQd2Q4Rm1fSlhOMGVra1M2Y2t0U3R1MGtzODRoejhVckZILUxB?oc=5",
+      "eventId": "evt_1ojbgee",
+      "sourceCount": 1
+    },
+    {
+      "title": "Gold ends week lower at $4,285 - Kuwait Times",
+      "description": "Gold ends week lower at $4,285&nbsp;&nbsp; Kuwait Times",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-27T18:37:39.000Z",
+      "source": "Kuwait Times",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNaFJmVlRNMEFud2hQSmZtU1Ywck9ZNlFtMmJaeW9wZU81MXNzdWNIYVR3amZlTWN4RVZFQ2JmRGdNdUxRcUE3MnZKTmEyV2VEVnJmaFFkZF93aDNCR1ZZWUpwZHdOU2kwY1BiOVU4LVgyRkJwQ0lTS3FoN1dpTkszVjVn0gGGAUFVX3lxTE5XMDFYMUVIY1R3R0tKNFg4cVBOdUtKM3lGUF90OGgtZzlEMlNtN1k1UjdFTzk5MnJkWGVhWGZaZnZNQWdZVkplYWo1R1piYk5LWkwwcExQRlBjV0J4NDREOTl4VGJRUVZPdklkVGFuYXEwb1pNWGRjUmtEdFRVdmNDWTJMQmRn?oc=5",
+      "eventId": "evt_yirtib",
       "sourceCount": 1
     },
     {
@@ -1386,6 +2337,26 @@
       "source": "金十数据",
       "link": "",
       "eventId": "evt_177etad",
+      "sourceCount": 1
+    },
+    {
+      "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
+      "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-28T01:00:41.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_nqizt7",
+      "sourceCount": 1
+    },
+    {
+      "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
+      "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-28T01:00:41.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1dzwbtf",
       "sourceCount": 1
     },
     {
@@ -1589,23 +2560,13 @@
       "sourceCount": 1
     },
     {
-      "title": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点",
-      "description": "尽管持续上行的美国长期收益率带来压力，金价依然表现稳健，美国长期国债价格企稳并反转的条件已经具备。点击查看...",
-      "guessedSector": "黄金",
-      "pubDate": "2026-09-28T01:00:41.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_nqizt7",
-      "sourceCount": 1
-    },
-    {
-      "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
-      "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
-      "guessedSector": "黄金",
-      "pubDate": "2026-09-28T01:00:41.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1dzwbtf",
+      "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-28T01:12:39.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2493668",
+      "eventId": "evt_1xtm9k8",
       "sourceCount": 1
     }
   ],
@@ -1829,9 +2790,9 @@
       "datasets": [
         {
           "data": [
-            15,
-            3,
-            7,
+            10,
+            1,
+            22,
             1
           ],
           "backgroundColor": [
@@ -1866,10 +2827,10 @@
       ],
       "matrix": {
         "半导体": {
-          "极高": 0,
-          "高": 3,
-          "中": 5,
-          "低": 5
+          "极高": 3,
+          "高": 4,
+          "中": 1,
+          "低": 6
         },
         "光模块": {
           "极高": 0,
@@ -1880,14 +2841,14 @@
         "创新药": {
           "极高": 0,
           "高": 1,
-          "中": 1,
-          "低": 3
+          "中": 0,
+          "低": 6
         },
         "黄金": {
-          "极高": 0,
+          "极高": 1,
           "高": 0,
-          "中": 4,
-          "低": 1
+          "中": 1,
+          "低": 8
         }
       },
       "hasData": true
@@ -1905,28 +2866,28 @@
           "data": [
             8,
             0,
-            4,
-            3
+            1,
+            1
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "利空",
           "data": [
-            1,
             0,
             0,
-            2
+            0,
+            1
           ],
           "backgroundColor": "#dc2626"
         },
         {
           "label": "中性",
           "data": [
+            5,
             3,
-            3,
-            1,
-            0
+            6,
+            8
           ],
           "backgroundColor": "#9ca0af"
         },
@@ -1946,20 +2907,17 @@
     "timeWindow": {
       "labels": [
         "短期",
-        "中期",
-        "长期"
+        "中期"
       ],
       "datasets": [
         {
           "data": [
-            12,
-            10,
-            4
+            9,
+            25
           ],
           "backgroundColor": [
             "#2563eb",
-            "#ea580c",
-            "#16a34a"
+            "#ea580c"
           ],
           "borderWidth": 0
         }
