@@ -1,7 +1,7 @@
 {
   "date": "20260928",
   "displayDate": "2026-09-28",
-  "generatedAt": "2026-09-28T01:23:41.008Z",
+  "generatedAt": "2026-09-28T01:26:23.784Z",
   "analyzed": [
     {
       "title_cn": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
@@ -10,22 +10,21 @@
       "direction": "利好",
       "impact": "极高",
       "certainty": "高",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:扩产·利好(60)+传闻·中性(15)",
+      "notes": "AI研判:美国本土化；核心制造转移",
       "sentiment": "利好",
       "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "扩产信号·利好(+60分)",
-        "传闻信号·中性(±15分)"
+        "美国本土化",
+        "核心制造转移"
       ],
       "evidence": [
-        "量产",
-        "计划"
+        "SK海力士正在与英特尔讨论首次在美国本土制造内存芯片"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "uncertainty": "谈判仍在探索阶段，具体未定",
       "title": "【封装满足不了美国，SK海力士考虑把内存制造也搬过去】SK海力士在美国的投资，可能正在跨过一条此前刻意保留的界线。 路透社9月16日援引三名知情人士称，SK海力士正在与英特尔讨论首次在美国本土制造内存芯片。其中一种方案，是租用英特尔位于俄亥俄州的部分晶圆厂；另一种更大胆的方案，则是SK海力士、英特尔以及希望锁定内存供应的大型云计算企业共同组建合资公司。谈判仍处于探索阶段，具体生产DRAM、NAND还是其他产品也没有确定。SK海力士随后强调，目前尚未决定与特定企业合作，也没有最终确定美国内存生产计划。 今年8月，SK海力士刚刚为印第安纳州工厂举行奠基仪式，总投资超过40亿美元，计划2029年下半年量产下一代HBM。这个项目被包装为首个“美国制造”HBM基地，但核心DRAM晶圆实际上仍然在韩国生产，再运到美国完成先进封装和测试。换句话说，美国拿到的是HBM产业链非常重要的一环，却还没有拿到SK海力士最核心的前道晶圆制造。 现在讨论俄亥俄项目，性质就不同了。 如果SK海力士真的把DRAM晶圆制造搬到美国，美国半导体本土化就将从“把最后几道关键工序放在美国”，进一步变成“把核心芯片本身也在美国制造”。（观察者网）",
       "description": "",
       "pubDate": "2026-09-28T00:40:40.000Z",
@@ -56,20 +55,21 @@
       "direction": "利好",
       "impact": "高",
       "certainty": "高",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:扩产·利好(40)",
+      "notes": "AI研判:产能超预期；需求增长",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "扩产信号·利好(+40分)"
+        "产能超预期",
+        "需求增长"
       ],
       "evidence": [
-        "扩建"
+        "台积电2纳米芯片的月产能到年底可能达到12万片"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "confidence_score": 0.9,
+      "uncertainty": "",
       "title": "【报道：台积电2纳米芯片月产能到年底料达到12万片】媒体援引业内消息报道称，随着苹果、英伟达、AMD、高通和联发科等主要客户增加订单10%-20%，台积电正在加快2纳米芯片产能扩建。报道称，台积电2纳米芯片的月产能到年底可能达到12万片，高于此前市场预估的9万至10万片。原订2027年2纳米芯片产能目标也将提前实现。",
       "description": "",
       "pubDate": "2026-09-28T01:19:00.000Z",
@@ -100,24 +100,21 @@
       "direction": "利好",
       "impact": "极高",
       "certainty": "高",
-      "time_window": "短期",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "评分引擎:政策·利好(50)+传闻·中性(10)+涨价·利好(50·供不应求/涨价,量价齐升利好)",
+      "notes": "AI研判:业绩高景气；AI驱动",
       "sentiment": "利好",
       "market_impact": "极高",
       "affected_companies": [],
       "reasoning": [
-        "政策信号·利好(+50分)",
-        "传闻信号·中性(±10分)",
-        "涨价信号·利好(+50分·供不应求/涨价,量价齐升利好)"
+        "业绩高景气",
+        "AI驱动"
       ],
       "evidence": [
-        "国产替代",
-        "有望",
-        "涨价"
+        "预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "uncertainty": "实际业绩可能不及预期",
       "title": "【中信证券：预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气】中信证券预计2026年三季度电子行业在AI趋势浪潮下整体业绩维持高景气：其中AI通胀方向最佳，PCB/CCL、存储、AI电源相关公司业绩表现强劲，此外受益于AI订单外溢的半导体制造/封测产业链整体订单趋势持续景气；其次自主可控方向趋势延续，半导体国产设备及零部件端订单快速增长、交付偏紧，下游算力荒持续背景下国产算力相关公司收入/订单保持跨越式增长；消费电子整体仍然需求平淡，其中有AI敞口、独立成长逻辑的中上游公司表现更优，面板行业有涨价逻辑的公司业绩更为强势。综合来看，预计三季度业绩表现相对亮眼的细分板块有PCB/CCL、存储原厂及利基存储设计、AI电源、CPU链、FAB龙头、设备龙头、合封存储的IC设计公司及新品放量公司等。展望2026年四季度及2027年，中信证券认为，电子行业投资主线仍将继续围绕“自主可控、AI算力”两大方向展开。一方面，国内算力芯片、晶圆制造、设备和先进封装正加速形成产业闭环，相关公司订单及业绩有望持续兑现；另一方面，AI服务器配套零部件需求景气，相关供应链公司业绩有望持续兑现。继续看好基本面强、业绩兑现度高且具备国产替代空间的细分方向。",
       "description": "",
       "pubDate": "2026-09-28T00:14:34.000Z",
@@ -152,6 +149,98 @@
       ]
     },
     {
+      "title_cn": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:AI需求升级；技术布局积极",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "AI需求升级",
+        "技术布局积极"
+      ],
+      "evidence": [
+        "AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
+      "description": "",
+      "pubDate": "2026-09-28T01:12:39.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2493668",
+      "eventId": "evt_1xtm9k8",
+      "eventTitle": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
+          "description": "",
+          "guessedSector": "半导体",
+          "pubDate": "2026-09-28T01:12:39.000Z",
+          "source": "财联社",
+          "link": "https://www.cls.cn/detail/2493668",
+          "eventId": "evt_1xtm9k8",
+          "sourceCount": 1,
+          "archived": true
+        }
+      ]
+    },
+    {
+      "title_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "summary_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:密集利好；AI催化",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "密集利好",
+        "AI催化"
+      ],
+      "evidence": [
+        "英伟达推进玻璃基板方案，国内量产进度领先海外"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "实际落地可能延迟",
+      "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
+      "pubDate": "2026-09-27T23:20:00.000Z",
+      "source": "手机新浪网",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
+      "eventId": "evt_1im0u7d",
+      "eventTitle": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
+          "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
+          "pubDate": "2026-09-27T23:20:00.000Z",
+          "source": "手机新浪网"
+        }
+      ]
+    },
+    {
       "title_cn": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
       "summary_cn": "",
       "category": "半导体",
@@ -160,20 +249,21 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "澜起科技(688008)",
-      "notes": "评分引擎:扩产·利好(40)",
+      "notes": "AI研判:成功量产；AI需求驱动",
       "sentiment": "利好",
       "market_impact": "高",
       "affected_companies": [
         "澜起科技"
       ],
       "reasoning": [
-        "扩产信号·利好(+40分)"
+        "成功量产",
+        "AI需求驱动"
       ],
       "evidence": [
-        "量产"
+        "澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "confidence_score": 0.95,
+      "uncertainty": "",
       "title": "【澜起科技成功量产DDR5第五子代RCD芯片】澜起科技今日宣布，其DDR5第五子代寄存时钟驱动器芯片（RCD05）已成功实现量产。该产品面向高性能DDR5 RDIMM内存模组，旨在满足数据中心、AI服务器等应用对高带宽、高可靠性内存系统日益增长的需求。",
       "description": "",
       "pubDate": "2026-09-28T00:19:59.000Z",
@@ -253,6 +343,707 @@
       ]
     },
     {
+      "title_cn": "华泰证券：配置重点或应转向盈利确定性较高方向",
+      "summary_cn": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "华泰证券：配置重点或应转向盈利确定性较高方向",
+      "description": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向。关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。",
+      "pubDate": "2026-09-28T00:31:51.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/11215,202609283884584086.html",
+      "eventId": "evt_k6unry",
+      "eventTitle": "华泰证券：配置重点或应转向盈利确定性较高方向",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "华泰证券：配置重点或应转向盈利确定性较高方向",
+          "description": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向。关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。",
+          "link": "http://stock.eastmoney.com/news/11215,202609283884584086.html",
+          "pubDate": "2026-09-28T00:31:51.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
+      "description": "",
+      "pubDate": "2026-09-28T01:00:48.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2983651.d.html",
+      "eventId": "evt_alvb53",
+      "eventTitle": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2983651.d.html",
+          "pubDate": "2026-09-28T01:00:48.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "New York 黄金 futures slipped below $4,250/oz, dow",
+      "summary_cn": "New York 黄金 futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "New York gold futures slipped below $4,250/oz, dow",
+      "description": "New York gold futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
+      "pubDate": "2026-09-28T01:13:02.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_177etad",
+      "eventTitle": "New York gold futures slipped below $4,250/oz, dow",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "New York gold futures slipped below $4,250/oz, dow",
+          "description": "New York gold futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
+          "link": "",
+          "pubDate": "2026-09-28T01:13:02.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:科技景气上行；基金表现突出",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "科技景气上行",
+        "基金表现突出"
+      ],
+      "evidence": [
+        "重仓光通信、半导体等方向的基金净值表现尤为突出。"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
+      "description": "",
+      "pubDate": "2026-09-27T23:13:33.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
+      "eventId": "evt_oas76o",
+      "eventTitle": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
+          "pubDate": "2026-09-27T23:13:33.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:基金资金转移；半导体退居二线",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "基金资金转移",
+        "半导体退居二线"
+      ],
+      "evidence": [
+        "在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "基金风格可能逆转",
+      "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "description": "",
+      "pubDate": "2026-09-27T23:26:19.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
+      "eventId": "evt_1rv90cy",
+      "eventTitle": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
+          "pubDate": "2026-09-27T23:26:19.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "植入式脑机接口：从临床突破迈向产业化落地",
+      "summary_cn": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近",
+      "category": "创新药",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(60)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "技术信号·利好(+60分)"
+      ],
+      "evidence": [
+        "突破"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "植入式脑机接口：从临床突破迈向产业化落地",
+      "description": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近日举办的2026国际生物医药产业创新北京论坛上，与会专家认为，随着临床证据持续积累、国产系统加快迭代、产学研医平台落地，植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期。",
+      "pubDate": "2026-09-27T23:48:16.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1355,202609283884552840.html",
+      "eventId": "evt_1xdyxh0",
+      "eventTitle": "植入式脑机接口：从临床突破迈向产业化落地",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "植入式脑机接口：从临床突破迈向产业化落地",
+          "description": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近日举办的2026国际生物医药产业创新北京论坛上，与会专家认为，随着临床证据持续积累、国产系统加快迭代、产学研医平台落地，植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期。",
+          "link": "http://finance.eastmoney.com/news/1355,202609283884552840.html",
+          "pubDate": "2026-09-27T23:48:16.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:科技股看好；估值低位",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "科技股看好",
+        "估值低位"
+      ],
+      "evidence": [
+        "存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "外部扰动可能持续",
+      "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
+      "description": "",
+      "pubDate": "2026-09-27T23:37:16.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
+      "eventId": "evt_1uwedrh",
+      "eventTitle": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
+          "pubDate": "2026-09-27T23:37:16.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "summary_cn": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:无实质内容",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "无实质内容"
+      ],
+      "evidence": [],
+      "confidence_score": 0.5,
+      "uncertainty": "信息不足",
+      "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+      "pubDate": "2026-09-28T00:07:00.000Z",
+      "source": "电子工程专辑",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
+      "eventId": "evt_glzscu",
+      "eventTitle": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+      "eventSources": [
+        "电子工程专辑",
+        "东方财富"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "http://finance.eastmoney.com/news/1350,202609283884566348.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
+          "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
+          "pubDate": "2026-09-28T00:07:00.000Z",
+          "source": "电子工程专辑"
+        },
+        {
+          "title": "国际金融要情 |（周一 2026.9.28）",
+          "description": "2026.9.27–10.3本周关键点国际：9月28日（周一）印度金融市场将迎来全国银行业罢工印度联合银行工会（UFBU）将发起为期三天的全国银行业总罢工，公共领域金融机构与支票清算系统面临服务中断。9月29日（周二）澳洲联储公布利率决议，美欧多位央行官员发表讲话澳洲联储公布最新利率决议及政策声明，市场聚焦其对通胀黏性与劳动力市场韧性的评估。",
+          "link": "http://finance.eastmoney.com/news/1350,202609283884566348.html",
+          "pubDate": "2026-09-27T23:00:00.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:事件发布；无实质影响",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "事件发布",
+        "无实质影响"
+      ],
+      "evidence": [
+        "中信建投研报表示，2026云栖大会展现阿里“芯片—云—模型—Agent—应用”五层全栈能力"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "无直接业绩影响",
+      "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "description": "",
+      "pubDate": "2026-09-28T00:11:09.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
+      "eventId": "evt_1uc95le",
+      "eventTitle": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
+          "pubDate": "2026-09-28T00:11:09.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in earl",
+      "summary_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai 黄金 Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
+      "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
+      "pubDate": "2026-09-28T01:00:41.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1dzwbtf",
+      "eventTitle": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
+          "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
+          "link": "",
+          "pubDate": "2026-09-28T01:00:41.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+      "summary_cn": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+      "description": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+      "pubDate": "2026-09-27T23:49:09.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/11215,202609283884573934.html",
+      "eventId": "evt_i1p9td",
+      "eventTitle": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+          "description": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
+          "link": "http://stock.eastmoney.com/news/11215,202609283884573934.html",
+          "pubDate": "2026-09-27T23:49:09.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "summary_cn": "",
+      "category": "光模块",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "description": "",
+      "pubDate": "2026-09-27T23:45:56.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
+      "eventId": "evt_1sgzusb",
+      "eventTitle": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
+          "pubDate": "2026-09-27T23:45:56.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "summary_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+      "pubDate": "2026-09-28T00:45:00.000Z",
+      "source": "finance.sina.cn",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
+      "eventId": "evt_102yujn",
+      "eventTitle": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+      "eventSources": [
+        "黄金网",
+        "finance.sina.cn"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播 - 黄金网",
+          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5",
+          "pubDate": "2026-09-28T00:51:03.000Z",
+          "source": "黄金网"
+        },
+        {
+          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
+          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
+          "pubDate": "2026-09-28T00:45:00.000Z",
+          "source": "finance.sina.cn"
+        }
+      ]
+    },
+    {
+      "title_cn": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)+行情·利空(36·板块行情走弱)",
+      "sentiment": "利空",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "价格信号·利空(-60分)",
+        "行情信号·利空(-36分·板块行情走弱)"
+      ],
+      "evidence": [
+        "跌超",
+        "下跌"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
+      "description": "",
+      "pubDate": "2026-09-27T23:09:49.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9687018.d.html",
+      "eventId": "evt_j8fsev",
+      "eventTitle": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
+      "eventSources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://wallstreetcn.com/articles/3171103"
+      ],
+      "eventMembers": [
+        {
+          "title": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9687018.d.html",
+          "pubDate": "2026-09-27T23:09:49.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "金价回落叠加节日促销，黄金零售市场迎来消费旺季",
+          "description": "进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
+          "link": "https://wallstreetcn.com/articles/3171103",
+          "pubDate": "2026-09-27T23:09:29.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "summary_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+      "pubDate": "2026-09-27T23:03:00.000Z",
+      "source": "이투데이",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
+      "eventId": "evt_1exv7wl",
+      "eventTitle": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+      "eventSources": [
+        "이투데이"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
+          "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
+          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
+          "pubDate": "2026-09-27T23:03:00.000Z",
+          "source": "이투데이"
+        }
+      ]
+    },
+    {
+      "title_cn": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
+      "summary_cn": "",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
+      "description": "",
+      "pubDate": "2026-09-28T00:02:17.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2939904.d.html",
+      "eventId": "evt_ultmd8",
+      "eventTitle": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2939904.d.html",
+          "pubDate": "2026-09-28T00:02:17.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
       "title_cn": "黄金, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US 股票 rose [Holiday 市场 Review] - Shanghai Metals 市场",
       "summary_cn": "黄金, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US 股票 rose [Holiday 市场 Review]&nbsp;&nbsp; Shanghai Metals 市场",
       "category": "黄金",
@@ -277,12 +1068,12 @@
       "eventId": "evt_13oce1d",
       "eventTitle": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
       "eventSources": [
+        "Eastern Progress",
         "Investing.com",
         "GoldSeek",
-        "Eastern Progress",
-        "Retail News Asia",
-        "MedCity News",
         "Daily Bonik Barta",
+        "MedCity News",
+        "Retail News Asia",
         "Shanghai Metals Market",
         "The Times of India",
         "simplywall.st",
@@ -298,12 +1089,12 @@
         "Seoul Economic Daily",
         "newsonjapan.com",
         "NDTV Profit",
+        "mb.ntd.com",
+        "scanx.trade",
         "TradingKey",
         "Startup Fortune",
         "Sahm",
         "The Korea Times",
-        "mb.ntd.com",
-        "scanx.trade",
         "FOREX.com",
         "FXEmpire",
         "The Economic Times",
@@ -329,12 +1120,12 @@
       ],
       "sourceCount": 49,
       "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
         "https://news.google.com/rss/articles/CBMiakFVX3lxTE1aeTFoLWFsUHNUX24yTVZlQm03eU5lbWJIM3VwX3hnY0JkZW9mWXB2Z2ROaEkyazZrSEI5UGlDM2p3MEE2R2pDeEYtM0liVkNRN1ZJdHZ5SWs0R3BhNnpsX1A2TlpybEdRbUE?oc=5",
         "https://news.google.com/rss/articles/CBMicEFVX3lxTFBmS1N4MjUzZXQ2WHpGNl9ld09BU0ZJcndYa0xza2liVWQ2SG1pR2tBcl9zaVBGMGJpSnlqNC1vR1V1QWZDMkI0Mzh4Z0NFMmMxcUtJR0IyTEdnOUthUlRiMzhyOHF0N0l2R1F3WXNpaXQ?oc=5",
-        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
-        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
-        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQTFVa1g0aGVVbEpFS3prLUNPNk5PTnU3RGJOT01GWWdHdTNGQXZEWFZoVHI1dFBRUmxnWllEQ2dtcTVjV0NON0M5R2xOejJjUTNINm8wTE5pdEFodjBiRW52OEJ1U3NYTy1fUnhuN1l2cExOUC1lU0pHbUR3WlVCeGotS1VkR0MwTUl4bGdjdUI5R1NPOWkwb0VleHB0LTlaamd0R1VPX2N5aXR2WGt4VmFUdFAyelk1WGNNa0ZnMXh5OXNH?oc=5",
         "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HbndnSlZGd1ZLcGRlNk1qWndabWx6ZTRBNzVwNzZPd3BEczhHMWtYSUpHLUNQMk9pWE13amVSNnByTVFPMFRmLTgtZ0otM0VuUVhTZU9SNUV6TXRtM3A3OXdtNA?oc=5",
+        "https://news.google.com/rss/articles/CBMixAFBVV95cUxQQTFVa1g0aGVVbEpFS3prLUNPNk5PTnU3RGJOT01GWWdHdTNGQXZEWFZoVHI1dFBRUmxnWllEQ2dtcTVjV0NON0M5R2xOejJjUTNINm8wTE5pdEFodjBiRW52OEJ1U3NYTy1fUnhuN1l2cExOUC1lU0pHbUR3WlVCeGotS1VkR0MwTUl4bGdjdUI5R1NPOWkwb0VleHB0LTlaamd0R1VPX2N5aXR2WGt4VmFUdFAyelk1WGNNa0ZnMXh5OXNH?oc=5",
+        "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
         "https://news.google.com/rss/articles/CBMiiwJBVV95cUxOYkFEeERScDlzdGl1akRnekRLT2xIM19PVFdrNXQwM1dCZFJUR0hiZFlHeFRkNnowYVVKcjJheW9ReFE0ajYwS2pmNGpWcDZCWG5ocGNwaWxKa0FTbDVfT1M1Z1NlNVY4ck92dHM4T0h6ckFOYWlMLXp0aDNfQWxjT3VnNVZQRkhsYVlBR1pMT0JjQ1RrYXYybGVUa3NiTlN3Sm1venYtUnNfRGJnRGduRUFPMnpqY3FSTzVvMDR3eFpyUy1ITXFCa2h3QkZ1N0hFZTZpR01WeTBJdEtuRnpOeFpvb3JMUmVmcmF6QVctZWtvc1l3RkVnay1wbnl2MG1idmhVWlNfMkU4RFnSAZACQVVfeXFMTmxyZC1ZRE9SMFo3cDFObjNvMkw1VV9CeEx4UWJpSHNnczFaMXRCNV8zLVpTUndlZEZyRnZVVlgteENBQXk1Wm5IRVVnc0JHbUR5SEZYdzVrLUdjRDlpbVRuN1pVeVhlTDlfR3dFVnh3WWRVQVBxTTB2dEM3dElfaE51LTliMTlFSWl2NlNZR09IRnFpdlBNQ05TWEZpUlRUVGM0YngwTzJvcVZ4dUxsZGVYMVdYZWNIWW5VSGR6SV9WTnBLVUJzTHZoQnRLak84NVVaMUkwb2gzcnlWRVFmODU3ZTg0aVpZNVR0YmpUdkdXaUdLa29WaXJMSkViQWRjTTFENlhvU0EzR1VSWEJpdzY?oc=5",
         "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPMWJ2dHE5aFBRdFhhSXBRbWxrcGpCQkJGTFBZYVNydkNvVmItWTY0bV80ZVoxOHhncWFibUtqeDdhUlI3WGFNOElXdGFWc1J5MW1yWmtmOWswYzlSNGRjOHpwQ3JvQkZfUFVZWVQ1eC1BUmhLM3lac0JPYlJmZGd5LW4zMmlkOGhaYWp0NEVYNFM1NTRjdXVxUHBlTVQxNzJrUFpDa2x1VW81TUgxTDk5aGZLNnRNcUg5WFRtZV9xazNBNl9IcXN0NlRQbHV0d2IwN0NVUUkySFRjOVI2NXpZOWJvU1ZxaUQyQUROTy1nSk0tM1N4SU5R0gH3AUFVX3lxTE8xYnZ0cTloUFF0WGFJcFFtbGtwakJCQkZMUFlhU3J2Q29WYi1ZNjRtXzRlWjE4eGdxYWJtS2p4N2FSUjdYYU04SVd0YVZzUnkxbXJaa2Y5azBjOVI0ZGM4enBDcm9CRl9QVVlZVDV4LUFSaEszeVpzQk9iUmZkZ3ktbjMyaWQ4aFphanQ0RVg0UzU1NGN1dXFQcGVNVDE3MmtQWkNrbHVVbzVNSDFMOTloZks2dE1xSDlYVG1lX3FrM0E2X0hxc3Q2VFBsdXR3YjA3Q1VRSTJIVGM5UjY1elk5Ym9TVnFpRDJBRE5PLWdKTS0zU3hJTlE?oc=5",
         "https://news.google.com/rss/articles/CBMidkFVX3lxTE5rU0tnaThFeEIybkU0MkxKZlJWR0o4YWgtNE04cXJJMUozVEJ3Y2RTdVRkV0luZHlFVVkzQk1RU3M3QUwyZjFRUk5STXJ3eHZUVHByVFN1TEZydGhYZHBPTFNzcE4xd0ZjUXNPeXVSTFFRU3BYdmc?oc=5",
@@ -353,13 +1144,13 @@
         "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMzZ5WHJLT3lrb3lpNHk0dkdQaE1aUVN3ZEZ1M1ZRTi1WeTM0MEc2UUw5cmcxdFQyX0hDSHRNOUgxcFIxNG9SMzU4MzdreUNwMHpEU0J1VVhkYUlaTjd3T3RNaG1jaFJVWWlrZ18zODIzaUNCZzZHTlBIb3ljVHZTZHFzOW5YaTlEMEJjanRkTWJnREluR3dQN0VXZGZVWE0?oc=5",
         "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9SSGhkRm5idDQ0OEVDdzJ2SEx3dXAzNmEzeXpNWHlieHIzMmRFSVZ6cXhBZW1sVmdwQmYzaEJ2ZVZFR3FpZmRrLWVCUkFybUJCNExmTw?oc=5",
         "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSmhuUVRSOHRjYXBfLXF0YnBDcUpyTllwcTBxX0pDRk9FTGhDWmtvRDVuUnlfQmFwTnh6b3R4SHJ6M1p0UmhUb0w5YmlLd2pkVHdPQWpfNHhkY0IwSWNlUDJVSEZITXVkYzJXUmI5N010ZHZqRnhYZjRCMVpSeGVrZWxpQlpDdkVJdTQ5UVhBb2plZ2tEcF8yUdIBoAFBVV95cUxNbmdvdVdkU3pMSFZjUGQzaDAzT2VFaW9JNTFtWXg4VFd4ZVBQc3ZNemVzeXR6VFZyNlFBSEQ0dFNHYzhzY1B0d2o2RDZhbndaZlJvZ0g5Q0xtWEIzMU1aSVR2dzdaZXJMZll4T0ptT0hrbEhqc1FSRm1ZMTg0RDlaYkI1VXRIakxGYkgxbmM2RGt2NFNNNDdRaXM1N1JkT3d0?oc=5",
+        "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
+        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
         "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORFFZN1RyYlg2blN5OTlmY3lNcC1jNk5mRXV3UHYxOTNwZmpUcmM5QlJkUTJIYnAtMUJnUG9VbWljYXoxejdsZXdGaC1jZHAwcHpkemhtdDZFUFNVa2p1bmhfOFdzeW5CWDN5ckc2RFdBLVYyMktiNUI5emdHREY1QWwxdWdpVVR4c3o1LVVRNjBmWkUyVGNHLW93MU43ZGR3UW9iVllBQ0xpTzFiSEF0Y2JneEJVdkNqNlJJS3phSXFwSDlPbVo2eA?oc=5",
         "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9maVJ0MjVyMkM5MDRTUDY0NU9DaVpoUVJPTWt6MVpKd29lN0dIY1V4TFNDOVFhdDlSOUZRakZKQThqMzhYNlJ3WmxncUtzMzdwYjZmX1lTbjVWWGJMM2dUUk5aMkRBUQ?oc=5",
         "https://news.google.com/rss/articles/CBMiowFBVV95cUxPa1l6Rm5yYVg0TXR2VXAxOXJ1LUFhMFdhU2hZT2JrdjQ3R09oLXZDRUoydHpodXNTWXNQWF8waXV3S3BOLVpvSzRhTkpWWXg1OWV2aExYTVZQdGZZUVBXSElrTkpsZXI4RktGelN3OEhBSmJ2djJxaWZReklDTGFkcDczcE92MVU1WTlxZTBTM3l1V1JKU19venNvOEZTQ0FLUklV?oc=5",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQWtFOXZ3dFh1RW1yTnRrUlVVQlU1a3FGYkFtOXpWcTM0Ni13VDJwOFBRV3d3MHBCRWxtQ1JGdmZSMHFaRXlaVTRTb2pQMGlid2JMMmJHOWs1Yk02eDhTTHBULTJkX0pIT0RxajRsWTg2a3I3LTlvY0Qzbm1zbXVGeWhRX0FKN2RTcXpGX0hiZWtIQTRpVFhrTTVna0FuTG91UU1YVy1JRTExcDlaTGNycW5rdnA5clRBdDgxQ0hzVDhuY1lHNkc0?oc=5",
         "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclBBaVoyZVMxLThyS29wRWFRbGI0UjI1SFJvUXdlb0UyTF9NRzA0Rk1PRzdYa19IZFRXbHpDVFdRam5zSER0eUY4dEJvWWk5TGxpNVlSVU5Nd3JOdkVuRmZwMEFMTFBRc2JvUE5TcHJyaFF4NWRvRkVIZjc3YzIzRGZxVUgtQ2c4TGpXbU1XNjNReC1RVGd4YUZ2TlR0V3N5dnfSAacBQVVfeXFMTk0zbkZhaWVKenFvVERFSEtzbnZIV1B5eFcxWnhLYjRaeUZaMUtPMC1Ra0xDUVlDQ2hFVk1qcEFPdDhCdkJlNzJ4SnNkNmFjTWl5bnpIZ0ZYOVE0eGZ6QUlrVGdNZkNlYmVIVHV3X1FfZzVnTVRUempTR1RucURHZWRCSUVHY0F0dlZINks0U0tzVVNPM1hYMFJGaU9HVTMyRWdJeFRSQ00?oc=5",
-        "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
-        "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
         "https://news.google.com/rss/articles/CBMitgFBVV95cUxNTzBrVWlpVDZMNy1MelkzNnN1MUpZa2dUbklNM3pPaC1NbVNQS1dXYXFYX0g3ZFBrSGhqN0RfQ21yaVIyMmlJT1poNDk0eDVtRXR4ZzhFeV9zbFJEMDlPU1dfSUF3NThrcW85VXVESk1CcXNBSGRoUnlZOHFOdWwxbURNVzRzZTd1OGlBTWwtTktfOFRyQk81YzN5bTZnNTVZNHUyOWtEdnFCYlNPZUtLeDdSVzlKUQ?oc=5",
         "https://news.google.com/rss/articles/CBMixwFBVV95cUxNeEtDaFctTTgzQ01xUlU0SUR1aFdhemRSZW52OEphdUV6N002ZWxMaW9yNzY5UVRGZVN3OFpkSlQxZHpiTE5YazZITjJnR3VWREhDVTdNd3ctUVRnNHlsVG85WmJjd3Rfbk5VQjYwNmdIOWdsaTVucEdQUTFmSmJMRlhkZmo4blF4SnVBWTJxUHhyNGdwU1pSeTlXVVlOY2hhR0Q1S0VaQnptcUdOelZEYzBteXljYWE1eXk3SEZySEI3Q04wdkpj?oc=5",
         "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbk52QnppZktxeHRsRU56VnVTR2hzelpHR3hrTXc0cGp1R0RkWEtSeWV2MUhRUE51TTRKenRoVElZekZ3aXBzVXJrUkFEYmM2TFFZRGwwaGNuUDg1U0RPTHZSbEM0a2d6SEFjdGJjc2FkNkVDM0ZGSWlyb2tscDlHY0hTTDFhN0g5QTNOeEdxdVQtQUdqSjBoM2ZPb09sQjJSd1ZnNFZoZWNrZFBwbVZidDZFaVczRWJXbFdtZQ?oc=5",
@@ -405,10 +1196,16 @@
         "MOFCOM’s North America and Americas Department hea",
         "After the eighth round of China‑U.S. economic and ",
         "Container shipping index (Europe route) most-activ",
-        "At the open, China's main futures front-month cont",
-        "Industry sources told local media TSMC is accelera"
+        "At the open, China's main futures front-month cont"
       ],
       "eventMembers": [
+        {
+          "title": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates - Eastern Progress",
+          "description": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates&nbsp;&nbsp; Eastern Progress",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
+          "pubDate": "2026-09-27T08:24:13.000Z",
+          "source": "Eastern Progress"
+        },
         {
           "title": "Gold Futures Streaming Chart - Investing.com",
           "description": "Gold Futures Streaming Chart&nbsp;&nbsp; Investing.com",
@@ -424,18 +1221,11 @@
           "source": "GoldSeek"
         },
         {
-          "title": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates - Eastern Progress",
-          "description": "3 Cancer Stocks to Watch as Oncology Innovation Accelerates&nbsp;&nbsp; Eastern Progress",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNdmw3N3VRRzNqdzdfZDNQanlwRlhlYzQ0SUw1ejc0QmhYZW1BZzEyS3ZaZGRYNllWaER2V0FDaHdsTkl4V2RXYXBVNzBBM1U3WWdPWWFJVDJLUkFjS3Bqd2tGY2NlYmx2RFpxTU5YM3FObHplOElFa3dmak5XOXFkQTYwZGxjTFR6WjhVNGRDdW95SVU4M3V2c2Eya3FZaTFRMEVqN0lKR2lvVk5VXzhiWTFCVTNBSlNpdEtaWDFBblA4WlF6VUxNS1NBZ2kzVVlONWtqODQ1WjU?oc=5",
-          "pubDate": "2026-09-27T08:24:13.000Z",
-          "source": "Eastern Progress"
-        },
-        {
-          "title": "TSMC to Build Five More Packaging Plants at Chiayi Science Park - Retail News Asia",
-          "description": "TSMC to Build Five More Packaging Plants at Chiayi Science Park&nbsp;&nbsp; Retail News Asia",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
-          "pubDate": "2026-09-27T18:20:15.000Z",
-          "source": "Retail News Asia"
+          "title": "Bangladesh’s ICT sector caught in geopolitical rivalry - Daily Bonik Barta",
+          "description": "Bangladesh’s ICT sector caught in geopolitical rivalry&nbsp;&nbsp; Daily Bonik Barta",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HbndnSlZGd1ZLcGRlNk1qWndabWx6ZTRBNzVwNzZPd3BEczhHMWtYSUpHLUNQMk9pWE13amVSNnByTVFPMFRmLTgtZ0otM0VuUVhTZU9SNUV6TXRtM3A3OXdtNA?oc=5",
+          "pubDate": "2026-09-27T16:53:32.000Z",
+          "source": "Daily Bonik Barta"
         },
         {
           "title": "Mirum Pharma Pill Lands FDA Approval for Ultra-Rare Bone Growth Disorder - MedCity News",
@@ -445,11 +1235,11 @@
           "source": "MedCity News"
         },
         {
-          "title": "Bangladesh’s ICT sector caught in geopolitical rivalry - Daily Bonik Barta",
-          "description": "Bangladesh’s ICT sector caught in geopolitical rivalry&nbsp;&nbsp; Daily Bonik Barta",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9HbndnSlZGd1ZLcGRlNk1qWndabWx6ZTRBNzVwNzZPd3BEczhHMWtYSUpHLUNQMk9pWE13amVSNnByTVFPMFRmLTgtZ0otM0VuUVhTZU9SNUV6TXRtM3A3OXdtNA?oc=5",
-          "pubDate": "2026-09-27T16:53:32.000Z",
-          "source": "Daily Bonik Barta"
+          "title": "TSMC to Build Five More Packaging Plants at Chiayi Science Park - Retail News Asia",
+          "description": "TSMC to Build Five More Packaging Plants at Chiayi Science Park&nbsp;&nbsp; Retail News Asia",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZHdFbnVERjNtbVB5bmhqVDJVM2FNSTYwbEJSN1NOMDdfNzFIbVFwVWFxTHlpb2xiZnJpc2N4MkJfTjd4eEIwWlo5VzI0dDBReUlnZF8xcFlUQ3hjd3hWMWtIejVYSU9SYmJiVDNUeEF4ak0zMUxSVHlfSG4tenpqSUV5d0tZMW1XenROcGF5d08?oc=5",
+          "pubDate": "2026-09-27T18:20:15.000Z",
+          "source": "Retail News Asia"
         },
         {
           "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
@@ -585,6 +1375,20 @@
           "source": "NDTV Profit"
         },
         {
+          "title": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold - mb.ntd.com",
+          "description": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold&nbsp;&nbsp; mb.ntd.com",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
+          "pubDate": "2026-09-27T06:22:00.000Z",
+          "source": "mb.ntd.com"
+        },
+        {
+          "title": "Silver’s split personality is the trade investors keep mispricing - scanx.trade",
+          "description": "Silver’s split personality is the trade investors keep mispricing&nbsp;&nbsp; scanx.trade",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
+          "pubDate": "2026-09-27T05:56:34.000Z",
+          "source": "scanx.trade"
+        },
+        {
           "title": "AMD vs. Broadcom: Which AI Chip Stock Is Better for Long-Term Investment? Comprehensive Comparison of AMD and AVGO - TradingKey",
           "description": "AMD vs. Broadcom: Which AI Chip Stock Is Better for Long-Term Investment? Comprehensive Comparison of AMD and AVGO&nbsp;&nbsp; TradingKey",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORFFZN1RyYlg2blN5OTlmY3lNcC1jNk5mRXV3UHYxOTNwZmpUcmM5QlJkUTJIYnAtMUJnUG9VbWljYXoxejdsZXdGaC1jZHAwcHpkemhtdDZFUFNVa2p1bmhfOFdzeW5CWDN5ckc2RFdBLVYyMktiNUI5emdHREY1QWwxdWdpVVR4c3o1LVVRNjBmWkUyVGNHLW93MU43ZGR3UW9iVllBQ0xpTzFiSEF0Y2JneEJVdkNqNlJJS3phSXFwSDlPbVo2eA?oc=5",
@@ -618,20 +1422,6 @@
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPclBBaVoyZVMxLThyS29wRWFRbGI0UjI1SFJvUXdlb0UyTF9NRzA0Rk1PRzdYa19IZFRXbHpDVFdRam5zSER0eUY4dEJvWWk5TGxpNVlSVU5Nd3JOdkVuRmZwMEFMTFBRc2JvUE5TcHJyaFF4NWRvRkVIZjc3YzIzRGZxVUgtQ2c4TGpXbU1XNjNReC1RVGd4YUZ2TlR0V3N5dnfSAacBQVVfeXFMTk0zbkZhaWVKenFvVERFSEtzbnZIV1B5eFcxWnhLYjRaeUZaMUtPMC1Ra0xDUVlDQ2hFVk1qcEFPdDhCdkJlNzJ4SnNkNmFjTWl5bnpIZ0ZYOVE0eGZ6QUlrVGdNZkNlYmVIVHV3X1FfZzVnTVRUempTR1RucURHZWRCSUVHY0F0dlZINks0U0tzVVNPM1hYMFJGaU9HVTMyRWdJeFRSQ00?oc=5",
           "pubDate": "2026-09-27T06:03:02.000Z",
           "source": "The Korea Times"
-        },
-        {
-          "title": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold - mb.ntd.com",
-          "description": "Seeing Gold? The Hidden Costs and Risks of Investing in Gold&nbsp;&nbsp; mb.ntd.com",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS2ZDX056QWtiTjFmdHB0d05WaHVaYkNwS0RHWlk3QUEyc180MEFVMWYwVlU0V05kWFkxeU4tODdaN2xFaTE4MEFXV0ZRRFJYcDNNeFRVbHJBaXc2M3podzFmWE9nNWlXOVV0dlZaSFZmYjJHSng5WlA0Y2VmQVp0a1VFVzZIWlh2UThXODBNeHpESWNXU2c?oc=5",
-          "pubDate": "2026-09-27T06:22:00.000Z",
-          "source": "mb.ntd.com"
-        },
-        {
-          "title": "Silver’s split personality is the trade investors keep mispricing - scanx.trade",
-          "description": "Silver’s split personality is the trade investors keep mispricing&nbsp;&nbsp; scanx.trade",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdjVoRzRDR09VSkhUTUZUZmZrc3VJU3hjdWtPRDRlT0gyU213bC1FaXFXcXljOW5LcTFqMm9RRTNqS0FxOW9lYldORnF2N0h0b1RhRXQxWTlKLXBmQUpuY2RTQWRwNXJ3bmZhRzBLNDNCWHkxQzgzSjlVeHFpVlRBckZza3hCaXp5QUdrUkZ4ZDFLTzFDamVxVGxXUHR6RmpGTERNT1hR?oc=5",
-          "pubDate": "2026-09-27T05:56:34.000Z",
-          "source": "scanx.trade"
         },
         {
           "title": "Gold Analysis: XAU/USD Remains Under Pressure After Fed Rate Decision - FOREX.com",
@@ -964,596 +1754,6 @@
           "pubDate": "2026-09-28T01:00:11.000Z",
           "source": "金十数据",
           "sourceType": "direct_api"
-        },
-        {
-          "title": "Industry sources told local media TSMC is accelera",
-          "description": "Industry sources told local media TSMC is accelerating expansion of 2nm capacity after major clients — Apple, NVIDIA, AMD, Qualcomm and MediaTek — boosted orders by about 10–20%. Monthly 2nm output could reach roughly 120,000 wafers by year-end, above prior market estimates of 90,000–100,000. TSMC’s original 2027 2nm capacity target is now expected to be met ahead of schedule.",
-          "guessedSector": "半导体",
-          "pubDate": "2026-09-28T01:20:20.000Z",
-          "source": "金十数据",
-          "link": "",
-          "eventId": "evt_3s0kup",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
-      "summary_cn": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
-      "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
-      "pubDate": "2026-09-28T00:45:00.000Z",
-      "source": "finance.sina.cn",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
-      "eventId": "evt_102yujn",
-      "eventTitle": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
-      "eventSources": [
-        "黄金网",
-        "finance.sina.cn"
-      ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5"
-      ],
-      "eventMembers": [
-        {
-          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播 - 黄金网",
-          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发_金市直播&nbsp;&nbsp; 黄金网",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBlWjZ1ZEtXc09JdzRjczZSZ3BaU2M3Y25udGZISkNNR0RTSmU2bDg3cEhrcXVxNFRqYm4yYVZYMk9fSDBHUWE5eVpIVjV2amVZVXlGN1c4ejROT0pMcnlMMEFXRmhPN284?oc=5",
-          "pubDate": "2026-09-28T00:51:03.000Z",
-          "source": "黄金网"
-        },
-        {
-          "title": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发 - finance.sina.cn",
-          "description": "黄金交易提醒：特朗普拒谈重开海峡，金价再度承压！本周非农来袭，多空决战或一触即发&nbsp;&nbsp; finance.sina.cn",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxObEtqV0hNMXhEZ3FvMlh6S0kwUFRsdlhpRURKUzE3MVFiYUpaeUVZdHBlYWhScTJXaThNX05OYXJzODA1Z3A5bkl0UVpuX1JZa1V2YTcwcFhVUW9ueENac0ppbl96cF9WYlF3S1pYUWZaQnN2NmRscDc5UlkzdmtFYkpBUzV6ZEFxNXo2MFl5dnIzV3FhMGs3YVFObE04R3JXN2hJVF9Ibw?oc=5",
-          "pubDate": "2026-09-28T00:45:00.000Z",
-          "source": "finance.sina.cn"
-        }
-      ]
-    },
-    {
-      "title_cn": "New York 黄金 futures slipped below $4,250/oz, dow",
-      "summary_cn": "New York 黄金 futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "New York gold futures slipped below $4,250/oz, dow",
-      "description": "New York gold futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
-      "pubDate": "2026-09-28T01:13:02.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_177etad",
-      "eventTitle": "New York gold futures slipped below $4,250/oz, dow",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "New York gold futures slipped below $4,250/oz, dow",
-          "description": "New York gold futures slipped below $4,250/oz, down 1.65% on the day. New York silver futures fell more than 3.00% on the day to $62.86/oz.",
-          "link": "",
-          "pubDate": "2026-09-28T01:13:02.000Z",
-          "source": "金十数据",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:传闻·中性(10)",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "传闻信号·中性(±10分)"
-      ],
-      "evidence": [
-        "有望"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
-      "description": "",
-      "pubDate": "2026-09-28T01:12:39.000Z",
-      "source": "财联社",
-      "link": "https://www.cls.cn/detail/2493668",
-      "eventId": "evt_1xtm9k8",
-      "eventTitle": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
-      "eventSources": [
-        "财联社"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【盘中宝】AI飞速发展驱动需求升级，该领域有望成为下一代细分重要技术路线，英特尔、台积电等巨头纷纷布局，这家企业已掌握相关技术",
-          "description": "",
-          "guessedSector": "半导体",
-          "pubDate": "2026-09-28T01:12:39.000Z",
-          "source": "财联社",
-          "link": "https://www.cls.cn/detail/2493668",
-          "eventId": "evt_1xtm9k8",
-          "sourceCount": 1,
-          "archived": true
-        }
-      ]
-    },
-    {
-      "title_cn": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "极高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:业绩·利好(180)+技术·利好(60)",
-      "sentiment": "利好",
-      "market_impact": "极高",
-      "affected_companies": [],
-      "reasoning": [
-        "业绩信号·利好(+180分)",
-        "技术信号·利好(+60分)"
-      ],
-      "evidence": [
-        "翻倍",
-        "突破"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "description": "",
-      "pubDate": "2026-09-27T23:13:33.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
-      "eventId": "evt_oas76o",
-      "eventTitle": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【超千只基金业绩翻倍 公募正从“卖产品”转向“配资产”】在科技成长产业景气的带动下，公募基金迎来一轮业绩大丰收。数据显示，近两年全市场绝大多数基金斩获正收益，千余只基金实现收益翻倍，多只产品收益率突破500%。纵观过去两年，市场定价主线由估值修复切换至盈利驱动，AI产业链逐步成为行情核心，科技成长资产由产业重估迈入盈利兑现阶段，重仓光通信、半导体等方向的基金净值表现尤为突出。伴随行情演进，ETF板块快速壮大，公募行业也告别明星爆款模式，向平台化、“货架”式产品体系转型。（证券时报）",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9688707.d.html",
-          "pubDate": "2026-09-27T23:13:33.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
-      "summary_cn": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:扩产·利好(40)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "扩产信号·利好(+40分)"
-      ],
-      "evidence": [
-        "量产"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
-      "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
-      "pubDate": "2026-09-27T23:20:00.000Z",
-      "source": "手机新浪网",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
-      "eventId": "evt_1im0u7d",
-      "eventTitle": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外 - 手机新浪网",
-          "description": "假期重磅利好消息合集！AI、机器人、半导体多赛道催化不断，这些科技龙头值得关注！中秋假期产业利好密集出炉，科技主线多点开花。机器人赛道，特斯拉Optimus人形机器人产能提升约10倍，冲刺年底千台周产目标；英伟达推进玻璃基板方案，国内量产进度领先海外&nbsp;&nbsp; 手机新浪网",
-          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9seXhDUWxDWFZINTktTUt1bVJSRkFNTTRpb1dYeVdfcl81ZVJYbW1vUFcwQUNvMmZzaW83NW1qUEZfaEFaTTJMeHQyRkVPWVFaOUNsTnROZjFnaFNuOXNqNklMaw?oc=5",
-          "pubDate": "2026-09-27T23:20:00.000Z",
-          "source": "手机新浪网"
-        }
-      ]
-    },
-    {
-      "title_cn": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
-      "summary_cn": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
-      "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
-      "pubDate": "2026-09-28T00:07:00.000Z",
-      "source": "电子工程专辑",
-      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
-      "eventId": "evt_glzscu",
-      "eventTitle": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
-      "eventSources": [
-        "电子工程专辑",
-        "东方财富"
-      ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "http://finance.eastmoney.com/news/1350,202609283884566348.html"
-      ],
-      "eventMembers": [
-        {
-          "title": "求是缘半导体周要闻－莫大康(2026.9.28) - 电子工程专辑",
-          "description": "求是缘半导体周要闻－莫大康(2026.9.28)&nbsp;&nbsp; 电子工程专辑",
-          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZM1pVaU9LcExIUnF6SGRpUXZDZk9vUk1LRVAyV0Vjd2I1QmFOd1FxRnhKMEItRVByRFNKNzF6RkdCNjZrTmVpV0xweXlnanlCanJB?oc=5",
-          "pubDate": "2026-09-28T00:07:00.000Z",
-          "source": "电子工程专辑"
-        },
-        {
-          "title": "国际金融要情 |（周一 2026.9.28）",
-          "description": "2026.9.27–10.3本周关键点国际：9月28日（周一）印度金融市场将迎来全国银行业罢工印度联合银行工会（UFBU）将发起为期三天的全国银行业总罢工，公共领域金融机构与支票清算系统面临服务中断。9月29日（周二）澳洲联储公布利率决议，美欧多位央行官员发表讲话澳洲联储公布最新利率决议及政策声明，市场聚焦其对通胀黏性与劳动力市场韧性的评估。",
-          "link": "http://finance.eastmoney.com/news/1350,202609283884566348.html",
-          "pubDate": "2026-09-27T23:00:00.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in earl",
-      "summary_cn": "Shanghai 黄金 Exchange 黄金 T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai 黄金 Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
-      "category": "黄金",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
-      "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
-      "pubDate": "2026-09-28T01:00:41.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1dzwbtf",
-      "eventTitle": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
-      "eventSources": [
-        "金十数据"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "Shanghai Gold Exchange gold T+D fell 1.37% in earl",
-          "description": "Shanghai Gold Exchange gold T+D fell 1.37% in early trade on Sept. 28 (Monday) to 914.41 yuan/gram. Shanghai Gold Exchange silver T+D fell 1.70% to 15,369.0 yuan/kg.",
-          "link": "",
-          "pubDate": "2026-09-28T01:00:41.000Z",
-          "source": "金十数据",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "植入式脑机接口：从临床突破迈向产业化落地",
-      "summary_cn": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近",
-      "category": "创新药",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:技术·利好(60)",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [],
-      "reasoning": [
-        "技术信号·利好(+60分)"
-      ],
-      "evidence": [
-        "突破"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "植入式脑机接口：从临床突破迈向产业化落地",
-      "description": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近日举办的2026国际生物医药产业创新北京论坛上，与会专家认为，随着临床证据持续积累、国产系统加快迭代、产学研医平台落地，植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期。",
-      "pubDate": "2026-09-27T23:48:16.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1355,202609283884552840.html",
-      "eventId": "evt_1xdyxh0",
-      "eventTitle": "植入式脑机接口：从临床突破迈向产业化落地",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "植入式脑机接口：从临床突破迈向产业化落地",
-          "description": "【植入式脑机接口：从临床突破迈向产业化落地】从脑深部电刺激治疗运动障碍疾病，到植入式脑机接口重建瘫痪患者的运动感知，神经调控与脑机融合技术正加速走出实验室。在近日举办的2026国际生物医药产业创新北京论坛上，与会专家认为，随着临床证据持续积累、国产系统加快迭代、产学研医平台落地，植入式脑机接口正跨过概念验证阶段，迎来临床转化与产业化的关键窗口期。",
-          "link": "http://finance.eastmoney.com/news/1355,202609283884552840.html",
-          "pubDate": "2026-09-27T23:48:16.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "华泰证券：配置重点或应转向盈利确定性较高方向",
-      "summary_cn": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "华泰证券：配置重点或应转向盈利确定性较高方向",
-      "description": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向。关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。",
-      "pubDate": "2026-09-28T00:31:51.000Z",
-      "source": "东方财富",
-      "link": "http://stock.eastmoney.com/news/11215,202609283884584086.html",
-      "eventId": "evt_k6unry",
-      "eventTitle": "华泰证券：配置重点或应转向盈利确定性较高方向",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "华泰证券：配置重点或应转向盈利确定性较高方向",
-          "description": "华泰证券研报认为，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向。关注科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露。",
-          "link": "http://stock.eastmoney.com/news/11215,202609283884584086.html",
-          "pubDate": "2026-09-28T00:31:51.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
-      "description": "",
-      "pubDate": "2026-09-28T01:00:48.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2983651.d.html",
-      "eventId": "evt_alvb53",
-      "eventTitle": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【亿帆医药在研创新药F-652急性移植物抗宿主病适应症II期临床试验完成首例参与者入组给药】日前，亿帆医药控股子公司亿一生物有限公司自主研发的创新药重组人白介素22-Fc融合蛋白（简称“F-652”）联合全身用皮质类固醇治疗造血干细胞移植（HSCT）后急性移植物抗宿主病（aGVHD)的II期临床研究，已成功完成首例参与者入组并给药。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2983651.d.html",
-          "pubDate": "2026-09-28T01:00:48.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
-      "summary_cn": "",
-      "category": "黄金",
-      "direction": "利空",
-      "impact": "极高",
-      "certainty": "高",
-      "time_window": "短期",
-      "tickers": "—",
-      "notes": "评分引擎:价格·利空(60)+行情·利空(36·板块行情走弱)",
-      "sentiment": "利空",
-      "market_impact": "极高",
-      "affected_companies": [],
-      "reasoning": [
-        "价格信号·利空(-60分)",
-        "行情信号·利空(-36分·板块行情走弱)"
-      ],
-      "evidence": [
-        "跌超",
-        "下跌"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
-      "description": "",
-      "pubDate": "2026-09-27T23:09:49.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9687018.d.html",
-      "eventId": "evt_j8fsev",
-      "eventTitle": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
-      "eventSources": [
-        "新浪财经",
-        "华尔街见闻"
-      ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "https://wallstreetcn.com/articles/3171103"
-      ],
-      "eventMembers": [
-        {
-          "title": "【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9687018.d.html",
-          "pubDate": "2026-09-27T23:09:49.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "金价回落叠加节日促销，黄金零售市场迎来消费旺季",
-          "description": "进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）",
-          "link": "https://wallstreetcn.com/articles/3171103",
-          "pubDate": "2026-09-27T23:09:29.000Z",
-          "source": "华尔街见闻",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:行情·利好(15·板块行情上涨)",
-      "sentiment": "利好",
-      "market_impact": "中",
-      "affected_companies": [],
-      "reasoning": [
-        "行情信号·利好(+15分·板块行情上涨)"
-      ],
-      "evidence": [
-        "反弹"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "description": "",
-      "pubDate": "2026-09-27T23:37:16.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
-      "eventId": "evt_1uwedrh",
-      "eventTitle": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【中泰证券：外部扰动正消退 科技已成真正的赔率方向】中泰证券发布研报称，市场已从极致缩量走出反弹，节前调整源于加息预期升温与资金落袋观望，但外部扰动正边际消退。当前同时满足景气与低估值的方向越来越少，科技成为真正的赔率方向。存储、半导体及半导体材料等方向估值仍处低位，需求端并未明显转弱；部分AI硬件方向虽已修复，但仍存在进一步估值修复空间。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9701457.d.html",
-          "pubDate": "2026-09-27T23:37:16.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
-      "summary_cn": "[股市키워드] 추석 뒤 股市 재개…三星电子 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
-      "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
-      "pubDate": "2026-09-27T23:03:00.000Z",
-      "source": "이투데이",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
-      "eventId": "evt_1exv7wl",
-      "eventTitle": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
-      "eventSources": [
-        "이투데이"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
-          "description": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중&nbsp;&nbsp; 이투데이",
-          "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBXMkZmWUhfQ09tRGNUQnpPcXFialNZZmdsVVNHNnBmcVdfUDRHVWU1c0Rrb2x4RXM4aGhBZmFwbExmY0RrcDNORTBkWGtTNEdzdVZyXw?oc=5",
-          "pubDate": "2026-09-27T23:03:00.000Z",
-          "source": "이투데이"
         }
       ]
     },
@@ -1593,246 +1793,6 @@
           "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNbWdvR1hhS3hySWsxdjVPVlExdVBsTHlDR3VvX1k3Z2JUdkJzMUFsN3JkQmhQMmdBQ0Q5TFVTdGpiUzRDOU1qS1FtUVlYdHp6eFB5ZFE2R1BJQ0xtaTh5WDZEcjhRR3NkaGExaDgtVEJ2c1F0d0gyTzZFdng1YmF3RHVQZEtJY0hTbmJPSGZpSHVVMEpWd2RuSVY0QTd1ZllnZXlad0RQd2Q4Rm1fSlhOMGVra1M2Y2t0U3R1MGtzODRoejhVckZILUxB?oc=5",
           "pubDate": "2026-09-27T23:20:36.000Z",
           "source": "FXEmpire"
-        }
-      ]
-    },
-    {
-      "title_cn": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-      "summary_cn": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-      "description": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-      "pubDate": "2026-09-27T23:49:09.000Z",
-      "source": "东方财富",
-      "link": "http://stock.eastmoney.com/news/11215,202609283884573934.html",
-      "eventId": "evt_i1p9td",
-      "eventTitle": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-          "description": "华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头",
-          "link": "http://stock.eastmoney.com/news/11215,202609283884573934.html",
-          "pubDate": "2026-09-27T23:49:09.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "summary_cn": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
-      "pubDate": "2026-09-27T23:41:55.000Z",
-      "source": "东方财富",
-      "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
-      "eventId": "evt_cfi4w1",
-      "eventTitle": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-      "eventSources": [
-        "东方财富"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
-          "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
-          "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
-          "pubDate": "2026-09-27T23:41:55.000Z",
-          "source": "东方财富",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
-      "description": "",
-      "pubDate": "2026-09-28T00:11:09.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
-      "eventId": "evt_1uc95le",
-      "eventTitle": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【中信建投：阿里展示一站式AI方案，算力+应用双提升】中信建投研报表示，2026云栖大会以“智以致用”为主题、Agentic AI为主线，展现阿里“芯片—云—模型—Agent—应用”五层全栈能力。硬件端平头哥“算存网”全栈芯片集结，发布真武V900及磐久AL64/AL144超节点，推动国产算力系统级交付；模型端Qwen4发布在即，RSI自迭代实现工程化落地，Qwen3.8-Flash以低成本对标前沿性能；应用端阿里云升级为“Agentic Cloud”，发布AgentCore等运行时底座，推动Agent从“能生成”走向“能交付”。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2944510.d.html",
-          "pubDate": "2026-09-28T00:11:09.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
-      "summary_cn": "",
-      "category": "创新药",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
-      "description": "",
-      "pubDate": "2026-09-28T00:02:17.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2939904.d.html",
-      "eventId": "evt_ultmd8",
-      "eventTitle": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【和黄医药：2026年9月24日HMPL-A830首名患者给药】和黄医药公告，公司启动HMPL-A830用于治疗不可切除的晚期或转移性实体瘤的全球临床试验Ia期部分；首名患者已于2026年9月24日在中国接受首次给药治疗。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2939904.d.html",
-          "pubDate": "2026-09-28T00:02:17.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
-      "summary_cn": "",
-      "category": "光模块",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
-      "description": "",
-      "pubDate": "2026-09-27T23:45:56.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
-      "eventId": "evt_1sgzusb",
-      "eventTitle": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【华泰证券：科技股内部优先关注光通信、PCB及部分国产算力龙头】华泰证券A股策略指出，目前A股或处于震荡修复阶段，考虑到前期调整已释放较多估值及交易风险、历史规律表明节前回撤后复市修复概率偏高，本轮持股过节的赔率有所改善，但由于假期内美国就业、PMI等数据或集中公布，配置重点或应转向盈利确定性较高、估值消化相对充分的方向：1）科技内部优先关注估值消化较充分、盈利能见度较高的光通信、PCB及部分国产算力龙头，降低对盈利下修和纯主题品种的暴露；2）同时关注配置较低、价差改善的化工和造纸链，以红利资产作为组合稳定器。节前宜保留基本面较强的核心仓位，适当压缩高波动交易仓位，持股结构的重要性高于总仓位。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9705590.d.html",
-          "pubDate": "2026-09-27T23:45:56.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
-      "summary_cn": "",
-      "category": "半导体",
-      "direction": "中性",
-      "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
-      "sentiment": "中性",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
-      "description": "",
-      "pubDate": "2026-09-27T23:26:19.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
-      "eventId": "evt_1rv90cy",
-      "eventTitle": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
-      "eventSources": [
-        "新浪财经"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "【基金画风切换 医药主题基金霸榜季度业绩】近期，基金画风切换速度比想象来得更快，三季度即将收官之际，沉寂了近半年的医药基金迎来强势反扑，从陪跑变成主跑。在AI、光模块、半导体、燃气轮机等硬科技连续两个季度占据市场主线后，最新的季度收益榜单或透露出新的信号，上半年科技行情里一度沦为陪跑的医药赛道，正从市场边缘重回公募视野。近三个月主动权益基金涨幅前15名，已经全部被医药主题基金占据。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzp9694806.d.html",
-          "pubDate": "2026-09-27T23:26:19.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
         }
       ]
     },
@@ -1887,20 +1847,21 @@
       "direction": "分化",
       "impact": "高",
       "certainty": "高",
-      "time_window": "短期",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:政策·分化(50·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)",
+      "notes": "AI研判:自主突破；制裁失效",
       "sentiment": "分化",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "政策信号·分化(±50分·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)"
+        "自主突破",
+        "制裁失效"
       ],
       "evidence": [
-        "制裁"
+        "美国制裁也拦不住…中企用自研芯片建成超大型数据中心"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "confidence_score": 0.9,
+      "uncertainty": "制裁可能升级",
       "title": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版",
       "description": "美国制裁也拦不住…中企用自研芯片建成超大型数据中心&nbsp;&nbsp; 朝鮮日報中文版",
       "pubDate": "2026-09-27T21:50:03.000Z",
@@ -1929,17 +1890,22 @@
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "低",
-      "time_window": "中期",
+      "certainty": "中",
+      "time_window": "长期",
       "tickers": "—",
-      "notes": "评分引擎:未命中明显信号,中性",
+      "notes": "AI研判:地方政策；无直接影响",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [],
-      "evidence": [],
-      "confidence_score": 0.4,
-      "uncertainty": "关键词引擎自动研判，未经验证",
+      "reasoning": [
+        "地方政策",
+        "无直接影响"
+      ],
+      "evidence": [
+        "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "影响范围有限",
       "title": "安徽加速推进科产融合 创新链对接产业链",
       "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
       "pubDate": "2026-09-27T22:08:08.000Z",
@@ -1958,6 +1924,91 @@
           "description": "科技创新和产业创新融合发展，已成为安徽发展的鲜明特质。从量子传感器到科学仪器，国仪量子把前沿量子技术转化为制造现场的“测量底座”，为科研创新、药物研发、材料分析和产业质量控制提供支撑。艾创微电子科技有限公司深入真实产业场景做研发，生产的车规级、工业级模拟芯片，已覆盖汽车电子、具身智能、新能源船舶等应用场景。",
           "link": "http://finance.eastmoney.com/news/1355,202609283884559192.html",
           "pubDate": "2026-09-27T22:08:08.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "华尔街见闻早餐 | 2026年9月28日",
+      "summary_cn": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:AI对话利好；芯片增量有限",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "AI对话利好",
+        "芯片增量有限"
+      ],
+      "evidence": [
+        "马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "地缘政治影响",
+      "title": "华尔街见闻早餐 | 2026年9月28日",
+      "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
+      "pubDate": "2026-09-27T23:05:46.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3171102",
+      "eventId": "evt_kxx2ds",
+      "eventTitle": "华尔街见闻早餐 | 2026年9月28日",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "华尔街见闻早餐 | 2026年9月28日",
+          "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
+          "link": "https://wallstreetcn.com/articles/3171102",
+          "pubDate": "2026-09-27T23:05:46.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "summary_cn": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
+      "pubDate": "2026-09-27T23:41:55.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
+      "eventId": "evt_cfi4w1",
+      "eventTitle": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "创新药产业规模年均增速将超20%！未来五年医药工业这样发展",
+          "description": "近日，工业和信息化部、国家发展改革委、自然资源部、农业农村部、商务部、国家卫生健康委、应急管理部、国家医保局、国家中医药局、国家药监局等十部门联合发布《医药工业发展“十五五”规划》（以下简称“《规划》”）。",
+          "link": "http://finance.eastmoney.com/news/1350,202609283884570575.html",
+          "pubDate": "2026-09-27T23:41:55.000Z",
           "source": "东方财富",
           "sourceType": "direct_api"
         }
@@ -1999,50 +2050,6 @@
           "link": "https://finance.sina.cn/7x24/2026-09-28/detail-initirzn2911782.d.html",
           "pubDate": "2026-09-27T23:04:21.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
-        }
-      ]
-    },
-    {
-      "title_cn": "华尔街见闻早餐 | 2026年9月28日",
-      "summary_cn": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机",
-      "category": "半导体",
-      "direction": "利好",
-      "impact": "低",
-      "certainty": "中",
-      "time_window": "中期",
-      "tickers": "—",
-      "notes": "评分引擎:行情·利好(11·板块行情上涨)",
-      "sentiment": "利好",
-      "market_impact": "低",
-      "affected_companies": [],
-      "reasoning": [
-        "行情信号·利好(+11分·板块行情上涨)"
-      ],
-      "evidence": [
-        "反弹"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "关键词引擎自动研判，未经验证",
-      "title": "华尔街见闻早餐 | 2026年9月28日",
-      "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
-      "pubDate": "2026-09-27T23:05:46.000Z",
-      "source": "华尔街见闻",
-      "link": "https://wallstreetcn.com/articles/3171102",
-      "eventId": "evt_kxx2ds",
-      "eventTitle": "华尔街见闻早餐 | 2026年9月28日",
-      "eventSources": [
-        "华尔街见闻"
-      ],
-      "sourceCount": 1,
-      "relatedLinks": [],
-      "eventMembers": [
-        {
-          "title": "华尔街见闻早餐 | 2026年9月28日",
-          "description": "上周五标普500震荡反弹，海峡重开前景击落原油，日元盘中反弹逾1%，美债抛售暂歇但全周遭血洗。\n\n中美元首达成八点共识：经贸磋商成果包括建立并推进贸易理事会等机制、达成“300亿美元”对等降税安排等；同意建立中美人工智能对话、建立人工智能事件的沟通渠道；同意伊朗应履行不发展核武器的承诺，任何国家或机构都不得对国际水道征收通行费。\n\n特朗普拒绝伊朗七天停火提议。伊朗外长称不会在既定条件上向美让步；已做好与美战事重开准备，但未放弃外交途径。\n\n特朗普称美国和古巴会达成协议，无需美方动用军队，而美媒报道“美军正检查兵力部署”。\n\n日本财相：特朗普对日元贬值表达担忧，高市早苗称日元被低估“有问题”，将与美方密切协调。\n\n香港证监会就恒大审计失职问题与普华永道达成和解：普华永道不承认责任但支付10亿港元，该款项非恒大财产，不可用以清偿其债权。\n\nOpenAI据报酝酿500美元“Pro Max”套餐：主打最快Work与Codex，或接入Cerebras算力。OpenAI自曝安全预警：AI模型或已在全网秘密植入自我复制提示词，已被迫叫停新一代模型的训练和评估。\n\nAnthropic诉特朗普政府受挫：美上诉法院维持“供应链风险”认定。Anthropic CEO据称周日晚将与特朗普共进晚餐，为两人首次私下会晤。\n\n马斯克放话：Colossus 2部署的英伟达芯片年底或增加一倍。报道：特斯拉Optim",
-          "link": "https://wallstreetcn.com/articles/3171102",
-          "pubDate": "2026-09-27T23:05:46.000Z",
-          "source": "华尔街见闻",
           "sourceType": "direct_api"
         }
       ]
@@ -2200,13 +2207,13 @@
     }
   ],
   "keyPoints": [
-    "今日共抓取 34 条新闻，聚焦半导体、光模块、创新药、黄金四大赛道。",
-    "极高影响事件 4 条，高影响 5 条，利好方向 10 条。",
-    "板块概况：半导体(利好, 强冲击, 14条)、黄金(中性, 强冲击, 10条)、创新药(利好, 中冲击, 7条)、光模块(中性, 弱冲击, 3条)。",
-    "重点关注：【金价回落叠加节日促销，黄金零售市场迎来消费旺季】进入9月，国际金价回落带动国内金饰挂牌价持续下行，本月下旬，主流品牌足金零售价回落至约1290元/克附近，单克价格较前期高点下跌超100元，市场观望情绪有所缓和，不少消费者抓住价格回调窗口选购婚嫁金饰与日常佩戴黄金产品。恰逢中秋、十一“双节”叠加，各大金店集中推出促销活动，黄金零售市场迎来传统消费旺季。（证券日报）；美国制裁也拦不住…中企用自研芯片建成超大型数据中心 - 朝鮮日報中文版；植入式脑机接口：从临床突破迈向产业化落地。"
+    "【半导体】台积电2nm月产能预计达12万片，超市场预估的9-10万片",
+    "【半导体】澜起科技量产DDR5 RCD芯片，受益AI服务器高带宽需求",
+    "【半导体】基金业绩翻倍，千余只基金收益超500%，重仓半导体表现突出",
+    "【半导体】中美元首达成AI对话，利好技术合作"
   ],
-  "marketSummary": "本日报聚焦半导体、光模块、创新药、黄金四大赛道，34 条新闻经关键词引擎自动分析生成。",
-  "isAi": false,
+  "marketSummary": "半导体行业在AI驱动下持续高景气，产能扩张与国产化加速推进。；半导体板块受基金资金流向影响，科技基金表现突出，但整体焦点转移至医药。",
+  "isAi": true,
   "sourceHealth": {
     "level": "degraded",
     "issues": [
@@ -2230,16 +2237,6 @@
   },
   "fullNews": [
     {
-      "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
-      "description": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review]&nbsp;&nbsp; Shanghai Metals Market",
-      "guessedSector": "黄金",
-      "pubDate": "2026-09-28T00:33:00.000Z",
-      "source": "Shanghai Metals Market",
-      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaGltdURqaHUwY1FmLVRfU2FzMEoweTh1ZElJTktCd1d6aXhHZzJVNGlHZ2YyVWZQQTVUMno3amdBOEYxbldMQmJOYWZabTh4SzEwYk5kcXRuRFdLSXFSYWdYWlMxVTU2RDRHem44bkVqVkNHdmlhWkRacTk5dDBtVXpNMml4Tmx3dU83U1BwOUl2QUNmanl6Zk1lQm9uSF9ZZXVOaThmSlE5VkFtTkNROGdiMXpyOFFDeVViQ0FNLUVvUFNDQ05xVmV0bVhsYllIM2hQNE1ORTFDazBBaFBPeTFHdXZRNnpucHBGWFo5NUUzSzkwV2tlRTk4b1Fsb2dZWU5IWExGZEJsYml1RnFCTDZzNjl2eWFCMGNIay1JZm9iQUZLcWZ0ck9uLXdlWkpQbTJWdmtBSVpqSXR3VEExcDVockhvQQ?oc=5",
-      "eventId": "evt_13oce1d",
-      "sourceCount": 49
-    },
-    {
       "title": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231 - BioPharma APAC",
       "description": "Nutshell Therapeutics Secures FDA IND Clearance for AI-Discovered NRF2 Degrader NTS231&nbsp;&nbsp; BioPharma APAC",
       "guessedSector": "创新药",
@@ -2248,6 +2245,16 @@
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQaHRVdVAtdU95U1Q4dndCQVpPaTRuc2ZxZGZQdlpZZHlaeFItcGNCSHpTbVlJRXRtTGpZSUV2SnVmVS1NQTJTMFBoSkhmTUlHZGFqZURDSXVwTEs1ZjB6X3hZY3JHQnpYaS1vMUVXYlgxb2VvcWlETTAzTHg4MjZqUDQ5UVdKUFhUMHlHQ2pKaFc3bDRmWjBSNXdYTHdxaE53QjFISWdJTjVzUkVWN25wWGxLTE5XaHYwNE5jc3R5MkJQWkJJdVZES2RR?oc=5",
       "eventId": "evt_vwqr3w",
       "sourceCount": 1
+    },
+    {
+      "title": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review] - Shanghai Metals Market",
+      "description": "Gold, silver, and oil fell on the weekly chart, while overseas metals mostly declined. LME tin led the gains, and LME zinc led the losses, while US stocks rose [Holiday Market Review]&nbsp;&nbsp; Shanghai Metals Market",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-28T00:33:00.000Z",
+      "source": "Shanghai Metals Market",
+      "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOaGltdURqaHUwY1FmLVRfU2FzMEoweTh1ZElJTktCd1d6aXhHZzJVNGlHZ2YyVWZQQTVUMno3amdBOEYxbldMQmJOYWZabTh4SzEwYk5kcXRuRFdLSXFSYWdYWlMxVTU2RDRHem44bkVqVkNHdmlhWkRacTk5dDBtVXpNMml4Tmx3dU83U1BwOUl2QUNmanl6Zk1lQm9uSF9ZZXVOaThmSlE5VkFtTkNROGdiMXpyOFFDeVViQ0FNLUVvUFNDQ05xVmV0bVhsYllIM2hQNE1ORTFDazBBaFBPeTFHdXZRNnpucHBGWFo5NUUzSzkwV2tlRTk4b1Fsb2dZWU5IWExGZEJsYml1RnFCTDZzNjl2eWFCMGNIay1JZm9iQUZLcWZ0ck9uLXdlWkpQbTJWdmtBSVpqSXR3VEExcDVockhvQQ?oc=5",
+      "eventId": "evt_13oce1d",
+      "sourceCount": 49
     },
     {
       "title": "[증시키워드] 추석 뒤 증시 재개…삼성전자 배당 막차·HLB FDA 승인에 시선 집중 - 이투데이",
@@ -2791,8 +2798,8 @@
         {
           "data": [
             10,
-            1,
-            22,
+            2,
+            21,
             1
           ],
           "backgroundColor": [
@@ -2828,9 +2835,9 @@
       "matrix": {
         "半导体": {
           "极高": 3,
-          "高": 4,
-          "中": 1,
-          "低": 6
+          "高": 5,
+          "中": 2,
+          "低": 4
         },
         "光模块": {
           "极高": 0,
@@ -2874,7 +2881,7 @@
         {
           "label": "利空",
           "data": [
-            0,
+            1,
             0,
             0,
             1
@@ -2884,7 +2891,7 @@
         {
           "label": "中性",
           "data": [
-            5,
+            4,
             3,
             6,
             8
@@ -2907,17 +2914,20 @@
     "timeWindow": {
       "labels": [
         "短期",
-        "中期"
+        "中期",
+        "长期"
       ],
       "datasets": [
         {
           "data": [
-            9,
-            25
+            8,
+            23,
+            3
           ],
           "backgroundColor": [
             "#2563eb",
-            "#ea580c"
+            "#ea580c",
+            "#16a34a"
           ],
           "borderWidth": 0
         }

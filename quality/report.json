@@ -2342,16 +2342,16 @@
     {
       "date": "20260928",
       "displayDate": "2026-09-28",
-      "isAi": false,
+      "isAi": true,
       "newsCount": 34,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 4,
-        "high": 5
+        "high": 6
       },
-      "signalHitRate": 41,
+      "signalHitRate": 12,
       "directions": {
         "利好": 2,
         "利空": 0,
