@@ -1,0 +1,585 @@
+{
+  "date": "20260930",
+  "displayDate": "2026-09-30",
+  "generatedAt": "2026-09-29T17:45:36.331Z",
+  "analyzed": [
+    {
+      "title_cn": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:质疑安全系统；AI科学难题",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "质疑安全系统",
+        "AI科学难题"
+      ],
+      "evidence": [
+        "英伟达的安全系统并非“完整解决方案”"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "市场反应程度待观察",
+      "title": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+      "description": "",
+      "pubDate": "2026-09-29T16:15:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv5995205.d.html",
+      "eventId": "evt_12txb6u",
+      "eventTitle": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv5995205.d.html",
+          "pubDate": "2026-09-29T16:15:10.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+      "summary_cn": "OpenAI的CEO Altman：OpenAI将拥有“许多伟大的新模型”。\n\n英伟达针对AI提供的安全系统并非“完整的解决方案”。\n\nAI更多的是一个科学问题",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:安全系统不足；不受Meta威胁",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "安全系统不足",
+        "不受Meta威胁"
+      ],
+      "evidence": [
+        "英伟达针对AI提供的安全系统并非“完整的解决方案”"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "Meta模型影响未知",
+      "title": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+      "description": "OpenAI的CEO Altman：OpenAI将拥有“许多伟大的新模型”。\n\n英伟达针对AI提供的安全系统并非“完整的解决方案”。\n\nAI更多的是一个科学问题，而非工程问题。\n\nMeta Platforms的Muse模型是一个不错的产品，（OpenAI）不受Meta的威胁。",
+      "pubDate": "2026-09-29T16:12:14.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3172344",
+      "eventId": "evt_8xzb9h",
+      "eventTitle": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+          "description": "OpenAI的CEO Altman：OpenAI将拥有“许多伟大的新模型”。\n\n英伟达针对AI提供的安全系统并非“完整的解决方案”。\n\nAI更多的是一个科学问题，而非工程问题。\n\nMeta Platforms的Muse模型是一个不错的产品，（OpenAI）不受Meta的威胁。",
+          "link": "https://wallstreetcn.com/articles/3172344",
+          "pubDate": "2026-09-29T16:12:14.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    }
+  ],
+  "sectorMatrix": [
+    {
+      "name": "半导体",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 2,
+      "summary": "半导体板块2条新闻，方向以中性为主",
+      "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "光模块",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    }
+  ],
+  "keyPoints": [
+    "【半导体】奥特曼质疑英伟达AI安全系统，强调科学难题"
+  ],
+  "marketSummary": "半导体板块受OpenAI评论影响，英伟达安全系统遭质疑，情绪偏负面但无实质变化。",
+  "isAi": true,
+  "sourceHealth": {
+    "level": "failed",
+    "issues": [
+      {
+        "code": "low-volume",
+        "level": "failed",
+        "message": "当日仅 2 条新闻(下限 10)"
+      },
+      {
+        "code": "api-empty-source",
+        "level": "degraded",
+        "message": "API 源无数据: 财联社"
+      }
+    ],
+    "summary": "抓取异常:当日仅 2 条新闻(下限 10);API 源无数据: 财联社",
+    "counts": {
+      "fetched": 945,
+      "kept": 2,
+      "analyzed": 2,
+      "rssEnabled": true,
+      "rssOk": 43,
+      "rssTotal": 43,
+      "apiOk": 5,
+      "apiTotal": 5
+    }
+  },
+  "fullNews": [
+    {
+      "title": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-29T16:15:10.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv5995205.d.html",
+      "eventId": "evt_12txb6u",
+      "sourceCount": 1
+    },
+    {
+      "title": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+      "description": "OpenAI的CEO Altman：OpenAI将拥有“许多伟大的新模型”。\n\n英伟达针对AI提供的安全系统并非“完整的解决方案”。\n\nAI更多的是一个科学问题，而非工程问题。\n\nMeta Platforms的Muse模型是一个不错的产品，（OpenAI）不受Meta的威胁。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-29T16:12:14.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3172344",
+      "eventId": "evt_8xzb9h",
+      "sourceCount": 1
+    }
+  ],
+  "etfData": [
+    {
+      "code": "159995",
+      "name": "芯片ETF华夏",
+      "category": "半导体",
+      "price": 1.088,
+      "change": 0.8341056533827728
+    },
+    {
+      "code": "512760",
+      "name": "芯片ETF国泰",
+      "category": "半导体",
+      "price": 1.042,
+      "change": 0.6763285024154704
+    },
+    {
+      "code": "588200",
+      "name": "科创芯片ETF嘉实",
+      "category": "半导体",
+      "price": 1.118,
+      "change": 1.0849909584086808
+    },
+    {
+      "code": "515050",
+      "name": "通信ETF华夏",
+      "category": "光模块",
+      "price": 0.976,
+      "change": 0.9307135470527413
+    },
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "category": "光模块",
+      "price": 0.629,
+      "change": 0.31897926634768764
+    },
+    {
+      "code": "159811",
+      "name": "5GETF博时",
+      "category": "光模块",
+      "price": 2.834,
+      "change": 0.8540925266903923
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "category": "创新药",
+      "price": 0.632,
+      "change": 0.6369426751592362
+    },
+    {
+      "code": "159858",
+      "name": "创新药ETF南方",
+      "category": "创新药",
+      "price": 0.683,
+      "change": 0.8862629246676521
+    },
+    {
+      "code": "159992",
+      "name": "创新药ETF银华",
+      "category": "创新药",
+      "price": 0.844,
+      "change": -0.1183431952662723
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "category": "黄金",
+      "price": 8.519,
+      "change": -0.5718954248365954
+    },
+    {
+      "code": "159934",
+      "name": "黄金ETF易方达",
+      "category": "黄金",
+      "price": 8.897,
+      "change": -0.6143878462913284
+    },
+    {
+      "code": "518800",
+      "name": "黄金ETF国泰",
+      "category": "黄金",
+      "price": 8.929,
+      "change": -0.6121994657168267
+    }
+  ],
+  "chartData": {
+    "etfTrend": {
+      "dates": [
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30"
+      ],
+      "datasets": [
+        {
+          "label": "半导体",
+          "data": [
+            100,
+            92.01,
+            91.06,
+            91.69,
+            88.37,
+            88.45,
+            89.48,
+            93.43,
+            91.3,
+            92.41,
+            90.19,
+            88.69,
+            88.21,
+            85.92,
+            88.61,
+            87.5,
+            87.03,
+            86.63,
+            85.21,
+            83.54,
+            85.21,
+            88.92,
+            88.13,
+            91.14,
+            91.53,
+            92.33,
+            91.85,
+            89.56,
+            85.36,
+            86.08,
+            86.08
+          ],
+          "borderColor": "#7c3aed",
+          "backgroundColor": "#7c3aed22",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "光模块",
+          "data": [
+            100,
+            91.92,
+            92.92,
+            95.37,
+            91.1,
+            91.37,
+            91.73,
+            95.37,
+            94.1,
+            95.37,
+            93.37,
+            91.64,
+            91.19,
+            89.65,
+            95.28,
+            94.64,
+            95.55,
+            94.82,
+            95.1,
+            92.28,
+            91.83,
+            95.37,
+            94.82,
+            97.18,
+            98.18,
+            98,
+            97.18,
+            94.28,
+            87.83,
+            88.65,
+            88.65
+          ],
+          "borderColor": "#0891b2",
+          "backgroundColor": "#0891b222",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "创新药",
+          "data": [
+            100,
+            97.67,
+            102.04,
+            97.38,
+            92.58,
+            94.47,
+            94.61,
+            95.49,
+            94.03,
+            92.43,
+            92.43,
+            91.85,
+            92.87,
+            91.99,
+            91.7,
+            92.58,
+            91.12,
+            89.52,
+            87.63,
+            90.54,
+            89.67,
+            89.96,
+            90.54,
+            91.27,
+            94.76,
+            94.61,
+            94.76,
+            91.7,
+            91.41,
+            91.99,
+            91.99
+          ],
+          "borderColor": "#0d9488",
+          "backgroundColor": "#0d948822",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "黄金",
+          "data": [
+            100,
+            98.85,
+            101.72,
+            103.41,
+            105.35,
+            105.01,
+            104.84,
+            104.05,
+            104.37,
+            100.63,
+            100.44,
+            98.06,
+            100.3,
+            100.95,
+            99.41,
+            99.66,
+            99.59,
+            100.06,
+            98.51,
+            97.76,
+            97.26,
+            98.09,
+            97.55,
+            99.24,
+            98.37,
+            97.59,
+            98.01,
+            96.81,
+            94.38,
+            93.84,
+            93.84
+          ],
+          "borderColor": "#d97706",
+          "backgroundColor": "#d9770622",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        }
+      ],
+      "hasData": true
+    },
+    "sentiment": {
+      "datasets": [
+        {
+          "data": [
+            2
+          ],
+          "backgroundColor": [
+            "#16a34a",
+            "#dc2626",
+            "#9ca0af",
+            "#ea580c"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "labels": [
+        "中性"
+      ],
+      "hasData": true
+    },
+    "heatmap": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "impacts": [
+        "低",
+        "中",
+        "高",
+        "极高"
+      ],
+      "matrix": {
+        "半导体": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 2
+        },
+        "光模块": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "创新药": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "黄金": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        }
+      },
+      "hasData": true
+    },
+    "direction": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "datasets": [
+        {
+          "label": "中性",
+          "data": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": "#9ca0af"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            2
+          ],
+          "backgroundColor": [
+            "#2563eb"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "hasData": true
+    }
+  }
+}

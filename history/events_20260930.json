@@ -1,0 +1,30 @@
+{
+  "date": "20260930",
+  "count": 2,
+  "events": [
+    {
+      "eventId": "evt_12txb6u",
+      "canonicalTitle": "OpenAI首席执行官奥特曼：英伟达的安全系统并非 “完整解决方案”。人工智能面临更多的是科学层面难题，而非工程层面问题。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv5995205.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-09-30/detail-initppiv5995205.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_8xzb9h",
+      "canonicalTitle": "OpenAI CEO：英伟达针对AI提供的安全系统并非“完整的解决方案”",
+      "canonicalLink": "https://wallstreetcn.com/articles/3172344",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3172344"
+      ]
+    }
+  ]
+}
