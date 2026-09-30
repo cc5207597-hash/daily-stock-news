@@ -1,27 +1,27 @@
 {
   "runId": "munvmit0-v8wxwx",
-  "generatedAt": "2026-09-30T09:03:04.222Z",
+  "generatedAt": "2026-09-30T09:09:44.371Z",
   "date": "20260930",
-  "state": "preview",
+  "state": "done",
   "health": {
     "level": "ok",
     "issues": []
   },
   "funnel": {
-    "raw": 993,
-    "rawApi": 562,
-    "rawRss": 431,
+    "raw": 988,
+    "rawApi": 560,
+    "rawRss": 428,
     "rawRssByDay": {
       "20260929": 148,
-      "20260930": 283
+      "20260930": 280
     },
-    "dedup": 896,
-    "noise": 892,
-    "clusterEvents": 572,
-    "classify": 572,
-    "filter": 98,
-    "dayFilter": 83,
-    "keptApi": 34,
+    "dedup": 891,
+    "noise": 886,
+    "clusterEvents": 571,
+    "classify": 571,
+    "filter": 99,
+    "dayFilter": 84,
+    "keptApi": 35,
     "keptRss": 49
   }
 }
