@@ -2437,15 +2437,15 @@
       "date": "20260930",
       "displayDate": "2026-09-30",
       "isAi": true,
-      "newsCount": 84,
+      "newsCount": 115,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
-        "vhigh": 5,
-        "high": 8
+        "vhigh": 8,
+        "high": 11
       },
-      "signalHitRate": 35,
+      "signalHitRate": 40,
       "directions": {
         "利好": 2,
         "利空": 1,
