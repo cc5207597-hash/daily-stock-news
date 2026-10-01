@@ -1,0 +1,31 @@
+{
+  "date": "20261002",
+  "count": 2,
+  "events": [
+    {
+      "eventId": "evt_j51pi7",
+      "canonicalTitle": "费城半导体指数涨2%",
+      "canonicalLink": "https://www.cls.cn/detail/2497089",
+      "memberCount": 1,
+      "sources": [
+        "财联社"
+      ],
+      "relatedArticles": [
+        "https://www.cls.cn/detail/2497089",
+        "https://www.cls.cn/detail/2497084"
+      ]
+    },
+    {
+      "eventId": "evt_eijd8i",
+      "canonicalTitle": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-02/detail-inittzpv1794525.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-02/detail-inittzpv1794525.d.html"
+      ]
+    }
+  ]
+}

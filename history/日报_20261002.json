@@ -1,0 +1,592 @@
+{
+  "date": "20261002",
+  "displayDate": "2026-10-02",
+  "generatedAt": "2026-10-01T18:07:14.280Z",
+  "analyzed": [
+    {
+      "title_cn": "费城半导体指数涨2%",
+      "summary_cn": "【费城半导体指数涨2%】财联社10月2日电，费城半导体指数涨2%，报12886.64点。",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:ETF跌超3%；行情判利空",
+      "sentiment": "利空",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "ETF跌超3%",
+        "行情判利空"
+      ],
+      "evidence": [
+        "费城半导体指数涨2%，报12886.64点."
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "费城半导体指数涨2%",
+      "description": "【费城半导体指数涨2%】财联社10月2日电，费城半导体指数涨2%，报12886.64点。",
+      "pubDate": "2026-10-01T17:31:26.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2497089",
+      "eventId": "evt_j51pi7",
+      "eventTitle": "费城半导体指数涨2%",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://www.cls.cn/detail/2497084"
+      ],
+      "eventMembers": [
+        {
+          "title": "费城半导体指数涨2%",
+          "description": "【费城半导体指数涨2%】财联社10月2日电，费城半导体指数涨2%，报12886.64点。",
+          "link": "https://www.cls.cn/detail/2497089",
+          "pubDate": "2026-10-01T17:31:26.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "费城半导体指数涨1%",
+          "description": "【费城半导体指数涨1%】财联社10月2日电，费城半导体指数涨1%，报12755.47点。",
+          "link": "https://www.cls.cn/detail/2497084",
+          "pubDate": "2026-10-01T17:12:35.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:ETF跌超3%；个股涨跌利空",
+      "sentiment": "利空",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "ETF跌超3%",
+        "个股涨跌利空"
+      ],
+      "evidence": [
+        "费城半导体指数日内涨2.04%，现报12885.64点."
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+      "description": "",
+      "pubDate": "2026-10-01T17:30:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-02/detail-inittzpv1794525.d.html",
+      "eventId": "evt_eijd8i",
+      "eventTitle": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-02/detail-inittzpv1794525.d.html",
+          "pubDate": "2026-10-01T17:30:43.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    }
+  ],
+  "sectorMatrix": [
+    {
+      "name": "半导体",
+      "shock": "弱",
+      "direction": "利空",
+      "news_count": 2,
+      "summary": "半导体板块2条新闻，方向以利空为主。关注：费城半导体指数涨2%；【费城半导体指数涨2%】财联社10月2日电，费城半导体指",
+      "tickers": "中芯国际、北方华创、中微公司"
+    },
+    {
+      "name": "光模块",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 0,
+      "summary": "",
+      "tickers": "",
+      "notes": "；ETF校准(当日+3.4%)"
+    },
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    }
+  ],
+  "keyPoints": [
+    "【半导体】费城半导体指数涨2%但A股ETF跌3.2%",
+    "【半导体】英伟达涨1.26%等个股上涨，板块整体承压"
+  ],
+  "marketSummary": "半导体板块ETF下跌超3%，尽管海外指数上涨，反映A股情绪疲软。",
+  "isAi": true,
+  "sourceHealth": {
+    "level": "failed",
+    "issues": [
+      {
+        "code": "low-volume",
+        "level": "failed",
+        "message": "当日仅 2 条新闻(下限 10)"
+      }
+    ],
+    "summary": "抓取异常:当日仅 2 条新闻(下限 10)",
+    "counts": {
+      "fetched": 893,
+      "kept": 2,
+      "analyzed": 2,
+      "rssEnabled": true,
+      "rssOk": 43,
+      "rssTotal": 43,
+      "apiOk": 5,
+      "apiTotal": 5
+    }
+  },
+  "fullNews": [
+    {
+      "title": "费城半导体指数涨2%",
+      "description": "【费城半导体指数涨2%】财联社10月2日电，费城半导体指数涨2%，报12886.64点。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T17:31:26.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2497089",
+      "eventId": "evt_j51pi7",
+      "sourceCount": 1
+    },
+    {
+      "title": "【费城半导体指数日内涨2%】费城半导体指数日内涨2.04%，现报12885.64点。英伟达涨1.26%，博通跌0.34%，美光涨1.18%，英特尔涨1.54%，AMD涨1.08%，高通涨0.80%，台积电涨0.87%，阿斯麦涨0.52%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T17:30:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-02/detail-inittzpv1794525.d.html",
+      "eventId": "evt_eijd8i",
+      "sourceCount": 1
+    }
+  ],
+  "etfData": [
+    {
+      "code": "159995",
+      "name": "芯片ETF华夏",
+      "category": "半导体",
+      "price": 1.053,
+      "change": -3.216911764705895
+    },
+    {
+      "code": "512760",
+      "name": "芯片ETF国泰",
+      "category": "半导体",
+      "price": 1.012,
+      "change": -2.879078694817661
+    },
+    {
+      "code": "588200",
+      "name": "科创芯片ETF嘉实",
+      "category": "半导体",
+      "price": 1.08,
+      "change": -3.398926654740611
+    },
+    {
+      "code": "515050",
+      "name": "通信ETF华夏",
+      "category": "光模块",
+      "price": 0.965,
+      "change": -1.12704918032787
+    },
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "category": "光模块",
+      "price": 0.626,
+      "change": -0.4769475357710656
+    },
+    {
+      "code": "159811",
+      "name": "5GETF博时",
+      "category": "光模块",
+      "price": 2.801,
+      "change": -1.1644318983768496
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "category": "创新药",
+      "price": 0.654,
+      "change": 3.4810126582278516
+    },
+    {
+      "code": "159858",
+      "name": "创新药ETF南方",
+      "category": "创新药",
+      "price": 0.707,
+      "change": 3.5139092240117
+    },
+    {
+      "code": "159992",
+      "name": "创新药ETF银华",
+      "category": "创新药",
+      "price": 0.872,
+      "change": 3.3175355450237
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "category": "黄金",
+      "price": 8.633,
+      "change": 1.338185233008557
+    },
+    {
+      "code": "159934",
+      "name": "黄金ETF易方达",
+      "category": "黄金",
+      "price": 9.022,
+      "change": 1.4049679667303585
+    },
+    {
+      "code": "518800",
+      "name": "黄金ETF国泰",
+      "category": "黄金",
+      "price": 9.056,
+      "change": 1.42233172807704
+    }
+  ],
+  "chartData": {
+    "etfTrend": {
+      "dates": [
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-02"
+      ],
+      "datasets": [
+        {
+          "label": "半导体",
+          "data": [
+            100,
+            98.97,
+            99.66,
+            96.04,
+            96.13,
+            97.25,
+            101.55,
+            99.23,
+            100.43,
+            98.02,
+            96.39,
+            95.87,
+            93.38,
+            96.3,
+            95.1,
+            94.58,
+            94.15,
+            92.61,
+            90.8,
+            92.61,
+            96.65,
+            95.79,
+            99.05,
+            99.48,
+            100.34,
+            99.83,
+            97.33,
+            92.78,
+            93.55,
+            90.54,
+            90.54
+          ],
+          "borderColor": "#7c3aed",
+          "backgroundColor": "#7c3aed22",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "光模块",
+          "data": [
+            100,
+            101.09,
+            103.75,
+            99.11,
+            99.41,
+            99.8,
+            103.75,
+            102.37,
+            103.75,
+            101.58,
+            99.7,
+            99.21,
+            97.53,
+            103.66,
+            102.96,
+            103.95,
+            103.16,
+            103.46,
+            100.4,
+            99.9,
+            103.75,
+            103.16,
+            105.73,
+            106.82,
+            106.62,
+            105.73,
+            102.57,
+            95.55,
+            96.44,
+            95.36,
+            95.36
+          ],
+          "borderColor": "#0891b2",
+          "backgroundColor": "#0891b222",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "创新药",
+          "data": [
+            100,
+            104.47,
+            99.7,
+            94.78,
+            96.72,
+            96.87,
+            97.76,
+            96.27,
+            94.63,
+            94.63,
+            94.04,
+            95.08,
+            94.19,
+            93.89,
+            94.78,
+            93.29,
+            91.65,
+            89.72,
+            92.7,
+            91.8,
+            92.1,
+            92.7,
+            93.44,
+            97.02,
+            96.87,
+            97.02,
+            93.89,
+            93.59,
+            94.19,
+            97.47,
+            97.47
+          ],
+          "borderColor": "#0d9488",
+          "backgroundColor": "#0d948822",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "黄金",
+          "data": [
+            100,
+            102.9,
+            104.61,
+            106.57,
+            106.23,
+            106.05,
+            105.26,
+            105.58,
+            101.79,
+            101.6,
+            99.2,
+            101.46,
+            102.12,
+            100.56,
+            100.81,
+            100.75,
+            101.21,
+            99.65,
+            98.9,
+            98.38,
+            99.23,
+            98.69,
+            100.39,
+            99.51,
+            98.72,
+            99.14,
+            97.93,
+            95.48,
+            94.93,
+            96.2,
+            96.2
+          ],
+          "borderColor": "#d97706",
+          "backgroundColor": "#d9770622",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        }
+      ],
+      "hasData": true
+    },
+    "sentiment": {
+      "datasets": [
+        {
+          "data": [
+            2
+          ],
+          "backgroundColor": [
+            "#16a34a",
+            "#dc2626",
+            "#9ca0af",
+            "#ea580c"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "labels": [
+        "利空"
+      ],
+      "hasData": true
+    },
+    "heatmap": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "impacts": [
+        "低",
+        "中",
+        "高",
+        "极高"
+      ],
+      "matrix": {
+        "半导体": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 2
+        },
+        "光模块": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "创新药": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "黄金": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        }
+      },
+      "hasData": true
+    },
+    "direction": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "datasets": [
+        {
+          "label": "利空",
+          "data": [
+            2,
+            0,
+            0,
+            0
+          ],
+          "backgroundColor": "#dc2626"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            2
+          ],
+          "backgroundColor": [
+            "#2563eb"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "hasData": true
+    }
+  }
+}

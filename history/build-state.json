@@ -1,27 +1,29 @@
 {
   "runId": "",
-  "generatedAt": "2026-10-01T11:09:53.216Z",
-  "date": "20261001",
+  "generatedAt": "2026-10-01T18:07:14.282Z",
+  "date": "20261002",
   "state": "done",
   "health": {
-    "level": "ok",
-    "issues": []
+    "level": "failed",
+    "issues": [
+      "当日仅 2 条新闻(下限 10)"
+    ]
   },
   "funnel": {
-    "raw": 934,
-    "rawApi": 555,
-    "rawRss": 379,
+    "raw": 893,
+    "rawApi": 561,
+    "rawRss": 332,
     "rawRssByDay": {
-      "20260930": 93,
-      "20261001": 286
+      "20261001": 320,
+      "20261002": 12
     },
-    "dedup": 857,
-    "noise": 850,
-    "clusterEvents": 513,
-    "classify": 513,
-    "filter": 74,
-    "dayFilter": 67,
-    "keptApi": 14,
-    "keptRss": 53
+    "dedup": 813,
+    "noise": 812,
+    "clusterEvents": 476,
+    "classify": 476,
+    "filter": 37,
+    "dayFilter": 2,
+    "keptApi": 2,
+    "keptRss": 0
   }
 }
