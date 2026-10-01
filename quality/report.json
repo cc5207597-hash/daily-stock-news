@@ -2483,17 +2483,15 @@
       "date": "20261001",
       "displayDate": "2026-10-01",
       "isAi": true,
-      "newsCount": 48,
+      "newsCount": 67,
       "sectorCount": 4,
-      "missingSectors": [
-        "创新药"
-      ],
-      "covered": false,
+      "missingSectors": [],
+      "covered": true,
       "impact": {
-        "vhigh": 3,
-        "high": 16
+        "vhigh": 6,
+        "high": 19
       },
-      "signalHitRate": 25,
+      "signalHitRate": 43,
       "directions": {
         "利好": 1,
         "利空": 2,
@@ -2529,8 +2527,8 @@
     }
   ],
   "total": 57,
-  "coveredAll": 51,
-  "coverageRate": 89,
+  "coveredAll": 52,
+  "coverageRate": 91,
   "avgImpactHigh": 13,
   "consistency": {
     "黄金": 33,
