@@ -1,31 +1,1815 @@
 {
   "date": "20261001",
   "displayDate": "2026-10-01",
-  "generatedAt": "2026-09-30T17:44:08.288Z",
+  "generatedAt": "2026-10-01T06:41:29.885Z",
   "analyzed": [
     {
-      "title_cn": "英伟达CEO黄仁勋：协定通过强有力的内部管控、独立的外部评估以及董事会级别的监督，进一步强化了这一责任。",
+      "title_cn": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+      "summary_cn": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了&nbsp;&nbsp; 搜狐网",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:AI芯片；华为投资",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "深圳AI芯片材料商"
+      ],
+      "reasoning": [
+        "AI芯片",
+        "华为投资"
+      ],
+      "evidence": [
+        "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "IPO后股价可能波动",
+      "title": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+      "description": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了&nbsp;&nbsp; 搜狐网",
+      "pubDate": "2026-10-01T05:26:15.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNGx4dE14R1lPdXBoS1lOdmZRRUJQYU9oSFpxVVI4c05JclR2Vlk0Z2FnX0x2TWU5cUZKMlFuOVRWVjBNd0xQWkZ5cVpOX2ZEMnAw?oc=5",
+      "eventId": "evt_5x7pu",
+      "eventTitle": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+      "eventSources": [
+        "搜狐网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+          "description": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了&nbsp;&nbsp; 搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNGx4dE14R1lPdXBoS1lOdmZRRUJQYU9oSFpxVVI4c05JclR2Vlk0Z2FnX0x2TWU5cUZKMlFuOVRWVjBNd0xQWkZ5cVpOX2ZEMnAw?oc=5",
+          "pubDate": "2026-10-01T05:26:15.000Z",
+          "source": "搜狐网"
+        }
+      ]
+    },
+    {
+      "title_cn": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
       "summary_cn": "",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:板块大跌；AI需求旺",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "板块大跌",
+        "AI需求旺"
+      ],
+      "evidence": [
+        "美光财报点燃AI交易，日本芯片股集体大涨"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
+      "description": "",
+      "pubDate": "2026-10-01T06:16:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104132.d.html",
+      "eventId": "evt_e2dj67",
+      "eventTitle": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104132.d.html",
+          "pubDate": "2026-10-01T06:16:43.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:需求前景；HBM增长",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "SK海力士"
+      ],
+      "reasoning": [
+        "需求前景",
+        "HBM增长"
+      ],
+      "evidence": [
+        "市场低估了明年高带宽内存（HBM）的需求量"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "实际需求增长速度可能慢于预期",
+      "title": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+      "description": "",
+      "pubDate": "2026-10-01T06:11:26.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyaf5328431.d.html",
+      "eventId": "evt_1vp2cgq",
+      "eventTitle": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyaf5328431.d.html",
+          "pubDate": "2026-10-01T06:11:26.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:板块大跌；夜盘上涨",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "SOXL",
+        "ARM",
+        "AMD",
+        "Intel",
+        "SanDisk",
+        "SK Hynix",
+        "Broadcom",
+        "NVIDIA",
+        "Micron"
+      ],
+      "reasoning": [
+        "板块大跌",
+        "夜盘上涨"
+      ],
+      "evidence": [
+        "美股夜盘芯片股集体走强"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "与[8]内容高度重复",
+      "title": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+      "description": "",
+      "pubDate": "2026-10-01T06:17:29.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104618.d.html",
+      "eventId": "evt_3cgviw",
+      "eventTitle": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+      "eventSources": [
+        "财联社",
+        "金十数据",
+        "新浪财经"
+      ],
+      "sourceCount": 3,
+      "relatedLinks": [
+        "https://www.cls.cn/detail/2496877",
+        "美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，Arm(ARM.O)"
+      ],
+      "eventMembers": [
+        {
+          "title": "美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%",
+          "description": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】财联社10月1日电，美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+          "link": "https://www.cls.cn/detail/2496877",
+          "pubDate": "2026-10-01T06:17:03.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，Arm(ARM.O)",
+          "description": "美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，Arm(ARM.O)涨4%，AMD(AMD.O)、英特尔(INTC.O)涨超3%，闪迪(SNDK.O)涨2.8%，SK海力士(SKHY.O)涨2.7%，博通(AVGO.O)涨1.6%，英伟达(NVDA.O)涨1.5%，美光科技(MU.O)涨1.4%。",
+          "link": "",
+          "pubDate": "2026-10-01T06:20:38.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104618.d.html",
+          "pubDate": "2026-10-01T06:17:29.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "U.S. after-hours 芯片 names rallied: Direxion 3x S",
+      "summary_cn": "U.S. after-hours 芯片 names rallied: Direxion 3x 半导体 ETF SOXL rose more than 9%; Arm (ARM.O) +4%; AMD (AMD.O) and 英特尔 (INTC.O) rose over 3%; SanDisk (SNDK.O) +2.8%; SK海力士 (SKHY.O) +2.7%; 博通 (AVGO.O) +1.6%; 英伟达 (NVDA.O) +1.5%; 美光 Technology (MU.O) +1.4%.",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:板块大跌；夜盘上涨",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [
+        "Arm",
+        "AMD",
+        "Intel",
+        "SanDisk",
+        "SK Hynix",
+        "Broadcom",
+        "NVIDIA",
+        "Micron"
+      ],
+      "reasoning": [
+        "板块大跌",
+        "夜盘上涨"
+      ],
+      "evidence": [
+        "U.S. after-hours chip names rallied"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "夜盘表现不反映开盘后走势",
+      "title": "U.S. after-hours 芯片 names rallied: Direxion 3x S",
+      "description": "U.S. after-hours chip names rallied: Direxion 3x Semiconductor ETF SOXL rose more than 9%; Arm (ARM.O) +4%; AMD (AMD.O) and Intel (INTC.O) rose over 3%; SanDisk (SNDK.O) +2.8%; SK Hynix (SKHY.O) +2.7%; Broadcom (AVGO.O) +1.6%; NVIDIA (NVDA.O) +1.5%; Micron Technology (MU.O) +1.4%.",
+      "pubDate": "2026-10-01T06:20:47.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1420hg8",
+      "eventTitle": "U.S. after-hours chip names rallied: Direxion 3x S",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "U.S. after-hours chip names rallied: Direxion 3x S",
+          "description": "U.S. after-hours chip names rallied: Direxion 3x Semiconductor ETF SOXL rose more than 9%; Arm (ARM.O) +4%; AMD (AMD.O) and Intel (INTC.O) rose over 3%; SanDisk (SNDK.O) +2.8%; SK Hynix (SKHY.O) +2.7%; Broadcom (AVGO.O) +1.6%; NVIDIA (NVDA.O) +1.5%; Micron Technology (MU.O) +1.4%.",
+          "link": "",
+          "pubDate": "2026-10-01T06:20:47.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+      "summary_cn": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑，而Eligible库存减少。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+      "description": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑，而Eligible库存减少。",
+      "pubDate": "2026-10-01T06:35:56.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_11s3jic",
+      "eventTitle": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+          "description": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑，而Eligible库存减少。",
+          "link": "",
+          "pubDate": "2026-10-01T06:35:56.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+      "summary_cn": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Registered库存有所改善。",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+      "description": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Registered库存有所改善。",
+      "pubDate": "2026-10-01T06:22:06.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_ce1agq",
+      "eventTitle": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+          "description": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Registered库存有所改善。",
+          "link": "",
+          "pubDate": "2026-10-01T06:22:06.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:自主突破；手机创新",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [
+        "华为"
+      ],
+      "reasoning": [
+        "自主突破",
+        "手机创新"
+      ],
+      "evidence": [
+        "华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+      "description": "",
+      "pubDate": "2026-10-01T03:25:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5356765.d.html",
+      "eventId": "evt_1t5k6l4",
+      "eventTitle": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5324397.d.html",
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317303.d.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5356765.d.html",
+          "pubDate": "2026-10-01T03:25:05.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【余承东：华为Mate 90 Pro Max搭载麒麟9050 Pro芯片，首发四卡三待功能】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。余承东表示，一直以来，麒麟芯片与Mate系列相互成就。此次Mate 90搭载麒麟9030芯片，Mate 90 Pro搭载麒麟9035芯片，Mate 90 Pro Max搭载麒麟9050 Pro芯片。其中Mate 90 Pro Max业界首发四卡三待功能，通过eSIM+实体卡实现。（新浪科技）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5324397.d.html",
+          "pubDate": "2026-10-01T02:30:30.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【余承东：华为Mate系列累计发送卫星消息90万条，累计唤起小艺500亿次】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。余承东首先回顾了华为Mate系列取得的成绩：累计发送卫星消息90万条，累计跌落防护约5000万次，累计按下快门约5000亿次，累计唤起小艺500亿次。（新浪科技）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317303.d.html",
+          "pubDate": "2026-10-01T02:19:38.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:涨价预期；供应紧张",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "华为"
+      ],
+      "reasoning": [
+        "涨价预期",
+        "供应紧张"
+      ],
+      "evidence": [
+        "华为预计存储芯片短缺将导致智能手机进一步涨价"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "实际短缺程度可能低于预期",
+      "title": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+      "description": "",
+      "pubDate": "2026-10-01T03:02:47.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5343092.d.html",
+      "eventId": "evt_10y6cvx",
+      "eventTitle": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5343092.d.html",
+          "pubDate": "2026-10-01T03:02:47.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+      "summary_cn": "安世半导体风波一周年 业界：其供应链已重塑&nbsp;&nbsp; aboluowang.com",
       "category": "半导体",
       "direction": "中性",
       "impact": "中",
       "certainty": "中",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:强化管理",
+      "notes": "AI研判:供应链重塑；一年风波",
       "sentiment": "中性",
       "market_impact": "中",
       "affected_companies": [
-        "英伟达"
+        "安世半导体"
       ],
       "reasoning": [
-        "强化管理"
+        "供应链重塑",
+        "一年风波"
       ],
       "evidence": [
-        "协定通过强有力的内部管控、独立的外部评估以及董事会级别的监督，进一步强化了这一责任"
+        "安世半导体风波一周年 业界：其供应链已重塑"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "重塑后供应链稳定性有待观察",
+      "title": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+      "description": "安世半导体风波一周年 业界：其供应链已重塑&nbsp;&nbsp; aboluowang.com",
+      "pubDate": "2026-10-01T03:27:04.000Z",
+      "source": "aboluowang.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TdIBY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TQ?oc=5",
+      "eventId": "evt_1ry8ff5",
+      "eventTitle": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+      "eventSources": [
+        "aboluowang.com"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+          "description": "安世半导体风波一周年 业界：其供应链已重塑&nbsp;&nbsp; aboluowang.com",
+          "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TdIBY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TQ?oc=5",
+          "pubDate": "2026-10-01T03:27:04.000Z",
+          "source": "aboluowang.com"
+        }
+      ]
+    },
+    {
+      "title_cn": "英飞凌将泰国视为潜在的芯片生产中心。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:产能布局",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "产能布局"
+      ],
+      "evidence": [
+        "英飞凌将泰国视为潜在的芯片生产中心"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "具体生产计划尚未公布",
+      "title": "英飞凌将泰国视为潜在的芯片生产中心。",
+      "description": "",
+      "pubDate": "2026-10-01T03:45:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2144582.d.html",
+      "eventId": "evt_z8939i",
+      "eventTitle": "英飞凌将泰国视为潜在的芯片生产中心。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "英飞凌将泰国视为潜在的芯片生产中心。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2144582.d.html",
+          "pubDate": "2026-10-01T03:45:15.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:产能扩张；需求信心",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "产能扩张",
+        "需求信心"
+      ],
+      "evidence": [
+        "2027财年上半年资本支出约为250亿美元 下半年将更高"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+      "description": "",
+      "pubDate": "2026-10-01T02:21:49.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5318786.d.html",
+      "eventId": "evt_fltkxv",
+      "eventTitle": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5318786.d.html",
+          "pubDate": "2026-10-01T02:21:49.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:现金流充裕；股东回报",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "现金流充裕",
+        "股东回报"
+      ],
+      "evidence": [
+        "2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+      "description": "",
+      "pubDate": "2026-10-01T02:26:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2094536.d.html",
+      "eventId": "evt_v1k8b",
+      "eventTitle": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2094536.d.html",
+          "pubDate": "2026-10-01T02:26:15.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+      "summary_cn": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播&nbsp;&nbsp; 黄金网",
+      "category": "黄金",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:宏观·利空(40)+行情·利好(15·板块行情上涨)",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "宏观信号·利空(-40分)",
+        "行情信号·利好(+15分·板块行情上涨)"
+      ],
+      "evidence": [
+        "加息",
+        "上涨"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+      "description": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播&nbsp;&nbsp; 黄金网",
+      "pubDate": "2026-10-01T01:50:01.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMnB4YTJrcG5NdDZHaVpWMHBTMmtWR1d0bUt2NFhnV3BWZWJidXZON3VWWURyWmJQUWpLdlBBaXR2RmJiU2cxQUZwQ0c2QTlUbWRNMFB2NmFsQ1ZVaVNnc2F5TjYwVFpD?oc=5",
+      "eventId": "evt_7ub25y",
+      "eventTitle": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+      "eventSources": [
+        "黄金网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zRnFHeHhRQ2R4Mjg1LVd6MExQQk5aa0pMYmxFM0tPZmlZblg0YkJ1MTZBTUJwd0VNRUZWQ0p2dGFoOFpzRmUzajBMbEZfTkZ4LVQ1QkRwUlhvTFVvZTlDdHVGZXlPY3Fz?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+          "description": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMnB4YTJrcG5NdDZHaVpWMHBTMmtWR1d0bUt2NFhnV3BWZWJidXZON3VWWURyWmJQUWpLdlBBaXR2RmJiU2cxQUZwQ0c2QTlUbWRNMFB2NmFsQ1ZVaVNnc2F5TjYwVFpD?oc=5",
+          "pubDate": "2026-10-01T01:50:01.000Z",
+          "source": "黄金网"
+        },
+        {
+          "title": "加息预期降温数据或助金价反弹持续_金市直播 - 黄金网",
+          "description": "加息预期降温数据或助金价反弹持续_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zRnFHeHhRQ2R4Mjg1LVd6MExQQk5aa0pMYmxFM0tPZmlZblg0YkJ1MTZBTUJwd0VNRUZWQ0p2dGFoOFpzRmUzajBMbEZfTkZ4LVQ1QkRwUlhvTFVvZTlDdHVGZXlPY3Fz?oc=5",
+          "pubDate": "2026-09-30T11:34:02.000Z",
+          "source": "黄金网"
+        }
+      ]
+    },
+    {
+      "title_cn": "CScale raises $145 million for AI networking, with backing from 英伟达 and 英特尔 - ET Telecom",
+      "summary_cn": "CScale raises $145 million for AI networking, with backing from 英伟达 and 英特尔&nbsp;&nbsp; ET Telecom",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:AI融资；大厂支持",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [
+        "CScale",
+        "Nvidia",
+        "Intel"
+      ],
+      "reasoning": [
+        "AI融资",
+        "大厂支持"
+      ],
+      "evidence": [
+        "CScale raises $145 million for AI networking, with backing from Nvidia and Intel"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "实际市场表现有待观察",
+      "title": "CScale raises $145 million for AI networking, with backing from 英伟达 and 英特尔 - ET Telecom",
+      "description": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel&nbsp;&nbsp; ET Telecom",
+      "pubDate": "2026-10-01T02:36:57.000Z",
+      "source": "ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ05TYXRMaG1NRGlWUzJjbkRvSm4tTF8xRnN5b1dMQU5ENF85ZHdrSFpRekNkeGxmY1h2VXE5WFJ2ODBKNElsUzN2R2oteEJ2RXdmaFlVZXV6MWh4cE5MY2V0RzlULWl5Qm1RQ0dwck1NRkJHWFAzWEE1N0YtM3M4NHNlN01GZHRNdlpHemFRTERzYWk5ZmZkWjVjZ1ZUTzBCR0ppaXhMQmNtQ3lyTWxOemhrTHdWcWFXeVF0WEhmcjMzZFZydUJNVF9zWE5oYUYzQndPWTVNeXZQcWR1UXB0by1IY1o?oc=5",
+      "eventId": "evt_1ldz1ng",
+      "eventTitle": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel - ET Telecom",
+      "eventSources": [
+        "ET Telecom"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel - ET Telecom",
+          "description": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel&nbsp;&nbsp; ET Telecom",
+          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ05TYXRMaG1NRGlWUzJjbkRvSm4tTF8xRnN5b1dMQU5ENF85ZHdrSFpRekNkeGxmY1h2VXE5WFJ2ODBKNElsUzN2R2oteEJ2RXdmaFlVZXV6MWh4cE5MY2V0RzlULWl5Qm1RQ0dwck1NRkJHWFAzWEE1N0YtM3M4NHNlN01GZHRNdlpHemFRTERzYWk5ZmZkWjVjZ1ZUTzBCR0ppaXhMQmNtQ3lyTWxOemhrTHdWcWFXeVF0WEhmcjMzZFZydUJNVF9zWE5oYUYzQndPWTVNeXZQcWR1UXB0by1IY1o?oc=5",
+          "pubDate": "2026-10-01T02:36:57.000Z",
+          "source": "ET Telecom"
+        }
+      ]
+    },
+    {
+      "title_cn": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:传闻·中性(15)+行情·利好(23·板块行情上涨)",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "传闻信号·中性(±15分)",
+        "行情信号·利好(+23分·板块行情上涨)"
+      ],
+      "evidence": [
+        "计划",
+        "上涨"
       ],
       "confidence_score": 0.6,
-      "uncertainty": "管控措施执行效果不确定",
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "description": "",
+      "pubDate": "2026-10-01T02:14:35.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5313490.d.html",
+      "eventId": "evt_u4ii2a",
+      "eventTitle": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5313490.d.html",
+          "pubDate": "2026-10-01T02:14:35.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+      "summary_cn": "韩国产业通商部1日表示，韩国9月出口额同比增长83.5%，为1209.4亿美元，创下单月最高纪录。前9个月累计出口额突破8000亿美元，已远超去年全年水平。9月",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(30)",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "技术信号·利好(+30分)"
+      ],
+      "evidence": [
+        "突破"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+      "description": "韩国产业通商部1日表示，韩国9月出口额同比增长83.5%，为1209.4亿美元，创下单月最高纪录。前9个月累计出口额突破8000亿美元，已远超去年全年水平。9月半导体出口额为603亿美元，同比大增262.8%，首次突破600亿美元。（韩联社）",
+      "pubDate": "2026-10-01T02:25:49.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173243",
+      "eventId": "evt_28pnaw",
+      "eventTitle": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+          "description": "韩国产业通商部1日表示，韩国9月出口额同比增长83.5%，为1209.4亿美元，创下单月最高纪录。前9个月累计出口额突破8000亿美元，已远超去年全年水平。9月半导体出口额为603亿美元，同比大增262.8%，首次突破600亿美元。（韩联社）",
+          "link": "https://wallstreetcn.com/articles/3173243",
+          "pubDate": "2026-10-01T02:25:49.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:需求强劲；数据中心扩张",
+      "sentiment": "利好",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "需求强劲",
+        "数据中心扩张"
+      ],
+      "evidence": [
+        "腾讯向甲骨文租用10万枚芯片"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "实际租用细节可能有所变化",
+      "title": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+      "description": "",
+      "pubDate": "2026-10-01T03:00:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5341976.d.html",
+      "eventId": "evt_hw1vuy",
+      "eventTitle": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5341976.d.html",
+          "pubDate": "2026-10-01T03:00:31.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:技术升级；芯片突破",
+      "sentiment": "利好",
+      "market_impact": "低",
+      "affected_companies": [
+        "华为"
+      ],
+      "reasoning": [
+        "技术升级",
+        "芯片突破"
+      ],
+      "evidence": [
+        "华为Mate90全系搭载旗舰τ芯片"
+      ],
+      "confidence_score": 0.9,
+      "uncertainty": "",
+      "title": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+      "description": "",
+      "pubDate": "2026-10-01T02:20:06.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317553.d.html",
+      "eventId": "evt_4iyy09",
+      "eventTitle": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+      "eventSources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://wallstreetcn.com/articles/3173242"
+      ],
+      "eventMembers": [
+        {
+          "title": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317553.d.html",
+          "pubDate": "2026-10-01T02:20:06.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "华为Mate90全系搭载旗舰τ芯片",
+          "description": "10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+          "link": "https://wallstreetcn.com/articles/3173242",
+          "pubDate": "2026-10-01T02:25:12.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "金价“过山车”，追涨还是等待？ - 搜狐网",
+      "summary_cn": "金价“过山车”，追涨还是等待？&nbsp;&nbsp; 搜狐网",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "金价“过山车”，追涨还是等待？ - 搜狐网",
+      "description": "金价“过山车”，追涨还是等待？&nbsp;&nbsp; 搜狐网",
+      "pubDate": "2026-10-01T02:56:49.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xZFZnQXEyaDdYZHJTR0xGRHBRazRtcGtaRDktRjlRU1RtUlp2QWJnLTFLdTNzS19rWG9QYVJEVFkzbHF0bU00eWo1UHFocHJIeTZB?oc=5",
+      "eventId": "evt_7zd9w4",
+      "eventTitle": "金价“过山车”，追涨还是等待？ - 搜狐网",
+      "eventSources": [
+        "搜狐网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金价“过山车”，追涨还是等待？ - 搜狐网",
+          "description": "金价“过山车”，追涨还是等待？&nbsp;&nbsp; 搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xZFZnQXEyaDdYZHJTR0xGRHBRazRtcGtaRDktRjlRU1RtUlp2QWJnLTFLdTNzS19rWG9QYVJEVFkzbHF0bU00eWo1UHFocHJIeTZB?oc=5",
+          "pubDate": "2026-10-01T02:56:49.000Z",
+          "source": "搜狐网"
+        }
+      ]
+    },
+    {
+      "title_cn": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+      "summary_cn": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻&nbsp;&nbsp; 证券之星",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:央行购金·利好(50)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "央行购金信号·利好(+50分)"
+      ],
+      "evidence": [
+        "央行购金"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+      "description": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻&nbsp;&nbsp; 证券之星",
+      "pubDate": "2026-10-01T00:43:06.000Z",
+      "source": "证券之星",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81ZExiZzR4SU5EcnpQWVB5S2RBdmRVV0U2ejNHWXJ6b2E5UWZINzZ6czg3eEZPMFJ0LXB4ZTVuNy0xWHluaHZMV1NFVWxycFBQMzZvUFRtQVpZcjFGcDg3ZUVHc3g?oc=5",
+      "eventId": "evt_1k9febi",
+      "eventTitle": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+      "eventSources": [
+        "证券之星"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+          "description": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻&nbsp;&nbsp; 证券之星",
+          "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81ZExiZzR4SU5EcnpQWVB5S2RBdmRVV0U2ejNHWXJ6b2E5UWZINzZ6czg3eEZPMFJ0LXB4ZTVuNy0xWHluaHZMV1NFVWxycFBQMzZvUFRtQVpZcjFGcDg3ZUVHc3g?oc=5",
+          "pubDate": "2026-10-01T00:43:06.000Z",
+          "source": "证券之星"
+        }
+      ]
+    },
+    {
+      "title_cn": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+      "summary_cn": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷&nbsp;&nbsp; 财经号",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:宏观·利空(40)",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "宏观信号·利空(-40分)"
+      ],
+      "evidence": [
+        "鹰派"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+      "description": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷&nbsp;&nbsp; 财经号",
+      "pubDate": "2026-10-01T00:51:31.000Z",
+      "source": "财经号",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XY1dsMWs3dUUzQUFYZHlIbmd2TWRZYVVTaXROLWxNWWN1OWhXRUx4R3E0clR5eXVSU2xibE95TnctNTlza3BjdlZCdlcxTUs3c2lJdDBjd3dndFg4UXZhLUZyRGZUek1aNXZF?oc=5",
+      "eventId": "evt_1yf8o6k",
+      "eventTitle": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+      "eventSources": [
+        "财经号"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+          "description": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷&nbsp;&nbsp; 财经号",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XY1dsMWs3dUUzQUFYZHlIbmd2TWRZYVVTaXROLWxNWWN1OWhXRUx4R3E0clR5eXVSU2xibE95TnctNTlza3BjdlZCdlcxTUs3c2lJdDBjd3dndFg4UXZhLUZyRGZUek1aNXZF?oc=5",
+          "pubDate": "2026-10-01T00:51:31.000Z",
+          "source": "财经号"
+        }
+      ]
+    },
+    {
+      "title_cn": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+      "summary_cn": "董镇元月评：月线大阴承压金银十月先短空_名家点金&nbsp;&nbsp; 黄金网",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+      "description": "董镇元月评：月线大阴承压金银十月先短空_名家点金&nbsp;&nbsp; 黄金网",
+      "pubDate": "2026-10-01T01:39:03.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aalMwamhLam1CZlAyWTRzYXlRcWZmY3VlUzJLNXZad3lvTm1FOVVxVlhMWnBRVmxTcEoyMk9lZDk1V0hFcHpNb3M5NEdGcnN6SUhtVThWNFZuMkxvTEZqVUp1SHpCY0FjQmNfbw?oc=5",
+      "eventId": "evt_j3y3tr",
+      "eventTitle": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+      "eventSources": [
+        "黄金网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+          "description": "董镇元月评：月线大阴承压金银十月先短空_名家点金&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aalMwamhLam1CZlAyWTRzYXlRcWZmY3VlUzJLNXZad3lvTm1FOVVxVlhMWnBRVmxTcEoyMk9lZDk1V0hFcHpNb3M5NEdGcnN6SUhtVThWNFZuMkxvTEZqVUp1SHpCY0FjQmNfbw?oc=5",
+          "pubDate": "2026-10-01T01:39:03.000Z",
+          "source": "黄金网"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+      "summary_cn": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期&nbsp;&nbsp; 搜狐网",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:芯片销量翻番；算力需求",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "芯片销量翻番",
+        "算力需求"
+      ],
+      "evidence": [
+        "黄仁勋预计明年芯片销量翻番"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "预测尚未实现",
+      "title": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+      "description": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期&nbsp;&nbsp; 搜狐网",
+      "pubDate": "2026-10-01T00:34:25.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSVZEblFBT2VSNktxZlI3Y3B6LUh6eERBRi1CZ1hNVnZ3alh3bGtqTFFoSmk0bmVFUDI0THdhUWpQN216LS1fSTZONUdHYXFHVTNN?oc=5",
+      "eventId": "evt_19eeb04",
+      "eventTitle": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+      "eventSources": [
+        "搜狐网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+          "description": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期&nbsp;&nbsp; 搜狐网",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSVZEblFBT2VSNktxZlI3Y3B6LUh6eERBRi1CZ1hNVnZ3alh3bGtqTFFoSmk0bmVFUDI0THdhUWpQN216LS1fSTZONUdHYXFHVTNN?oc=5",
+          "pubDate": "2026-10-01T00:34:25.000Z",
+          "source": "搜狐网"
+        }
+      ]
+    },
+    {
+      "title_cn": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(60)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "技术信号·利好(+60分)"
+      ],
+      "evidence": [
+        "突破"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+      "description": "",
+      "pubDate": "2026-10-01T00:27:14.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2143716.d.html",
+      "eventId": "evt_cqqmet",
+      "eventTitle": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2143716.d.html",
+          "pubDate": "2026-10-01T00:27:14.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:扩产·利好(40)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "扩产信号·利好(+40分)"
+      ],
+      "evidence": [
+        "量产"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+      "description": "",
+      "pubDate": "2026-10-01T00:18:25.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5361690.d.html",
+      "eventId": "evt_4y397c",
+      "eventTitle": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5361690.d.html",
+          "pubDate": "2026-10-01T00:18:25.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+      "description": "",
+      "pubDate": "2026-10-01T01:10:19.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5400130.d.html",
+      "eventId": "evt_e2z31c",
+      "eventTitle": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5400130.d.html",
+          "pubDate": "2026-10-01T01:10:19.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+      "description": "",
+      "pubDate": "2026-10-01T00:46:58.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5386180.d.html",
+      "eventId": "evt_39tfxb",
+      "eventTitle": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5386180.d.html",
+          "pubDate": "2026-10-01T00:46:58.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+      "summary_cn": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播&nbsp;&nbsp; 黄金网",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+      "description": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播&nbsp;&nbsp; 黄金网",
+      "pubDate": "2026-10-01T01:45:01.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tRkFNa0psRC1hTDd0N0txTlRoY0c5LVRhZGU3QkZnYW9QcFRfUnRnSm5NWmgwaS1wLXNQNXBhT09FaTJqcmVvX00zUHFobVFVOU1tNy1FckNMa3pxYmo4RmpWX3FxWXpT?oc=5",
+      "eventId": "evt_y49bpd",
+      "eventTitle": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+      "eventSources": [
+        "黄金网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+          "description": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tRkFNa0psRC1hTDd0N0txTlRoY0c5LVRhZGU3QkZnYW9QcFRfUnRnSm5NWmgwaS1wLXNQNXBhT09FaTJqcmVvX00zUHFobVFVOU1tNy1FckNMa3pxYmo4RmpWX3FxWXpT?oc=5",
+          "pubDate": "2026-10-01T01:45:01.000Z",
+          "source": "黄金网"
+        }
+      ]
+    },
+    {
+      "title_cn": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+      "summary_cn": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播&nbsp;&nbsp; 黄金网",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+      "description": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播&nbsp;&nbsp; 黄金网",
+      "pubDate": "2026-10-01T01:50:02.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjMFZ0bW9PbjZlV2J0azBINzJFbUxzSGN6LTNsQmU3RFFnVTQ0cDJCc0N3UUJwMU5qbXdKZTloTGZQUEFyYm9xTkNWVlNzQ0lBNXp4WEoyYmd2QlNtbmpsWlBmdVl6bGlF?oc=5",
+      "eventId": "evt_1234jf8",
+      "eventTitle": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+      "eventSources": [
+        "黄金网"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+          "description": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播&nbsp;&nbsp; 黄金网",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjMFZ0bW9PbjZlV2J0azBINzJFbUxzSGN6LTNsQmU3RFFnVTQ0cDJCc0N3UUJwMU5qbXdKZTloTGZQUEFyYm9xTkNWVlNzQ0lBNXp4WEoyYmd2QlNtbmpsWlBmdVl6bGlF?oc=5",
+          "pubDate": "2026-10-01T01:50:02.000Z",
+          "source": "黄金网"
+        }
+      ]
+    },
+    {
+      "title_cn": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+      "summary_cn": "从现在到年底，黄金价格可能出现三种情况。&nbsp;&nbsp; Vietnam.vn",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+      "description": "从现在到年底，黄金价格可能出现三种情况。&nbsp;&nbsp; Vietnam.vn",
+      "pubDate": "2026-10-01T00:22:37.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDBLaGQ5R1FGTURDWVFRQi1ERDljSXphQkIyb0llVUlRMGRrT0Z4TDFoZ25ZcjVQRFc0ZEhSeWRRbXdVeEUtcm95TzF5V3NjQ3ltS1BSZEd0bWpKb0xQZG5sbEItM282WndNai05Q0F6aU1xUWFaYm1yU0g?oc=5",
+      "eventId": "evt_68gglx",
+      "eventTitle": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+      "eventSources": [
+        "Vietnam.vn"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+          "description": "从现在到年底，黄金价格可能出现三种情况。&nbsp;&nbsp; Vietnam.vn",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDBLaGQ5R1FGTURDWVFRQi1ERDljSXphQkIyb0llVUlRMGRrT0Z4TDFoZ25ZcjVQRFc0ZEhSeWRRbXdVeEUtcm95TzF5V3NjQ3ltS1BSZEd0bWpKb0xQZG5sbEItM282WndNai05Q0F6aU1xUWFaYm1yU0g?oc=5",
+          "pubDate": "2026-10-01T00:22:37.000Z",
+          "source": "Vietnam.vn"
+        }
+      ]
+    },
+    {
+      "title_cn": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+      "description": "",
+      "pubDate": "2026-10-01T00:25:21.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2141801.d.html",
+      "eventId": "evt_5l2604",
+      "eventTitle": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2141801.d.html",
+          "pubDate": "2026-10-01T00:25:21.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "英伟达, 博通, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+      "summary_cn": "英伟达, 博通, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars&nbsp;&nbsp; The Globe and Mail",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:日期提醒；不确定事件",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [
+        "Nvidia",
+        "Broadcom",
+        "AMD"
+      ],
+      "reasoning": [
+        "日期提醒",
+        "不确定事件"
+      ],
+      "evidence": [],
+      "confidence_score": 0.5,
+      "uncertainty": "新闻未说明10月15日事件内容",
+      "title": "英伟达, 博通, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+      "description": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars&nbsp;&nbsp; The Globe and Mail",
+      "pubDate": "2026-09-30T23:22:13.000Z",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMjdIVDVobTNvNDl6QkRaQzV3M2pqS0RpS280WHVKU2lXWG9zODZCcENhSDBOMV8weDVodWUtRzdlRGRLcm5mSFI4am5Pa1NwbDhsbGhrdU1Fano2NHRYUHJzSUlrYlhLTkcyaGdYeFRMLXpyNWtjZ2xKaWF2QkdxdFNrQnAybV9HYXhwSUZLUVhLZG1nLUVLUHNTQ2ozUXpMTTNxQXdSN19XbnlmcndTckdpaDVXdGhWODdqRUl0bUVYa3dGcmxxR0J1LUVvcWRWSlc0Q1FzYlRmdHB6YVVsSmsxR003dll6amRfUUlnV2ZoN1FGU29ISnRB?oc=5",
+      "eventId": "evt_oadbwj",
+      "eventTitle": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+      "eventSources": [
+        "The Globe and Mail",
+        "Crypto Briefing"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE1yOVIwVldMOEFIUUkwUTRsUDNkZUloR05fYXBsUUNXVUZWMWdtaHBwSUh0YU52SVN0WHpqcEZJUzZwV2dOYnFqVmZRdDJkTGRhbGd6RE5fdnBpLXFvWkU0cTBZeTB2elVndnUxQWt3a2xjZw?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+          "description": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars&nbsp;&nbsp; The Globe and Mail",
+          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMjdIVDVobTNvNDl6QkRaQzV3M2pqS0RpS280WHVKU2lXWG9zODZCcENhSDBOMV8weDVodWUtRzdlRGRLcm5mSFI4am5Pa1NwbDhsbGhrdU1Fano2NHRYUHJzSUlrYlhLTkcyaGdYeFRMLXpyNWtjZ2xKaWF2QkdxdFNrQnAybV9HYXhwSUZLUVhLZG1nLUVLUHNTQ2ozUXpMTTNxQXdSN19XbnlmcndTckdpaDVXdGhWODdqRUl0bUVYa3dGcmxxR0J1LUVvcWRWSlc0Q1FzYlRmdHB6YVVsSmsxR003dll6amRfUUlnV2ZoN1FGU29ISnRB?oc=5",
+          "pubDate": "2026-09-30T23:22:13.000Z",
+          "source": "The Globe and Mail"
+        },
+        {
+          "title": "TSMC’s October 15 earnings call puts Nvidia, Broadcom and AMD investors on watch - Crypto Briefing",
+          "description": "TSMC’s October 15 earnings call puts Nvidia, Broadcom and AMD investors on watch&nbsp;&nbsp; Crypto Briefing",
+          "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE1yOVIwVldMOEFIUUkwUTRsUDNkZUloR05fYXBsUUNXVUZWMWdtaHBwSUh0YU52SVN0WHpqcEZJUzZwV2dOYnFqVmZRdDJkTGRhbGd6RE5fdnBpLXFvWkU0cTBZeTB2elVndnUxQWt3a2xjZw?oc=5",
+          "pubDate": "2026-09-30T22:54:27.000Z",
+          "source": "Crypto Briefing"
+        }
+      ]
+    },
+    {
+      "title_cn": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+      "summary_cn": "9月29日，上海发生了两则新闻，看似毫不相关，背后却指向同一件事：AI需要质量更好的电。全球首个昇腾950液冷超节点正式落户上海青浦云湖智算中心，这是目前业界规",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:AI算力；超节点落户",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [
+        "华为",
+        "昇腾950"
+      ],
+      "reasoning": [
+        "AI算力",
+        "超节点落户"
+      ],
+      "evidence": [
+        "全球首个昇腾950液冷超节点正式落户上海青浦云湖智算中心"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "实际应用效果有待观察",
+      "title": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+      "description": "9月29日，上海发生了两则新闻，看似毫不相关，背后却指向同一件事：AI需要质量更好的电。全球首个昇腾950液冷超节点正式落户上海青浦云湖智算中心，这是目前业界规模最大的可商用超节点。1024张芯片通过高速网络组成一台“超级计算机”，将为长三角提供高密度、高稳定、高能效的超大规模算力。",
+      "pubDate": "2026-09-30T22:14:03.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1355,202610013888006044.html",
+      "eventId": "evt_py078k",
+      "eventTitle": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+          "description": "9月29日，上海发生了两则新闻，看似毫不相关，背后却指向同一件事：AI需要质量更好的电。全球首个昇腾950液冷超节点正式落户上海青浦云湖智算中心，这是目前业界规模最大的可商用超节点。1024张芯片通过高速网络组成一台“超级计算机”，将为长三角提供高密度、高稳定、高能效的超大规模算力。",
+          "link": "http://finance.eastmoney.com/news/1355,202610013888006044.html",
+          "pubDate": "2026-09-30T22:14:03.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+      "summary_cn": "“快逃！大山顶！”“减持比例意义不大，但信号意义强。”“业绩这么好还减持？”9月25日至30日，源杰科技在交易平台的社区讨论出现了各种声音，根源在9月24日晚间",
+      "category": "光模块",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:行情·利空(27·板块行情走弱)+减持·利空(40·减持/解禁,筹码承压)",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "行情信号·利空(-27分·板块行情走弱)",
+        "减持信号·利空(-40分·减持/解禁,筹码承压)"
+      ],
+      "evidence": [
+        "收跌",
+        "减持"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+      "description": "“快逃！大山顶！”“减持比例意义不大，但信号意义强。”“业绩这么好还减持？”9月25日至30日，源杰科技在交易平台的社区讨论出现了各种声音，根源在9月24日晚间，两年暴涨逾27倍、一度登顶A股“股王”的光芯片龙头源杰科技，迎来实控人的首轮减持。消息公布后，公司股价走弱，9月28日收跌6.39%，报1591.43元。",
+      "pubDate": "2026-09-30T22:55:55.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202610013888010785.html",
+      "eventId": "evt_oxeojr",
+      "eventTitle": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+          "description": "“快逃！大山顶！”“减持比例意义不大，但信号意义强。”“业绩这么好还减持？”9月25日至30日，源杰科技在交易平台的社区讨论出现了各种声音，根源在9月24日晚间，两年暴涨逾27倍、一度登顶A股“股王”的光芯片龙头源杰科技，迎来实控人的首轮减持。消息公布后，公司股价走弱，9月28日收跌6.39%，报1591.43元。",
+          "link": "http://finance.eastmoney.com/news/1354,202610013888010785.html",
+          "pubDate": "2026-09-30T22:55:55.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "summary_cn": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "description": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "pubDate": "2026-09-30T21:32:47.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173180",
+      "eventId": "evt_tsgzjr",
+      "eventTitle": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+          "description": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+          "link": "https://wallstreetcn.com/articles/3173180",
+          "pubDate": "2026-09-30T21:32:47.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+      "summary_cn": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+      "description": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-09-30T21:50:42.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZGwyd2ZTYV9mQmFyNThNUWZsZFZRTDRHdzhMU3FGMVNmWERJWS01ZDhBa1Q2alZhVDBtLWVsR3BxRE5zTXdMOWdJdXRNMGxLeVhNU2IwRTR3ZzVfaEFCblJHVWlvdF9Jb1M4aw?oc=5",
+      "eventId": "evt_108xfml",
+      "eventTitle": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+      "eventSources": [
+        "FX168财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+          "description": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZGwyd2ZTYV9mQmFyNThNUWZsZFZRTDRHdzhMU3FGMVNmWERJWS01ZDhBa1Q2alZhVDBtLWVsR3BxRE5zTXdMOWdJdXRNMGxLeVhNU2IwRTR3ZzVfaEFCblJHVWlvdF9Jb1M4aw?oc=5",
+          "pubDate": "2026-09-30T21:50:42.000Z",
+          "source": "FX168财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+      "summary_cn": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:技术·利好(60)",
+      "sentiment": "利好",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "技术信号·利好(+60分)"
+      ],
+      "evidence": [
+        "突破"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+      "description": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-09-30T19:53:53.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSXVYUzhQMWZ0YUpzOGhqNnBIZ01EMm1FNF9MWkxFQ0Q3ZmI0UzJVbW1XSGtWVUdXb1VwSDU1a2M5eGZzNnpCVUs2VXhDbk9vdDJuN2JGY1BzbnVISEUyQnVHSWRaM1ExcHFhbg?oc=5",
+      "eventId": "evt_g1ld7c",
+      "eventTitle": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+      "eventSources": [
+        "FX168财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+          "description": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSXVYUzhQMWZ0YUpzOGhqNnBIZ01EMm1FNF9MWkxFQ0Q3ZmI0UzJVbW1XSGtWVUdXb1VwSDU1a2M5eGZzNnpCVUs2VXhDbk9vdDJuN2JGY1BzbnVISEUyQnVHSWRaM1ExcHFhbg?oc=5",
+          "pubDate": "2026-09-30T19:53:53.000Z",
+          "source": "FX168财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+      "summary_cn": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)+行情·利空(36·板块行情走弱)",
+      "sentiment": "利空",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "价格信号·利空(-60分)",
+        "行情信号·利空(-36分·板块行情走弱)"
+      ],
+      "evidence": [
+        "跳水",
+        "跳水"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+      "description": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？&nbsp;&nbsp; FX168财经",
+      "pubDate": "2026-09-30T17:07:50.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY0tFdEJRT1E2Y3V2dWFkR2dKUzhJZTdMdEVDNm1zLVpfenhCZ3lZZGlXaWdhbHlDb0Y2UGE0OU5zOUh6X1liS1BGajdLdUJURlBienZmdWJXaVBzQnRYXzRsMHptZ2E4SEloeg?oc=5",
+      "eventId": "evt_10wa466",
+      "eventTitle": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+      "eventSources": [
+        "FX168财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+          "description": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？&nbsp;&nbsp; FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY0tFdEJRT1E2Y3V2dWFkR2dKUzhJZTdMdEVDNm1zLVpfenhCZ3lZZGlXaWdhbHlDb0Y2UGE0OU5zOUh6X1liS1BGajdLdUJURlBienZmdWJXaVBzQnRYXzRsMHptZ2E4SEloeg?oc=5",
+          "pubDate": "2026-09-30T17:07:50.000Z",
+          "source": "FX168财经"
+        }
+      ]
+    },
+    {
+      "title_cn": "英伟达CEO黄仁勋：协定通过强有力的内部管控、独立的外部评估以及董事会级别的监督，进一步强化了这一责任。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:政策·分化(50·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "政策信号·分化(±50分·制裁对国产替代链利好、对依赖海外设备/客户的公司利空,标为分化)"
+      ],
+      "evidence": [
+        "管控"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "英伟达CEO黄仁勋：协定通过强有力的内部管控、独立的外部评估以及董事会级别的监督，进一步强化了这一责任。",
       "description": "",
       "pubDate": "2026-09-30T17:30:14.000Z",
@@ -42,56 +1826,79 @@
         {
           "title": "英伟达CEO黄仁勋：协定通过强有力的内部管控、独立的外部评估以及董事会级别的监督，进一步强化了这一责任。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587014.d.html",
+          "guessedSector": "半导体",
           "pubDate": "2026-09-30T17:30:14.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587014.d.html",
+          "eventId": "evt_76ew87",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
-      "summary_cn": "",
+      "title_cn": "Cathie Wood Pours $81 Million Into 英伟达, Dumps $110 Million in AMD Shares - finance.biggo.com",
+      "summary_cn": "Cathie Wood Pours $81 Million Into 英伟达, Dumps $110 Million in AMD Shares&nbsp;&nbsp; finance.biggo.com",
       "category": "半导体",
-      "direction": "中性",
+      "direction": "分化",
       "impact": "中",
-      "certainty": "中",
-      "time_window": "中期",
+      "certainty": "高",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:政策参与",
-      "sentiment": "中性",
+      "notes": "AI研判:增持Nvidia；减持AMD",
+      "sentiment": "分化",
       "market_impact": "中",
       "affected_companies": [
-        "英伟达"
+        "Nvidia",
+        "AMD"
       ],
       "reasoning": [
-        "政策参与"
+        "增持Nvidia",
+        "减持AMD"
       ],
       "evidence": [
-        "昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》"
+        "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares"
       ],
-      "confidence_score": 0.6,
-      "uncertainty": "协定具体内容和实施效果不确定",
-      "title": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
-      "description": "",
-      "pubDate": "2026-09-30T17:30:02.000Z",
-      "source": "新浪财经",
-      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5586952.d.html",
-      "eventId": "evt_1twm7zk",
-      "eventTitle": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
+      "confidence_score": 0.8,
+      "uncertainty": "机构投资转向可能持续",
+      "title": "Cathie Wood Pours $81 Million Into 英伟达, Dumps $110 Million in AMD Shares - finance.biggo.com",
+      "description": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares&nbsp;&nbsp; finance.biggo.com",
+      "pubDate": "2026-09-30T18:05:00.000Z",
+      "source": "finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5",
+      "eventId": "evt_1c2f20u",
+      "eventTitle": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares - finance.biggo.com",
       "eventSources": [
-        "新浪财经"
+        "finance.biggo.com",
+        "24/7 Wall St.",
+        "Yahoo Finance"
       ],
-      "sourceCount": 1,
-      "relatedLinks": [],
+      "sourceCount": 3,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFk0eTZsTzdOQW1tMmh2bUlkZDRwTnk5ZVNCU1VFaUNzMEgwdWVvdUc0UzRRTl84dTg4eUVRWEVFaE93Ml94UENhVGNBc0drSnRIOGlPSjh5bnM4UEhLQmMzVmVjREVFSUxzNGFzQWxwNkFBd3hOdG4yaTdtc25UVnpibVQ2ZVVvb0dmclllVUExQ1hjZ1c0Skc5UHQzQUhnNlNUdTkxcDk?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV3R0Mjc2OFA0MEFfTVFFcTVHR3FyTDVpZVBYNHFFckJTemt0YndQQ1B0akptXzYybGFqenBZem1QZmpqX18wR3J2M213dWhYZ0VDR05FTDhoTnpDSkdmNDZIcnBtT3pnNEg3WTFUQTk5RVg5NUptUi1mRUJ5Sy1DU2lDV3Z4VDhCTWdadHNGNkxXeFpyQzg0?oc=5"
+      ],
       "eventMembers": [
         {
-          "title": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5586952.d.html",
-          "pubDate": "2026-09-30T17:30:02.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
+          "title": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares - finance.biggo.com",
+          "description": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares&nbsp;&nbsp; finance.biggo.com",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5",
+          "pubDate": "2026-09-30T18:05:00.000Z",
+          "source": "finance.biggo.com"
+        },
+        {
+          "title": "Cathie Wood Sold $110 Million of AMD and Bought Nvidia Instead - 24/7 Wall St.",
+          "description": "Cathie Wood Sold $110 Million of AMD and Bought Nvidia Instead&nbsp;&nbsp; 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFk0eTZsTzdOQW1tMmh2bUlkZDRwTnk5ZVNCU1VFaUNzMEgwdWVvdUc0UzRRTl84dTg4eUVRWEVFaE93Ml94UENhVGNBc0drSnRIOGlPSjh5bnM4UEhLQmMzVmVjREVFSUxzNGFzQWxwNkFBd3hOdG4yaTdtc25UVnpibVQ2ZVVvb0dmclllVUExQ1hjZ1c0Skc5UHQzQUhnNlNUdTkxcDk?oc=5",
+          "pubDate": "2026-09-30T13:16:00.000Z",
+          "source": "24/7 Wall St."
+        },
+        {
+          "title": "Cathie Wood Just Dumped $110 Million of AMD--and Bought Nvidia and Broadcom - Yahoo Finance",
+          "description": "Cathie Wood Just Dumped $110 Million of AMD--and Bought Nvidia and Broadcom&nbsp;&nbsp; Yahoo Finance",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV3R0Mjc2OFA0MEFfTVFFcTVHR3FyTDVpZVBYNHFFckJTemt0YndQQ1B0akptXzYybGFqenBZem1QZmpqX18wR3J2M213dWhYZ0VDR05FTDhoTnpDSkdmNDZIcnBtT3pnNEg3WTFUQTk5RVg5NUptUi1mRUJ5Sy1DU2lDV3Z4VDhCTWdadHNGNkxXeFpyQzg0?oc=5",
+          "pubDate": "2026-09-30T14:24:31.000Z",
+          "source": "Yahoo Finance"
         }
       ]
     },
@@ -101,23 +1908,17 @@
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:无实质利好",
+      "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "英伟达"
-      ],
-      "reasoning": [
-        "无实质利好"
-      ],
-      "evidence": [
-        "超级智能的未来，不仅取决于它能做什么，更取决于它能赢得多少信任"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "技术信任度实施效果不确定",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "英伟达CEO黄仁勋：超级智能的未来，不仅取决于它能做什么，更取决于它能赢得多少信任。通过秉持雄心、严谨和责任感进行开发，我们可以确保这项非凡技术不断拓展机遇，并为子孙后代改善生活。",
       "description": "",
       "pubDate": "2026-09-30T17:30:27.000Z",
@@ -134,10 +1935,13 @@
         {
           "title": "英伟达CEO黄仁勋：超级智能的未来，不仅取决于它能做什么，更取决于它能赢得多少信任。通过秉持雄心、严谨和责任感进行开发，我们可以确保这项非凡技术不断拓展机遇，并为子孙后代改善生活。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587154.d.html",
+          "guessedSector": "半导体",
           "pubDate": "2026-09-30T17:30:27.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587154.d.html",
+          "eventId": "evt_q4ifdv",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -147,23 +1951,17 @@
       "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "中",
+      "certainty": "低",
       "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:无实质利好",
+      "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
-      "affected_companies": [
-        "英伟达"
-      ],
-      "reasoning": [
-        "无实质利好"
-      ],
-      "evidence": [
-        "超级智能为推动科学发现、提升生产力、保障安全、改善健康和促进繁荣提供了非凡的机遇"
-      ],
-      "confidence_score": 0.6,
-      "uncertainty": "技术机遇兑现时间不确定",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "英伟达CEO黄仁勋：超级智能为推动科学发现、提升生产力、保障安全、改善健康和促进繁荣提供了非凡的机遇。",
       "description": "",
       "pubDate": "2026-09-30T17:30:21.000Z",
@@ -180,83 +1978,56 @@
         {
           "title": "英伟达CEO黄仁勋：超级智能为推动科学发现、提升生产力、保障安全、改善健康和促进繁荣提供了非凡的机遇。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587056.d.html",
+          "guessedSector": "半导体",
           "pubDate": "2026-09-30T17:30:21.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5587056.d.html",
+          "eventId": "evt_194zjju",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "Spot 黄金 fell 0.75% intraday to $4,150/oz.",
-      "summary_cn": "Spot 黄金 fell 0.75% intraday to $4,150/oz.",
-      "category": "黄金",
+      "title_cn": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
+      "summary_cn": "",
+      "category": "半导体",
       "direction": "中性",
       "impact": "低",
-      "certainty": "高",
-      "time_window": "短期",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
       "notes": "评分引擎:未命中明显信号,中性",
       "sentiment": "中性",
       "market_impact": "低",
       "affected_companies": [],
-      "reasoning": [
-        "同意关键词预判"
-      ],
-      "evidence": [
-        "Spot gold fell 0.75% intraday to $4,150/oz."
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "Spot 黄金 fell 0.75% intraday to $4,150/oz.",
-      "description": "Spot gold fell 0.75% intraday to $4,150/oz.",
-      "pubDate": "2026-09-30T17:19:09.000Z",
-      "source": "金十数据",
-      "link": "",
-      "eventId": "evt_1fedo95",
-      "eventTitle": "Spot gold fell 0.75% intraday to $4,150/oz.",
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
+      "description": "",
+      "pubDate": "2026-09-30T17:30:02.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5586952.d.html",
+      "eventId": "evt_1twm7zk",
+      "eventTitle": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
       "eventSources": [
-        "金十数据",
         "新浪财经"
       ],
-      "sourceCount": 2,
-      "relatedLinks": [
-        "现货黄金向下触及4150美元/盎司，日内跌0.75%。",
-        "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqv2353800.d.html",
-        "https://finance.sina.cn/7x24/2026-09-30/detail-initrshx2426275.d.html"
-      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "Spot gold fell 0.75% intraday to $4,150/oz.",
-          "description": "Spot gold fell 0.75% intraday to $4,150/oz.",
-          "link": "",
-          "pubDate": "2026-09-30T17:19:09.000Z",
-          "source": "金十数据",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "现货黄金向下触及4150美元/盎司，日内跌0.75%。",
-          "description": "现货黄金向下触及4150美元/盎司，日内跌0.75%。",
-          "link": "",
-          "pubDate": "2026-09-30T17:19:04.000Z",
-          "source": "金十数据",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "现货黄金失守4150美元/盎司，日内跌0.76%。",
+          "title": "英伟达CEO黄仁勋：昨天在白宫，来自我们整个行业的领导人齐聚一堂，共同签署了《白宫超级智能协定》。其核心原则非常简单，开发这项技术的公司负有首要责任，必须安全地开发和部署该技术，并在未能达标时承担责任。",
           "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqv2353800.d.html",
-          "pubDate": "2026-09-30T17:18:18.000Z",
+          "guessedSector": "半导体",
+          "pubDate": "2026-09-30T17:30:02.000Z",
           "source": "新浪财经",
-          "sourceType": "direct_api"
-        },
-        {
-          "title": "现货黄金失守4160美元/盎司，日内跌0.52%。",
-          "description": "",
-          "link": "https://finance.sina.cn/7x24/2026-09-30/detail-initrshx2426275.d.html",
-          "pubDate": "2026-09-30T15:07:28.000Z",
-          "source": "新浪财经",
-          "sourceType": "direct_api"
+          "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqt5586952.d.html",
+          "eventId": "evt_1twm7zk",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
@@ -269,17 +2040,18 @@
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:板块指数下跌",
+      "notes": "AI研判:板块下跌；市场疲软",
       "sentiment": "利空",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "板块指数下跌"
+        "板块下跌",
+        "市场疲软"
       ],
       "evidence": [
         "半导体领跌拖累双创指数走弱"
       ],
-      "confidence_score": 0.9,
+      "confidence_score": 0.8,
       "uncertainty": "",
       "title": "医药领涨、科技走弱 10月A股怎么走？",
       "description": "9月30日，市场量价小幅抬升，但亏钱效应仍在延续，超2800只个股收跌。医药板块大涨，半导体领跌拖累双创指数走弱。受访人士表示，今日反弹缺乏放量支撑与主线共振，更多是节前冰点后的技术性回抽。板块层面，科技板块仍处于去泡沫阶段，底部尚未确认，需等待节后放量阳线出现、主线回归，方能判定企稳。",
@@ -305,29 +2077,99 @@
       ]
     },
     {
+      "title_cn": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips - 24/7 Wall St.",
+      "summary_cn": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
+      "category": "半导体",
+      "direction": "分化",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:Intel上涨；AMD下跌",
+      "sentiment": "分化",
+      "market_impact": "低",
+      "affected_companies": [
+        "Intel",
+        "NVIDIA",
+        "AMD"
+      ],
+      "reasoning": [
+        "Intel上涨",
+        "AMD下跌"
+      ],
+      "evidence": [
+        "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "九月表现不代表未来趋势",
+      "title": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips - 24/7 Wall St.",
+      "description": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
+      "pubDate": "2026-09-30T16:29:00.000Z",
+      "source": "24/7 Wall St.",
+      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE95RmdDZkVQNDM2REZ0bHd5V3RwdFB3X0M1Z2JVZXFNTVVuVGlrSzlHMkVXNDNteG9jLTVSaXNuSV8wamMybnVyaURocE1HT1dJQ25sZ1JSMEZuSkN5Tnk5eTREN2R6UUF4R3ZwbUc3Q1UzRy1sZnVueXJyQWNBTkYzN01SenI2aV9PeUY5UVNid01tUVN3TmtKVHhfUEkzNDREQUlNNWM2SVBsMDRJSGpxNGJMLTdweURkWEdvdlpEb2xFWTZSaXl5Z0k5eGFlWVBOZ3dVRQ?oc=5",
+      "eventId": "evt_1pwf201",
+      "eventTitle": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
+      "eventSources": [
+        "24/7 Wall St."
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVZhTGxjRFRGNTRTVTVMQklOeHVpNVFyTzlUVXdsY19DaGRiZEJfQzZ4SXVoVENjMUZ1bW9sYlVZbVFzUGowVE4zelJ0WGp1YUtvdVB5cHZuVEN2dndNUkxERW9Xdnp0QjRYLUJEbGtIbXc0NFhyalpiZEl6NDcybmczblZCaHpNU2k4OHc1amRhSklIVnFuT0dCQl83S1oxU1dFVDlaTHNFX0R6R1hDWVgxcjBMdw?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX3BnV05yU2tPQXdseTdBUlM2NWdLTXZGT0VOS1RxUTV6dnVuaXZROUtqaGlFWTBMeUYybGxKWjZTeXBUS0FOMXYzcm9xWmRKQklyRnNGd0pZaDVqUjdsWnVqVE9FZlJrUjBtZ2xneWhBWDZNbUdPQTBSN0hLSmdLSk9DTDgzWUNWSHVsNWZfYnN0STFfZ0pDc09XNjRjNjZW?oc=5",
+        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp5ZEhJWUxkSWNaVW1IcWtGVkI4VkluY1ZFdm9YRkk5V3kxbWlvc1pqMVgya1J1TFJqSGFWdGlhWTg4b2lsNHdjRHVqMHBGTHBacDFybHlla01UcVdxLXNMT2g1V3RjeGhrTVZwRFZ6ZFpSdXFPQzkxY0xUUHUtVkRhci1DU0VyUHJPNW5qNm1qa0lMVkxHVV9EQklFeHlyeEN4bTRPWXd4WlRQR21qaUlneHAtWDRIYTRN?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "A $32 Biotech Became a $90 Biotech Overnight. Is It Too Late to Buy Kodiak? - 24/7 Wall St.",
+          "description": "A $32 Biotech Became a $90 Biotech Overnight. Is It Too Late to Buy Kodiak?&nbsp;&nbsp; 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVZhTGxjRFRGNTRTVTVMQklOeHVpNVFyTzlUVXdsY19DaGRiZEJfQzZ4SXVoVENjMUZ1bW9sYlVZbVFzUGowVE4zelJ0WGp1YUtvdVB5cHZuVEN2dndNUkxERW9Xdnp0QjRYLUJEbGtIbXc0NFhyalpiZEl6NDcybmczblZCaHpNU2k4OHc1amRhSklIVnFuT0dCQl83S1oxU1dFVDlaTHNFX0R6R1hDWVgxcjBMdw?oc=5",
+          "pubDate": "2026-09-30T12:05:00.000Z",
+          "source": "24/7 Wall St."
+        },
+        {
+          "title": "Arm Is Betting on a World Where Everything Needs a Chip - 24/7 Wall St.",
+          "description": "Arm Is Betting on a World Where Everything Needs a Chip&nbsp;&nbsp; 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX3BnV05yU2tPQXdseTdBUlM2NWdLTXZGT0VOS1RxUTV6dnVuaXZROUtqaGlFWTBMeUYybGxKWjZTeXBUS0FOMXYzcm9xWmRKQklyRnNGd0pZaDVqUjdsWnVqVE9FZlJrUjBtZ2xneWhBWDZNbUdPQTBSN0hLSmdLSk9DTDgzWUNWSHVsNWZfYnN0STFfZ0pDc09XNjRjNjZW?oc=5",
+          "pubDate": "2026-09-30T18:00:00.000Z",
+          "source": "24/7 Wall St."
+        },
+        {
+          "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
+          "description": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE95RmdDZkVQNDM2REZ0bHd5V3RwdFB3X0M1Z2JVZXFNTVVuVGlrSzlHMkVXNDNteG9jLTVSaXNuSV8wamMybnVyaURocE1HT1dJQ25sZ1JSMEZuSkN5Tnk5eTREN2R6UUF4R3ZwbUc3Q1UzRy1sZnVueXJyQWNBTkYzN01SenI2aV9PeUY5UVNid01tUVN3TmtKVHhfUEkzNDREQUlNNWM2SVBsMDRJSGpxNGJMLTdweURkWEdvdlpEb2xFWTZSaXl5Z0k5eGFlWVBOZ3dVRQ?oc=5",
+          "pubDate": "2026-09-30T16:29:00.000Z",
+          "source": "24/7 Wall St."
+        },
+        {
+          "title": "Silver Has Now Lost Nearly Half Its Value. Here’s What Broke the Metals Trade - 24/7 Wall St.",
+          "description": "Silver Has Now Lost Nearly Half Its Value. Here’s What Broke the Metals Trade&nbsp;&nbsp; 24/7 Wall St.",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp5ZEhJWUxkSWNaVW1IcWtGVkI4VkluY1ZFdm9YRkk5V3kxbWlvc1pqMVgya1J1TFJqSGFWdGlhWTg4b2lsNHdjRHVqMHBGTHBacDFybHlla01UcVdxLXNMT2g1V3RjeGhrTVZwRFZ6ZFpSdXFPQzkxY0xUUHUtVkRhci1DU0VyUHJPNW5qNm1qa0lMVkxHVV9EQklFeHlyeEN4bTRPWXd4WlRQR21qaUlneHAtWDRIYTRN?oc=5",
+          "pubDate": "2026-09-30T11:36:00.000Z",
+          "source": "24/7 Wall St."
+        }
+      ]
+    },
+    {
       "title_cn": "CoreWeave 希望借新产品摆脱“新云”标签",
       "summary_cn": "CoreWeave认为，“新云”这一标签已不再适用于自己，因为公司现在提供一系列软件产品，并服务非科技类客户。公司正计划通过一套名为Forge的新开发工具进一步",
       "category": "半导体",
-      "direction": "利好",
-      "impact": "高",
-      "certainty": "高",
-      "time_window": "短期",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:GPU需求旺盛",
-      "sentiment": "利好",
-      "market_impact": "高",
-      "affected_companies": [
-        "CoreWeave",
-        "英伟达"
-      ],
+      "notes": "评分引擎:传闻·中性(5)",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
       "reasoning": [
-        "GPU需求旺盛"
+        "传闻信号·中性(±5分)"
       ],
       "evidence": [
-        "CoreWeave仍专注于提供最新英伟达GPU的算力接入，目前供应'基本售罄'"
+        "计划"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "新产品市场接受度不确定",
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "CoreWeave 希望借新产品摆脱“新云”标签",
       "description": "CoreWeave认为，“新云”这一标签已不再适用于自己，因为公司现在提供一系列软件产品，并服务非科技类客户。公司正计划通过一套名为Forge的新开发工具进一步丰富产品阵容，帮助客户训练和优化AI模型。CoreWeave仍专注于提供最新英伟达GPU的算力接入，目前供应“基本售罄”，但也在持续关注各类可用加速器。",
       "pubDate": "2026-09-30T16:07:24.000Z",
@@ -344,82 +2186,52 @@
         {
           "title": "CoreWeave 希望借新产品摆脱“新云”标签",
           "description": "CoreWeave认为，“新云”这一标签已不再适用于自己，因为公司现在提供一系列软件产品，并服务非科技类客户。公司正计划通过一套名为Forge的新开发工具进一步丰富产品阵容，帮助客户训练和优化AI模型。CoreWeave仍专注于提供最新英伟达GPU的算力接入，目前供应“基本售罄”，但也在持续关注各类可用加速器。",
-          "link": "https://wallstreetcn.com/articles/3173058",
+          "guessedSector": "半导体",
           "pubDate": "2026-09-30T16:07:24.000Z",
           "source": "华尔街见闻",
-          "sourceType": "direct_api"
+          "link": "https://wallstreetcn.com/articles/3173058",
+          "eventId": "evt_c8o5sw",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips - 24/7 Wall St.",
-      "summary_cn": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
-      "category": "半导体",
-      "direction": "利空",
-      "impact": "中",
-      "certainty": "高",
-      "time_window": "短期",
+      "title_cn": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
+      "summary_cn": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。&nbsp;&nbsp; Vietnam.vn",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
       "tickers": "—",
-      "notes": "AI研判:板块跌超3%",
-      "sentiment": "利空",
-      "market_impact": "中",
-      "affected_companies": [
-        "Intel",
-        "NVIDIA",
-        "AMD"
-      ],
-      "reasoning": [
-        "板块跌超3%"
-      ],
-      "evidence": [
-        "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips"
-      ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "英特尔 上涨s 3% as 芯片 Contender Caps Off Surprisingly Strong September; 英伟达 Ticks Up, AMD Slips - 24/7 Wall St.",
-      "description": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
-      "pubDate": "2026-09-30T16:29:00.000Z",
-      "source": "24/7 Wall St.",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE95RmdDZkVQNDM2REZ0bHd5V3RwdFB3X0M1Z2JVZXFNTVVuVGlrSzlHMkVXNDNteG9jLTVSaXNuSV8wamMybnVyaURocE1HT1dJQ25sZ1JSMEZuSkN5Tnk5eTREN2R6UUF4R3ZwbUc3Q1UzRy1sZnVueXJyQWNBTkYzN01SenI2aV9PeUY5UVNid01tUVN3TmtKVHhfUEkzNDREQUlNNWM2SVBsMDRJSGpxNGJMLTdweURkWEdvdlpEb2xFWTZSaXl5Z0k5eGFlWVBOZ3dVRQ?oc=5",
-      "eventId": "evt_1pwf201",
-      "eventTitle": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
+      "description": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。&nbsp;&nbsp; Vietnam.vn",
+      "pubDate": "2026-09-30T16:15:52.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHdhRDVDcG9fLUF0Z3FQN0dwX1U5MU1zcFhwYXRsME05VElLYU5Gb0FIZUhxRFgzYURIR0NvVWFwREVoYUR4dmg4clhKaVJVRjFhRVFfbDB4aWg0RGZBRDVHN2ctY2NkYnRtUUlJbzd2Qm1hNHYwUldvaFpGdzBONHp1b3hYT1RtX01JWVlCWjlzT0ZrblFCOUplS2MwcVhWYUJ3Y3FWYWh3MHQ4UDBUUEZ0Y3F3ZTcwMk1LbmxiaFcteVp3VWpwWVpYZ01EanhzeERzLU1MNEVBd21MTGZ5bA?oc=5",
+      "eventId": "evt_rtka9j",
+      "eventTitle": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
       "eventSources": [
-        "24/7 Wall St."
+        "Vietnam.vn"
       ],
       "sourceCount": 1,
-      "relatedLinks": [
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3RvQ1FPWU02cnotNUp6a1lhS1dMeHNWcklIWVdGRzl4ZE1iUkpUbDZmOUlIZmdIeHFRZE03eHM3WUJBcWNoZVRmTEVQNXlsQWo4Vm43NUV6aXAyZ0VJWWJsdXpfVGx4Q2tyV29RR0haWmxVbXFfck5ubGJWY0lsTmUwcnA0aE00RDJhR2lkT3NJSjZzeWtDRW90UGwtUDlMOHdVWkUwLU9lUmt5RFRJ?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlUwa2JPTWhhSkxfb2JxLUdOWmVvN2VlMlBYR1ZtM21NVE8yQjVMdWZoempKSTZXb18xd3lMSmMxRUYzd0RrcS1UNGNONDNpN1ZJSUNlaEFEbXJJVUpfOF8tNWRFNTFDYVRxWXNNamZXYnlLcF9DNFdLalZMS3oxVGx2cXBlQUhtRDVxTmlUX1BlVlZoZlFYZGQ2Z1l0QQ?oc=5",
-        "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp5ZEhJWUxkSWNaVW1IcWtGVkI4VkluY1ZFdm9YRkk5V3kxbWlvc1pqMVgya1J1TFJqSGFWdGlhWTg4b2lsNHdjRHVqMHBGTHBacDFybHlla01UcVdxLXNMT2g1V3RjeGhrTVZwRFZ6ZFpSdXFPQzkxY0xUUHUtVkRhci1DU0VyUHJPNW5qNm1qa0lMVkxHVV9EQklFeHlyeEN4bTRPWXd4WlRQR21qaUlneHAtWDRIYTRN?oc=5"
-      ],
+      "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
-          "description": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE95RmdDZkVQNDM2REZ0bHd5V3RwdFB3X0M1Z2JVZXFNTVVuVGlrSzlHMkVXNDNteG9jLTVSaXNuSV8wamMybnVyaURocE1HT1dJQ25sZ1JSMEZuSkN5Tnk5eTREN2R6UUF4R3ZwbUc3Q1UzRy1sZnVueXJyQWNBTkYzN01SenI2aV9PeUY5UVNid01tUVN3TmtKVHhfUEkzNDREQUlNNWM2SVBsMDRJSGpxNGJMLTdweURkWEdvdlpEb2xFWTZSaXl5Z0k5eGFlWVBOZ3dVRQ?oc=5",
-          "pubDate": "2026-09-30T16:29:00.000Z",
-          "source": "24/7 Wall St."
-        },
-        {
-          "title": "32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show - 24/7 Wall St.",
-          "description": "32 Analysts Say Hold on Intel. Here’s What the Numbers Actually Show&nbsp;&nbsp; 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3RvQ1FPWU02cnotNUp6a1lhS1dMeHNWcklIWVdGRzl4ZE1iUkpUbDZmOUlIZmdIeHFRZE03eHM3WUJBcWNoZVRmTEVQNXlsQWo4Vm43NUV6aXAyZ0VJWWJsdXpfVGx4Q2tyV29RR0haWmxVbXFfck5ubGJWY0lsTmUwcnA0aE00RDJhR2lkT3NJSjZzeWtDRW90UGwtUDlMOHdVWkUwLU9lUmt5RFRJ?oc=5",
-          "pubDate": "2026-09-30T17:00:00.000Z",
-          "source": "24/7 Wall St."
-        },
-        {
-          "title": "Jim Cramer’s Nvidia Take is Surprisngly Sound For Once - 24/7 Wall St.",
-          "description": "Jim Cramer’s Nvidia Take is Surprisngly Sound For Once&nbsp;&nbsp; 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlUwa2JPTWhhSkxfb2JxLUdOWmVvN2VlMlBYR1ZtM21NVE8yQjVMdWZoempKSTZXb18xd3lMSmMxRUYzd0RrcS1UNGNONDNpN1ZJSUNlaEFEbXJJVUpfOF8tNWRFNTFDYVRxWXNNamZXYnlLcF9DNFdLalZMS3oxVGx2cXBlQUhtRDVxTmlUX1BlVlZoZlFYZGQ2Z1l0QQ?oc=5",
-          "pubDate": "2026-09-30T11:15:00.000Z",
-          "source": "24/7 Wall St."
-        },
-        {
-          "title": "Silver Has Now Lost Nearly Half Its Value. Here’s What Broke the Metals Trade - 24/7 Wall St.",
-          "description": "Silver Has Now Lost Nearly Half Its Value. Here’s What Broke the Metals Trade&nbsp;&nbsp; 24/7 Wall St.",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp5ZEhJWUxkSWNaVW1IcWtGVkI4VkluY1ZFdm9YRkk5V3kxbWlvc1pqMVgya1J1TFJqSGFWdGlhWTg4b2lsNHdjRHVqMHBGTHBacDFybHlla01UcVdxLXNMT2g1V3RjeGhrTVZwRFZ6ZFpSdXFPQzkxY0xUUHUtVkRhci1DU0VyUHJPNW5qNm1qa0lMVkxHVV9EQklFeHlyeEN4bTRPWXd4WlRQR21qaUlneHAtWDRIYTRN?oc=5",
-          "pubDate": "2026-09-30T11:36:00.000Z",
-          "source": "24/7 Wall St."
+          "title": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
+          "description": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。&nbsp;&nbsp; Vietnam.vn",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHdhRDVDcG9fLUF0Z3FQN0dwX1U5MU1zcFhwYXRsME05VElLYU5Gb0FIZUhxRFgzYURIR0NvVWFwREVoYUR4dmg4clhKaVJVRjFhRVFfbDB4aWg0RGZBRDVHN2ctY2NkYnRtUUlJbzd2Qm1hNHYwUldvaFpGdzBONHp1b3hYT1RtX01JWVlCWjlzT0ZrblFCOUplS2MwcVhWYUJ3Y3FWYWh3MHQ4UDBUUEZ0Y3F3ZTcwMk1LbmxiaFcteVp3VWpwWVpYZ01EanhzeERzLU1MNEVBd21MTGZ5bA?oc=5",
+          "pubDate": "2026-09-30T16:15:52.000Z",
+          "source": "Vietnam.vn"
         }
       ]
     }
@@ -429,26 +2241,27 @@
       "name": "半导体",
       "shock": "强",
       "direction": "利空",
-      "news_count": 7,
-      "summary": "半导体板块7条新闻，方向以利空为主。关注：医药领涨、科技走弱 10月A股怎么走？；9月30日，市场量价小幅抬升，但亏钱效",
+      "news_count": 32,
+      "summary": "半导体板块32条新闻，方向以利空为主",
       "tickers": "中芯国际、北方华创、中微公司",
       "notes": "；ETF校准(当日-3.2%)"
     },
     {
       "name": "黄金",
-      "shock": "弱",
+      "shock": "强",
       "direction": "中性",
-      "news_count": 1,
-      "summary": "黄金板块1条新闻，方向以中性为主",
-      "tickers": "紫金矿业、山东黄金、中金黄金"
+      "news_count": 15,
+      "summary": "黄金板块15条新闻，方向以中性为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金",
+      "notes": "；ETF校准(当日+1.4%)"
     },
     {
       "name": "光模块",
-      "shock": "弱",
-      "direction": "中性",
-      "news_count": 0,
-      "summary": "",
-      "tickers": ""
+      "shock": "中",
+      "direction": "利空",
+      "news_count": 1,
+      "summary": "光模块板块1条新闻，方向以利空为主。关注：涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”；“快逃！大山",
+      "tickers": "中际旭创、新易盛、天孚通信"
     },
     {
       "name": "创新药",
@@ -461,31 +2274,21 @@
     }
   ],
   "keyPoints": [
-    "【半导体】CoreWeave英伟达GPU供应基本售罄，需求强劲",
-    "【半导体】板块ETF平均跌3.2%，科技板块处于去泡沫阶段",
-    "【黄金】现货黄金下跌0.75%至$4,150/oz"
+    "【半导体】NVIDIA和AMD股价分化，Cathie Wood增持Nvidia减持AMD，机构转向趋势明显",
+    "【半导体】华为投资的AI芯片材料商IPO盘中暴涨720%，显示AI芯片材料领域强劲市场热情",
+    "【半导体】美光科技2026财年Q4产生332亿美元自由现金流",
+    "【半导体】花旗预测2027年HBM比特需求量同比攀升至752亿吉比特"
   ],
-  "marketSummary": "半导体板块持续调整，英伟达GPU需求旺盛但板块整体下跌，市场等待节后放量信号确认底部。；黄金价格小幅波动，ETF整体上涨1.4%。",
+  "marketSummary": "当日半导体板块ETF平均跌3.2%，但夜盘芯片股集体走强，AI相关领域融资活跃，产业政策与资本双轮驱动。；半导体板块整体表现不佳，但AI相关需求旺盛，华为推出自研芯片彰显技术突破。",
   "isAi": true,
   "sourceHealth": {
-    "level": "failed",
-    "issues": [
-      {
-        "code": "low-volume",
-        "level": "failed",
-        "message": "当日仅 8 条新闻(下限 10)"
-      },
-      {
-        "code": "api-empty-source",
-        "level": "degraded",
-        "message": "API 源无数据: 财联社"
-      }
-    ],
-    "summary": "抓取异常:当日仅 8 条新闻(下限 10);API 源无数据: 财联社",
+    "level": "ok",
+    "issues": [],
+    "summary": "抓取正常(原始 916 条 / 当日 48 条 / 精选 48 条)",
     "counts": {
-      "fetched": 957,
-      "kept": 8,
-      "analyzed": 8,
+      "fetched": 916,
+      "kept": 48,
+      "analyzed": 48,
       "rssEnabled": true,
       "rssOk": 43,
       "rssTotal": 43,
@@ -494,6 +2297,16 @@
     }
   },
   "fullNews": [
+    {
+      "title": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+      "description": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars&nbsp;&nbsp; The Globe and Mail",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-30T23:22:13.000Z",
+      "source": "The Globe and Mail",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMjdIVDVobTNvNDl6QkRaQzV3M2pqS0RpS280WHVKU2lXWG9zODZCcENhSDBOMV8weDVodWUtRzdlRGRLcm5mSFI4am5Pa1NwbDhsbGhrdU1Fano2NHRYUHJzSUlrYlhLTkcyaGdYeFRMLXpyNWtjZ2xKaWF2QkdxdFNrQnAybV9HYXhwSUZLUVhLZG1nLUVLUHNTQ2ozUXpMTTNxQXdSN19XbnlmcndTckdpaDVXdGhWODdqRUl0bUVYa3dGcmxxR0J1LUVvcWRWSlc0Q1FzYlRmdHB6YVVsSmsxR003dll6amRfUUlnV2ZoN1FGU29ISnRB?oc=5",
+      "eventId": "evt_oadbwj",
+      "sourceCount": 2
+    },
     {
       "title": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
       "description": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips&nbsp;&nbsp; 24/7 Wall St.",
@@ -505,14 +2318,234 @@
       "sourceCount": 1
     },
     {
-      "title": "Spot gold fell 0.75% intraday to $4,150/oz.",
-      "description": "Spot gold fell 0.75% intraday to $4,150/oz.",
+      "title": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+      "description": "安世半导体风波一周年 业界：其供应链已重塑&nbsp;&nbsp; aboluowang.com",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T03:27:04.000Z",
+      "source": "aboluowang.com",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TdIBY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TQ?oc=5",
+      "eventId": "evt_1ry8ff5",
+      "sourceCount": 1
+    },
+    {
+      "title": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+      "description": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播&nbsp;&nbsp; 黄金网",
       "guessedSector": "黄金",
-      "pubDate": "2026-09-30T17:19:09.000Z",
+      "pubDate": "2026-10-01T01:50:01.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMnB4YTJrcG5NdDZHaVpWMHBTMmtWR1d0bUt2NFhnV3BWZWJidXZON3VWWURyWmJQUWpLdlBBaXR2RmJiU2cxQUZwQ0c2QTlUbWRNMFB2NmFsQ1ZVaVNnc2F5TjYwVFpD?oc=5",
+      "eventId": "evt_7ub25y",
+      "sourceCount": 1
+    },
+    {
+      "title": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+      "description": "董镇元月评：月线大阴承压金银十月先短空_名家点金&nbsp;&nbsp; 黄金网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T01:39:03.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aalMwamhLam1CZlAyWTRzYXlRcWZmY3VlUzJLNXZad3lvTm1FOVVxVlhMWnBRVmxTcEoyMk9lZDk1V0hFcHpNb3M5NEdGcnN6SUhtVThWNFZuMkxvTEZqVUp1SHpCY0FjQmNfbw?oc=5",
+      "eventId": "evt_j3y3tr",
+      "sourceCount": 1
+    },
+    {
+      "title": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares - finance.biggo.com",
+      "description": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares&nbsp;&nbsp; finance.biggo.com",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-30T18:05:00.000Z",
+      "source": "finance.biggo.com",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5",
+      "eventId": "evt_1c2f20u",
+      "sourceCount": 3
+    },
+    {
+      "title": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+      "description": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻&nbsp;&nbsp; 证券之星",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T00:43:06.000Z",
+      "source": "证券之星",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81ZExiZzR4SU5EcnpQWVB5S2RBdmRVV0U2ejNHWXJ6b2E5UWZINzZ6czg3eEZPMFJ0LXB4ZTVuNy0xWHluaHZMV1NFVWxycFBQMzZvUFRtQVpZcjFGcDg3ZUVHc3g?oc=5",
+      "eventId": "evt_1k9febi",
+      "sourceCount": 1
+    },
+    {
+      "title": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+      "description": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷&nbsp;&nbsp; 财经号",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T00:51:31.000Z",
+      "source": "财经号",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XY1dsMWs3dUUzQUFYZHlIbmd2TWRZYVVTaXROLWxNWWN1OWhXRUx4R3E0clR5eXVSU2xibE95TnctNTlza3BjdlZCdlcxTUs3c2lJdDBjd3dndFg4UXZhLUZyRGZUek1aNXZF?oc=5",
+      "eventId": "evt_1yf8o6k",
+      "sourceCount": 1
+    },
+    {
+      "title": "金价“过山车”，追涨还是等待？ - 搜狐网",
+      "description": "金价“过山车”，追涨还是等待？&nbsp;&nbsp; 搜狐网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T02:56:49.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xZFZnQXEyaDdYZHJTR0xGRHBRazRtcGtaRDktRjlRU1RtUlp2QWJnLTFLdTNzS19rWG9QYVJEVFkzbHF0bU00eWo1UHFocHJIeTZB?oc=5",
+      "eventId": "evt_7zd9w4",
+      "sourceCount": 1
+    },
+    {
+      "title": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+      "description": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野&nbsp;&nbsp; FX168财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-30T19:53:53.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSXVYUzhQMWZ0YUpzOGhqNnBIZ01EMm1FNF9MWkxFQ0Q3ZmI0UzJVbW1XSGtWVUdXb1VwSDU1a2M5eGZzNnpCVUs2VXhDbk9vdDJuN2JGY1BzbnVISEUyQnVHSWRaM1ExcHFhbg?oc=5",
+      "eventId": "evt_g1ld7c",
+      "sourceCount": 1
+    },
+    {
+      "title": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+      "description": "从现在到年底，黄金价格可能出现三种情况。&nbsp;&nbsp; Vietnam.vn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T00:22:37.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDBLaGQ5R1FGTURDWVFRQi1ERDljSXphQkIyb0llVUlRMGRrT0Z4TDFoZ25ZcjVQRFc0ZEhSeWRRbXdVeEUtcm95TzF5V3NjQ3ltS1BSZEd0bWpKb0xQZG5sbEItM282WndNai05Q0F6aU1xUWFaYm1yU0g?oc=5",
+      "eventId": "evt_68gglx",
+      "sourceCount": 1
+    },
+    {
+      "title": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+      "description": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播&nbsp;&nbsp; 黄金网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T01:45:01.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tRkFNa0psRC1hTDd0N0txTlRoY0c5LVRhZGU3QkZnYW9QcFRfUnRnSm5NWmgwaS1wLXNQNXBhT09FaTJqcmVvX00zUHFobVFVOU1tNy1FckNMa3pxYmo4RmpWX3FxWXpT?oc=5",
+      "eventId": "evt_y49bpd",
+      "sourceCount": 1
+    },
+    {
+      "title": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+      "description": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播&nbsp;&nbsp; 黄金网",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T01:50:02.000Z",
+      "source": "黄金网",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjMFZ0bW9PbjZlV2J0azBINzJFbUxzSGN6LTNsQmU3RFFnVTQ0cDJCc0N3UUJwMU5qbXdKZTloTGZQUEFyYm9xTkNWVlNzQ0lBNXp4WEoyYmd2QlNtbmpsWlBmdVl6bGlF?oc=5",
+      "eventId": "evt_1234jf8",
+      "sourceCount": 1
+    },
+    {
+      "title": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+      "description": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在&nbsp;&nbsp; FX168财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-30T21:50:42.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZGwyd2ZTYV9mQmFyNThNUWZsZFZRTDRHdzhMU3FGMVNmWERJWS01ZDhBa1Q2alZhVDBtLWVsR3BxRE5zTXdMOWdJdXRNMGxLeVhNU2IwRTR3ZzVfaEFCblJHVWlvdF9Jb1M4aw?oc=5",
+      "eventId": "evt_108xfml",
+      "sourceCount": 1
+    },
+    {
+      "title": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+      "description": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？&nbsp;&nbsp; FX168财经",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-30T17:07:50.000Z",
+      "source": "FX168财经",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY0tFdEJRT1E2Y3V2dWFkR2dKUzhJZTdMdEVDNm1zLVpfenhCZ3lZZGlXaWdhbHlDb0Y2UGE0OU5zOUh6X1liS1BGajdLdUJURlBienZmdWJXaVBzQnRYXzRsMHptZ2E4SEloeg?oc=5",
+      "eventId": "evt_10wa466",
+      "sourceCount": 1
+    },
+    {
+      "title": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
+      "description": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。&nbsp;&nbsp; Vietnam.vn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-09-30T16:15:52.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHdhRDVDcG9fLUF0Z3FQN0dwX1U5MU1zcFhwYXRsME05VElLYU5Gb0FIZUhxRFgzYURIR0NvVWFwREVoYUR4dmg4clhKaVJVRjFhRVFfbDB4aWg0RGZBRDVHN2ctY2NkYnRtUUlJbzd2Qm1hNHYwUldvaFpGdzBONHp1b3hYT1RtX01JWVlCWjlzT0ZrblFCOUplS2MwcVhWYUJ3Y3FWYWh3MHQ4UDBUUEZ0Y3F3ZTcwMk1LbmxiaFcteVp3VWpwWVpYZ01EanhzeERzLU1MNEVBd21MTGZ5bA?oc=5",
+      "eventId": "evt_rtka9j",
+      "sourceCount": 1
+    },
+    {
+      "title": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+      "description": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期&nbsp;&nbsp; 搜狐网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T00:34:25.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSVZEblFBT2VSNktxZlI3Y3B6LUh6eERBRi1CZ1hNVnZ3alh3bGtqTFFoSmk0bmVFUDI0THdhUWpQN216LS1fSTZONUdHYXFHVTNN?oc=5",
+      "eventId": "evt_19eeb04",
+      "sourceCount": 1
+    },
+    {
+      "title": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+      "description": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了&nbsp;&nbsp; 搜狐网",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T05:26:15.000Z",
+      "source": "搜狐网",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNGx4dE14R1lPdXBoS1lOdmZRRUJQYU9oSFpxVVI4c05JclR2Vlk0Z2FnX0x2TWU5cUZKMlFuOVRWVjBNd0xQWkZ5cVpOX2ZEMnAw?oc=5",
+      "eventId": "evt_5x7pu",
+      "sourceCount": 1
+    },
+    {
+      "title": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel - ET Telecom",
+      "description": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel&nbsp;&nbsp; ET Telecom",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:36:57.000Z",
+      "source": "ET Telecom",
+      "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ05TYXRMaG1NRGlWUzJjbkRvSm4tTF8xRnN5b1dMQU5ENF85ZHdrSFpRekNkeGxmY1h2VXE5WFJ2ODBKNElsUzN2R2oteEJ2RXdmaFlVZXV6MWh4cE5MY2V0RzlULWl5Qm1RQ0dwck1NRkJHWFAzWEE1N0YtM3M4NHNlN01GZHRNdlpHemFRTERzYWk5ZmZkWjVjZ1ZUTzBCR0ppaXhMQmNtQ3lyTWxOemhrTHdWcWFXeVF0WEhmcjMzZFZydUJNVF9zWE5oYUYzQndPWTVNeXZQcWR1UXB0by1IY1o?oc=5",
+      "eventId": "evt_1ldz1ng",
+      "sourceCount": 1
+    },
+    {
+      "title": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T06:17:29.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104618.d.html",
+      "eventId": "evt_3cgviw",
+      "sourceCount": 3
+    },
+    {
+      "title": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+      "description": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑，而Eligible库存减少。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T06:35:56.000Z",
       "source": "金十数据",
       "link": "",
-      "eventId": "evt_1fedo95",
-      "sourceCount": 2
+      "eventId": "evt_11s3jic",
+      "sourceCount": 1
+    },
+    {
+      "title": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+      "description": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Registered库存有所改善。",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T06:22:06.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_ce1agq",
+      "sourceCount": 1
+    },
+    {
+      "title": "U.S. after-hours chip names rallied: Direxion 3x S",
+      "description": "U.S. after-hours chip names rallied: Direxion 3x Semiconductor ETF SOXL rose more than 9%; Arm (ARM.O) +4%; AMD (AMD.O) and Intel (INTC.O) rose over 3%; SanDisk (SNDK.O) +2.8%; SK Hynix (SKHY.O) +2.7%; Broadcom (AVGO.O) +1.6%; NVIDIA (NVDA.O) +1.5%; Micron Technology (MU.O) +1.4%.",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T06:20:47.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_1420hg8",
+      "sourceCount": 1
+    },
+    {
+      "title": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+      "description": "“快逃！大山顶！”“减持比例意义不大，但信号意义强。”“业绩这么好还减持？”9月25日至30日，源杰科技在交易平台的社区讨论出现了各种声音，根源在9月24日晚间，两年暴涨逾27倍、一度登顶A股“股王”的光芯片龙头源杰科技，迎来实控人的首轮减持。消息公布后，公司股价走弱，9月28日收跌6.39%，报1591.43元。",
+      "guessedSector": "光模块",
+      "pubDate": "2026-09-30T22:55:55.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1354,202610013888010785.html",
+      "eventId": "evt_oxeojr",
+      "sourceCount": 1
+    },
+    {
+      "title": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+      "description": "9月29日，上海发生了两则新闻，看似毫不相关，背后却指向同一件事：AI需要质量更好的电。全球首个昇腾950液冷超节点正式落户上海青浦云湖智算中心，这是目前业界规模最大的可商用超节点。1024张芯片通过高速网络组成一台“超级计算机”，将为长三角提供高密度、高稳定、高能效的超大规模算力。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-30T22:14:03.000Z",
+      "source": "东方财富",
+      "link": "http://finance.eastmoney.com/news/1355,202610013888006044.html",
+      "eventId": "evt_py078k",
+      "sourceCount": 1
     },
     {
       "title": "医药领涨、科技走弱 10月A股怎么走？",
@@ -522,6 +2555,176 @@
       "source": "东方财富",
       "link": "http://stock.eastmoney.com/news/1405,202610013887961160.html",
       "eventId": "evt_1w5sdbn",
+      "sourceCount": 1
+    },
+    {
+      "title": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T06:16:43.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104132.d.html",
+      "eventId": "evt_e2dj67",
+      "sourceCount": 1
+    },
+    {
+      "title": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T06:11:26.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyaf5328431.d.html",
+      "eventId": "evt_1vp2cgq",
+      "sourceCount": 1
+    },
+    {
+      "title": "英飞凌将泰国视为潜在的芯片生产中心。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T03:45:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2144582.d.html",
+      "eventId": "evt_z8939i",
+      "sourceCount": 1
+    },
+    {
+      "title": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T03:25:05.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5356765.d.html",
+      "eventId": "evt_1t5k6l4",
+      "sourceCount": 1
+    },
+    {
+      "title": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T03:02:47.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5343092.d.html",
+      "eventId": "evt_10y6cvx",
+      "sourceCount": 1
+    },
+    {
+      "title": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T03:00:31.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5341976.d.html",
+      "eventId": "evt_hw1vuy",
+      "sourceCount": 1
+    },
+    {
+      "title": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:26:15.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2094536.d.html",
+      "eventId": "evt_v1k8b",
+      "sourceCount": 1
+    },
+    {
+      "title": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:21:49.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5318786.d.html",
+      "eventId": "evt_fltkxv",
+      "sourceCount": 1
+    },
+    {
+      "title": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:20:06.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317553.d.html",
+      "eventId": "evt_4iyy09",
+      "sourceCount": 2
+    },
+    {
+      "title": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:14:35.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5313490.d.html",
+      "eventId": "evt_u4ii2a",
+      "sourceCount": 1
+    },
+    {
+      "title": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T01:10:19.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5400130.d.html",
+      "eventId": "evt_e2z31c",
+      "sourceCount": 1
+    },
+    {
+      "title": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T00:46:58.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5386180.d.html",
+      "eventId": "evt_39tfxb",
+      "sourceCount": 1
+    },
+    {
+      "title": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T00:27:14.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2143716.d.html",
+      "eventId": "evt_cqqmet",
+      "sourceCount": 1
+    },
+    {
+      "title": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-01T00:25:21.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2141801.d.html",
+      "eventId": "evt_5l2604",
+      "sourceCount": 1
+    },
+    {
+      "title": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T00:18:25.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5361690.d.html",
+      "eventId": "evt_4y397c",
+      "sourceCount": 1
+    },
+    {
+      "title": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+      "description": "韩国产业通商部1日表示，韩国9月出口额同比增长83.5%，为1209.4亿美元，创下单月最高纪录。前9个月累计出口额突破8000亿美元，已远超去年全年水平。9月半导体出口额为603亿美元，同比大增262.8%，首次突破600亿美元。（韩联社）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-01T02:25:49.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173243",
+      "eventId": "evt_28pnaw",
+      "sourceCount": 1
+    },
+    {
+      "title": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "description": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "guessedSector": "半导体",
+      "pubDate": "2026-09-30T21:32:47.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173180",
+      "eventId": "evt_tsgzjr",
       "sourceCount": 1
     },
     {
@@ -880,9 +3083,10 @@
       "datasets": [
         {
           "data": [
-            1,
-            2,
-            5
+            17,
+            7,
+            20,
+            4
           ],
           "backgroundColor": [
             "#16a34a",
@@ -896,7 +3100,8 @@
       "labels": [
         "利好",
         "利空",
-        "中性"
+        "中性",
+        "分化"
       ],
       "hasData": true
     },
@@ -915,14 +3120,14 @@
       ],
       "matrix": {
         "半导体": {
-          "极高": 0,
-          "高": 2,
-          "中": 3,
-          "低": 2
+          "极高": 2,
+          "高": 11,
+          "中": 7,
+          "低": 12
         },
         "光模块": {
           "极高": 0,
-          "高": 0,
+          "高": 1,
           "中": 0,
           "低": 0
         },
@@ -933,10 +3138,10 @@
           "低": 0
         },
         "黄金": {
-          "极高": 0,
-          "高": 0,
+          "极高": 1,
+          "高": 4,
           "中": 0,
-          "低": 1
+          "低": 10
         }
       },
       "hasData": true
@@ -952,32 +3157,42 @@
         {
           "label": "利好",
           "data": [
-            1,
+            15,
             0,
             0,
-            0
+            2
           ],
           "backgroundColor": "#16a34a"
         },
         {
           "label": "利空",
           "data": [
-            2,
+            4,
+            1,
             0,
-            0,
-            0
+            2
           ],
           "backgroundColor": "#dc2626"
         },
         {
           "label": "中性",
           "data": [
-            4,
+            10,
+            0,
+            0,
+            10
+          ],
+          "backgroundColor": "#9ca0af"
+        },
+        {
+          "label": "分化",
+          "data": [
+            3,
             0,
             0,
             1
           ],
-          "backgroundColor": "#9ca0af"
+          "backgroundColor": "#ea580c"
         }
       ],
       "hasData": true
@@ -990,8 +3205,8 @@
       "datasets": [
         {
           "data": [
-            4,
-            4
+            23,
+            25
           ],
           "backgroundColor": [
             "#2563eb",

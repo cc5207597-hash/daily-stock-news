@@ -1,7 +1,21 @@
 {
   "date": "20261001",
-  "count": 8,
+  "count": 48,
   "events": [
+    {
+      "eventId": "evt_oadbwj",
+      "canonicalTitle": "Nvidia, Broadcom, and AMD Investors Need to Have Oct. 15 Circled on Their Calendars - The Globe and Mail",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMjdIVDVobTNvNDl6QkRaQzV3M2pqS0RpS280WHVKU2lXWG9zODZCcENhSDBOMV8weDVodWUtRzdlRGRLcm5mSFI4am5Pa1NwbDhsbGhrdU1Fano2NHRYUHJzSUlrYlhLTkcyaGdYeFRMLXpyNWtjZ2xKaWF2QkdxdFNrQnAybV9HYXhwSUZLUVhLZG1nLUVLUHNTQ2ozUXpMTTNxQXdSN19XbnlmcndTckdpaDVXdGhWODdqRUl0bUVYa3dGcmxxR0J1LUVvcWRWSlc0Q1FzYlRmdHB6YVVsSmsxR003dll6amRfUUlnV2ZoN1FGU29ISnRB?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "The Globe and Mail",
+        "Crypto Briefing"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNMjdIVDVobTNvNDl6QkRaQzV3M2pqS0RpS280WHVKU2lXWG9zODZCcENhSDBOMV8weDVodWUtRzdlRGRLcm5mSFI4am5Pa1NwbDhsbGhrdU1Fano2NHRYUHJzSUlrYlhLTkcyaGdYeFRMLXpyNWtjZ2xKaWF2QkdxdFNrQnAybV9HYXhwSUZLUVhLZG1nLUVLUHNTQ2ozUXpMTTNxQXdSN19XbnlmcndTckdpaDVXdGhWODdqRUl0bUVYa3dGcmxxR0J1LUVvcWRWSlc0Q1FzYlRmdHB6YVVsSmsxR003dll6amRfUUlnV2ZoN1FGU29ISnRB?oc=5",
+        "https://news.google.com/rss/articles/CBMickFVX3lxTE1yOVIwVldMOEFIUUkwUTRsUDNkZUloR05fYXBsUUNXVUZWMWdtaHBwSUh0YU52SVN0WHpqcEZJUzZwV2dOYnFqVmZRdDJkTGRhbGd6RE5fdnBpLXFvWkU0cTBZeTB2elVndnUxQWt3a2xjZw?oc=5"
+      ]
+    },
     {
       "eventId": "evt_1pwf201",
       "canonicalTitle": "Intel Rises 3% as Chip Contender Caps Off Surprisingly Strong September; NVIDIA Ticks Up, AMD Slips - 24/7 Wall St.",
@@ -12,24 +26,288 @@
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbE95RmdDZkVQNDM2REZ0bHd5V3RwdFB3X0M1Z2JVZXFNTVVuVGlrSzlHMkVXNDNteG9jLTVSaXNuSV8wamMybnVyaURocE1HT1dJQ25sZ1JSMEZuSkN5Tnk5eTREN2R6UUF4R3ZwbUc3Q1UzRy1sZnVueXJyQWNBTkYzN01SenI2aV9PeUY5UVNid01tUVN3TmtKVHhfUEkzNDREQUlNNWM2SVBsMDRJSGpxNGJMLTdweURkWEdvdlpEb2xFWTZSaXl5Z0k5eGFlWVBOZ3dVRQ?oc=5",
-        "https://news.google.com/rss/articles/CBMirwFBVV95cUxOa3RvQ1FPWU02cnotNUp6a1lhS1dMeHNWcklIWVdGRzl4ZE1iUkpUbDZmOUlIZmdIeHFRZE03eHM3WUJBcWNoZVRmTEVQNXlsQWo4Vm43NUV6aXAyZ0VJWWJsdXpfVGx4Q2tyV29RR0haWmxVbXFfck5ubGJWY0lsTmUwcnA0aE00RDJhR2lkT3NJSjZzeWtDRW90UGwtUDlMOHdVWkUwLU9lUmt5RFRJ?oc=5",
-        "https://news.google.com/rss/articles/CBMingFBVV95cUxPQlUwa2JPTWhhSkxfb2JxLUdOWmVvN2VlMlBYR1ZtM21NVE8yQjVMdWZoempKSTZXb18xd3lMSmMxRUYzd0RrcS1UNGNONDNpN1ZJSUNlaEFEbXJJVUpfOF8tNWRFNTFDYVRxWXNNamZXYnlLcF9DNFdLalZMS3oxVGx2cXBlQUhtRDVxTmlUX1BlVlZoZlFYZGQ2Z1l0QQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLVZhTGxjRFRGNTRTVTVMQklOeHVpNVFyTzlUVXdsY19DaGRiZEJfQzZ4SXVoVENjMUZ1bW9sYlVZbVFzUGowVE4zelJ0WGp1YUtvdVB5cHZuVEN2dndNUkxERW9Xdnp0QjRYLUJEbGtIbXc0NFhyalpiZEl6NDcybmczblZCaHpNU2k4OHc1amRhSklIVnFuT0dCQl83S1oxU1dFVDlaTHNFX0R6R1hDWVgxcjBMdw?oc=5",
+        "https://news.google.com/rss/articles/CBMioAFBVV95cUxQX3BnV05yU2tPQXdseTdBUlM2NWdLTXZGT0VOS1RxUTV6dnVuaXZROUtqaGlFWTBMeUYybGxKWjZTeXBUS0FOMXYzcm9xWmRKQklyRnNGd0pZaDVqUjdsWnVqVE9FZlJrUjBtZ2xneWhBWDZNbUdPQTBSN0hLSmdLSk9DTDgzWUNWSHVsNWZfYnN0STFfZ0pDc09XNjRjNjZW?oc=5",
         "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPOUp5ZEhJWUxkSWNaVW1IcWtGVkI4VkluY1ZFdm9YRkk5V3kxbWlvc1pqMVgya1J1TFJqSGFWdGlhWTg4b2lsNHdjRHVqMHBGTHBacDFybHlla01UcVdxLXNMT2g1V3RjeGhrTVZwRFZ6ZFpSdXFPQzkxY0xUUHUtVkRhci1DU0VyUHJPNW5qNm1qa0lMVkxHVV9EQklFeHlyeEN4bTRPWXd4WlRQR21qaUlneHAtWDRIYTRN?oc=5"
       ]
     },
     {
-      "eventId": "evt_1fedo95",
-      "canonicalTitle": "Spot gold fell 0.75% intraday to $4,150/oz.",
-      "canonicalLink": "",
+      "eventId": "evt_1ry8ff5",
+      "canonicalTitle": "安世半导体风波一周年 业界：其供应链已重塑 - aboluowang.com",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TdIBY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TQ?oc=5",
       "memberCount": 1,
       "sources": [
+        "aboluowang.com"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TdIBY0FVX3lxTE03Tk1hRFhaZFBrQWhzXzMwSGRHMHR3TTFTc3JPLVl0V3pnUWNzOXc3dnFWc05ZXzFnNVltdVJnRXBWSnI4cjBBVzBsb285U1ZUQmpCUXNWQzJNQ3ExUHAzVG91TQ?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_7ub25y",
+      "canonicalTitle": "金价上涨，PCE通胀降温降低美联储10月加息概率_金市直播 - 黄金网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMnB4YTJrcG5NdDZHaVpWMHBTMmtWR1d0bUt2NFhnV3BWZWJidXZON3VWWURyWmJQUWpLdlBBaXR2RmJiU2cxQUZwQ0c2QTlUbWRNMFB2NmFsQ1ZVaVNnc2F5TjYwVFpD?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "黄金网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1BMnB4YTJrcG5NdDZHaVpWMHBTMmtWR1d0bUt2NFhnV3BWZWJidXZON3VWWURyWmJQUWpLdlBBaXR2RmJiU2cxQUZwQ0c2QTlUbWRNMFB2NmFsQ1ZVaVNnc2F5TjYwVFpD?oc=5",
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zRnFHeHhRQ2R4Mjg1LVd6MExQQk5aa0pMYmxFM0tPZmlZblg0YkJ1MTZBTUJwd0VNRUZWQ0p2dGFoOFpzRmUzajBMbEZfTkZ4LVQ1QkRwUlhvTFVvZTlDdHVGZXlPY3Fz?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_j3y3tr",
+      "canonicalTitle": "董镇元月评：月线大阴承压金银十月先短空_名家点金 - 黄金网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aalMwamhLam1CZlAyWTRzYXlRcWZmY3VlUzJLNXZad3lvTm1FOVVxVlhMWnBRVmxTcEoyMk9lZDk1V0hFcHpNb3M5NEdGcnN6SUhtVThWNFZuMkxvTEZqVUp1SHpCY0FjQmNfbw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "黄金网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE5aalMwamhLam1CZlAyWTRzYXlRcWZmY3VlUzJLNXZad3lvTm1FOVVxVlhMWnBRVmxTcEoyMk9lZDk1V0hFcHpNb3M5NEdGcnN6SUhtVThWNFZuMkxvTEZqVUp1SHpCY0FjQmNfbw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1c2f20u",
+      "canonicalTitle": "Cathie Wood Pours $81 Million Into Nvidia, Dumps $110 Million in AMD Shares - finance.biggo.com",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "finance.biggo.com",
+        "24/7 Wall St.",
+        "Yahoo Finance"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNTk1MVhtdGRHTUpxRnRnYmZ3dlo4YWtrNGhTWFJxQ09sUVV2QWZZN21nNF9JN0hON1E3YU16cEJ1c0hyeUhTeS1fWllnT3JOTy1LSEM5VFlrYUY4RjByRldoMUNvQy05ZEpNU1dtd3dzWDdMWGc?oc=5",
+        "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdFk0eTZsTzdOQW1tMmh2bUlkZDRwTnk5ZVNCU1VFaUNzMEgwdWVvdUc0UzRRTl84dTg4eUVRWEVFaE93Ml94UENhVGNBc0drSnRIOGlPSjh5bnM4UEhLQmMzVmVjREVFSUxzNGFzQWxwNkFBd3hOdG4yaTdtc25UVnpibVQ2ZVVvb0dmclllVUExQ1hjZ1c0Skc5UHQzQUhnNlNUdTkxcDk?oc=5",
+        "https://news.google.com/rss/articles/CBMilwFBVV95cUxPV3R0Mjc2OFA0MEFfTVFFcTVHR3FyTDVpZVBYNHFFckJTemt0YndQQ1B0akptXzYybGFqenBZem1QZmpqX18wR3J2M213dWhYZ0VDR05FTDhoTnpDSkdmNDZIcnBtT3pnNEg3WTFUQTk5RVg5NUptUi1mRUJ5Sy1DU2lDV3Z4VDhCTWdadHNGNkxXeFpyQzg0?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1k9febi",
+      "canonicalTitle": "金价短期承压！外资公募：央行购金逻辑未破，中长期看好黄金_滚动新闻 - 证券之星",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81ZExiZzR4SU5EcnpQWVB5S2RBdmRVV0U2ejNHWXJ6b2E5UWZINzZ6czg3eEZPMFJ0LXB4ZTVuNy0xWHluaHZMV1NFVWxycFBQMzZvUFRtQVpZcjFGcDg3ZUVHc3g?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "证券之星"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiZEFVX3lxTE81ZExiZzR4SU5EcnpQWVB5S2RBdmRVV0U2ejNHWXJ6b2E5UWZINzZ6czg3eEZPMFJ0LXB4ZTVuNy0xWHluaHZMV1NFVWxycFBQMzZvUFRtQVpZcjFGcDg3ZUVHc3g?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1yf8o6k",
+      "canonicalTitle": "旷世点金：美联储官员仍密集释放鹰派信号 黄金再次沦陷 - 财经号",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XY1dsMWs3dUUzQUFYZHlIbmd2TWRZYVVTaXROLWxNWWN1OWhXRUx4R3E0clR5eXVSU2xibE95TnctNTlza3BjdlZCdlcxTUs3c2lJdDBjd3dndFg4UXZhLUZyRGZUek1aNXZF?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "财经号"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMia0FVX3lxTE9XY1dsMWs3dUUzQUFYZHlIbmd2TWRZYVVTaXROLWxNWWN1OWhXRUx4R3E0clR5eXVSU2xibE95TnctNTlza3BjdlZCdlcxTUs3c2lJdDBjd3dndFg4UXZhLUZyRGZUek1aNXZF?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_7zd9w4",
+      "canonicalTitle": "金价“过山车”，追涨还是等待？ - 搜狐网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xZFZnQXEyaDdYZHJTR0xGRHBRazRtcGtaRDktRjlRU1RtUlp2QWJnLTFLdTNzS19rWG9QYVJEVFkzbHF0bU00eWo1UHFocHJIeTZB?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "搜狐网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xZFZnQXEyaDdYZHJTR0xGRHBRazRtcGtaRDktRjlRU1RtUlp2QWJnLTFLdTNzS19rWG9QYVJEVFkzbHF0bU00eWo1UHFocHJIeTZB?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_g1ld7c",
+      "canonicalTitle": "黄金年底还有大行情？4400美元成突破口，5000美元目标重回视野 - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSXVYUzhQMWZ0YUpzOGhqNnBIZ01EMm1FNF9MWkxFQ0Q3ZmI0UzJVbW1XSGtWVUdXb1VwSDU1a2M5eGZzNnpCVUs2VXhDbk9vdDJuN2JGY1BzbnVISEUyQnVHSWRaM1ExcHFhbg?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTFBPSXVYUzhQMWZ0YUpzOGhqNnBIZ01EMm1FNF9MWkxFQ0Q3ZmI0UzJVbW1XSGtWVUdXb1VwSDU1a2M5eGZzNnpCVUs2VXhDbk9vdDJuN2JGY1BzbnVISEUyQnVHSWRaM1ExcHFhbg?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_68gglx",
+      "canonicalTitle": "从现在到年底，黄金价格可能出现三种情况。 - Vietnam.vn",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDBLaGQ5R1FGTURDWVFRQi1ERDljSXphQkIyb0llVUlRMGRrT0Z4TDFoZ25ZcjVQRFc0ZEhSeWRRbXdVeEUtcm95TzF5V3NjQ3ltS1BSZEd0bWpKb0xQZG5sbEItM282WndNai05Q0F6aU1xUWFaYm1yU0g?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "Vietnam.vn"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBoUDBLaGQ5R1FGTURDWVFRQi1ERDljSXphQkIyb0llVUlRMGRrT0Z4TDFoZ25ZcjVQRFc0ZEhSeWRRbXdVeEUtcm95TzF5V3NjQ3ltS1BSZEd0bWpKb0xQZG5sbEItM282WndNai05Q0F6aU1xUWFaYm1yU0g?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_y49bpd",
+      "canonicalTitle": "13年没买，如今突然出手！韩国央行突然打开“购金大门”，背后原因曝光_金市直播 - 黄金网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tRkFNa0psRC1hTDd0N0txTlRoY0c5LVRhZGU3QkZnYW9QcFRfUnRnSm5NWmgwaS1wLXNQNXBhT09FaTJqcmVvX00zUHFobVFVOU1tNy1FckNMa3pxYmo4RmpWX3FxWXpT?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "黄金网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1tRkFNa0psRC1hTDd0N0txTlRoY0c5LVRhZGU3QkZnYW9QcFRfUnRnSm5NWmgwaS1wLXNQNXBhT09FaTJqcmVvX00zUHFobVFVOU1tNy1FckNMa3pxYmo4RmpWX3FxWXpT?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1234jf8",
+      "canonicalTitle": "专家：黄金数十年来最强行情正在酝酿？法币压力加剧，金价下一站或直指5000美元_金市直播 - 黄金网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjMFZ0bW9PbjZlV2J0azBINzJFbUxzSGN6LTNsQmU3RFFnVTQ0cDJCc0N3UUJwMU5qbXdKZTloTGZQUEFyYm9xTkNWVlNzQ0lBNXp4WEoyYmd2QlNtbmpsWlBmdVl6bGlF?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "黄金网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBjMFZ0bW9PbjZlV2J0azBINzJFbUxzSGN6LTNsQmU3RFFnVTQ0cDJCc0N3UUJwMU5qbXdKZTloTGZQUEFyYm9xTkNWVlNzQ0lBNXp4WEoyYmd2QlNtbmpsWlBmdVl6bGlF?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_108xfml",
+      "canonicalTitle": "黄金跌到哪才算底？摩根士丹利：4000美元或是强支撑，5000美元目标仍在 - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZGwyd2ZTYV9mQmFyNThNUWZsZFZRTDRHdzhMU3FGMVNmWERJWS01ZDhBa1Q2alZhVDBtLWVsR3BxRE5zTXdMOWdJdXRNMGxLeVhNU2IwRTR3ZzVfaEFCblJHVWlvdF9Jb1M4aw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1yZGwyd2ZTYV9mQmFyNThNUWZsZFZRTDRHdzhMU3FGMVNmWERJWS01ZDhBa1Q2alZhVDBtLWVsR3BxRE5zTXdMOWdJdXRNMGxLeVhNU2IwRTR3ZzVfaEFCblJHVWlvdF9Jb1M4aw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_10wa466",
+      "canonicalTitle": "美国PCE意外降温，黄金冲破4200美元却突然跳水！发生了什么？ - FX168财经",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY0tFdEJRT1E2Y3V2dWFkR2dKUzhJZTdMdEVDNm1zLVpfenhCZ3lZZGlXaWdhbHlDb0Y2UGE0OU5zOUh6X1liS1BGajdLdUJURlBienZmdWJXaVBzQnRYXzRsMHptZ2E4SEloeg?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "FX168财经"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMibEFVX3lxTE1IY0tFdEJRT1E2Y3V2dWFkR2dKUzhJZTdMdEVDNm1zLVpfenhCZ3lZZGlXaWdhbHlDb0Y2UGE0OU5zOUh6X1liS1BGajdLdUJURlBienZmdWJXaVBzQnRYXzRsMHptZ2E4SEloeg?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_rtka9j",
+      "canonicalTitle": "2025年10月1日，黄金价格飙升，尽管出现了一些战术性不利因素，但仍受到结构性买盘的支撑。 - Vietnam.vn",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHdhRDVDcG9fLUF0Z3FQN0dwX1U5MU1zcFhwYXRsME05VElLYU5Gb0FIZUhxRFgzYURIR0NvVWFwREVoYUR4dmg4clhKaVJVRjFhRVFfbDB4aWg0RGZBRDVHN2ctY2NkYnRtUUlJbzd2Qm1hNHYwUldvaFpGdzBONHp1b3hYT1RtX01JWVlCWjlzT0ZrblFCOUplS2MwcVhWYUJ3Y3FWYWh3MHQ4UDBUUEZ0Y3F3ZTcwMk1LbmxiaFcteVp3VWpwWVpYZ01EanhzeERzLU1MNEVBd21MTGZ5bA?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "Vietnam.vn"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNbHdhRDVDcG9fLUF0Z3FQN0dwX1U5MU1zcFhwYXRsME05VElLYU5Gb0FIZUhxRFgzYURIR0NvVWFwREVoYUR4dmg4clhKaVJVRjFhRVFfbDB4aWg0RGZBRDVHN2ctY2NkYnRtUUlJbzd2Qm1hNHYwUldvaFpGdzBONHp1b3hYT1RtX01JWVlCWjlzT0ZrblFCOUplS2MwcVhWYUJ3Y3FWYWh3MHQ4UDBUUEZ0Y3F3ZTcwMk1LbmxiaFcteVp3VWpwWVpYZ01EanhzeERzLU1MNEVBd21MTGZ5bA?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_19eeb04",
+      "canonicalTitle": "黄仁勋预计明年芯片销量翻番：算力需求如何重塑半导体与通信基础设施周期 - 搜狐网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSVZEblFBT2VSNktxZlI3Y3B6LUh6eERBRi1CZ1hNVnZ3alh3bGtqTFFoSmk0bmVFUDI0THdhUWpQN216LS1fSTZONUdHYXFHVTNN?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "搜狐网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9zSVZEblFBT2VSNktxZlI3Y3B6LUh6eERBRi1CZ1hNVnZ3alh3bGtqTFFoSmk0bmVFUDI0THdhUWpQN216LS1fSTZONUdHYXFHVTNN?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_5x7pu",
+      "canonicalTitle": "盘中暴涨720%！华为投的深圳AI芯片材料商IPO了 - 搜狐网",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNGx4dE14R1lPdXBoS1lOdmZRRUJQYU9oSFpxVVI4c05JclR2Vlk0Z2FnX0x2TWU5cUZKMlFuOVRWVjBNd0xQWkZ5cVpOX2ZEMnAw?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "搜狐网"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZNGx4dE14R1lPdXBoS1lOdmZRRUJQYU9oSFpxVVI4c05JclR2Vlk0Z2FnX0x2TWU5cUZKMlFuOVRWVjBNd0xQWkZ5cVpOX2ZEMnAw?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_1ldz1ng",
+      "canonicalTitle": "CScale raises $145 million for AI networking, with backing from Nvidia and Intel - ET Telecom",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ05TYXRMaG1NRGlWUzJjbkRvSm4tTF8xRnN5b1dMQU5ENF85ZHdrSFpRekNkeGxmY1h2VXE5WFJ2ODBKNElsUzN2R2oteEJ2RXdmaFlVZXV6MWh4cE5MY2V0RzlULWl5Qm1RQ0dwck1NRkJHWFAzWEE1N0YtM3M4NHNlN01GZHRNdlpHemFRTERzYWk5ZmZkWjVjZ1ZUTzBCR0ppaXhMQmNtQ3lyTWxOemhrTHdWcWFXeVF0WEhmcjMzZFZydUJNVF9zWE5oYUYzQndPWTVNeXZQcWR1UXB0by1IY1o?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "ET Telecom"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNQ05TYXRMaG1NRGlWUzJjbkRvSm4tTF8xRnN5b1dMQU5ENF85ZHdrSFpRekNkeGxmY1h2VXE5WFJ2ODBKNElsUzN2R2oteEJ2RXdmaFlVZXV6MWh4cE5MY2V0RzlULWl5Qm1RQ0dwck1NRkJHWFAzWEE1N0YtM3M4NHNlN01GZHRNdlpHemFRTERzYWk5ZmZkWjVjZ1ZUTzBCR0ppaXhMQmNtQ3lyTWxOemhrTHdWcWFXeVF0WEhmcjMzZFZydUJNVF9zWE5oYUYzQndPWTVNeXZQcWR1UXB0by1IY1o?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_3cgviw",
+      "canonicalTitle": "【美股夜盘芯片股集体走强 SOXL三倍做多半导体ETF-Direxion涨超9%】美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，ARM涨4%，AMD、英特尔涨超3%，闪迪涨2.8%，SK海力士涨2.7%，博通涨1.6%，英伟达涨1.5%，美光科技涨1.4%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104618.d.html",
+      "memberCount": 1,
+      "sources": [
+        "财联社",
         "金十数据",
         "新浪财经"
       ],
       "relatedArticles": [
-        "现货黄金向下触及4150美元/盎司，日内跌0.75%。",
-        "https://finance.sina.cn/7x24/2026-10-01/detail-initrwqv2353800.d.html",
-        "https://finance.sina.cn/7x24/2026-09-30/detail-initrshx2426275.d.html"
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104618.d.html",
+        "https://www.cls.cn/detail/2496877",
+        "美股夜盘芯片股集体走强，SOXL三倍做多半导体ETF-Direxion涨超9%，Arm(ARM.O)"
+      ]
+    },
+    {
+      "eventId": "evt_11s3jic",
+      "canonicalTitle": "COMEX白银库存实物端呈净流出。结构上Registered库存增加，主要受Asahi接收及转仓支撑",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_ce1agq",
+      "canonicalTitle": "COMEX黄金总库存进一步温和回升，主要来自Asahi的Eligible库存接收，可交割Regist",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_1420hg8",
+      "canonicalTitle": "U.S. after-hours chip names rallied: Direxion 3x S",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
+    },
+    {
+      "eventId": "evt_oxeojr",
+      "canonicalTitle": "涨了27倍的A股股王在山顶按下了减持键！股民直呼“业绩好也跑？”",
+      "canonicalLink": "http://finance.eastmoney.com/news/1354,202610013888010785.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1354,202610013888010785.html"
+      ]
+    },
+    {
+      "eventId": "evt_py078k",
+      "canonicalTitle": "华为昇腾950超节点落户上海背后 只卖三四元的配角 AI催生千亿元生意",
+      "canonicalLink": "http://finance.eastmoney.com/news/1355,202610013888006044.html",
+      "memberCount": 1,
+      "sources": [
+        "东方财富"
+      ],
+      "relatedArticles": [
+        "http://finance.eastmoney.com/news/1355,202610013888006044.html"
       ]
     },
     {
@@ -42,6 +320,214 @@
       ],
       "relatedArticles": [
         "http://stock.eastmoney.com/news/1405,202610013887961160.html"
+      ]
+    },
+    {
+      "eventId": "evt_e2dj67",
+      "canonicalTitle": "【美光财报点燃AI交易，日本芯片股集体大涨】美光科技公布强于预期的财报和业绩指引后，日本半导体板块周四大幅上涨。市场将美光的强劲表现视为AI数据中心需求依然旺盛的又一信号，并迅速把这一预期扩散至芯片测试、制造设备、存储及电子元件等相关公司。截至北京时间14:00，日经225指数涨3.18%，报68877.28点。半导体及AI相关个股领涨，其中Lasertec涨11.09%，Advantest涨8.32%，太阳诱电涨8.05%，村田制作所涨8.2%，东京电子涨6.05%，铠侠涨5.33%，Rohm涨约3.36%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104132.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initsyai2104132.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1vp2cgq",
+      "canonicalTitle": "【花旗分析师：十月适宜布局存储芯片股】花旗集团分析师李彼得认为，投资者应当开始买入头部存储芯片厂商股票，人工智能相关需求或将在明年引发严重的半导体供应短缺。 李彼得表示，市场对需求走弱的担忧被夸大，市场低估了明年高带宽内存（HBM）的需求量，博通、谷歌等企业正在下达大额订单。 花旗预计，2027年HBM比特需求量同比大幅攀升至752亿吉比特，李彼得当前给予SK海力士“买入”评级，目标价300万韩元。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initsyaf5328431.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initsyaf5328431.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_z8939i",
+      "canonicalTitle": "英飞凌将泰国视为潜在的芯片生产中心。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2144582.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2144582.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1t5k6l4",
+      "canonicalTitle": "【华为Mate 90系列发布：全系搭载麒麟芯片，售价5999元起】在今日的华为Mate 90系列及全场景新品发布会上，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东发表演讲。这是华为旗舰手机首次在10月1号当天发布并同步开售，本次共推出华为Mate90、Pro、Pro Max、Pro Max典藏版及非凡大师等机型。售价方面，华为Mate 90售价5999元起，华为Mate 90 Pro售价6999元起，华为Mate 90 Pro Max售价9499元起，华为Mate 90 Pro Max典藏版售价10999元起，华为Mate90 RS非凡大师版售价12999元起。“在内存大涨价的今天，我们的价格还是非常有诚意的。”余承东说。（新浪科技）",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5356765.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5356765.d.html",
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5324397.d.html",
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317303.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_10y6cvx",
+      "canonicalTitle": "华为预计存储芯片短缺将导致智能手机进一步涨价。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5343092.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5343092.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_hw1vuy",
+      "canonicalTitle": "市场消息：腾讯向甲骨文租用10万枚芯片。腾讯已与甲骨文达成数据中心五年租赁协议。腾讯与甲骨文的协议价值估计约为70亿美元，其中约30%款项预先支付。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5341976.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5341976.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_v1k8b",
+      "canonicalTitle": "【美光科技CFO：2026财年Q4产生332亿美元自由现金流 计划从2026年12月9日开始增加股票回购】美光科技首席财务官Mark Murphy在财报电话会上表示，2026财年第四财季，美光科技产生了惊人的440亿美元运营现金流和332亿美元自由现金流。随着时间推移，我们预计将把100%的超额现金返还给股东。我们打算从2026年12月9日（即我们签署《芯片法案》最终协议两周年之际）开始增加资本返还，主要通过股票回购来实现。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2094536.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstum2094536.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_fltkxv",
+      "canonicalTitle": "【美光科技：2027财年上半年资本支出约为250亿美元 下半年将更高】美光科技预计2027财年上半年的资本支出约为250亿美元，下半年将更高，且大部分增量将用于新建晶圆厂（建筑支出）而非单纯的设备采购。美光科技CFO Mark Murphy解释称，这完全是因为长单提供了足够的需求能见度，且新建绿地工厂需要极长的提前量。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5318786.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5318786.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_4iyy09",
+      "canonicalTitle": "【华为Mate90全系搭载旗舰τ芯片】10月1日，华为举行Mate90系列及全场景新品发布会，华为常务董事、产品投资评审委员会主任、终端BG董事长余承东在会上表示，华为Mate90全系搭载旗舰τ芯片，整机在CPU、GPU、NPU方面性能跃升。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317553.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5317553.d.html",
+        "https://wallstreetcn.com/articles/3173242"
+      ]
+    },
+    {
+      "eventId": "evt_u4ii2a",
+      "canonicalTitle": "【美光科技CEO：HBM需求增速将持续跑赢传统DRAM直至2028年】美光科技董事长兼CEO Sanjay Mehrotra在财报电话会上表示，结构性的供需增长率差距导致了持续的供应紧张，即使考虑到行业新增的DRAM洁净室空间计划，在强劲的需求趋势（包括客户不断提出的增量要求）下，我们看不到供需何时能恢复平衡的拐点。行业HBM需求增速将持续跑赢传统DRAM直至2028年。Sanjay Mehrotra透露，美光2027年HBM的大部分供应已经签订协议，“价格同比大幅上涨，这缩小了（HBM）与传统DRAM之间的毛利率差距。”",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5313490.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initstui5313490.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_e2z31c",
+      "canonicalTitle": "【华为泡泡玛特联名款手表开售】10月1日，华为泡泡玛特联名款手表华为WATCH FIT 5开售，搭载华为自研芯片、64GB存储、蓝牙6.0，新增数字温度传感器，支持腕温趋势监测，售价1199元。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5400130.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5400130.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_39tfxb",
+      "canonicalTitle": "韩国海关周四公布的数据显示，半导体行业依然是经济繁荣的引擎，芯片出口额较上年同期飙升263%，达到创纪录的603亿美元。计算机出货量激增435%，石油制品出口增长72%。汽车出口则下降了5%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5386180.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5386180.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_cqqmet",
+      "canonicalTitle": "【AI热潮推动韩国9月出口突破1200亿美元 半导体出口再创纪录高位】在支撑人工智能半导体需求似乎无止境的推动下，韩国月度出口额首次突破1,200亿美元。周四的初步数据显示，9月份，韩国这个亚洲第四大经济体的出口额同比增长83.5%，至1,209.4亿美元。尽管当月因假日影响工作日较少，出口增速仍高于8月份68.7%的增幅，也超过65.4%增幅预期。进口额增长26.0%，至710.9亿美元，第三季度末贸易顺差达到创纪录的498.5亿美元。这一贸易顺差超过6月份创下的359.1亿美元前纪录。被视为AI需求风向标的韩国贸易数据显示，在AI基础设施投资持续大量涌入之际，对芯片的强劲需求几乎没有减退迹象。韩国9月份半导体出口额较上年同期增长逾两倍，至603亿美元，再创纪录高位。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2143716.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2143716.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_5l2604",
+      "canonicalTitle": "【全球最大的黄金ETF SPDR Gold Trust持仓较前日减少1.71吨】截至2026年09月30日，全球最大的黄金ETF SPDR Gold Trust持仓量为1055.70吨，较前一个交易日减少1.71吨。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2141801.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initspnp2141801.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_4y397c",
+      "canonicalTitle": "【AI热潮挤压消费电子，罗技CEO称芯片短缺短期内难以缓解：整个夏天我都在连求带借搜寻芯片】罗技首席执行官哈内克·法伯（Hanneke Faber）透露，受全球人工智能（AI）热潮影响，传统消费科技供应链正面临严峻挑战。法伯表示，为了给公司的鼠标、键盘及游戏外设保障关键零部件供应，她整个夏天都在全球奔波，“整个夏天我都在连求带借甚至去偷芯片，”法伯说，随后她澄清道：“我不想说偷。是连求带借！”法伯解释称，目前全球内存和存储芯片的生产高度集中在少数几家头部企业，而AI产业链的爆发式需求卷走了大量产能，直接挤压了罗技等消费电子厂商的生存空间。她强调，全行业面临的芯片短缺局面短期内仍将持续。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5361690.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-01/detail-initspnm5361690.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_28pnaw",
+      "canonicalTitle": "韩国9月出口1200亿美元创新高，半导体出口额同比大增262.8%",
+      "canonicalLink": "https://wallstreetcn.com/articles/3173243",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3173243"
+      ]
+    },
+    {
+      "eventId": "evt_tsgzjr",
+      "canonicalTitle": "Anthropic PBC的CEO Amodei在美国白宫（周二的会议期间）被英伟达CEO黄仁勋问等人问及诸多警告。\n\n高管们质问Amodei为何在公开场合表现得如此极端。（华尔街日报）",
+      "canonicalLink": "https://wallstreetcn.com/articles/3173180",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3173180"
       ]
     },
     {
