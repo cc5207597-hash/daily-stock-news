@@ -2529,17 +2529,17 @@
       "date": "20261002",
       "displayDate": "2026-10-02",
       "isAi": true,
-      "newsCount": 47,
+      "newsCount": 67,
       "sectorCount": 4,
       "missingSectors": [
         "光模块"
       ],
       "covered": false,
       "impact": {
-        "vhigh": 8,
-        "high": 2
+        "vhigh": 9,
+        "high": 8
       },
-      "signalHitRate": 30,
+      "signalHitRate": 40,
       "directions": {
         "利好": 1,
         "利空": 1,
@@ -2577,7 +2577,7 @@
   "total": 58,
   "coveredAll": 52,
   "coverageRate": 90,
-  "avgImpactHigh": 13,
+  "avgImpactHigh": 14,
   "consistency": {
     "黄金": 33,
     "创新药": 37,
