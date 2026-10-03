@@ -1,29 +1,981 @@
 {
   "date": "20261003",
   "displayDate": "2026-10-03",
-  "generatedAt": "2026-10-02T17:32:48.632Z",
+  "generatedAt": "2026-10-03T05:54:03.031Z",
   "analyzed": [
     {
-      "title_cn": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？ - FX168财经",
-      "summary_cn": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？&nbsp;&nbsp; FX168财经",
+      "title_cn": "谷歌搭载AI芯片测试卫星发射升空",
+      "summary_cn": "【谷歌搭载AI芯片测试卫星发射升空】财联社10月3日电，美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:AI芯片太空测试",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "AI芯片太空测试"
+      ],
+      "evidence": [
+        "此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "谷歌搭载AI芯片测试卫星发射升空",
+      "description": "【谷歌搭载AI芯片测试卫星发射升空】财联社10月3日电，美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。这颗原型卫星搭载4枚谷歌TPU芯片，由美国太空探索技术公司的“运输者-18”任务“拼车”发射升空。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。\n\n谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。谷歌介绍，未来几周将收集卫星在轨运行数据，重点评估TPU芯片在太空飞行过程中对物理应力以及在太空环境中对辐射和极端温度的承受能力，并据",
+      "pubDate": "2026-10-03T03:56:01.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2497499",
+      "eventId": "evt_1u0ql7t",
+      "eventTitle": "谷歌搭载AI芯片测试卫星发射升空",
+      "eventSources": [
+        "财联社"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "谷歌搭载AI芯片测试卫星发射升空",
+          "description": "【谷歌搭载AI芯片测试卫星发射升空】财联社10月3日电，美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。这颗原型卫星搭载4枚谷歌TPU芯片，由美国太空探索技术公司的“运输者-18”任务“拼车”发射升空。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。\n\n谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。谷歌介绍，未来几周将收集卫星在轨运行数据，重点评估TPU芯片在太空飞行过程中对物理应力以及在太空环境中对辐射和极端温度的承受能力，并据",
+          "link": "https://www.cls.cn/detail/2497499",
+          "pubDate": "2026-10-03T03:56:01.000Z",
+          "source": "财联社",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【谷歌搭载AI芯片测试卫星发射升空】美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "高",
+      "time_window": "长期",
+      "tickers": "—",
+      "notes": "AI研判:AI芯片太空应用",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "AI芯片太空应用"
+      ],
+      "evidence": [
+        "谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "【谷歌搭载AI芯片测试卫星发射升空】美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+      "description": "",
+      "pubDate": "2026-10-03T02:53:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4039678.d.html",
+      "eventId": "evt_17mgykv",
+      "eventTitle": "【谷歌搭载AI芯片测试卫星发射升空】美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【谷歌搭载AI芯片测试卫星发射升空】美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4039678.d.html",
+          "pubDate": "2026-10-03T02:53:38.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+      "summary_cn": "【据悉台积电或与马斯克Terafab晶圆厂合作】金十数据10月3日讯，10月3日，有独立科技记者爆料称，台积电正在探索与马斯克旗下Terafab晶圆厂开展合作。",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:合作探索中",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "合作探索中"
+      ],
+      "evidence": [
+        "台积电正在探索与马斯克旗下Terafab晶圆厂开展合作。"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "合作未确定",
+      "title": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+      "description": "【据悉台积电或与马斯克Terafab晶圆厂合作】金十数据10月3日讯，10月3日，有独立科技记者爆料称，台积电正在探索与马斯克旗下Terafab晶圆厂开展合作。Terafab此前已与英特尔达成合作。近期有消息称，台积电正考虑在美国设立第二座园区，而Terafab所在的得州被认为是最可能的选址之一。",
+      "pubDate": "2026-10-03T03:27:51.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_7sf0fo",
+      "eventTitle": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+      "eventSources": [
+        "金十数据"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+          "description": "【据悉台积电或与马斯克Terafab晶圆厂合作】金十数据10月3日讯，10月3日，有独立科技记者爆料称，台积电正在探索与马斯克旗下Terafab晶圆厂开展合作。Terafab此前已与英特尔达成合作。近期有消息称，台积电正考虑在美国设立第二座园区，而Terafab所在的得州被认为是最可能的选址之一。",
+          "link": "",
+          "pubDate": "2026-10-03T03:27:51.000Z",
+          "source": "金十数据",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:合作探索",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "合作探索"
+      ],
+      "evidence": [
+        "台积电 (TSMC) 正在探索与 Elon Musk 旗下 Terafab 晶圆厂的合作事宜。"
+      ],
+      "confidence_score": 0.5,
+      "uncertainty": "多个来源报道",
+      "title": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+      "description": "",
+      "pubDate": "2026-10-03T03:21:59.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html",
+      "eventId": "evt_1bn8bmu",
+      "eventTitle": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html",
+          "pubDate": "2026-10-03T03:21:59.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【个人投资者在ETF投资中的占比仍在持续扩大 三类主题ETF受青睐】 个人投资者在ETF投资中的占比仍在持续扩大。根据统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。",
+      "summary_cn": "",
+      "category": "半导体",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:ETF主题偏好",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "ETF主题偏好"
+      ],
+      "evidence": [
+        "新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "间接影响",
+      "title": "【个人投资者在ETF投资中的占比仍在持续扩大 三类主题ETF受青睐】 个人投资者在ETF投资中的占比仍在持续扩大。根据统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。",
+      "description": "",
+      "pubDate": "2026-10-03T01:24:18.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0891150.d.html",
+      "eventId": "evt_sdpb22",
+      "eventTitle": "【个人投资者在ETF投资中的占比仍在持续扩大 三类主题ETF受青睐】 个人投资者在ETF投资中的占比仍在持续扩大。根据统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "【个人投资者在ETF投资中的占比仍在持续扩大 三类主题ETF受青睐】 个人投资者在ETF投资中的占比仍在持续扩大。根据统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0891150.d.html",
+          "pubDate": "2026-10-03T01:24:18.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片） - 财富号",
+      "summary_cn": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片）&nbsp;&nbsp; 财富号",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "AI研判:材料需求增长",
+      "sentiment": "利好",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "材料需求增长"
+      ],
+      "evidence": [
+        "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片）"
+      ],
+      "confidence_score": 0.7,
+      "uncertainty": "",
+      "title": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片） - 财富号",
+      "description": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片）&nbsp;&nbsp; 财富号",
+      "pubDate": "2026-10-02T23:11:00.000Z",
+      "source": "财富号",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTm5BNV9NRmZyR1ZNaDRNbG5Lb0hxLUx2SzlXVGVlbHdhVWk0d3pidUw5RTlwTmQ3QVdfU2VzZHVTM2ZxV2NmWEEzcUFhU2lpUTlSeUdtcGJUSDREVF9zdHJMbDB1OTloQ2RuRUtjN2JwTURzQ3I0bVI1YzM4QlBuNzUtMFhPdFpEaENNWkZtSWt5SHYzNHBWbzhWM2dmLUZVeDdhc0JFOThCYlJmODJkV09tVjFGaExReU1TTjJqWkNhbFZfdmhubkhidnpYdVpUSUxjLTlpV0VEWnFJeVgwXzBPZzhxckpTMDhvZGg3U1N5Q19oZnYzWUJGbkJUeTg?oc=5",
+      "eventId": "evt_1nn4uyo",
+      "eventTitle": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片） - 财富号",
+      "eventSources": [
+        "财富号"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片） - 财富号",
+          "description": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片）&nbsp;&nbsp; 财富号",
+          "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTm5BNV9NRmZyR1ZNaDRNbG5Lb0hxLUx2SzlXVGVlbHdhVWk0d3pidUw5RTlwTmQ3QVdfU2VzZHVTM2ZxV2NmWEEzcUFhU2lpUTlSeUdtcGJUSDREVF9zdHJMbDB1OTloQ2RuRUtjN2JwTURzQ3I0bVI1YzM4QlBuNzUtMFhPdFpEaENNWkZtSWt5SHYzNHBWbzhWM2dmLUZVeDdhc0JFOThCYlJmODJkV09tVjFGaExReU1TTjJqWkNhbFZfdmhubkhidnpYdVpUSUxjLTlpV0VEWnFJeVgwXzBPZzhxckpTMDhvZGg3U1N5Q19oZnYzWUJGbkJUeTg?oc=5",
+          "pubDate": "2026-10-02T23:11:00.000Z",
+          "source": "财富号"
+        }
+      ]
+    },
+    {
+      "title_cn": "药明康德获扎堆推荐 机构看好节后A股反弹",
+      "summary_cn": "9月最后一个交易日，A股三大指数涨跌不一，截至收盘，上证指数涨0.31%，深证成指跌0.11%，创业板指跌0.23%；北证50涨0.7%。沪深两市成交额约143",
+      "category": "创新药",
+      "direction": "分化",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "中期",
+      "tickers": "药明康德(603259)",
+      "notes": "评分引擎:行情·利好(15·板块行情上涨)+行情·利空(18·板块行情走弱)",
+      "sentiment": "分化",
+      "market_impact": "中",
+      "affected_companies": [
+        "药明康德"
+      ],
+      "reasoning": [
+        "行情信号·利好(+15分·板块行情上涨)",
+        "行情信号·利空(-18分·板块行情走弱)"
+      ],
+      "evidence": [
+        "反弹",
+        "下跌"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "药明康德获扎堆推荐 机构看好节后A股反弹",
+      "description": "9月最后一个交易日，A股三大指数涨跌不一，截至收盘，上证指数涨0.31%，深证成指跌0.11%，创业板指跌0.23%；北证50涨0.7%。沪深两市成交额约14380.18亿元，较前一个交易日放量约288.21亿元。全市场2567只股票上涨、2824只股票下跌，其中56只涨停、12只跌停。",
+      "pubDate": "2026-10-03T00:01:13.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/1405,202610033888455177.html",
+      "eventId": "evt_35f6lo",
+      "eventTitle": "药明康德获扎堆推荐 机构看好节后A股反弹",
+      "eventSources": [
+        "东方财富"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "药明康德获扎堆推荐 机构看好节后A股反弹",
+          "description": "9月最后一个交易日，A股三大指数涨跌不一，截至收盘，上证指数涨0.31%，深证成指跌0.11%，创业板指跌0.23%；北证50涨0.7%。沪深两市成交额约14380.18亿元，较前一个交易日放量约288.21亿元。全市场2567只股票上涨、2824只股票下跌，其中56只涨停、12只跌停。",
+          "link": "http://stock.eastmoney.com/news/1405,202610033888455177.html",
+          "pubDate": "2026-10-03T00:01:13.000Z",
+          "source": "东方财富",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.855吨，当前持仓量为1055.696吨。全球最大白银ETF--iShares Silver Trust持仓较上日减少6.73吨，当前持仓量为15345.27吨。",
+      "summary_cn": "",
       "category": "黄金",
-      "direction": "利空",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.855吨，当前持仓量为1055.696吨。全球最大白银ETF--iShares Silver Trust持仓较上日减少6.73吨，当前持仓量为15345.27吨。",
+      "description": "",
+      "pubDate": "2026-10-03T00:15:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0851253.d.html",
+      "eventId": "evt_8thmjq",
+      "eventTitle": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.855吨，当前持仓量为1055.696吨。全球最大白银ETF--iShares Silver Trust持仓较上日减少6.73吨，当前持仓量为15345.27吨。",
+      "eventSources": [
+        "新浪财经"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.855吨，当前持仓量为1055.696吨。全球最大白银ETF--iShares Silver Trust持仓较上日减少6.73吨，当前持仓量为15345.27吨。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0851253.d.html",
+          "pubDate": "2026-10-03T00:15:38.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "【国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%】周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡COMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%COMEX白银期货本周累跌6.42%，报60.640美元/盎司。COMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。State Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+      "summary_cn": "",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利好(90)+行情·利好(23·板块行情上涨)+行情·利空(54·板块行情走弱)",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "价格信号·利好(+90分)",
+        "行情信号·利好(+23分·板块行情上涨)",
+        "行情信号·利空(-54分·板块行情走弱)"
+      ],
+      "evidence": [
+        "现货白银",
+        "收涨",
+        "持续走低"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "【国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%】周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡COMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%COMEX白银期货本周累跌6.42%，报60.640美元/盎司。COMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。State Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+      "description": "",
+      "pubDate": "2026-10-02T21:03:39.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4267620.d.html",
+      "eventId": "evt_u6dlej",
+      "eventTitle": "【国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%】周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡COMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%COMEX白银期货本周累跌6.42%，报60.640美元/盎司。COMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。State Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+      "eventSources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4052630.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4169857.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4161351.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4159791.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4156262.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkp0926519.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4153966.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4270923.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1041340.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4245372.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1004405.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwkur4355293.d.html",
+        "LME期铜收涨15美元，报14258美元/吨。LME期铝收跌22美元，报3100美元/吨。LME期锌收跌14美元，报3710美元/吨。",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwenv1197033.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwent4413719.d.html",
+        "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4413639.d.html",
+        "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4412982.d.html",
+        "https://wallstreetcn.com/articles/3173827",
+        "https://wallstreetcn.com/articles/3173821",
+        "https://wallstreetcn.com/articles/3173816",
+        "https://wallstreetcn.com/articles/3173806",
+        "https://wallstreetcn.com/articles/3173802",
+        "https://wallstreetcn.com/articles/3173799",
+        "https://wallstreetcn.com/articles/3173791",
+        "https://wallstreetcn.com/articles/3173786",
+        "https://wallstreetcn.com/articles/3173761",
+        "https://wallstreetcn.com/articles/3173755",
+        "https://wallstreetcn.com/articles/3173746"
+      ],
+      "eventMembers": [
+        {
+          "title": "纽约原油暗盘跌破91美元，日内跌超1.9%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4052630.d.html",
+          "pubDate": "2026-10-03T03:15:59.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "英特尔暗盘跌超3%，现报119.0233美元。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4169857.d.html",
+          "pubDate": "2026-10-02T22:43:26.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "联合健康暗盘突破370美元，日内涨1.2%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4161351.d.html",
+          "pubDate": "2026-10-02T22:18:25.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "美国天然气暗盘突破3美元，日内涨幅2.7%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4159791.d.html",
+          "pubDate": "2026-10-02T22:13:55.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "暗盘白银突破54美元/盎司，日内涨幅1%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4156262.d.html",
+          "pubDate": "2026-10-02T22:05:35.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "暗盘金价（人民币）跌破900元/克，日内跌幅1%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkp0926519.d.html",
+          "pubDate": "2026-10-02T22:00:25.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "暗盘金价跌破4150美元/盎司，日内跌幅1%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4153966.d.html",
+          "pubDate": "2026-10-02T22:00:25.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "富时A50期指连续夜盘收涨0.14%，报13830点。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4270923.d.html",
+          "pubDate": "2026-10-02T21:15:30.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "周五（10月2日）纽约尾盘（周六北京时间04:59），离岸人民币（CNH）兑美元报6.7058元，较周四纽约尾盘涨84点，日内整体交投于6.7192-6.7008元区间。本周，离岸人民币累计上涨大约0.26%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1041340.d.html",
+          "pubDate": "2026-10-02T21:07:09.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%】周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡COMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%COMEX白银期货本周累跌6.42%，报60.640美元/盎司。COMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。State Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4267620.d.html",
+          "pubDate": "2026-10-02T21:03:39.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【纳斯达克中国金龙指数收跌2.01%】陆金所控股跌14.29%，MAAS跌12.08%，AIFU跌7.55%，万国数据跌7.48%，世纪互联跌7.30%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4245372.d.html",
+          "pubDate": "2026-10-02T20:00:03.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "周五（10月2日）纽约尾盘，彭博谷物分类指数跌0.48%，报32.9219点，本周累计下跌4.01%，整体持续走低，9月30日美国农业部（USDA）发布时短线跳水。本周，CBOT玉米期货累跌5.87%，报4.9725美元/蒲式耳。CBOT小麦期货累跌2.88%，报6.83美元/蒲式耳。CBOT大豆期货累跌3.17%，报12.7725美元/蒲式耳，豆粕期货跌6.47%，豆油期货涨1.16%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1004405.d.html",
+          "pubDate": "2026-10-02T19:20:51.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "恒指期货夜盘收跌0.14%，报23846.28点，低水126.01点。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwkur4355293.d.html",
+          "pubDate": "2026-10-02T19:00:02.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "LME期铜收涨15美元，报14258美元/吨。LME期铝收跌22美元，报3100美元/吨。LME期锌收跌14美元，报3710美元/吨。",
+          "description": "",
+          "link": "",
+          "pubDate": "2026-10-02T16:51:28.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【英国中长期国债收益率于美国非农日显著下跌】周五（10月2日）欧市尾盘，英国10年期国债收益率跌3.2个基点，报5.366%，本周整体持平，10月1日早盘达到5.504%，10月2日美国非农就业报告出炉时跌至5.291%。两年期英债收益率涨1.6个基点，报4.817%，本周累跌2.1个基点。30年期英债收益率跌5.4个基点，报5.891%，本周累涨4.9个基点，10月1日早盘曾达到6.021%。50年期英债收益率跌4.5个基点，报5.306%，本周累涨2.7个基点。2/10年期英债收益率利差跌4.656个基点，报+54.772个基点，本周累涨2.246个基点。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwenv1197033.d.html",
+          "pubDate": "2026-10-02T16:24:00.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "【欧洲天然气期货涨4%，本周涨超7.7%】周五（10月2日）欧市尾盘，ICE英国天然气期货涨2.72%，报191.600便士/千卡，本周累计上涨4.68%。TTF基准荷兰天然气期货涨4%，报76.095欧元/兆瓦时，本周累涨7.72%。ICE欧盟碳排放交易许可（期货价格）跌1.63%，报84.24欧元/吨，本周累跌2.32%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwent4413719.d.html",
+          "pubDate": "2026-10-02T16:00:18.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "美元指数跌破101关口，日内跌0.13%。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4413639.d.html",
+          "pubDate": "2026-10-02T15:59:59.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "现货白银日内跌2%，现报59.75美元/盎司。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4412982.d.html",
+          "pubDate": "2026-10-02T15:57:16.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "两年期美债收益率于非农日涨超3个基点，10年期美债收益率本周涨11个基点",
+          "description": "周五（10月2日）纽约尾盘，美国10年期基准国债收益率涨2.99个基点，报5.2706%，北京时间20:30发布非农就业报告时跳水、一分钟内跌至5.1528%刷新日低，全天呈现出V形反转，本周累计上涨11.02个基点，9月28日-10月1日持续上涨。\n\n两年期美债收益率涨3.12个基点，报4.8247%，非农就业数据披露后从4.78%附近跳水、两分钟内刷新日低至4.6913%，随后持续上扬、01:28刷新日高至4.8477%，本周累跌2.69个基点。",
+          "link": "https://wallstreetcn.com/articles/3173827",
+          "pubDate": "2026-10-02T21:36:54.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%",
+          "description": "周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡。\n\nCOMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。\n\n现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%\n\nCOMEX白银期货本周累跌6.42%，报60.640美元/盎司。\n\nCOMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低。\n\n现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。\n\n本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。\n\n在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。\n\n在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。\n\nState Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+          "link": "https://wallstreetcn.com/articles/3173821",
+          "pubDate": "2026-10-02T21:03:33.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "周五（10月2日），彭博电动汽车价格回报指数涨0.63%，报3144.41点，本周累计下跌1.73%，9月28-29日持续下跌，后续低位窄幅震荡。",
+          "description": "周五（10月2日），彭博电动汽车价格回报指数涨0.63%，报3144.41点，本周累计下跌1.73%，9月28-29日持续下跌，后续低位窄幅震荡。",
+          "link": "https://wallstreetcn.com/articles/3173816",
+          "pubDate": "2026-10-02T20:22:21.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "中概指数收跌约2.1%，KWEB跌超1.9%，世纪互联、万国数据跌约7.5%",
+          "description": "纳斯达克金龙中国指数收跌2.09%，报5519.24点，纽约上午持续走低，北京时间23:20以来持续低位窄幅震荡，本周累计下跌2.97%。\n\nETF中，中概互联网指数ETF（KWEB）收跌1.93%，本周累跌2.93%连跌两周；\n\n中国科技指数ETF（CQQQ）收跌1.3%，本周累跌5.32%连跌两周；\n\n德银嘉实沪深300指数ETF（ASHR）收跌0.73%，本周累跌1.75%；\n\nXtrackersHarvest中证50（ASHS）收跌0.68%，本周累跌2.91%；\n\nMSCI新兴市场ex中国ETF（EMXC）收涨1.96%，本周累涨0.14%守住上周反弹1.92%的表现。",
+          "link": "https://wallstreetcn.com/articles/3173806",
+          "pubDate": "2026-10-02T20:00:14.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "日元本周跌超0.3%",
+          "description": "周五（10月2日）纽约尾盘，美元兑日元跌0.17%，报157.83日元，北京时间发布美国非农就业报告时从157.60上方调回至157下方，本周累计上涨0.35%，整体交投区间为156.38-158.45日元。\n\n本周，欧元兑日元累跌0.81%，报177.70日元；英镑兑日元累涨0.37%，报209.079日元；日元兑离岸人民币累跌0.58%，报4.2497元。",
+          "link": "https://wallstreetcn.com/articles/3173802",
+          "pubDate": "2026-10-02T19:33:46.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "美元指数在非农日跌约0.2%，本周涨超0.9%",
+          "description": "周五（10月2日）纽约尾盘，ICE美元指数跌0.19%，报101.908点，北京时间发布美国非农就业报告时从102.100点附近跳水至接近101.700点的水平，本周累计上涨0.93%，整体交投区间为100.980-102.207点。\n\n彭博美元指数跌0.24%，报1222.12点，本周累涨0.76%，整体交投区间为1212.99-1226.89点。",
+          "link": "https://wallstreetcn.com/articles/3173799",
+          "pubDate": "2026-10-02T19:28:03.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "恒生指数主连夜盘收跌0.21%，报23831点。\n\n恒生科技指数主连夜盘收跌0.36%，报4131点。",
+          "description": "恒生指数主连夜盘收跌0.21%，报23831点。\n\n恒生科技指数主连夜盘收跌0.36%，报4131点。",
+          "link": "https://wallstreetcn.com/articles/3173791",
+          "pubDate": "2026-10-02T19:00:43.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "WTI 11月原油期货收跌1.76美元，跌幅超过1.89%，报91.11美元/桶，本周累跌超1.40%，连续第二周下跌。\n\n布伦特12月原油期货收跌0.05美元，跌幅0.06%，报102.25美元/桶，本周累计涨超4.93%，此前连跌两周。\n\n中东Abu Dhabi Murban原油期货跌0.91%，报108.40美元/桶，本周累涨9.44%。\n\nNYMEX 11月天然气期货收报3.0350美元/百万英热单位。\n\nNYMEX 11月汽油期货收报3.3124美元/加仑，NYMEX 11月取暖油期货收报4.5011美元/加仑。",
+          "description": "WTI 11月原油期货收跌1.76美元，跌幅超过1.89%，报91.11美元/桶，本周累跌超1.40%，连续第二周下跌。\n\n布伦特12月原油期货收跌0.05美元，跌幅0.06%，报102.25美元/桶，本周累计涨超4.93%，此前连跌两周。\n\n中东Abu Dhabi Murban原油期货跌0.91%，报108.40美元/桶，本周累涨9.44%。\n\nNYMEX 11月天然气期货收报3.0350美元/百万英热单位。\n\nNYMEX 11月汽油期货收报3.3124美元/加仑，NYMEX 11月取暖油期货收报4.5011美元/加仑。",
+          "link": "https://wallstreetcn.com/articles/3173786",
+          "pubDate": "2026-10-02T18:31:04.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "两年期德债收益率非农日涨超1个基点，本周累跌20个基点",
+          "description": "周五（10月2日）欧市尾盘，德国10年期国债收益率跌4.6个基点，报3.462%，整体呈现出V形走势、北京时间20:30发布美国非农就业报告之前持续扩大跌幅、20:32刷新日低至3.374%、随后逐步收复失地，本周累计下跌14.0个基点，9月28-30日高位窄幅震荡于3.6%附近，10月1-2日持续下挫。\n\n两年期德债收益率涨1.2个基点，报3.076%，低位震荡行情中、20:32刷新日低至2.949%，随后持续反弹，本周累跌20.2个基点，整体持续下跌；30年期德债收益率跌7.5个基点，报3.819%，本周累跌9个基点。\n\n2/10年期德债收益率利差跌5.896个基点，报+38.168个基点，整体持续下挫，本周累涨6.229个基点。",
+          "link": "https://wallstreetcn.com/articles/3173761",
+          "pubDate": "2026-10-02T16:45:04.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "英国中长期国债收益率于美国非农日显著下跌",
+          "description": "周五（10月2日）欧市尾盘，英国10年期国债收益率跌3.2个基点，报5.366%，本周整体持平，10月1日早盘达到5.504%，10月2日美国非农就业报告出炉时跌至5.291%。\n\n两年期英债收益率涨1.6个基点，报4.817%，本周累跌2.1个基点。\n\n30年期英债收益率跌5.4个基点，报5.891%，本周累涨4.9个基点，10月1日早盘曾达到6.021%。\n\n50年期英债收益率跌4.5个基点，报5.306%，本周累涨2.7个基点。\n\n2/10年期英债收益率利差跌4.656个基点，报+54.772个基点，本周累涨2.246个基点。",
+          "link": "https://wallstreetcn.com/articles/3173755",
+          "pubDate": "2026-10-02T16:23:24.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "欧洲天然气期货涨4%，本周涨超7.7%",
+          "description": "周五（10月2日）欧市尾盘，ICE英国天然气期货涨2.72%，报191.600便士/千卡，本周累计上涨4.68%。\n\nTTF基准荷兰天然气期货涨4%，报76.095欧元/兆瓦时，本周累涨7.72%。\n\nICE欧盟碳排放交易许可（期货价格）跌1.63%，报84.24欧元/吨，本周累跌2.32%。",
+          "link": "https://wallstreetcn.com/articles/3173746",
+          "pubDate": "2026-10-02T16:00:12.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
+      "summary_cn": "野村上调对阿里巴巴2027财年经调整净利润预估7%，看好其电商业务盈利前景并重燃对该公司人工智能（AI）云的信心。\n\n“与阿里巴巴的交流强化了我们的观点，即管理",
+      "category": "半导体",
+      "direction": "分化",
       "impact": "高",
       "certainty": "高",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:狂泻逾100美元",
+      "notes": "AI研判:AI云业务信心",
+      "sentiment": "分化",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "AI云业务信心"
+      ],
+      "evidence": [
+        "野村上调对阿里巴巴2027财年经调整净利润预估7%，看好其电商业务盈利前景并重燃对该公司人工智能（AI）云的信心。"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "非半导体公司",
+      "title": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
+      "description": "野村上调对阿里巴巴2027财年经调整净利润预估7%，看好其电商业务盈利前景并重燃对该公司人工智能（AI）云的信心。\n\n“与阿里巴巴的交流强化了我们的观点，即管理层已进一步聚焦于AI云，而这个业务已开始成为推动营收增长的重要动力，同时他们也更加重视其它业务的盈利能力来保证AI投资的现金流，” 分析师Jialong Shi在一份研报中写道。\n\n他还说，在中国人工智能生态系统中，很少有企业能在AI价值链的几乎所有关键环节，包括芯片、基础设施、模型和应用上都拥有如此强大的地位。\n\n野村维持阿里巴巴目标价在178美元和“买入”评级。\n\n周五阿里巴巴在纽约下跌1.5%，收报105.85美元。",
+      "pubDate": "2026-10-02T21:15:15.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173783",
+      "eventId": "evt_123ctgt",
+      "eventTitle": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
+          "description": "野村上调对阿里巴巴2027财年经调整净利润预估7%，看好其电商业务盈利前景并重燃对该公司人工智能（AI）云的信心。\n\n“与阿里巴巴的交流强化了我们的观点，即管理层已进一步聚焦于AI云，而这个业务已开始成为推动营收增长的重要动力，同时他们也更加重视其它业务的盈利能力来保证AI投资的现金流，” 分析师Jialong Shi在一份研报中写道。\n\n他还说，在中国人工智能生态系统中，很少有企业能在AI价值链的几乎所有关键环节，包括芯片、基础设施、模型和应用上都拥有如此强大的地位。\n\n野村维持阿里巴巴目标价在178美元和“买入”评级。\n\n周五阿里巴巴在纽约下跌1.5%，收报105.85美元。",
+          "link": "https://wallstreetcn.com/articles/3173783",
+          "pubDate": "2026-10-02T21:15:15.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "summary_cn": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:行情覆盖跌",
       "sentiment": "利空",
       "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "狂泻逾100美元"
+        "行情覆盖跌"
       ],
       "evidence": [
-        "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？"
+        "半导体ETF收涨2.07%"
       ],
-      "confidence_score": 0.9,
-      "uncertainty": "波动原因不明",
+      "confidence_score": 0.7,
+      "uncertainty": "历史数据",
+      "title": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "description": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "pubDate": "2026-10-02T20:17:09.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173814",
+      "eventId": "evt_1ov9ncq",
+      "eventTitle": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "eventSources": [
+        "华尔街见闻"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+          "description": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+          "link": "https://wallstreetcn.com/articles/3173814",
+          "pubDate": "2026-10-02T20:17:09.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "CPM Group on Silver's 50% Drop, $60 Test and 黄金 Outlook - News and Statistics - IndexBox",
+      "summary_cn": "CPM Group on Silver's 50% Drop, $60 Test and 黄金 Outlook - News and Statistics&nbsp;&nbsp; IndexBox",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics - IndexBox",
+      "description": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics&nbsp;&nbsp; IndexBox",
+      "pubDate": "2026-10-02T21:00:40.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ29MQzhQbFprcVM5Z1dFWEdub2dRZ3dyZkhLeXpSWTlmOXVpYVYxR29vblJmS2tCQjl5NjRoYmY3bGZxN0ZibTFWXzFkUk1mRzhPNDdQLS1Dd1pJX05XUl83VkxPZGNUNEZtWHpsTDUxOGlpRzVwVHVDX1JlV0U2NnYyYnZtX1ZHT1VOQzVkcjl6cFdkSGdkdUNEXzJqSjdCT3lIdjYzdw?oc=5",
+      "eventId": "evt_1xe71zn",
+      "eventTitle": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics - IndexBox",
+      "eventSources": [
+        "IndexBox"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics - IndexBox",
+          "description": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics&nbsp;&nbsp; IndexBox",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ29MQzhQbFprcVM5Z1dFWEdub2dRZ3dyZkhLeXpSWTlmOXVpYVYxR29vblJmS2tCQjl5NjRoYmY3bGZxN0ZibTFWXzFkUk1mRzhPNDdQLS1Dd1pJX05XUl83VkxPZGNUNEZtWHpsTDUxOGlpRzVwVHVDX1JlV0U2NnYyYnZtX1ZHT1VOQzVkcjl6cFdkSGdkdUNEXzJqSjdCT3lIdjYzdw?oc=5",
+          "pubDate": "2026-10-02T21:00:40.000Z",
+          "source": "IndexBox"
+        }
+      ]
+    },
+    {
+      "title_cn": "Arm 股票 大涨s 5% as 英伟达 AI platform role boosts 芯片 需求 outlook - Invezz",
+      "summary_cn": "Arm 股票 大涨s 5% as 英伟达 AI platform role boosts 芯片 需求 outlook&nbsp;&nbsp; Invezz",
+      "category": "半导体",
+      "direction": "利空",
+      "impact": "中",
+      "certainty": "中",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:行情覆盖",
+      "sentiment": "利空",
+      "market_impact": "中",
+      "affected_companies": [],
+      "reasoning": [
+        "行情覆盖"
+      ],
+      "evidence": [
+        "Arm stock jumps 5%"
+      ],
+      "confidence_score": 0.6,
+      "uncertainty": "个股波动",
+      "title": "Arm 股票 大涨s 5% as 英伟达 AI platform role boosts 芯片 需求 outlook - Invezz",
+      "description": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook&nbsp;&nbsp; Invezz",
+      "pubDate": "2026-10-02T18:23:59.000Z",
+      "source": "Invezz",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2hBVFJBd1YyanFfSldLVHJ4eThnYzVaY3V5a2hIRDR6UnBsdUV0LVpXTnhaTnpjY2tFUEhwRmMycmpKd1BGNlZUWHhScUlIek9lNzNUYmM3WEtKUDNMdDZaWmZlaVFId1hrQm9Ebml5amFUMm9SY3hRUkVaVUU0c2ZvWmpVTjA0Y0ZNTV9QRnZ4ZEh5eXV5QXB0WnJOdk9sLXZhVEw3N1pqVTlIb1FFcFFXcGVIVUZ0?oc=5",
+      "eventId": "evt_2ozypq",
+      "eventTitle": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook - Invezz",
+      "eventSources": [
+        "Invezz"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook - Invezz",
+          "description": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook&nbsp;&nbsp; Invezz",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2hBVFJBd1YyanFfSldLVHJ4eThnYzVaY3V5a2hIRDR6UnBsdUV0LVpXTnhaTnpjY2tFUEhwRmMycmpKd1BGNlZUWHhScUlIek9lNzNUYmM3WEtKUDNMdDZaWmZlaVFId1hrQm9Ebml5amFUMm9SY3hRUkVaVUU0c2ZvWmpVTjA0Y0ZNTV9QRnZ4ZEh5eXV5QXB0WnJOdk9sLXZhVEw3N1pqVTlIb1FFcFFXcGVIVUZ0?oc=5",
+          "pubDate": "2026-10-02T18:23:59.000Z",
+          "source": "Invezz"
+        }
+      ]
+    },
+    {
+      "title_cn": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "summary_cn": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "category": "创新药",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "description": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "pubDate": "2026-10-02T18:59:48.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173790",
+      "eventId": "evt_zt2v9h",
+      "eventTitle": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "eventSources": [
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "sourceCount": 2,
+      "relatedLinks": [
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwkut1126921.d.html"
+      ],
+      "eventMembers": [
+        {
+          "title": "FDA 结束与冰山生菜相关的环孢子菌调查。",
+          "description": "",
+          "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwkut1126921.d.html",
+          "pubDate": "2026-10-02T18:57:51.000Z",
+          "source": "新浪财经",
+          "sourceType": "direct_api"
+        },
+        {
+          "title": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+          "description": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+          "link": "https://wallstreetcn.com/articles/3173790",
+          "pubDate": "2026-10-02T18:59:48.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "Best 黄金 股票 to Buy: Top US 黄金 Mining and Royalty 股票 to Watch as 黄金 价格s Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
+      "summary_cn": "Best 黄金 股票 to Buy: Top US 黄金 Mining and Royalty 股票 to Watch as 黄金 价格s Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More&nbsp;&nbsp; The Sunday Guardian",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "低",
+      "time_window": "中期",
+      "tickers": "—",
+      "notes": "评分引擎:未命中明显信号,中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [],
+      "evidence": [],
+      "confidence_score": 0.4,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
+      "description": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More&nbsp;&nbsp; The Sunday Guardian",
+      "pubDate": "2026-10-02T18:37:09.000Z",
+      "source": "The Sunday Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQSGtjakVRcVZFU0lILU9JSUZJY2NEdVQya0VvRVBqNHhabG5xSWowdExuNExVeDhuLW15UUJUQ1lmN2JDc0VNVGlBdkxlNkNGelNXSjJxLXdKWUxBNktCMW9Fb29NVklnMmE3ZlBoam1aYm9mdm1zWWFUamhSenU1YUJvLVk3S0puQUtwOE5qakJRaGNRYWNjbmhfTUktdGEzTU82c1B5dUtEdU1WT01NU19saWIwOTJpWld4dkt1VmFnVDI1clYtaVdQVk9ITXpaS3UzYk0zbl9fOUplOFJFSkk4RG1DbWdfcVAxMkFFV1R1b1hvdGpzOWtrbUphN1lPUkg3dmQ0Q2psYmJpUms0d3NqbHdIU1JnUWdxZTM2WHJYNWxuNEp5ampPLUl4Zm1Id1IxSEkyWXdVcmxndHpya2tOa2huYUlWclHSAcoCQVVfeXFMUEhrY2pFUXFWRVNJSC1PSUlGSWNjRHVUMmtFb0VQajR4WmxucUlqMHRMbjRMVXg4bi1teVFCVENZZjdiQ3NFTVRpQXZMZTZDRnpTV0oycS13SllMQTZLQjFvRW9vTVZJZzJhN2ZQaGptWmJvZnZtc1lhVGpoUnp1NWFCby1ZN0tKbkFLcDhOampCUWhjUWFjY25oX01JLXRhM01PNnNQeXVLRHVNVk9NTVNfbGliMDkyaVpXeHZLdVZhZ1QyNXJWLWlXUFZPSE16Wkt1M2JNM25fXzlKZThSRUpJOERtQ21nX3FQMTJBRVdUdW9Yb3Rqczlra21KYTdZT1JIN3ZkNENqbGJiaVJrNHdzamx3SFNSZ1FncWUzNlhyWDVsbjRKeWpqTy1JeGZtSHdSMUhJMll3VXJsZ3R6cmtrTmtobmFJVnJR?oc=5",
+      "eventId": "evt_57xl0w",
+      "eventTitle": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
+      "eventSources": [
+        "tmgm.com",
+        "AFR",
+        "The Sunday Guardian",
+        "Vietnam.vn",
+        "Wccftech"
+      ],
+      "sourceCount": 5,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNFZQZDdtNTJQMktBc3poRHE4cWxBb0s4NUZfSS1oVjlIR083ODdTaUJEX2J2XzNkYkJkYVJGcTd0dVJoYUxNdjNmWWxlSmoyclgybF9kb3FFTG5maDdIaF9RdG1MS2VGRE83TkFYR3ZQOE4xVUlmYkk3MUFPaWZRZjJDOTVCSTBtRlJET0hVUVoxbFpIYUx4Q0x0UnIwa2ZxOGw1ZzUxMnhXMV9OLWo4MDNXTHhWUmVWb3ZhbnVXc0lZbVQ0dGZQdmc5SUVrdENJNXh2VFpjQjZKZnNaNkozZg?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZnlOWkdCQ2V3QVdlUzZ5UUtGRU5hUlN4c29WMzdFNmlISi1aMmJRbnhfekFFYjJJRGtXOXpTSTh4UkN4VndlOEIxUHhfMU5CeUN6ZFNLb2FiN1VMV01ERkpjY052VG01X050WmlNb3hPN0ZzbF9BZkFVVFZOTjlvUUduUFFfbTNQWGs1YUJlTmoyblR0UW5ITE1Ed0JCaXExdGdoRkhORjhPV1dqekxOUUNLUk9XY3JtaU5DOVlGZndtZw?oc=5",
+        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRzE0ZEhKVXZqVDE2a0pfT3o0cl9NYTFQcEJnQ0lZaFlKY0pGR0JTbDMwem1sck5RS1d5Q1YxWk9DTDU2UGlpc08ya2tnb0E2cHNkSjdGWkI1cFZEOTNIVWJpeVBvdDZHQlc3ZHE2STBHUXM3WDFDNjVUOTh0YXMwZXgtYnZTZElVNGpWVV93bmswU0dQcnN3RjVSUG55cUNRaTU0Rk9zM1VZcFBMbXB1akpTTWRHTTljTHMxQXlzUldLRUVvbWphOGdBcTBFbVpCUUIxZTdJZHEyOUd0THdQQmhTLTUwQjFi?oc=5",
+        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNVlRPRDNBdkg4Q1ZSdV8wM0VBZHA1VWs1SzUtWU5UeVQySy1pOHkxWHVCWXpCa242cFJ6NHdGbXdjVGZwV09jel8zX185cmpKX2dscHVCMjBUYldwRkNLN2ttWDl6Z0RjNENid3hTeEd2X2lkcGfSAXZBVV95cUxQTVZUT0QzQXZIOENWUnVfMDNFQWRwNVVrNUs1LVlOVHlUMkstaTh5MVh1Qll6QmtuNnBSejR3Rm13Y1RmcFdPY3pfM19fOXJqSl9nbHB1QjIwVGJXcEZDSzdrbVg5emdEYzRDYnd4U3hHdl9pZHBn?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "Silver price forecast: XAG/USD rises to near $61.40 as US yields retreat, NFP eyed - tmgm.com",
+          "description": "Silver price forecast: XAG/USD rises to near $61.40 as US yields retreat, NFP eyed&nbsp;&nbsp; tmgm.com",
+          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNFZQZDdtNTJQMktBc3poRHE4cWxBb0s4NUZfSS1oVjlIR083ODdTaUJEX2J2XzNkYkJkYVJGcTd0dVJoYUxNdjNmWWxlSmoyclgybF9kb3FFTG5maDdIaF9RdG1MS2VGRE83TkFYR3ZQOE4xVUlmYkk3MUFPaWZRZjJDOTVCSTBtRlJET0hVUVoxbFpIYUx4Q0x0UnIwa2ZxOGw1ZzUxMnhXMV9OLWo4MDNXTHhWUmVWb3ZhbnVXc0lZbVQ0dGZQdmc5SUVrdENJNXh2VFpjQjZKZnNaNkozZg?oc=5",
+          "pubDate": "2026-10-02T08:35:17.000Z",
+          "source": "tmgm.com"
+        },
+        {
+          "title": "Rallying oil price could see gold price fall $1400 an ounce next year - AFR",
+          "description": "Rallying oil price could see gold price fall $1400 an ounce next year&nbsp;&nbsp; AFR",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZnlOWkdCQ2V3QVdlUzZ5UUtGRU5hUlN4c29WMzdFNmlISi1aMmJRbnhfekFFYjJJRGtXOXpTSTh4UkN4VndlOEIxUHhfMU5CeUN6ZFNLb2FiN1VMV01ERkpjY052VG01X050WmlNb3hPN0ZzbF9BZkFVVFZOTjlvUUduUFFfbTNQWGs1YUJlTmoyblR0UW5ITE1Ed0JCaXExdGdoRkhORjhPV1dqekxOUUNLUk9XY3JtaU5DOVlGZndtZw?oc=5",
+          "pubDate": "2026-10-02T06:30:00.000Z",
+          "source": "AFR"
+        },
+        {
+          "title": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
+          "description": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More&nbsp;&nbsp; The Sunday Guardian",
+          "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQSGtjakVRcVZFU0lILU9JSUZJY2NEdVQya0VvRVBqNHhabG5xSWowdExuNExVeDhuLW15UUJUQ1lmN2JDc0VNVGlBdkxlNkNGelNXSjJxLXdKWUxBNktCMW9Fb29NVklnMmE3ZlBoam1aYm9mdm1zWWFUamhSenU1YUJvLVk3S0puQUtwOE5qakJRaGNRYWNjbmhfTUktdGEzTU82c1B5dUtEdU1WT01NU19saWIwOTJpWld4dkt1VmFnVDI1clYtaVdQVk9ITXpaS3UzYk0zbl9fOUplOFJFSkk4RG1DbWdfcVAxMkFFV1R1b1hvdGpzOWtrbUphN1lPUkg3dmQ0Q2psYmJpUms0d3NqbHdIU1JnUWdxZTM2WHJYNWxuNEp5ampPLUl4Zm1Id1IxSEkyWXdVcmxndHpya2tOa2huYUlWclHSAcoCQVVfeXFMUEhrY2pFUXFWRVNJSC1PSUlGSWNjRHVUMmtFb0VQajR4WmxucUlqMHRMbjRMVXg4bi1teVFCVENZZjdiQ3NFTVRpQXZMZTZDRnpTV0oycS13SllMQTZLQjFvRW9vTVZJZzJhN2ZQaGptWmJvZnZtc1lhVGpoUnp1NWFCby1ZN0tKbkFLcDhOampCUWhjUWFjY25oX01JLXRhM01PNnNQeXVLRHVNVk9NTVNfbGliMDkyaVpXeHZLdVZhZ1QyNXJWLWlXUFZPSE16Wkt1M2JNM25fXzlKZThSRUpJOERtQ21nX3FQMTJBRVdUdW9Yb3Rqczlra21KYTdZT1JIN3ZkNENqbGJiaVJrNHdzamx3SFNSZ1FncWUzNlhyWDVsbjRKeWpqTy1JeGZtSHdSMUhJMll3VXJsZ3R6cmtrTmtobmFJVnJR?oc=5",
+          "pubDate": "2026-10-02T18:37:09.000Z",
+          "source": "The Sunday Guardian"
+        },
+        {
+          "title": "Gold prices today, October 3rd, are experiencing significant fluctuations and are difficult to predict domestically; could global gold prices fall below $4,000 in the fourth quarter? - Vietnam.vn",
+          "description": "Gold prices today, October 3rd, are experiencing significant fluctuations and are difficult to predict domestically; could global gold prices fall below $4,000 in the fourth quarter?&nbsp;&nbsp; Vietnam.vn",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRzE0ZEhKVXZqVDE2a0pfT3o0cl9NYTFQcEJnQ0lZaFlKY0pGR0JTbDMwem1sck5RS1d5Q1YxWk9DTDU2UGlpc08ya2tnb0E2cHNkSjdGWkI1cFZEOTNIVWJpeVBvdDZHQlc3ZHE2STBHUXM3WDFDNjVUOTh0YXMwZXgtYnZTZElVNGpWVV93bmswU0dQcnN3RjVSUG55cUNRaTU0Rk9zM1VZcFBMbXB1akpTTWRHTTljTHMxQXlzUldLRUVvbWphOGdBcTBFbVpCUUIxZTdJZHEyOUd0THdQQmhTLTUwQjFi?oc=5",
+          "pubDate": "2026-10-03T02:40:07.000Z",
+          "source": "Vietnam.vn"
+        },
+        {
+          "title": "Samsung Leveraging The Global DRAM Pricing Landscape With Its HBM4 Technology, Company Is Reportedly Squeezing Customers With A 3x Quote Compared To HBM3E - Wccftech",
+          "description": "Samsung Leveraging The Global DRAM Pricing Landscape With Its HBM4 Technology, Company Is Reportedly Squeezing Customers With A 3x Quote Compared To HBM3E&nbsp;&nbsp; Wccftech",
+          "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNVlRPRDNBdkg4Q1ZSdV8wM0VBZHA1VWs1SzUtWU5UeVQySy1pOHkxWHVCWXpCa242cFJ6NHdGbXdjVGZwV09jel8zX185cmpKX2dscHVCMjBUYldwRkNLN2ttWDl6Z0RjNENid3hTeEd2X2lkcGfSAXZBVV95cUxQTVZUT0QzQXZIOENWUnVfMDNFQWRwNVVrNUs1LVlOVHlUMkstaTh5MVh1Qll6QmtuNnBSejR3Rm13Y1RmcFdPY3pfM19fOXJqSl9nbHB1QjIwVGJXcEZDSzdrbVg5emdEYzRDYnd4U3hHdl9pZHBn?oc=5",
+          "pubDate": "2026-10-02T09:33:00.000Z",
+          "source": "Wccftech"
+        }
+      ]
+    },
+    {
+      "title_cn": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？ - FX168财经",
+      "summary_cn": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？&nbsp;&nbsp; FX168财经",
+      "category": "黄金",
+      "direction": "利好",
+      "impact": "极高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利好(60)+行情·利好(15·板块行情上涨)",
+      "sentiment": "利好",
+      "market_impact": "极高",
+      "affected_companies": [],
+      "reasoning": [
+        "价格信号·利好(+60分)",
+        "行情信号·利好(+15分·板块行情上涨)"
+      ],
+      "evidence": [
+        "涨超",
+        "涨超"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
       "title": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？ - FX168财经",
       "description": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？&nbsp;&nbsp; FX168财经",
       "pubDate": "2026-10-02T16:07:03.000Z",
@@ -40,44 +992,47 @@
         {
           "title": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？ - FX168财经",
           "description": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？&nbsp;&nbsp; FX168财经",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVJiWFB5Q21tX2doNWNZT0hoUTlQUXdvXzBQT29BSkdWWldyTkN6YlBHMGJRMHA5T042WjF5MXY0cDVfc2ZVR2FOSGZaWkpzYlhvY1p1RUdsTHZyZWdiVVpUSk5ZNnBWRUNmS3lfX3E0NUJIQmY2TmZiSHNpektRUTBLdk8?oc=5",
+          "guessedSector": "黄金",
           "pubDate": "2026-10-02T16:07:03.000Z",
-          "source": "FX168财经"
+          "source": "FX168财经",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVJiWFB5Q21tX2doNWNZT0hoUTlQUXdvXzBQT29BSkdWWldyTkN6YlBHMGJRMHA5T042WjF5MXY0cDVfc2ZVR2FOSGZaWkpzYlhvY1p1RUdsTHZyZWdiVVpUSk5ZNnBWRUNmS3lfX3E0NUJIQmY2TmZiSHNpektRUTBLdk8?oc=5",
+          "eventId": "evt_8bkxf9",
+          "sourceCount": 1,
+          "archived": true
         }
       ]
     },
     {
-      "title_cn": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求. - Pluang",
-      "summary_cn": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求.&nbsp;&nbsp; Pluang",
+      "title_cn": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求. - pluang.com",
+      "summary_cn": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求.&nbsp;&nbsp; pluang.com",
       "category": "半导体",
       "direction": "利空",
-      "impact": "中",
-      "certainty": "高",
+      "impact": "高",
+      "certainty": "中",
       "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:板块跌超3%；行情类判利空",
+      "notes": "AI研判:AI需求强",
       "sentiment": "利空",
-      "market_impact": "中",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "板块跌超3%",
-        "行情类判利空"
+        "AI需求强"
       ],
       "evidence": [
-        "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand."
+        "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand"
       ],
-      "confidence_score": 0.8,
-      "uncertainty": "",
-      "title": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求. - Pluang",
-      "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; Pluang",
+      "confidence_score": 0.7,
+      "uncertainty": "短期行情",
+      "title": "AMD 上涨s 3% amid 芯片 板块 rally; Arm 大涨s 8%, 英伟达 up 2% on strong AI-driven 需求. - pluang.com",
+      "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; pluang.com",
       "pubDate": "2026-10-02T16:05:19.000Z",
-      "source": "Pluang",
+      "source": "pluang.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
       "eventId": "evt_1at0s16",
-      "eventTitle": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - Pluang",
+      "eventTitle": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - pluang.com",
       "eventSources": [
-        "247wallst.com",
-        "Pluang"
+        "24/7 Wall St.",
+        "pluang.com"
       ],
       "sourceCount": 2,
       "relatedLinks": [
@@ -85,82 +1040,136 @@
       ],
       "eventMembers": [
         {
-          "title": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2% - 247wallst.com",
-          "description": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%&nbsp;&nbsp; 247wallst.com",
+          "title": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2% - 24/7 Wall St.",
+          "description": "AMD Climbs 3% as Chip Stocks Extend Their Run; Arm Jumps 8%, NVIDIA Rises 2%&nbsp;&nbsp; 24/7 Wall St.",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOUVMNnlzM3F6SjRudU9qR25WZnl1bklOSVozNWJJVVhZSTE4dUZDTDdxc3RyaDd1djVwYmdnV1dyS2hITnJ4REtGMmVJeC0xN1REMXVGOGp5dTU0RHNacERQYW1wMzZ0M0ZzZTNJWmZKeDl5b19PQmNzRjBCSS1wWVkwRFFNOFJJNlFfVUFBYlNJVnd1NndsZG5jcmFHYTJHVVl1QWcyTS1ueVo2bEJCZ1hKd2F2Zw?oc=5",
           "pubDate": "2026-10-02T15:47:00.000Z",
-          "source": "247wallst.com"
+          "source": "24/7 Wall St."
         },
         {
-          "title": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - Pluang",
-          "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; Pluang",
+          "title": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - pluang.com",
+          "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; pluang.com",
           "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
           "pubDate": "2026-10-02T16:05:19.000Z",
-          "source": "Pluang"
+          "source": "pluang.com"
         }
       ]
     },
     {
-      "title_cn": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - vietnam.vn",
-      "summary_cn": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; vietnam.vn",
-      "category": "黄金",
-      "direction": "利空",
-      "impact": "中",
+      "title_cn": "受存储芯片成本上涨影响，谷歌将Pixel 10a售价上调100美元",
+      "summary_cn": "Alphabet旗下谷歌公司将上市仅七个月的平价手机Pixel 10a售价上调100美元至599美元，反映持续的存储芯片短缺正在推高消费电子产品成本，甚至波及旧",
+      "category": "半导体",
+      "direction": "利好",
+      "impact": "高",
       "certainty": "高",
-      "time_window": "中期",
+      "time_window": "短期",
       "tickers": "—",
-      "notes": "AI研判:第四季度跌破4000美元",
-      "sentiment": "利空",
-      "market_impact": "中",
+      "notes": "评分引擎:行情·利好(15·板块行情上涨)+涨价·利好(25·供不应求/涨价,量价齐升利好)",
+      "sentiment": "利好",
+      "market_impact": "高",
       "affected_companies": [],
       "reasoning": [
-        "第四季度跌破4000美元"
+        "同意关键词预判"
       ],
       "evidence": [
-        "全球黄金价格是否会在第四季度跌破4000美元？"
+        "反映持续的存储芯片短缺正在推高消费电子产品成本"
       ],
       "confidence_score": 0.8,
-      "uncertainty": "时间点不确定",
-      "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - vietnam.vn",
-      "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; vietnam.vn",
-      "pubDate": "2026-10-02T16:15:00.000Z",
-      "source": "vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb3l3WFAtdnFxTWFPYThCRHRreEJhb2tZaHJSeHhITzNWbUFqQy1fUlV5Mm04YkN0TF82bWR6MFdUUEVBTmtESDQ5YnlDazlWUkhadjRiQ211ZHhuZ29qXzlvUUhKaDhfcVZrTFJBcnU2YTdGS3g2TUFncFI5Uk1ZcUJUSzQ3YTMwazZBTTNYWUF2RE9IRG5wYy1adnIwWkdLYjYzZGNwWDFnQWM3b2JnQU9hLVJHMVpxYXAtQkJudUl3UlA4aF9EX0JGLWpYcFIwTFRlTUhnTm5kUk0wSlEzcU8tSWJyMlk?oc=5",
-      "eventId": "evt_1x5vm0z",
-      "eventTitle": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - vietnam.vn",
+      "uncertainty": "",
+      "title": "受存储芯片成本上涨影响，谷歌将Pixel 10a售价上调100美元",
+      "description": "Alphabet旗下谷歌公司将上市仅七个月的平价手机Pixel 10a售价上调100美元至599美元，反映持续的存储芯片短缺正在推高消费电子产品成本，甚至波及旧款设备。本周三星也将多数Galaxy S26机型价格上调100美元，苹果9月推出的iPhone 18 Pro和Pro Max售价高于上一代，并上调部分旧款机型价格。谷歌今年8月推出Pixel 11系列时，各款机型售价也较上一代普遍上涨100美元，不过通过提高基础版存储容量部分抵消涨价影响。",
+      "pubDate": "2026-10-02T16:08:09.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173750",
+      "eventId": "evt_1rh8cp8",
+      "eventTitle": "受存储芯片成本上涨影响，谷歌将Pixel 10a售价上调100美元",
       "eventSources": [
-        "vietnam.vn"
+        "华尔街见闻"
       ],
       "sourceCount": 1,
       "relatedLinks": [],
       "eventMembers": [
         {
-          "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - vietnam.vn",
-          "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; vietnam.vn",
+          "title": "受存储芯片成本上涨影响，谷歌将Pixel 10a售价上调100美元",
+          "description": "Alphabet旗下谷歌公司将上市仅七个月的平价手机Pixel 10a售价上调100美元至599美元，反映持续的存储芯片短缺正在推高消费电子产品成本，甚至波及旧款设备。本周三星也将多数Galaxy S26机型价格上调100美元，苹果9月推出的iPhone 18 Pro和Pro Max售价高于上一代，并上调部分旧款机型价格。谷歌今年8月推出Pixel 11系列时，各款机型售价也较上一代普遍上涨100美元，不过通过提高基础版存储容量部分抵消涨价影响。",
+          "link": "https://wallstreetcn.com/articles/3173750",
+          "pubDate": "2026-10-02T16:08:09.000Z",
+          "source": "华尔街见闻",
+          "sourceType": "direct_api"
+        }
+      ]
+    },
+    {
+      "title_cn": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - Vietnam.vn",
+      "summary_cn": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; Vietnam.vn",
+      "category": "黄金",
+      "direction": "利空",
+      "impact": "高",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "评分引擎:价格·利空(60)",
+      "sentiment": "利空",
+      "market_impact": "高",
+      "affected_companies": [],
+      "reasoning": [
+        "价格信号·利空(-60分)"
+      ],
+      "evidence": [
+        "跌破"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "关键词引擎自动研判，未经验证",
+      "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - Vietnam.vn",
+      "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; Vietnam.vn",
+      "pubDate": "2026-10-02T16:15:00.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb3l3WFAtdnFxTWFPYThCRHRreEJhb2tZaHJSeHhITzNWbUFqQy1fUlV5Mm04YkN0TF82bWR6MFdUUEVBTmtESDQ5YnlDazlWUkhadjRiQ211ZHhuZ29qXzlvUUhKaDhfcVZrTFJBcnU2YTdGS3g2TUFncFI5Uk1ZcUJUSzQ3YTMwazZBTTNYWUF2RE9IRG5wYy1adnIwWkdLYjYzZGNwWDFnQWM3b2JnQU9hLVJHMVpxYXAtQkJudUl3UlA4aF9EX0JGLWpYcFIwTFRlTUhnTm5kUk0wSlEzcU8tSWJyMlk?oc=5",
+      "eventId": "evt_1x5vm0z",
+      "eventTitle": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - Vietnam.vn",
+      "eventSources": [
+        "Vietnam.vn"
+      ],
+      "sourceCount": 1,
+      "relatedLinks": [],
+      "eventMembers": [
+        {
+          "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - Vietnam.vn",
+          "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; Vietnam.vn",
           "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb3l3WFAtdnFxTWFPYThCRHRreEJhb2tZaHJSeHhITzNWbUFqQy1fUlV5Mm04YkN0TF82bWR6MFdUUEVBTmtESDQ5YnlDazlWUkhadjRiQ211ZHhuZ29qXzlvUUhKaDhfcVZrTFJBcnU2YTdGS3g2TUFncFI5Uk1ZcUJUSzQ3YTMwazZBTTNYWUF2RE9IRG5wYy1adnIwWkdLYjYzZGNwWDFnQWM3b2JnQU9hLVJHMVpxYXAtQkJudUl3UlA4aF9EX0JGLWpYcFIwTFRlTUhnTm5kUk0wSlEzcU8tSWJyMlk?oc=5",
           "pubDate": "2026-10-02T16:15:00.000Z",
-          "source": "vietnam.vn"
+          "source": "Vietnam.vn"
         }
       ]
     }
   ],
   "sectorMatrix": [
     {
+      "name": "半导体",
+      "shock": "强",
+      "direction": "利空",
+      "news_count": 11,
+      "summary": "半导体板块11条新闻，方向以利空为主",
+      "tickers": "中芯国际、北方华创、中微公司",
+      "notes": "；ETF校准(当日-3.2%)"
+    },
+    {
       "name": "黄金",
-      "shock": "中",
+      "shock": "强",
       "direction": "中性",
-      "news_count": 2,
-      "summary": "黄金板块2条新闻，方向以中性为主",
+      "news_count": 6,
+      "summary": "黄金板块6条新闻，方向以中性为主",
       "tickers": "紫金矿业、山东黄金、中金黄金",
       "notes": "；ETF校准(当日+1.4%)"
     },
     {
-      "name": "半导体",
+      "name": "创新药",
       "shock": "弱",
-      "direction": "利空",
-      "news_count": 1,
-      "summary": "半导体板块1条新闻，方向以利空为主",
-      "tickers": "中芯国际、北方华创、中微公司"
+      "direction": "利好",
+      "news_count": 2,
+      "summary": "创新药板块2条新闻，方向以利好为主。关注：药明康德获扎堆推荐 机构看好节后A股反弹；9月最后一个交易日，A股三大指数涨跌",
+      "tickers": "药明康德(603259)",
+      "notes": "；ETF校准(当日+3.4%)"
     },
     {
       "name": "光模块",
@@ -169,43 +1178,23 @@
       "news_count": 0,
       "summary": "",
       "tickers": ""
-    },
-    {
-      "name": "创新药",
-      "shock": "弱",
-      "direction": "利好",
-      "news_count": 0,
-      "summary": "",
-      "tickers": "",
-      "notes": "；ETF校准(当日+3.4%)"
     }
   ],
   "keyPoints": [
-    "【半导体】AMD涨3%、Arm涨8%、NVIDIA涨2%因AI需求",
-    "【黄金】非农后狂泻逾100美元波动",
-    "【黄金】第四季度跌破4000美元风险高"
+    "【半导体】谷歌TPU芯片卫星发射测试太空环境，AI基础设施扩展",
+    "【半导体】野村上调阿里AI云业务信心，但ETF跌3.2%",
+    "【半导体】谷歌Pixel 10a售价上调100美元，三星Galaxy S26也涨价100美元"
   ],
-  "marketSummary": "半导体板块ETF平均跌3.2%，但AI相关个股逆势上涨；黄金ETF微涨1.4%，但价格波动剧烈，下行风险显现。",
+  "marketSummary": "AI芯片应用拓展与市场情绪分化，个股上涨被板块下跌覆盖。；半导体存储芯片短缺导致消费电子成本上升，多家公司手机涨价。",
   "isAi": true,
   "sourceHealth": {
-    "level": "failed",
-    "issues": [
-      {
-        "code": "low-volume",
-        "level": "failed",
-        "message": "当日仅 3 条新闻(下限 10)"
-      },
-      {
-        "code": "api-empty-source",
-        "level": "degraded",
-        "message": "API 源无数据: 财联社"
-      }
-    ],
-    "summary": "抓取异常:当日仅 3 条新闻(下限 10);API 源无数据: 财联社",
+    "level": "ok",
+    "issues": [],
+    "summary": "抓取正常(原始 857 条 / 当日 19 条 / 精选 19 条)",
     "counts": {
-      "fetched": 862,
-      "kept": 3,
-      "analyzed": 3,
+      "fetched": 857,
+      "kept": 19,
+      "analyzed": 19,
       "rssEnabled": true,
       "rssOk": 43,
       "rssTotal": 43,
@@ -215,6 +1204,186 @@
   },
   "fullNews": [
     {
+      "title": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics - IndexBox",
+      "description": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics&nbsp;&nbsp; IndexBox",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-02T21:00:40.000Z",
+      "source": "IndexBox",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQ29MQzhQbFprcVM5Z1dFWEdub2dRZ3dyZkhLeXpSWTlmOXVpYVYxR29vblJmS2tCQjl5NjRoYmY3bGZxN0ZibTFWXzFkUk1mRzhPNDdQLS1Dd1pJX05XUl83VkxPZGNUNEZtWHpsTDUxOGlpRzVwVHVDX1JlV0U2NnYyYnZtX1ZHT1VOQzVkcjl6cFdkSGdkdUNEXzJqSjdCT3lIdjYzdw?oc=5",
+      "eventId": "evt_1xe71zn",
+      "sourceCount": 1
+    },
+    {
+      "title": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook - Invezz",
+      "description": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook&nbsp;&nbsp; Invezz",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T18:23:59.000Z",
+      "source": "Invezz",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2hBVFJBd1YyanFfSldLVHJ4eThnYzVaY3V5a2hIRDR6UnBsdUV0LVpXTnhaTnpjY2tFUEhwRmMycmpKd1BGNlZUWHhScUlIek9lNzNUYmM3WEtKUDNMdDZaWmZlaVFId1hrQm9Ebml5amFUMm9SY3hRUkVaVUU0c2ZvWmpVTjA0Y0ZNTV9QRnZ4ZEh5eXV5QXB0WnJOdk9sLXZhVEw3N1pqVTlIb1FFcFFXcGVIVUZ0?oc=5",
+      "eventId": "evt_2ozypq",
+      "sourceCount": 1
+    },
+    {
+      "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - Vietnam.vn",
+      "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; Vietnam.vn",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-02T16:15:00.000Z",
+      "source": "Vietnam.vn",
+      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb3l3WFAtdnFxTWFPYThCRHRreEJhb2tZaHJSeHhITzNWbUFqQy1fUlV5Mm04YkN0TF82bWR6MFdUUEVBTmtESDQ5YnlDazlWUkhadjRiQ211ZHhuZ29qXzlvUUhKaDhfcVZrTFJBcnU2YTdGS3g2TUFncFI5Uk1ZcUJUSzQ3YTMwazZBTTNYWUF2RE9IRG5wYy1adnIwWkdLYjYzZGNwWDFnQWM3b2JnQU9hLVJHMVpxYXAtQkJudUl3UlA4aF9EX0JGLWpYcFIwTFRlTUhnTm5kUk0wSlEzcU8tSWJyMlk?oc=5",
+      "eventId": "evt_1x5vm0z",
+      "sourceCount": 1
+    },
+    {
+      "title": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - pluang.com",
+      "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; pluang.com",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T16:05:19.000Z",
+      "source": "pluang.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
+      "eventId": "evt_1at0s16",
+      "sourceCount": 2
+    },
+    {
+      "title": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
+      "description": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More&nbsp;&nbsp; The Sunday Guardian",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-02T18:37:09.000Z",
+      "source": "The Sunday Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQSGtjakVRcVZFU0lILU9JSUZJY2NEdVQya0VvRVBqNHhabG5xSWowdExuNExVeDhuLW15UUJUQ1lmN2JDc0VNVGlBdkxlNkNGelNXSjJxLXdKWUxBNktCMW9Fb29NVklnMmE3ZlBoam1aYm9mdm1zWWFUamhSenU1YUJvLVk3S0puQUtwOE5qakJRaGNRYWNjbmhfTUktdGEzTU82c1B5dUtEdU1WT01NU19saWIwOTJpWld4dkt1VmFnVDI1clYtaVdQVk9ITXpaS3UzYk0zbl9fOUplOFJFSkk4RG1DbWdfcVAxMkFFV1R1b1hvdGpzOWtrbUphN1lPUkg3dmQ0Q2psYmJpUms0d3NqbHdIU1JnUWdxZTM2WHJYNWxuNEp5ampPLUl4Zm1Id1IxSEkyWXdVcmxndHpya2tOa2huYUlWclHSAcoCQVVfeXFMUEhrY2pFUXFWRVNJSC1PSUlGSWNjRHVUMmtFb0VQajR4WmxucUlqMHRMbjRMVXg4bi1teVFCVENZZjdiQ3NFTVRpQXZMZTZDRnpTV0oycS13SllMQTZLQjFvRW9vTVZJZzJhN2ZQaGptWmJvZnZtc1lhVGpoUnp1NWFCby1ZN0tKbkFLcDhOampCUWhjUWFjY25oX01JLXRhM01PNnNQeXVLRHVNVk9NTVNfbGliMDkyaVpXeHZLdVZhZ1QyNXJWLWlXUFZPSE16Wkt1M2JNM25fXzlKZThSRUpJOERtQ21nX3FQMTJBRVdUdW9Yb3Rqczlra21KYTdZT1JIN3ZkNENqbGJiaVJrNHdzamx3SFNSZ1FncWUzNlhyWDVsbjRKeWpqTy1JeGZtSHdSMUhJMll3VXJsZ3R6cmtrTmtobmFJVnJR?oc=5",
+      "eventId": "evt_57xl0w",
+      "sourceCount": 5
+    },
+    {
+      "title": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片） - 财富号",
+      "description": "AI算力驱动的半导体五大热门材料，核心企业梳理（磷化铟、ABF积层膜、碳化硅、高端光刻胶、12英寸大硅片）&nbsp;&nbsp; 财富号",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T23:11:00.000Z",
+      "source": "财富号",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOTm5BNV9NRmZyR1ZNaDRNbG5Lb0hxLUx2SzlXVGVlbHdhVWk0d3pidUw5RTlwTmQ3QVdfU2VzZHVTM2ZxV2NmWEEzcUFhU2lpUTlSeUdtcGJUSDREVF9zdHJMbDB1OTloQ2RuRUtjN2JwTURzQ3I0bVI1YzM4QlBuNzUtMFhPdFpEaENNWkZtSWt5SHYzNHBWbzhWM2dmLUZVeDdhc0JFOThCYlJmODJkV09tVjFGaExReU1TTjJqWkNhbFZfdmhubkhidnpYdVpUSUxjLTlpV0VEWnFJeVgwXzBPZzhxckpTMDhvZGg3U1N5Q19oZnYzWUJGbkJUeTg?oc=5",
+      "eventId": "evt_1nn4uyo",
+      "sourceCount": 1
+    },
+    {
+      "title": "谷歌搭载AI芯片测试卫星发射升空",
+      "description": "【谷歌搭载AI芯片测试卫星发射升空】财联社10月3日电，美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。这颗原型卫星搭载4枚谷歌TPU芯片，由美国太空探索技术公司的“运输者-18”任务“拼车”发射升空。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。\n\n谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。谷歌介绍，未来几周将收集卫星在轨运行数据，重点评估TPU芯片在太空飞行过程中对物理应力以及在太空环境中对辐射和极端温度的承受能力，并据",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-03T03:56:01.000Z",
+      "source": "财联社",
+      "link": "https://www.cls.cn/detail/2497499",
+      "eventId": "evt_1u0ql7t",
+      "sourceCount": 1
+    },
+    {
+      "title": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+      "description": "【据悉台积电或与马斯克Terafab晶圆厂合作】金十数据10月3日讯，10月3日，有独立科技记者爆料称，台积电正在探索与马斯克旗下Terafab晶圆厂开展合作。Terafab此前已与英特尔达成合作。近期有消息称，台积电正考虑在美国设立第二座园区，而Terafab所在的得州被认为是最可能的选址之一。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-03T03:27:51.000Z",
+      "source": "金十数据",
+      "link": "",
+      "eventId": "evt_7sf0fo",
+      "sourceCount": 1
+    },
+    {
+      "title": "药明康德获扎堆推荐 机构看好节后A股反弹",
+      "description": "9月最后一个交易日，A股三大指数涨跌不一，截至收盘，上证指数涨0.31%，深证成指跌0.11%，创业板指跌0.23%；北证50涨0.7%。沪深两市成交额约14380.18亿元，较前一个交易日放量约288.21亿元。全市场2567只股票上涨、2824只股票下跌，其中56只涨停、12只跌停。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-10-03T00:01:13.000Z",
+      "source": "东方财富",
+      "link": "http://stock.eastmoney.com/news/1405,202610033888455177.html",
+      "eventId": "evt_35f6lo",
+      "sourceCount": 1
+    },
+    {
+      "title": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-03T03:21:59.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html",
+      "eventId": "evt_1bn8bmu",
+      "sourceCount": 1
+    },
+    {
+      "title": "【国际金价非农日冲高回落最终跌超0.9%，本周跌3.4%】周五（10月2日）纽约尾盘，现货黄金跌0.96%，报4137.70美元/盎司，北京时间20：30发布美国非农就业报告时从4180美元一线拉升至4226.45美元刷新日高，随后持续回吐涨幅，23:00以来低位持稳——窄幅震荡于4140美元附近，本周累计下跌3.40%，9月28日显著下跌、当天22:30跌至4111.01美元，期内随后持续低位震荡COMEX黄金期货本周累跌3.58%，报4166.60美元/盎司。现货白银跌1.03%，报60.3664美元/盎司，本周累跌6.11%COMEX白银期货本周累跌6.42%，报60.640美元/盎司。COMEX铜期货涨0.66%，报6.5810美元/磅，本周累跌2.75%，整体持续走低现货铂金跌1.52%，本周累跌4.56%；美元/盎司；现货钯金跌1.16%，本周累跌7.79%。本周，在美股时段交易的费城金银指数累跌5.63%，报361.89点。在全球市场全天交易的纽约证交所ARCA金矿开采商指数累跌5.44%，报2513.24点。在美股时段交易的原材料指数累跌2.87%，金属与矿业指数跌0.89%。State Street金属与矿业ETF收涨1.39%，报105.74美元，本周累跌2.39%，连续第六周下跌，日线图上——8月27日结束交易以来累跌13.93%。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-02T21:03:39.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4267620.d.html",
+      "eventId": "evt_u6dlej",
+      "sourceCount": 2
+    },
+    {
+      "title": "【谷歌搭载AI芯片测试卫星发射升空】美国谷歌公司一颗搭载谷歌张量处理单元（TPU）芯片的原型卫星日前发射升空，以测试该芯片在太空环境中的运行性能，研究未来能否在太空部署人工智能（AI）基础设施。谷歌方面表示，其团队已与卫星建立通信，卫星目前运行正常。谷歌表示，此次发射是一项长期研究的一部分，旨在探索未来能否在太空部署可扩展的机器学习基础设施。（新华社）",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-03T02:53:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4039678.d.html",
+      "eventId": "evt_17mgykv",
+      "sourceCount": 1
+    },
+    {
+      "title": "【个人投资者在ETF投资中的占比仍在持续扩大 三类主题ETF受青睐】 个人投资者在ETF投资中的占比仍在持续扩大。根据统计，9月以来新上市的48只ETF中，个人投资者的份额占比超过了80%，其中有19只ETF的个人投资者份额占比超过90%。从投资类型看，主题和行业ETF是个人投资者最为青睐的产品。以9月上市的48只ETF为例，37只上市份额在3亿份以下，上市份额超过10亿份的有两只产品。从投资领域来看，新上市的ETF主要集中在以下三个部分：一是创业板算力ETF；二是科创芯片、科创材料、云计算等科技成长类主题ETF；三是红利、银行、现金流等稳健类品种。",
+      "description": "",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-03T01:24:18.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0891150.d.html",
+      "eventId": "evt_sdpb22",
+      "sourceCount": 1
+    },
+    {
+      "title": "全球最大黄金ETF--SPDR Gold Trust持仓较上日减少0.855吨，当前持仓量为1055.696吨。全球最大白银ETF--iShares Silver Trust持仓较上日减少6.73吨，当前持仓量为15345.27吨。",
+      "description": "",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-03T00:15:38.000Z",
+      "source": "新浪财经",
+      "link": "https://finance.sina.cn/7x24/2026-10-03/detail-initwzsm0851253.d.html",
+      "eventId": "evt_8thmjq",
+      "sourceCount": 1
+    },
+    {
+      "title": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "description": "美国食品药品管理局（FDA）结束与冰山生菜相关的环孢子菌调查。",
+      "guessedSector": "创新药",
+      "pubDate": "2026-10-02T18:59:48.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173790",
+      "eventId": "evt_zt2v9h",
+      "sourceCount": 2
+    },
+    {
+      "title": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
+      "description": "野村上调对阿里巴巴2027财年经调整净利润预估7%，看好其电商业务盈利前景并重燃对该公司人工智能（AI）云的信心。\n\n“与阿里巴巴的交流强化了我们的观点，即管理层已进一步聚焦于AI云，而这个业务已开始成为推动营收增长的重要动力，同时他们也更加重视其它业务的盈利能力来保证AI投资的现金流，” 分析师Jialong Shi在一份研报中写道。\n\n他还说，在中国人工智能生态系统中，很少有企业能在AI价值链的几乎所有关键环节，包括芯片、基础设施、模型和应用上都拥有如此强大的地位。\n\n野村维持阿里巴巴目标价在178美元和“买入”评级。\n\n周五阿里巴巴在纽约下跌1.5%，收报105.85美元。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T21:15:15.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173783",
+      "eventId": "evt_123ctgt",
+      "sourceCount": 1
+    },
+    {
+      "title": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "description": "周五（10月2日），美股行业ETF普遍上涨，半导体ETF收涨2.07%，全球科技股指数ETF、区域银行ETF、可选消费ETF、银行业ETF、科技行业ETF至多涨1.42%，网络股指数ETF涨0.84%，能源业ETF涨0.19%，医疗业ETF、生物科技指数ETF则至多收跌0.33%。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T20:17:09.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173814",
+      "eventId": "evt_1ov9ncq",
+      "sourceCount": 1
+    },
+    {
+      "title": "受存储芯片成本上涨影响，谷歌将Pixel 10a售价上调100美元",
+      "description": "Alphabet旗下谷歌公司将上市仅七个月的平价手机Pixel 10a售价上调100美元至599美元，反映持续的存储芯片短缺正在推高消费电子产品成本，甚至波及旧款设备。本周三星也将多数Galaxy S26机型价格上调100美元，苹果9月推出的iPhone 18 Pro和Pro Max售价高于上一代，并上调部分旧款机型价格。谷歌今年8月推出Pixel 11系列时，各款机型售价也较上一代普遍上涨100美元，不过通过提高基础版存储容量部分抵消涨价影响。",
+      "guessedSector": "半导体",
+      "pubDate": "2026-10-02T16:08:09.000Z",
+      "source": "华尔街见闻",
+      "link": "https://wallstreetcn.com/articles/3173750",
+      "eventId": "evt_1rh8cp8",
+      "sourceCount": 1
+    },
+    {
       "title": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？ - FX168财经",
       "description": "黄金突然坐上“过山车”！非农后涨超40美元又狂泻逾100美元，发生了什么？&nbsp;&nbsp; FX168财经",
       "guessedSector": "黄金",
@@ -223,26 +1392,6 @@
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTVJiWFB5Q21tX2doNWNZT0hoUTlQUXdvXzBQT29BSkdWWldyTkN6YlBHMGJRMHA5T042WjF5MXY0cDVfc2ZVR2FOSGZaWkpzYlhvY1p1RUdsTHZyZWdiVVpUSk5ZNnBWRUNmS3lfX3E0NUJIQmY2TmZiSHNpektRUTBLdk8?oc=5",
       "eventId": "evt_8bkxf9",
       "sourceCount": 1
-    },
-    {
-      "title": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？ - vietnam.vn",
-      "description": "截至2026年10月3日，黄金价格波动剧烈，国内价格难以预测；全球黄金价格是否会在第四季度跌破4000美元？&nbsp;&nbsp; vietnam.vn",
-      "guessedSector": "黄金",
-      "pubDate": "2026-10-02T16:15:00.000Z",
-      "source": "vietnam.vn",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNb3l3WFAtdnFxTWFPYThCRHRreEJhb2tZaHJSeHhITzNWbUFqQy1fUlV5Mm04YkN0TF82bWR6MFdUUEVBTmtESDQ5YnlDazlWUkhadjRiQ211ZHhuZ29qXzlvUUhKaDhfcVZrTFJBcnU2YTdGS3g2TUFncFI5Uk1ZcUJUSzQ3YTMwazZBTTNYWUF2RE9IRG5wYy1adnIwWkdLYjYzZGNwWDFnQWM3b2JnQU9hLVJHMVpxYXAtQkJudUl3UlA4aF9EX0JGLWpYcFIwTFRlTUhnTm5kUk0wSlEzcU8tSWJyMlk?oc=5",
-      "eventId": "evt_1x5vm0z",
-      "sourceCount": 1
-    },
-    {
-      "title": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - Pluang",
-      "description": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand.&nbsp;&nbsp; Pluang",
-      "guessedSector": "半导体",
-      "pubDate": "2026-10-02T16:05:19.000Z",
-      "source": "Pluang",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
-      "eventId": "evt_1at0s16",
-      "sourceCount": 2
     }
   ],
   "etfData": [
@@ -550,7 +1699,10 @@
       "datasets": [
         {
           "data": [
-            3
+            6,
+            4,
+            7,
+            2
           ],
           "backgroundColor": [
             "#16a34a",
@@ -562,7 +1714,10 @@
         }
       ],
       "labels": [
-        "利空"
+        "利好",
+        "利空",
+        "中性",
+        "分化"
       ],
       "hasData": true
     },
@@ -582,9 +1737,9 @@
       "matrix": {
         "半导体": {
           "极高": 0,
-          "高": 0,
-          "中": 1,
-          "低": 0
+          "高": 4,
+          "中": 4,
+          "低": 3
         },
         "光模块": {
           "极高": 0,
@@ -595,14 +1750,14 @@
         "创新药": {
           "极高": 0,
           "高": 0,
-          "中": 0,
-          "低": 0
+          "中": 1,
+          "低": 1
         },
         "黄金": {
-          "极高": 0,
+          "极高": 2,
           "高": 1,
-          "中": 1,
-          "低": 0
+          "中": 0,
+          "低": 3
         }
       },
       "hasData": true
@@ -616,14 +1771,44 @@
       ],
       "datasets": [
         {
-          "label": "利空",
+          "label": "利好",
           "data": [
-            1,
+            4,
             0,
             0,
             2
           ],
+          "backgroundColor": "#16a34a"
+        },
+        {
+          "label": "利空",
+          "data": [
+            3,
+            0,
+            0,
+            1
+          ],
           "backgroundColor": "#dc2626"
+        },
+        {
+          "label": "中性",
+          "data": [
+            3,
+            0,
+            1,
+            3
+          ],
+          "backgroundColor": "#9ca0af"
+        },
+        {
+          "label": "分化",
+          "data": [
+            1,
+            0,
+            1,
+            0
+          ],
+          "backgroundColor": "#ea580c"
         }
       ],
       "hasData": true
@@ -631,17 +1816,20 @@
     "timeWindow": {
       "labels": [
         "短期",
-        "中期"
+        "中期",
+        "长期"
       ],
       "datasets": [
         {
           "data": [
-            2,
-            1
+            9,
+            8,
+            2
           ],
           "backgroundColor": [
             "#2563eb",
-            "#ea580c"
+            "#ea580c",
+            "#16a34a"
           ],
           "borderWidth": 0
         }
