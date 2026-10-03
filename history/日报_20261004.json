@@ -1,0 +1,658 @@
+{
+  "date": "20261004",
+  "displayDate": "2026-10-04",
+  "generatedAt": "2026-10-03T17:40:22.663Z",
+  "analyzed": [
+    {
+      "title_cn": "黄金 价格 October 3, 2026: 黄金 Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh - The Trumpet Newspaper Nigeria",
+      "summary_cn": "黄金 价格 October 3, 2026: 黄金 Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh&nbsp;&nbsp; The Trumpet Newspaper Nigeria",
+      "category": "黄金",
+      "direction": "中性",
+      "impact": "低",
+      "certainty": "高",
+      "time_window": "短期",
+      "tickers": "—",
+      "notes": "AI研判:同意关键词预判；行情类中性",
+      "sentiment": "中性",
+      "market_impact": "低",
+      "affected_companies": [],
+      "reasoning": [
+        "同意关键词预判",
+        "行情类中性"
+      ],
+      "evidence": [
+        "Gold Hovers Near $4,140"
+      ],
+      "confidence_score": 0.8,
+      "uncertainty": "",
+      "title": "黄金 价格 October 3, 2026: 黄金 Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh - The Trumpet Newspaper Nigeria",
+      "description": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh&nbsp;&nbsp; The Trumpet Newspaper Nigeria",
+      "pubDate": "2026-10-03T16:50:58.000Z",
+      "source": "The Trumpet Newspaper Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGk4NksxeHJ4Y0xKdVRzMWoxOGZ0RUFzbF92MzVzMlY4NzExbE5kc1NDazdvZXVLZV9tVjFaSFRKdDk3UWtmTHJnTkVWN2w5VUhkWElOY1FxdXA3NjdDTmZtbXFqa1BuME5Kek9uTnJLRFVDM0xJYkRWUHNZSDNqQS1fR2JOZWJkR2JxaHkwTlRGeVhBMTY1a3diYUZGanVFU0FtY0ZZdnNSYTFJb0dpdFp6TGF4blNwWmc?oc=5",
+      "eventId": "evt_15b46w5",
+      "eventTitle": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh - The Trumpet Newspaper Nigeria",
+      "eventSources": [
+        "TradingView",
+        "The Motley Fool",
+        "benzinga.com",
+        "businesstoday.in",
+        "Aktualita.co",
+        "cleartax.in",
+        "LatestLY",
+        "The Economic Times",
+        "AD HOC NEWS",
+        "The Trumpet Newspaper Nigeria",
+        "Pakistan Observer",
+        "EEJournal"
+      ],
+      "sourceCount": 12,
+      "relatedLinks": [
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzlrSFR6dW1iY1loZi1GMmJ2NV9MZ3VEOTBfRWJiODhPek52OGpSWldWejQtRGF4V1F4eGktWHVrNVhFVmh4TEpvVmg3T05PeDhwY250dlZad0Q5dnF3UDJIbFowWmFlSkEza1UyZXprOGhMamJkX1dGejVTdTV0VzdfQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwFBVV95cUxOazlxeU5JVWlQLXdQRGdQUm5pYXFGaGpNWHNiX1VYbVhFR1RSVkY4Uk55WHdzMTRHbXQyNlRrVkE3UFJRYVA2ZjNQWDkyRGVhREltMndiMnhUeDVnQjRVbnhfQ3dPeklkSmhSUmRGeE9KZmhnb0xkWlJZS3d6ZkViYktVMmhMSEk2TUp0ckVnaU5jVy1LUWlXQnNhWm1jSWlMUC1oRkE5VUx4V05kRUlneS0yZGgtWTQ?oc=5",
+        "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdk9rTVRlT0Z6azI5TUlQZHZZbHRjR0Rmdko0YzB6c2FuY2hMQWpKZWhsSExCdFNyXzQzSUtSY1ZrOE5yMUd1UjliRXNGRU5EWGRVTnRydjVZRjVXMFB4VHVNWGhFSWdvR0dJYlFkVVB5aThES3JHZFhMQ1ptd1FnT3EtOERkV1A2TnQyb3dibmt2a1pJdGRQWjRVdHR6TXJBNXdoTE9ObU1lcTNXclN4S00tVFNGMGw0MGYyZTlLcnhUMHZ5VWc?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uN0hKSXRHZGo3S1pxTWZIdVAzWmhUVG5OU1lCdDV1cG0wN1ZsNXpXWkJnTEt4WUlDTGpZZHItV2I2bnNPX2V0UDk2Zzd3T18zcWc4RHRIYWxoc20yRXYxa2ZNMVVCTkRqZDQ3LW5QdFc?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ09zeFhhUWRLVHlib0tGN2xwTFpHWURpdlJBMGxKR3p0dElBbVFfdXV5aVJpSXNNVkUyZU44SnRxRHBYeUZGVS1KSjRvdzZ1VGNKT1FqaXhJcVZMM2M4QW5wd3Z1YlNycnc3RjROUjVhc3Q5T0Z5QnpYV1FzRTZNMzFMM0RWSTFOWFFLZDg1UXplQ2puRGdhTjFac2g?oc=5",
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tek83MzJBT3hFeF9ZMHMtX3FDOTBOZUdXaHlBTnJ0VExSZVBCR3VUMnF6NnFxdnpfSGFYSjJrZ0hyeG5WVEVURmdhVms5aUk?oc=5",
+        "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rZmJHVWZQai1TOVJWcTN0cVU3OC1wNy1Jazd2Y240R3NpUlA1RGdacHc2QXBzNW45STdXNXBrZEFmdC1PbHJrQjRWMHc4UTFtNkU2VU0xdEdZTC1ndnlDanBjcF9XOHEwU3YzcFdWVFNJWGxEeXFmLQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oRkJ2eTZWUnlKRzhRbWVkOTNMNWtxZVFsZ0w4cEs4a2U4ancwS0h3Z21GVC1fLVNqNVRuUWRaTDZLaTZ2bV9CQXZrMzV2eWYxWWc?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHRtVHkzN0x0LU9BSU9Ga2JRWnNWUkhYcHotLUVKb2E1RmE5Z0ZqMnBGUFBhYXVubzd3VElWLTZEeG1oZG1SRkU0a1d6elpZNzh3NkNBb1J2V0lhR0VTek8zN2htbUNOWE55MmVkWGxoSEY3dXFGMzNObEp6eXR6SUdzSkY?oc=5",
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZoSGM3aWZJMGQ5bUszdF85aUluXzduQ0I5d1hKOGVWcFByVmplZ2JXV2h5M1F2TWhOcW5YOVZGNHp1amVFUFVOOGZNUldYTTUtemMtWEEwcXIzMjRSYVlNOHNIT0FMdGZYdk5RRG5XTjRjRW9MTGRWQURoWFZQS05ZWFFTeUpqRlJEQnF2UnBJSDZFQ05qdjFvdUxnSWpHVjk0bWNlTEVneWRJUVlMUDNOVkFtVmRQNlJXbFRBc2lFQnl0ODYyaWF6Q0Y4UVAxNl9jZGtHZk0xN0xNdWU0QWZR0gHnAUFVX3lxTE52ZlBNY1lPZS00NFlvZHRpei1ZTk9BX1hsak16UnMxcFowQkttMFhXUFdNejRUUE91SWs0ZUlFNlUxNFpVWi10dnpxLVQ1dUEyT3B1Z3ZnejJOT0IwNnVUR0xNUHA2a1ZFM202MUpEMEhuRWdSMF94T1diN3p2bEVkVDVxN3l6ajZoUVRoOTFwV3FtR3Bfb0d1TWxMRFJVaDUxVHRGR1h6UVpjUWJhN3FvOFZETWwtbEhsUEdLYkJuTnRMRDdhNFBBUlQtMFNnTHdCNXg2eklzZFhfMlk3eDZsOTBud2ZqVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSjdQZE5paXBqdEgtbFM0MDhFVWhtUHNlZkZQa1hCdGNCaG0xdWJUZlp6cm5PYXNwUUp2ckNNOFBCbm5CbkVUUjJ1TXcwcWs1aDlMeU1MUWc4R0pkWVlPSTdXU0FEZHphbTdpWWJKWnRZZ1hQM2JvLXFRWlc0UzZoS0U0UnRzdFBEOWpDOC1VaGkwNmx5dnRrNllmVnVramNnRk1Wc25ESHI1ZkpoaWtwVGVFam0xN1Nlc0o0bDV6cl9yWHJqREx1OXJxREtYSE9XT291dlhqNWN1MGVLMmxSU2RDRU1CU3B1OFU5TlRGSWsxNkZqUUhabVh6T2VBcFJIaTExUVctU2tINzZjaFFEeFlkcnRLMkhPdVgyczdDZnJCaWtMVEZoaHBoaEJWUDhwVVdubUY5a9IBvAJBVV95cUxNNHZhbTV1MGhMZ0tmQi1ZUXZtdjNYRDRoR2J3WVFqWFViT2xXSnRwTGY0ck9nNVpYazM1VVhrVGlMRGRsSFh3T0dLb3labUFsTC1mVXdZajdOc3kzNlY1Z2U1TklxU0U0ODViOFBMUmllRWIzTkdsYWNRQkpLV1ZVdE0wUGN5NFpSbl8yT3lUbUxKUDgtc3RVNUJwWF9hREpYdm1DS1RmQ0JQQktGMnNmd1dEeW82cWpFTEtwNlF2ck1FNU5yRVBYSDhEV1E2NW5wTDBYZTFyWWFZUjJWaVVuVm5PNVl6T1huLWwwZEZGN3pWVXFKSXllTUs5bThHSlFmUV96YXNlQVpmYkFBUHkzZkVlaDRtZ1ppNGlsNjJ0ZFI2OEhScy1rdk9MZ1VZLTZiOGJ1U2drZnN3TURO?oc=5",
+        "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjBNbjEzSjNCRThlWmlSeUg2UDRNRWFYZ0JST1JDYkNaMEJoQWFsTFMwY0k4aVpqbVBYUTU5bXhKV09HOFN5b2ItZ1NYQ0RQYnQ1dHc1bkw1bWVieDhJTndQcjZaRWpZb0wteE1VdlBvbUlaY09sb2t4T2RLUHJxTV9Ic0trX2t6NExoZnowMHRpWUNXTGp5SzREMFhxNHMtOEFNRnlYQW50V2wtcE5mSnduRVNzRGZpdms5UW9wVmdKbWM?oc=5",
+        "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcjRZcHhqRmllRTV1bWthVEhXXzlxc09FQml0OVphRllYUlpnSWJZWlNEcFJsRm9kVXpzQl93SmNKUC0tM0JLQVFZSk1GRlpQd1Bsa0dYaV9BdXVNa2p5bjJGZ3BqamYtOF9JQVdxczdXRHNZdTVkeEktUzF5WDFvSmdHc3c4MkFjRWJYU0c2RVB3bm1wWDNaVDAtZjdSdDZaNThGSmxPeGFkRkxXUGFkdXcydTZ3YTNOQ3JwMmdhc3dwejI1azJxaEdYejdkV2NkT0ZfbUxmN3c?oc=5",
+        "https://news.google.com/rss/articles/CBMingFBVV95cUxOdlZOSGtseFh5X1NrLV9MUWpPdDFBRUhKN1lxVV9wNXJncURvVWJxOENUQl9ISFA0MkJfRzFaUHE3bkZqTzNPa3RMSmd0bFJzU1NFNDdrb3cyMWlmRlZ5ZDdvNDhFcTczcHp1SHd5cDBhREVBNU4zRzFBQ2JIU1N0YWJPYklIZWdDUmwzMU9ONVl6bC1ocm9ENjVwU1Rwdw?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ3RIV1c3VlRrME5iTkxXbG9WaDRSeUFuM3hFb2VKYm00OE40cjQ5MHUtZlJPWjVKelNPWlF1V0NNa1Z0T1lJdGh5N2JiS0M2Q1I4WjBQUDNJa0J3N3ZxSGNxZUZnWjZDcFdnWUlsVTJXUl9hWVY5bWN3QmtHWnlUcmRJdEpwRHdMazM4bUdLSG8ySk4tX1dYcFNfWEFLaFdaM3RwbFJnUUZydURZZFRVTzd4WkM4em5VNHk2VXRYcng1YlgyelZBdEFsT0Q?oc=5"
+      ],
+      "eventMembers": [
+        {
+          "title": "EEX THE EGSI Natural Gas Day Futures (Oct 2026 D02) Trade Ideas — EEX:GG02V2026 - TradingView",
+          "description": "EEX THE EGSI Natural Gas Day Futures (Oct 2026 D02) Trade Ideas — EEX:GG02V2026&nbsp;&nbsp; TradingView",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzlrSFR6dW1iY1loZi1GMmJ2NV9MZ3VEOTBfRWJiODhPek52OGpSWldWejQtRGF4V1F4eGktWHVrNVhFVmh4TEpvVmg3T05PeDhwY250dlZad0Q5dnF3UDJIbFowWmFlSkEza1UyZXprOGhMamJkX1dGejVTdTV0VzdfQQ?oc=5",
+          "pubDate": "2026-10-02T19:30:08.000Z",
+          "source": "TradingView"
+        },
+        {
+          "title": "Intel vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026? - The Motley Fool",
+          "description": "Intel vs. Marvell Technology: Which AI Chip Stock Is a Better Buy in 2026?&nbsp;&nbsp; The Motley Fool",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOazlxeU5JVWlQLXdQRGdQUm5pYXFGaGpNWHNiX1VYbVhFR1RSVkY4Uk55WHdzMTRHbXQyNlRrVkE3UFJRYVA2ZjNQWDkyRGVhREltMndiMnhUeDVnQjRVbnhfQ3dPeklkSmhSUmRGeE9KZmhnb0xkWlJZS3d6ZkViYktVMmhMSEk2TUp0ckVnaU5jVy1LUWlXQnNhWm1jSWlMUC1oRkE5VUx4V05kRUlneS0yZGgtWTQ?oc=5",
+          "pubDate": "2026-10-03T13:45:00.000Z",
+          "source": "The Motley Fool"
+        },
+        {
+          "title": "Taiwan Semiconductor Stock Rises on Broadcom's $60 Billion Chip Deal - benzinga.com",
+          "description": "Taiwan Semiconductor Stock Rises on Broadcom's $60 Billion Chip Deal&nbsp;&nbsp; benzinga.com",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNdk9rTVRlT0Z6azI5TUlQZHZZbHRjR0Rmdko0YzB6c2FuY2hMQWpKZWhsSExCdFNyXzQzSUtSY1ZrOE5yMUd1UjliRXNGRU5EWGRVTnRydjVZRjVXMFB4VHVNWGhFSWdvR0dJYlFkVVB5aThES3JHZFhMQ1ptd1FnT3EtOERkV1A2TnQyb3dibmt2a1pJdGRQWjRVdHR6TXJBNXdoTE9ObU1lcTNXclN4S00tVFNGMGw0MGYyZTlLcnhUMHZ5VWc?oc=5",
+          "pubDate": "2026-10-02T18:06:31.000Z",
+          "source": "benzinga.com"
+        },
+        {
+          "title": "Gold Rate Today in Delhi 3rd October 2026 : 22 & 24 Carat, Todays Gold Price in Delhi - businesstoday.in",
+          "description": "Gold Rate Today in Delhi 3rd October 2026 : 22 & 24 Carat, Todays Gold Price in Delhi&nbsp;&nbsp; businesstoday.in",
+          "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uN0hKSXRHZGo3S1pxTWZIdVAzWmhUVG5OU1lCdDV1cG0wN1ZsNXpXWkJnTEt4WUlDTGpZZHItV2I2bnNPX2V0UDk2Zzd3T18zcWc4RHRIYWxoc20yRXYxa2ZNMVVCTkRqZDQ3LW5QdFc?oc=5",
+          "pubDate": "2026-10-03T15:52:19.000Z",
+          "source": "businesstoday.in"
+        },
+        {
+          "title": "Gold Price Today, October 3, 2026: Drops to Rp2.574 Million per Gram - Aktualita.co",
+          "description": "Gold Price Today, October 3, 2026: Drops to Rp2.574 Million per Gram&nbsp;&nbsp; Aktualita.co",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ09zeFhhUWRLVHlib0tGN2xwTFpHWURpdlJBMGxKR3p0dElBbVFfdXV5aVJpSXNNVkUyZU44SnRxRHBYeUZGVS1KSjRvdzZ1VGNKT1FqaXhJcVZMM2M4QW5wd3Z1YlNycnc3RjROUjVhc3Q5T0Z5QnpYV1FzRTZNMzFMM0RWSTFOWFFLZDg1UXplQ2puRGdhTjFac2g?oc=5",
+          "pubDate": "2026-10-03T04:14:23.000Z",
+          "source": "Aktualita.co"
+        },
+        {
+          "title": "Gold Rate in Silvassa Today (2nd October 2026), 22 & 24 Carat Gold Price in Silvassa - cleartax.in",
+          "description": "Gold Rate in Silvassa Today (2nd October 2026), 22 & 24 Carat Gold Price in Silvassa&nbsp;&nbsp; cleartax.in",
+          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tek83MzJBT3hFeF9ZMHMtX3FDOTBOZUdXaHlBTnJ0VExSZVBCR3VUMnF6NnFxdnpfSGFYSjJrZ0hyeG5WVEVURmdhVms5aUk?oc=5",
+          "pubDate": "2026-10-03T06:34:53.000Z",
+          "source": "cleartax.in"
+        },
+        {
+          "title": "Silver Rate Today in Karnataka 3rd October 2026 : 1 KG, Todays Silver Price in Karnataka - businesstoday.in",
+          "description": "Silver Rate Today in Karnataka 3rd October 2026 : 1 KG, Todays Silver Price in Karnataka&nbsp;&nbsp; businesstoday.in",
+          "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rZmJHVWZQai1TOVJWcTN0cVU3OC1wNy1Jazd2Y240R3NpUlA1RGdacHc2QXBzNW45STdXNXBrZEFmdC1PbHJrQjRWMHc4UTFtNkU2VU0xdEdZTC1ndnlDanBjcF9XOHEwU3YzcFdWVFNJWGxEeXFmLQ?oc=5",
+          "pubDate": "2026-10-03T15:22:02.000Z",
+          "source": "businesstoday.in"
+        },
+        {
+          "title": "Silver Rate in Bahraich Today (2nd October 2026), Silver Price in Bahraich - cleartax.in",
+          "description": "Silver Rate in Bahraich Today (2nd October 2026), Silver Price in Bahraich&nbsp;&nbsp; cleartax.in",
+          "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5oRkJ2eTZWUnlKRzhRbWVkOTNMNWtxZVFsZ0w4cEs4a2U4ancwS0h3Z21GVC1fLVNqNVRuUWRaTDZLaTZ2bV9CQXZrMzV2eWYxWWc?oc=5",
+          "pubDate": "2026-10-03T02:45:55.000Z",
+          "source": "cleartax.in"
+        },
+        {
+          "title": "Silver Rate Today in Thiruvananthapuram 3rd October 2026 : 1 KG, Todays Silver Price in Thiruvananthapuram - businesstoday.in",
+          "description": "Silver Rate Today in Thiruvananthapuram 3rd October 2026 : 1 KG, Todays Silver Price in Thiruvananthapuram&nbsp;&nbsp; businesstoday.in",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHRtVHkzN0x0LU9BSU9Ga2JRWnNWUkhYcHotLUVKb2E1RmE5Z0ZqMnBGUFBhYXVubzd3VElWLTZEeG1oZG1SRkU0a1d6elpZNzh3NkNBb1J2V0lhR0VTek8zN2htbUNOWE55MmVkWGxoSEY3dXFGMzNObEp6eXR6SUdzSkY?oc=5",
+          "pubDate": "2026-10-03T15:02:28.000Z",
+          "source": "businesstoday.in"
+        },
+        {
+          "title": "Gold Rate Today, October 3, 2026: Check 22K and 24K Gold Prices in Delhi, Mumbai, Chennai and Other Cities - LatestLY",
+          "description": "Gold Rate Today, October 3, 2026: Check 22K and 24K Gold Prices in Delhi, Mumbai, Chennai and Other Cities&nbsp;&nbsp; LatestLY",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZoSGM3aWZJMGQ5bUszdF85aUluXzduQ0I5d1hKOGVWcFByVmplZ2JXV2h5M1F2TWhOcW5YOVZGNHp1amVFUFVOOGZNUldYTTUtemMtWEEwcXIzMjRSYVlNOHNIT0FMdGZYdk5RRG5XTjRjRW9MTGRWQURoWFZQS05ZWFFTeUpqRlJEQnF2UnBJSDZFQ05qdjFvdUxnSWpHVjk0bWNlTEVneWRJUVlMUDNOVkFtVmRQNlJXbFRBc2lFQnl0ODYyaWF6Q0Y4UVAxNl9jZGtHZk0xN0xNdWU0QWZR0gHnAUFVX3lxTE52ZlBNY1lPZS00NFlvZHRpei1ZTk9BX1hsak16UnMxcFowQkttMFhXUFdNejRUUE91SWs0ZUlFNlUxNFpVWi10dnpxLVQ1dUEyT3B1Z3ZnejJOT0IwNnVUR0xNUHA2a1ZFM202MUpEMEhuRWdSMF94T1diN3p2bEVkVDVxN3l6ajZoUVRoOTFwV3FtR3Bfb0d1TWxMRFJVaDUxVHRGR1h6UVpjUWJhN3FvOFZETWwtbEhsUEdLYkJuTnRMRDdhNFBBUlQtMFNnTHdCNXg2eklzZFhfMlk3eDZsOTBud2ZqVQ?oc=5",
+          "pubDate": "2026-10-03T03:37:39.000Z",
+          "source": "LatestLY"
+        },
+        {
+          "title": "Bitcoin price outlook October 2026: Will BTC USD hit $90,000 after a 43.8% rally as Fed rate hike, oil abo - The Economic Times",
+          "description": "Bitcoin price outlook October 2026: Will BTC USD hit $90,000 after a 43.8% rally as Fed rate hike, oil abo&nbsp;&nbsp; The Economic Times",
+          "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSjdQZE5paXBqdEgtbFM0MDhFVWhtUHNlZkZQa1hCdGNCaG0xdWJUZlp6cm5PYXNwUUp2ckNNOFBCbm5CbkVUUjJ1TXcwcWs1aDlMeU1MUWc4R0pkWVlPSTdXU0FEZHphbTdpWWJKWnRZZ1hQM2JvLXFRWlc0UzZoS0U0UnRzdFBEOWpDOC1VaGkwNmx5dnRrNllmVnVramNnRk1Wc25ESHI1ZkpoaWtwVGVFam0xN1Nlc0o0bDV6cl9yWHJqREx1OXJxREtYSE9XT291dlhqNWN1MGVLMmxSU2RDRU1CU3B1OFU5TlRGSWsxNkZqUUhabVh6T2VBcFJIaTExUVctU2tINzZjaFFEeFlkcnRLMkhPdVgyczdDZnJCaWtMVEZoaHBoaEJWUDhwVVdubUY5a9IBvAJBVV95cUxNNHZhbTV1MGhMZ0tmQi1ZUXZtdjNYRDRoR2J3WVFqWFViT2xXSnRwTGY0ck9nNVpYazM1VVhrVGlMRGRsSFh3T0dLb3labUFsTC1mVXdZajdOc3kzNlY1Z2U1TklxU0U0ODViOFBMUmllRWIzTkdsYWNRQkpLV1ZVdE0wUGN5NFpSbl8yT3lUbUxKUDgtc3RVNUJwWF9hREpYdm1DS1RmQ0JQQktGMnNmd1dEeW82cWpFTEtwNlF2ck1FNU5yRVBYSDhEV1E2NW5wTDBYZTFyWWFZUjJWaVVuVm5PNVl6T1huLWwwZEZGN3pWVXFKSXllTUs5bThHSlFmUV96YXNlQVpmYkFBUHkzZkVlaDRtZ1ppNGlsNjJ0ZFI2OEhScy1rdk9MZ1VZLTZiOGJ1U2drZnN3TURO?oc=5",
+          "pubDate": "2026-10-03T07:02:32.000Z",
+          "source": "The Economic Times"
+        },
+        {
+          "title": "Bitcoin jumps 42.9% in Q3 2026, leaving gold and stocks behind - TradingView",
+          "description": "Bitcoin jumps 42.9% in Q3 2026, leaving gold and stocks behind&nbsp;&nbsp; TradingView",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSjBNbjEzSjNCRThlWmlSeUg2UDRNRWFYZ0JST1JDYkNaMEJoQWFsTFMwY0k4aVpqbVBYUTU5bXhKV09HOFN5b2ItZ1NYQ0RQYnQ1dHc1bkw1bWVieDhJTndQcjZaRWpZb0wteE1VdlBvbUlaY09sb2t4T2RLUHJxTV9Ic0trX2t6NExoZnowMHRpWUNXTGp5SzREMFhxNHMtOEFNRnlYQW50V2wtcE5mSnduRVNzRGZpdms5UW9wVmdKbWM?oc=5",
+          "pubDate": "2026-10-02T18:25:45.000Z",
+          "source": "TradingView"
+        },
+        {
+          "title": "Gold Slips 0.9% to $4,140 as Weak US Payrolls Fail to Sustain a Rally - AD HOC NEWS",
+          "description": "Gold Slips 0.9% to $4,140 as Weak US Payrolls Fail to Sustain a Rally&nbsp;&nbsp; AD HOC NEWS",
+          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcjRZcHhqRmllRTV1bWthVEhXXzlxc09FQml0OVphRllYUlpnSWJZWlNEcFJsRm9kVXpzQl93SmNKUC0tM0JLQVFZSk1GRlpQd1Bsa0dYaV9BdXVNa2p5bjJGZ3BqamYtOF9JQVdxczdXRHNZdTVkeEktUzF5WDFvSmdHc3c4MkFjRWJYU0c2RVB3bm1wWDNaVDAtZjdSdDZaNThGSmxPeGFkRkxXUGFkdXcydTZ3YTNOQ3JwMmdhc3dwejI1azJxaEdYejdkV2NkT0ZfbUxmN3c?oc=5",
+          "pubDate": "2026-10-02T18:41:22.000Z",
+          "source": "AD HOC NEWS"
+        },
+        {
+          "title": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh - The Trumpet Newspaper Nigeria",
+          "description": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh&nbsp;&nbsp; The Trumpet Newspaper Nigeria",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGk4NksxeHJ4Y0xKdVRzMWoxOGZ0RUFzbF92MzVzMlY4NzExbE5kc1NDazdvZXVLZV9tVjFaSFRKdDk3UWtmTHJnTkVWN2w5VUhkWElOY1FxdXA3NjdDTmZtbXFqa1BuME5Kek9uTnJLRFVDM0xJYkRWUHNZSDNqQS1fR2JOZWJkR2JxaHkwTlRGeVhBMTY1a3diYUZGanVFU0FtY0ZZdnNSYTFJb0dpdFp6TGF4blNwWmc?oc=5",
+          "pubDate": "2026-10-03T16:50:58.000Z",
+          "source": "The Trumpet Newspaper Nigeria"
+        },
+        {
+          "title": "Gold prices in Pakistan today: 24, 22 and 21 Karat rates on 3 October 2026 - Pakistan Observer",
+          "description": "Gold prices in Pakistan today: 24, 22 and 21 Karat rates on 3 October 2026&nbsp;&nbsp; Pakistan Observer",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdlZOSGtseFh5X1NrLV9MUWpPdDFBRUhKN1lxVV9wNXJncURvVWJxOENUQl9ISFA0MkJfRzFaUHE3bkZqTzNPa3RMSmd0bFJzU1NFNDdrb3cyMWlmRlZ5ZDdvNDhFcTczcHp1SHd5cDBhREVBNU4zRzFBQ2JIU1N0YWJPYklIZWdDUmwzMU9ONVl6bC1ocm9ENjVwU1Rwdw?oc=5",
+          "pubDate": "2026-10-03T03:56:37.000Z",
+          "source": "Pakistan Observer"
+        },
+        {
+          "title": "TDK showcases factory automation, RF power and advanced power solutions at SEMICON West 2026 - EEJournal",
+          "description": "TDK showcases factory automation, RF power and advanced power solutions at SEMICON West 2026&nbsp;&nbsp; EEJournal",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ3RIV1c3VlRrME5iTkxXbG9WaDRSeUFuM3hFb2VKYm00OE40cjQ5MHUtZlJPWjVKelNPWlF1V0NNa1Z0T1lJdGh5N2JiS0M2Q1I4WjBQUDNJa0J3N3ZxSGNxZUZnWjZDcFdnWUlsVTJXUl9hWVY5bWN3QmtHWnlUcmRJdEpwRHdMazM4bUdLSG8ySk4tX1dYcFNfWEFLaFdaM3RwbFJnUUZydURZZFRVTzd4WkM4em5VNHk2VXRYcng1YlgyelZBdEFsT0Q?oc=5",
+          "pubDate": "2026-10-03T09:08:11.000Z",
+          "source": "EEJournal"
+        }
+      ]
+    }
+  ],
+  "sectorMatrix": [
+    {
+      "name": "黄金",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 1,
+      "summary": "黄金板块1条新闻，方向以中性为主",
+      "tickers": "紫金矿业、山东黄金、中金黄金"
+    },
+    {
+      "name": "半导体",
+      "shock": "弱",
+      "direction": "利空",
+      "news_count": 0,
+      "summary": "",
+      "tickers": "",
+      "notes": "；ETF校准(当日-3.2%)"
+    },
+    {
+      "name": "光模块",
+      "shock": "弱",
+      "direction": "中性",
+      "news_count": 0,
+      "summary": "",
+      "tickers": ""
+    },
+    {
+      "name": "创新药",
+      "shock": "弱",
+      "direction": "利好",
+      "news_count": 0,
+      "summary": "",
+      "tickers": "",
+      "notes": "；ETF校准(当日+3.4%)"
+    }
+  ],
+  "keyPoints": [
+    "【黄金】价格$4,140徘徊，受收益率、通胀风险影响"
+  ],
+  "marketSummary": "黄金ETF小幅上涨，价格支撑因素显现。",
+  "isAi": true,
+  "sourceHealth": {
+    "level": "failed",
+    "issues": [
+      {
+        "code": "low-volume",
+        "level": "failed",
+        "message": "当日仅 1 条新闻(下限 10)"
+      }
+    ],
+    "summary": "抓取异常:当日仅 1 条新闻(下限 10)",
+    "counts": {
+      "fetched": 803,
+      "kept": 1,
+      "analyzed": 1,
+      "rssEnabled": true,
+      "rssOk": 43,
+      "rssTotal": 43,
+      "apiOk": 5,
+      "apiTotal": 5
+    }
+  },
+  "fullNews": [
+    {
+      "title": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh - The Trumpet Newspaper Nigeria",
+      "description": "Gold Price October 3, 2026: Gold Hovers Near $4,140 as Yields, Inflation and Middle East Risks Weigh&nbsp;&nbsp; The Trumpet Newspaper Nigeria",
+      "guessedSector": "黄金",
+      "pubDate": "2026-10-03T16:50:58.000Z",
+      "source": "The Trumpet Newspaper Nigeria",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPWGk4NksxeHJ4Y0xKdVRzMWoxOGZ0RUFzbF92MzVzMlY4NzExbE5kc1NDazdvZXVLZV9tVjFaSFRKdDk3UWtmTHJnTkVWN2w5VUhkWElOY1FxdXA3NjdDTmZtbXFqa1BuME5Kek9uTnJLRFVDM0xJYkRWUHNZSDNqQS1fR2JOZWJkR2JxaHkwTlRGeVhBMTY1a3diYUZGanVFU0FtY0ZZdnNSYTFJb0dpdFp6TGF4blNwWmc?oc=5",
+      "eventId": "evt_15b46w5",
+      "sourceCount": 12
+    }
+  ],
+  "etfData": [
+    {
+      "code": "159995",
+      "name": "芯片ETF华夏",
+      "category": "半导体",
+      "price": 1.053,
+      "change": -3.216911764705895
+    },
+    {
+      "code": "512760",
+      "name": "芯片ETF国泰",
+      "category": "半导体",
+      "price": 1.012,
+      "change": -2.879078694817661
+    },
+    {
+      "code": "588200",
+      "name": "科创芯片ETF嘉实",
+      "category": "半导体",
+      "price": 1.08,
+      "change": -3.398926654740611
+    },
+    {
+      "code": "515050",
+      "name": "通信ETF华夏",
+      "category": "光模块",
+      "price": 0.965,
+      "change": -1.12704918032787
+    },
+    {
+      "code": "515880",
+      "name": "通信ETF国泰",
+      "category": "光模块",
+      "price": 0.626,
+      "change": -0.4769475357710656
+    },
+    {
+      "code": "159811",
+      "name": "5GETF博时",
+      "category": "光模块",
+      "price": 2.801,
+      "change": -1.1644318983768496
+    },
+    {
+      "code": "515120",
+      "name": "创新药ETF广发",
+      "category": "创新药",
+      "price": 0.654,
+      "change": 3.4810126582278516
+    },
+    {
+      "code": "159858",
+      "name": "创新药ETF南方",
+      "category": "创新药",
+      "price": 0.707,
+      "change": 3.5139092240117
+    },
+    {
+      "code": "159992",
+      "name": "创新药ETF银华",
+      "category": "创新药",
+      "price": 0.872,
+      "change": 3.3175355450237
+    },
+    {
+      "code": "518880",
+      "name": "黄金ETF华安",
+      "category": "黄金",
+      "price": 8.633,
+      "change": 1.338185233008557
+    },
+    {
+      "code": "159934",
+      "name": "黄金ETF易方达",
+      "category": "黄金",
+      "price": 9.022,
+      "change": 1.4049679667303585
+    },
+    {
+      "code": "518800",
+      "name": "黄金ETF国泰",
+      "category": "黄金",
+      "price": 9.056,
+      "change": 1.42233172807704
+    }
+  ],
+  "chartData": {
+    "etfTrend": {
+      "dates": [
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31",
+        "2026-09-01",
+        "2026-09-02",
+        "2026-09-03",
+        "2026-09-04",
+        "2026-09-07",
+        "2026-09-08",
+        "2026-09-09",
+        "2026-09-10",
+        "2026-09-11",
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23",
+        "2026-09-24",
+        "2026-09-28",
+        "2026-09-29",
+        "2026-09-30",
+        "2026-10-04"
+      ],
+      "datasets": [
+        {
+          "label": "半导体",
+          "data": [
+            100,
+            98.97,
+            99.66,
+            96.04,
+            96.13,
+            97.25,
+            101.55,
+            99.23,
+            100.43,
+            98.02,
+            96.39,
+            95.87,
+            93.38,
+            96.3,
+            95.1,
+            94.58,
+            94.15,
+            92.61,
+            90.8,
+            92.61,
+            96.65,
+            95.79,
+            99.05,
+            99.48,
+            100.34,
+            99.83,
+            97.33,
+            92.78,
+            93.55,
+            90.54,
+            90.54
+          ],
+          "borderColor": "#7c3aed",
+          "backgroundColor": "#7c3aed22",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "光模块",
+          "data": [
+            100,
+            101.09,
+            103.75,
+            99.11,
+            99.41,
+            99.8,
+            103.75,
+            102.37,
+            103.75,
+            101.58,
+            99.7,
+            99.21,
+            97.53,
+            103.66,
+            102.96,
+            103.95,
+            103.16,
+            103.46,
+            100.4,
+            99.9,
+            103.75,
+            103.16,
+            105.73,
+            106.82,
+            106.62,
+            105.73,
+            102.57,
+            95.55,
+            96.44,
+            95.36,
+            95.36
+          ],
+          "borderColor": "#0891b2",
+          "backgroundColor": "#0891b222",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "创新药",
+          "data": [
+            100,
+            104.47,
+            99.7,
+            94.78,
+            96.72,
+            96.87,
+            97.76,
+            96.27,
+            94.63,
+            94.63,
+            94.04,
+            95.08,
+            94.19,
+            93.89,
+            94.78,
+            93.29,
+            91.65,
+            89.72,
+            92.7,
+            91.8,
+            92.1,
+            92.7,
+            93.44,
+            97.02,
+            96.87,
+            97.02,
+            93.89,
+            93.59,
+            94.19,
+            97.47,
+            97.47
+          ],
+          "borderColor": "#0d9488",
+          "backgroundColor": "#0d948822",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        },
+        {
+          "label": "黄金",
+          "data": [
+            100,
+            102.9,
+            104.61,
+            106.57,
+            106.23,
+            106.05,
+            105.26,
+            105.58,
+            101.79,
+            101.6,
+            99.2,
+            101.46,
+            102.12,
+            100.56,
+            100.81,
+            100.75,
+            101.21,
+            99.65,
+            98.9,
+            98.38,
+            99.23,
+            98.69,
+            100.39,
+            99.51,
+            98.72,
+            99.14,
+            97.93,
+            95.48,
+            94.93,
+            96.2,
+            96.2
+          ],
+          "borderColor": "#d97706",
+          "backgroundColor": "#d9770622",
+          "borderWidth": 2,
+          "pointRadius": 1.5,
+          "pointHoverRadius": 4,
+          "tension": 0.3,
+          "fill": false,
+          "spanGaps": true
+        }
+      ],
+      "hasData": true
+    },
+    "sentiment": {
+      "datasets": [
+        {
+          "data": [
+            1
+          ],
+          "backgroundColor": [
+            "#16a34a",
+            "#dc2626",
+            "#9ca0af",
+            "#ea580c"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "labels": [
+        "中性"
+      ],
+      "hasData": true
+    },
+    "heatmap": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "impacts": [
+        "低",
+        "中",
+        "高",
+        "极高"
+      ],
+      "matrix": {
+        "半导体": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "光模块": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "创新药": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 0
+        },
+        "黄金": {
+          "极高": 0,
+          "高": 0,
+          "中": 0,
+          "低": 1
+        }
+      },
+      "hasData": true
+    },
+    "direction": {
+      "sectors": [
+        "半导体",
+        "光模块",
+        "创新药",
+        "黄金"
+      ],
+      "datasets": [
+        {
+          "label": "中性",
+          "data": [
+            0,
+            0,
+            0,
+            1
+          ],
+          "backgroundColor": "#9ca0af"
+        }
+      ],
+      "hasData": true
+    },
+    "timeWindow": {
+      "labels": [
+        "短期"
+      ],
+      "datasets": [
+        {
+          "data": [
+            1
+          ],
+          "backgroundColor": [
+            "#2563eb"
+          ],
+          "borderWidth": 0
+        }
+      ],
+      "hasData": true
+    }
+  }
+}
