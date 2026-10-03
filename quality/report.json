@@ -2577,12 +2577,10 @@
       "date": "20261003",
       "displayDate": "2026-10-03",
       "isAi": true,
-      "newsCount": 19,
+      "newsCount": 23,
       "sectorCount": 4,
-      "missingSectors": [
-        "光模块"
-      ],
-      "covered": false,
+      "missingSectors": [],
+      "covered": true,
       "impact": {
         "vhigh": 2,
         "high": 5
@@ -2623,8 +2621,8 @@
     }
   ],
   "total": 59,
-  "coveredAll": 52,
-  "coverageRate": 88,
+  "coveredAll": 53,
+  "coverageRate": 90,
   "avgImpactHigh": 13,
   "consistency": {
     "黄金": 33,

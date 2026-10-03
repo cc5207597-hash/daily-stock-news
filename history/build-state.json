@@ -1,6 +1,6 @@
 {
   "runId": "",
-  "generatedAt": "2026-10-03T05:54:03.034Z",
+  "generatedAt": "2026-10-03T10:02:14.748Z",
   "date": "20261003",
   "state": "done",
   "health": {
@@ -8,20 +8,20 @@
     "issues": []
   },
   "funnel": {
-    "raw": 858,
-    "rawApi": 568,
-    "rawRss": 290,
+    "raw": 841,
+    "rawApi": 562,
+    "rawRss": 279,
     "rawRssByDay": {
-      "20261002": 161,
-      "20261003": 129
+      "20261002": 101,
+      "20261003": 178
     },
-    "dedup": 762,
-    "noise": 757,
-    "clusterEvents": 460,
-    "classify": 460,
-    "filter": 35,
-    "dayFilter": 19,
-    "keptApi": 12,
-    "keptRss": 7
+    "dedup": 754,
+    "noise": 746,
+    "clusterEvents": 439,
+    "classify": 439,
+    "filter": 33,
+    "dayFilter": 23,
+    "keptApi": 11,
+    "keptRss": 12
   }
 }

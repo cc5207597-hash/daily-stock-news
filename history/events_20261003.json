@@ -1,7 +1,83 @@
 {
   "date": "20261003",
-  "count": 19,
+  "count": 23,
   "events": [
+    {
+      "eventId": "evt_mcwbt8",
+      "canonicalTitle": "[주간브리핑] 앤트로픽 경고문 80쪽, 그래도 IPO｜SK하이닉스 이익률 90% 상한｜TSMC·SK하이닉스 시험장 경쟁 - 콕스뉴스",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zRC1pbTVqeGRhc0w3Qm9EVUF4NXhsMmEyU2FXU3NZaW1zeVV5My1mMXpZb2drTndtYmFBVUVHY045MG15VzQyaVVFX1pjOHZiallhVVNFc2lsTFZCbXdpNklYZ2dCbXo3c1E?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "콕스뉴스"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zRC1pbTVqeGRhc0w3Qm9EVUF4NXhsMmEyU2FXU3NZaW1zeVV5My1mMXpZb2drTndtYmFBVUVHY045MG15VzQyaVVFX1pjOHZiallhVVNFc2lsTFZCbXdpNklYZ2dCbXo3c1E?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_70egm6",
+      "canonicalTitle": "World's Largest Companies by Market Cap (September 2026): Nvidia Leads at $5.56 Trillion, Meta Surges 29% to Overtake Broadcom - TradingKey",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeC1OTjFma3g5eG5RclhCVnNSWmRaRF9DdXd1RHgxcmQtYkhMMVdSM3VHNUdKcDhTQ2hkZTdzcXVZRDJ4TTI2WXVVZURzSVVsczQxTU50MjNCRnJBaGpHaFNEbzQyVVhpdUdvR212cDJOS0pjdi1mZFVzY0ZhN3V3SGpxVVlOOW5BdnBLQnRBTWF5dU9DOVkzN2d4UlFMQmxXT0ZGcDVQNmFpWjNDZUxlR2JXTDBaelhyR05seWlpRDJBNTZVSlRUNXJ1Y2drVzhWY2NhWEowNXplb0N1aUNJSXpVdVE?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "calgaryroughnecks.com",
+        "TradingView",
+        "tech-insider.org",
+        "TradingKey",
+        "The Motley Fool",
+        "The Globe and Mail",
+        "Yahoo Finance",
+        "CNBC",
+        "Fortune",
+        "Aktualita.co",
+        "ClearTax",
+        "Business Today",
+        "LatestLY",
+        "LiteFinance",
+        "The Economic Times",
+        "EEJournal",
+        "SNS Insider",
+        "金十数据",
+        "东方财富",
+        "新浪财经",
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNeC1OTjFma3g5eG5RclhCVnNSWmRaRF9DdXd1RHgxcmQtYkhMMVdSM3VHNUdKcDhTQ2hkZTdzcXVZRDJ4TTI2WXVVZURzSVVsczQxTU50MjNCRnJBaGpHaFNEbzQyVVhpdUdvR212cDJOS0pjdi1mZFVzY0ZhN3V3SGpxVVlOOW5BdnBLQnRBTWF5dU9DOVkzN2d4UlFMQmxXT0ZGcDVQNmFpWjNDZUxlR2JXTDBaelhyR05seWlpRDJBNTZVSlRUNXJ1Y2drVzhWY2NhWEowNXplb0N1aUNJSXpVdVE?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE1OdDJGZlhVak03UWs1MlBUdVVjTm4tdk5wVTY0M0thbWhzRVZrY0kzdEJBZVBnQy1qT3BSOXV3ZHpVYkh3YlFobno5OEk4VTFfZWE5RTVqWFBBaElPX2xuaDg4RW56M0VyLUFwaWZUNk4xc3Q5S3RRRTN4dXVvUG8?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMzlrSFR6dW1iY1loZi1GMmJ2NV9MZ3VEOTBfRWJiODhPek52OGpSWldWejQtRGF4V1F4eGktWHVrNVhFVmh4TEpvVmg3T05PeDhwY250dlZad0Q5dnF3UDJIbFowWmFlSkEza1UyZXprOGhMamJkX1dGejVTdTV0VzdfQQ?oc=5",
+        "https://news.google.com/rss/articles/CBMigwFBVV95cUxPdXNhekpRcWhnN2liQm9tYzZ0dHAzTVplLTlpdHBxZVljWEN0WUwxYjZsRXdzc19UUjlVb1h4R3IzbVVuVW1iRmFkTEtYdkp6b004NVFCVEZwOXhVTGQ2UWk2a1NtSE9SWUJlOExhNTJMZjNPSTlHekVoeHFNN0hGRUhudw?oc=5",
+        "https://news.google.com/rss/articles/CBMifEFVX3lxTFBDS3ZXWWVVNFVIcEYzTmI4UlMzM0NjSTBXTVZxTTZhRGthSHA0eHVvZ3pmdUFhY0ZtX2ltSVJMZDVyZ0hDWE1fV0JMcUZVRUdMNkJCbVJSR3dPUlpTaGVjbW93RkpfTHpCQ2laUUdQZW1oUDdtb3p3Wi1EUTI?oc=5",
+        "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNk9qekhnYWU0Uk1uNnZmSkpwRGwwWHI3Z3NjMlN2b1lqc2c5Qnl2RWNUeDNJeGplWkRxbjVzeDNOYTJKcXVSNkZ3WUdGZXRMbjU0RVR5NmtzNHE0T0RnWnVyR1JKSWZvcGo4enVqRzFFYWd0bDg1N19zNTdLMUlTbWhKemhjQ2xVVmxydW54QVI0bGo5azRQYllxcEw3MWNDaHBMa0ZFcUE4MFBHWmg2QnVwUkJKdlBCMWxzUWpFSGRiaU9HTXV0ZlBpQTE4cEpfSTNkWTI2RQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQVUJRa2xIMlhkeS1tSUtRRENYMURYQ1ptX2V1dE0tTC02TDh4OGJZTGFFNkhfZHBHenpIc2lpN0JzX1ZkTEhROEFSdVNaN21GQkl6ZGY0VVRLR0ZBRURDb2E0RWNnVGdONzBBNWpGT20tdlhjRFMtTlZXLXRIZGJZNUZqYjYzd1NQWU1fNEd3bTlvUW0xbTFCQTZsRzQ2azBTdHZGeFp6WnFhNzNkSHhQYUlVRHB5UkpGeldXUHpWazNwc1JVMHV4Q2M5ZTFTRnFFWTdV?oc=5",
+        "https://news.google.com/rss/articles/CBMihAJBVV95cUxPVzVZeDJDN2JjY05MM1p5WW8tcnFCdFg3ZGQ1NlZIdWlhRmxlTGkyV3l2bHpLUUczUHFVWXJsMkZxUjhPTS1MMkJiMWQzNlZKakNhWDlzRkhRcDNvNjhqTElYVEMwNmdMS09wUmo1REYzWVZOcWNzVk1lSVBFNXVSZ0RmMkNfWTV2dWJxbDVGc1Q1UEpjQk1FUFNVRXd4N0FCRHVPTE1hWlBzR051Q2NtWUk4ZVNzdi1LTkVQeVdJNHhRU2ZLMHM3U01oQlBDNlMxQTE5dVJGdTNmXzFUeFUtVVJxRmRVWm9rSDFFRml0T2g1VVhheGg1c25LM1VUQXU3TzJ0LQ?oc=5",
+        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOdnhFb2JvTjVvc0Qya0ZBMExkRkpScjBMV0htN193cjNpV2M5WTg2ZlpUVFdXQWtKc2JsajRLQk9GTTNqQXBZdm1hLTJOZkVabERGUHJFT2kwNE44dkNUWl9FbVhBZGJXbktpdTFZa25fbDFZclNlZEM5VllPWEpGWG5oN01pdWVsLVhfZmFxaDNnTGxndTJBZzFXdDZGRDR2WFM5QlJkQVdzWkZXdHFiVTBIMWpFZloxSVBmUzFyMVNWZw?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE13VDdaSHBfckRqN0NlRm1rSTZPUFpfNG1lcl9xWUplR1o4TU9oY0oxN0VBbkZJZDJYQVRqRmlxbjdBOTVIUmZMOS1qZnowRzNvU3dwbWhwRGRuZ0psaUJDQVAxbWFIRE9GU3hqR090TmfSAXZBVV95cUxPdnB3QVpYVnp5NXYwZ0doVVdQLVJBeXZROFV1cFYwSC1uTTU1YVlGSDdXLTdCckg0ZGhjVXJidU1iOHUxNWotWGhkRzZwQ1FLZldIanc5WE9OeVdRVm9EcDhZTlJqZmdLOTd5MHVQRlBfOU9pU3NR?oc=5",
+        "https://news.google.com/rss/articles/CBMib0FVX3lxTFBEMTVqLTVMOXpmSWhVMHpDRjZXdVZxaDNQUDZvaVcxQ0N2M1ppN2FrcWkzeUctXzF1dFZqbmpPOERTWFBHX3RJbGVKT3Z5UnpWampmR0hJLTBZbk9Hd2xmdllBSDRLUWZqa05yQ2h4dw?oc=5",
+        "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQ09zeFhhUWRLVHlib0tGN2xwTFpHWURpdlJBMGxKR3p0dElBbVFfdXV5aVJpSXNNVkUyZU44SnRxRHBYeUZGVS1KSjRvdzZ1VGNKT1FqaXhJcVZMM2M4QW5wd3Z1YlNycnc3RjROUjVhc3Q5T0Z5QnpYV1FzRTZNMzFMM0RWSTFOWFFLZDg1UXplQ2puRGdhTjFac2g?oc=5",
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0tek83MzJBT3hFeF9ZMHMtX3FDOTBOZUdXaHlBTnJ0VExSZVBCR3VUMnF6NnFxdnpfSGFYSjJrZ0hyeG5WVEVURmdhVms5aUk?oc=5",
+        "https://news.google.com/rss/articles/CBMicEFVX3lxTE5uN0hKSXRHZGo3S1pxTWZIdVAzWmhUVG5OU1lCdDV1cG0wN1ZsNXpXWkJnTEt4WUlDTGpZZHItV2I2bnNPX2V0UDk2Zzd3T18zcWc4RHRIYWxoc20yRXYxa2ZNMVVCTkRqZDQ3LW5QdFc?oc=5",
+        "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5zdWQ4aEZzRmgwU3RfbkdJaWNDTzRtSVd0cWZkMm1Vd0V1eENoOFpwWVlSZ0dYZ0ZjLXlsU2ZJVG83WHlpMFlRM3pwTjkzS2YxZ3c?oc=5",
+        "https://news.google.com/rss/articles/CBMif0FVX3lxTE9WZHhibUR5eUtwSFEtRkhFRzlSaTF6T2JQNGlPNndRSHVIbTc1ZkhRanBHVGZaMFgzY3dUSWkzSGVDd3Awa0RYRzZPMDlCR2pjRnQ3Y2pZOEprZE42MENLSS16Vm5iZW5samwtak9YaVYzTkFZT3FYLW1qc2x1NXc?oc=5",
+        "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWHRtVHkzN0x0LU9BSU9Ga2JRWnNWUkhYcHotLUVKb2E1RmE5Z0ZqMnBGUFBhYXVubzd3VElWLTZEeG1oZG1SRkU0a1d6elpZNzh3NkNBb1J2V0lhR0VTek8zN2htbUNOWE55MmVkWGxoSEY3dXFGMzNObEp6eXR6SUdzSkY?oc=5",
+        "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZoSGM3aWZJMGQ5bUszdF85aUluXzduQ0I5d1hKOGVWcFByVmplZ2JXV2h5M1F2TWhOcW5YOVZGNHp1amVFUFVOOGZNUldYTTUtemMtWEEwcXIzMjRSYVlNOHNIT0FMdGZYdk5RRG5XTjRjRW9MTGRWQURoWFZQS05ZWFFTeUpqRlJEQnF2UnBJSDZFQ05qdjFvdUxnSWpHVjk0bWNlTEVneWRJUVlMUDNOVkFtVmRQNlJXbFRBc2lFQnl0ODYyaWF6Q0Y4UVAxNl9jZGtHZk0xN0xNdWU0QWZR0gHnAUFVX3lxTE52ZlBNY1lPZS00NFlvZHRpei1ZTk9BX1hsak16UnMxcFowQkttMFhXUFdNejRUUE91SWs0ZUlFNlUxNFpVWi10dnpxLVQ1dUEyT3B1Z3ZnejJOT0IwNnVUR0xNUHA2a1ZFM202MUpEMEhuRWdSMF94T1diN3p2bEVkVDVxN3l6ajZoUVRoOTFwV3FtR3Bfb0d1TWxMRFJVaDUxVHRGR1h6UVpjUWJhN3FvOFZETWwtbEhsUEdLYkJuTnRMRDdhNFBBUlQtMFNnTHdCNXg2eklzZFhfMlk3eDZsOTBud2ZqVQ?oc=5",
+        "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQYjJYUWlUSWNmZGJDYlRFcGlHdXRHVFhYUUp3R3ZvRm9xVjVWMFc0OEdRUkpMUXBHNTVnX1pEM2VMcG1KeVdLNFlwNVMweTlJVzBSOUJFTzFGcjdJTFdZOGxDR2ZBOHZ1dlVlR0U0NWlqMDF4SzJOMG9wX0Y2WGZFYklTd2ZKXzR5Tk5LNEhuam9Zb3BNcUNacTIySFpvS2JTNWtYWHd3SHJWeThNMjY3cUhzNlpwUmd0Und1RUxJSjdQZ2k2V3prNVdNcnJ1VGdveXZoR2ZlVEYzYjRLeTJqSVZNU3ZQVlpvUHoxQVdB?oc=5",
+        "https://news.google.com/rss/articles/CBMitwJBVV95cUxOSjdQZE5paXBqdEgtbFM0MDhFVWhtUHNlZkZQa1hCdGNCaG0xdWJUZlp6cm5PYXNwUUp2ckNNOFBCbm5CbkVUUjJ1TXcwcWs1aDlMeU1MUWc4R0pkWVlPSTdXU0FEZHphbTdpWWJKWnRZZ1hQM2JvLXFRWlc0UzZoS0U0UnRzdFBEOWpDOC1VaGkwNmx5dnRrNllmVnVramNnRk1Wc25ESHI1ZkpoaWtwVGVFam0xN1Nlc0o0bDV6cl9yWHJqREx1OXJxREtYSE9XT291dlhqNWN1MGVLMmxSU2RDRU1CU3B1OFU5TlRGSWsxNkZqUUhabVh6T2VBcFJIaTExUVctU2tINzZjaFFEeFlkcnRLMkhPdVgyczdDZnJCaWtMVEZoaHBoaEJWUDhwVVdubUY5a9IBvAJBVV95cUxNNHZhbTV1MGhMZ0tmQi1ZUXZtdjNYRDRoR2J3WVFqWFViT2xXSnRwTGY0ck9nNVpYazM1VVhrVGlMRGRsSFh3T0dLb3labUFsTC1mVXdZajdOc3kzNlY1Z2U1TklxU0U0ODViOFBMUmllRWIzTkdsYWNRQkpLV1ZVdE0wUGN5NFpSbl8yT3lUbUxKUDgtc3RVNUJwWF9hREpYdm1DS1RmQ0JQQktGMnNmd1dEeW82cWpFTEtwNlF2ck1FNU5yRVBYSDhEV1E2NW5wTDBYZTFyWWFZUjJWaVVuVm5PNVl6T1huLWwwZEZGN3pWVXFKSXllTUs5bThHSlFmUV96YXNlQVpmYkFBUHkzZkVlaDRtZ1ppNGlsNjJ0ZFI2OEhScy1rdk9MZ1VZLTZiOGJ1U2drZnN3TURO?oc=5",
+        "https://news.google.com/rss/articles/CBMizAFBVV95cUxPQ3RIV1c3VlRrME5iTkxXbG9WaDRSeUFuM3hFb2VKYm00OE40cjQ5MHUtZlJPWjVKelNPWlF1V0NNa1Z0T1lJdGh5N2JiS0M2Q1I4WjBQUDNJa0J3N3ZxSGNxZUZnWjZDcFdnWUlsVTJXUl9hWVY5bWN3QmtHWnlUcmRJdEpwRHdMazM4bUdLSG8ySk4tX1dYcFNfWEFLaFdaM3RwbFJnUUZydURZZFRVTzd4WkM4em5VNHk2VXRYcng1YlgyelZBdEFsT0Q?oc=5",
+        "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4yT21ZdjlQSXlhMkx4aF93Z0JMM0VYQkowdmVuUThYSG8zU1Zrc21Jcml0QjVEcy1hZ3BpdFhYYmRuTmZVNlQxNWpLT0FfS0RyN3R4Mi1PT0tJSFpwQklacWpB?oc=5",
+        "Online ticketing data show China’s 2026 National D",
+        "【国庆档票房破5亿】",
+        "Maoyan Pro data show total box office for 2026 Nat",
+        "【2026国庆档新片票房破4亿】",
+        "http://finance.eastmoney.com/news/1350,202610033888469986.html",
+        "http://finance.eastmoney.com/news/1354,202610033888477494.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxwvx3858893.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxsqc0746098.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxnhf0741679.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0820483.d.html",
+        "https://wallstreetcn.com/articles/3173881"
+      ]
+    },
     {
       "eventId": "evt_1xe71zn",
       "canonicalTitle": "CPM Group on Silver's 50% Drop, $60 Test and Gold Outlook - News and Statistics - IndexBox",
@@ -15,6 +91,18 @@
       ]
     },
     {
+      "eventId": "evt_7ml9rw",
+      "canonicalTitle": "Prediction: This AI Chip Stock Will Be the Biggest Winner of 2027 (Hint: It’s Not Nvidia, AMD, or Broadcom) - The Motley Fool",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1dsUlo3Q2FTM0d3bkJSX0lkSmtqbklsOU9QRVQwM1N2d1VfQzkyN0N0ZUlydDBqMlBnU2RlTkxDOFBvQ0lNWnBoZXBibUFabEEweHRyWmFsbkNyMUJDLVBIcnNnd01nNkFncWR0YzlhQU13TEdCVnRTQXlKNzNRQnZHQ0taWmFJNGs1NVRQLWZiS240eGc4U08tc1d3UlpTQ0dDRm1qNWZ4Mm80bVZGV1VSMUtpS3p6WE1rZmtoYTl1MW1aTTMwQkdIdWVhNmRvQjAwZncyRHFCeU5i?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "The Motley Fool"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOQ1dsUlo3Q2FTM0d3bkJSX0lkSmtqbklsOU9QRVQwM1N2d1VfQzkyN0N0ZUlydDBqMlBnU2RlTkxDOFBvQ0lNWnBoZXBibUFabEEweHRyWmFsbkNyMUJDLVBIcnNnd01nNkFncWR0YzlhQU13TEdCVnRTQXlKNzNRQnZHQ0taWmFJNGs1NVRQLWZiS240eGc4U08tc1d3UlpTQ0dDRm1qNWZ4Mm80bVZGV1VSMUtpS3p6WE1rZmtoYTl1MW1aTTMwQkdIdWVhNmRvQjAwZncyRHFCeU5i?oc=5"
+      ]
+    },
+    {
       "eventId": "evt_2ozypq",
       "canonicalTitle": "Arm stock jumps 5% as Nvidia AI platform role boosts chip demand outlook - Invezz",
       "canonicalLink": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2hBVFJBd1YyanFfSldLVHJ4eThnYzVaY3V5a2hIRDR6UnBsdUV0LVpXTnhaTnpjY2tFUEhwRmMycmpKd1BGNlZUWHhScUlIek9lNzNUYmM3WEtKUDNMdDZaWmZlaVFId1hrQm9Ebml5amFUMm9SY3hRUkVaVUU0c2ZvWmpVTjA0Y0ZNTV9QRnZ4ZEh5eXV5QXB0WnJOdk9sLXZhVEw3N1pqVTlIb1FFcFFXcGVIVUZ0?oc=5",
@@ -24,6 +112,18 @@
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2hBVFJBd1YyanFfSldLVHJ4eThnYzVaY3V5a2hIRDR6UnBsdUV0LVpXTnhaTnpjY2tFUEhwRmMycmpKd1BGNlZUWHhScUlIek9lNzNUYmM3WEtKUDNMdDZaWmZlaVFId1hrQm9Ebml5amFUMm9SY3hRUkVaVUU0c2ZvWmpVTjA0Y0ZNTV9QRnZ4ZEh5eXV5QXB0WnJOdk9sLXZhVEw3N1pqVTlIb1FFcFFXcGVIVUZ0?oc=5"
+      ]
+    },
+    {
+      "eventId": "evt_foawr3",
+      "canonicalTitle": "黄金有望连续第三周收涨！债务压力成为金价上涨的新燃料-市场参考 - xnews.jin10.com",
+      "canonicalLink": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IM2o4VXh2UmZUMFJwcGY0dVJhSkxPNmtFOHJid0xvMVZ4NjZHTlNYUGxObFo1RDE1cTFydkVHRUJ4S1dkLUUtRHhYTXNZOE0?oc=5",
+      "memberCount": 1,
+      "sources": [
+        "xnews.jin10.com"
+      ],
+      "relatedArticles": [
+        "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5IM2o4VXh2UmZUMFJwcGY0dVJhSkxPNmtFOHJid0xvMVZ4NjZHTlNYUGxObFo1RDE1cTFydkVHRUJ4S1dkLUUtRHhYTXNZOE0?oc=5"
       ]
     },
     {
@@ -40,36 +140,16 @@
     },
     {
       "eventId": "evt_1at0s16",
-      "canonicalTitle": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - pluang.com",
+      "canonicalTitle": "AMD rises 3% amid chip sector rally; Arm jumps 8%, NVIDIA up 2% on strong AI-driven demand. - Pluang",
       "canonicalLink": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
       "memberCount": 1,
       "sources": [
         "24/7 Wall St.",
-        "pluang.com"
+        "Pluang"
       ],
       "relatedArticles": [
         "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOEdiaUFCOE9rOVNpS19UcnQwVW8wUUVqN28tRW9sOU5LRUhJN3NMajZKR1pjYXhSSkNsODNaaHZ2Vk5XMWxzSTVZLUtKQXFTZm9nS3lVQVEtNHRyeE81VkhGVkpVOGx6WmN0WEJSa3lGdE1aLXVid3JfWVNKUEsweTA1d1dDN25CdWVTN010SmhQUzJ2WU9va0dYa0c2T0tRMW9VclRyWmJpUQ?oc=5",
         "https://news.google.com/rss/articles/CBMitgFBVV95cUxQOUVMNnlzM3F6SjRudU9qR25WZnl1bklOSVozNWJJVVhZSTE4dUZDTDdxc3RyaDd1djVwYmdnV1dyS2hITnJ4REtGMmVJeC0xN1REMXVGOGp5dTU0RHNacERQYW1wMzZ0M0ZzZTNJWmZKeDl5b19PQmNzRjBCSS1wWVkwRFFNOFJJNlFfVUFBYlNJVnd1NndsZG5jcmFHYTJHVVl1QWcyTS1ueVo2bEJCZ1hKd2F2Zw?oc=5"
-      ]
-    },
-    {
-      "eventId": "evt_57xl0w",
-      "canonicalTitle": "Best Gold Stocks to Buy: Top US Gold Mining and Royalty Stocks to Watch as Gold Prices Stay Above $4,000 – Check Newmont, Agnico Eagle, Barrick Mining, Franco-Nevada, Wheaton and More - The Sunday Guardian",
-      "canonicalLink": "https://news.google.com/rss/articles/CBMiygJBVV95cUxQSGtjakVRcVZFU0lILU9JSUZJY2NEdVQya0VvRVBqNHhabG5xSWowdExuNExVeDhuLW15UUJUQ1lmN2JDc0VNVGlBdkxlNkNGelNXSjJxLXdKWUxBNktCMW9Fb29NVklnMmE3ZlBoam1aYm9mdm1zWWFUamhSenU1YUJvLVk3S0puQUtwOE5qakJRaGNRYWNjbmhfTUktdGEzTU82c1B5dUtEdU1WT01NU19saWIwOTJpWld4dkt1VmFnVDI1clYtaVdQVk9ITXpaS3UzYk0zbl9fOUplOFJFSkk4RG1DbWdfcVAxMkFFV1R1b1hvdGpzOWtrbUphN1lPUkg3dmQ0Q2psYmJpUms0d3NqbHdIU1JnUWdxZTM2WHJYNWxuNEp5ampPLUl4Zm1Id1IxSEkyWXdVcmxndHpya2tOa2huYUlWclHSAcoCQVVfeXFMUEhrY2pFUXFWRVNJSC1PSUlGSWNjRHVUMmtFb0VQajR4WmxucUlqMHRMbjRMVXg4bi1teVFCVENZZjdiQ3NFTVRpQXZMZTZDRnpTV0oycS13SllMQTZLQjFvRW9vTVZJZzJhN2ZQaGptWmJvZnZtc1lhVGpoUnp1NWFCby1ZN0tKbkFLcDhOampCUWhjUWFjY25oX01JLXRhM01PNnNQeXVLRHVNVk9NTVNfbGliMDkyaVpXeHZLdVZhZ1QyNXJWLWlXUFZPSE16Wkt1M2JNM25fXzlKZThSRUpJOERtQ21nX3FQMTJBRVdUdW9Yb3Rqczlra21KYTdZT1JIN3ZkNENqbGJiaVJrNHdzamx3SFNSZ1FncWUzNlhyWDVsbjRKeWpqTy1JeGZtSHdSMUhJMll3VXJsZ3R6cmtrTmtobmFJVnJR?oc=5",
-      "memberCount": 1,
-      "sources": [
-        "tmgm.com",
-        "AFR",
-        "The Sunday Guardian",
-        "Vietnam.vn",
-        "Wccftech"
-      ],
-      "relatedArticles": [
-        "https://news.google.com/rss/articles/CBMiygJBVV95cUxQSGtjakVRcVZFU0lILU9JSUZJY2NEdVQya0VvRVBqNHhabG5xSWowdExuNExVeDhuLW15UUJUQ1lmN2JDc0VNVGlBdkxlNkNGelNXSjJxLXdKWUxBNktCMW9Fb29NVklnMmE3ZlBoam1aYm9mdm1zWWFUamhSenU1YUJvLVk3S0puQUtwOE5qakJRaGNRYWNjbmhfTUktdGEzTU82c1B5dUtEdU1WT01NU19saWIwOTJpWld4dkt1VmFnVDI1clYtaVdQVk9ITXpaS3UzYk0zbl9fOUplOFJFSkk4RG1DbWdfcVAxMkFFV1R1b1hvdGpzOWtrbUphN1lPUkg3dmQ0Q2psYmJpUms0d3NqbHdIU1JnUWdxZTM2WHJYNWxuNEp5ampPLUl4Zm1Id1IxSEkyWXdVcmxndHpya2tOa2huYUlWclHSAcoCQVVfeXFMUEhrY2pFUXFWRVNJSC1PSUlGSWNjRHVUMmtFb0VQajR4WmxucUlqMHRMbjRMVXg4bi1teVFCVENZZjdiQ3NFTVRpQXZMZTZDRnpTV0oycS13SllMQTZLQjFvRW9vTVZJZzJhN2ZQaGptWmJvZnZtc1lhVGpoUnp1NWFCby1ZN0tKbkFLcDhOampCUWhjUWFjY25oX01JLXRhM01PNnNQeXVLRHVNVk9NTVNfbGliMDkyaVpXeHZLdVZhZ1QyNXJWLWlXUFZPSE16Wkt1M2JNM25fXzlKZThSRUpJOERtQ21nX3FQMTJBRVdUdW9Yb3Rqczlra21KYTdZT1JIN3ZkNENqbGJiaVJrNHdzamx3SFNSZ1FncWUzNlhyWDVsbjRKeWpqTy1JeGZtSHdSMUhJMll3VXJsZ3R6cmtrTmtobmFJVnJR?oc=5",
-        "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNFZQZDdtNTJQMktBc3poRHE4cWxBb0s4NUZfSS1oVjlIR083ODdTaUJEX2J2XzNkYkJkYVJGcTd0dVJoYUxNdjNmWWxlSmoyclgybF9kb3FFTG5maDdIaF9RdG1MS2VGRE83TkFYR3ZQOE4xVUlmYkk3MUFPaWZRZjJDOTVCSTBtRlJET0hVUVoxbFpIYUx4Q0x0UnIwa2ZxOGw1ZzUxMnhXMV9OLWo4MDNXTHhWUmVWb3ZhbnVXc0lZbVQ0dGZQdmc5SUVrdENJNXh2VFpjQjZKZnNaNkozZg?oc=5",
-        "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZnlOWkdCQ2V3QVdlUzZ5UUtGRU5hUlN4c29WMzdFNmlISi1aMmJRbnhfekFFYjJJRGtXOXpTSTh4UkN4VndlOEIxUHhfMU5CeUN6ZFNLb2FiN1VMV01ERkpjY052VG01X050WmlNb3hPN0ZzbF9BZkFVVFZOTjlvUUduUFFfbTNQWGs1YUJlTmoyblR0UW5ITE1Ed0JCaXExdGdoRkhORjhPV1dqekxOUUNLUk9XY3JtaU5DOVlGZndtZw?oc=5",
-        "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPRzE0ZEhKVXZqVDE2a0pfT3o0cl9NYTFQcEJnQ0lZaFlKY0pGR0JTbDMwem1sck5RS1d5Q1YxWk9DTDU2UGlpc08ya2tnb0E2cHNkSjdGWkI1cFZEOTNIVWJpeVBvdDZHQlc3ZHE2STBHUXM3WDFDNjVUOTh0YXMwZXgtYnZTZElVNGpWVV93bmswU0dQcnN3RjVSUG55cUNRaTU0Rk9zM1VZcFBMbXB1akpTTWRHTTljTHMxQXlzUldLRUVvbWphOGdBcTBFbVpCUUIxZTdJZHEyOUd0THdQQmhTLTUwQjFi?oc=5",
-        "https://news.google.com/rss/articles/CBMidkFVX3lxTFBNVlRPRDNBdkg4Q1ZSdV8wM0VBZHA1VWs1SzUtWU5UeVQySy1pOHkxWHVCWXpCa242cFJ6NHdGbXdjVGZwV09jel8zX185cmpKX2dscHVCMjBUYldwRkNLN2ttWDl6Z0RjNENid3hTeEd2X2lkcGfSAXZBVV95cUxQTVZUT0QzQXZIOENWUnVfMDNFQWRwNVVrNUs1LVlOVHlUMkstaTh5MVh1Qll6QmtuNnBSejR3Rm13Y1RmcFdPY3pfM19fOXJqSl9nbHB1QjIwVGJXcEZDSzdrbVg5emdEYzRDYnd4U3hHdl9pZHBn?oc=5"
       ]
     },
     {
@@ -85,28 +165,6 @@
       ]
     },
     {
-      "eventId": "evt_1u0ql7t",
-      "canonicalTitle": "谷歌搭载AI芯片测试卫星发射升空",
-      "canonicalLink": "https://www.cls.cn/detail/2497499",
-      "memberCount": 1,
-      "sources": [
-        "财联社"
-      ],
-      "relatedArticles": [
-        "https://www.cls.cn/detail/2497499"
-      ]
-    },
-    {
-      "eventId": "evt_7sf0fo",
-      "canonicalTitle": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
-      "canonicalLink": "",
-      "memberCount": 1,
-      "sources": [
-        "金十数据"
-      ],
-      "relatedArticles": []
-    },
-    {
       "eventId": "evt_35f6lo",
       "canonicalTitle": "药明康德获扎堆推荐 机构看好节后A股反弹",
       "canonicalLink": "http://stock.eastmoney.com/news/1405,202610033888455177.html",
@@ -116,18 +174,6 @@
       ],
       "relatedArticles": [
         "http://stock.eastmoney.com/news/1405,202610033888455177.html"
-      ]
-    },
-    {
-      "eventId": "evt_1bn8bmu",
-      "canonicalTitle": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
-      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html",
-      "memberCount": 1,
-      "sources": [
-        "新浪财经"
-      ],
-      "relatedArticles": [
-        "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html"
       ]
     },
     {
@@ -141,6 +187,11 @@
       ],
       "relatedArticles": [
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4267620.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxwvx3868801.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxwvx3865238.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxwvx3865156.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxsqc0736900.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxspz3961138.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyf4052630.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4169857.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4161351.d.html",
@@ -149,26 +200,43 @@
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkp0926519.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwvkm4153966.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4270923.d.html",
-        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1041340.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwrap4245372.d.html",
-        "https://finance.sina.cn/7x24/2026-10-03/detail-initwrar1004405.d.html",
         "https://finance.sina.cn/7x24/2026-10-03/detail-initwkur4355293.d.html",
-        "LME期铜收涨15美元，报14258美元/吨。LME期铝收跌22美元，报3100美元/吨。LME期锌收跌14美元，报3710美元/吨。",
-        "https://finance.sina.cn/7x24/2026-10-03/detail-initwenv1197033.d.html",
-        "https://finance.sina.cn/7x24/2026-10-03/detail-initwent4413719.d.html",
-        "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4413639.d.html",
-        "https://finance.sina.cn/7x24/2026-10-02/detail-initwent4412982.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwkur4354999.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwkut1124730.d.html",
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initwkur4339966.d.html",
         "https://wallstreetcn.com/articles/3173827",
         "https://wallstreetcn.com/articles/3173821",
-        "https://wallstreetcn.com/articles/3173816",
         "https://wallstreetcn.com/articles/3173806",
         "https://wallstreetcn.com/articles/3173802",
         "https://wallstreetcn.com/articles/3173799",
         "https://wallstreetcn.com/articles/3173791",
-        "https://wallstreetcn.com/articles/3173786",
-        "https://wallstreetcn.com/articles/3173761",
-        "https://wallstreetcn.com/articles/3173755",
-        "https://wallstreetcn.com/articles/3173746"
+        "https://wallstreetcn.com/articles/3173763",
+        "https://wallstreetcn.com/articles/3173761"
+      ]
+    },
+    {
+      "eventId": "evt_1yrkyry",
+      "canonicalTitle": "【截至8月末我国5G基站总数超519万个】工业和信息化部日前发布的数据显示，今年前8个月，我国电信业务总量稳步增长，5G等网络建设和应用不断推进。其中，截至8月末，5G基站总数达519.5万个，占移动基站总数的39.7%。数据显示，截至8月末，三家基础电信企业的固定互联网宽带接入用户总数达7.04亿户，比上年末净增1365万户；三家基础电信企业及中国广电的移动电话用户总数达18.49亿户，其中5G移动电话用户达13.11亿户；三家基础电信企业发展移动物联网终端用户30.7亿户，比上年末净增1.82亿户。移动互联网接入流量保持较快增势。前8个月，移动互联网累计接入流量达2971亿GB，同比增长17.3%。截至8月末，移动互联网用户数达16.38亿户，比上年末净增2858万户。千兆光纤宽带网络建设持续推进。截至8月末，全国互联网宽带接入端口数达12.7亿个，比上年末净增2322万个。其中，光纤接入（FTTH/O）端口达到12.3亿个，比上年末净增2116万个，占互联网宽带接入端口的96.7%。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-03/detail-initxsqc0726973.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxsqc0726973.d.html"
+      ]
+    },
+    {
+      "eventId": "evt_1bn8bmu",
+      "canonicalTitle": "【台积电或与马斯克晶圆厂合作】10 月 3 日，科技媒体人 Tim Culpan（高鸣璨）爆料称，台积电 (TSMC) 正在探索与 Elon Musk（埃隆 · 马斯克）旗下 Terafab 晶圆厂的合作事宜。 Terafab 此前已与 Intel（英特尔）达成合作；近来有风声传出台积电考虑在美国设立第二园区，Terafab 所在的得克萨斯州是最可能的落脚点。",
+      "canonicalLink": "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html",
+      "memberCount": 1,
+      "sources": [
+        "新浪财经"
+      ],
+      "relatedArticles": [
+        "https://finance.sina.cn/7x24/2026-10-03/detail-initxfyi0827657.d.html"
       ]
     },
     {
@@ -222,6 +290,18 @@
       ]
     },
     {
+      "eventId": "evt_1xj2pr2",
+      "canonicalTitle": "马来西亚将于11月起取消部分黄金产品10%的关税",
+      "canonicalLink": "https://wallstreetcn.com/articles/3173880",
+      "memberCount": 1,
+      "sources": [
+        "华尔街见闻"
+      ],
+      "relatedArticles": [
+        "https://wallstreetcn.com/articles/3173880"
+      ]
+    },
+    {
       "eventId": "evt_123ctgt",
       "canonicalTitle": "重燃对AI云业务信心，野村上调阿里巴巴净利预估",
       "canonicalLink": "https://wallstreetcn.com/articles/3173783",
@@ -244,6 +324,16 @@
       "relatedArticles": [
         "https://wallstreetcn.com/articles/3173814"
       ]
+    },
+    {
+      "eventId": "evt_7sf0fo",
+      "canonicalTitle": "【据悉台积电或与马斯克Terafab晶圆厂合作】",
+      "canonicalLink": "",
+      "memberCount": 1,
+      "sources": [
+        "金十数据"
+      ],
+      "relatedArticles": []
     },
     {
       "eventId": "evt_1rh8cp8",
