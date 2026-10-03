@@ -2577,15 +2577,15 @@
       "date": "20261003",
       "displayDate": "2026-10-03",
       "isAi": true,
-      "newsCount": 23,
+      "newsCount": 33,
       "sectorCount": 4,
       "missingSectors": [],
       "covered": true,
       "impact": {
         "vhigh": 2,
-        "high": 5
+        "high": 8
       },
-      "signalHitRate": 26,
+      "signalHitRate": 27,
       "directions": {
         "利好": 1,
         "利空": 1,
